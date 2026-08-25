@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>오늘의 경제 브리핑</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<style>
+  :root {
+    --bg: #f2f4f6;
+    --surface: #ffffff;
+    --text-primary: #191f28;
+    --text-secondary: #4e5968;
+    --text-tertiary: #8b95a1;
+    --accent: #3182f6;
+    --accent-soft: #eaf2ff;
+    --border: #e5e8eb;
+    --high: #f04452;
+    --medium: #ff9500;
+    --low: #8b95a1;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d0f12;
+      --surface: #191c1f;
+      --text-primary: #f2f4f6;
+      --text-secondary: #b0b8c1;
+      --text-tertiary: #6b7684;
+      --accent: #5a9dff;
+      --accent-soft: #16233a;
+      --border: #2a2e33;
+      --shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+      "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+
+  header.page-header {
+    margin-bottom: 28px;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 6px 12px;
+    border-radius: 999px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 14px 0 6px;
+  }
+
+  .updated-at {
+    font-size: 14px;
+    color: var(--text-tertiary);
+  }
+
+  section {
+    margin-top: 36px;
+  }
+
+  h2.section-title {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 0 14px;
+    letter-spacing: -0.01em;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .news-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.15s ease;
+  }
+
+  .news-card:hover { transform: translateY(-2px); }
+
+  .source-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 3px 9px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+
+  .news-headline {
+    font-size: 16.5px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+
+  .news-summary {
+    font-size: 14.5px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 10px;
+  }
+
+  .news-link {
+    font-size: 13px;
+    color: var(--text-tertiary);
+    font-weight: 600;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .event-card {
+    display: flex;
+    gap: 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 20px;
+    box-shadow: var(--shadow);
+  }
+
+  .event-date {
+    flex: 0 0 64px;
+    text-align: center;
+  }
+
+  .event-date .month {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    font-weight: 600;
+  }
+
+  .event-date .day {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text-primary);
+  }
+
+  .event-body { flex: 1; }
+
+  .event-title {
+    font-size: 15.5px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .importance-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .importance-high .importance-dot { background: var(--high); }
+  .importance-medium .importance-dot { background: var(--medium); }
+  .importance-low .importance-dot { background: var(--low); }
+
+  .event-desc {
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--text-tertiary);
+    line-height: 1.7;
+  }
+
+  .empty-state {
+    color: var(--text-tertiary);
+    font-size: 14px;
+    padding: 24px;
+    text-align: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="page-header">
+      <span class="eyebrow">📈 매일 아침 자동 업데이트</span>
+      <h1>오늘의 경제 브리핑</h1>
+      <div class="updated-at" id="updated-at">업데이트 시각 불러오는 중...</div>
+    </header>
+
+    <section>
+      <h2 class="section-title">오늘의 주요 경제 뉴스</h2>
+      <div class="news-grid" id="news-grid"></div>
+    </section>
+
+    <section>
+      <h2 class="section-title">곧 있을 경제 이벤트</h2>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <footer>
+      뉴스 출처: Finnhub(글로벌 통신사·경제지 기사 종합) · 이벤트 일정 출처: FRED(세인트루이스 연은), 연방준비제도(FOMC)<br />
+      본 페이지는 GitHub Actions를 통해 매일 자동 갱신됩니다. 투자 판단의 근거로 사용하지 마세요.
+    </footer>
+  </div>
+
+  <script>
+    const KST_FORMATTER = new Intl.DateTimeFormat("ko-KR", {
+      timeZone: "Asia/Seoul",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    });
+
+    function formatKST(isoString) {
+      return KST_FORMATTER.format(new Date(isoString)) + " (KST)";
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement("div");
+      div.textContent = str ?? "";
+      return div.innerHTML;
+    }
+
+    function renderNews(news) {
+      const grid = document.getElementById("news-grid");
+      if (!news || news.length === 0) {
+        grid.innerHTML = '<div class="empty-state">표시할 뉴스가 없습니다.</div>';
+        return;
+      }
+      grid.innerHTML = news
+        .map(
+          (item) => `
+        <a class="news-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+          <span class="source-badge">${escapeHtml(item.source)}</span>
+          <p class="news-headline">${escapeHtml(item.headline)}</p>
+          <p class="news-summary">${escapeHtml(item.summary)}</p>
+          <span class="news-link">원문 보기 →</span>
+        </a>`
+        )
+        .join("");
+    }
+
+    function renderCalendar(calendar) {
+      const timeline = document.getElementById("timeline");
+      if (!calendar || calendar.length === 0) {
+        timeline.innerHTML = '<div class="empty-state">예정된 이벤트가 없습니다.</div>';
+        return;
+      }
+      timeline.innerHTML = calendar
+        .map((event) => {
+          const d = new Date(event.date + "T00:00:00Z");
+          const month = d.toLocaleString("ko-KR", { month: "short", timeZone: "UTC" });
+          const day = d.toLocaleString("ko-KR", { day: "numeric", timeZone: "UTC" });
+          return `
+        <div class="event-card">
+          <div class="event-date">
+            <div class="month">${escapeHtml(month)}</div>
+            <div class="day">${escapeHtml(day)}</div>
+          </div>
+          <div class="event-body">
+            <p class="event-title importance-${escapeHtml(event.importance)}">
+              <span class="importance-dot"></span>${escapeHtml(event.title)}
+            </p>
+            <p class="event-desc">${escapeHtml(event.description)}</p>
+          </div>
+        </div>`;
+        })
+        .join("");
+    }
+
+    async function main() {
+      try {
+        const res = await fetch("data/latest.json", { cache: "no-store" });
+        const data = await res.json();
+        document.getElementById("updated-at").textContent =
+          "마지막 업데이트: " + formatKST(data.generated_at);
+        renderNews(data.news);
+        renderCalendar(data.calendar);
+      } catch (err) {
+        document.getElementById("updated-at").textContent = "데이터를 불러오지 못했습니다.";
+        console.error(err);
+      }
+    }
+
+    main();
+  </script>
+</body>
+</html>
