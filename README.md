@@ -5,7 +5,7 @@
 ## 동작 방식
 
 1. GitHub Actions(`.github/workflows/update-data.yml`)가 매일 UTC 22:00(KST 07:00)에 `scripts/fetch-data.mjs`를 실행합니다.
-2. 이 스크립트가 [Finnhub](https://finnhub.io) 뉴스 API와 [FRED](https://fred.stlouisfed.org)(세인트루이스 연은) 발표 일정 API를 호출해 `data/latest.json`을 갱신하고 커밋/푸시합니다.
+2. 이 스크립트가 [Finnhub](https://finnhub.io)(뉴스+주식 시세), [CoinGecko](https://www.coingecko.com)(코인 시세), [FRED](https://fred.stlouisfed.org)(세인트루이스 연은, 발표 일정) API를 호출하고, [Claude API](https://console.anthropic.com)로 오늘의 급등락 종목/코인에 대한 한글 인사이트를 생성하고 뉴스를 한글로 번역해 `data/latest.json`을 갱신·커밋/푸시합니다.
 3. `index.html`은 정적 페이지로, 로드 시 `data/latest.json`을 fetch해 렌더링합니다. 빌드 과정이 없어 GitHub Pages에 그대로 배포됩니다.
 
 ## 최초 설정
@@ -13,12 +13,14 @@
 ### 1. API 키 발급
 - Finnhub: https://finnhub.io/register → 가입 후 대시보드에서 API 키 확인
 - FRED: https://fred.stlouisfed.org/docs/api/api_key.html → 가입 후 API 키 신청 (보통 즉시 발급)
+- Anthropic(Claude API): https://console.anthropic.com → API 키 발급 (claude.ai 구독과는 별개의 종량제 API 계정입니다. Haiku 모델 기준 1회 실행당 비용은 매우 저렴합니다)
 
 ### 2. GitHub Secrets 등록
 저장소 루트에서:
 ```
 gh secret set FINNHUB_API_KEY
 gh secret set FRED_API_KEY
+gh secret set ANTHROPIC_API_KEY
 ```
 (붙여넣기 프롬프트가 뜨면 발급받은 키 값을 입력하세요. 키는 절대 코드/커밋에 넣지 마세요.)
 

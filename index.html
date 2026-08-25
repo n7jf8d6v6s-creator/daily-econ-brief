@@ -5,34 +5,49 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>오늘의 경제 브리핑</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" />
 <style>
   :root {
-    --bg: #f2f4f6;
-    --surface: #ffffff;
-    --text-primary: #191f28;
-    --text-secondary: #4e5968;
-    --text-tertiary: #8b95a1;
-    --accent: #3182f6;
-    --accent-soft: #eaf2ff;
-    --border: #e5e8eb;
-    --high: #f04452;
-    --medium: #ff9500;
-    --low: #8b95a1;
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    --bg: #0b0e11;
+    --surface: #181a20;
+    --surface-alt: #1e2329;
+    --text-primary: #eaecef;
+    --text-secondary: #b7bdc6;
+    --text-tertiary: #848e9c;
+    --accent: #f0b90b;
+    --accent-soft: rgba(240, 185, 11, 0.12);
+    --up: #0ecb81;
+    --up-soft: rgba(14, 203, 129, 0.12);
+    --down: #f6465d;
+    --down-soft: rgba(246, 70, 93, 0.12);
+    --high: #f6465d;
+    --medium: #f0b90b;
+    --low: #848e9c;
+    --border: #2b3139;
+    --shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
   }
 
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: light) {
     :root {
-      --bg: #0d0f12;
-      --surface: #191c1f;
-      --text-primary: #f2f4f6;
-      --text-secondary: #b0b8c1;
-      --text-tertiary: #6b7684;
-      --accent: #5a9dff;
-      --accent-soft: #16233a;
-      --border: #2a2e33;
-      --shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+      --bg: #f5f5f5;
+      --surface: #ffffff;
+      --surface-alt: #f0f0f0;
+      --text-primary: #1e2329;
+      --text-secondary: #474d57;
+      --text-tertiary: #76808f;
+      --accent: #b8860b;
+      --accent-soft: rgba(184, 134, 11, 0.1);
+      --up: #0a9a63;
+      --up-soft: rgba(10, 154, 99, 0.1);
+      --down: #d63652;
+      --down-soft: rgba(214, 54, 82, 0.1);
+      --high: #d63652;
+      --medium: #b8860b;
+      --low: #76808f;
+      --border: #e6e8ea;
+      --shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
     }
   }
 
@@ -42,13 +57,12 @@
     margin: 0;
     background: var(--bg);
     color: var(--text-primary);
-    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
-      "Segoe UI", Roboto, sans-serif;
+    font-family: "Nanum Myeongjo", "Noto Serif KR", "Batang", serif;
     -webkit-font-smoothing: antialiased;
   }
 
   .wrap {
-    max-width: 720px;
+    max-width: 860px;
     margin: 0 auto;
     padding: 32px 20px 80px;
   }
@@ -62,17 +76,18 @@
     align-items: center;
     gap: 6px;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--accent);
     background: var(--accent-soft);
     padding: 6px 12px;
-    border-radius: 999px;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 800;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
     margin: 14px 0 6px;
   }
 
@@ -82,16 +97,111 @@
   }
 
   section {
-    margin-top: 36px;
+    margin-top: 40px;
   }
 
   h2.section-title {
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
     margin: 0 0 14px;
     letter-spacing: -0.01em;
+    color: var(--text-primary);
   }
 
+  .section-sub {
+    font-size: 13px;
+    color: var(--text-tertiary);
+    margin: -8px 0 14px;
+  }
+
+  /* 시세 티커 */
+  .ticker-scroll {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    margin: 0 -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ticker-card {
+    flex: 0 0 auto;
+    min-width: 132px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+
+  .ticker-symbol {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .ticker-name {
+    font-size: 11px;
+    color: var(--text-tertiary);
+    margin: 1px 0 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ticker-price {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .ticker-change {
+    font-size: 12.5px;
+    font-weight: 700;
+    margin-top: 3px;
+  }
+
+  .ticker-change.up { color: var(--up); }
+  .ticker-change.down { color: var(--down); }
+
+  .ticker-group-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-tertiary);
+    margin: 18px 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  /* AI 인사이트 */
+  .insight-card {
+    background: var(--surface);
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    padding: 22px 24px;
+    box-shadow: var(--shadow);
+  }
+
+  .insight-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 12px;
+    letter-spacing: 0.02em;
+  }
+
+  .insight-text {
+    font-size: 16px;
+    line-height: 1.85;
+    color: var(--text-primary);
+    margin: 0;
+    white-space: pre-line;
+  }
+
+  /* 뉴스 */
   .news-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -101,16 +211,16 @@
   .news-card {
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 16px;
+    border-radius: 10px;
     padding: 20px;
     box-shadow: var(--shadow);
     text-decoration: none;
     color: inherit;
     display: block;
-    transition: transform 0.15s ease;
+    transition: border-color 0.15s ease;
   }
 
-  .news-card:hover { transform: translateY(-2px); }
+  .news-card:hover { border-color: var(--accent); }
 
   .source-badge {
     display: inline-block;
@@ -119,14 +229,14 @@
     color: var(--accent);
     background: var(--accent-soft);
     padding: 3px 9px;
-    border-radius: 6px;
+    border-radius: 4px;
     margin-bottom: 10px;
   }
 
   .news-headline {
-    font-size: 16.5px;
+    font-size: 17px;
     font-weight: 700;
-    line-height: 1.4;
+    line-height: 1.5;
     margin: 0 0 8px;
     letter-spacing: -0.01em;
   }
@@ -134,16 +244,17 @@
   .news-summary {
     font-size: 14.5px;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 0 0 10px;
   }
 
   .news-link {
     font-size: 13px;
     color: var(--text-tertiary);
-    font-weight: 600;
+    font-weight: 700;
   }
 
+  /* 일정 */
   .timeline {
     display: flex;
     flex-direction: column;
@@ -155,7 +266,7 @@
     gap: 16px;
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 16px;
+    border-radius: 10px;
     padding: 18px 20px;
     box-shadow: var(--shadow);
   }
@@ -168,7 +279,7 @@
   .event-date .month {
     font-size: 12px;
     color: var(--text-tertiary);
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .event-date .day {
@@ -180,7 +291,7 @@
   .event-body { flex: 1; }
 
   .event-title {
-    font-size: 15.5px;
+    font-size: 16px;
     font-weight: 700;
     margin: 0 0 4px;
     display: flex;
@@ -200,9 +311,9 @@
   .importance-low .importance-dot { background: var(--low); }
 
   .event-desc {
-    font-size: 13.5px;
+    font-size: 14px;
     color: var(--text-secondary);
-    line-height: 1.5;
+    line-height: 1.6;
     margin: 0;
   }
 
@@ -212,7 +323,7 @@
     border-top: 1px solid var(--border);
     font-size: 12.5px;
     color: var(--text-tertiary);
-    line-height: 1.7;
+    line-height: 1.8;
   }
 
   .empty-state {
@@ -222,7 +333,7 @@
     text-align: center;
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 16px;
+    border-radius: 10px;
   }
 </style>
 </head>
@@ -235,6 +346,20 @@
     </header>
 
     <section>
+      <h2 class="section-title">시세 현황</h2>
+      <div class="section-sub">Finnhub · CoinGecko 실시간 시세 기준</div>
+      <div id="ticker-groups"></div>
+    </section>
+
+    <section>
+      <h2 class="section-title">AI 마켓 인사이트</h2>
+      <div class="insight-card">
+        <div class="insight-label">🤖 Claude 분석 · 오늘의 급등락 브리핑</div>
+        <p class="insight-text" id="insight-text">인사이트를 불러오는 중...</p>
+      </div>
+    </section>
+
+    <section>
       <h2 class="section-title">오늘의 주요 경제 뉴스</h2>
       <div class="news-grid" id="news-grid"></div>
     </section>
@@ -245,8 +370,8 @@
     </section>
 
     <footer>
-      뉴스 출처: Finnhub(글로벌 통신사·경제지 기사 종합) · 이벤트 일정 출처: FRED(세인트루이스 연은), 연방준비제도(FOMC)<br />
-      본 페이지는 GitHub Actions를 통해 매일 자동 갱신됩니다. 투자 판단의 근거로 사용하지 마세요.
+      뉴스 출처: Finnhub(글로벌 통신사·경제지 기사 종합, 한글 번역: Claude) · 시세 출처: Finnhub(주식), CoinGecko(코인) · 이벤트 일정 출처: FRED(세인트루이스 연은), 연방준비제도(FOMC)<br />
+      AI 인사이트는 참고용 해석이며 투자 판단의 근거로 사용하지 마세요. 본 페이지는 GitHub Actions를 통해 매일 자동 갱신됩니다.
     </footer>
   </div>
 
@@ -271,6 +396,54 @@
       return div.innerHTML;
     }
 
+    function formatPrice(price) {
+      if (price == null) return "-";
+      const decimals = price < 1 ? 4 : price < 100 ? 2 : 2;
+      return "$" + price.toLocaleString("en-US", {
+        minimumFractionDigits: decimals,
+        maximumFractionDigits: decimals,
+      });
+    }
+
+    function formatChange(pct) {
+      if (pct == null) return "-";
+      const sign = pct > 0 ? "+" : "";
+      const arrow = pct > 0 ? "▲" : pct < 0 ? "▼" : "•";
+      return `${arrow} ${sign}${pct.toFixed(2)}%`;
+    }
+
+    function renderTickerGroup(label, items) {
+      if (!items || items.length === 0) return "";
+      const cards = items
+        .map((item) => {
+          const dir = item.change_pct > 0 ? "up" : item.change_pct < 0 ? "down" : "";
+          return `
+        <div class="ticker-card">
+          <div class="ticker-symbol">${escapeHtml(item.symbol)}</div>
+          <div class="ticker-name">${escapeHtml(item.name)}</div>
+          <div class="ticker-price">${formatPrice(item.price)}</div>
+          <div class="ticker-change ${dir}">${formatChange(item.change_pct)}</div>
+        </div>`;
+        })
+        .join("");
+      return `<div class="ticker-group-label">${escapeHtml(label)}</div><div class="ticker-scroll">${cards}</div>`;
+    }
+
+    function renderMarket(market) {
+      const el = document.getElementById("ticker-groups");
+      if (!market || (!market.stocks?.length && !market.crypto?.length)) {
+        el.innerHTML = '<div class="empty-state">시세 데이터가 없습니다.</div>';
+        return;
+      }
+      el.innerHTML =
+        renderTickerGroup("주식", market.stocks) + renderTickerGroup("코인", market.crypto);
+    }
+
+    function renderInsight(insightKo) {
+      const el = document.getElementById("insight-text");
+      el.textContent = insightKo || "오늘의 인사이트가 아직 없습니다.";
+    }
+
     function renderNews(news) {
       const grid = document.getElementById("news-grid");
       if (!news || news.length === 0) {
@@ -282,8 +455,8 @@
           (item) => `
         <a class="news-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
           <span class="source-badge">${escapeHtml(item.source)}</span>
-          <p class="news-headline">${escapeHtml(item.headline)}</p>
-          <p class="news-summary">${escapeHtml(item.summary)}</p>
+          <p class="news-headline">${escapeHtml(item.headline_ko || item.headline)}</p>
+          <p class="news-summary">${escapeHtml(item.summary_ko || item.summary)}</p>
           <span class="news-link">원문 보기 →</span>
         </a>`
         )
@@ -324,6 +497,8 @@
         const data = await res.json();
         document.getElementById("updated-at").textContent =
           "마지막 업데이트: " + formatKST(data.generated_at);
+        renderMarket(data.market);
+        renderInsight(data.insight_ko);
         renderNews(data.news);
         renderCalendar(data.calendar);
       } catch (err) {

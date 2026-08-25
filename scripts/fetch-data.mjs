@@ -1,12 +1,16 @@
 // 매일 GitHub Actions에서 실행되어 data/latest.json을 갱신하는 스크립트.
-// Finnhub(뉴스) + FRED(발표 일정) API를 호출하고, FOMC 일정은 연준이 연초에 미리
-// 공개하는 공식 캘린더를 사용해 하드코딩한다 (연 1회 갱신 필요).
+// Finnhub(뉴스+주식 시세) + CoinGecko(코인 시세) + FRED(발표 일정) API를 호출하고,
+// Claude API로 시황 인사이트 생성 및 뉴스 한글 번역까지 수행한다.
+// FOMC 일정은 연준이 연초에 미리 공개하는 공식 캘린더를 사용해 하드코딩한다 (연 1회 갱신 필요).
 
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
 const FRED_API_KEY = process.env.FRED_API_KEY;
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
-if (!FINNHUB_API_KEY || !FRED_API_KEY) {
-  console.error("FINNHUB_API_KEY / FRED_API_KEY 환경변수가 필요합니다.");
+if (!FINNHUB_API_KEY || !FRED_API_KEY || !ANTHROPIC_API_KEY) {
+  console.error(
+    "FINNHUB_API_KEY / FRED_API_KEY / ANTHROPIC_API_KEY 환경변수가 모두 필요합니다."
+  );
   process.exit(1);
 }
 
@@ -33,6 +37,19 @@ const FRED_RELEASES = [
   { id: 54, title: "개인소득 및 지출(PCE 물가지수) 발표" },
 ];
 
+// 주식 워치리스트 (미 빅테크 + 주요 지수 ETF).
+const STOCK_WATCHLIST = [
+  { symbol: "AAPL", name: "애플" },
+  { symbol: "MSFT", name: "마이크로소프트" },
+  { symbol: "NVDA", name: "엔비디아" },
+  { symbol: "TSLA", name: "테슬라" },
+  { symbol: "AMZN", name: "아마존" },
+  { symbol: "GOOGL", name: "알파벳(구글)" },
+  { symbol: "META", name: "메타" },
+  { symbol: "SPY", name: "S&P 500 ETF" },
+  { symbol: "QQQ", name: "나스닥100 ETF" },
+];
+
 function todayISO() {
   return new Date().toISOString().slice(0, 10);
 }
@@ -46,7 +63,7 @@ function addDaysISO(days) {
 async function fetchNews() {
   const url = `https://finnhub.io/api/v1/news?category=general&token=${FINNHUB_API_KEY}`;
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`Finnhub 호출 실패: ${res.status}`);
+  if (!res.ok) throw new Error(`Finnhub 뉴스 호출 실패: ${res.status}`);
   const items = await res.json();
 
   return items
@@ -60,6 +77,59 @@ async function fetchNews() {
       url: item.url,
       published_at: new Date(item.datetime * 1000).toISOString(),
     }));
+}
+
+async function fetchStockQuotes() {
+  const quotes = [];
+  for (const stock of STOCK_WATCHLIST) {
+    const url = `https://finnhub.io/api/v1/quote?symbol=${stock.symbol}&token=${FINNHUB_API_KEY}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Finnhub 시세 호출 실패 (${stock.symbol}): ${res.status}`);
+    const q = await res.json();
+    quotes.push({
+      symbol: stock.symbol,
+      name: stock.name,
+      price: q.c,
+      change_pct: q.dp,
+    });
+  }
+  return quotes;
+}
+
+async function fetchCryptoMovers() {
+  const params = new URLSearchParams({
+    vs_currency: "usd",
+    order: "market_cap_desc",
+    per_page: "20",
+    page: "1",
+    price_change_percentage: "24h",
+    sparkline: "false",
+  });
+  const url = `https://api.coingecko.com/api/v3/coins/markets?${params}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`CoinGecko 호출 실패: ${res.status}`);
+  const coins = await res.json();
+
+  const mapped = coins.map((c) => ({
+    symbol: c.symbol.toUpperCase(),
+    name: c.name,
+    price: c.current_price,
+    change_pct: c.price_change_percentage_24h,
+  }));
+
+  const pinned = mapped.filter((c) => c.symbol === "BTC" || c.symbol === "ETH");
+  const rest = mapped.filter((c) => c.symbol !== "BTC" && c.symbol !== "ETH");
+  const gainers = [...rest].sort((a, b) => b.change_pct - a.change_pct).slice(0, 4);
+  const losers = [...rest].sort((a, b) => a.change_pct - b.change_pct).slice(0, 4);
+
+  const seen = new Set();
+  const combined = [];
+  for (const coin of [...pinned, ...gainers, ...losers]) {
+    if (seen.has(coin.symbol)) continue;
+    seen.add(coin.symbol);
+    combined.push(coin);
+  }
+  return combined;
 }
 
 async function fetchFredNextDate(releaseId) {
@@ -114,12 +184,75 @@ async function buildCalendar() {
   return calendar;
 }
 
+function extractJson(text) {
+  const start = text.indexOf("{");
+  const end = text.lastIndexOf("}");
+  if (start === -1 || end === -1) throw new Error("Claude 응답에서 JSON을 찾지 못했습니다.");
+  return JSON.parse(text.slice(start, end + 1));
+}
+
+async function generateInsightAndTranslation(market, news) {
+  const prompt = `당신은 한국어로 글을 쓰는 경제/시장 애널리스트입니다. 아래 오늘의 주식·코인 시세 데이터와 영어 뉴스 목록을 참고해서 두 가지를 작성하세요.
+
+1. insight_ko: 오늘 시장에서 눈에 띄게 급등하거나 급락한 종목/코인을 2~4개 짚어 그 배경을 뉴스 내용과 연결지어 설명하는 한국어 문단(5~8문장). 확정적 인과관계 단정은 피하고 "~로 해석된다", "~영향으로 보인다"처럼 서술하세요. 마지막 문장은 반드시 이 내용이 투자 조언이 아니라는 안내로 끝내세요.
+2. news_ko: 아래 news 배열과 정확히 같은 순서, 같은 개수로 각 기사의 headline_ko(자연스러운 한국어 헤드라인)와 summary_ko(한국어 요약)를 작성하세요. 원문의 사실관계를 왜곡하지 마세요.
+
+다른 설명 없이 아래 JSON 스키마로만 응답하세요:
+{"insight_ko": "string", "news_ko": [{"headline_ko": "string", "summary_ko": "string"}]}
+
+시세 데이터(JSON):
+${JSON.stringify(market)}
+
+뉴스 목록(JSON):
+${JSON.stringify(news.map((n) => ({ headline: n.headline, summary: n.summary })))}`;
+
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      "x-api-key": ANTHROPIC_API_KEY,
+      "anthropic-version": "2023-06-01",
+    },
+    body: JSON.stringify({
+      model: "claude-haiku-4-5-20251001",
+      max_tokens: 2000,
+      temperature: 0.3,
+      messages: [{ role: "user", content: prompt }],
+    }),
+  });
+
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`Claude API 호출 실패: ${res.status} ${body}`);
+  }
+
+  const data = await res.json();
+  const text = data.content.map((block) => block.text || "").join("");
+  return extractJson(text);
+}
+
 async function main() {
-  const [news, calendar] = await Promise.all([fetchNews(), buildCalendar()]);
+  const [news, calendar, stocks, crypto] = await Promise.all([
+    fetchNews(),
+    buildCalendar(),
+    fetchStockQuotes(),
+    fetchCryptoMovers(),
+  ]);
+
+  const market = { stocks, crypto };
+  const { insight_ko, news_ko } = await generateInsightAndTranslation(market, news);
+
+  const translatedNews = news.map((item, i) => ({
+    ...item,
+    headline_ko: news_ko[i]?.headline_ko ?? item.headline,
+    summary_ko: news_ko[i]?.summary_ko ?? item.summary,
+  }));
 
   const output = {
     generated_at: new Date().toISOString(),
-    news,
+    market,
+    insight_ko,
+    news: translatedNews,
     calendar,
   };
 
@@ -129,7 +262,9 @@ async function main() {
     JSON.stringify(output, null, 2) + "\n"
   );
 
-  console.log(`data/latest.json 갱신 완료: 뉴스 ${news.length}건, 이벤트 ${calendar.length}건`);
+  console.log(
+    `data/latest.json 갱신 완료: 주식 ${stocks.length}종목, 코인 ${crypto.length}종목, 뉴스 ${translatedNews.length}건, 이벤트 ${calendar.length}건`
+  );
 }
 
 main().catch((err) => {
