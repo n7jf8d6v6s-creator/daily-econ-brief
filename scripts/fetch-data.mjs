@@ -194,7 +194,7 @@ function extractJson(text) {
 async function generateInsightAndTranslation(market, news) {
   const prompt = `당신은 한국어로 글을 쓰는 경제/시장 애널리스트입니다. 아래 오늘의 주식·코인 시세 데이터와 영어 뉴스 목록을 참고해서 세 가지를 작성하세요.
 
-1. insight_ko: 오늘 시장에서 눈에 띄게 급등하거나 급락한 종목/코인을 2~4개 짚어 그 배경을 뉴스 내용과 연결지어 설명하는 한국어 문단(5~8문장). 확정적 인과관계 단정은 피하고 "~로 해석된다", "~영향으로 보인다"처럼 서술하세요. 마지막 문장은 반드시 이 내용이 투자 조언이 아니라는 안내로 끝내세요.
+1. insight_ko: 오늘 시장에서 눈에 띄게 급등하거나 급락한 종목/코인을 2~4개 짚어 그 배경을 뉴스 내용과 연결지어 설명하되, 가독성을 위해 **문자열 배열**로 2~4개 문단을 나눠 작성하세요 (각 문단 2~3문장). 예: 1문단은 오늘 시장 전반 요약, 2문단은 상승세를 보인 종목/코인과 이유, 3문단은 하락세를 보인 종목/코인과 이유. 확정적 인과관계 단정은 피하고 "~로 해석된다", "~영향으로 보인다"처럼 서술하세요. 마지막 문단의 마지막 문장은 반드시 이 내용이 투자 조언이 아니라는 안내로 끝내세요.
 2. insight_movers: insight_ko 문단에서 실제로 언급한 종목/코인만, 언급한 개수만큼 뽑아서 symbol(입력 시세 데이터의 symbol과 정확히 동일한 문자열)과 reason_ko(그 종목이 왜 언급됐는지 8~16자 내외의 짧은 한 줄 태그, 예: "AI 반도체 수요 기대")를 작성하세요.
 3. news_ko: 아래 news 배열과 정확히 같은 순서, 같은 개수로 각 기사마다 네 가지를 작성하세요. 원문의 사실관계를 왜곡하지 마세요.
    - headline_ko: 자연스러운 한국어 헤드라인
@@ -203,7 +203,7 @@ async function generateInsightAndTranslation(market, news) {
    - impact_ko: 이 뉴스가 시장이나 경제에 미칠 수 있는 예상 파급효과(2~4문장). "~할 가능성이 있다", "~로 이어질 수 있다"처럼 완곡하게 서술하고 확정적 예측은 피하세요.
 
 다른 설명 없이 아래 JSON 스키마로만 응답하세요:
-{"insight_ko": "string", "insight_movers": [{"symbol": "string", "reason_ko": "string"}], "news_ko": [{"headline_ko": "string", "summary_ko": "string", "detail_ko": "string", "impact_ko": "string"}]}
+{"insight_ko": ["string", "string"], "insight_movers": [{"symbol": "string", "reason_ko": "string"}], "news_ko": [{"headline_ko": "string", "summary_ko": "string", "detail_ko": "string", "impact_ko": "string"}]}
 
 시세 데이터(JSON):
 ${JSON.stringify(market)}
@@ -276,7 +276,7 @@ async function main() {
     generated_at: new Date().toISOString(),
     market,
     insight: {
-      text_ko: insight_ko,
+      paragraphs_ko: Array.isArray(insight_ko) ? insight_ko : [insight_ko],
       movers: resolvedMovers,
     },
     news: translatedNews,

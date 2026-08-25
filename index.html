@@ -222,12 +222,15 @@
     letter-spacing: 0.02em;
   }
 
-  .insight-text {
+  .insight-text p {
     font-size: 16px;
     line-height: 1.85;
     color: var(--text-primary);
-    margin: 0;
-    white-space: pre-line;
+    margin: 0 0 16px;
+  }
+
+  .insight-text p:last-child {
+    margin-bottom: 0;
   }
 
   .movers-label {
@@ -517,7 +520,9 @@
       <div class="section-sub">오늘 시세를 움직인 종목/코인을 Claude가 짚어드립니다</div>
       <div class="insight-card">
         <div class="insight-label">🤖 Claude 분석 · 오늘의 급등락 브리핑</div>
-        <p class="insight-text" id="insight-text">인사이트를 불러오는 중...</p>
+        <div class="insight-text" id="insight-text">
+          <p>인사이트를 불러오는 중...</p>
+        </div>
       </div>
       <div class="movers-label" id="movers-label" style="display:none">언급된 종목/코인</div>
       <div class="movers-grid" id="movers-grid"></div>
@@ -616,7 +621,12 @@
       const moversGrid = document.getElementById("movers-grid");
       const moversLabel = document.getElementById("movers-label");
 
-      textEl.textContent = insight?.text_ko || "오늘의 인사이트가 아직 없습니다.";
+      const paragraphs = insight?.paragraphs_ko;
+      if (Array.isArray(paragraphs) && paragraphs.length > 0) {
+        textEl.innerHTML = paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join("");
+      } else {
+        textEl.innerHTML = "<p>오늘의 인사이트가 아직 없습니다.</p>";
+      }
 
       const movers = insight?.movers || [];
       if (movers.length === 0) {
