@@ -309,13 +309,7 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: var(--shadow);
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    transition: border-color 0.15s ease;
   }
-
-  .news-card:hover { border-color: var(--accent); }
 
   .source-badge {
     display: inline-block;
@@ -343,11 +337,31 @@
     margin: 0 0 10px;
   }
 
+  .news-source-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+
+  .news-source-label {
+    font-size: 13px;
+    color: var(--text-tertiary);
+  }
+
   .news-link {
     font-size: 13px;
     color: var(--text-tertiary);
     font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.15s ease;
   }
+
+  .news-link:hover { color: var(--accent); }
 
   /* 일정 */
   .timeline {
@@ -587,12 +601,15 @@
       grid.innerHTML = news
         .map(
           (item) => `
-        <a class="news-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+        <div class="news-card">
           <span class="source-badge">${escapeHtml(item.source)}</span>
           <p class="news-headline">${escapeHtml(item.headline_ko || item.headline)}</p>
           <p class="news-summary">${escapeHtml(item.summary_ko || item.summary)}</p>
-          <span class="news-link">원문 보기 →</span>
-        </a>`
+          <div class="news-source-line">
+            <span class="news-source-label">출처: ${escapeHtml(item.source)}</span>
+            <a class="news-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">원문 보기 →</a>
+          </div>
+        </div>`
         )
         .join("");
     }
