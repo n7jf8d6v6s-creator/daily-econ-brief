@@ -1,126 +1,162 @@
 {
-  "generated_at": "2026-08-25T14:53:49.033Z",
+  "generated_at": "2026-08-25T15:01:14.489Z",
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 309.46,
-        "change_pct": -0.2836
+        "price": 309.14,
+        "change_pct": -0.3867
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 488.92,
-        "change_pct": 0.3304
+        "price": 489.3,
+        "change_pct": 0.4084
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 211.82,
-        "change_pct": 1.6021
+        "price": 211.07,
+        "change_pct": 1.2423
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 350.89,
-        "change_pct": 0.556
+        "price": 351.04,
+        "change_pct": 0.5989
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 260.77,
-        "change_pct": -0.4961
+        "price": 260.93,
+        "change_pct": -0.435
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 346.96,
-        "change_pct": -0.316
+        "price": 346.2,
+        "change_pct": -0.5344
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 565.36,
-        "change_pct": 1.1341
+        "price": 564.09,
+        "change_pct": 0.9069
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 764.64,
-        "change_pct": 0.1532
+        "price": 764.76,
+        "change_pct": 0.169
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 710.06,
-        "change_pct": 0.5295
+        "price": 709.73,
+        "change_pct": 0.4828
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 79257,
-        "change_pct": -0.24468
+        "price": 79222,
+        "change_pct": -0.29747
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2477.29,
-        "change_pct": -1.40918
+        "price": 2476.02,
+        "change_pct": -1.54537
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 445.49,
-        "change_pct": 5.56197
+        "price": 447.46,
+        "change_pct": 6.17733
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 98.2,
-        "change_pct": 2.25673
+        "price": 98.15,
+        "change_pct": 2.18752
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 80.95,
-        "change_pct": 1.63657
+        "price": 80.9,
+        "change_pct": 2.01369
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 9.36,
-        "change_pct": 0.09843
+        "change_pct": 0.0994
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 817.52,
-        "change_pct": -4.82502
+        "price": 818.49,
+        "change_pct": -4.77388
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.215796,
-        "change_pct": -3.44564
+        "price": 0.21592,
+        "change_pct": -3.473
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.191394,
-        "change_pct": -3.0846
+        "price": 0.191185,
+        "change_pct": -3.29479
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.089197,
-        "change_pct": -2.66106
+        "price": 0.089097,
+        "change_pct": -2.97871
       }
     ]
   },
-  "insight_ko": "오늘 시장에서는 엔비디아(+1.60%), 메타(+1.13%), 테슬라(+0.56%) 등 대형 기술주들이 소폭 상승세를 보인 반면, 애플(-0.28%), 아마존(-0.50%), 알파벳(-0.32%) 등은 약세를 나타냈다. 암호화폐 시장에서는 모네로(+5.56%), 솔라나(+2.26%) 등이 강세를 보였으나 이더리움(-1.41%), 지캐시(-4.83%), 카르다노(-3.45%) 등은 뚜렷한 낙폭을 기록했다. 이란 관련 제재와 에너지 시장 변동성이 투자자 심리에 영향을 미치고 있으며, 채권 수익률 상승에 따른 기술주 밸류에이션 재평가 우려가 일부 대형주의 약세로 해석된다. 암호화폐 시장의 변동성은 거시경제 불확실성과 규제 리스크 증가로 보인다. 본 내용은 투자 조언이 아니며, 투자 결정은 개인의 판단과 전문가 상담을 통해 이루어져야 합니다.",
+  "insight": {
+    "text_ko": "오늘 시장에서는 엔비디아(NVDA)가 1.24% 상승하며 강세를 보인 반면, 애플(AAPL)과 알파벳(GOOGL)은 각각 0.39%, 0.53% 하락했다. 암호화폐 시장에서는 모네로(XMR)가 6.18% 급등한 반면 이더리움(ETH)은 1.55% 하락하고 지캐시(ZEC)는 4.77% 급락했다. 기술주의 엇갈린 움직임은 AI 관련 기업에 대한 선별적 수요와 장기 금리 상승에 따른 부담이 혼재되어 있는 것으로 해석된다. 암호화폐의 변동성은 이란 제재와 관련된 지정학적 리스크 및 달러 강세 변동성이 영향을 미친 것으로 보인다. 본 내용은 투자 조언이 아니며, 투자 결정은 개인의 판단과 책임하에 이루어져야 합니다.",
+    "movers": [
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "price": 211.07,
+        "change_pct": 1.2423,
+        "type": "stock",
+        "reason_ko": "AI 기술주 강세 지속"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "price": 309.14,
+        "change_pct": -0.3867,
+        "type": "stock",
+        "reason_ko": "기술주 약세 및 금리 부담"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 447.46,
+        "change_pct": 6.17733,
+        "type": "crypto",
+        "reason_ko": "프라이버시 코인 급등"
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price": 2476.02,
+        "change_pct": -1.54537,
+        "type": "crypto",
+        "reason_ko": "암호화폐 시장 약세"
+      }
+    ]
+  },
   "news": [
     {
       "headline": "To cram more AI skills onto LinkedIn profiles, more job seekers are turning to 'time travel,' say researchers",
@@ -129,7 +165,7 @@
       "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
       "published_at": "2026-08-25T13:00:17.000Z",
       "headline_ko": "구직자들, 링크드인 프로필에 AI 기술 추가하기 위해 '시간 여행' 활용",
-      "summary_ko": "연구자들에 따르면 구직자들이 어려운 취업 시장에서 경쟁력을 높이기 위해 수년 전에 떠난 직장에 AI 기술을 추가하는 방식으로 링크드인 프로필을 '시간 여행'하고 있다고 한다."
+      "summary_ko": "연구자들에 따르면 근로자들이 어려운 취업 시장에서 경쟁력을 높이기 위해 과거에 근무했던 직무에 AI 기술을 소급해서 추가하는 '시간 여행' 방식을 사용하고 있다."
     },
     {
       "headline": "Iran war makes multibillion-dollar Tanzania LNG more attractive, Equinor says - Reuters",
@@ -138,7 +174,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQVRRRXpGLTQzSUFSbHE2c1c0RGxGTGRhOWpneHlwRTI5WlBDQWY1UWJBOWFITHFyZkxGQ2xGYzkxT1ZZLWtCM0ZRbVhncEUyeTM3aG05Y0gtekpwNE1vdjdkNjNUc1BiOUw1cDljM1gtX0p3Yi16elh6UTNYeGJlNXRiVlZRU0diWnlnVkVOVnVuY2JITnNKVHgzRnJGVzRsTW5jRXNB?oc=5",
       "published_at": "2026-08-25T09:08:55.000Z",
       "headline_ko": "이란 전쟁으로 탄자니아 LNG 프로젝트의 매력도 상승, 에퀴노르 발표",
-      "summary_ko": "에퀴노르는 이란 전쟁이 수십억 달러 규모의 탄자니아 LNG 프로젝트를 더욱 매력적으로 만들고 있다고 밝혔다."
+      "summary_ko": "에퀴노르는 이란 전쟁이 수십억 달러 규모의 탄자니아 LNG 프로젝트의 매력도를 높이고 있다고 밝혔다."
     },
     {
       "headline": "United States sanctions oil trader Wellbred over Iran links - Reuters",
@@ -155,8 +191,8 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/treasury-yields-steady-as-traders-await-more-economic-data-.html",
       "published_at": "2026-08-25T07:48:57.000Z",
-      "headline_ko": "국채 수익률 안정세, 투자자들 추가 경제 지표 발표 대기",
-      "summary_ko": "투자자들이 미국 경제 상황에 대한 통찰을 얻기 위해 추가 데이터 발표를 기다리면서 화요일 국채 수익률이 안정세를 유지했다."
+      "headline_ko": "경제 데이터 대기 속 미국 국채 수익률 안정세",
+      "summary_ko": "투자자들이 미국 경제 상황에 대한 추가 데이터 발표를 기다리면서 화요일 국채 수익률이 안정적으로 유지되었다."
     },
     {
       "headline": "Dollar fragile as investors weigh Iran sanctions, Treasury buybacks - Reuters",
@@ -164,8 +200,8 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORld4THVaUUFJWlFtRmRFeTI5SlliZ2ladnZNa2htLS1yeXBwcGY2UjFSVE5heHlycC11ay1KR0pLRTJKVGk4bUp2cVVwcXZsUE5kR0JCM0hTRGlRZk5WT1pDWnhfd0JKcjFkbUhlNHVRd3lpWkV4bmtDUG9CSGJCWFhuTFFfY04yb2FIOGtNYkxhS1N0SlJVaXhFTVN1ak51Z1lvaDVSaEVsb2J0UEFjM2w4THk1SzdY?oc=5",
       "published_at": "2026-08-25T01:31:00.000Z",
-      "headline_ko": "달러 약세, 투자자들 이란 제재와 재무부 자사주 매입 검토",
-      "summary_ko": "투자자들이 이란 제재와 재무부 자사주 매입을 저울질하면서 달러가 약세를 보이고 있다."
+      "headline_ko": "달러 약세, 투자자들 이란 제재와 국채 매입 사이에서 고민",
+      "summary_ko": "투자자들이 이란 제재와 국채 매입 정책을 놓고 저울질하면서 달러가 불안정한 모습을 보이고 있다."
     },
     {
       "headline": "Oil hits one-week low as investors shrug off US sanctions on Iran - Reuters",
@@ -173,7 +209,7 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
       "published_at": "2026-08-25T01:16:00.000Z",
-      "headline_ko": "유가 1주일 최저치 기록, 투자자들 미국의 이란 제재 무시",
+      "headline_ko": "미국의 이란 제재에도 불구하고 유가 1주일 최저치 기록",
       "summary_ko": "투자자들이 미국의 이란 제재를 큰 의미 있게 받아들이지 않으면서 유가가 1주일 최저치를 기록했다."
     },
     {
@@ -183,7 +219,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
       "published_at": "2026-08-25T00:27:02.000Z",
       "headline_ko": "이란 전쟁 6개월, 전 세계 석유 흐름의 거의 절반이 분쟁 지역에서 발생",
-      "summary_ko": "이란 전쟁 발발 6개월이 지난 현재 전 세계 석유 흐름의 거의 절반이 전쟁 지역에서 나오고 있다."
+      "summary_ko": "이란 전쟁이 시작된 지 6개월이 지난 현재, 전 세계 석유 공급량의 거의 절반이 분쟁 지역에서 나오고 있다."
     },
     {
       "headline": "Here's what Jim Cramer says stock investors need to know about the bond market",
@@ -191,8 +227,8 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html",
       "published_at": "2026-08-24T22:40:01.000Z",
-      "headline_ko": "짐 크래머, 주식 투자자들이 채권 시장에 대해 알아야 할 사항 제시",
-      "summary_ko": "크래머는 투자자들이 인플레이션 우려, 정부 차입, AI 관련 기업 채권 발행 속에서 급등한 장기 국채 수익률을 주시해야 한다고 말했다."
+      "headline_ko": "짐 크래머, 주식 투자자들이 알아야 할 채권 시장 정보 공개",
+      "summary_ko": "크래머는 투자자들이 인플레이션 우려, 정부 차입, AI 관련 기업 채권 발행 등으로 급등한 장기 국채 수익률을 주시해야 한다고 조언했다."
     }
   ],
   "calendar": [
