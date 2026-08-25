@@ -1,171 +1,184 @@
 {
-  "generated_at": "2026-08-25T15:01:14.489Z",
+  "generated_at": "2026-08-25T15:17:35.122Z",
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 309.14,
-        "change_pct": -0.3867
+        "price": 309.48,
+        "change_pct": -0.2771
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 489.3,
-        "change_pct": 0.4084
+        "price": 489.25,
+        "change_pct": 0.3981
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 211.07,
-        "change_pct": 1.2423
+        "price": 210.36,
+        "change_pct": 0.9018
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 351.04,
-        "change_pct": 0.5989
+        "price": 352.06,
+        "change_pct": 0.8912
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 260.93,
-        "change_pct": -0.435
+        "price": 261.14,
+        "change_pct": -0.3549
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 346.2,
-        "change_pct": -0.5344
+        "price": 346.36,
+        "change_pct": -0.4884
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 564.09,
-        "change_pct": 0.9069
+        "price": 563.13,
+        "change_pct": 0.7352
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 764.76,
-        "change_pct": 0.169
+        "price": 764.77,
+        "change_pct": 0.1703
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 709.73,
-        "change_pct": 0.4828
+        "price": 709.9,
+        "change_pct": 0.5069
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 79222,
-        "change_pct": -0.29747
+        "price": 79104,
+        "change_pct": -0.6242
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2476.02,
-        "change_pct": -1.54537
+        "price": 2468.52,
+        "change_pct": -1.92396
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 447.46,
-        "change_pct": 6.17733
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 98.15,
-        "change_pct": 2.18752
+        "price": 445.05,
+        "change_pct": 5.53851
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 80.9,
-        "change_pct": 2.01369
+        "price": 80.97,
+        "change_pct": 1.9132
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.36,
-        "change_pct": 0.0994
+        "symbol": "SOL",
+        "name": "Solana",
+        "price": 97.81,
+        "change_pct": 1.49925
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.041,
+        "change_pct": 0.31516
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 818.49,
-        "change_pct": -4.77388
+        "price": 810.35,
+        "change_pct": -4.62854
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.21592,
-        "change_pct": -3.473
+        "price": 0.214625,
+        "change_pct": -4.19463
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.191185,
-        "change_pct": -3.29479
+        "price": 0.189557,
+        "change_pct": -4.05366
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.089097,
-        "change_pct": -2.97871
+        "price": 0.088696,
+        "change_pct": -3.55594
       }
     ]
   },
   "insight": {
-    "text_ko": "오늘 시장에서는 엔비디아(NVDA)가 1.24% 상승하며 강세를 보인 반면, 애플(AAPL)과 알파벳(GOOGL)은 각각 0.39%, 0.53% 하락했다. 암호화폐 시장에서는 모네로(XMR)가 6.18% 급등한 반면 이더리움(ETH)은 1.55% 하락하고 지캐시(ZEC)는 4.77% 급락했다. 기술주의 엇갈린 움직임은 AI 관련 기업에 대한 선별적 수요와 장기 금리 상승에 따른 부담이 혼재되어 있는 것으로 해석된다. 암호화폐의 변동성은 이란 제재와 관련된 지정학적 리스크 및 달러 강세 변동성이 영향을 미친 것으로 보인다. 본 내용은 투자 조언이 아니며, 투자 결정은 개인의 판단과 책임하에 이루어져야 합니다.",
+    "text_ko": "오늘 시장에서는 AI 관련 대형주들의 엇갈린 움직임이 두드러진다. 엔비디아(+0.90%), 테슬라(+0.89%), 메타(+0.74%)는 소폭 상승했으나, 애플(-0.28%), 알파벳(-0.49%), 아마존(-0.35%)은 약세를 보였다. 암호화폐 시장에서는 모네로(+5.54%)가 급등한 반면, 지캐시(-4.63%), 카르다노(-4.19%), 스텔라(-4.05%), 도지코인(-3.56%)은 일제히 하락했으며, 비트코인(-0.62%)과 이더리움(-1.92%)도 약세를 나타냈다. 이란 관련 지정학적 긴장과 미국의 제재 조치가 에너지 시장과 글로벌 경제 전망에 영향을 미치면서 투자자들의 위험회피 심리가 작용한 것으로 해석된다. 특히 암호화폐의 광범위한 낙폭은 거시경제 불확실성 속에서 고위험 자산에 대한 수요가 위축된 영향으로 보인다. 본 분석은 투자 조언이 아니며, 투자 결정은 개인의 판단과 책임하에 이루어져야 합니다.",
     "movers": [
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 211.07,
-        "change_pct": 1.2423,
+        "price": 210.36,
+        "change_pct": 0.9018,
         "type": "stock",
-        "reason_ko": "AI 기술주 강세 지속"
+        "reason_ko": "AI 칩 수요 지속, 소폭 상승"
       },
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 309.14,
-        "change_pct": -0.3867,
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 352.06,
+        "change_pct": 0.8912,
         "type": "stock",
-        "reason_ko": "기술주 약세 및 금리 부담"
+        "reason_ko": "전기차 업체, 기술주 약세 중 상대적 강세"
+      },
+      {
+        "symbol": "META",
+        "name": "메타",
+        "price": 563.13,
+        "change_pct": 0.7352,
+        "type": "stock",
+        "reason_ko": "AI 투자 기대감, 긍정적 모멘텀"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 447.46,
-        "change_pct": 6.17733,
+        "price": 445.05,
+        "change_pct": 5.53851,
         "type": "crypto",
-        "reason_ko": "프라이버시 코인 급등"
-      },
-      {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price": 2476.02,
-        "change_pct": -1.54537,
-        "type": "crypto",
-        "reason_ko": "암호화폐 시장 약세"
+        "reason_ko": "프라이버시 코인, 급등장"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+      "summary": "Six months into Iran war, almost half of global oil flows from war zones  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
+      "published_at": "2026-08-25T14:07:32.000Z",
+      "headline_ko": "이란 전쟁 6개월, 전 세계 석유 흐름의 절반이 분쟁 지역에서 나온다",
+      "summary_ko": "이란 전쟁이 장기화되면서 글로벌 석유 공급의 약 50%가 전쟁 지역을 통과하고 있는 것으로 나타났다.",
+      "detail_ko": "중동 지정학적 긴장이 고조되면서 국제 에너지 시장의 공급망 리스크가 심화되고 있다. 이란 관련 분쟁이 6개월 이상 지속되는 가운데, 글로벌 석유 수송의 상당 부분이 불안정한 지역을 거치게 되면서 공급 차질 가능성이 높아지고 있다. 이는 에너지 가격 변동성 확대와 경제 전반의 인플레이션 압력으로 이어질 수 있는 구조적 리스크를 의미한다.",
+      "impact_ko": "석유 공급 차질 우려는 에너지 가격 상승 압력으로 작용할 수 있으며, 이는 글로벌 인플레이션 재가속으로 이어질 가능성이 있다. 중앙은행의 금리 인상 기대감이 높아지면서 채권 수익률 상승과 고위험 자산 회피로 이어질 수 있다. 에너지 관련 기업들의 수익성 개선 기대는 있으나, 경제 전반의 불확실성 증가로 인한 경기 둔화 우려가 상쇄할 가능성이 있다."
+    },
     {
       "headline": "To cram more AI skills onto LinkedIn profiles, more job seekers are turning to 'time travel,' say researchers",
       "summary": "Workers are \"time traveling\" on LinkedIn to add AI skills to roles they left years ago, likely to get a leg up in a tough job market, researchers say.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
       "published_at": "2026-08-25T13:00:17.000Z",
-      "headline_ko": "구직자들, 링크드인 프로필에 AI 기술 추가하기 위해 '시간 여행' 활용",
-      "summary_ko": "연구자들에 따르면 근로자들이 어려운 취업 시장에서 경쟁력을 높이기 위해 과거에 근무했던 직무에 AI 기술을 소급해서 추가하는 '시간 여행' 방식을 사용하고 있다."
+      "headline_ko": "링크드인 프로필에 AI 기술 추가하려는 구직자들, '시간 여행' 활용",
+      "summary_ko": "구직자들이 과거에 근무했던 직장의 프로필에 AI 기술을 소급 추가하는 '시간 여행' 행위를 늘리고 있으며, 이는 경쟁 심화된 취업 시장에서 경쟁력을 높이려는 시도로 해석된다.",
+      "detail_ko": "AI 기술에 대한 수요가 급증하면서 구직 시장에서 AI 역량이 중요한 평가 기준이 되고 있다. 이에 따라 일부 구직자들이 과거 경력에 AI 기술을 소급 추가하는 방식으로 자신의 프로필을 보강하려는 현상이 나타나고 있다. 이는 현재의 기술 수요와 기존 인력의 기술 격차가 얼마나 큰지를 보여주는 사례로, 노동 시장의 구조적 변화를 반영하고 있다.",
+      "impact_ko": "AI 기술 수요의 급증은 기술 교육 및 재교육 시장의 성장으로 이어질 가능성이 높다. 기술 격차 심화는 임금 불평등 확대와 노동 시장 양극화를 초래할 수 있으며, 이는 사회적 긴장 요인이 될 수 있다. 기업들의 AI 도입 수요가 계속되면서 관련 소프트웨어 및 교육 서비스 기업들의 성장 기회가 확대될 수 있다."
     },
     {
       "headline": "Iran war makes multibillion-dollar Tanzania LNG more attractive, Equinor says - Reuters",
@@ -173,8 +186,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQVRRRXpGLTQzSUFSbHE2c1c0RGxGTGRhOWpneHlwRTI5WlBDQWY1UWJBOWFITHFyZkxGQ2xGYzkxT1ZZLWtCM0ZRbVhncEUyeTM3aG05Y0gtekpwNE1vdjdkNjNUc1BiOUw1cDljM1gtX0p3Yi16elh6UTNYeGJlNXRiVlZRU0diWnlnVkVOVnVuY2JITnNKVHgzRnJGVzRsTW5jRXNB?oc=5",
       "published_at": "2026-08-25T09:08:55.000Z",
-      "headline_ko": "이란 전쟁으로 탄자니아 LNG 프로젝트의 매력도 상승, 에퀴노르 발표",
-      "summary_ko": "에퀴노르는 이란 전쟁이 수십억 달러 규모의 탄자니아 LNG 프로젝트의 매력도를 높이고 있다고 밝혔다."
+      "headline_ko": "이란 전쟁으로 탄자니아 LNG 프로젝트의 매력 증대, 에퀴노르 평가",
+      "summary_ko": "중동 지정학적 긴장으로 인해 에퀴노르는 탄자니아의 수십억 달러 규모 LNG 프로젝트의 전략적 가치가 높아졌다고 평가했다.",
+      "detail_ko": "이란 관련 분쟁으로 중동 에너지 공급의 불확실성이 증가하면서, 대체 에너지 공급처의 중요성이 부각되고 있다. 탄자니아의 LNG 프로젝트는 중동 의존도를 낮출 수 있는 전략적 자산으로 재평가되고 있으며, 이는 글로벌 에너지 공급망 다각화 추세를 반영한다. 에너지 안보 우려가 높아지면서 아프리카 지역의 에너지 자원 개발에 대한 투자 관심이 증가할 것으로 예상된다.",
+      "impact_ko": "탄자니아 LNG 프로젝트에 대한 투자 수요 증가는 관련 기업들의 프로젝트 수익성 개선으로 이어질 수 있다. 아프리카 에너지 개발 프로젝트에 대한 글로벌 자본 유입 확대는 지역 경제 성장을 촉진할 가능성이 있다. 다만 프로젝트 완성까지 장시간이 소요되므로, 단기적인 에너지 공급 부족 문제 해결에는 제한적일 수 있다."
     },
     {
       "headline": "United States sanctions oil trader Wellbred over Iran links - Reuters",
@@ -183,7 +198,9 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRVSUpZLWl2T2ZNc1FtamVfUzBiRm5lZW43SHdvMHZFbVc0blFJMnFVaDVUM29rcTRURFF2X3R4NE5GYnlxWnNNYS1hS3hGS2RzZUY3MDVqVFFiSkJrRHVkNkpvWjkzOWlRbjllQ2JzYXFabDdYVUtfUURHbHBYb3NPcjFtWUhxMS16ZFppTUN3Q3J3VUdQU1ZoSHhZSk11cmJiV3VULVk3VVBWTzQxdw?oc=5",
       "published_at": "2026-08-25T08:55:21.000Z",
       "headline_ko": "미국, 이란 연계 석유 거래업체 웰브레드에 제재 부과",
-      "summary_ko": "미국이 이란과의 연계 혐의로 석유 거래업체 웰브레드에 제재를 부과했다."
+      "summary_ko": "미국이 이란과의 연계 혐의로 석유 거래업체 웰브레드에 제재를 부과했다.",
+      "detail_ko": "미국의 이란 제재 정책이 강화되면서 이란과 거래하는 기업들에 대한 압박이 심화되고 있다. 개별 거래업체에 대한 제재는 이란 석유의 국제 시장 접근성을 더욱 제한하려는 의도로 해석되며, 이는 글로벌 석유 공급 감소 압력으로 작용할 수 있다. 제재 범위의 확대는 이란 석유 거래 네트워크를 약화시키려는 전략적 접근으로 보인다.",
+      "impact_ko": "이란 석유의 국제 거래 채널이 좁혀지면서 글로벌 석유 공급 부족 우려가 심화될 수 있다. 석유 가격 상승 압력이 지속되면서 에너지 비용 상승으로 인한 인플레이션 재가속 가능성이 높아질 수 있다. 제재 회피 거래 증가로 인한 시장 왜곡과 불법 거래 확대 가능성도 배제할 수 없다."
     },
     {
       "headline": "Treasury yields steady as traders await more economic data",
@@ -191,8 +208,21 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/treasury-yields-steady-as-traders-await-more-economic-data-.html",
       "published_at": "2026-08-25T07:48:57.000Z",
-      "headline_ko": "경제 데이터 대기 속 미국 국채 수익률 안정세",
-      "summary_ko": "투자자들이 미국 경제 상황에 대한 추가 데이터 발표를 기다리면서 화요일 국채 수익률이 안정적으로 유지되었다."
+      "headline_ko": "미국 국채 수익률, 경제 데이터 대기 중 안정세",
+      "summary_ko": "투자자들이 추가 경제 지표 발표를 기다리면서 미국 국채 수익률이 안정적인 움직임을 보이고 있다.",
+      "detail_ko": "현재 시장은 경제 상황에 대한 명확한 신호를 기다리고 있는 상태로, 국채 수익률이 큰 변동 없이 유지되고 있다. 인플레이션, 고용, GDP 등 주요 경제 지표의 발표 예정이 있으면서 투자자들이 신중한 관망 자세를 취하고 있는 것으로 보인다. 이는 금리 정책 방향에 대한 불확실성이 여전히 높다는 것을 시사한다.",
+      "impact_ko": "경제 데이터 발표 전 국채 수익률의 안정세는 시장의 관망 심리를 반영하고 있으며, 예상과 다른 데이터 발표 시 급격한 변동성이 발생할 가능성이 있다. 금리 인상 또는 인하 기대감의 변화는 주식과 채권 시장 전반에 영향을 미칠 수 있다. 경제 약세 신호가 나올 경우 안전자산 선호 현상이 강화될 수 있다."
+    },
+    {
+      "headline": "Gold retreats as upward momentum hits pause ahead of US inflation data - Reuters",
+      "summary": "Gold retreats as upward momentum hits pause ahead of US inflation data  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa19NSUEzV2xqY0JpOW5BRUlWc1VQNHNxdFk1cjk2ZldBQnotS0VtRmo4MWRSdjdDMEhya0JXeURjRFVoRkpyeDVLSGxTcExWM0YxaDh4dFl5OGF6MmN3eU4zd0poVXRBMnlQRFFkUy1qQmNwck9nV01hd2RNSXlaR3lJMzFYRWt3TDFGVnJENVZEVXZDR1puXzV0dGtSdW8zZGFmYXFn?oc=5",
+      "published_at": "2026-08-25T02:10:00.000Z",
+      "headline_ko": "금, 미국 인플레이션 데이터 앞두고 상승 모멘텀 일시 중단",
+      "summary_ko": "금 가격이 상승세를 멈추고 있으며, 이는 미국 인플레이션 지표 발표를 앞두고 투자자들이 신중해지고 있기 때문으로 보인다.",
+      "detail_ko": "금은 전통적으로 인플레이션 헤지 자산으로 기능하지만, 현재는 인플레이션 데이터 발표 전 투자자들의 불확실성이 높아지면서 매수 심리가 약화되고 있다. 인플레이션이 예상보다 높으면 금리 인상 가능성이 높아져 금의 실질 수익률이 악화될 수 있다는 우려가 작용하고 있다. 이는 시장이 인플레이션 데이터를 중요한 변수로 평가하고 있음을 보여준다.",
+      "impact_ko": "인플레이션 데이터가 예상보다 높으면 금 가격이 하락할 가능성이 있으며, 반대로 낮으면 금 가격 상승으로 이어질 수 있다. 금리 인상 기대감의 변화는 달러 강세와 금 약세로 이어질 수 있다. 글로벌 경제 불확실성이 높은 상황에서 금의 안전자산으로서의 역할은 계속 중요할 것으로 예상된다."
     },
     {
       "headline": "Dollar fragile as investors weigh Iran sanctions, Treasury buybacks - Reuters",
@@ -200,8 +230,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORld4THVaUUFJWlFtRmRFeTI5SlliZ2ladnZNa2htLS1yeXBwcGY2UjFSVE5heHlycC11ay1KR0pLRTJKVGk4bUp2cVVwcXZsUE5kR0JCM0hTRGlRZk5WT1pDWnhfd0JKcjFkbUhlNHVRd3lpWkV4bmtDUG9CSGJCWFhuTFFfY04yb2FIOGtNYkxhS1N0SlJVaXhFTVN1ak51Z1lvaDVSaEVsb2J0UEFjM2w4THk1SzdY?oc=5",
       "published_at": "2026-08-25T01:31:00.000Z",
-      "headline_ko": "달러 약세, 투자자들 이란 제재와 국채 매입 사이에서 고민",
-      "summary_ko": "투자자들이 이란 제재와 국채 매입 정책을 놓고 저울질하면서 달러가 불안정한 모습을 보이고 있다."
+      "headline_ko": "달러, 이란 제재와 국채 매입 사이에서 약세",
+      "summary_ko": "달러가 이란 제재 조치와 미국 국채 매입 정책 사이에서 약세를 보이고 있다.",
+      "detail_ko": "달러의 약세는 상충되는 시장 신호에서 비롯되고 있다. 한편으로는 이란 제재로 인한 지정학적 긴장이 달러 수요를 높일 수 있지만, 다른 한편으로는 미국 정부의 국채 매입 정책이 달러 공급을 증가시키면서 달러 약세 압력으로 작용하고 있다. 이는 달러의 방향성이 불명확한 상황을 반영하고 있다.",
+      "impact_ko": "달러 약세는 신흥시장 자산에 대한 투자 수요를 증가시킬 수 있으며, 달러 표시 원자재 가격 상승으로 이어질 가능성이 있다. 미국 수출 기업들의 경쟁력 개선으로 이어질 수 있으나, 달러 약세가 지속되면 미국 채권의 매력도가 하락할 수 있다. 글로벌 자본 흐름의 변화로 인한 신흥시장 변동성 확대 가능성도 있다."
     },
     {
       "headline": "Oil hits one-week low as investors shrug off US sanctions on Iran - Reuters",
@@ -209,26 +241,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
       "published_at": "2026-08-25T01:16:00.000Z",
-      "headline_ko": "미국의 이란 제재에도 불구하고 유가 1주일 최저치 기록",
-      "summary_ko": "투자자들이 미국의 이란 제재를 큰 의미 있게 받아들이지 않으면서 유가가 1주일 최저치를 기록했다."
-    },
-    {
-      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
-      "summary": "Six months into Iran war, almost half of global oil flows from war zones  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
-      "published_at": "2026-08-25T00:27:02.000Z",
-      "headline_ko": "이란 전쟁 6개월, 전 세계 석유 흐름의 거의 절반이 분쟁 지역에서 발생",
-      "summary_ko": "이란 전쟁이 시작된 지 6개월이 지난 현재, 전 세계 석유 공급량의 거의 절반이 분쟁 지역에서 나오고 있다."
-    },
-    {
-      "headline": "Here's what Jim Cramer says stock investors need to know about the bond market",
-      "summary": "Cramer said investors should watch long-term Treasury yields, which have surged amid inflation concerns, government borrowing and AI-related corporate debt issuances.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html",
-      "published_at": "2026-08-24T22:40:01.000Z",
-      "headline_ko": "짐 크래머, 주식 투자자들이 알아야 할 채권 시장 정보 공개",
-      "summary_ko": "크래머는 투자자들이 인플레이션 우려, 정부 차입, AI 관련 기업 채권 발행 등으로 급등한 장기 국채 수익률을 주시해야 한다고 조언했다."
+      "headline_ko": "유가, 미국의 이란 제재에도 불구하고 1주일 최저가 기록",
+      "summary_ko": "미국의 이란 제재에도 불구하고 유가가 1주일 최저가를 기록했으며, 투자자들이 제재의 실질적 영향을 제한적으로 평가하고 있는 것으로 보인다.",
+      "detail_ko": "시장이 미국의 이란 제재 조치를 이미 충분히 반영했거나, 제재의 실질적인 석유 공급 감소 효과가 제한적일 것으로 평가하고 있는 것으로 해석된다. 또한 글로벌 경제 약세 우려로 인한 수요 부진이 공급 제약 우려를 상쇄하고 있을 가능성이 있다. 이는 단기적으로 유가가 공급보다는 수요 측면의 영향을 더 크게 받고 있음을 시사한다.",
+      "impact_ko": "유가 약세는 에너지 비용 절감으로 인한 인플레이션 완화 신호로 작용할 수 있으며, 이는 금리 인상 기대감을 낮출 수 있다. 다만 유가 약세가 경제 약세 신호로 해석될 경우 경기 둔화 우려로 이어질 수 있다. 에너지 기업들의 수익성 악화 가능성이 있으며, 이는 관련 주식의 하락 압력으로 작용할 수 있다."
     }
   ],
   "calendar": [
