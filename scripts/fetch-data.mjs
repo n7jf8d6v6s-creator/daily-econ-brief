@@ -220,7 +220,7 @@ ${JSON.stringify(news.map((n) => ({ headline: n.headline, summary: n.summary }))
     },
     body: JSON.stringify({
       model: "claude-haiku-4-5-20251001",
-      max_tokens: 4000,
+      max_tokens: 8192,
       temperature: 0.3,
       messages: [{ role: "user", content: prompt }],
     }),
