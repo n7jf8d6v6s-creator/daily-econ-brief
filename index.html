@@ -311,6 +311,56 @@
     box-shadow: var(--shadow);
   }
 
+  .news-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 4px;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent);
+    cursor: pointer;
+  }
+
+  .news-detail {
+    display: none;
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+
+  .news-card.expanded .news-detail {
+    display: block;
+  }
+
+  .news-detail-label {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0 0 6px;
+  }
+
+  .news-detail-label:not(:first-child) {
+    margin-top: 16px;
+  }
+
+  .news-detail-text {
+    font-size: 14.5px;
+    color: var(--text-secondary);
+    line-height: 1.75;
+    margin: 0;
+  }
+
+  .news-detail-text.impact {
+    color: var(--text-primary);
+  }
+
   .source-badge {
     display: inline-block;
     font-size: 12px;
@@ -599,19 +649,48 @@
         return;
       }
       grid.innerHTML = news
-        .map(
-          (item) => `
+        .map((item) => {
+          const hasDetail = Boolean(item.detail_ko || item.impact_ko);
+          const detailBlock = hasDetail
+            ? `
+          <div class="news-detail">
+            ${
+              item.detail_ko
+                ? `<p class="news-detail-label">해설</p><p class="news-detail-text">${escapeHtml(item.detail_ko)}</p>`
+                : ""
+            }
+            ${
+              item.impact_ko
+                ? `<p class="news-detail-label">예상되는 파급효과</p><p class="news-detail-text impact">${escapeHtml(item.impact_ko)}</p>`
+                : ""
+            }
+          </div>`
+            : "";
+          const toggleBlock = hasDetail
+            ? `<button type="button" class="news-toggle">자세한 해설 보기 ▾</button>`
+            : "";
+          return `
         <div class="news-card">
           <span class="source-badge">${escapeHtml(item.source)}</span>
           <p class="news-headline">${escapeHtml(item.headline_ko || item.headline)}</p>
           <p class="news-summary">${escapeHtml(item.summary_ko || item.summary)}</p>
+          ${toggleBlock}
+          ${detailBlock}
           <div class="news-source-line">
             <span class="news-source-label">출처: ${escapeHtml(item.source)}</span>
             <a class="news-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">원문 보기 →</a>
           </div>
-        </div>`
-        )
+        </div>`;
+        })
         .join("");
+
+      grid.querySelectorAll(".news-toggle").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const card = btn.closest(".news-card");
+          const expanded = card.classList.toggle("expanded");
+          btn.textContent = expanded ? "해설 접기 ▴" : "자세한 해설 보기 ▾";
+        });
+      });
     }
 
     function renderCalendar(calendar) {

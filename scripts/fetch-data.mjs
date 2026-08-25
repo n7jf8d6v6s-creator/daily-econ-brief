@@ -196,10 +196,14 @@ async function generateInsightAndTranslation(market, news) {
 
 1. insight_ko: 오늘 시장에서 눈에 띄게 급등하거나 급락한 종목/코인을 2~4개 짚어 그 배경을 뉴스 내용과 연결지어 설명하는 한국어 문단(5~8문장). 확정적 인과관계 단정은 피하고 "~로 해석된다", "~영향으로 보인다"처럼 서술하세요. 마지막 문장은 반드시 이 내용이 투자 조언이 아니라는 안내로 끝내세요.
 2. insight_movers: insight_ko 문단에서 실제로 언급한 종목/코인만, 언급한 개수만큼 뽑아서 symbol(입력 시세 데이터의 symbol과 정확히 동일한 문자열)과 reason_ko(그 종목이 왜 언급됐는지 8~16자 내외의 짧은 한 줄 태그, 예: "AI 반도체 수요 기대")를 작성하세요.
-3. news_ko: 아래 news 배열과 정확히 같은 순서, 같은 개수로 각 기사의 headline_ko(자연스러운 한국어 헤드라인)와 summary_ko(한국어 요약)를 작성하세요. 원문의 사실관계를 왜곡하지 마세요.
+3. news_ko: 아래 news 배열과 정확히 같은 순서, 같은 개수로 각 기사마다 네 가지를 작성하세요. 원문의 사실관계를 왜곡하지 마세요.
+   - headline_ko: 자연스러운 한국어 헤드라인
+   - summary_ko: 한국어 요약 (1~2문장)
+   - detail_ko: 이 기사의 배경과 맥락을 설명하는 애널리스트 해설(3~5문장). 원문을 그대로 옮기지 말고, headline/summary에서 알 수 있는 사실을 바탕으로 당신이 직접 풀어서 설명하세요.
+   - impact_ko: 이 뉴스가 시장이나 경제에 미칠 수 있는 예상 파급효과(2~4문장). "~할 가능성이 있다", "~로 이어질 수 있다"처럼 완곡하게 서술하고 확정적 예측은 피하세요.
 
 다른 설명 없이 아래 JSON 스키마로만 응답하세요:
-{"insight_ko": "string", "insight_movers": [{"symbol": "string", "reason_ko": "string"}], "news_ko": [{"headline_ko": "string", "summary_ko": "string"}]}
+{"insight_ko": "string", "insight_movers": [{"symbol": "string", "reason_ko": "string"}], "news_ko": [{"headline_ko": "string", "summary_ko": "string", "detail_ko": "string", "impact_ko": "string"}]}
 
 시세 데이터(JSON):
 ${JSON.stringify(market)}
@@ -216,7 +220,7 @@ ${JSON.stringify(news.map((n) => ({ headline: n.headline, summary: n.summary }))
     },
     body: JSON.stringify({
       model: "claude-haiku-4-5-20251001",
-      max_tokens: 2000,
+      max_tokens: 4000,
       temperature: 0.3,
       messages: [{ role: "user", content: prompt }],
     }),
@@ -264,6 +268,8 @@ async function main() {
     ...item,
     headline_ko: news_ko[i]?.headline_ko ?? item.headline,
     summary_ko: news_ko[i]?.summary_ko ?? item.summary,
+    detail_ko: news_ko[i]?.detail_ko ?? "",
+    impact_ko: news_ko[i]?.impact_ko ?? "",
   }));
 
   const output = {
