@@ -1,246 +1,254 @@
 {
-  "generated_at": "2026-08-27T08:39:28.086Z",
+  "generated_at": "2026-08-28T04:32:47.148Z",
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 313.45,
-        "change_pct": 1.1455
+        "price": 314.58,
+        "change_pct": 0.3605
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 496.37,
-        "change_pct": 0.9477
+        "price": 505.06,
+        "change_pct": 1.7507
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 209.66,
-        "change_pct": -1.5912
+        "price": 227.98,
+        "change_pct": 8.738
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 345.82,
-        "change_pct": -1.2648
+        "price": 354.81,
+        "change_pct": 2.5996
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 260.28,
-        "change_pct": -0.2988
+        "price": 256.26,
+        "change_pct": -1.5445
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 342,
-        "change_pct": -1.4296
+        "price": 340.65,
+        "change_pct": -0.3947
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 576.14,
-        "change_pct": 1.0683
+        "price": 571.1,
+        "change_pct": -0.8748
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 766.08,
-        "change_pct": 0.0222
+        "price": 771.1,
+        "change_pct": 0.6553
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 711.37,
-        "change_pct": 0.0915
+        "price": 721.11,
+        "change_pct": 1.3692
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 79782,
-        "change_pct": 1.12508
+        "price": 79824,
+        "change_pct": 1.38912
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2531.66,
-        "change_pct": 2.85094
+        "price": 2490.78,
+        "change_pct": 0.02676
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 104.1,
-        "change_pct": 7.16667
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 11.85,
-        "change_pct": 4.31377
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.08866,
-        "change_pct": 2.25837
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.214872,
-        "change_pct": 1.92174
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.003,
-        "change_pct": -0.67084
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.335831,
-        "change_pct": -0.62011
+        "price": 107.04,
+        "change_pct": 5.86164
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 446.73,
-        "change_pct": -0.5466
+        "price": 461.34,
+        "change_pct": 4.5419
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.29,
-        "change_pct": -0.06718
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 83.06,
+        "change_pct": 2.74565
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 11.76,
+        "change_pct": 1.9427
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.019,
+        "change_pct": -1.5859
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.0172305,
+        "change_pct": -1.36034
+      },
+      {
+        "symbol": "USDC",
+        "name": "USDC",
+        "price": 1,
+        "change_pct": 0.01059
+      },
+      {
+        "symbol": "USDT",
+        "name": "Tether",
+        "price": 1,
+        "change_pct": 0.02293
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 혼조세를 보였으며, 나스닥 지수는 소폭 상승했으나 개별 종목별 편차가 두드러졌다. 중동 지정학적 긴장 완화 가능성과 인플레이션 전망에 대한 투자자들의 신중한 평가가 시장 심리에 영향을 미친 것으로 해석된다.",
-      "애플과 메타가 소폭 상승세를 보인 반면, 엔비디아와 구글 같은 대형 기술주들은 하락했다. 이는 기술주 중심의 나스닥이 전반적으로 약세를 보이는 가운데 일부 대형주들이 방어적 수익 실현 압박을 받은 것으로 보인다.",
-      "암호화폐 시장에서는 솔라나와 체인링크가 각각 7% 이상, 4% 이상 급등하며 강한 상승세를 보였다. 이는 중동 지정학적 긴장 완화 기대감으로 인한 위험자산 선호 심리 회복과 달러 약세 기조가 영향을 미친 것으로 해석되며, 특히 솔라나는 높은 거래량과 생태계 활동성이 있는 레이어1 블록체인으로서 위험자산 선호 시 상대적으로 강한 반응을 보이는 특성이 반영된 것으로 보인다. 본 내용은 투자 조언이 아닙니다."
+      "오늘 글로벌 시장은 중동 지정학적 긴장과 인플레이션 우려 속에서 혼조세를 보였다. 미국 주식시장에서는 기술주 중심의 나스닥이 1.37% 상승하며 선방했으나, 에너지와 소비재 섹터는 약세를 나타냈다. 유가는 주간 기준 약세를 기록했음에도 트럼프의 이란 핵협상 복귀 거부 뉴스에 2% 반등하며 변동성이 큰 모습을 보였다.",
+      "엔비디아(NVDA)가 8.74% 급등하며 가장 눈에 띄는 상승세를 기록했으며, 테슬라(TSLA)도 2.60% 상승했다. 이는 기술주에 대한 수익성 기대와 AI 수요 지속에 대한 낙관론으로 해석된다. 마이크로소프트(MSFT)도 1.75% 상승하며 기술 섹터의 강세를 주도했다. 한편 솔라나(SOL)와 모네로(XMR) 같은 알트코인들이 각각 5.86%, 4.54% 상승한 것은 위험자산 선호 심리와 암호화폐 시장의 회복세로 보인다.",
+      "아마존(AMZN)이 1.54% 하락하며 대형 기술주 중 유일하게 약세를 보였으며, 메타(META)도 0.87% 내렸다. 이는 중동 긴장과 인플레이션 우려로 인한 경기 민감주에 대한 선별적 회피로 해석된다. 본 분석은 투자 조언이 아니며, 투자 결정은 개인의 판단과 전문가 상담을 바탕으로 이루어져야 합니다."
     ],
     "movers": [
       {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "price": 227.98,
+        "change_pct": 8.738,
+        "type": "stock",
+        "reason_ko": "AI 수요 기대감으로 급등"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 354.81,
+        "change_pct": 2.5996,
+        "type": "stock",
+        "reason_ko": "기술주 강세 동반 상승"
+      },
+      {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 104.1,
-        "change_pct": 7.16667,
+        "price": 107.04,
+        "change_pct": 5.86164,
         "type": "crypto",
-        "reason_ko": "위험자산 선호 심리 회복에 따른 강세"
+        "reason_ko": "위험자산 선호 심리 반영"
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 11.85,
-        "change_pct": 4.31377,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 461.34,
+        "change_pct": 4.5419,
         "type": "crypto",
-        "reason_ko": "달러 약세 기조 속 알트코인 상승"
-      },
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 313.45,
-        "change_pct": 1.1455,
-        "type": "stock",
-        "reason_ko": "기술주 중 상대적 강세 유지"
+        "reason_ko": "암호화폐 시장 회복세"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Oil on track for weekly loss even as Iran tensions simmer - Reuters",
+      "summary": "Oil on track for weekly loss even as Iran tensions simmer  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMDRjQUkzbzJPY3ZkSGVLX1NmU05FVWxRUXZod3V6MkU5TTUxTjl0cm5yMzB2R0UyMy1mUUZsZVZ5TkVGMkdXNWR1X0FqUk5OaFRsZjg4NVhreGM5bUFHQ1BiT1E0SFB1ZzJKNlVLdGFRZ2ZEd1BEV0s5ZFBEOVdtWHMtZzh3b0lBaHhHSkdSYTZWNWUzSjhNX1RLcEg0My1x?oc=5",
+      "published_at": "2026-08-28T01:16:00.000Z",
+      "headline_ko": "유가, 중동 긴장에도 주간 기준 약세 지속",
+      "summary_ko": "유가가 이란 긴장에도 불구하고 주간 기준으로는 하락세를 보이고 있다.",
+      "detail_ko": "유가는 중동 지정학적 리스크에도 불구하고 약세를 기록하고 있는데, 이는 글로벌 수요 부진과 공급 과잉 우려가 지정학적 프리미엄을 상쇄하고 있음을 시사한다. 특히 중국의 경제 성장 둔화가 에너지 수요 전망을 약화시키고 있는 것으로 보인다. 이러한 추세는 OPEC+의 시장 영향력이 약화되고 있음을 반영하는 것으로 해석된다.",
+      "impact_ko": "유가의 약세 지속은 인플레이션 압력을 완화시킬 수 있어 중앙은행의 금리 인상 필요성을 낮출 가능성이 있다. 다만 중동 긴장이 급격히 악화될 경우 유가 급등으로 인한 스태그플레이션 우려가 재점화될 수 있다. 에너지 관련 기업들의 수익성 전망에도 부정적 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says - Reuters",
+      "summary": "US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNW43Vk95endNOWY5dnh3SUs0amx5SDJXVEFuWTRoX0F0Vnl6azdkM3NYWmRMZXZPZ0pIRkpZTmZrcExyVG9GWVYyaHlXeFR6aVR1dS15RWcyNmxWZVNDNTBmRXRQSU9ESG1BcHE2YWU0d0M5MW1fcDgtUFFQYnZRTDYxMEp6S2l1c1ZaS3hodWRnSnlPR3hBLVFSLWlCUXR4SlFrb0Z6dnpCVFZneS1CZzVPR2JoRUJ5am0zdw?oc=5",
+      "published_at": "2026-08-28T00:29:00.000Z",
+      "headline_ko": "미국 G20 재무장관 회의, 이란 제재와 경제 불균형 논의 예정",
+      "summary_ko": "미국이 주최하는 G20 재무장관 회의에서 경제 성장, 불균형, 이란 제재 등을 주요 의제로 다룰 예정이다.",
+      "detail_ko": "미국 재무부 관계자의 발언에 따르면 G20 회의는 글로벌 경제 성장 촉진과 국가 간 경제 불균형 해소에 초점을 맞출 것으로 보인다. 이란 제재 문제가 공식 의제로 포함되는 것은 지정학적 긴장이 국제 경제 협력에 영향을 미치고 있음을 보여준다. 이는 다자간 경제 협력의 어려움과 제재 정책의 글로벌 파급효과에 대한 국제사회의 관심을 반영한다.",
+      "impact_ko": "G20 회의의 결과에 따라 국제 무역 정책과 제재 정책의 방향이 결정될 수 있으며, 이는 신흥국 통화와 원자재 시장에 영향을 미칠 가능성이 있다. 이란 제재 강화 시 유가 상승과 글로벌 공급망 재편으로 이어질 수 있다. 경제 불균형 논의가 보호주의 강화로 이어질 경우 글로벌 무역 환경이 악화될 수 있다."
+    },
+    {
+      "headline": "What Warsh will say and how the market will react, according to prediction markets",
+      "summary": "Kalshi sees a low chance that Federal Reserve Chairman Kevin Warsh will mention \"bond market\" or \"rate cut\" at the annual Jackson Hole Symposium.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/27/what-warsh-will-say-and-how-the-market-will-react-according-to-prediction-markets.html",
+      "published_at": "2026-08-27T18:14:57.000Z",
+      "headline_ko": "연방준비제도 의장 워시의 잭슨홀 발언, 시장 예측에서 금리 인상 언급 가능성 낮음",
+      "summary_ko": "예측시장 칼시에 따르면 연준 의장 워시가 잭슨홀 심포지엄에서 '채권시장' 또는 '금리 인하'를 언급할 확률이 낮은 것으로 평가되고 있다.",
+      "detail_ko": "예측시장 데이터는 연준 의장이 잭슨홀 연설에서 금리 인상이나 채권시장 정상화에 대해 강하게 언급하지 않을 것으로 예상하고 있다. 이는 현재의 금리 수준이 충분히 제한적이라는 연준의 입장을 반영하는 것으로 보인다. 시장이 금리 인하 가능성을 낮게 평가하는 것은 인플레이션이 여전히 완전히 해결되지 않았다는 인식을 나타낸다.",
+      "impact_ko": "연준 의장의 보수적 발언은 시장의 금리 인하 기대를 억제하여 장기 채권 수익률을 높일 수 있다. 금리 전망의 불확실성이 지속될 경우 변동성 있는 주식 시장 움직임이 예상될 수 있다. 기술주와 성장주는 높은 금리 환경에서 상대적으로 약세를 보일 가능성이 있다."
+    },
+    {
+      "headline": "Kansas City Fed's Schmid says inflation 'stubborn' and 'sticky,' policy rate not restrictive",
+      "summary": "The policymaker stopped just short of calling for an interest rate hike.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/27/kansas-city-feds-schmid-says-inflation-stubborn-and-sticky-policy-rate-not-restrictive.html",
+      "published_at": "2026-08-27T12:20:30.000Z",
+      "headline_ko": "캔자스시티 연은 인플레이션이 '완고하고 끈기 있다'며 정책금리 인상 시사",
+      "summary_ko": "캔자스시티 연방준비은행 슈미드 총재가 인플레이션의 지속성을 강조하며 현 정책금리가 제한적이지 않다고 언급했다.",
+      "detail_ko": "슈미드 총재의 발언은 인플레이션이 예상보다 더 오래 지속될 가능성을 시사하며, 현재의 금리 수준이 물가 상승을 충분히 억제하지 못하고 있다는 우려를 반영한다. 금리 인상을 직접 요구하지는 않았지만 그 필요성을 강하게 암시하는 발언으로 해석된다. 이는 연준 내 일부 위원들이 여전히 강경한 금리 정책을 선호하고 있음을 보여준다.",
+      "impact_ko": "연준 내 강경파의 목소리가 커질 경우 시장의 금리 인하 기대가 더욱 약화될 수 있다. 장기 금리 상승으로 이어져 채권 시장에 압력을 가할 가능성이 있다. 고금리 환경이 지속될 경우 기업 차입 비용 증가와 소비 부진으로 경기 둔화 우려가 커질 수 있다."
+    },
+    {
+      "headline": "ECB saw a further hike as likely at July meeting - Reuters",
+      "summary": "ECB saw a further hike as likely at July meeting  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaDBJVVNFblBPSy11dmRWMWRibVZPOXZkNmY1bzZTUXI4S3hPQk50b05IbWR2VUd3RVJUNUsyRG4zNVUxWXhhUGFDSk1WN3B3QXp6YmRaeW0xUTYzMnlpZlA1TzRqc2ZYeHpHSDJ2dzZ2Y3FwS211V0JzczRSY0ZwR1h0aUZjZmNERXJoY3N1TGNiQ1R3dmZr?oc=5",
+      "published_at": "2026-08-27T12:14:14.000Z",
+      "headline_ko": "유럽중앙은행, 7월 추가 인상 가능성 높았던 것으로 파악",
+      "summary_ko": "유럽중앙은행이 7월 회의에서 추가 금리 인상을 진행할 가능성이 높았던 것으로 드러났다.",
+      "detail_ko": "ECB의 7월 회의 기록에 따르면 당시 정책위원들이 추가 인상을 강하게 검토했던 것으로 보인다. 이는 유로존의 인플레이션이 여전히 ECB의 목표치를 상회하고 있었음을 의미한다. 유럽의 금리 인상 경로가 미국보다 뒤처지고 있는 가운데, ECB가 물가 안정을 위해 적극적인 정책을 펼치고 있음을 시사한다.",
+      "impact_ko": "ECB의 강경한 금리 정책은 유로화 강세로 이어질 수 있으며, 이는 유로존 수출 경쟁력을 약화시킬 가능성이 있다. 유럽 기업들의 차입 비용 증가로 인한 수익성 악화가 예상될 수 있다. 미국과 유럽의 금리 정책 격차는 자본 흐름 변화와 환율 변동성을 초래할 수 있다."
+    },
     {
       "headline": "OPEC+ loses oil market sway in Iran war as China gains influence - Reuters",
       "summary": "OPEC+ loses oil market sway in Iran war as China gains influence  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdzQ5cjA0LVhLZTN3aEpkcDBvMXNmV3BnTHVtMFBzZnFfN05PSXFjZFAyUTZ3OEtBTnVCRDhIQXkwbGMwUFZSSTBLek9IbmNqTG16bGdlVlVjOHZ1ZER2c3Z5aXJuaV95ZFFObV9XZlYwNHNqdXcxN2FzeVRkSDF1OURPRThrUHhjOThzTEFyY1NBSG10Zlh4VXRTQWhzMXg3TGJINkRyWGhHLTd1NHc?oc=5",
       "published_at": "2026-08-27T07:14:25.000Z",
-      "headline_ko": "중동 분쟁 심화로 OPEC+의 유가 영향력 약화, 중국의 영향력 확대",
-      "summary_ko": "이란 전쟁으로 인한 중동 불안정 속에서 OPEC+의 유가 조절 능력이 약해지고 있으며, 중국이 석유 시장에서의 영향력을 확대하고 있다.",
-      "detail_ko": "전통적으로 OPEC+는 감산을 통해 유가를 관리해왔으나, 이란과 관련된 지정학적 긴장이 고조되면서 카르텔의 조율 능력이 제약받고 있다. 중국은 에너지 수요 측면에서의 영향력을 바탕으로 석유 시장에서의 발언권을 강화하고 있으며, 이는 전통적인 OPEC+ 중심의 유가 결정 체계에 변화를 가져오고 있다. 이러한 구조 변화는 향후 유가 변동성과 에너지 시장의 권력 재편을 시사한다.",
-      "impact_ko": "OPEC+의 유가 조절 능력 약화는 석유 가격의 변동성 증대로 이어질 수 있으며, 이는 글로벌 에너지 가격과 인플레이션 전망에 영향을 미칠 가능성이 있다. 중국의 영향력 확대는 에너지 외교의 지정학적 재편을 초래할 수 있으며, 이는 장기적으로 에너지 시장의 구조 변화를 야기할 수 있다."
+      "headline_ko": "이란 분쟁 속 OPEC+의 영향력 약화, 중국의 영향력 확대",
+      "summary_ko": "중동 긴장 상황에서 OPEC+의 유가 조절 능력이 약화되고 있는 반면, 중국의 에너지 시장 영향력이 커지고 있다.",
+      "detail_ko": "전통적으로 OPEC+는 감산을 통해 유가를 지지해왔으나, 현재의 지정학적 위기 상황에서도 유가가 약세를 유지하고 있다는 것은 수요 측면의 약화가 공급 제약을 상쇄하고 있음을 의미한다. 중국의 경제 성장 둔화가 에너지 수요 전망을 약화시키면서 중국이 유가 결정의 핵심 변수로 부상하고 있는 것으로 보인다. 이는 글로벌 에너지 시장의 권력 구조가 변화하고 있음을 시사한다.",
+      "impact_ko": "OPEC+의 영향력 약화는 산유국들의 재정 수입 감소로 이어져 신흥국 경제에 부정적 영향을 미칠 수 있다. 중국의 에너지 시장 영향력 확대는 지정학적 리스크 평가에 중국 요인을 더욱 중요하게 만들 것으로 예상된다. 유가 결정 메커니즘의 변화는 에너지 관련 투자 전략 재편을 초래할 가능성이 있다."
     },
     {
-      "headline": "Oil extends losses on hopes for Middle East talks to ease supply woes - Reuters",
-      "summary": "Oil extends losses on hopes for Middle East talks to ease supply woes  Reuters",
+      "headline": "Oil settles up 2% after Trump rejects return to Iran ceasefire deal terms - Reuters",
+      "summary": "Oil settles up 2% after Trump rejects return to Iran ceasefire deal terms  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS3BzVVdsbG9iUHJoaGxwVFYzR256VFBDQnlQRlh1YVZfVnZmUE1jeXQzRXFHRDhuSnpyanlNZ1NHR0RHUy1TSm8teHRiVHJ1cTZSMDRJaW1MMFJXQ2ZpTmZrN081Y3V4OUM0Qk9lRXJMY2ZONzVZN0J4eWtZT1d4TTR1Uzg1bjR5NU9TRGFQdmpZb2RPQUpYbWI4NzdyVVhsczZkOWVjTzV1ZTRKbHV3RDMwcUJ5U2xTT1M2VFhrMlVpQQ?oc=5",
       "published_at": "2026-08-27T01:20:00.000Z",
-      "headline_ko": "중동 협상 진전 기대감으로 유가 낙폭 지속",
-      "summary_ko": "이란-오만 간 외교 협상이 진행되면서 중동 공급 우려가 완화되고 있으며, 유가는 하락세를 이어가고 있다.",
-      "detail_ko": "중동 지정학적 긴장이 외교 채널을 통해 완화될 가능성이 높아지면서 석유 공급 차질에 대한 시장의 우려가 감소하고 있다. 이란-오만 협상은 지역 안정화의 신호로 해석되고 있으며, 이는 유가 하락 압력으로 작용하고 있다. 공급 리스크 프리미엄의 축소는 유가의 기본 수급 구조에 더욱 집중하게 만들고 있다.",
-      "impact_ko": "유가 하락은 에너지 수입국의 인플레이션 압력을 완화할 수 있으며, 이는 중앙은행의 금리 인상 압력을 줄일 가능성이 있다. 반면 에너지 수출국의 재정 수입 감소로 이어질 수 있으며, 이는 해당 국가들의 경제 성장과 자산 가격에 부정적 영향을 미칠 수 있다."
+      "headline_ko": "트럼프의 이란 핵협상 복귀 거부로 유가 2% 반등",
+      "summary_ko": "트럼프 전 대통령이 이란 핵협상 복귀 거부 입장을 밝히면서 유가가 2% 상승했다.",
+      "detail_ko": "트럼프의 발언은 미국의 이란 제재 정책이 강경하게 유지될 것임을 시사하며, 이는 이란산 석유 공급 제약으로 이어질 가능성을 높인다. 핵협상 복귀 가능성이 낮아지면서 지정학적 프리미엄이 유가에 반영되기 시작한 것으로 보인다. 이는 앞서 주간 약세를 기록한 유가가 정치적 변수에 의해 다시 상승 압력을 받고 있음을 보여준다.",
+      "impact_ko": "이란 제재 강화는 글로벌 석유 공급 감소로 이어져 유가 상승 압력을 지속시킬 수 있다. 유가 상승은 인플레이션 재점화 우려를 야기하여 중앙은행의 금리 인상 필요성을 높일 수 있다. 에너지 수입국들의 경상수지 악화와 신흥국 통화 약세로 이어질 가능성이 있다."
     },
     {
-      "headline": "Economists want Warsh to share more on his view of the economy at Jackson Hole, says CNBC survey",
-      "summary": "Eighty percent of CNBC Fed Survey respondents say the Federal Reserve Chairman Warsh should provide more insight into his economic views.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/26/fed-survey-warsh-economy-view.html",
-      "published_at": "2026-08-26T17:02:24.000Z",
-      "headline_ko": "연방준비제도 의장 워시, 경제 전망 더 상세히 공개해야 한다는 전문가 의견",
-      "summary_ko": "CNBC 연방준비제도 조사에 따르면 응답자의 80%가 워시 의장이 경제 전망에 대해 더 구체적인 통찰을 제공해야 한다고 답했다.",
-      "detail_ko": "새로운 연방준비제도 의장 워시에 대한 시장의 기대감이 높은 가운데, 경제 전문가들은 그의 경제 관점에 대한 더욱 명확한 커뮤니케이션을 요구하고 있다. 이는 금리 정책 방향과 인플레이션 대응 전략에 대한 시장의 불확실성이 여전히 존재함을 시사한다. 명확한 가이던스 부족은 시장 변동성을 증대시킬 수 있는 요인으로 작용할 수 있다.",
-      "impact_ko": "연방준비제도의 정책 방향에 대한 명확한 커뮤니케이션 부족은 금리 전망에 대한 시장의 불확실성을 높일 수 있으며, 이는 채권과 주식 시장의 변동성 증대로 이어질 가능성이 있다. 향후 워시 의장의 추가 발언이나 정책 신호는 시장의 주요 관심사가 될 수 있다."
-    },
-    {
-      "headline": "Why we need ‘Human Reserved’ jobs, says Bill Gates—and how we can combat the worst of the AI upheaval",
-      "summary": "\"This unprecedented technology demands an unprecedented global response,\" Bill Gates wrote in a 6,000-word memo.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/26/why-we-need-human-reserved-jobs-bill-gates-ai-memo.html",
-      "published_at": "2026-08-26T16:44:08.000Z",
-      "headline_ko": "빌 게이츠, AI 시대 '인간 예약 일자리'의 필요성 강조",
-      "summary_ko": "빌 게이츠는 6,000자 메모에서 AI 기술의 급속한 발전에 대응하기 위해 전례 없는 글로벌 대응이 필요하다고 주장하며, 인간만이 수행할 수 있는 일자리 창출의 중요성을 강조했다.",
-      "detail_ko": "AI 기술의 급속한 발전이 노동 시장에 미칠 영향에 대한 우려가 높아지는 가운데, 게이츠는 기술 발전과 인간 고용의 공존 방안을 제시하고 있다. 그는 AI가 대체할 수 없는 인간 중심의 일자리 창출과 교육 체계 개편의 필요성을 강조하고 있으며, 이는 정부와 기업의 정책 전환을 촉구하는 메시지로 해석된다. 이러한 논의는 기술 발전과 사회적 안정성 사이의 균형 문제를 다시 한 번 부각시키고 있다.",
-      "impact_ko": "AI 기술에 대한 규제 및 정책 논의가 강화될 가능성이 있으며, 이는 기술 기업들의 사업 전략과 투자 계획에 영향을 미칠 수 있다. 인간 중심 일자리 창출에 대한 정책적 관심 증대는 교육, 의료, 사회 서비스 등 인간 상호작용이 중요한 산업에 대한 투자 기회를 창출할 수 있다."
-    },
-    {
-      "headline": "European shares muted as investors assess Iran-Oman talks, U.S. inflation - Reuters",
-      "summary": "European shares muted as investors assess Iran-Oman talks, U.S. inflation  Reuters",
+      "headline": "Global equity index, bond yields edge up with focus on inflation and Middle East - Reuters",
+      "summary": "Global equity index, bond yields edge up with focus on inflation and Middle East  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV1pZeWdGeTdjVWRoOE0zZi1zQzhRVTdhU3g3U3VPV2J4dHVRQWtiRF9CUHlWVGllbFpPYnIyUmc5TDZPVlJrX0lrNDZCME5rcWZEYmN2a1JFY1diVE5oeDk1WEFDNmhIeDZfUmdFMFBBVUh6M1ZibFFvdkNzSDRVc1NEcFdZZmVhRDVjTGtxQWZwd2JDd3hzS1lHalBGUmMwRkZDUTRidDZIQ3lM?oc=5",
-      "published_at": "2026-08-26T16:41:46.000Z",
-      "headline_ko": "유럽 주식시장 약보합, 이란-오만 협상과 미국 인플레이션 평가 중",
-      "summary_ko": "유럽 주식시장이 이란-오만 외교 협상 진전과 미국 인플레이션 데이터를 평가하며 약보합세를 보이고 있다.",
-      "detail_ko": "중동 지정학적 긴장 완화 신호는 긍정적 요인으로 작용하고 있으나, 미국 인플레이션 전망에 대한 불확실성이 시장 심리를 제약하고 있다. 유럽 투자자들은 미국의 금리 정책 방향이 유럽 경제와 통화에 미칠 영향을 신중하게 평가하고 있으며, 이는 시장의 방향성을 결정하는 주요 변수로 작용하고 있다. 지정학적 리스크와 거시경제 불확실성 사이의 균형 속에서 시장이 움직이고 있는 상황이다.",
-      "impact_ko": "유럽 시장의 약세는 글로벌 위험자산 선호 심리의 약화를 시사할 수 있으며, 이는 신흥시장 자산에 대한 수요 감소로 이어질 가능성이 있다. 미국 인플레이션 데이터에 따른 금리 전망 변화는 달러 강세와 유로 약세로 이어질 수 있으며, 이는 유럽 수출 기업들의 경쟁력에 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Gulf markets mixed as oil slides, investors assess Iran diplomacy - Reuters",
-      "summary": "Gulf markets mixed as oil slides, investors assess Iran diplomacy  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN3JlYl82UGFSWkd5eTQyMmpXcnI1OV9IQXdoSnBJMkxPTFI1RW5sclRra2hmUDBYMWlkRUx1c0pleTFZXzA0MFQ4R2FSN002bTZ2YmF5VERYOTY2bmFfZld1SVNDRHZ2SHF4LTg1OU5rMmE4ajdtUFN1ZV9IWEo4Q19YT1NGUzhFbThjbnJoeVp4dDFsd1NCcFBFekdfOGtNTWJiM3NmXzdFbGRUdTVCYTV6eGlyel9BRklF?oc=5",
-      "published_at": "2026-08-26T13:20:15.000Z",
-      "headline_ko": "유가 하락 속 걸프 시장 엇갈린 움직임, 이란 외교 평가 중",
-      "summary_ko": "유가 하락에도 불구하고 걸프 시장이 엇갈린 움직임을 보이고 있으며, 이란 외교 협상에 대한 평가가 시장 심리에 영향을 미치고 있다.",
-      "detail_ko": "유가 하락은 에너지 수출국인 걸프 국가들의 수익성에 부정적 영향을 미치고 있으나, 중동 지정학적 긴장 완화에 따른 지역 안정화 기대감이 일부 상쇄하고 있다. 이란-오만 협상의 진전은 지역 정치 리스크 프리미엄의 축소를 의미하며, 이는 걸프 국가들의 장기 경제 전망에 긍정적 신호로 해석될 수 있다. 단기 유가 하락과 장기 지역 안정화 기대 사이의 긴장이 시장의 방향성을 결정하고 있다.",
-      "impact_ko": "유가 하락이 지속될 경우 걸프 국가들의 재정 수입 감소로 이어질 수 있으며, 이는 정부 지출과 투자 계획 조정을 초래할 가능성이 있다. 반면 지정학적 긴장 완화는 해당 지역에 대한 외국인 투자 유입을 촉진할 수 있으며, 이는 중장기적 경제 성장에 긍정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Gold consolidates after 5-day rally as investors eye Fed rate clues",
-      "summary": "Gold maintains a five-day gain as traders await insights on the Fed's interest-rate strategy amid rising inflation concerns.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-25/gold-holds-five-day-gain-as-oil-drop-eases-inflation-concerns",
-      "published_at": "2026-08-26T06:33:38.000Z",
-      "headline_ko": "금값 5일 연속 상승 후 조정, 연방준비제도 금리 정책 신호 주시",
-      "summary_ko": "금값이 5일간의 상승 후 조정세를 보이고 있으며, 투자자들은 연방준비제도의 금리 정책 방향에 대한 신호를 주시하고 있다.",
-      "detail_ko": "금은 인플레이션 우려와 지정학적 리스크 증가로 인해 최근 강세를 보여왔으나, 현재 조정 국면에 진입했다. 이는 시장이 연방준비제도의 금리 인상 여부와 규모에 대해 신중하게 평가하고 있음을 시사한다. 금리 인상 가능성이 높아질 경우 금의 기회비용이 증가하여 금값에 하락 압력이 가해질 수 있다.",
-      "impact_ko": "연방준비제도의 금리 정책이 명확해질 경우 금값의 방향성이 결정될 가능성이 높다. 금리 인상이 진행될 경우 금값은 추가 하락 압력을 받을 수 있으며, 반대로 금리 인상이 제한적일 경우 금의 안전자산 수요가 유지될 수 있다."
-    },
-    {
-      "headline": "Indian refiners widen oil search as attacks hurt Russian flows",
-      "summary": "The shift in Indian processors’ buying patterns coincides with an expected increase in nationwide demand as a spate of plant maintenance comes to an end, enabling refiners to boost run rates and step up production.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/indian-refiners-widen-oil-search-as-attacks-hurt-russian-flows",
-      "published_at": "2026-08-26T06:31:20.000Z",
-      "headline_ko": "인도 정유사들, 러시아산 석유 공급 차질로 구매처 다변화 추진",
-      "summary_ko": "러시아산 석유 공급 차질로 인해 인도 정유사들이 석유 구매처를 다양화하고 있으며, 이는 국내 수요 증가에 대응하기 위한 조치로 해석된다.",
-      "detail_ko": "러시아산 석유에 대한 의존도가 높았던 인도 정유사들이 공급 불안정성에 대응하기 위해 구매처를 다변화하고 있다. 동시에 국내 정유 시설의 유지보수 완료에 따른 생산 능력 증대가 예상되고 있으며, 이는 석유 수입 수요 증가로 이어질 수 있다. 이러한 움직임은 글로벌 석유 시장의 공급 구조 변화와 지정학적 리스크 회피 전략을 반영하고 있다.",
-      "impact_ko": "인도의 석유 구매처 다변화는 러시아산 석유의 시장 점유율 감소로 이어질 수 있으며, 이는 러시아의 석유 수출 수익에 영향을 미칠 가능성이 있다. 인도의 석유 수입 증가는 글로벌 석유 수요 증가 신호로 해석될 수 있으며, 이는 유가 상승 압력으로 작용할 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91T2JHeEdCeW1LQUVJbHFFd0lzWkxUXzZjUWZodDZET0tTdWZYbEtpWnpPNGRsNzRZSjF1dUs5ZWNDV0t0a3F6YlBCdWJWTlRKc2F6NVV3T3ltWWl6Um9tbFlvVWRIZDk1dHFpNU5aUFo0UGVibk10NFE5dw?oc=5",
+      "published_at": "2026-08-26T19:05:50.000Z",
+      "headline_ko": "글로벌 주식지수와 채권 수익률 상승, 인플레이션과 중동 정세 주목",
+      "summary_ko": "글로벌 주식시장과 채권 수익률이 동반 상승하며 인플레이션과 중동 상황에 대한 시장의 관심이 집중되고 있다.",
+      "detail_ko": "주식과 채권이 동시에 상승하는 현상은 시장이 인플레이션 우려와 지정학적 리스크를 동시에 반영하고 있음을 의미한다. 채권 수익률 상승은 금리 인상 기대와 인플레이션 지속성에 대한 우려를 반영하며, 주식 상승은 기술주 중심의 수익성 기대를 나타낸다. 중동 긴장이 고조되면서 위험자산과 안전자산 모두에 대한 수요가 나타나는 혼조 양상을 보이고 있다.",
+      "impact_ko": "주식과 채권의 동반 상승은 포트폴리오 분산 효과를 약화시켜 투자자들의 헤징 전략을 어렵게 할 수 있다. 인플레이션이 지속될 경우 실질 수익률이 악화되어 채권 투자 매력도가 떨어질 수 있다. 중동 긴장이 악화될 경우 위험자산 회피로 인한 주식 시장 조정 가능성이 존재한다."
     }
   ],
   "calendar": [
