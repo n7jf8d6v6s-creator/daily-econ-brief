@@ -39,6 +39,7 @@
     --band-fill: rgba(240, 185, 11, 0.07);
     --band-line: rgba(240, 185, 11, 0.34);
     --scrim: rgba(0, 0, 0, 0.62);
+    --seg-active: rgba(255, 255, 255, 0.11);
   }
 
   :root[data-theme="light"] {
@@ -61,6 +62,7 @@
     --band-fill: rgba(169, 122, 6, 0.08);
     --band-line: rgba(169, 122, 6, 0.36);
     --scrim: rgba(30, 33, 38, 0.42);
+    --seg-active: #ffffff;
   }
 
   * { box-sizing: border-box; }
@@ -290,9 +292,8 @@
   .seg button:hover { color: var(--text-primary); }
 
   .seg button[aria-pressed="true"] {
-    background: var(--surface);
+    background: var(--seg-active);
     color: var(--text-primary);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
   }
 
   .board {
@@ -1285,9 +1286,19 @@
     }
 
     /* ---------- 캔들 차트 (인라인 SVG) ---------- */
-    function xAt(i, n) {
+    function geom(n) {
       const plotW = CHART_W - CHART_PAD_L - CHART_PAD_R;
-      return n === 1 ? CHART_PAD_L + plotW / 2 : CHART_PAD_L + (i * plotW) / (n - 1);
+      // 봉이 적을 때 11px로 묶어두면 캔들이 아니라 점처럼 보인다.
+      const bw = Math.max(2, Math.min(26, (plotW / n) * 0.6));
+      // 양 끝 캔들이 잘리지 않도록 반 칸씩 들여쓴다.
+      const inset = bw / 2 + 2;
+      const usable = plotW - inset * 2;
+      return {
+        plotW,
+        bw,
+        x: (i) =>
+          n === 1 ? CHART_PAD_L + plotW / 2 : CHART_PAD_L + inset + (i * usable) / (n - 1),
+      };
     }
 
     function buildChart(bars, bands) {
@@ -1298,23 +1309,34 @@
       const plotH = H - padT - padB;
       const n = bars.length;
 
+      // 축은 '보이는 캔들'에 맞춘다. 밴드까지 담으면 짧은 기간에서 캔들이 짜부라진다
+      // (BTC 1주일 기준 밴드 폭이 캔들 폭의 6배라 캔들이 점이 된다).
       let lo = Infinity;
       let hi = -Infinity;
-      bars.forEach((b, i) => {
+      bars.forEach((b) => {
         lo = Math.min(lo, b[3]);
         hi = Math.max(hi, b[2]);
-        const bb = bands[i];
-        if (bb) {
-          lo = Math.min(lo, bb.lower);
-          hi = Math.max(hi, bb.upper);
-        }
       });
-      const span = hi - lo || hi || 1;
-      lo -= span * 0.06;
-      hi += span * 0.06;
+      const candleSpan = hi - lo || hi || 1;
+
+      // 밴드를 전부 담으면 짧은 기간에서 캔들이 짜부라지고, 전혀 안 담으면
+      // 밴드 채움이 플롯을 통째로 덮는다. 캔들 범위의 절반까지만 양보한다.
+      let bandLo = Infinity;
+      let bandHi = -Infinity;
+      bands.forEach((bb) => {
+        if (!bb) return;
+        bandLo = Math.min(bandLo, bb.lower);
+        bandHi = Math.max(bandHi, bb.upper);
+      });
+      if (bandLo < lo) lo = Math.max(bandLo, lo - candleSpan * 0.5);
+      if (bandHi > hi) hi = Math.min(bandHi, hi + candleSpan * 0.5);
+
+      const pad = (hi - lo) * 0.06;
+      lo -= pad;
+      hi += pad;
 
       const y = (v) => padT + plotH - ((v - lo) / (hi - lo)) * plotH;
-      const bw = Math.max(1.5, Math.min(11, (plotW / n) * 0.62));
+      const { bw, x: xPos } = geom(n);
       const digits = hi < 1 ? 4 : hi < 100 ? 2 : 0;
 
       let grid = "";
@@ -1333,21 +1355,37 @@
       let bandArea = "";
       let midLine = "";
       if (idx.length > 1) {
-        const up = idx.map((i) => xAt(i, n).toFixed(1) + "," + y(bands[i].upper).toFixed(1));
-        const down = idx
-          .slice()
-          .reverse()
-          .map((i) => xAt(i, n).toFixed(1) + "," + y(bands[i].lower).toFixed(1));
+        // 캔들은 양 끝을 들여쓰지만 밴드까지 들여쓰면 플롯 가장자리에 빈 세로 단차가 생긴다.
+        const first = idx[0];
+        const last = idx[idx.length - 1];
+        const edgeL = CHART_PAD_L;
+        const edgeR = CHART_PAD_L + plotW;
+        const upPts = idx.map((i) => xPos(i).toFixed(1) + "," + y(bands[i].upper).toFixed(1));
+        const downPts = idx.map((i) => xPos(i).toFixed(1) + "," + y(bands[i].lower).toFixed(1));
+        if (first === 0) {
+          upPts.unshift(edgeL + "," + y(bands[first].upper).toFixed(1));
+          downPts.unshift(edgeL + "," + y(bands[first].lower).toFixed(1));
+        }
+        if (last === n - 1) {
+          upPts.push(edgeR + "," + y(bands[last].upper).toFixed(1));
+          downPts.push(edgeR + "," + y(bands[last].lower).toFixed(1));
+        }
+        const up = upPts;
+        const down = downPts.slice().reverse();
         bandArea =
+          '<g clip-path="url(#plotclip)">' +
           '<polygon points="' + up.concat(down).join(" ") + '" fill="var(--band-fill)" />' +
           '<polyline points="' + up.join(" ") +
           '" fill="none" stroke="var(--band-line)" stroke-width="1" />' +
           '<polyline points="' + down.join(" ") +
-          '" fill="none" stroke="var(--band-line)" stroke-width="1" />';
+          '" fill="none" stroke="var(--band-line)" stroke-width="1" />' +
+          "</g>";
+        const midPts = idx.map((i) => xPos(i).toFixed(1) + "," + y(bands[i].mid).toFixed(1));
+        if (first === 0) midPts.unshift(edgeL + "," + y(bands[first].mid).toFixed(1));
+        if (last === n - 1) midPts.push(edgeR + "," + y(bands[last].mid).toFixed(1));
         midLine =
-          '<polyline points="' +
-          idx.map((i) => xAt(i, n).toFixed(1) + "," + y(bands[i].mid).toFixed(1)).join(" ") +
-          '" fill="none" stroke="var(--accent)" stroke-width="1.4" stroke-linejoin="round" />';
+          '<g clip-path="url(#plotclip)"><polyline points="' + midPts.join(" ") +
+          '" fill="none" stroke="var(--accent)" stroke-width="1.4" stroke-linejoin="round" /></g>';
       }
 
       const candles = bars
@@ -1357,7 +1395,7 @@
           const l = b[3];
           const c = b[4];
           const color = c >= o ? "var(--up)" : "var(--down)";
-          const cx = xAt(i, n);
+          const cx = xPos(i);
           const top = y(Math.max(o, c));
           const bodyH = Math.max(1, y(Math.min(o, c)) - top);
           return (
@@ -1374,7 +1412,7 @@
       for (let t = 0; t < ticks; t++) {
         const i = Math.round((t * (n - 1)) / Math.max(1, ticks - 1));
         axis +=
-          '<text x="' + xAt(i, n).toFixed(1) + '" y="' + (H - 10) +
+          '<text x="' + xPos(i).toFixed(1) + '" y="' + (H - 10) +
           '" fill="var(--text-tertiary)" font-size="11" text-anchor="' +
           (t === 0 ? "start" : t === ticks - 1 ? "end" : "middle") + '">' +
           MONTH_DAY.format(new Date(bars[i][0] * 1000)) + "</text>";
@@ -1382,6 +1420,8 @@
 
       return (
         '<svg viewBox="0 0 ' + CHART_W + " " + H + '" role="img" aria-label="일봉 캔들차트와 볼린저 밴드">' +
+        '<defs><clipPath id="plotclip"><rect x="' + CHART_PAD_L + '" y="' + padT +
+        '" width="' + plotW + '" height="' + plotH + '" /></clipPath></defs>' +
         grid + bandArea + midLine + candles + axis +
         '<line class="crosshair" y1="' + padT + '" y2="' + (padT + plotH) +
         '" stroke="var(--text-tertiary)" stroke-width="1" stroke-dasharray="3 3" opacity="0" />' +
@@ -1431,7 +1471,7 @@
         const box = svg.getBoundingClientRect();
         const ratio = (e.clientX - box.left) / box.width;
         const i = Math.max(0, Math.min(bars.length - 1, Math.round(ratio * (bars.length - 1))));
-        const px = xAt(i, bars.length);
+        const px = geom(bars.length).x(i);
         cross.setAttribute("x1", px);
         cross.setAttribute("x2", px);
         cross.setAttribute("opacity", "0.5");
