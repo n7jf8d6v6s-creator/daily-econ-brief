@@ -16,11 +16,24 @@
     document.documentElement.dataset.theme = "dark";
   }
 </script>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="오늘의 경제 브리핑" />
+<meta property="og:description" content="밤사이 미국 시장에서 무슨 일이 있었는지, 오늘 무엇을 봐야 하는지 매일 아침 한 장으로 정리합니다." />
+<meta property="og:locale" content="ko_KR" />
+<meta name="twitter:card" content="summary" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>" />
 <style>
   /* ---------- 토큰 ---------- */
   :root {
     color-scheme: dark;
+    /* 한글 본문은 Pretendard, 숫자와 티커는 등폭으로 갈라 놓는다. 시세 화면의 정체성은 숫자에서 나온다. */
+    --font-ui: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+      system-ui, "Segoe UI", Roboto, "Malgun Gothic", sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     --bg: #0b0e11;
     --surface: #14171c;
     --surface-alt: #1b1f26;
@@ -43,6 +56,12 @@
     --ma5: #5b9cf0;
     --ma20: #f0b90b;
     --ma60: #c07ae0;
+    --bg-lift: #0e1216;
+    --glow: rgba(240, 185, 11, 0.075);
+    /* 어두운 배경에서는 그림자가 안 보이므로 위쪽 1px 하이라이트로 광원을 만든다. */
+    --lift: inset 0 1px 0 rgba(255, 255, 255, 0.045), 0 1px 2px rgba(0, 0, 0, 0.4);
+    --lift-hover: inset 0 1px 0 rgba(255, 255, 255, 0.075), 0 12px 28px -16px rgba(0, 0, 0, 0.85);
+    --grain: 0.05;
   }
 
   :root[data-theme="light"] {
@@ -69,6 +88,12 @@
     --ma5: #2f6fd0;
     --ma20: #a97a06;
     --ma60: #8146ad;
+    --bg-lift: #f2f3f6;
+    --glow: rgba(169, 122, 6, 0.055);
+    /* 밝은 배경의 그림자는 순수 검정 대신 배경의 차가운 색조를 띠게 한다. */
+    --lift: 0 1px 2px rgba(22, 25, 29, 0.05), 0 1px 1px rgba(22, 25, 29, 0.03);
+    --lift-hover: 0 2px 5px rgba(22, 25, 29, 0.07), 0 16px 32px -20px rgba(22, 25, 29, 0.3);
+    --grain: 0.03;
   }
 
   * { box-sizing: border-box; }
@@ -85,8 +110,7 @@
     margin: 0;
     background: var(--bg);
     color: var(--text-primary);
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Pretendard Variable",
-      Pretendard, "Apple SD Gothic Neo", system-ui, "Segoe UI", Roboto, "Malgun Gothic", sans-serif;
+    font-family: var(--font-ui);
     font-variant-numeric: tabular-nums;
     letter-spacing: -0.011em;
     -webkit-font-smoothing: antialiased;
@@ -95,6 +119,20 @@
   }
 
   a, button { touch-action: manipulation; }
+
+  /* 완전한 플랫은 디지털 특유의 무기질함을 남긴다. 아주 옅은 그레인으로 표면을 만든다. */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    pointer-events: none;
+    opacity: var(--grain);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 160px 160px;
+  }
+
+  .mono { font-family: var(--font-mono); font-feature-settings: "tnum" 1; }
 
   a:focus-visible,
   button:focus-visible,
@@ -210,18 +248,36 @@
 
   /* ---------- 섹션 공통 ---------- */
   .band {
+    position: relative;
     padding-top: 76px;
     padding-bottom: 84px;
     padding-left: max(24px, env(safe-area-inset-left));
     padding-right: max(24px, env(safe-area-inset-right));
-    border-bottom: 1px solid var(--hairline);
   }
 
-  .band:last-of-type { border-bottom: none; }
+  /* 구분선 네 개를 반복하는 대신 같은 팔레트 안에서 명도를 교차시켜 리듬을 만든다. */
+  main > section:nth-of-type(even) { background: var(--bg-lift); }
 
   .band-inner {
+    position: relative;
     max-width: 1120px;
     margin: 0 auto;
+  }
+
+  .band-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    min-width: 0;
+  }
+
+  .band-index {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    color: var(--text-tertiary);
+    flex-shrink: 0;
   }
 
   h2.band-title {
@@ -248,32 +304,121 @@
   }
 
   /* ---------- 히어로 ---------- */
-  .hero { padding-top: 84px; }
+  .hero { padding-top: 92px; overflow: hidden; }
 
-  .eyebrow {
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--accent);
-    background: var(--accent-soft);
-    padding: 5px 12px;
-    border-radius: 8px;
+  /* 배경이 완전히 비어 있으면 미완성으로 읽힌다. 액센트 색조의 앰비언트 광만 아주 옅게 깐다. */
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: -140px -10% auto -10%;
+    height: 620px;
+    pointer-events: none;
+    background: radial-gradient(52% 62% at 22% 30%, var(--glow), transparent 72%);
+  }
+
+  .masthead {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.85fr);
+    gap: 32px 64px;
+    align-items: end;
+  }
+
+  .dateline {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin: 0 0 20px;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: var(--text-tertiary);
+  }
+
+  .dateline::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: var(--accent);
+    flex-shrink: 0;
   }
 
   h1 {
-    font-size: clamp(34px, 5.2vw, 50px);
+    font-size: clamp(34px, 5.2vw, 52px);
     font-weight: 680;
-    line-height: 1.08;
-    letter-spacing: -0.034em;
-    margin: 20px 0 12px;
+    line-height: 1.06;
+    letter-spacing: -0.036em;
+    margin: 0 0 18px;
     text-wrap: balance;
   }
 
-  .updated-at {
-    font-size: 15px;
+  .standfirst {
+    max-width: 44ch;
+    margin: 0;
+    font-size: 16.5px;
+    line-height: 1.66;
+    letter-spacing: -0.012em;
+    color: var(--text-secondary);
+    text-wrap: pretty;
+  }
+
+  /* 오늘의 시장 요약. 히어로가 카피가 아니라 데이터로 시작하게 만든다. */
+  .pulse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    margin: 0;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .pulse > div {
+    background: var(--bg);
+    padding: 15px 17px 16px;
+    min-width: 0;
+  }
+
+  .pulse dt {
+    font-size: 11.5px;
     color: var(--text-tertiary);
+    margin-bottom: 7px;
+    white-space: nowrap;
+  }
+
+  .pulse dd {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    min-width: 0;
+  }
+
+  .pulse dd .up { color: var(--up); }
+  .pulse dd .down { color: var(--down); }
+  .pulse-of { font-size: 13px; color: var(--text-tertiary); }
+
+  .pulse-sym {
+    font-size: 15px;
+    font-weight: 600;
     letter-spacing: -0.01em;
-    margin: 0 0 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .pulse dd .pct { margin-top: 0; font-size: 12px; padding: 2px 7px; }
+
+  .updated-at {
+    font-size: 12.5px;
+    letter-spacing: -0.005em;
+    color: var(--text-tertiary);
+    margin: 40px 0 52px;
   }
 
   /* ---------- 1) 시세: 타일 보드 ---------- */
@@ -313,34 +458,49 @@
 
   .tile {
     position: relative;
+    overflow: hidden;
     display: block;
     width: 100%;
     text-align: left;
     background: var(--surface);
-    border: 1px solid var(--hairline);
+    border: 0;
     border-radius: 12px;
-    padding: 14px 15px 15px;
+    box-shadow: var(--lift);
+    padding: 14px 15px 17px;
     font: inherit;
     color: inherit;
     cursor: pointer;
-    transition: border-color 0.16s ease, background 0.16s ease, transform 0.16s ease;
+    transition: box-shadow 0.16s ease, background 0.16s ease, transform 0.16s ease;
   }
 
   .tile[disabled] { cursor: default; opacity: 0.62; }
 
   .tile:not([disabled]):hover {
     background: var(--surface-alt);
-    border-color: var(--hairline-strong);
+    box-shadow: var(--lift-hover);
     transform: translateY(-2px);
+  }
+
+  /* 변동폭을 폭으로 그린다. 같은 크기 타일만 늘어놓는 것보다 숫자가 눈에 먼저 들어온다. */
+  .tile-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: var(--w, 0%);
+    background: var(--dir, var(--text-tertiary));
+    border-radius: 0 2px 0 0;
+    transition: width 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
   .tile:not([disabled]):active { transform: translateY(0); }
 
   .tile-sym {
     display: block;
-    font-size: 13.5px;
-    font-weight: 620;
-    letter-spacing: -0.005em;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.005em;
   }
 
   .tile-name {
@@ -355,18 +515,20 @@
 
   .tile-price {
     display: block;
-    font-size: 19px;
-    font-weight: 600;
-    letter-spacing: -0.024em;
+    font-family: var(--font-mono);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
   }
 
   .pct {
     display: inline-block;
     margin-top: 8px;
     padding: 3px 8px;
-    border-radius: 7px;
-    font-size: 12.5px;
-    font-weight: 600;
+    border-radius: 6px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
   }
 
   .pct.up { color: var(--up); background: var(--up-soft); }
@@ -393,9 +555,9 @@
 
   .skeleton {
     background: var(--surface);
-    border: 1px solid var(--hairline);
+    box-shadow: var(--lift);
     border-radius: 12px;
-    height: 104px;
+    height: 110px;
     animation: pulse 1.5s ease-in-out infinite;
   }
 
@@ -410,8 +572,8 @@
   }
 
   .essay-body {
-    border-left: 2px solid var(--accent);
-    padding-left: 26px;
+    border-left: 1px solid var(--hairline-strong);
+    padding-left: 28px;
     min-width: 0;
   }
 
@@ -435,8 +597,9 @@
   .essay-side { min-width: 0; }
 
   .side-label {
-    font-size: 12.5px;
+    font-size: 12px;
     color: var(--text-tertiary);
+    letter-spacing: 0.02em;
     margin: 0 0 12px;
   }
 
@@ -453,7 +616,7 @@
     align-items: baseline;
     width: 100%;
     text-align: left;
-    padding: 11px 13px;
+    padding: 12px 14px;
     background: none;
     border: 1px solid var(--hairline);
     border-radius: 10px;
@@ -466,7 +629,7 @@
   .chip[disabled] { cursor: default; opacity: 0.62; }
   .chip:not([disabled]):hover { background: var(--surface); border-color: var(--hairline-strong); }
 
-  .chip-sym { font-size: 13.5px; font-weight: 620; min-width: 0; }
+  .chip-sym { font-family: var(--font-mono); font-size: 13px; font-weight: 600; min-width: 0; }
 
   .chip-reason {
     grid-column: 1 / -1;
@@ -489,11 +652,36 @@
     min-width: 0;
   }
 
+  /* 첫 기사는 리드로 폭을 다 쓴다. 같은 크기 카드가 반복되는 인상을 끊는 가장 싼 방법. */
+  .story:first-child {
+    grid-column: 1 / -1;
+    border-top: 0;
+    border-bottom: 1px solid var(--hairline-strong);
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-bottom: 4px;
+  }
+
+  .story:first-child h3 {
+    font-size: clamp(22px, 2.6vw, 29px);
+    line-height: 1.26;
+    letter-spacing: -0.03em;
+    max-width: 22ch;
+  }
+
+  .story:first-child p.lede {
+    font-size: 16px;
+    max-width: 62ch;
+  }
+
   .story-source {
-    font-size: 11.5px;
-    font-weight: 600;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
     color: var(--text-tertiary);
-    margin: 0 0 8px;
+    margin: 0 0 9px;
   }
 
   .story h3 {
@@ -506,7 +694,7 @@
   }
 
   .story h3 a { color: inherit; text-decoration: none; }
-  .story h3 a:hover { color: var(--accent); }
+  .story h3 a:hover { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
 
   .story p.lede {
     font-size: 14.5px;
@@ -533,7 +721,7 @@
     transition: color 0.16s ease;
   }
 
-  .link-quiet:hover { color: var(--accent); }
+  .link-quiet:hover { color: var(--text-primary); }
 
   .disclosure {
     display: inline-flex;
@@ -572,6 +760,7 @@
   .more-label {
     font-size: 11.5px;
     font-weight: 600;
+    letter-spacing: 0.02em;
     color: var(--text-tertiary);
     margin: 0 0 6px;
   }
@@ -589,6 +778,7 @@
   /* ---------- 4) 일정: 타임라인 ---------- */
   .timeline {
     position: relative;
+    max-width: 760px;
     padding-left: 92px;
   }
 
@@ -633,8 +823,9 @@
 
   .event-when .d {
     display: block;
+    font-family: var(--font-mono);
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.03em;
     line-height: 1.15;
   }
@@ -669,9 +860,10 @@
 
   .dday {
     padding: 3px 9px;
-    border-radius: 7px;
+    border-radius: 6px;
+    font-family: var(--font-mono);
     font-size: 11.5px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--accent);
     background: var(--accent-soft);
     flex-shrink: 0;
@@ -696,6 +888,7 @@
   .event-detail dt {
     font-size: 11.5px;
     font-weight: 600;
+    letter-spacing: 0.02em;
     color: var(--text-tertiary);
     margin-bottom: 5px;
   }
@@ -716,7 +909,8 @@
     max-height: min(92dvh, 780px);
     padding: 0;
     border: 1px solid var(--hairline-strong);
-    border-radius: 18px;
+    border-radius: 20px;
+    box-shadow: var(--lift-hover);
     background: var(--bg);
     color: var(--text-primary);
     overscroll-behavior: contain;
@@ -744,7 +938,7 @@
     flex-wrap: wrap;
   }
 
-  .chart-sym strong { font-size: 20px; font-weight: 640; letter-spacing: -0.024em; }
+  .chart-sym strong { font-family: var(--font-mono); font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
   .chart-sym span { font-size: 13.5px; color: var(--text-tertiary); min-width: 0; }
 
   .chart-quote {
@@ -754,7 +948,7 @@
     margin-top: 6px;
   }
 
-  .chart-quote b { font-size: 22px; font-weight: 600; letter-spacing: -0.026em; }
+  .chart-quote b { font-family: var(--font-mono); font-size: 21px; font-weight: 500; letter-spacing: -0.024em; }
   .chart-quote .pct { margin-top: 0; }
 
   .icon-btn {
@@ -789,7 +983,7 @@
     display: flex;
     gap: 14px;
     flex-wrap: wrap;
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-family: var(--font-mono);
     font-size: 12px;
     color: var(--text-tertiary);
     min-height: 17px;
@@ -811,7 +1005,8 @@
     border: 1px solid var(--hairline);
     border-radius: 8px;
     font: inherit;
-    font-size: 12.5px;
+    font-family: var(--font-mono);
+    font-size: 12px;
     color: var(--text-primary);
     color-scheme: inherit;
   }
@@ -928,6 +1123,36 @@
   footer p { margin: 0 0 6px; max-width: 78ch; }
   footer p:last-child { margin-bottom: 0; }
 
+  /* ---------- 애플식 연속 곡률 (스퀘어클) ----------
+     border-radius 는 정원(正圓) 호라서 직선 구간에서 곡선으로 꺾이는 지점이 눈에 띈다.
+     corner-shape: squircle 은 초타원이라 곡률이 연속적으로 변해 모서리가 면에 녹아든다.
+     같은 반경이면 스퀘어클이 더 각져 보이므로 반경을 1.4배 정도 키워 인상을 맞춘다.
+     지원하지 않는 브라우저는 위쪽의 원형 라운딩 그대로 남는다. */
+  @supports (corner-shape: squircle) {
+    .tile,
+    .skeleton { corner-shape: squircle; border-radius: 17px; }
+
+    .chip,
+    .event,
+    .notice,
+    .empty-state { corner-shape: squircle; border-radius: 15px; }
+
+    .pulse { corner-shape: squircle; border-radius: 22px; }
+    dialog.chart { corner-shape: squircle; border-radius: 28px; }
+
+    .seg { corner-shape: squircle; border-radius: 14px; }
+    .seg button { corner-shape: squircle; border-radius: 11px; }
+
+    .theme-toggle,
+    .icon-btn,
+    .skip-link,
+    .notice button,
+    .date-range input { corner-shape: squircle; border-radius: 13px; }
+
+    .pct,
+    .dday { corner-shape: squircle; border-radius: 9px; }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     *, *::before, *::after {
@@ -940,6 +1165,7 @@
 
   /* ---------- 좁은 화면 (오버라이드이므로 반드시 스타일시트 맨 끝) ---------- */
   @media (max-width: 900px) {
+    .masthead { grid-template-columns: minmax(0, 1fr); gap: 36px; }
     .essay { grid-template-columns: minmax(0, 1fr); gap: 34px; }
     .stories { gap: 0 32px; }
   }
@@ -949,7 +1175,12 @@
     .topbar-inner { gap: 18px; }
     .band { padding-top: 46px; padding-bottom: 56px; }
     .hero { padding-top: 52px; }
-    .updated-at { margin-bottom: 34px; }
+    .band-heading { gap: 10px; }
+    .masthead { gap: 28px; }
+    .updated-at { margin: 28px 0 34px; }
+    .pulse dd { font-size: 18px; }
+    .pulse > div { padding: 13px 14px 14px; }
+    .story:first-child { padding-bottom: 24px; }
     .essay-body { padding-left: 18px; }
     .essay-body p:first-child { font-size: 18px; }
     .timeline { padding-left: 0; }
@@ -995,14 +1226,20 @@
   <main id="main">
     <section class="band hero" id="market">
       <div class="band-inner">
-        <span class="eyebrow">매일 아침 자동 갱신</span>
-        <h1>오늘의 경제 브리핑</h1>
+        <header class="masthead">
+          <div>
+            <p class="dateline"><time id="dateline">불러오는 중</time></p>
+            <h1>오늘의 경제 브리핑</h1>
+            <p class="standfirst">밤사이 미국 시장에서 무슨 일이 있었는지, 오늘 무엇을 봐야 하는지 한 장으로 정리합니다.</p>
+          </div>
+          <dl class="pulse" id="pulse" aria-label="오늘의 시장 요약" hidden></dl>
+        </header>
         <p class="updated-at" id="updated-at" aria-live="polite">업데이트 시각을 불러오는 중…</p>
 
         <div id="load-error"></div>
 
         <div class="band-head">
-          <h2 class="band-title">시세 현황</h2>
+          <div class="band-heading"><span class="band-index" aria-hidden="true">01</span><h2 class="band-title">시세 현황</h2></div>
           <div class="seg" id="market-filter" role="group" aria-label="시세 종류 선택">
             <button type="button" data-filter="all" aria-pressed="true">전체</button>
             <button type="button" data-filter="stock" aria-pressed="false">주식</button>
@@ -1017,7 +1254,7 @@
     <section class="band" id="insight">
       <div class="band-inner">
         <div class="band-head">
-          <h2 class="band-title">AI 마켓 인사이트</h2>
+          <div class="band-heading"><span class="band-index" aria-hidden="true">02</span><h2 class="band-title">AI 마켓 인사이트</h2></div>
           <span class="band-note">Claude가 오늘 시세와 뉴스를 엮어 작성했습니다</span>
         </div>
         <div class="essay">
@@ -1035,7 +1272,7 @@
     <section class="band" id="news">
       <div class="band-inner">
         <div class="band-head">
-          <h2 class="band-title">오늘의 주요 경제 뉴스</h2>
+          <div class="band-heading"><span class="band-index" aria-hidden="true">03</span><h2 class="band-title">오늘의 주요 경제 뉴스</h2></div>
           <span class="band-note">원문은 영어이며 번역과 해설은 Claude가 작성했습니다</span>
         </div>
         <div class="stories" id="stories" aria-busy="true"></div>
@@ -1045,7 +1282,7 @@
     <section class="band" id="calendar">
       <div class="band-inner">
         <div class="band-head">
-          <h2 class="band-title">곧 있을 경제 이벤트</h2>
+          <div class="band-heading"><span class="band-index" aria-hidden="true">04</span><h2 class="band-title">곧 있을 경제 이벤트</h2></div>
           <span class="band-note">일정을 누르면 어떤 지표인지 설명이 열립니다</span>
         </div>
         <div class="timeline" id="timeline" aria-busy="true"></div>
@@ -1115,6 +1352,9 @@
       style: "currency", currency: "USD", minimumFractionDigits: 4, maximumFractionDigits: 6,
     });
     const MONTH_DAY = new Intl.DateTimeFormat("ko-KR", { month: "numeric", day: "numeric", timeZone: "UTC" });
+    const DATELINE = new Intl.DateTimeFormat("ko-KR", {
+      timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", weekday: "long",
+    });
 
     const CHART_W = 880;
     const CHART_PAD_L = 14;
@@ -1158,9 +1398,20 @@
         return;
       }
       all.forEach((i) => state.instruments.set(i.symbol, i));
+      renderPulse(all);
+      // 변동폭 바는 그날 가장 크게 움직인 종목을 100% 로 두고 상대 폭을 그린다.
+      const peak = Math.max(...all.map((i) => Math.abs(i.change_pct) || 0), 0.01);
       board.innerHTML = all
         .map((i) => {
           const chart = hasChart(i.symbol);
+          const bar =
+            i.change_pct == null
+              ? ""
+              : '<span class="tile-bar" aria-hidden="true" style="--w:' +
+                ((Math.abs(i.change_pct) / peak) * 100).toFixed(1) +
+                "%;--dir:var(--" +
+                (i.change_pct >= 0 ? "up" : "down") +
+                ')"></span>';
           return `
         <button type="button" class="tile" data-kind="${i.kind}" data-symbol="${esc(i.symbol)}"${
             chart ? "" : " disabled"
@@ -1170,9 +1421,35 @@
           <span class="tile-price">${money(i.price)}</span>
           ${pctMarkup(i.change_pct)}
           ${chart ? '<span class="tile-hint" aria-hidden="true">차트 →</span>' : ""}
+          ${bar}
         </button>`;
         })
         .join("");
+    }
+
+    /* 히어로를 카피가 아니라 오늘의 숫자로 열기 위한 요약 */
+    function renderPulse(all) {
+      const el = document.getElementById("pulse");
+      const rated = all.filter((i) => typeof i.change_pct === "number");
+      if (rated.length === 0) {
+        el.hidden = true;
+        return;
+      }
+      const up = rated.filter((i) => i.change_pct > 0).length;
+      const down = rated.filter((i) => i.change_pct < 0).length;
+      const top = rated.reduce((a, b) => (b.change_pct > a.change_pct ? b : a));
+      const bottom = rated.reduce((a, b) => (b.change_pct < a.change_pct ? b : a));
+      const cell = (label, body) => "<div><dt>" + label + "</dt><dd>" + body + "</dd></div>";
+      const count = (n, cls) =>
+        '<span class="' + cls + '">' + n + '</span><span class="pulse-of">/ ' + rated.length + "</span>";
+      const mover = (m) =>
+        '<span class="pulse-sym" translate="no">' + esc(m.symbol) + "</span>" + pctMarkup(m.change_pct);
+      el.hidden = false;
+      el.innerHTML =
+        cell("오른 종목", count(up, "up")) +
+        cell("내린 종목", count(down, "down")) +
+        cell("가장 많이 오른", mover(top)) +
+        cell("가장 많이 내린", mover(bottom));
     }
 
     document.getElementById("market-filter").addEventListener("click", (e) => {
@@ -1902,8 +2179,13 @@
           state.history = await historyRes.json().catch(() => ({}));
         }
 
-        document.getElementById("updated-at").textContent =
-          "마지막 업데이트 " + KST.format(new Date(data.generated_at)) + " (KST)";
+        const at = new Date(data.generated_at);
+        const parts = Object.fromEntries(DATELINE.formatToParts(at).map((x) => [x.type, x.value]));
+        const dateline = document.getElementById("dateline");
+        dateline.textContent = parts.year + "." + parts.month + "." + parts.day + " " + parts.weekday;
+        dateline.setAttribute("datetime", data.generated_at);
+        document.getElementById("updated-at").innerHTML =
+          '마지막 업데이트 <span class="mono">' + esc(KST.format(at)) + "</span> KST";
         renderBoard(data.market);
         renderInsight(data.insight);
         renderNews(data.news);
@@ -1911,6 +2193,7 @@
       } catch (err) {
         console.error(err);
         document.getElementById("updated-at").textContent = "데이터를 불러오지 못했습니다.";
+        document.getElementById("dateline").textContent = "불러오기 실패";
         document.getElementById("board").innerHTML = "";
         document.getElementById("load-error").innerHTML =
           '<div class="notice" role="alert">브리핑 데이터를 불러오지 못했습니다. 네트워크 연결을 확인한 뒤 다시 시도해 주세요.<br /><button type="button" id="retry">다시 불러오기</button></div>';
