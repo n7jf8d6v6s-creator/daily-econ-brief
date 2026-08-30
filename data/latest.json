@@ -248,13 +248,11 @@
     {
       "date": "2026-09-04",
       "title": "고용상황 보고서(비농업고용) 발표",
-      "description": "미국 정부기관 공식 발표 일정 (FRED 기준)",
       "importance": "high"
     },
     {
       "date": "2026-09-11",
       "title": "소비자물가지수(CPI) 발표",
-      "description": "미국 정부기관 공식 발표 일정 (FRED 기준)",
       "importance": "high"
     },
     {
@@ -266,7 +264,6 @@
     {
       "date": "2026-09-30",
       "title": "개인소득 및 지출(PCE 물가지수) 발표",
-      "description": "미국 정부기관 공식 발표 일정 (FRED 기준)",
       "importance": "high"
     }
   ]
