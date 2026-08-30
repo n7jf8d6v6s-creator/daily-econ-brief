@@ -1,7 +1,7 @@
 // 매일 GitHub Actions에서 실행되어 data/latest.json을 갱신하는 스크립트.
 // Finnhub(뉴스+주식 시세) + CoinGecko(코인 시세) + FRED(발표 일정) API를 호출하고,
 // Claude API로 시황 인사이트 생성 및 뉴스 한글 번역까지 수행한다.
-// 캔들차트용 일봉 3개월치는 Yahoo Finance 차트 엔드포인트(키 불필요)에서 받아
+// 캔들차트용 일봉 1년치는 Yahoo Finance 차트 엔드포인트(키 불필요)에서 받아
 // data/history.json에 따로 저장한다 (latest.json의 diff 가독성을 지키기 위해 분리).
 // FOMC 일정은 연준이 연초에 미리 공개하는 공식 캘린더를 사용해 하드코딩한다 (연 1회 갱신 필요).
 
@@ -166,12 +166,13 @@ async function fetchCryptoMovers() {
   return combined;
 }
 
-// 캔들차트용 일봉. 종목 하나가 실패해도 그 종목만 차트가 빠지고 나머지는 정상 동작한다.
+// 캔들차트용 일봉. 차트에서 좌우로 넘기고 확대하려면 화면에 보이는 것보다 넉넉한
+// 기간이 필요해 1년치를 받는다. 종목 하나가 실패해도 그 종목만 차트가 빠진다.
 async function fetchDailyBars(instrument) {
   const ySymbol = instrument.type === "crypto" ? `${instrument.symbol}-USD` : instrument.symbol;
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
     ySymbol
-  )}?range=3mo&interval=1d`;
+  )}?range=1y&interval=1d`;
   const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } });
   if (!res.ok) throw new Error(`${res.status}`);
   const json = await res.json();

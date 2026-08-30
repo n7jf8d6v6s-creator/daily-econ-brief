@@ -40,6 +40,9 @@
     --band-line: rgba(240, 185, 11, 0.34);
     --scrim: rgba(0, 0, 0, 0.62);
     --seg-active: rgba(255, 255, 255, 0.11);
+    --ma5: #5b9cf0;
+    --ma20: #f0b90b;
+    --ma60: #c07ae0;
   }
 
   :root[data-theme="light"] {
@@ -63,9 +66,15 @@
     --band-line: rgba(169, 122, 6, 0.36);
     --scrim: rgba(30, 33, 38, 0.42);
     --seg-active: #ffffff;
+    --ma5: #2f6fd0;
+    --ma20: #a97a06;
+    --ma60: #8146ad;
   }
 
   * { box-sizing: border-box; }
+
+  /* 저자 스타일의 display 가 UA 의 [hidden] 규칙을 덮어써서 안 숨겨지는 것을 막는다. */
+  [hidden] { display: none !important; }
 
   html {
     scroll-behavior: smooth;
@@ -788,7 +797,60 @@
 
   .readout b { font-weight: 500; color: var(--text-secondary); }
 
+  .date-range {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12.5px;
+    color: var(--text-tertiary);
+  }
+
+  .date-range input {
+    padding: 5px 8px;
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 8px;
+    font: inherit;
+    font-size: 12.5px;
+    color: var(--text-primary);
+    color-scheme: inherit;
+  }
+
+  .chart-ind {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 0 24px 12px;
+  }
+
+  .chart-ind label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .chart-ind input { accent-color: var(--accent); margin: 0; }
+
+  .chart-ind .key {
+    width: 13px;
+    height: 2px;
+    border-radius: 1px;
+    flex-shrink: 0;
+  }
+
+  .key.bb { height: 9px; border-radius: 3px; background: var(--band-fill); box-shadow: inset 0 0 0 1px var(--band-line); }
+  .key.ma5 { background: var(--ma5); }
+  .key.ma20 { background: var(--ma20); }
+  .key.ma60 { background: var(--ma60); }
+
   .chart-wrap { padding: 0 12px 4px; }
+  .chart-wrap svg { touch-action: none; cursor: grab; }
+  .chart-wrap.dragging svg { cursor: grabbing; }
   .chart-wrap svg { display: block; width: 100%; height: auto; }
 
   .chart-foot {
@@ -1016,18 +1078,29 @@
     </div>
     <div class="chart-bar">
       <div class="seg" id="range-seg" role="group" aria-label="차트 기간 선택">
-        <button type="button" data-days="7" aria-pressed="false">1주일</button>
+        <button type="button" data-days="7" aria-pressed="false">1주</button>
         <button type="button" data-days="30" aria-pressed="false">1개월</button>
-        <button type="button" data-days="0" aria-pressed="true">3개월</button>
+        <button type="button" data-days="90" aria-pressed="true">3개월</button>
+        <button type="button" data-days="365" aria-pressed="false">1년</button>
       </div>
+      <div class="date-range">
+        <input type="date" id="date-from" aria-label="차트 시작일" />
+        <span aria-hidden="true">~</span>
+        <input type="date" id="date-to" aria-label="차트 종료일" />
+      </div>
+    </div>
+    <div class="chart-ind" id="chart-ind" role="group" aria-label="차트에 표시할 지표">
+      <label><input type="checkbox" data-ind="bb" /><span class="key bb" aria-hidden="true"></span>볼린저 밴드</label>
+      <label><input type="checkbox" data-ind="ma5" /><span class="key ma5" aria-hidden="true"></span>5일선</label>
+      <label><input type="checkbox" data-ind="ma20" /><span class="key ma20" aria-hidden="true"></span>20일선</label>
+      <label><input type="checkbox" data-ind="ma60" /><span class="key ma60" aria-hidden="true"></span>60일선</label>
+    </div>
+    <div class="chart-bar" style="padding-top:0">
       <div class="readout" id="readout"></div>
     </div>
     <div class="chart-wrap" id="chart-wrap"></div>
     <div class="chart-foot">
-      <div class="legend">
-        <i><span class="swatch"></span>20일 이동평균</i>
-        <i><span class="swatch area"></span>볼린저 밴드 (표준편차 2배)</i>
-      </div>
+      <span>드래그로 이동, 휠이나 손가락 두 개로 확대. 방향키와 +, - 도 됩니다.</span>
       <span>일봉 종가 기준</span>
     </div>
   </dialog>
@@ -1046,6 +1119,7 @@
     const CHART_W = 880;
     const CHART_PAD_L = 14;
     const CHART_PAD_R = 74;
+    const MIN_BARS = 10; // 이보다 봉이 적으면 차트를 열지 않고, 확대도 여기까지만 한다.
 
     const state = { instruments: new Map(), history: {}, active: null, days: 0 };
 
@@ -1058,7 +1132,7 @@
     const money = (v) => (v == null ? "-" : v < 1 ? USD_FINE.format(v) : USD.format(v));
 
     const hasChart = (symbol) =>
-      Array.isArray(state.history[symbol]) && state.history[symbol].length > 1;
+      Array.isArray(state.history[symbol]) && state.history[symbol].length >= MIN_BARS;
 
     function pctText(pct) {
       if (pct == null) return "-";
@@ -1261,7 +1335,18 @@
       if (label) label.textContent = open ? "해설 접기" : "해설 보기";
     });
 
-    /* ---------- 볼린저 밴드 ---------- */
+    /* ---------- 지표 ---------- */
+    function sma(bars, period) {
+      const out = bars.map(() => null);
+      let sum = 0;
+      for (let i = 0; i < bars.length; i++) {
+        sum += bars[i][4];
+        if (i >= period) sum -= bars[i - period][4];
+        if (i >= period - 1) out[i] = sum / period;
+      }
+      return out;
+    }
+
     // 볼린저의 원 정의대로 표본이 아닌 모집단 표준편차를 쓴다.
     function bollinger(bars, period = 20, mult = 2) {
       const out = bars.map(() => null);
@@ -1279,18 +1364,38 @@
         if (i >= period - 1) {
           const mean = sum / period;
           const sd = Math.sqrt(Math.max(sumSq / period - mean * mean, 0));
-          out[i] = { mid: mean, upper: mean + mult * sd, lower: mean - mult * sd };
+          out[i] = { upper: mean + mult * sd, lower: mean - mult * sd };
         }
       }
       return out;
     }
 
-    /* ---------- 캔들 차트 (인라인 SVG) ---------- */
+    /* ---------- 차트 상태 ---------- */
+    const OVERLAY_KEY = "chartOverlays";
+
+    const chart = {
+      symbol: null,
+      bars: [],
+      ind: null,
+      from: 0,
+      to: 0,
+      drag: null,
+      pointers: new Map(),
+      pinch: null,
+      hover: null,
+    };
+
+    const overlays = { bb: true, ma5: false, ma20: true, ma60: false };
+    try {
+      Object.assign(overlays, JSON.parse(localStorage.getItem(OVERLAY_KEY) || "{}"));
+    } catch (e) {
+      /* 저장된 설정이 없거나 접근이 막힌 경우 기본값을 쓴다 */
+    }
+
     function geom(n) {
       const plotW = CHART_W - CHART_PAD_L - CHART_PAD_R;
-      // 봉이 적을 때 11px로 묶어두면 캔들이 아니라 점처럼 보인다.
-      const bw = Math.max(2, Math.min(26, (plotW / n) * 0.6));
-      // 양 끝 캔들이 잘리지 않도록 반 칸씩 들여쓴다.
+      // 봉이 적을 때 폭을 고정하면 캔들이 아니라 점처럼 보인다.
+      const bw = Math.max(1, Math.min(26, (plotW / n) * 0.6));
       const inset = bw / 2 + 2;
       const usable = plotW - inset * 2;
       return {
@@ -1301,16 +1406,97 @@
       };
     }
 
-    function buildChart(bars, bands) {
+    /* ---------- 보이는 구간 ---------- */
+    function setView(from, to, keepPreset) {
+      const n = chart.bars.length;
+      let f = Math.round(from);
+      let t = Math.round(to);
+      if (t - f + 1 < MIN_BARS) {
+        const mid = (f + t) / 2;
+        f = Math.round(mid - MIN_BARS / 2);
+        t = f + MIN_BARS - 1;
+      }
+      if (t - f + 1 > n) {
+        f = 0;
+        t = n - 1;
+      }
+      if (f < 0) {
+        t -= f;
+        f = 0;
+      }
+      if (t > n - 1) {
+        f -= t - (n - 1);
+        t = n - 1;
+      }
+      chart.from = Math.max(0, f);
+      chart.to = Math.min(n - 1, t);
+      if (!keepPreset) clearPreset();
+      syncDates();
+      draw();
+    }
+
+    function viewLastDays(days) {
+      const n = chart.bars.length;
+      if (days <= 0) return setView(0, n - 1, true);
+      const cutoff = chart.bars[n - 1][0] - days * 86400;
+      let f = chart.bars.findIndex((b) => b[0] >= cutoff);
+      if (f < 0) f = 0;
+      setView(f, n - 1, true);
+    }
+
+    function clearPreset() {
+      document.querySelectorAll("#range-seg button").forEach((b) => {
+        b.setAttribute("aria-pressed", "false");
+      });
+    }
+
+    function syncDates() {
+      const iso = (t) => new Date(t * 1000).toISOString().slice(0, 10);
+      const first = iso(chart.bars[0][0]);
+      const last = iso(chart.bars[chart.bars.length - 1][0]);
+      const a = document.getElementById("date-from");
+      const b = document.getElementById("date-to");
+      [a, b].forEach((el) => {
+        el.min = first;
+        el.max = last;
+      });
+      a.value = iso(chart.bars[chart.from][0]);
+      b.value = iso(chart.bars[chart.to][0]);
+    }
+
+    /* ---------- 그리기 ---------- */
+    function visibleSeries() {
+      const cut = (arr) => arr.slice(chart.from, chart.to + 1);
+      return {
+        bb: overlays.bb ? cut(chart.ind.bb) : null,
+        ma5: overlays.ma5 ? cut(chart.ind.ma5) : null,
+        ma20: overlays.ma20 ? cut(chart.ind.ma20) : null,
+        ma60: overlays.ma60 ? cut(chart.ind.ma60) : null,
+      };
+    }
+
+    function draw() {
+      const wrap = document.getElementById("chart-wrap");
+      const bars = chart.bars.slice(chart.from, chart.to + 1);
+      if (bars.length < 2) {
+        wrap.innerHTML = '<p class="chart-empty">이 구간에 표시할 봉이 없습니다.</p>';
+        return;
+      }
+      const series = visibleSeries();
+      wrap.innerHTML = buildChart(bars, series);
+      showBar(chart.hover != null && chart.hover < bars.length ? chart.hover : bars.length - 1, bars, series);
+    }
+
+    function buildChart(bars, series) {
       const H = 380;
       const padT = 14;
       const padB = 30;
-      const plotW = CHART_W - CHART_PAD_L - CHART_PAD_R;
-      const plotH = H - padT - padB;
       const n = bars.length;
+      const { plotW, bw, x: xPos } = geom(n);
+      const plotH = H - padT - padB;
 
-      // 축은 '보이는 캔들'에 맞춘다. 밴드까지 담으면 짧은 기간에서 캔들이 짜부라진다
-      // (BTC 1주일 기준 밴드 폭이 캔들 폭의 6배라 캔들이 점이 된다).
+      // 축은 보이는 캔들에 맞춘다. 지표를 전부 담으면 캔들이 짜부라지므로
+      // 캔들 범위의 절반까지만 양보하고 나머지는 잘라낸다.
       let lo = Infinity;
       let hi = -Infinity;
       bars.forEach((b) => {
@@ -1318,75 +1504,79 @@
         hi = Math.max(hi, b[2]);
       });
       const candleSpan = hi - lo || hi || 1;
-
-      // 밴드를 전부 담으면 짧은 기간에서 캔들이 짜부라지고, 전혀 안 담으면
-      // 밴드 채움이 플롯을 통째로 덮는다. 캔들 범위의 절반까지만 양보한다.
-      let bandLo = Infinity;
-      let bandHi = -Infinity;
-      bands.forEach((bb) => {
-        if (!bb) return;
-        bandLo = Math.min(bandLo, bb.lower);
-        bandHi = Math.max(bandHi, bb.upper);
-      });
-      if (bandLo < lo) lo = Math.max(bandLo, lo - candleSpan * 0.5);
-      if (bandHi > hi) hi = Math.min(bandHi, hi + candleSpan * 0.5);
-
+      let extLo = Infinity;
+      let extHi = -Infinity;
+      const note = (v) => {
+        if (v == null) return;
+        extLo = Math.min(extLo, v);
+        extHi = Math.max(extHi, v);
+      };
+      if (series.bb) series.bb.forEach((b) => b && (note(b.lower), note(b.upper)));
+      ["ma5", "ma20", "ma60"].forEach((k) => series[k] && series[k].forEach(note));
+      if (extLo < lo) lo = Math.max(extLo, lo - candleSpan * 0.5);
+      if (extHi > hi) hi = Math.min(extHi, hi + candleSpan * 0.5);
       const pad = (hi - lo) * 0.06;
       lo -= pad;
       hi += pad;
 
       const y = (v) => padT + plotH - ((v - lo) / (hi - lo)) * plotH;
-      const { bw, x: xPos } = geom(n);
       const digits = hi < 1 ? 4 : hi < 100 ? 2 : 0;
+      const edgeL = CHART_PAD_L;
+      const edgeR = CHART_PAD_L + plotW;
 
       let grid = "";
       for (let g = 0; g <= 4; g++) {
         const v = lo + ((hi - lo) * g) / 4;
         const gy = y(v).toFixed(1);
         grid +=
-          '<line x1="' + CHART_PAD_L + '" y1="' + gy + '" x2="' + (CHART_PAD_L + plotW) +
-          '" y2="' + gy + '" stroke="var(--grid-line)" />' +
-          '<text x="' + (CHART_PAD_L + plotW + 8) + '" y="' + (Number(gy) + 3.5).toFixed(1) +
+          '<line x1="' + edgeL + '" y1="' + gy + '" x2="' + edgeR + '" y2="' + gy +
+          '" stroke="var(--grid-line)" />' +
+          '<text x="' + (edgeR + 8) + '" y="' + (Number(gy) + 3.5).toFixed(1) +
           '" fill="var(--text-tertiary)" font-size="11" font-family="ui-monospace, SF Mono, Menlo, monospace">' +
           v.toFixed(digits) + "</text>";
       }
 
-      const idx = bands.map((b, i) => (b ? i : -1)).filter((i) => i >= 0);
-      let bandArea = "";
-      let midLine = "";
-      if (idx.length > 1) {
-        // 캔들은 양 끝을 들여쓰지만 밴드까지 들여쓰면 플롯 가장자리에 빈 세로 단차가 생긴다.
-        const first = idx[0];
-        const last = idx[idx.length - 1];
-        const edgeL = CHART_PAD_L;
-        const edgeR = CHART_PAD_L + plotW;
-        const upPts = idx.map((i) => xPos(i).toFixed(1) + "," + y(bands[i].upper).toFixed(1));
-        const downPts = idx.map((i) => xPos(i).toFixed(1) + "," + y(bands[i].lower).toFixed(1));
-        if (first === 0) {
-          upPts.unshift(edgeL + "," + y(bands[first].upper).toFixed(1));
-          downPts.unshift(edgeL + "," + y(bands[first].lower).toFixed(1));
-        }
-        if (last === n - 1) {
-          upPts.push(edgeR + "," + y(bands[last].upper).toFixed(1));
-          downPts.push(edgeR + "," + y(bands[last].lower).toFixed(1));
-        }
-        const up = upPts;
-        const down = downPts.slice().reverse();
-        bandArea =
-          '<g clip-path="url(#plotclip)">' +
-          '<polygon points="' + up.concat(down).join(" ") + '" fill="var(--band-fill)" />' +
-          '<polyline points="' + up.join(" ") +
-          '" fill="none" stroke="var(--band-line)" stroke-width="1" />' +
-          '<polyline points="' + down.join(" ") +
-          '" fill="none" stroke="var(--band-line)" stroke-width="1" />' +
-          "</g>";
-        const midPts = idx.map((i) => xPos(i).toFixed(1) + "," + y(bands[i].mid).toFixed(1));
-        if (first === 0) midPts.unshift(edgeL + "," + y(bands[first].mid).toFixed(1));
-        if (last === n - 1) midPts.push(edgeR + "," + y(bands[last].mid).toFixed(1));
-        midLine =
-          '<g clip-path="url(#plotclip)"><polyline points="' + midPts.join(" ") +
-          '" fill="none" stroke="var(--accent)" stroke-width="1.4" stroke-linejoin="round" /></g>';
+      // 지표 선을 그린다. 값이 없는 앞 구간은 건너뛴다.
+      function polyline(values, color, width) {
+        const idx = values.map((v, i) => (v == null ? -1 : i)).filter((i) => i >= 0);
+        if (idx.length < 2) return "";
+        const pts = idx.map((i) => xPos(i).toFixed(1) + "," + y(values[i]).toFixed(1));
+        if (idx[0] === 0) pts.unshift(edgeL + "," + y(values[0]).toFixed(1));
+        if (idx[idx.length - 1] === n - 1) pts.push(edgeR + "," + y(values[n - 1]).toFixed(1));
+        return (
+          '<polyline points="' + pts.join(" ") + '" fill="none" stroke="' + color +
+          '" stroke-width="' + width + '" stroke-linejoin="round" stroke-linecap="round" />'
+        );
       }
+
+      let band = "";
+      if (series.bb) {
+        const idx = series.bb.map((b, i) => (b ? i : -1)).filter((i) => i >= 0);
+        if (idx.length > 1) {
+          const first = idx[0];
+          const last = idx[idx.length - 1];
+          const up = idx.map((i) => xPos(i).toFixed(1) + "," + y(series.bb[i].upper).toFixed(1));
+          const dn = idx.map((i) => xPos(i).toFixed(1) + "," + y(series.bb[i].lower).toFixed(1));
+          if (first === 0) {
+            up.unshift(edgeL + "," + y(series.bb[first].upper).toFixed(1));
+            dn.unshift(edgeL + "," + y(series.bb[first].lower).toFixed(1));
+          }
+          if (last === n - 1) {
+            up.push(edgeR + "," + y(series.bb[last].upper).toFixed(1));
+            dn.push(edgeR + "," + y(series.bb[last].lower).toFixed(1));
+          }
+          band =
+            '<polygon points="' + up.concat(dn.slice().reverse()).join(" ") +
+            '" fill="var(--band-fill)" />' +
+            '<polyline points="' + up.join(" ") + '" fill="none" stroke="var(--band-line)" stroke-width="1" />' +
+            '<polyline points="' + dn.join(" ") + '" fill="none" stroke="var(--band-line)" stroke-width="1" />';
+        }
+      }
+
+      const lines =
+        (series.ma60 ? polyline(series.ma60, "var(--ma60)", 1.3) : "") +
+        (series.ma20 ? polyline(series.ma20, "var(--ma20)", 1.4) : "") +
+        (series.ma5 ? polyline(series.ma5, "var(--ma5)", 1.3) : "");
 
       const candles = bars
         .map((b, i) => {
@@ -1419,69 +1609,205 @@
       }
 
       return (
-        '<svg viewBox="0 0 ' + CHART_W + " " + H + '" role="img" aria-label="일봉 캔들차트와 볼린저 밴드">' +
-        '<defs><clipPath id="plotclip"><rect x="' + CHART_PAD_L + '" y="' + padT +
+        '<svg viewBox="0 0 ' + CHART_W + " " + H + '" tabindex="0" role="img"' +
+        ' aria-label="' + esc(chart.symbol) + ' 일봉 캔들차트. 드래그로 이동하고 방향키로도 움직일 수 있습니다.">' +
+        '<defs><clipPath id="plotclip"><rect x="' + edgeL + '" y="' + padT +
         '" width="' + plotW + '" height="' + plotH + '" /></clipPath></defs>' +
-        grid + bandArea + midLine + candles + axis +
+        grid +
+        '<g clip-path="url(#plotclip)">' + band + lines + "</g>" +
+        candles + axis +
         '<line class="crosshair" y1="' + padT + '" y2="' + (padT + plotH) +
         '" stroke="var(--text-tertiary)" stroke-width="1" stroke-dasharray="3 3" opacity="0" />' +
         "</svg>"
       );
     }
 
-    function showBar(i, bars, bands) {
+    function showBar(i, bars, series) {
       const b = bars[i];
-      const bb = bands[i];
-      const fmt = (v) => (v < 1 ? v.toFixed(4) : v.toFixed(2));
-      document.getElementById("readout").innerHTML =
+      if (!b) return;
+      const fmt = (v) => (v == null ? "-" : v < 1 ? v.toFixed(4) : v.toFixed(2));
+      let html =
         "<span>" + MONTH_DAY.format(new Date(b[0] * 1000)) + "</span>" +
         "<span>시 <b>" + fmt(b[1]) + "</b></span>" +
         "<span>고 <b>" + fmt(b[2]) + "</b></span>" +
         "<span>저 <b>" + fmt(b[3]) + "</b></span>" +
-        "<span>종 <b>" + fmt(b[4]) + "</b></span>" +
-        (bb ? "<span>밴드 <b>" + fmt(bb.lower) + " ~ " + fmt(bb.upper) + "</b></span>" : "");
+        "<span>종 <b>" + fmt(b[4]) + "</b></span>";
+      if (series.bb && series.bb[i]) {
+        html += "<span>밴드 <b>" + fmt(series.bb[i].lower) + " ~ " + fmt(series.bb[i].upper) + "</b></span>";
+      }
+      [["ma5", "5일"], ["ma20", "20일"], ["ma60", "60일"]].forEach(([k, label]) => {
+        if (series[k] && series[k][i] != null) {
+          html += "<span>" + label + " <b>" + fmt(series[k][i]) + "</b></span>";
+        }
+      });
+      document.getElementById("readout").innerHTML = html;
     }
 
-    function drawChart() {
-      const wrap = document.getElementById("chart-wrap");
-      const all = state.history[state.active] || [];
-      const bandsAll = bollinger(all);
+    /* ---------- 팬 / 줌 ---------- */
+    const wrapEl = document.getElementById("chart-wrap");
 
-      let from = 0;
-      if (state.days > 0) {
-        const cutoff = Date.now() / 1000 - state.days * 86400;
-        from = all.findIndex((b) => b[0] >= cutoff);
-        if (from < 0) from = Math.max(0, all.length - 5);
+    function barIndexAt(clientX, svg) {
+      const box = svg.getBoundingClientRect();
+      const n = chart.to - chart.from + 1;
+      const ratio = (clientX - box.left) / box.width;
+      return Math.max(0, Math.min(n - 1, Math.round(ratio * (n - 1))));
+    }
+
+    function zoomBy(factor, anchorRatio) {
+      const n = chart.bars.length;
+      const span = chart.to - chart.from + 1;
+      const next = Math.max(MIN_BARS, Math.min(n, Math.round(span * factor)));
+      const anchor = chart.from + anchorRatio * (span - 1);
+      const from = anchor - anchorRatio * (next - 1);
+      setView(from, from + next - 1);
+    }
+
+    wrapEl.addEventListener("pointerdown", (e) => {
+      // 캡처는 래퍼에 건다. SVG는 다시 그릴 때마다 교체되므로 거기에 걸면
+      // 첫 프레임에 캡처 대상이 사라져 제스처가 끊긴다.
+      if (!wrapEl.querySelector("svg")) return;
+      try {
+        wrapEl.setPointerCapture(e.pointerId);
+      } catch (err) {
+        /* 캡처는 포인터가 영역을 벗어나도 이벤트를 받기 위한 것뿐이라 실패해도 진행한다 */
       }
-      const bars = all.slice(from);
-      const bands = bandsAll.slice(from);
+      chart.pointers.set(e.pointerId, e.clientX);
+      if (chart.pointers.size === 2) {
+        const [a, b] = [...chart.pointers.values()];
+        chart.pinch = { dist: Math.abs(a - b), from: chart.from, to: chart.to };
+        chart.drag = null;
+      } else {
+        chart.drag = { x: e.clientX, from: chart.from, to: chart.to };
+        wrapEl.classList.add("dragging");
+      }
+    });
 
-      if (bars.length < 2) {
-        wrap.innerHTML = '<p class="chart-empty">이 기간에 표시할 봉이 없습니다.</p>';
-        document.getElementById("readout").textContent = "";
+    wrapEl.addEventListener("pointermove", (e) => {
+      const svg = wrapEl.querySelector("svg");
+      if (!svg) return;
+
+      if (chart.pointers.has(e.pointerId)) chart.pointers.set(e.pointerId, e.clientX);
+
+      if (chart.pinch && chart.pointers.size === 2) {
+        const [a, b] = [...chart.pointers.values()];
+        const dist = Math.abs(a - b);
+        if (dist > 4 && chart.pinch.dist > 4) {
+          const span = chart.pinch.to - chart.pinch.from + 1;
+          const next = Math.max(
+            MIN_BARS,
+            Math.min(chart.bars.length, Math.round(span * (chart.pinch.dist / dist)))
+          );
+          const mid = (chart.pinch.from + chart.pinch.to) / 2;
+          setView(mid - next / 2, mid + next / 2 - 1);
+        }
         return;
       }
 
-      wrap.innerHTML = buildChart(bars, bands);
-      showBar(bars.length - 1, bars, bands);
-
-      const svg = wrap.querySelector("svg");
-      const cross = svg.querySelector(".crosshair");
-      svg.addEventListener("pointermove", (e) => {
+      if (chart.drag) {
         const box = svg.getBoundingClientRect();
-        const ratio = (e.clientX - box.left) / box.width;
-        const i = Math.max(0, Math.min(bars.length - 1, Math.round(ratio * (bars.length - 1))));
-        const px = geom(bars.length).x(i);
-        cross.setAttribute("x1", px);
-        cross.setAttribute("x2", px);
-        cross.setAttribute("opacity", "0.5");
-        showBar(i, bars, bands);
-      });
-      svg.addEventListener("pointerleave", () => {
-        cross.setAttribute("opacity", "0");
-        showBar(bars.length - 1, bars, bands);
-      });
+        const span = chart.drag.to - chart.drag.from + 1;
+        const shift = Math.round(((chart.drag.x - e.clientX) / box.width) * span);
+        if (shift !== 0) setView(chart.drag.from + shift, chart.drag.to + shift);
+        return;
+      }
+
+      // 드래그 중이 아니면 십자선과 판독값을 갱신한다.
+      const i = barIndexAt(e.clientX, svg);
+      chart.hover = i;
+      const cross = svg.querySelector(".crosshair");
+      const px = geom(chart.to - chart.from + 1).x(i);
+      cross.setAttribute("x1", px);
+      cross.setAttribute("x2", px);
+      cross.setAttribute("opacity", "0.5");
+      showBar(i, chart.bars.slice(chart.from, chart.to + 1), visibleSeries());
+    });
+
+    function endPointer(e) {
+      chart.pointers.delete(e.pointerId);
+      if (chart.pointers.size < 2) chart.pinch = null;
+      if (chart.pointers.size === 0) {
+        chart.drag = null;
+        wrapEl.classList.remove("dragging");
+      }
     }
+
+    wrapEl.addEventListener("pointerup", endPointer);
+    wrapEl.addEventListener("pointercancel", endPointer);
+
+    wrapEl.addEventListener("pointerleave", () => {
+      chart.hover = null;
+      const svg = wrapEl.querySelector("svg");
+      if (!svg) return;
+      const cross = svg.querySelector(".crosshair");
+      if (cross) cross.setAttribute("opacity", "0");
+      const bars = chart.bars.slice(chart.from, chart.to + 1);
+      showBar(bars.length - 1, bars, visibleSeries());
+    });
+
+    wrapEl.addEventListener(
+      "wheel",
+      (e) => {
+        const svg = wrapEl.querySelector("svg");
+        if (!svg) return;
+        e.preventDefault();
+        const box = svg.getBoundingClientRect();
+        const ratio = Math.max(0, Math.min(1, (e.clientX - box.left) / box.width));
+        zoomBy(e.deltaY > 0 ? 1.18 : 1 / 1.18, ratio);
+      },
+      { passive: false }
+    );
+
+    wrapEl.addEventListener("keydown", (e) => {
+      if (!e.target.closest("svg")) return;
+      const span = chart.to - chart.from + 1;
+      const step = Math.max(1, Math.round(span * 0.15));
+      const moves = {
+        ArrowLeft: () => setView(chart.from - step, chart.to - step),
+        ArrowRight: () => setView(chart.from + step, chart.to + step),
+        Home: () => setView(0, span - 1),
+        End: () => setView(chart.bars.length - span, chart.bars.length - 1),
+        "+": () => zoomBy(1 / 1.3, 0.5),
+        "=": () => zoomBy(1 / 1.3, 0.5),
+        "-": () => zoomBy(1.3, 0.5),
+      };
+      const fn = moves[e.key];
+      if (!fn) return;
+      e.preventDefault();
+      fn();
+    });
+
+    /* ---------- 컨트롤 ---------- */
+    document.getElementById("range-seg").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-days]");
+      if (!btn) return;
+      document.querySelectorAll("#range-seg button").forEach((b) => {
+        b.setAttribute("aria-pressed", String(b === btn));
+      });
+      viewLastDays(Number(btn.dataset.days));
+    });
+
+    ["date-from", "date-to"].forEach((id) => {
+      document.getElementById(id).addEventListener("change", (e) => {
+        const stamp = Date.parse(e.target.value + "T00:00:00Z") / 1000;
+        if (!Number.isFinite(stamp)) return;
+        let i = chart.bars.findIndex((b) => b[0] >= stamp);
+        if (i < 0) i = chart.bars.length - 1;
+        if (id === "date-from") setView(i, Math.max(i + MIN_BARS - 1, chart.to));
+        else setView(Math.min(chart.from, i - MIN_BARS + 1), i);
+      });
+    });
+
+    document.getElementById("chart-ind").addEventListener("change", (e) => {
+      const box = e.target.closest("input[data-ind]");
+      if (!box) return;
+      overlays[box.dataset.ind] = box.checked;
+      try {
+        localStorage.setItem(OVERLAY_KEY, JSON.stringify(overlays));
+      } catch (err) {
+        /* 저장 실패는 무시하고 이번 세션에만 반영한다 */
+      }
+      draw();
+    });
 
     /* ---------- 차트 모달 ---------- */
     const dialog = document.getElementById("chart-dialog");
@@ -1489,10 +1815,18 @@
     function openChart(symbol) {
       const info = state.instruments.get(symbol);
       if (!info || !hasChart(symbol)) return;
-      state.active = symbol;
-      state.days = 0;
-      document.querySelectorAll("#range-seg button").forEach((b) => {
-        b.setAttribute("aria-pressed", String(b.dataset.days === "0"));
+      const bars = state.history[symbol];
+      chart.symbol = symbol;
+      chart.bars = bars;
+      chart.hover = null;
+      chart.ind = {
+        bb: bollinger(bars),
+        ma5: sma(bars, 5),
+        ma20: sma(bars, 20),
+        ma60: sma(bars, 60),
+      };
+      document.querySelectorAll("#chart-ind input[data-ind]").forEach((box) => {
+        box.checked = Boolean(overlays[box.dataset.ind]);
       });
       document.getElementById("chart-title").textContent = symbol;
       document.getElementById("chart-name").textContent = info.name;
@@ -1500,23 +1834,16 @@
       const pct = document.getElementById("chart-pct");
       pct.className = "pct " + pctClass(info.change_pct);
       pct.textContent = pctText(info.change_pct);
-      drawChart();
+      document.querySelectorAll("#range-seg button").forEach((b) => {
+        b.setAttribute("aria-pressed", String(b.dataset.days === "90"));
+      });
+      viewLastDays(90);
       dialog.showModal();
     }
 
     document.addEventListener("click", (e) => {
       const opener = e.target.closest(".tile:not([disabled]), .chip:not([disabled])");
       if (opener) openChart(opener.dataset.symbol);
-    });
-
-    document.getElementById("range-seg").addEventListener("click", (e) => {
-      const btn = e.target.closest("button[data-days]");
-      if (!btn) return;
-      state.days = Number(btn.dataset.days);
-      document.querySelectorAll("#range-seg button").forEach((b) => {
-        b.setAttribute("aria-pressed", String(b === btn));
-      });
-      drawChart();
     });
 
     document.getElementById("chart-close").addEventListener("click", () => dialog.close());
@@ -1542,7 +1869,7 @@
       } catch (e) {
         /* 사파리 프라이빗 모드 등에서는 저장만 건너뛴다 */
       }
-      if (dialog.open) drawChart();
+      if (dialog.open) draw();
     });
 
     /* ---------- 네비 현재 위치 ---------- */
