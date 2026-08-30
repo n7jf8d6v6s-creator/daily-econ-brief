@@ -159,7 +159,6 @@ async function buildCalendar() {
       calendar.push({
         date,
         title: release.title,
-        description: "미국 정부기관 공식 발표 일정 (FRED 기준)",
         importance: "high",
       });
     }
