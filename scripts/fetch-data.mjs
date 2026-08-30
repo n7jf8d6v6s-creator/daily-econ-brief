@@ -1,6 +1,8 @@
 // 매일 GitHub Actions에서 실행되어 data/latest.json을 갱신하는 스크립트.
 // Finnhub(뉴스+주식 시세) + CoinGecko(코인 시세) + FRED(발표 일정) API를 호출하고,
 // Claude API로 시황 인사이트 생성 및 뉴스 한글 번역까지 수행한다.
+// 캔들차트용 일봉 3개월치는 Yahoo Finance 차트 엔드포인트(키 불필요)에서 받아
+// data/history.json에 따로 저장한다 (latest.json의 diff 가독성을 지키기 위해 분리).
 // FOMC 일정은 연준이 연초에 미리 공개하는 공식 캘린더를 사용해 하드코딩한다 (연 1회 갱신 필요).
 
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
@@ -32,10 +34,42 @@ const FOMC_MEETINGS_2026 = [
 
 // FRED release_id: 주요 경제지표 발표 일정 조회용.
 const FRED_RELEASES = [
-  { id: 10, title: "소비자물가지수(CPI) 발표" },
-  { id: 50, title: "고용상황 보고서(비농업고용) 발표" },
-  { id: 54, title: "개인소득 및 지출(PCE 물가지수) 발표" },
+  {
+    id: 10,
+    title: "소비자물가지수(CPI) 발표",
+    agency: "미 노동통계국(BLS)",
+    what: "미국 도시 소비자가 실제로 지불하는 상품·서비스 가격을 묶어 만든 물가지수입니다. 식품과 에너지를 뺀 근원(core) CPI가 추세 판단에 더 많이 쓰입니다.",
+    why: "연준이 금리를 올릴지 내릴지 판단할 때 보는 대표적인 물가 지표입니다. 시장 예상보다 높게 나오면 금리 인하 기대가 밀리면서 주식과 채권이 함께 약해지는 경우가 많습니다.",
+    watch: "전월 대비 근원 CPI가 0.3%를 넘는지, 그리고 주거비 항목이 둔화되는지를 봅니다.",
+  },
+  {
+    id: 50,
+    title: "고용상황 보고서(비농업고용) 발표",
+    agency: "미 노동통계국(BLS)",
+    what: "농업을 제외한 산업에서 한 달 동안 늘어난 일자리 수와 실업률, 시간당 임금을 함께 발표합니다. 매달 첫째 주 금요일에 나와 '고용지표의 본편'으로 불립니다.",
+    why: "고용이 너무 뜨거우면 임금이 오르고 물가 압력이 남아 금리 인하가 늦어집니다. 반대로 급격히 식으면 경기 침체 우려가 커집니다. 시장은 어느 한쪽으로 크게 벗어나지 않는 수치를 선호합니다.",
+    watch: "신규 고용자 수뿐 아니라 지난 두 달치 수정폭과 시간당 임금 상승률을 함께 봐야 방향이 보입니다.",
+  },
+  {
+    id: 54,
+    title: "개인소득 및 지출(PCE 물가지수) 발표",
+    agency: "미 경제분석국(BEA)",
+    what: "가계가 벌어들인 소득과 실제로 쓴 돈, 그리고 그 과정의 물가를 함께 보여줍니다. 여기 포함된 근원 PCE 물가지수가 연준의 공식 물가 목표(2%) 기준입니다.",
+    why: "CPI보다 덜 알려져 있지만 연준이 정책 목표로 삼는 지표는 이쪽입니다. 소비자가 비싼 품목에서 싼 품목으로 옮겨가는 행동까지 반영해 CPI보다 대체로 낮게 나옵니다.",
+    watch: "근원 PCE의 전년 대비 상승률이 2%에 얼마나 가까워졌는지, 서비스 물가가 계속 버티는지를 봅니다.",
+  },
 ];
+
+// FOMC 회의 해설 (SEP 포함 여부에 따라 관전 포인트가 달라진다).
+const FOMC_EXPLAIN = {
+  agency: "미 연방준비제도(Fed)",
+  what: "연준의 통화정책 결정 기구가 이틀간 모여 기준금리를 정하는 회의입니다. 둘째 날 오후에 결정문이 나오고 이어서 의장 기자회견이 열립니다.",
+  why: "미국 기준금리는 전 세계 자금의 기준값이라, 결정 자체보다 '앞으로의 방향'을 어떻게 말하는지가 주식·채권·환율·코인 전반을 움직입니다.",
+  watchSep:
+    "이번 회의는 경제전망요약(SEP)과 점도표가 함께 공개됩니다. 위원들이 연말 금리를 어디로 보는지가 점으로 찍혀 나와, 금리 결정 자체보다 파급력이 큰 경우가 많습니다.",
+  watchPlain:
+    "전망 자료 없이 결정문과 기자회견만 나옵니다. 결정문에서 바뀐 단어와 의장의 답변 톤이 관전 포인트입니다.",
+};
 
 // 주식 워치리스트 (미 빅테크 + 주요 지수 ETF).
 const STOCK_WATCHLIST = [
@@ -132,6 +166,52 @@ async function fetchCryptoMovers() {
   return combined;
 }
 
+// 캔들차트용 일봉. 종목 하나가 실패해도 그 종목만 차트가 빠지고 나머지는 정상 동작한다.
+async function fetchDailyBars(instrument) {
+  const ySymbol = instrument.type === "crypto" ? `${instrument.symbol}-USD` : instrument.symbol;
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
+    ySymbol
+  )}?range=3mo&interval=1d`;
+  const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } });
+  if (!res.ok) throw new Error(`${res.status}`);
+  const json = await res.json();
+  const result = json?.chart?.result?.[0];
+  const quote = result?.indicators?.quote?.[0];
+  const stamps = result?.timestamp;
+  if (!stamps || !quote) throw new Error("빈 응답");
+
+  const bars = [];
+  for (let i = 0; i < stamps.length; i++) {
+    const o = quote.open[i];
+    const h = quote.high[i];
+    const l = quote.low[i];
+    const c = quote.close[i];
+    if (o == null || h == null || l == null || c == null) continue;
+    // 저가 코인은 소수점이 더 필요하고, 고가 종목은 2자리면 충분하다 (파일 크기 절약).
+    const digits = c < 1 ? 6 : c < 100 ? 4 : 2;
+    const round = (v) => Number(v.toFixed(digits));
+    bars.push([stamps[i], round(o), round(h), round(l), round(c)]);
+  }
+  if (bars.length === 0) throw new Error("유효한 봉 없음");
+  return bars;
+}
+
+async function fetchHistory(instruments) {
+  const history = {};
+  const missing = [];
+  for (const instrument of instruments) {
+    try {
+      history[instrument.symbol] = await fetchDailyBars(instrument);
+    } catch (err) {
+      missing.push(`${instrument.symbol}(${err.message})`);
+    }
+  }
+  if (missing.length > 0) {
+    console.warn(`일봉 없음: ${missing.join(", ")}`);
+  }
+  return history;
+}
+
 async function fetchFredNextDate(releaseId) {
   const params = new URLSearchParams({
     release_id: String(releaseId),
@@ -159,7 +239,10 @@ async function buildCalendar() {
       calendar.push({
         date,
         title: release.title,
-        importance: "high",
+        agency: release.agency,
+        what: release.what,
+        why: release.why,
+        watch: release.watch,
       });
     }
   }
@@ -170,10 +253,10 @@ async function buildCalendar() {
       calendar.push({
         date: meeting.start,
         title: `FOMC 정례회의 (~${meeting.end.slice(5)})`,
-        description: meeting.sep
-          ? "금리 결정 발표 및 경제전망요약(SEP)·점도표 공개"
-          : "금리 결정 발표",
-        importance: "high",
+        agency: FOMC_EXPLAIN.agency,
+        what: FOMC_EXPLAIN.what,
+        why: FOMC_EXPLAIN.why,
+        watch: meeting.sep ? FOMC_EXPLAIN.watchSep : FOMC_EXPLAIN.watchPlain,
       });
       break; // 다음 회의 하나만 캘린더에 노출
     }
@@ -274,6 +357,8 @@ async function main() {
     impact_ko: news_ko[i]?.impact_ko ?? "",
   }));
 
+  const history = await fetchHistory(allInstruments);
+
   const output = {
     generated_at: new Date().toISOString(),
     market,
@@ -290,9 +375,16 @@ async function main() {
     new URL("../data/latest.json", import.meta.url),
     JSON.stringify(output, null, 2) + "\n"
   );
+  // 봉 데이터는 줄바꿈 없이 저장한다: 매일 커밋되므로 크기가 곧 저장소 증가분이다.
+  await fs.writeFile(
+    new URL("../data/history.json", import.meta.url),
+    JSON.stringify(history) + "\n"
+  );
 
   console.log(
-    `data/latest.json 갱신 완료: 주식 ${stocks.length}종목, 코인 ${crypto.length}종목, 뉴스 ${translatedNews.length}건, 이벤트 ${calendar.length}건`
+    `갱신 완료: 주식 ${stocks.length}종목, 코인 ${crypto.length}종목, 뉴스 ${translatedNews.length}건, 이벤트 ${calendar.length}건, 일봉 ${
+      Object.keys(history).length
+    }종목`
   );
 }
 

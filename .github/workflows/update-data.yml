@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
+          git add data/latest.json data/history.json
           git diff --cached --quiet && echo "No changes" || git commit -m "chore: update economic data"
           git push
