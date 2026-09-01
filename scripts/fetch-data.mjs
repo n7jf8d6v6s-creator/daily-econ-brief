@@ -9,11 +9,44 @@ const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
 const FRED_API_KEY = process.env.FRED_API_KEY;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
-if (!FINNHUB_API_KEY || !FRED_API_KEY || !ANTHROPIC_API_KEY) {
-  console.error(
-    "FINNHUB_API_KEY / FRED_API_KEY / ANTHROPIC_API_KEY 환경변수가 모두 필요합니다."
-  );
-  process.exit(1);
+// 공용 fetch. CoinGecko 무료 API 는 GitHub Actions 의 공용 IP 를 429 로 자주 막고
+// 그 한 번이 하루치 갱신 전체를 날려버렸다. 일시적인 429/5xx 는 쉬었다가 다시 친다.
+async function fetchJson(url, { headers, label } = {}) {
+  let status = 0;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    if (attempt > 0) await new Promise((r) => setTimeout(r, attempt * 5000));
+    const res = await fetch(url, headers ? { headers } : undefined);
+    if (res.ok) return res.json();
+    status = res.status;
+    if (status !== 429 && status < 500) break;
+  }
+  throw new Error(`${label} 호출 실패: ${status}`);
+}
+
+// 섹션 하나가 끝내 실패해도 그날 갱신을 통째로 버리지 않고 직전 값을 그대로 쓴다.
+// 직전 값조차 없으면(첫 실행) 그때는 그냥 실패시킨다.
+// 어떤 섹션이 직전 값으로 때워졌는지는 stale 에 남긴다. 조용히 어제 데이터를
+// 새 타임스탬프로 커밋해버리면 고장난 걸 아무도 눈치채지 못한다.
+export async function settleWithFallback(tasks, fallbacks, labels, stale = []) {
+  const results = await Promise.allSettled(tasks);
+  return results.map((r, i) => {
+    if (r.status === "fulfilled") return r.value;
+    if (fallbacks[i] === undefined || fallbacks[i] === null) throw r.reason;
+    console.warn(`${labels[i]} 갱신 실패, 직전 값 유지: ${r.reason.message}`);
+    stale.push(labels[i]);
+    return fallbacks[i];
+  });
+}
+
+async function readPrevious(name) {
+  try {
+    const fs = await import("node:fs/promises");
+    return JSON.parse(
+      await fs.readFile(new URL(`../data/${name}`, import.meta.url), "utf8")
+    );
+  } catch {
+    return null;
+  }
 }
 
 const ECONOMIC_KEYWORDS =
@@ -96,9 +129,7 @@ function addDaysISO(days) {
 
 async function fetchNews() {
   const url = `https://finnhub.io/api/v1/news?category=general&token=${FINNHUB_API_KEY}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Finnhub 뉴스 호출 실패: ${res.status}`);
-  const items = await res.json();
+  const items = await fetchJson(url, { label: "Finnhub 뉴스" });
 
   return items
     .filter((item) => ECONOMIC_KEYWORDS.test(`${item.headline} ${item.summary}`))
@@ -117,9 +148,7 @@ async function fetchStockQuotes() {
   const quotes = [];
   for (const stock of STOCK_WATCHLIST) {
     const url = `https://finnhub.io/api/v1/quote?symbol=${stock.symbol}&token=${FINNHUB_API_KEY}`;
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Finnhub 시세 호출 실패 (${stock.symbol}): ${res.status}`);
-    const q = await res.json();
+    const q = await fetchJson(url, { label: `Finnhub 시세 (${stock.symbol})` });
     quotes.push({
       symbol: stock.symbol,
       name: stock.name,
@@ -140,9 +169,7 @@ async function fetchCryptoMovers() {
     sparkline: "false",
   });
   const url = `https://api.coingecko.com/api/v3/coins/markets?${params}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`CoinGecko 호출 실패: ${res.status}`);
-  const coins = await res.json();
+  const coins = await fetchJson(url, { label: "CoinGecko" });
 
   const mapped = coins.map((c) => ({
     symbol: c.symbol.toUpperCase(),
@@ -173,9 +200,10 @@ async function fetchDailyBars(instrument) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
     ySymbol
   )}?range=1y&interval=1d`;
-  const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } });
-  if (!res.ok) throw new Error(`${res.status}`);
-  const json = await res.json();
+  const json = await fetchJson(url, {
+    headers: { "user-agent": "Mozilla/5.0" },
+    label: ySymbol,
+  });
   const result = json?.chart?.result?.[0];
   const quote = result?.indicators?.quote?.[0];
   const stamps = result?.timestamp;
@@ -197,13 +225,15 @@ async function fetchDailyBars(instrument) {
   return bars;
 }
 
-async function fetchHistory(instruments) {
+async function fetchHistory(instruments, previous) {
   const history = {};
   const missing = [];
   for (const instrument of instruments) {
     try {
       history[instrument.symbol] = await fetchDailyBars(instrument);
     } catch (err) {
+      // 오늘 못 받았다고 차트를 지우지 않는다. 어제 봉이라도 그리는 편이 낫다.
+      if (previous?.[instrument.symbol]) history[instrument.symbol] = previous[instrument.symbol];
       missing.push(`${instrument.symbol}(${err.message})`);
     }
   }
@@ -224,9 +254,7 @@ async function fetchFredNextDate(releaseId) {
     api_key: FRED_API_KEY,
   });
   const url = `https://api.stlouisfed.org/fred/release/dates?${params}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`FRED 호출 실패 (release ${releaseId}): ${res.status}`);
-  const data = await res.json();
+  const data = await fetchJson(url, { label: `FRED (release ${releaseId})` });
   const dates = data.release_dates || [];
   return dates.length > 0 ? dates[0].date : null;
 }
@@ -323,12 +351,21 @@ ${JSON.stringify(news.map((n) => ({ headline: n.headline, summary: n.summary }))
 }
 
 async function main() {
-  const [news, calendar, stocks, crypto] = await Promise.all([
-    fetchNews(),
-    buildCalendar(),
-    fetchStockQuotes(),
-    fetchCryptoMovers(),
-  ]);
+  if (!FINNHUB_API_KEY || !FRED_API_KEY || !ANTHROPIC_API_KEY) {
+    console.error(
+      "FINNHUB_API_KEY / FRED_API_KEY / ANTHROPIC_API_KEY 환경변수가 모두 필요합니다."
+    );
+    process.exit(1);
+  }
+
+  const prev = await readPrevious("latest.json");
+  const stale = [];
+  const [news, calendar, stocks, crypto] = await settleWithFallback(
+    [fetchNews(), buildCalendar(), fetchStockQuotes(), fetchCryptoMovers()],
+    [prev?.news, prev?.calendar, prev?.market?.stocks, prev?.market?.crypto],
+    ["뉴스", "발표 일정", "주식 시세", "코인 시세"],
+    stale
+  );
 
   const market = { stocks, crypto };
   const { insight_ko, insight_movers, news_ko } = await generateInsightAndTranslation(
@@ -358,10 +395,11 @@ async function main() {
     impact_ko: news_ko[i]?.impact_ko ?? "",
   }));
 
-  const history = await fetchHistory(allInstruments);
+  const history = await fetchHistory(allInstruments, await readPrevious("history.json"));
 
   const output = {
     generated_at: new Date().toISOString(),
+    stale_sections: stale,
     market,
     insight: {
       paragraphs_ko: Array.isArray(insight_ko) ? insight_ko : [insight_ko],
@@ -389,7 +427,9 @@ async function main() {
   );
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (process.argv[1] === (await import("node:url")).fileURLToPath(import.meta.url)) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
