@@ -11,16 +11,18 @@ const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
 // 공용 fetch. CoinGecko 무료 API 는 GitHub Actions 의 공용 IP 를 429 로 자주 막고
 // 그 한 번이 하루치 갱신 전체를 날려버렸다. 일시적인 429/5xx 는 쉬었다가 다시 친다.
-async function fetchJson(url, { headers, label } = {}) {
+async function fetchJson(url, { headers, label, method, body } = {}) {
   let status = 0;
+  let detail = "";
   for (let attempt = 0; attempt < 4; attempt++) {
     if (attempt > 0) await new Promise((r) => setTimeout(r, attempt * 5000));
-    const res = await fetch(url, headers ? { headers } : undefined);
+    const res = await fetch(url, { headers, method, body });
     if (res.ok) return res.json();
     status = res.status;
+    detail = (await res.text().catch(() => "")).slice(0, 200);
     if (status !== 429 && status < 500) break;
   }
-  throw new Error(`${label} 호출 실패: ${status}`);
+  throw new Error(`${label} 호출 실패: ${status} ${detail}`);
 }
 
 // 섹션 하나가 끝내 실패해도 그날 갱신을 통째로 버리지 않고 직전 값을 그대로 쓴다.
@@ -325,7 +327,8 @@ ${JSON.stringify(market)}
 뉴스 목록(JSON):
 ${JSON.stringify(news.map((n) => ({ headline: n.headline, summary: n.summary })))}`;
 
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
+  const data = await fetchJson("https://api.anthropic.com/v1/messages", {
+    label: "Claude API",
     method: "POST",
     headers: {
       "content-type": "application/json",
@@ -340,12 +343,6 @@ ${JSON.stringify(news.map((n) => ({ headline: n.headline, summary: n.summary }))
     }),
   });
 
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`Claude API 호출 실패: ${res.status} ${body}`);
-  }
-
-  const data = await res.json();
   const text = data.content.map((block) => block.text || "").join("");
   return extractJson(text);
 }
@@ -368,32 +365,44 @@ async function main() {
   );
 
   const market = { stocks, crypto };
-  const { insight_ko, insight_movers, news_ko } = await generateInsightAndTranslation(
-    market,
-    news
-  );
-
   const allInstruments = [
     ...stocks.map((s) => ({ ...s, type: "stock" })),
     ...crypto.map((c) => ({ ...c, type: "crypto" })),
   ];
-  const resolvedMovers = (insight_movers || [])
-    .map((m) => {
-      const found = allInstruments.find(
-        (item) => item.symbol.toUpperCase() === String(m.symbol).toUpperCase()
-      );
-      if (!found) return null;
-      return { ...found, reason_ko: m.reason_ko };
-    })
-    .filter(Boolean);
 
-  const translatedNews = news.map((item, i) => ({
-    ...item,
-    headline_ko: news_ko[i]?.headline_ko ?? item.headline,
-    summary_ko: news_ko[i]?.summary_ko ?? item.summary,
-    detail_ko: news_ko[i]?.detail_ko ?? "",
-    impact_ko: news_ko[i]?.impact_ko ?? "",
-  }));
+  // 인사이트와 뉴스 해설은 같은 호출에서 나오므로 실패하면 같이 직전 값으로 돌아간다.
+  // 번역만 직전 값을 쓰면 오늘 기사에 어제 한글 본문이 붙어버린다.
+  let insight = prev?.insight;
+  let translatedNews = prev?.news;
+  try {
+    const { insight_ko, insight_movers, news_ko } = await generateInsightAndTranslation(
+      market,
+      news
+    );
+    insight = {
+      paragraphs_ko: Array.isArray(insight_ko) ? insight_ko : [insight_ko],
+      movers: (insight_movers || [])
+        .map((m) => {
+          const found = allInstruments.find(
+            (item) => item.symbol.toUpperCase() === String(m.symbol).toUpperCase()
+          );
+          if (!found) return null;
+          return { ...found, reason_ko: m.reason_ko };
+        })
+        .filter(Boolean),
+    };
+    translatedNews = news.map((item, i) => ({
+      ...item,
+      headline_ko: news_ko[i]?.headline_ko ?? item.headline,
+      summary_ko: news_ko[i]?.summary_ko ?? item.summary,
+      detail_ko: news_ko[i]?.detail_ko ?? "",
+      impact_ko: news_ko[i]?.impact_ko ?? "",
+    }));
+  } catch (err) {
+    if (!insight || !translatedNews) throw err;
+    console.warn(`인사이트·뉴스 해설 갱신 실패, 직전 값 유지: ${err.message}`);
+    stale.push("인사이트·뉴스 해설");
+  }
 
   const history = await fetchHistory(allInstruments, await readPrevious("history.json"));
 
@@ -401,10 +410,7 @@ async function main() {
     generated_at: new Date().toISOString(),
     stale_sections: stale,
     market,
-    insight: {
-      paragraphs_ko: Array.isArray(insight_ko) ? insight_ko : [insight_ko],
-      movers: resolvedMovers,
-    },
+    insight,
     news: translatedNews,
     calendar,
   };
