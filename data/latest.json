@@ -1,271 +1,256 @@
 {
-  "generated_at": "2026-08-30T18:39:04.576Z",
+  "generated_at": "2026-09-01T14:55:10.926Z",
+  "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 319.7,
-        "change_pct": 1.6276
+        "price": 324.74,
+        "change_pct": 2.4901
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 513.53,
-        "change_pct": 1.677
+        "price": 502.61,
+        "change_pct": -0.9225
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 217.55,
-        "change_pct": -4.575
+        "price": 218.18,
+        "change_pct": -1.1776
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 348.75,
-        "change_pct": -1.708
+        "price": 357.95,
+        "change_pct": -2.7178
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 266.43,
-        "change_pct": 3.9686
+        "price": 254.32,
+        "change_pct": -2.098
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 346.59,
-        "change_pct": 1.7437
+        "price": 336.37,
+        "change_pct": -0.8781
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 578.02,
-        "change_pct": 1.2117
+        "price": 577.03,
+        "change_pct": 0.8194
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 769.35,
-        "change_pct": -0.2269
+        "price": 763.64,
+        "change_pct": -0.4446
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 716.43,
-        "change_pct": -0.649
+        "price": 710.27,
+        "change_pct": -0.9055
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 79137,
-        "change_pct": 1.30804
+        "price": 78302,
+        "change_pct": -0.17835
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2514.26,
-        "change_pct": 2.66811
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 489.81,
-        "change_pct": 4.91368
+        "price": 2452.9,
+        "change_pct": -0.4728
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 873.57,
-        "change_pct": 4.18157
+        "price": 860.59,
+        "change_pct": 3.23244
       },
       {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price": 1.43,
-        "change_pct": 2.62473
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 84.18,
+        "change_pct": 3.21021
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.20575,
-        "change_pct": 2.32082
+        "price": 0.200014,
+        "change_pct": 1.77012
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1,
-        "change_pct": -3.86558
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 11.47,
+        "change_pct": 1.55078
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01744217,
-        "change_pct": -0.99654
+        "price": 0.0165783,
+        "change_pct": -3.02121
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
-        "price": 9.6,
-        "change_pct": -0.38402
+        "price": 9.38,
+        "change_pct": -2.67019
       },
       {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999801,
-        "change_pct": -0.01851
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.013,
+        "change_pct": -2.29861
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.3254,
+        "change_pct": -2.24059
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. S&P 500과 나스닥100 ETF는 소폭 하락했으나, 개별 대형주들 중 상당수는 상승세를 유지했다. 이는 시장이 연방준비제도의 금리 인상 가능성에 대해 엇갈린 신호를 받으면서 나타난 현상으로 해석된다.",
-      "아마존(AMZN)과 마이크로소프트(MSFT), 애플(AAPL) 등 빅테크 종목들이 1~4% 상승세를 보였다. 이들은 상대적으로 금리 인상에 강한 저항력을 지닌 우량주로, 경제 불확실성 속에서도 실적 기반의 투자 수요가 유입되는 것으로 보인다. 특히 아마존의 강세는 기술 기업의 실적 개선 기대감을 반영하는 것으로 해석된다.",
-      "엔비디아(NVDA)는 4.6% 하락하며 약세를 보였다. AI 반도체 수요에 대한 기대감이 높았던 만큼, 금리 인상 우려와 함께 고평가 종목에 대한 이익 실현 매물이 나온 것으로 보인다. 테슬라(TSLA)도 1.7% 하락하며 성장주 약세 기조에 동참했다.",
-      "암호화폐 시장에서는 프라이버시 코인들이 두드러진 강세를 보였다. 모네로(XMR)는 4.9%, 지캐시(ZEC)는 4.2% 상승했는데, 이는 규제 리스크와 거시경제 불확실성 속에서 프라이버시 보호 기능을 갖춘 자산에 대한 수요가 증가하는 것으로 해석된다. 비트코인(BTC)과 이더리움(ETH)도 각각 1.3%, 2.7% 상승하며 위험자산 선호 심리를 반영했다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 중동 긴장 고조에 따른 유가 상승과 이에 따른 금리 인상 우려 속에서 혼조세를 보였다. 기술주 중심의 나스닥이 약세를 기록한 반면, 일부 방어주와 특정 섹터에서는 상대적 강세가 나타났다.",
+      "애플(AAPL)이 +2.49%로 상승세를 보인 것으로 해석되며, 이는 전반적인 기술주 약세 속에서도 소비재 관련 방어 심리와 배당 수익률 매력이 작용한 것으로 보인다. 메타(META)도 소폭 상승하며 상대적 강세를 유지했다.",
+      "테슬라(TSLA, -2.72%), 아마존(AMZN, -2.10%), 엔비디아(NVDA, -1.18%) 등 대형 기술주들이 하락한 배경에는 중동 지정학적 리스크로 인한 유가 급등과 이에 따른 금리 인상 우려가 작용한 것으로 해석된다. 높아진 금리 전망은 성장주의 현재가치를 압박하는 요인으로 작용했다.",
+      "암호화폐 시장에서는 프라이버시 코인인 지캐시(ZEC, +3.23%)와 하이퍼리퀴드(HYPE, +3.21%)가 눈에 띄는 상승을 기록했다. 지정학적 리스크 심화 시 규제 회피 자산으로서의 프라이버시 코인에 대한 수요 증가와 디파이 플랫폼에 대한 관심 재조명이 영향을 미친 것으로 보인다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 266.43,
-        "change_pct": 3.9686,
-        "type": "stock",
-        "reason_ko": "빅테크 우량주 수요 증가"
-      },
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "price": 513.53,
-        "change_pct": 1.677,
-        "type": "stock",
-        "reason_ko": "기술주 실적 기대감"
-      },
-      {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 319.7,
-        "change_pct": 1.6276,
+        "price": 324.74,
+        "change_pct": 2.4901,
         "type": "stock",
-        "reason_ko": "안정적 우량주 선호"
+        "reason_ko": "금리 인상 우려 속 방어주 매력"
       },
       {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "price": 217.55,
-        "change_pct": -4.575,
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 357.95,
+        "change_pct": -2.7178,
         "type": "stock",
-        "reason_ko": "금리 인상 우려, 이익 실현"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 489.81,
-        "change_pct": 4.91368,
-        "type": "crypto",
-        "reason_ko": "프라이버시 자산 수요 증가"
+        "reason_ko": "유가 상승과 금리 인상 우려 압박"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 873.57,
-        "change_pct": 4.18157,
+        "price": 860.59,
+        "change_pct": 3.23244,
         "type": "crypto",
-        "reason_ko": "규제 리스크 속 프라이버시 선호"
+        "reason_ko": "지정학적 리스크 시 프라이버시 자산 수요"
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 84.18,
+        "change_pct": 3.21021,
+        "type": "crypto",
+        "reason_ko": "위험자산 회피 속 디파이 관심 재조명"
       }
     ]
   },
   "news": [
     {
-      "headline": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil - Reuters",
-      "summary": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil  Reuters",
+      "headline": "10-year yield hits highest since January 2025 as Middle East tensions return to focus",
+      "summary": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
+      "published_at": "2026-09-01T10:47:52.000Z",
+      "headline_ko": "10년물 미국채 수익률, 1월 이후 최고 수준으로 상승...중동 긴장 재부상",
+      "summary_ko": "투자자들이 중동 긴장 고조를 주시하면서 화요일 미국채 수익률이 상승했다.",
+      "detail_ko": "중동 지정학적 리스크의 재부상이 안전자산인 미국채에 대한 수요를 감소시키고 있다. 이는 투자자들이 향후 인플레이션 압력과 금리 인상 가능성을 더 높게 평가하고 있음을 시사한다. 금리 상승은 특히 성장주와 고평가 기술주에 부정적 영향을 미칠 수 있다.",
+      "impact_ko": "금리 상승 추세가 지속될 경우 주식시장, 특히 기술주 중심의 나스닥에 하방 압력이 가해질 수 있다. 또한 고정금리 대출 상품의 비용 증가로 소비자 신용 수요가 위축될 가능성이 있다."
+    },
+    {
+      "headline": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
+      "summary": "The expectation had been for falling rates this year, but the war with Iran and its resulting rise in oil prices upended that.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
+      "published_at": "2026-08-31T17:56:01.000Z",
+      "headline_ko": "모기지 금리, 6월 이후 최고 수준으로 급등...중동 공격으로 유가 상승",
+      "summary_ko": "이란과의 전쟁과 이에 따른 유가 상승이 올해 금리 하락 기대를 무너뜨렸다.",
+      "detail_ko": "중동 군사 긴장이 직접적으로 에너지 가격에 영향을 미치면서 인플레이션 우려가 재점화되고 있다. 이는 연초 금리 인하 기대를 크게 훼손하는 요인으로 작용하고 있다. 모기지 금리 상승은 주택 구매력 약화로 이어져 부동산 시장에 부정적 신호를 보낼 수 있다.",
+      "impact_ko": "주택 구매 수요 위축으로 건설업 및 주택 관련 기업들의 실적 부진이 예상될 수 있다. 소비자 심리 악화로 인한 경제 전반의 성장 둔화 가능성도 배제할 수 없다."
+    },
+    {
+      "headline": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
+      "summary": "Mortgage rates aren't expected to get much cheaper for homebuyers in 2027, especially if inflation stays high.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
+      "published_at": "2026-08-31T17:16:59.000Z",
+      "headline_ko": "2027년 주택 구매 가격 인하 기대? 금리는 여전히 높을 것",
+      "summary_ko": "2027년에도 모기지 금리가 크게 내려가지 않을 것으로 예상되며, 특히 인플레이션이 높게 유지될 경우 더욱 그럴 가능성이 있다.",
+      "detail_ko": "중기적 금리 전망이 부정적으로 형성되고 있다는 것은 중앙은행의 금리 인하 경로가 예상보다 완만할 수 있음을 시사한다. 지정학적 리스크와 에너지 가격 상승이 구조적 인플레이션 압력을 유지하는 한, 금리 인하의 폭과 속도가 제한될 수 있다.",
+      "impact_ko": "장기간 높은 금리 환경이 지속될 경우 주택 시장의 구조적 약세가 심화될 수 있다. 이는 건설 투자 부진, 부동산 관련 금융 상품의 수익성 악화 등으로 이어질 가능성이 있다."
+    },
+    {
+      "headline": "Europe's STOXX 600 falls as oil prices jump, but secures fifth monthly gain - Reuters",
+      "summary": "Europe's STOXX 600 falls as oil prices jump, but secures fifth monthly gain  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORVlaS1VmZVF5Rjh3RFkwVk40ZGpBSU1LLXM3XzQ1REFxbnl0aHREWXhieU9vUnU0aUdkTWgtNmJrYk9BRDE3aEllamozWFJVMHZ5QTJUS0pkckpwbjFVQ2dxaEhBaWZWZXg3a05ISG1Fb3k4aWV0QmRSbGFiOHdsQ0x6QWZjUUN6b3lsc2c5MEZOc2RCWXZXcERhdkN4NFJGVHBGejVxbTBZWDdvczdJamxDQ3Jib29xS1lzcURfX05MQ1BET25r?oc=5",
-      "published_at": "2026-08-30T17:16:27.000Z",
-      "headline_ko": "미국 재무부 베센트, G20 외교전에서 관세·이란 전쟁·채권 혼란 직면",
-      "summary_ko": "미국 재무부 장관 베센트가 G20 회의에서 관세 정책, 지정학적 긴장, 채권시장 불안정 등 복합적인 경제 현안을 다루게 된다.",
-      "detail_ko": "베센트 재무부 장관은 국제 경제 협력 무대인 G20에서 트럼프 행정부의 공격적 관세 정책, 중동 지정학적 리스크, 그리고 미국 채권시장의 변동성 확대라는 세 가지 주요 이슈를 동시에 관리해야 하는 상황에 놓여 있다. 이는 국내 경제 정책과 국제 외교의 균형을 맞춰야 하는 도전적인 과제를 의미한다. 특히 관세 정책이 국제 무역 질서에 미치는 영향과 채권 수익률 급등이 글로벌 금융 안정성에 미치는 파급효과를 동시에 설득해야 한다.",
-      "impact_ko": "G20 회의의 결과에 따라 국제 무역 협력 기조와 환율 정책, 금리 기대 등이 영향을 받을 수 있다. 베센트의 외교적 성과가 부진할 경우 관세 분쟁 심화와 채권시장 불안정이 심화될 가능성이 있다. 이는 글로벌 주식시장과 환율 변동성 확대로 이어질 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzdFeEJfZ24zM2Yxemdobk42RnA2M1RVTWMwdWZ1NDA1X21PTS04d3BMWVZwTkNUTGRCNWdmS2phTUhJdUVZR29TMWVBU3dqUkhtVFdZRVgtUEM5WldFRlNFcGh4U05tdGYtN21pam5uU1hzd19aSlFGaXRzbXlMWFp2ZmZDMXdQeXc3QVRXdDM4UHg4OVlUODdmLTNCVk5PQzZEaQ?oc=5",
+      "published_at": "2026-08-31T16:19:55.000Z",
+      "headline_ko": "유럽 STOXX 600, 유가 급등에 하락했으나 5개월 연속 상승 유지",
+      "summary_ko": "유가 상승으로 유럽 주식지수가 하락했지만, 월간 기준으로는 5개월 연속 상승세를 기록했다.",
+      "detail_ko": "단기적으로는 유가 상승에 따른 에너지 비용 증가 우려가 유럽 기업들의 수익성을 압박하고 있다. 그러나 장기적으로는 유럽 경제의 회복 추세가 여전히 유지되고 있음을 보여준다. 이는 지정학적 리스크에도 불구하고 기본적인 경제 펀더멘탈이 비교적 견고함을 시사한다.",
+      "impact_ko": "유럽 기업들의 에너지 비용 상승이 마진 압박으로 이어질 수 있으나, 경기 회복세가 이를 부분적으로 상쇄할 가능성이 있다. 에너지 집약적 산업과 그렇지 않은 산업 간 성과 격차가 확대될 수 있다."
     },
     {
-      "headline": "Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials",
-      "summary": "Trump's attack on NBC comes after the Treasury barred journalists from The New York Times, The Wall Street Journal and Bloomberg from attending the G20.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/30/trump-nbc-election-comment-treasury-g20-reporter-access.html",
-      "published_at": "2026-08-30T16:55:14.000Z",
-      "headline_ko": "트럼프, NBC 비판하며 G20 기자단 자격 박탈 논란 확산",
-      "summary_ko": "트럼프 대통령이 NBC를 비판하는 와중에 재무부가 뉴욕타임스, 월스트리트저널, 블룸버그 기자들의 G20 참석 자격을 박탈했다.",
-      "detail_ko": "트럼프 행정부가 주요 언론사 기자들의 G20 회의 참석을 제한하는 조치를 취했으며, 이는 언론 자유와 정부 투명성 문제로 비화되고 있다. 이러한 조치는 국제 외교 무대에서 미국의 신뢰성과 개방성에 대한 의문을 제기할 수 있다. 동시에 트럼프 대통령의 NBC에 대한 공개적 비판은 언론과의 관계 악화를 심화시키는 신호로 해석된다.",
-      "impact_ko": "언론 자유 제한에 대한 국제적 비판이 미국의 외교적 입지를 약화시킬 수 있다. 이는 G20 회의에서의 미국의 협상력 약화로 이어질 가능성이 있으며, 결과적으로 국제 경제 협력 기조에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
-      "summary": "Broadcom and Palo Alto Networks report. Plus, it's jobs week.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/30/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "published_at": "2026-08-30T14:54:49.000Z",
-      "headline_ko": "다음 주 주식시장 주목 포인트: 브로드컴·팔로알토 실적, 고용지표",
-      "summary_ko": "다음 주 주식시장에서는 브로드컴과 팔로알토 네트웍스의 실적 발표와 고용 관련 경제지표가 주요 변수가 될 것으로 예상된다.",
-      "detail_ko": "주요 반도체 및 사이버보안 기업들의 실적 발표는 기술주 투자 심리에 직접적인 영향을 미칠 것으로 보인다. 특히 AI 관련 반도체 수요와 엔터프라이즈 보안 투자 동향을 가늠할 수 있는 중요한 지표가 될 것이다. 동시에 고용지표는 연방준비제도의 금리 정책 결정에 영향을 미치는 핵심 경제 데이터로, 시장의 금리 인상 기대감을 좌우할 수 있다.",
-      "impact_ko": "기술주 실적이 시장 기대를 상회할 경우 나스닥 지수의 반등을 이끌 수 있다. 반대로 고용지표가 약세를 보일 경우 금리 인상 우려가 완화되어 성장주에 긍정적일 수 있다. 이 두 변수의 결합 효과에 따라 다음 주 시장의 방향성이 결정될 가능성이 높다."
-    },
-    {
-      "headline": "Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks - Reuters",
-      "summary": "Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks  Reuters",
+      "headline": "Depleted US oil stash loses potency as Iran war grinds on - Reuters",
+      "summary": "Depleted US oil stash loses potency as Iran war grinds on  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMUp0Y2RpUlUyc1ZQakFhRXB4TjZwTlIzb1FUTVFCdEVMNHp6LWdkdXc2ZkdCUVo0TmZyb25XWUYzS0dkLTJuVzAzcldNWnhRZTJLREotVi1pQUlOeS1QMmM3ZWhVeTZIOTg2UGMtNzhZQ1EzM3BydUVGMC0xdzdOMzNBZ2VxOTNncUJOT2ZQa0FGU2FrR1YxYUNNcU9va2VRTXJ6ZGFscUdSRmc3V3JtRDJHaXE?oc=5",
-      "published_at": "2026-08-30T13:15:45.000Z",
-      "headline_ko": "중동 주식시장 하락, 워시 발언 이후 연준 인상 베팅 증가",
-      "summary_ko": "연방준비제도 의장 워시의 인플레이션 경고 발언 이후 금리 인상 가능성이 높아지면서 중동 주식시장이 하락했다.",
-      "detail_ko": "워시 의장의 강경한 인플레이션 경고는 시장의 금리 인상 기대감을 급격히 높였으며, 이는 신흥시장과 고배당 자산에 부정적 영향을 미쳤다. 중동 지역의 주식시장은 높은 금리 환경에 취약한 구조를 가지고 있어, 미국 금리 인상 우려에 민감하게 반응하는 경향이 있다. 이는 글로벌 자본 흐름이 안전자산과 고금리 자산으로 재편되는 과정을 반영한다.",
-      "impact_ko": "연준의 금리 인상 가능성이 높아질수록 신흥시장 자본 유출이 가속화될 수 있다. 이는 중동을 포함한 신흥시장 통화 약세와 주식시장 추가 하락으로 이어질 가능성이 있다. 동시에 미국 달러 강세가 지속될 가능성이 높아지면서 원자재 가격 하락 압력도 증가할 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVUhmd2cwQ2lLMjFlWXpza0hEZWhGZU1NcGg2eGJ3Y0x4OVA0YWhIUVptWmcxVnU0V0hKRnRJR1FQSU5WT2M4aUZDRngzSDVpczVybkN5dUEyZ0FrdFFSaVlxZ0I2WjVLTEprenVzY2VCdFN2c0NXQXhldWxzN1daOGNya2RjMkZsSHN2ZXhuS19kdXJvS3VBYkk4OFVIYmtyN2JoRFJR?oc=5",
+      "published_at": "2026-08-31T15:33:05.000Z",
+      "headline_ko": "고갈된 미국 전략석유비축, 이란 전쟁 장기화 속 효과 감소",
+      "summary_ko": "미국의 전략석유비축이 고갈되면서 이란 전쟁이 장기화될 경우 유가 안정화에 제약이 생기고 있다.",
+      "detail_ko": "미국 정부의 유가 안정화 수단이 제한되고 있다는 것은 향후 유가 변동성이 더 클 수 있음을 의미한다. 전략석유비축의 고갈은 공급 충격에 대한 버팀목이 사라졌음을 의미하며, 중동 공급 차질이 직접적으로 유가에 반영될 가능성이 높아진다.",
+      "impact_ko": "유가의 상방 압력이 지속될 가능성이 높아지면서 인플레이션 재부상 우려가 커질 수 있다. 이는 연준의 금리 인하 일정을 더욱 연기시킬 수 있는 요인으로 작용할 것으로 보인다."
     },
     {
-      "headline": "Warsh’s inflation warning sets up September showdown for the Fed",
-      "summary": "Warsh didn’t signal that such a move is a done deal, and some Fed officials continue to say they are willing to wait and assess new data before making any decision",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-28/warsh-s-inflation-warning-sets-up-september-showdown-for-the-fed",
-      "published_at": "2026-08-29T14:17:40.000Z",
-      "headline_ko": "워시 의장의 인플레이션 경고, 9월 연준 정책 결정을 향한 신호탄",
-      "summary_ko": "연방준비제도 의장 워시가 기저 인플레이션이 개선되지 않고 있다며 9월 금리 인상 가능성을 시사했으나, 최종 결정은 추가 데이터 평가에 달려 있다고 밝혔다.",
-      "detail_ko": "워시 의장의 발언은 연준이 인플레이션 문제를 여전히 심각하게 보고 있으며, 금리 인상이 정책 옵션으로 남아 있음을 시사한다. 다만 그는 이것이 확정된 결정이 아니며 추가 경제 데이터를 평가한 후 최종 판단하겠다는 신중한 입장을 유지했다. 이는 시장에 불확실성을 주면서도 연준의 정책 유연성을 암시하는 메시지로 해석된다.",
-      "impact_ko": "워시의 발언은 시장의 금리 인상 기대감을 높이면서도 완전한 확정이 아니라는 점에서 변동성을 야기할 수 있다. 향후 발표될 고용지표, 인플레이션 데이터 등에 따라 시장의 금리 기대가 급격히 변할 수 있다. 이는 채권시장 수익률 변동성 확대와 주식시장의 불확실성 증가로 이어질 가능성이 있다."
-    },
-    {
-      "headline": "Gen Zers quit their jobs to start a pickle company—now it’s valued at $8.5 million",
-      "summary": "Good Girl Snacks founders Leah Marcus and Yasaman Bakhitar built their startup's multimillion-dollar valuation with pickle jars and Gen Z branding strategies.",
+      "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "summary": "Oil is up nearly 4% after U.S. and Iran exchanged attacks for the first time since July.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/29/how-two-gen-z-founders-made-hot-girl-pickles-stand-out.html",
-      "published_at": "2026-08-29T13:05:01.000Z",
-      "headline_ko": "Z세대 창업자들, 피클 회사로 850만 달러 기업가치 달성",
-      "summary_ko": "Z세대 창업자 리아 마쿠스와 야사만 바키타르가 설립한 굿걸 스낵스는 피클 제품과 Z세대 마케팅 전략으로 850만 달러의 기업가치를 달성했다.",
-      "detail_ko": "이 사례는 전통적인 식품 산업에서도 젊은 세대의 창의적인 브랜딩과 소셜 미디어 마케팅이 얼마나 강력한 가치 창출 도구가 될 수 있는지를 보여준다. 피클이라는 단순한 제품이 Z세대의 라이프스타일과 가치관에 부합하는 브랜드 이미지로 포장되면서 높은 기업가치를 달성한 것이다. 이는 스타트업 생태계에서 제품 자체보다 브랜드 스토리텔링과 타겟 고객층과의 감정적 연결이 얼마나 중요한지를 시사한다.",
-      "impact_ko": "이러한 성공 사례는 식품 산업의 스타트업 투자 심리를 자극할 수 있으며, 특히 Z세대를 타겟으로 한 소비재 기업들에 대한 벤처캐피탈의 관심을 높일 가능성이 있다. 동시에 전통 식품 대기업들이 젊은 세대의 취향 변화에 대응하기 위해 인수합병이나 신규 브랜드 개발에 투자할 동기를 제공할 수 있다."
+      "url": "https://www.cnbc.com/2026/08/31/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "published_at": "2026-08-31T13:04:05.000Z",
+      "headline_ko": "짐 크래머의 주목할 10가지 시장 포인트: 미-이란 교전 후 유가 4% 상승",
+      "summary_ko": "미국과 이란이 7월 이후 처음으로 직접 교전한 후 유가가 4% 가까이 상승했다.",
+      "detail_ko": "중동 군사 긴장의 직접적 교전으로 확대는 시장 참여자들에게 공급 차질에 대한 구체적 우려를 심어주고 있다. 이는 단순한 지정학적 리스크 프리미엄을 넘어 실제 공급 감소 가능성을 반영하는 것으로 해석된다.",
+      "impact_ko": "유가 상승이 지속될 경우 에너지 수입국의 경상수지 악화와 인플레이션 압력이 동시에 나타날 수 있다. 특히 유럽과 아시아 지역의 경제 성장률 둔화 가능성이 높아질 수 있다."
     },
     {
-      "headline": "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
-      "summary": "Treasury has not disclosed how much yen it bought, the execution rate or the current value of the position, despite Warren’s requests for details.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/28/bessent-warren-yen-intervention-treasury-japan.html",
-      "published_at": "2026-08-28T19:23:18.000Z",
-      "headline_ko": "베센트, 엔 의원의 엔화 개입 질문에 반박하며 '외환 입문서' 제시",
-      "summary_ko": "재무부 장관 베센트가 엔화 개입 규모와 집행률 공개를 요구하는 엔 의원의 질문에 대해 강하게 반박했으며, 재무부는 이러한 정보 공개를 거부하고 있다.",
-      "detail_ko": "베센트 장관의 반박은 엔화 개입이라는 민감한 외환 정책에 대한 투명성 요구에 대해 행정부가 얼마나 방어적인 입장을 취하고 있는지를 보여준다. 엔화 개입의 규모, 집행 시점, 현재 포지션 가치 등은 외환시장에 직접적인 영향을 미치는 정보이기 때문에, 이를 공개하지 않겠다는 입장은 정책의 유연성을 유지하려는 의도로 해석된다. 다만 이는 의회의 감시 기능 약화와 정책 투명성 부족에 대한 비판을 초래할 수 있다.",
-      "impact_ko": "엔화 개입 정보의 비공개는 시장의 추측과 불확실성을 증가시킬 수 있으며, 이는 달러-엔 환율의 변동성을 높일 가능성이 있다. 동시에 의회와 행정부 간의 정책 투명성 갈등이 심화될 경우 향후 외환 정책 결정의 신뢰성 문제로 이어질 수 있다."
+      "headline": "Oil to hold above $80 a barrel as Middle East supply risks persist - Reuters",
+      "summary": "Oil to hold above $80 a barrel as Middle East supply risks persist  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZm1UZWgzbTlVVzdIeFRJQWN1TEMtZGdwZFpaaUx6ZmhNU0RrakpicWtuNHNKb0JPc2VvbURJZzlYQkNzVk9Sc3NoMFBjcWZHQ0NoQ3hmaG1iZS0zdjJlbERFU25uN2VaNGp0Q3ZBb0JPRldfQjZLVDB5X25NdlBBT04tblFSdTFPTTVLUWxRMUNkM1NNSjE5X1A1WDlVUmtLZUs1bjItRmFqd1hEbHdzbDJn?oc=5",
+      "published_at": "2026-08-31T11:08:09.000Z",
+      "headline_ko": "유가, 중동 공급 리스크 지속 속 배럴당 80달러 이상 유지 전망",
+      "summary_ko": "중동 공급 리스크가 계속되는 한 유가는 배럴당 80달러 이상의 수준을 유지할 것으로 예상된다.",
+      "detail_ko": "시장 전문가들이 중기적으로 높은 유가 환경을 전제하고 있다는 것은 지정학적 리스크가 단기 변동성이 아닌 구조적 요인으로 평가되고 있음을 의미한다. 이는 에너지 가격 상승이 인플레이션과 금리에 지속적으로 영향을 미칠 것임을 시사한다.",
+      "impact_ko": "높은 유가 환경이 지속될 경우 에너지 관련 기업들의 수익성은 개선되지만, 에너지 소비 기업들의 비용 부담이 증가할 수 있다. 이는 산업 간 수익성 격차 확대로 이어질 가능성이 있다."
     },
     {
-      "headline": "Fed Chair Kevin Warsh says inflation isn’t slowing, vows to reach 2% target",
-      "summary": "Fed Chair Kevin Warsh says underlying inflation has not meaningfully improved, keeping a September rate hike possible as policymakers assess price pressures.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-28/warsh-says-inflation-isn-t-slowing-vows-to-hit-to-2-target",
-      "published_at": "2026-08-28T17:53:58.000Z",
-      "headline_ko": "워시 연준 의장, 인플레이션 둔화 부족 지적하며 2% 목표 달성 의지 표현",
-      "summary_ko": "연방준비제도 의장 워시가 기저 인플레이션이 의미 있게 개선되지 않았다고 지적하면서 2% 목표 달성을 위한 강한 의지를 드러냈다.",
-      "detail_ko": "워시 의장의 발언은 현재의 인플레이션 상황이 여전히 연준의 목표치에서 벗어나 있으며, 이를 해결하기 위해 추가적인 정책 조치가 필요할 수 있음을 시사한다. 기저 인플레이션이 완고하게 유지되고 있다는 평가는 단순한 일시적 물가 상승이 아니라 구조적인 인플레이션 압력이 존재한다는 의미로 해석된다. 이는 금리 인상이 불가피할 수 있음을 암시하는 강한 신호이다.",
-      "impact_ko": "워시의 강경한 인플레이션 경고는 시장의 금리 인상 기대감을 크게 높일 수 있으며, 이는 채권 수익률 상승과 성장주 약세로 이어질 가능성이 있다. 동시에 달러 강세가 지속될 가능성이 높아지면서 신흥시장과 원자재 가격에 부정적 영향을 미칠 수 있다. 향후 경제 데이터에 따라 9월 금리 인상 가능성이 높아질 수 있다."
+      "headline": "Qatar's first-quarter GDP falls 7% as Iran war weighs on energy production - Reuters",
+      "summary": "Qatar's first-quarter GDP falls 7% as Iran war weighs on energy production  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUDRKOEZ0M3JrM0M1RTFRSHZubzF4SF9UX21fUWNJNjJIc1pSZnVORnIxaHNzdENEbEtiLV85NG9sQVlDdjBaWW00ZlpDUzhzT0RGbHdScUliNnlsUlEzNHpaSHNXTEx4S1pyTm5MRGNERDQ1czI1dzZkOG4xVkVPTUVpb1ZiaEk0b1FIY2c3OURDYUpETjItd19sbHpXMDRubDhiRGNVZFQ3X2hLTFhMbmo2bExSc3NXRmlFSQ?oc=5",
+      "published_at": "2026-08-31T10:31:43.000Z",
+      "headline_ko": "카타르 1분기 GDP 7% 하락...이란 전쟁이 에너지 생산에 타격",
+      "summary_ko": "카타르의 1분기 GDP가 7% 감소했으며, 이는 이란 전쟁이 에너지 생산에 미친 영향을 보여준다.",
+      "detail_ko": "중동 주요 에너지 생산국의 경제가 직접적인 타격을 입고 있다는 것은 지정학적 리스크가 단순한 가격 변동을 넘어 실제 생산 능력 감소로 이어지고 있음을 의미한다. 카타르의 GDP 급락은 지역 경제의 구조적 약화를 시사한다.",
+      "impact_ko": "중동 지역의 경제 약세는 글로벌 유동성 축소와 신흥시장 자금 이탈로 이어질 수 있다. 또한 중동 산유국들의 해외 투자 규모 축소로 글로벌 자산 가격에도 부정적 영향을 미칠 가능성이 있다."
     }
   ],
   "calendar": [
