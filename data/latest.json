@@ -1,165 +1,165 @@
 {
-  "generated_at": "2026-09-01T14:55:10.926Z",
+  "generated_at": "2026-09-01T14:59:45.199Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 324.74,
-        "change_pct": 2.4901
+        "price": 325.01,
+        "change_pct": 2.5754
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 502.61,
-        "change_pct": -0.9225
+        "price": 501.83,
+        "change_pct": -1.0763
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 218.18,
-        "change_pct": -1.1776
+        "price": 217.75,
+        "change_pct": -1.3724
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 357.95,
-        "change_pct": -2.7178
+        "price": 357.4,
+        "change_pct": -2.8672
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 254.32,
-        "change_pct": -2.098
+        "price": 254.44,
+        "change_pct": -2.0518
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 336.37,
-        "change_pct": -0.8781
+        "price": 335.98,
+        "change_pct": -0.9931
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 577.03,
-        "change_pct": 0.8194
+        "price": 578.34,
+        "change_pct": 1.0483
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 763.64,
-        "change_pct": -0.4446
+        "price": 763.5,
+        "change_pct": -0.4628
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 710.27,
-        "change_pct": -0.9055
+        "price": 709.81,
+        "change_pct": -0.9696
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 78302,
-        "change_pct": -0.17835
+        "price": 78180,
+        "change_pct": -0.45419
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2452.9,
-        "change_pct": -0.4728
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 860.59,
-        "change_pct": 3.23244
+        "price": 2448.84,
+        "change_pct": -0.70461
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 84.18,
-        "change_pct": 3.21021
+        "price": 83.97,
+        "change_pct": 2.96477
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 855.98,
+        "change_pct": 2.52334
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.200014,
-        "change_pct": 1.77012
+        "price": 0.199682,
+        "change_pct": 1.51917
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 11.47,
-        "change_pct": 1.55078
+        "price": 11.45,
+        "change_pct": 1.19813
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.0165783,
-        "change_pct": -3.02121
+        "price": 0.01656295,
+        "change_pct": -3.13056
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 9.38,
-        "change_pct": -2.67019
+        "change_pct": -2.66946
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.325351,
+        "change_pct": -2.31871
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.013,
-        "change_pct": -2.29861
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.3254,
-        "change_pct": -2.24059
+        "change_pct": -2.16415
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 중동 긴장 고조에 따른 유가 상승과 이에 따른 금리 인상 우려 속에서 혼조세를 보였다. 기술주 중심의 나스닥이 약세를 기록한 반면, 일부 방어주와 특정 섹터에서는 상대적 강세가 나타났다.",
-      "애플(AAPL)이 +2.49%로 상승세를 보인 것으로 해석되며, 이는 전반적인 기술주 약세 속에서도 소비재 관련 방어 심리와 배당 수익률 매력이 작용한 것으로 보인다. 메타(META)도 소폭 상승하며 상대적 강세를 유지했다.",
-      "테슬라(TSLA, -2.72%), 아마존(AMZN, -2.10%), 엔비디아(NVDA, -1.18%) 등 대형 기술주들이 하락한 배경에는 중동 지정학적 리스크로 인한 유가 급등과 이에 따른 금리 인상 우려가 작용한 것으로 해석된다. 높아진 금리 전망은 성장주의 현재가치를 압박하는 요인으로 작용했다.",
-      "암호화폐 시장에서는 프라이버시 코인인 지캐시(ZEC, +3.23%)와 하이퍼리퀴드(HYPE, +3.21%)가 눈에 띄는 상승을 기록했다. 지정학적 리스크 심화 시 규제 회피 자산으로서의 프라이버시 코인에 대한 수요 증가와 디파이 플랫폼에 대한 관심 재조명이 영향을 미친 것으로 보인다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 중동 긴장 고조에 따른 유가 급등과 이에 따른 금리 상승 우려 속에서 혼조세를 보였다. 기술주 중심의 나스닥이 약세를 기록한 반면, 일부 방어주와 특정 섹터에서는 상대적 강세가 나타났다.",
+      "애플이 2.58% 상승하며 강세를 보인 것으로 해석되는데, 이는 기술주 전반의 약세 속에서도 배당 수익성과 방어적 특성에 대한 투자자들의 선호가 반영된 것으로 보인다. 메타도 1.05% 상승하며 선별적 매수가 이어진 것으로 보인다.",
+      "테슬라(-2.87%), 아마존(-2.05%), 엔비디아(-1.37%) 등 대형 기술주들이 하락한 배경에는 중동 지정학적 리스크로 인한 유가 상승(배럴당 80달러 이상)이 금리 인상 우려를 키우면서 고성장주에 대한 선호가 약화된 영향으로 보인다. 특히 금리 민감도가 높은 성장주들이 타격을 받은 것으로 해석된다.",
+      "암호화폐 시장에서는 프라이버시 코인인 지캐시(ZEC, +2.52%)와 하이퍼리퀴드(HYPE, +2.96%)가 상승세를 보였는데, 이는 지정학적 불확실성 속에서 규제 리스크가 낮거나 기술적 혁신성이 높은 자산에 대한 선별적 수요가 나타난 것으로 해석된다. 반면 비트코인(-0.45%), 이더리움(-0.70%)은 전반적인 위험자산 회피 심리 속에서 약세를 보였으며, 이는 글로벌 거시 불확실성이 암호화폐 시장의 변동성을 높이고 있음을 시사한다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 324.74,
-        "change_pct": 2.4901,
+        "price": 325.01,
+        "change_pct": 2.5754,
         "type": "stock",
-        "reason_ko": "금리 인상 우려 속 방어주 매력"
+        "reason_ko": "금리 상승 우려 속 방어주 선호"
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 357.95,
-        "change_pct": -2.7178,
+        "price": 357.4,
+        "change_pct": -2.8672,
         "type": "stock",
-        "reason_ko": "유가 상승과 금리 인상 우려 압박"
+        "reason_ko": "중동 긴장으로 인한 금리 인상 우려"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 860.59,
-        "change_pct": 3.23244,
+        "price": 855.98,
+        "change_pct": 2.52334,
         "type": "crypto",
-        "reason_ko": "지정학적 리스크 시 프라이버시 자산 수요"
+        "reason_ko": "지정학적 불확실성 속 프라이버시 자산 수요"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 84.18,
-        "change_pct": 3.21021,
+        "price": 83.97,
+        "change_pct": 2.96477,
         "type": "crypto",
-        "reason_ko": "위험자산 회피 속 디파이 관심 재조명"
+        "reason_ko": "기술 혁신성 높은 자산 선별 수요"
       }
     ]
   },
@@ -170,10 +170,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
       "published_at": "2026-09-01T10:47:52.000Z",
-      "headline_ko": "10년물 미국채 수익률, 1월 이후 최고 수준으로 상승...중동 긴장 재부상",
-      "summary_ko": "투자자들이 중동 긴장 고조를 주시하면서 화요일 미국채 수익률이 상승했다.",
-      "detail_ko": "중동 지정학적 리스크의 재부상이 안전자산인 미국채에 대한 수요를 감소시키고 있다. 이는 투자자들이 향후 인플레이션 압력과 금리 인상 가능성을 더 높게 평가하고 있음을 시사한다. 금리 상승은 특히 성장주와 고평가 기술주에 부정적 영향을 미칠 수 있다.",
-      "impact_ko": "금리 상승 추세가 지속될 경우 주식시장, 특히 기술주 중심의 나스닥에 하방 압력이 가해질 수 있다. 또한 고정금리 대출 상품의 비용 증가로 소비자 신용 수요가 위축될 가능성이 있다."
+      "headline_ko": "10년물 미국채 수익률, 1월 이후 최고치 기록…중동 긴장 재점화",
+      "summary_ko": "화요일 중동 긴장 재점화에 따라 투자자들의 관심이 집중되면서 미국 국채 수익률이 상승했다.",
+      "detail_ko": "중동 지정학적 리스크가 재부상하면서 안전자산인 국채에 대한 수요 변화가 나타나고 있다. 1월 이후 최고 수준의 10년물 수익률 상승은 시장이 향후 인플레이션 압력과 금리 인상 가능성을 재평가하고 있음을 의미한다. 이러한 금리 상승은 특히 고성장 기술주와 같이 금리에 민감한 자산들의 밸류에이션에 부정적 영향을 미칠 수 있다.",
+      "impact_ko": "금리 상승은 기업의 차입 비용을 높이고 미래 현금흐름의 현재가치를 낮춤으로써 성장주 중심의 포트폴리오에 압박을 가할 수 있다. 또한 모기지 금리 상승으로 이어져 부동산 시장에도 영향을 미칠 가능성이 있다. 장기적으로는 인플레이션 관리와 중동 상황 진전이 금리 경로를 결정하는 주요 변수가 될 것으로 예상된다."
     },
     {
       "headline": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
@@ -181,10 +181,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
       "published_at": "2026-08-31T17:56:01.000Z",
-      "headline_ko": "모기지 금리, 6월 이후 최고 수준으로 급등...중동 공격으로 유가 상승",
-      "summary_ko": "이란과의 전쟁과 이에 따른 유가 상승이 올해 금리 하락 기대를 무너뜨렸다.",
-      "detail_ko": "중동 군사 긴장이 직접적으로 에너지 가격에 영향을 미치면서 인플레이션 우려가 재점화되고 있다. 이는 연초 금리 인하 기대를 크게 훼손하는 요인으로 작용하고 있다. 모기지 금리 상승은 주택 구매력 약화로 이어져 부동산 시장에 부정적 신호를 보낼 수 있다.",
-      "impact_ko": "주택 구매 수요 위축으로 건설업 및 주택 관련 기업들의 실적 부진이 예상될 수 있다. 소비자 심리 악화로 인한 경제 전반의 성장 둔화 가능성도 배제할 수 없다."
+      "headline_ko": "모기지 금리, 6월 이후 최고치로 급등…중동 공격으로 유가 상승",
+      "summary_ko": "중동 신규 공격으로 유가가 상승하면서 모기지 금리가 6월 이후 최고 수준으로 올랐으며, 올해 금리 하락 기대가 무너졌다.",
+      "detail_ko": "이란과의 전쟁 심화로 인한 유가 급등이 인플레이션 우려를 증폭시키고 있으며, 이는 모기지 금리 상승으로 직결되고 있다. 연초의 금리 인하 기대가 지정학적 리스크로 인해 급속도로 반전되고 있는 상황이다. 유가 상승은 에너지 비용 증가를 통해 전반적인 물가 상승 압력을 높이고, 중앙은행의 금리 인상 필요성을 강화할 수 있다.",
+      "impact_ko": "주택 구매 비용의 상승은 부동산 시장의 수요 감소로 이어질 수 있으며, 특히 저금리 환경에서 주택 구매를 계획했던 소비자들의 구매력을 크게 약화시킬 것으로 보인다. 건설업과 부동산 관련 산업의 실적 부진이 예상되며, 소비자 심리 악화로 경제 전반에 부정적 영향을 미칠 가능성이 있다."
     },
     {
       "headline": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
@@ -192,10 +192,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
       "published_at": "2026-08-31T17:16:59.000Z",
-      "headline_ko": "2027년 주택 구매 가격 인하 기대? 금리는 여전히 높을 것",
-      "summary_ko": "2027년에도 모기지 금리가 크게 내려가지 않을 것으로 예상되며, 특히 인플레이션이 높게 유지될 경우 더욱 그럴 가능성이 있다.",
-      "detail_ko": "중기적 금리 전망이 부정적으로 형성되고 있다는 것은 중앙은행의 금리 인하 경로가 예상보다 완만할 수 있음을 시사한다. 지정학적 리스크와 에너지 가격 상승이 구조적 인플레이션 압력을 유지하는 한, 금리 인하의 폭과 속도가 제한될 수 있다.",
-      "impact_ko": "장기간 높은 금리 환경이 지속될 경우 주택 시장의 구조적 약세가 심화될 수 있다. 이는 건설 투자 부진, 부동산 관련 금융 상품의 수익성 악화 등으로 이어질 가능성이 있다."
+      "headline_ko": "2027년 주택 구매 가격 인하 기대 낮아…인플레이션 지속 시 더욱 어려워질 전망",
+      "summary_ko": "2027년에도 모기지 금리가 크게 내려가지 않을 것으로 예상되며, 특히 인플레이션이 지속될 경우 주택 구매 가격이 더욱 비싸질 수 있다.",
+      "detail_ko": "시장 전문가들은 중기적으로 금리 인하 가능성이 제한적일 것으로 보고 있으며, 이는 인플레이션 관리의 어려움과 지정학적 리스크의 지속성을 반영한 것이다. 주택 구매 가능성(affordability)이 개선되지 않을 것이라는 전망은 부동산 시장의 구조적 약세를 시사한다. 소비자들의 주택 구매 계획이 장기적으로 연기되거나 축소될 가능성이 높아지고 있다.",
+      "impact_ko": "주택 시장의 약세는 건설, 부동산, 가구 등 관련 산업의 장기적 부진으로 이어질 수 있다. 또한 주택 자산에 의존하는 가계 자산 형성이 어려워지면서 소비 심리 악화와 저축률 상승으로 이어질 가능성이 있다. 이는 경제 성장률에 구조적 제약을 가할 수 있는 요인이 될 것으로 예상된다."
     },
     {
       "headline": "Europe's STOXX 600 falls as oil prices jump, but secures fifth monthly gain - Reuters",
@@ -203,10 +203,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzdFeEJfZ24zM2Yxemdobk42RnA2M1RVTWMwdWZ1NDA1X21PTS04d3BMWVZwTkNUTGRCNWdmS2phTUhJdUVZR29TMWVBU3dqUkhtVFdZRVgtUEM5WldFRlNFcGh4U05tdGYtN21pam5uU1hzd19aSlFGaXRzbXlMWFp2ZmZDMXdQeXc3QVRXdDM4UHg4OVlUODdmLTNCVk5PQzZEaQ?oc=5",
       "published_at": "2026-08-31T16:19:55.000Z",
-      "headline_ko": "유럽 STOXX 600, 유가 급등에 하락했으나 5개월 연속 상승 유지",
-      "summary_ko": "유가 상승으로 유럽 주식지수가 하락했지만, 월간 기준으로는 5개월 연속 상승세를 기록했다.",
-      "detail_ko": "단기적으로는 유가 상승에 따른 에너지 비용 증가 우려가 유럽 기업들의 수익성을 압박하고 있다. 그러나 장기적으로는 유럽 경제의 회복 추세가 여전히 유지되고 있음을 보여준다. 이는 지정학적 리스크에도 불구하고 기본적인 경제 펀더멘탈이 비교적 견고함을 시사한다.",
-      "impact_ko": "유럽 기업들의 에너지 비용 상승이 마진 압박으로 이어질 수 있으나, 경기 회복세가 이를 부분적으로 상쇄할 가능성이 있다. 에너지 집약적 산업과 그렇지 않은 산업 간 성과 격차가 확대될 수 있다."
+      "headline_ko": "유가 급등으로 유럽 STOXX 600 하락…다만 5개월 연속 월간 상승 기록",
+      "summary_ko": "유가 상승으로 유럽 주가지수가 하락했으나, 월간 기준으로는 5개월 연속 상승을 기록했다.",
+      "detail_ko": "유럽 시장은 단기적으로 유가 상승에 따른 에너지 비용 증가와 인플레이션 우려로 인한 하락 압력을 받고 있다. 그러나 월간 기준의 연속 상승은 유럽 경제의 회복력과 기업 실적 개선에 대한 기저 수요가 여전히 존재함을 보여준다. 이는 단기 변동성과 중기 추세의 괴리를 반영하는 것으로 해석된다.",
+      "impact_ko": "유럽 시장의 혼조세는 투자자들의 심리가 불안정한 상태임을 시사하며, 향후 중동 상황 진전과 유가 추이에 따라 변동성이 확대될 가능성이 있다. 에너지 수입국인 유럽의 인플레이션 압력이 지속될 경우 중앙은행의 금리 인상 기조가 강화될 수 있으며, 이는 경제 성장에 제약을 가할 수 있다."
     },
     {
       "headline": "Depleted US oil stash loses potency as Iran war grinds on - Reuters",
@@ -214,10 +214,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVUhmd2cwQ2lLMjFlWXpza0hEZWhGZU1NcGg2eGJ3Y0x4OVA0YWhIUVptWmcxVnU0V0hKRnRJR1FQSU5WT2M4aUZDRngzSDVpczVybkN5dUEyZ0FrdFFSaVlxZ0I2WjVLTEprenVzY2VCdFN2c0NXQXhldWxzN1daOGNya2RjMkZsSHN2ZXhuS19kdXJvS3VBYkk4OFVIYmtyN2JoRFJR?oc=5",
       "published_at": "2026-08-31T15:33:05.000Z",
-      "headline_ko": "고갈된 미국 전략석유비축, 이란 전쟁 장기화 속 효과 감소",
-      "summary_ko": "미국의 전략석유비축이 고갈되면서 이란 전쟁이 장기화될 경우 유가 안정화에 제약이 생기고 있다.",
-      "detail_ko": "미국 정부의 유가 안정화 수단이 제한되고 있다는 것은 향후 유가 변동성이 더 클 수 있음을 의미한다. 전략석유비축의 고갈은 공급 충격에 대한 버팀목이 사라졌음을 의미하며, 중동 공급 차질이 직접적으로 유가에 반영될 가능성이 높아진다.",
-      "impact_ko": "유가의 상방 압력이 지속될 가능성이 높아지면서 인플레이션 재부상 우려가 커질 수 있다. 이는 연준의 금리 인하 일정을 더욱 연기시킬 수 있는 요인으로 작용할 것으로 보인다."
+      "headline_ko": "미국 전략비축유 고갈로 유가 상승 억제 효과 약화…이란 전쟁 장기화 우려",
+      "summary_ko": "미국의 전략석유비축량이 고갈되면서 유가 상승을 억제할 수 있는 정부의 도구가 약화되었으며, 이란 전쟁 장기화 가능성이 높아지고 있다.",
+      "detail_ko": "미국 정부가 과거 유가 급등 시 활용해온 전략석유비축(SPR) 방출 정책의 효과가 제한되고 있다는 것은 향후 유가 안정화 수단이 부족함을 의미한다. 이란과의 갈등이 지속되면서 중동 공급 리스크가 구조화될 가능성이 높아지고 있으며, 이는 에너지 가격의 상방 압력을 지속시킬 수 있다.",
+      "impact_ko": "전략비축유 고갈은 정부의 유가 안정화 능력을 약화시켜 시장이 공급 리스크에 더욱 민감하게 반응할 수 있음을 의미한다. 유가의 상방 경직성이 강화되면서 인플레이션 관리가 더욱 어려워질 수 있으며, 이는 중앙은행의 금리 인상 압력을 높일 것으로 예상된다. 장기적으로는 에너지 안보 강화를 위한 정책 변화가 필요할 수 있다."
     },
     {
       "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
@@ -225,10 +225,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/31/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
       "published_at": "2026-08-31T13:04:05.000Z",
-      "headline_ko": "짐 크래머의 주목할 10가지 시장 포인트: 미-이란 교전 후 유가 4% 상승",
-      "summary_ko": "미국과 이란이 7월 이후 처음으로 직접 교전한 후 유가가 4% 가까이 상승했다.",
-      "detail_ko": "중동 군사 긴장의 직접적 교전으로 확대는 시장 참여자들에게 공급 차질에 대한 구체적 우려를 심어주고 있다. 이는 단순한 지정학적 리스크 프리미엄을 넘어 실제 공급 감소 가능성을 반영하는 것으로 해석된다.",
-      "impact_ko": "유가 상승이 지속될 경우 에너지 수입국의 경상수지 악화와 인플레이션 압력이 동시에 나타날 수 있다. 특히 유럽과 아시아 지역의 경제 성장률 둔화 가능성이 높아질 수 있다."
+      "headline_ko": "짐 크래머의 주목할 10가지 시장 이슈…미국-이란 공격 교환으로 유가 4% 상승",
+      "summary_ko": "미국과 이란이 7월 이후 처음으로 공격을 교환하면서 유가가 4% 가까이 상승했으며, 이것이 주요 시장 이슈로 부상했다.",
+      "detail_ko": "미국과 이란 간의 직접적 군사 충돌이 재개되면서 중동 지정학적 리스크가 급격히 상승하고 있다. 이는 단순한 프록시 전쟁 수준을 넘어 양국 간 직접 대립으로 확대되는 신호로 해석될 수 있으며, 시장 참여자들의 위험 회피 심리를 크게 자극하고 있다. 유가의 급등은 이러한 지정학적 리스크가 실제 공급 차질로 이어질 수 있다는 우려를 반영한다.",
+      "impact_ko": "미국-이란 직접 충돌의 심화는 중동 지역의 에너지 공급 차질 가능성을 높이고, 글로벌 에너지 가격의 변동성을 크게 증가시킬 수 있다. 이는 인플레이션 재점화 우려로 이어져 금융시장 전반의 변동성을 높일 것으로 예상되며, 특히 고성장주와 같이 금리에 민감한 자산들의 조정 압력이 강화될 수 있다."
     },
     {
       "headline": "Oil to hold above $80 a barrel as Middle East supply risks persist - Reuters",
@@ -236,10 +236,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZm1UZWgzbTlVVzdIeFRJQWN1TEMtZGdwZFpaaUx6ZmhNU0RrakpicWtuNHNKb0JPc2VvbURJZzlYQkNzVk9Sc3NoMFBjcWZHQ0NoQ3hmaG1iZS0zdjJlbERFU25uN2VaNGp0Q3ZBb0JPRldfQjZLVDB5X25NdlBBT04tblFSdTFPTTVLUWxRMUNkM1NNSjE5X1A1WDlVUmtLZUs1bjItRmFqd1hEbHdzbDJn?oc=5",
       "published_at": "2026-08-31T11:08:09.000Z",
-      "headline_ko": "유가, 중동 공급 리스크 지속 속 배럴당 80달러 이상 유지 전망",
-      "summary_ko": "중동 공급 리스크가 계속되는 한 유가는 배럴당 80달러 이상의 수준을 유지할 것으로 예상된다.",
-      "detail_ko": "시장 전문가들이 중기적으로 높은 유가 환경을 전제하고 있다는 것은 지정학적 리스크가 단기 변동성이 아닌 구조적 요인으로 평가되고 있음을 의미한다. 이는 에너지 가격 상승이 인플레이션과 금리에 지속적으로 영향을 미칠 것임을 시사한다.",
-      "impact_ko": "높은 유가 환경이 지속될 경우 에너지 관련 기업들의 수익성은 개선되지만, 에너지 소비 기업들의 비용 부담이 증가할 수 있다. 이는 산업 간 수익성 격차 확대로 이어질 가능성이 있다."
+      "headline_ko": "유가, 중동 공급 리스크 지속으로 배럴당 80달러 이상 유지 전망",
+      "summary_ko": "중동 공급 리스크가 계속되면서 유가가 배럴당 80달러 이상의 수준을 유지할 것으로 예상된다.",
+      "detail_ko": "전문가들은 중동 긴장의 단기적 해결 가능성이 낮다고 평가하고 있으며, 이는 유가의 구조적 상승을 의미한다. 배럴당 80달러 이상의 유가 수준은 과거 평균 대비 높은 수준이며, 이것이 지속될 경우 글로벌 경제에 광범위한 영향을 미칠 수 있다. 공급 리스크의 구조화는 유가 변동성의 상향 이동을 의미한다.",
+      "impact_ko": "높은 유가 수준의 지속은 에너지 수입국들의 인플레이션 압력을 지속시키고, 중앙은행들의 금리 인상 기조를 강화할 가능성이 있다. 또한 기업들의 원가 상승으로 이어져 실적 악화 우려를 높일 수 있으며, 특히 에너지 집약적 산업의 마진 압박이 심화될 것으로 예상된다. 소비자 물가 상승으로 인한 실질 구매력 약화도 경제 성장에 부정적 영향을 미칠 수 있다."
     },
     {
       "headline": "Qatar's first-quarter GDP falls 7% as Iran war weighs on energy production - Reuters",
@@ -247,10 +247,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUDRKOEZ0M3JrM0M1RTFRSHZubzF4SF9UX21fUWNJNjJIc1pSZnVORnIxaHNzdENEbEtiLV85NG9sQVlDdjBaWW00ZlpDUzhzT0RGbHdScUliNnlsUlEzNHpaSHNXTEx4S1pyTm5MRGNERDQ1czI1dzZkOG4xVkVPTUVpb1ZiaEk0b1FIY2c3OURDYUpETjItd19sbHpXMDRubDhiRGNVZFQ3X2hLTFhMbmo2bExSc3NXRmlFSQ?oc=5",
       "published_at": "2026-08-31T10:31:43.000Z",
-      "headline_ko": "카타르 1분기 GDP 7% 하락...이란 전쟁이 에너지 생산에 타격",
-      "summary_ko": "카타르의 1분기 GDP가 7% 감소했으며, 이는 이란 전쟁이 에너지 생산에 미친 영향을 보여준다.",
-      "detail_ko": "중동 주요 에너지 생산국의 경제가 직접적인 타격을 입고 있다는 것은 지정학적 리스크가 단순한 가격 변동을 넘어 실제 생산 능력 감소로 이어지고 있음을 의미한다. 카타르의 GDP 급락은 지역 경제의 구조적 약화를 시사한다.",
-      "impact_ko": "중동 지역의 경제 약세는 글로벌 유동성 축소와 신흥시장 자금 이탈로 이어질 수 있다. 또한 중동 산유국들의 해외 투자 규모 축소로 글로벌 자산 가격에도 부정적 영향을 미칠 가능성이 있다."
+      "headline_ko": "카타르 1분기 GDP 7% 감소…이란 전쟁이 에너지 생산에 타격",
+      "summary_ko": "카타르의 1분기 GDP가 7% 감소했으며, 이는 이란 전쟁으로 인한 에너지 생산 부진이 주요 원인이다.",
+      "detail_ko": "중동의 주요 에너지 수출국인 카타르가 이란 전쟁의 직접적 영향을 받으면서 경제 성장이 급격히 악화되고 있다. 에너지 산업이 국가 경제의 핵심인 카타르의 GDP 감소는 중동 지역 경제 전반의 약세를 시사한다. 이는 단순한 일시적 충격이 아니라 지정학적 불확실성이 실물 경제에 미치는 구체적 영향을 보여주는 사례이다.",
+      "impact_ko": "카타르를 포함한 중동 에너지 수출국들의 경제 부진은 해당 국가들의 재정 수입 감소로 이어져 정부 지출 축소와 투자 부진을 초래할 수 있다. 또한 이 지역의 경제 약세는 글로벌 에너지 공급 회복 속도를 늦추고, 유가의 상방 경직성을 강화할 수 있다. 중동 지역의 지정학적 불안정성이 장기화될 경우 구조적 에너지 공급 부족으로 이어질 가능성이 있다."
     }
   ],
   "calendar": [
