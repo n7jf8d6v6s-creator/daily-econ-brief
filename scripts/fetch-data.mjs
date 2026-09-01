@@ -54,9 +54,11 @@ async function readPrevious(name) {
 const ECONOMIC_KEYWORDS =
   /\b(fed|fomc|rate|inflation|cpi|pce|jobs?|payroll|unemployment|gdp|treasury|yield|dollar|oil|opec|ecb|boj|econom|tariff|recession|interest rate)\b/i;
 
-// 연준이 매년 초 공식 발표하는 FOMC 정례회의 일정 (연 1회 수동 갱신).
-// SEP(경제전망요약/점도표)가 포함되는 회의: 3월, 6월, 9월, 12월.
-const FOMC_MEETINGS_2026 = [
+// 연준 공식 캘린더(federalreserve.gov/monetarypolicy/fomccalendars.htm)의 정례회의 일정.
+// API 가 없어서 손으로 옮겨 적는다. SEP(경제전망요약/점도표)가 붙는 회의는 3·6·9·12월.
+// 목록이 다 지나가면 캘린더에서 FOMC 가 조용히 빠지므로, main() 이 그때 실행을
+// 실패로 떨어뜨려 알려준다. 그러면 다음 해 일정을 여기에 이어 붙이면 된다.
+const FOMC_MEETINGS = [
   { start: "2026-01-27", end: "2026-01-28", sep: false },
   { start: "2026-03-17", end: "2026-03-18", sep: true },
   { start: "2026-04-28", end: "2026-04-29", sep: false },
@@ -65,6 +67,14 @@ const FOMC_MEETINGS_2026 = [
   { start: "2026-09-15", end: "2026-09-16", sep: true },
   { start: "2026-10-27", end: "2026-10-28", sep: false },
   { start: "2026-12-08", end: "2026-12-09", sep: true },
+  { start: "2027-01-26", end: "2027-01-27", sep: false },
+  { start: "2027-03-16", end: "2027-03-17", sep: true },
+  { start: "2027-04-27", end: "2027-04-28", sep: false },
+  { start: "2027-06-08", end: "2027-06-09", sep: true },
+  { start: "2027-07-27", end: "2027-07-28", sep: false },
+  { start: "2027-09-14", end: "2027-09-15", sep: true },
+  { start: "2027-10-26", end: "2027-10-27", sep: false },
+  { start: "2027-12-07", end: "2027-12-08", sep: true },
 ];
 
 // FRED release_id: 주요 경제지표 발표 일정 조회용.
@@ -279,7 +289,7 @@ async function buildCalendar() {
   }
 
   const today = todayISO();
-  for (const meeting of FOMC_MEETINGS_2026) {
+  for (const meeting of FOMC_MEETINGS) {
     if (meeting.end >= today) {
       calendar.push({
         date: meeting.start,
@@ -357,6 +367,12 @@ async function main() {
 
   const prev = await readPrevious("latest.json");
   const stale = [];
+
+  // 남은 회의가 없으면 캘린더에서 FOMC 가 에러 없이 사라진다. 그건 알림 없이 썩는 것과
+  // 같으므로 stale 로 올려 실행을 빨간불로 만든다 (데이터 자체는 그대로 나간다).
+  if (!FOMC_MEETINGS.some((m) => m.end >= todayISO())) {
+    stale.push("FOMC 일정(목록 소진, 연준 캘린더에서 다음 해 일정 추가 필요)");
+  }
   const [news, calendar, stocks, crypto] = await settleWithFallback(
     [fetchNews(), buildCalendar(), fetchStockQuotes(), fetchCryptoMovers()],
     [prev?.news, prev?.calendar, prev?.market?.stocks, prev?.market?.crypto],
