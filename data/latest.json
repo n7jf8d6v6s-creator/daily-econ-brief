@@ -1,255 +1,255 @@
 {
-  "generated_at": "2026-09-01T15:04:26.577Z",
+  "generated_at": "2026-09-02T22:06:37.201Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 323.88,
-        "change_pct": 2.2187
+        "price": 324.96,
+        "change_pct": -0.0523
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 501.46,
-        "change_pct": -1.1492
+        "price": 496.82,
+        "change_pct": -0.8383
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 218.48,
-        "change_pct": -1.0418
+        "price": 224.41,
+        "change_pct": 3.2055
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 358.36,
-        "change_pct": -2.6063
+        "price": 357.01,
+        "change_pct": 0.2584
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 254.42,
-        "change_pct": -2.0595
+        "price": 254.98,
+        "change_pct": 0.0235
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 336.08,
-        "change_pct": -0.9636
+        "price": 337.12,
+        "change_pct": 0.6268
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 578.09,
-        "change_pct": 1.0046
+        "price": 592.85,
+        "change_pct": 2.4735
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 763.45,
-        "change_pct": -0.4693
+        "price": 765.16,
+        "change_pct": 0.4437
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 710.13,
-        "change_pct": -0.925
+        "price": 709.24,
+        "change_pct": 0.2261
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 77939,
-        "change_pct": -0.69382
+        "price": 77197,
+        "change_pct": -0.06112
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2443.12,
-        "change_pct": -0.93359
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 83.71,
-        "change_pct": 2.68335
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 851.59,
-        "change_pct": 2.29148
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.198915,
-        "change_pct": 1.14855
-      },
-      {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.177918,
-        "change_pct": 0.73167
+        "price": 2387.38,
+        "change_pct": -1.19922
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01654927,
-        "change_pct": -3.21881
+        "price": 0.01671862,
+        "change_pct": 2.02534
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.198864,
+        "change_pct": 1.42866
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 686.66,
+        "change_pct": 0.87051
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 498.45,
+        "change_pct": 0.80502
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 812.84,
+        "change_pct": -1.49974
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
-        "price": 9.38,
-        "change_pct": -2.67015
+        "price": 9.24,
+        "change_pct": -1.40561
       },
       {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.325269,
-        "change_pct": -2.26047
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 81.52,
+        "change_pct": -1.16684
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.013,
-        "change_pct": -2.1671
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 11.08,
+        "change_pct": -1.03662
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 중동 긴장 재고조와 유가 급등으로 인한 금리 상승 우려 속에서 혼조세를 보였다. 10년물 국채 수익률이 1월 이후 최고치를 경신하면서 기술주와 성장주 중심의 나스닥이 약세를 기록했고, S&P 500도 소폭 하락했다.",
-      "애플(AAPL)과 메타(META)가 소수의 상승장을 주도했으나, 이는 광범위한 시장 약세를 상쇄하기에 충분하지 않았다. 특히 테슬라(TSLA)와 아마존(AMZN)이 2% 이상 하락한 것으로 보아, 금리 상승이 고성장 기업들의 밸류에이션에 부정적 영향을 미치고 있는 것으로 해석된다.",
-      "암호화폐 시장에서는 프라이버시 코인인 지캐시(ZEC)와 하이퍼리퀴드(HYPE)가 2% 이상 상승했으나, 이는 위험자산 회피 심리 속에서 특정 틈새 자산에 대한 선별적 수요로 보인다. 반면 비트코인(BTC)과 이더리움(ETH)은 글로벌 금리 상승과 달러 강세 기조 속에서 소폭 하락했으며, 이는 매크로 환경 악화에 따른 위험자산 전반의 약세 심화를 반영하는 것으로 보인다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. 광범위한 지수인 S&P 500과 나스닥100 ETF는 소폭 상승했으나, 마이크로소프트가 0.84% 하락하며 대형 기술주들의 약세가 두드러졌다. 이는 채권 수익률 상승과 유가 급등으로 인한 인플레이션 우려가 시장 심리를 압박하는 가운데, 기술주의 상대적 매력이 감소했음을 시사한다.",
+      "엔비디아는 3.2% 상승하며 반도체 섹터의 강세를 주도했고, 메타는 2.47% 올랐다. 이들은 AI 관련 수요 기대와 함께 달러 약세 국면에서 해외 수익 비중이 높은 기업들의 실적 개선 전망이 긍정적으로 작용한 것으로 해석된다. 특히 엔비디아는 인플레이션 우려 속에서도 구조적 성장성이 인정받는 모습이다.",
+      "암호화폐 시장에서는 프라이버시 코인들이 상대적 강세를 보였다. 모네로(XMR)는 0.81% 상승했고, 카르다노(ADA)도 1.43% 올랐으나, 지캐시(ZEC)는 1.5% 하락했다. 달러 약세와 인플레이션 우려 속에서 규제 리스크가 높은 프라이버시 코인들의 움직임이 엇갈린 것으로 보이며, 이더리움이 1.2% 하락한 것은 채권 수익률 상승으로 인한 위험자산 회피 심리가 작용한 것으로 보인다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 323.88,
-        "change_pct": 2.2187,
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "price": 224.41,
+        "change_pct": 3.2055,
         "type": "stock",
-        "reason_ko": "기술주 약세 속 상대적 강세"
+        "reason_ko": "AI 수요 기대, 달러약세 수혜"
       },
       {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "price": 358.36,
-        "change_pct": -2.6063,
+        "symbol": "META",
+        "name": "메타",
+        "price": 592.85,
+        "change_pct": 2.4735,
         "type": "stock",
-        "reason_ko": "금리 상승으로 고성장주 밸류에이션 압박"
+        "reason_ko": "달러약세 속 해외수익 개선"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 851.59,
-        "change_pct": 2.29148,
-        "type": "crypto",
-        "reason_ko": "프라이버시 코인 선별적 수요"
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "price": 496.82,
+        "change_pct": -0.8383,
+        "type": "stock",
+        "reason_ko": "채권수익률 상승, 기술주 약세"
       },
       {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "price": 77939,
-        "change_pct": -0.69382,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 498.45,
+        "change_pct": 0.80502,
         "type": "crypto",
-        "reason_ko": "글로벌 금리 상승 영향"
+        "reason_ko": "달러약세 속 프라이버시 코인 강세"
       }
     ]
   },
   "news": [
     {
-      "headline": "10-year yield hits highest since January 2025 as Middle East tensions return to focus",
-      "summary": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
-      "published_at": "2026-09-01T10:47:52.000Z",
-      "headline_ko": "10년물 국채 수익률, 중동 긴장 재고조로 1월 이후 최고치 경신",
-      "summary_ko": "중동 지정학적 리스크 재부상으로 미국 국채 수익률이 상승했다.",
-      "detail_ko": "중동 긴장이 다시 고조되면서 투자자들의 위험회피 심리가 강해지고 있다. 이러한 지정학적 불확실성은 전통적으로 안전자산인 국채 수익률을 상승시키는 요인으로 작용한다. 국채 수익률 상승은 곧 차입 비용 증가를 의미하므로, 특히 저금리 환경에서 성장성을 기반으로 평가받던 기술주와 성장주들에게 부정적 영향을 미칠 수 있다.",
-      "impact_ko": "국채 수익률 상승은 기업의 자본조달 비용을 높여 고성장 기업들의 밸류에이션 재평가로 이어질 가능성이 있다. 또한 채권 수익률 상승으로 인해 주식으로부터 채권으로의 자금 이동이 가속화될 수 있으며, 이는 주식시장 전반의 약세를 심화시킬 수 있다."
-    },
-    {
-      "headline": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
-      "summary": "The expectation had been for falling rates this year, but the war with Iran and its resulting rise in oil prices upended that.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
-      "published_at": "2026-08-31T17:56:01.000Z",
-      "headline_ko": "중동 공격으로 유가 급등, 모기지 금리가 6월 이후 최고 수준으로 상승",
-      "summary_ko": "이란과의 전쟁으로 유가가 올라가면서 모기지 금리도 함께 상승했다.",
-      "detail_ko": "중동 긴장으로 인한 유가 상승이 인플레이션 우려를 증폭시키고 있다. 에너지 가격 상승은 전반적인 물가 상승 압력으로 작용하며, 이는 연방준비제도의 금리 인상 기대를 높인다. 모기지 금리는 장기 국채 수익률과 밀접한 연관이 있으므로, 유가 상승으로 인한 인플레이션 우려가 곧 모기지 금리 상승으로 전파되는 메커니즘이다.",
-      "impact_ko": "모기지 금리 상승은 주택 구매 비용을 증가시켜 부동산 시장의 수요 위축으로 이어질 수 있다. 이는 건설업체와 부동산 관련 금융기관들의 실적 악화로 연결될 가능성이 있으며, 광범위한 경제 둔화 신호로 작용할 수 있다."
-    },
-    {
-      "headline": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
-      "summary": "Mortgage rates aren't expected to get much cheaper for homebuyers in 2027, especially if inflation stays high.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
-      "published_at": "2026-08-31T17:16:59.000Z",
-      "headline_ko": "2027년 주택 구매 가능성, 인플레이션 지속 시 개선 어려울 전망",
-      "summary_ko": "2027년에도 모기지 금리가 크게 낮아지지 않을 것으로 예상되며, 인플레이션이 높으면 더욱 그럴 가능성이 있다.",
-      "detail_ko": "시장 전문가들은 2027년까지도 금리 인하 기대가 제한적일 것으로 보고 있다. 이는 중동 긴장으로 인한 유가 상승이 단기적 현상이 아니라 구조적 인플레이션 압력으로 작용할 수 있음을 시사한다. 만약 인플레이션이 지속된다면 연방준비제도의 금리 인하 속도가 더뎌질 수 있으며, 이는 장기적으로 주택 구매 비용의 고착화를 의미한다.",
-      "impact_ko": "주택 구매 가능성의 악화는 부동산 시장의 장기적 침체로 이어질 수 있으며, 이는 건설업, 부동산 금융, 가구 및 주택용품 산업 등 광범위한 경제 부문에 부정적 영향을 미칠 수 있다. 또한 소비자 심리 악화로 인한 개인 소비 위축도 예상할 수 있다."
-    },
-    {
-      "headline": "Europe's STOXX 600 falls as oil prices jump, but secures fifth monthly gain - Reuters",
-      "summary": "Europe's STOXX 600 falls as oil prices jump, but secures fifth monthly gain  Reuters",
+      "headline": "Stocks rise after recent declines; Japanese yen jumps against US dollar - Reuters",
+      "summary": "Stocks rise after recent declines; Japanese yen jumps against US dollar  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzdFeEJfZ24zM2Yxemdobk42RnA2M1RVTWMwdWZ1NDA1X21PTS04d3BMWVZwTkNUTGRCNWdmS2phTUhJdUVZR29TMWVBU3dqUkhtVFdZRVgtUEM5WldFRlNFcGh4U05tdGYtN21pam5uU1hzd19aSlFGaXRzbXlMWFp2ZmZDMXdQeXc3QVRXdDM4UHg4OVlUODdmLTNCVk5PQzZEaQ?oc=5",
-      "published_at": "2026-08-31T16:19:55.000Z",
-      "headline_ko": "유가 급등에도 유럽 STOXX 600, 5개월 연속 상승 마감",
-      "summary_ko": "유가 상승에도 불구하고 유럽 주가지수가 5개월 연속 상승을 기록했다.",
-      "detail_ko": "유럽 시장은 유가 상승이라는 단기적 악재에도 불구하고 상승 추세를 유지했다. 이는 유럽 경제의 기초 펀더멘털이 여전히 견고하거나, 또는 특정 섹터(예: 에너지 기업)의 수익성 개선이 전체 지수 상승을 견인했을 가능성을 시사한다. 또한 유럽 중앙은행의 금리 인하 기대가 미국보다 상대적으로 강할 수 있다는 점도 고려할 필요가 있다.",
-      "impact_ko": "유럽의 상대적 강세는 글로벌 자금 흐름에서 미국 시장으로부터 유럽 시장으로의 자금 이동 가능성을 시사한다. 다만 유가 상승이 지속된다면 유럽의 에너지 수입 의존도가 높은 특성상 장기적으로는 경제 성장에 부정적 영향을 미칠 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
+      "published_at": "2026-09-02T16:28:14.000Z",
+      "headline_ko": "최근 낙폭 이후 주식 반등, 일본 엔화 달러 대비 급등",
+      "summary_ko": "미국 주식이 최근 하락세에서 반등했으며, 일본 엔화가 달러 대비 크게 상승했다.",
+      "detail_ko": "이는 달러 약세 국면으로의 전환을 시사하는 신호로, 앞서 강세를 보이던 달러가 약화되면서 엔화 같은 안전자산 통화가 강세를 나타내고 있다. 주식 시장의 반등은 이러한 통화 약세 환경에서 수출 기업들의 실적 개선 기대와 맞물려 있을 수 있다. 달러 약세는 일반적으로 신흥시장 자산과 해외 수익 비중이 높은 기업들에 긍정적으로 작용한다.",
+      "impact_ko": "달러 약세 지속 시 해외 수익 비중이 높은 대형 기술주와 다국적 기업들의 실적 개선이 기대될 수 있다. 동시에 엔화 강세는 일본 수출 기업들의 경쟁력 약화로 이어질 가능성이 있다. 통화 시장의 변화는 향후 주식과 채권 시장의 방향성에 중요한 영향을 미칠 수 있다."
     },
     {
-      "headline": "Depleted US oil stash loses potency as Iran war grinds on - Reuters",
-      "summary": "Depleted US oil stash loses potency as Iran war grinds on  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVUhmd2cwQ2lLMjFlWXpza0hEZWhGZU1NcGg2eGJ3Y0x4OVA0YWhIUVptWmcxVnU0V0hKRnRJR1FQSU5WT2M4aUZDRngzSDVpczVybkN5dUEyZ0FrdFFSaVlxZ0I2WjVLTEprenVzY2VCdFN2c0NXQXhldWxzN1daOGNya2RjMkZsSHN2ZXhuS19kdXJvS3VBYkk4OFVIYmtyN2JoRFJR?oc=5",
-      "published_at": "2026-08-31T15:33:05.000Z",
-      "headline_ko": "이란 전쟁 장기화로 미국 전략비축유 감소 효과 약화",
-      "summary_ko": "이란과의 전쟁이 지속되면서 미국의 전략석유비축량 감소가 유가 안정화에 미치는 영향이 제한적이 되고 있다.",
-      "detail_ko": "미국은 과거 유가 급등 시 전략석유비축량을 방출하여 유가를 안정화시켜 왔다. 그러나 이란 전쟁이 장기화되면서 비축량이 고갈되고 있으며, 이는 향후 유가 급등 시 정부가 취할 수 있는 정책 수단이 제한된다는 의미이다. 결과적으로 지정학적 리스크로 인한 유가 변동성이 더욱 커질 수 있다.",
-      "impact_ko": "전략비축유의 감소는 향후 유가 급등에 대한 정부의 대응 능력을 약화시켜, 유가 변동성이 더욱 심화될 가능성이 있다. 이는 에너지 가격 불확실성을 높여 기업들의 투자 의사 결정을 어렵게 만들 수 있으며, 인플레이션 관리의 어려움으로 이어질 수 있다."
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
-      "summary": "Oil is up nearly 4% after U.S. and Iran exchanged attacks for the first time since July.",
+      "headline": "These women were laid off while on maternity leave. Yes, it's legal, and probably more common than you thought",
+      "summary": "It's never a good time to be laid off. Losing your job with a newborn can be especially hard.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/31/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
-      "published_at": "2026-08-31T13:04:05.000Z",
-      "headline_ko": "미국-이란 공격 교환 이후 유가 4% 근처 상승, 시장 주시 필요",
-      "summary_ko": "미국과 이란이 처음으로 직접 공격을 교환한 이후 유가가 4% 가까이 상승했다.",
-      "detail_ko": "미국과 이란 간의 직접적인 군사 충돌은 중동 지정학적 리스크의 심화를 의미한다. 이는 단순한 대리전 수준을 넘어 양국 간의 직접 대면으로 확대되었다는 신호이며, 시장 참여자들은 이를 공급 차질 위험의 증가로 해석하고 있다. 유가 4% 상승은 이러한 위험 인식이 실제 거래로 반영되었음을 보여준다.",
-      "impact_ko": "미국-이란 직접 충돌은 중동 긴장의 에스컬레이션을 의미하며, 이는 유가의 추가 상승 가능성을 높인다. 유가 상승이 지속된다면 글로벌 인플레이션 압력이 강화되어 각국 중앙은행의 금리 인상 기대가 높아질 수 있으며, 이는 위험자산 전반에 부정적 영향을 미칠 수 있다."
+      "url": "https://www.cnbc.com/2026/09/02/getting-laid-off-on-maternity-leave.html",
+      "published_at": "2026-09-02T15:44:18.000Z",
+      "headline_ko": "육아휴직 중 해고된 여성들, 법적으로는 가능하지만 더 흔한 현실",
+      "summary_ko": "미국에서 육아휴직 중 해고되는 여성들이 법적으로는 허용되지만 실제로는 더 광범위하게 발생하고 있는 것으로 나타났다.",
+      "detail_ko": "이 기사는 미국의 노동 시장에서 모성 보호 규정의 허점을 드러내고 있다. 법적으로는 육아휴직 중 해고가 제한되어야 하지만, 실제로는 기업들이 다양한 명목으로 이를 우회하고 있는 상황을 지적한다. 이는 노동 시장의 구조적 불평등과 여성 근로자들의 취약한 지위를 반영하는 사례다.",
+      "impact_ko": "이러한 관행이 광범위하다면 여성 노동 참여율 저하와 경제 생산성 감소로 이어질 수 있다. 장기적으로는 노동 정책 강화와 기업 문화 개선 압력이 증가할 가능성이 있다. 또한 인적자본 손실과 사회적 비용 증가로 인한 거시경제적 영향도 예상된다."
     },
     {
-      "headline": "Oil to hold above $80 a barrel as Middle East supply risks persist - Reuters",
-      "summary": "Oil to hold above $80 a barrel as Middle East supply risks persist  Reuters",
+      "headline": "South African rand firms on softer dollar, US jobs data - Reuters",
+      "summary": "South African rand firms on softer dollar, US jobs data  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZm1UZWgzbTlVVzdIeFRJQWN1TEMtZGdwZFpaaUx6ZmhNU0RrakpicWtuNHNKb0JPc2VvbURJZzlYQkNzVk9Sc3NoMFBjcWZHQ0NoQ3hmaG1iZS0zdjJlbERFU25uN2VaNGp0Q3ZBb0JPRldfQjZLVDB5X25NdlBBT04tblFSdTFPTTVLUWxRMUNkM1NNSjE5X1A1WDlVUmtLZUs1bjItRmFqd1hEbHdzbDJn?oc=5",
-      "published_at": "2026-08-31T11:08:09.000Z",
-      "headline_ko": "중동 공급 리스크 지속으로 유가 배럴당 80달러 이상 유지 전망",
-      "summary_ko": "중동의 공급 리스크가 계속되면서 유가가 배럴당 80달러 이상의 수준을 유지할 것으로 예상된다.",
-      "detail_ko": "전문가들은 중동 긴장이 단기적 현상이 아니라 중기적으로 지속될 것으로 보고 있다. 이는 유가가 현재의 고점에서 조정되더라도 80달러 이상의 상대적으로 높은 수준에서 안정화될 가능성을 시사한다. 이러한 전망은 에너지 가격의 구조적 상승을 의미하며, 인플레이션 관리의 어려움을 암시한다.",
-      "impact_ko": "유가의 고착화된 상승은 에너지 집약적 산업들의 원가 부담을 지속적으로 증가시킬 수 있다. 또한 소비자 물가 상승으로 이어져 실질 구매력 약화와 소비 위축을 초래할 수 있으며, 이는 경제 성장률 둔화로 연결될 가능성이 있다."
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlNvbUsyaFlLdVQ4ZktHZzJ6a3BuM2hzX294VTVLYUVpOWdlOF9KT2NtMEYzS3V1ajE4UE9fUWNEVXNHeUExR1hKNTZlamZKa21UQm03SDVaOVlycDJQdTdkSjVtR1BLSjhZS1Q5WXFXeWZ4ZVhyeWlnRW5ISDJaR1QyOC1keElUaUh6QllfNmlPVnZwaG1WcVEzS1ZVdTViTGR3WUwtcGhTcVZVcTBoR0tB?oc=5",
+      "published_at": "2026-09-02T06:24:00.000Z",
+      "headline_ko": "남아프리카 랜드화, 약한 달러와 미국 고용 데이터에 강세",
+      "summary_ko": "남아프리카 랜드화가 달러 약세와 미국 고용 데이터 개선에 힘입어 상승했다.",
+      "detail_ko": "달러 약세는 신흥시장 통화들에 광범위한 긍정적 영향을 미치고 있으며, 남아프리카 랜드화도 이러한 추세의 수혜자가 되고 있다. 미국 고용 데이터가 시장 기대를 충족하거나 초과했을 경우, 이는 미국 경제의 안정성을 신호하면서 동시에 달러 약세를 심화시킬 수 있다. 신흥시장 통화의 강세는 해당 국가들의 수출 경쟁력 개선을 의미한다.",
+      "impact_ko": "랜드화 강세는 남아프리카의 수출 기업들에 단기적으로 부정적일 수 있으나, 인플레이션 억제에는 긍정적으로 작용할 수 있다. 신흥시장 통화 강세 추세가 지속되면 국제 자본 흐름이 신흥시장으로 재편성될 가능성이 있다. 이는 신흥시장 자산의 매력도 상승으로 이어질 수 있다."
     },
     {
-      "headline": "Qatar's first-quarter GDP falls 7% as Iran war weighs on energy production - Reuters",
-      "summary": "Qatar's first-quarter GDP falls 7% as Iran war weighs on energy production  Reuters",
+      "headline": "Bond selloff deepens as oil prices and public debt fears jolt markets - Reuters",
+      "summary": "Bond selloff deepens as oil prices and public debt fears jolt markets  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUDRKOEZ0M3JrM0M1RTFRSHZubzF4SF9UX21fUWNJNjJIc1pSZnVORnIxaHNzdENEbEtiLV85NG9sQVlDdjBaWW00ZlpDUzhzT0RGbHdScUliNnlsUlEzNHpaSHNXTEx4S1pyTm5MRGNERDQ1czI1dzZkOG4xVkVPTUVpb1ZiaEk0b1FIY2c3OURDYUpETjItd19sbHpXMDRubDhiRGNVZFQ3X2hLTFhMbmo2bExSc3NXRmlFSQ?oc=5",
-      "published_at": "2026-08-31T10:31:43.000Z",
-      "headline_ko": "카타르 1분기 GDP 7% 하락, 이란 전쟁이 에너지 생산 타격",
-      "summary_ko": "카타르의 1분기 GDP가 7% 감소했으며, 이는 이란 전쟁으로 인한 에너지 생산 부진이 주요 원인이다.",
-      "detail_ko": "카타르는 중동의 주요 에너지 수출국이며, 이란 전쟁으로 인한 지역 불안정이 직접적으로 에너지 생산에 영향을 미치고 있다. 7% 규모의 GDP 감소는 상당한 경제 충격을 의미하며, 이는 중동 지역 경제 전반의 약세를 시사한다. 에너지 수출 의존도가 높은 중동 국가들이 지정학적 리스크에 얼마나 취약한지를 보여주는 사례이다.",
-      "impact_ko": "카타르의 경제 악화는 중동 지역 전체의 경제 둔화를 시사하며, 이는 글로벌 에너지 공급 불안정성을 더욱 심화시킬 수 있다. 또한 중동 국가들의 재정 악화는 이 지역에 투자한 글로벌 기업들과 금융기관들의 실적 악화로 이어질 수 있으며, 광범위한 경제 파급 효과를 초래할 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkJqeC1yeWhxa0NETU9oT1R3YUdoYm9fNE4zamM3MlhJTUFkZ3gwWDliZmFZRHpXaEFOLW1JMHN4dEhkTTlfY282eG9yWlJZRVpaR281SlMtWkpuLTRXYnQ4dkt0VnlwckFQU0JUR21WM2VBZTRYb3VKM0M0Zlg3aF83SUY0WERMb2dWdWlLQ3U2ZmlON1pJdU5WMTdEVUZoNlowM0ZhZDJNeEdFcUE?oc=5",
+      "published_at": "2026-09-02T03:11:00.000Z",
+      "headline_ko": "채권 매도 심화, 유가 급등과 공공부채 우려가 시장 흔들어",
+      "summary_ko": "유가 상승과 공공부채 우려로 인해 채권 매도가 심화되고 있다.",
+      "detail_ko": "유가 급등은 인플레이션 압력을 가중시키며, 이는 중앙은행의 금리 인상 가능성을 높인다. 동시에 공공부채 우려는 정부의 재정 건전성에 대한 의문을 제기하면서 채권 수익률 상승을 초래한다. 이 두 요인이 결합되면서 채권 시장에서 광범위한 매도 압력이 발생하고 있는 상황이다.",
+      "impact_ko": "채권 수익률 상승은 주식 시장의 할인율을 높여 기술주와 성장주에 부정적 영향을 미칠 수 있다. 금리 인상 기대는 차입 비용 증가로 이어져 기업 실적을 압박할 가능성이 있다. 공공부채 우려가 심화되면 신용 스프레드 확대와 금융 안정성 우려로 발전할 수 있다."
+    },
+    {
+      "headline": "Yen gains sharply, dollar eases from two-week high - Reuters",
+      "summary": "Yen gains sharply, dollar eases from two-week high  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
+      "published_at": "2026-09-02T01:03:00.000Z",
+      "headline_ko": "엔화 급등, 달러는 2주 고점에서 약세로 전환",
+      "summary_ko": "일본 엔화가 크게 상승하면서 달러가 2주 고점에서 약세로 돌아섰다.",
+      "detail_ko": "달러의 약세 전환은 미국 경제 지표나 금리 전망의 변화를 반영할 수 있다. 엔화의 급등은 일반적으로 위험회피 심리가 강해질 때 나타나는 현상으로, 글로벌 경제 불확실성이 증가했음을 시사한다. 이러한 통화 시장의 변화는 국제 자본 흐름의 재편성을 의미한다.",
+      "impact_ko": "달러 약세는 미국 기업들의 해외 수익 가치를 상승시켜 실적 개선으로 이어질 수 있다. 반면 달러 자산의 매력도는 감소하면서 국제 자본이 다른 자산으로 이동할 가능성이 있다. 엔화 강세는 일본 수출 기업들의 경쟁력 약화를 초래할 수 있다."
+    },
+    {
+      "headline": "Oil settles 1% higher, as US-Iran strikes threaten supplies - Reuters",
+      "summary": "Oil settles 1% higher, as US-Iran strikes threaten supplies  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTRkVWlBVVJQeFBDbXB5UzFkd05qc05KVXhja1h2cC1aMUZxOTRGQTY4a0ZHeWpiSzl0UE50MjRTTjFVREhMUGJhd29Ka21tTTlISE9yd3pSSHFESEtVOTBzb2c0dEVFakx5eEJLamxsMUJxZ0NOSTBpNll2a2Z5eVBncmR6S3MtSW1ITE9hN01KbUljNlcwNlB3aw?oc=5",
+      "published_at": "2026-09-02T00:55:00.000Z",
+      "headline_ko": "유가 1% 상승, 미-이란 분쟁이 공급 위협",
+      "summary_ko": "미국-이란 간 분쟁으로 인한 공급 위협으로 유가가 1% 상승했다.",
+      "detail_ko": "중동 지정학적 리스크는 석유 공급 불확실성을 야기하는 전통적인 요인이다. 미-이란 분쟁이 심화되면 이란의 주요 석유 수출국으로서의 역할이 제약될 수 있으며, 이는 글로벌 석유 공급 부족으로 이어질 수 있다. 유가 상승은 인플레이션 압력을 직접적으로 증가시키는 요인이다.",
+      "impact_ko": "유가 상승은 에너지 관련 기업들의 실적 개선으로 이어질 수 있으나, 광범위한 인플레이션 압력으로 작용할 수 있다. 중동 분쟁 심화 시 유가 변동성이 확대될 가능성이 있으며, 이는 경제 전반의 불확실성을 증가시킬 수 있다. 장기적으로는 재정 정책과 통화 정책의 조정을 초래할 수 있다."
+    },
+    {
+      "headline": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September - Reuters",
+      "summary": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjZiWGhvamxJTzU5Ync5V2xObHhDRk1PRlZFRkZnZVNqQzM0dHhuUnBMeGJDYW9YWmgxc29fRTNUaTVRT2xLWFZUOGJMWDU4MTlhQVVXRmFOQ3VGQnlNME9tQ09nUW0yMGNUR1c2amZkSVBQbHcwWDNQY0tfZHZoREF4SzVqZ2pNYzlCQVFmSkJMNFFwMEptQi03WlZlZG82bDVNZWhnUm9KMnFDS1pqVWlHZDZ2MmE1?oc=5",
+      "published_at": "2026-09-01T22:26:55.000Z",
+      "headline_ko": "월스트리트 하락 마감, 높아진 수익률과 유가 급등이 9월 출발을 흔들어",
+      "summary_ko": "채권 수익률 상승과 유가 급등으로 월스트리트가 9월 첫 거래일에 하락으로 마감했다.",
+      "detail_ko": "9월 시작은 전형적으로 시장 심리 재정렬의 시기인데, 이번에는 채권 수익률 상승과 유가 급등이라는 두 가지 부정적 요인이 동시에 작용했다. 높아진 수익률은 성장주의 상대적 매력을 감소시키고, 유가 급등은 인플레이션 우려를 심화시킨다. 이러한 환경에서 투자자들의 위험회피 심리가 강해지고 있다.",
+      "impact_ko": "이러한 시장 약세가 지속되면 기술주와 성장주 중심의 포트폴리오에 부정적 영향을 미칠 수 있다. 채권 수익률 상승은 기업 차입 비용 증가로 이어져 실적 압박 요인이 될 수 있다. 9월의 약한 출발은 향후 분기 실적 시즌에 대한 시장의 신중한 태도를 반영할 수 있다."
+    },
+    {
+      "headline": "Dollar gains as oil, rising bond yields stoke inflation fears - Reuters",
+      "summary": "Dollar gains as oil, rising bond yields stoke inflation fears  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
+      "published_at": "2026-09-01T19:34:23.000Z",
+      "headline_ko": "달러 강세, 유가 상승과 채권 수익률 급등이 인플레이션 우려 부채질",
+      "summary_ko": "유가 상승과 채권 수익률 급등으로 인한 인플레이션 우려가 달러 강세를 견인했다.",
+      "detail_ko": "인플레이션 우려는 전통적으로 달러 강세로 이어진다. 왜냐하면 미국의 인플레이션이 높아지면 연방준비제도의 금리 인상 가능성이 높아지기 때문이다. 유가와 채권 수익률의 동시 상승은 인플레이션 압력이 광범위하다는 신호를 시장에 전달한다. 이러한 환경에서 달러는 상대적으로 안전한 자산으로 인식되어 강세를 보인다.",
+      "impact_ko": "달러 강세는 신흥시장 자산과 해외 수익 비중이 높은 기업들에 부정적 영향을 미칠 수 있다. 인플레이션 우려 심화는 중앙은행의 긴축 기조를 강화할 가능성이 있으며, 이는 경제 성장 둔화로 이어질 수 있다. 장기적으로는 스태그플레이션 우려로 발전할 가능성이 있다."
     }
   ],
   "calendar": [
