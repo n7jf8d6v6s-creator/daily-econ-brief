@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T22:05:56.479Z",
+  "generated_at": "2026-09-06T22:06:00.748Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,70 +62,70 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 79929,
-        "change_pct": 0.30316
+        "price": 79851,
+        "change_pct": -0.06345
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2489.3,
-        "change_pct": 1.42574
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.090847,
-        "change_pct": 7.42745
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 770.92,
-        "change_pct": 7.34797
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 549.85,
-        "change_pct": 6.41508
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.220797,
-        "change_pct": 4.37488
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.005,
-        "change_pct": -3.24167
+        "price": 2503.8,
+        "change_pct": 0.63089
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1015.81,
-        "change_pct": -0.19517
+        "price": 1235.54,
+        "change_pct": 21.74321
       },
       {
-        "symbol": "USDS",
-        "name": "USDS",
-        "price": 0.999703,
-        "change_pct": -0.03028
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 12.85,
+        "change_pct": 6.32352
       },
       {
-        "symbol": "USDT",
-        "name": "Tether",
-        "price": 1,
-        "change_pct": -0.02502
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.055,
+        "change_pct": 4.99034
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 87.59,
+        "change_pct": 2.31599
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 750.26,
+        "change_pct": -2.69692
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.016746,
+        "change_pct": -1.825
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 544.73,
+        "change_pct": -0.94988
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.090283,
+        "change_pct": -0.73564
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 강한 고용지표가 연방준비제도의 금리 인상 가능성을 높이면서 기술주 중심으로 광범위한 낙폭을 기록했다. 특히 테슬라, 애플, 마이크로소프트 등 대형 기술주들이 2~6% 하락하며 시장 약세를 주도했으며, 이는 금리 상승 우려가 고성장 기업의 밸류에이션을 압박하는 전형적인 패턴으로 해석된다.",
-      "엔비디아와 메타는 약한 낙폭 또는 소폭 상승을 기록하며 상대적 강세를 보였다. 이는 AI 관련 기업들에 대한 구조적 수요가 단기 금리 변동성을 부분적으로 상쇄하는 것으로 보이며, 특히 메타는 광고 플랫폼으로서의 경기 회복력이 투자자들에게 평가받는 것으로 해석된다.",
-      "암호화폐 시장에서는 도지코인, BNB, 모네로 등 알트코인들이 4~7% 대의 강한 상승률을 기록했다. 이는 미국-이란 긴장 고조로 인한 지정학적 리스크 프리미엄과 달러 약세 기대가 위험자산 선호 심리를 자극한 것으로 보이며, 특히 프라이버시 코인인 모네로의 강세는 불확실성 확대 시 익명성 자산에 대한 수요 증가를 반영하는 것으로 해석된다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 강한 고용 지표로 인한 금리 인상 우려가 부각되면서 기술주 중심으로 광범위한 낙폭을 기록했다. 특히 대형 테크 기업들이 2~6% 낙폭을 보이며 시장 약세를 주도한 반면, 나스닥100 ETF는 소폭 상승으로 마감해 낙폭이 제한된 모습이다.",
+      "테슬라는 -5.92%의 급락을 기록했으며, 이는 금리 인상 시나리오에서 높은 밸류에이션을 가진 성장주들이 특히 취약해지는 구조적 약점이 드러난 것으로 해석된다. 반면 엔비디아는 +0.84% 소폭 상승으로 AI 수요에 대한 기저 수요가 여전히 견고함을 시사한다.",
+      "암호화폐 시장에서는 프라이버시 코인인 지캐시(ZEC)가 +21.74%의 급등을 기록했는데, 이는 미국의 이란 유조선 공격으로 촉발된 지정학적 긴장 고조 속에서 규제 회피 자산에 대한 수요가 증가한 것으로 보인다. 체인링크(LINK)도 +6.32% 상승하며 온체인 데이터 수요 증가를 반영한 것으로 해석되며, 비트코인과 이더리움은 안정적인 움직임을 보이고 있다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
@@ -137,42 +137,56 @@
         "reason_ko": "금리 인상 우려로 성장주 약세"
       },
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 319.97,
-        "change_pct": -2.5106,
-        "type": "stock",
-        "reason_ko": "고용지표 강세에 따른 기술주 낙폭"
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1235.54,
+        "change_pct": 21.74321,
+        "type": "crypto",
+        "reason_ko": "지정학적 긴장 속 프라이버시 자산 수요"
       },
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.090847,
-        "change_pct": 7.42745,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 12.85,
+        "change_pct": 6.32352,
         "type": "crypto",
-        "reason_ko": "지정학적 리스크와 위험자산 선호"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 549.85,
-        "change_pct": 6.41508,
-        "type": "crypto",
-        "reason_ko": "불확실성 확대 시 프라이버시 자산 수요"
+        "reason_ko": "온체인 데이터 수요 증가"
       }
     ]
   },
   "news": [
     {
-      "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
-      "summary": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says  Reuters",
+      "headline": "OPEC+ keeps oil output policy unchanged for October - Reuters",
+      "summary": "OPEC+ keeps oil output policy unchanged for October  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "published_at": "2026-09-05T18:15:00.000Z",
-      "headline_ko": "미국, 이란 혁명수비대의 공격에 보복해 이란 유조선 3척 공격",
-      "summary_ko": "미국 중앙군이 미군 함정 공격에 대한 보복으로 이란 유조선 3척을 공격했다고 발표했다.",
-      "detail_ko": "미국과 이란 간의 군사적 긴장이 직접적인 충돌 단계로 확대되었다. 이란 혁명수비대의 미군 함정 공격에 대한 미국의 즉각적인 보복 조치는 중동 지역의 지정학적 불안정성이 심화되고 있음을 시사한다. 이러한 군사 충돌은 중동 지역의 에너지 공급망에 직접적인 영향을 미칠 수 있는 상황이다.",
-      "impact_ko": "유조선 공격으로 인한 해상 운송 경로의 불안정화는 유가 상승 압력으로 작용할 가능성이 있다. 또한 이란의 석유 수출 능력 저하는 글로벌 에너지 가격 상승과 인플레이션 우려를 가중시킬 수 있으며, 이는 연방준비제도의 금리 정책 결정에도 영향을 미칠 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWEdjS0pVMy1JLXZFN0V6ZFhjdjNOOXpjRnUtYXdYZEdjbzNaR2R6TGU4UTRDVEdLazJuMS12eHp6d0hWQjI0ZzdhRTUtbVBqR3NhSGRES0UxbG1TZ29QX1hjaWZFNWs1RWNWV1E0azdPVDNIR2x4TGJYMzdDZ3YtVUN1VzZEam5Tb3pXYy1TejN0VFMxYjI1U3ByeFZDZmZ1UnFYX053R3N3YzhST3dSWGdB?oc=5",
+      "published_at": "2026-09-06T12:03:29.000Z",
+      "headline_ko": "OPEC+, 10월 석유 생산 정책 현 수준 유지",
+      "summary_ko": "OPEC+가 10월 석유 생산 정책을 변경하지 않기로 결정했다.",
+      "detail_ko": "OPEC+의 생산 정책 유지 결정은 현재의 유가 수준과 시장 수급 상황에 대한 신중한 입장을 반영한다. 이는 최근 지정학적 긴장으로 인한 유가 변동성 속에서 안정성을 추구하는 전략으로 해석되며, 향후 유가 방향성에 영향을 미칠 수 있는 중요한 신호다.",
+      "impact_ko": "생산 정책 유지는 단기적으로 유가의 급격한 변동을 억제할 가능성이 있으며, 이는 에너지 관련 주식과 신재생에너지 투자 심리에 영향을 미칠 수 있다. 또한 글로벌 인플레이션 압력 완화에 긍정적으로 작용할 수 있다."
+    },
+    {
+      "headline": "Oil ends week higher on renewed US-Iran strikes, diesel hits record - Reuters",
+      "summary": "Oil ends week higher on renewed US-Iran strikes, diesel hits record  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
+      "published_at": "2026-09-05T16:35:41.000Z",
+      "headline_ko": "미국-이란 긴장 고조로 유가 주간 상승, 디젤유 사상 최고가 경신",
+      "summary_ko": "미국과 이란 간의 군사적 긴장 심화로 유가가 주간 상승세를 보였으며, 디젤유가 사상 최고가를 기록했다.",
+      "detail_ko": "미국의 이란 유조선 공격으로 촉발된 지정학적 리스크가 에너지 시장의 공급 우려를 증폭시키고 있다. 특히 디젤유 같은 정제유 제품이 사상 최고가를 경신한 것은 중동 지역 긴장이 실제 에너지 공급망에 직접적인 영향을 미치고 있음을 보여준다. 이러한 에너지 가격 상승은 글로벌 운송비 및 생산비 증가로 이어질 가능성이 높다.",
+      "impact_ko": "유가 상승은 인플레이션 재점화 우려를 불러일으켜 연준의 금리 인상 가능성을 높일 수 있으며, 이는 성장주와 고부채 기업에 부정적 영향을 미칠 수 있다. 동시에 에너지 관련 주식과 신재생에너지 투자에는 긍정적 자극이 될 수 있다."
+    },
+    {
+      "headline": "World’s biggest money managers are rebuilding gold positions",
+      "summary": "Major money managers are increasing gold holdings, anticipating long-term value despite Fed's inflation measures and rising interest rates.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-04/world-s-biggest-money-managers-are-rebuilding-gold-positions",
+      "published_at": "2026-09-05T16:16:02.000Z",
+      "headline_ko": "세계 최대 자산운용사들, 금 매입 확대 중",
+      "summary_ko": "주요 자산운용사들이 금 보유량을 증가시키고 있으며, 이는 장기적 가치에 대한 기대를 반영한다.",
+      "detail_ko": "대형 자산운용사들의 금 매입 확대는 현재의 매크로 경제 환경에서 인플레이션 헤지와 위험자산 회피 수단으로서 금의 가치를 재평가하는 움직임으로 보인다. 연준의 인플레이션 대응 정책과 상승하는 금리 환경에도 불구하고 금에 대한 수요가 증가하는 것은 기관투자자들이 장기적 불확실성을 우려하고 있음을 시사한다.",
+      "impact_ko": "금 수요 증가는 금 가격 상승으로 이어질 가능성이 있으며, 이는 인플레이션 헤지 자산으로서의 금의 매력을 강화할 수 있다. 또한 이러한 기관투자자의 움직임은 시장 심리 변화의 선행지표로 작용하여 향후 자산배분 전략에 영향을 미칠 수 있다."
     },
     {
       "headline": "US military strikes three Iranian crude oil carriers, Central Command says - Reuters",
@@ -180,10 +194,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnduS0xfeWF0NWZJUEpneWJOWTU3ZXNmUEZrVUY2a0U2b0FPejBkR21SMGxfRjVhWENDdUJOMTJKVm9MbjBBTkVTeHRGZmRfVkhKNnlyR1dySzBPUXBEUm1CVlVsQkhCTnlhMXBPMFM0NEJ5QTE0aDNxLU5SbzRVX09fZ3NpbnIycXVzZG9XM0dnb1JaS3pvbnI3UDUxNG1VUVhTWWFfbGQ5T2NQR0N6WnRzbzhINGlVRmRPUHhKT0xGVmhWc1E?oc=5",
       "published_at": "2026-09-05T14:16:10.000Z",
-      "headline_ko": "미군, 이란 원유 운반선 3척 공격",
-      "summary_ko": "미국 중앙군이 이란의 원유 운반선 3척을 공격했다고 발표했다.",
-      "detail_ko": "미국의 이란 유조선 공격은 중동 해역의 에너지 운송 안전성을 직접적으로 위협하는 사건이다. 이는 단순한 군사 충돌을 넘어 글로벌 석유 공급 체인에 구조적 위험을 가하는 상황으로, 특히 이란 석유의 국제 시장 접근성을 제한할 수 있다. 이러한 조치는 향후 중동 지역의 에너지 공급 불안정성을 심화시킬 가능성이 높다.",
-      "impact_ko": "원유 운반선 공격은 해상 운송 보험료 상승과 운송 경로 우회로 인한 물류 비용 증가를 초래할 수 있다. 이는 전 세계 에너지 가격 상승으로 이어져 인플레이션 재점화 우려를 높일 수 있으며, 경기 둔화 우려와 맞물려 시장 변동성을 확대시킬 가능성이 있다."
+      "headline_ko": "미국 군부, 이란 유조선 3척에 대한 공격 실시",
+      "summary_ko": "미국 중앙사령부가 이란 유조선 3척을 공격했다고 발표했다.",
+      "detail_ko": "미국의 이란 유조선 공격은 중동 지역의 지정학적 긴장을 급격히 고조시키는 사건이다. 이는 단순한 군사 충돌을 넘어 글로벌 에너지 공급망에 직접적인 위협이 되며, 특히 페르시아만을 통과하는 석유 운송에 대한 우려를 증폭시킨다. 이러한 군사적 긴장은 유가 변동성을 높이고 투자자들의 위험회피 심리를 자극할 수 있다.",
+      "impact_ko": "이 사건은 유가 급등과 에너지 시장 변동성 확대로 이어질 가능성이 높으며, 이는 인플레이션 압력을 가중시킬 수 있다. 또한 지정학적 리스크 증가로 인해 안전자산인 금, 달러, 국채에 대한 수요가 증가할 수 있으며, 위험자산인 주식과 암호화폐 시장에는 변동성을 초래할 수 있다."
     },
     {
       "headline": "What strong jobs data means for rates — plus, an out-of-favor trade shines this week",
@@ -191,10 +205,21 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/04/what-strong-jobs-data-means-for-rates-plus-an-out-of-favor-trade-shines-this-week.html",
       "published_at": "2026-09-04T18:51:01.000Z",
-      "headline_ko": "강한 고용지표가 드러내는 것 - 약세 투자 전략이 주목받다",
-      "summary_ko": "강한 8월 고용 보고서가 나오면서 시장에서 주목받지 못하던 투자 전략들이 재평가되고 있다.",
-      "detail_ko": "8월 고용 데이터의 강세는 미국 경제의 회복력을 시사하지만, 동시에 인플레이션 압력이 여전히 존재함을 의미한다. 이러한 상황에서 투자자들은 경기 사이클의 후반부에 강세를 보이는 저평가 자산이나 방어적 투자 전략에 관심을 돌리고 있다. 강한 고용은 금리 인상 가능성을 높이므로, 투자 전략의 재조정이 필요한 시점이 되었다.",
-      "impact_ko": "고용 강세에 따른 금리 인상 기대는 성장주 중심의 포트폴리오에서 가치주 또는 방어주로의 자산 재배분을 촉발할 수 있다. 이는 섹터 간 성과 격차를 확대시키고 시장 변동성을 높일 가능성이 있으며, 특히 고금리에 취약한 기술주와 성장주에 대한 조정 압력이 지속될 수 있다."
+      "headline_ko": "강한 고용 지표가 금리에 미치는 영향 분석, 부진 중인 투자 테마 부각",
+      "summary_ko": "강한 고용 데이터가 금리 인상 기대를 높이면서 시장에서 주목받지 못하던 투자 테마들이 주목받고 있다.",
+      "detail_ko": "8월 고용 지표의 강세는 연준의 금리 인상 가능성을 높이는 신호로 해석되고 있다. 이러한 금리 인상 시나리오는 성장주와 고밸류에이션 기업에 부정적이지만, 상대적으로 저평가된 가치주나 특정 섹터에는 새로운 투자 기회를 제공할 수 있다. 시장 참여자들이 포트폴리오 재조정을 시작하면서 그동안 주목받지 못한 투자 테마들이 부각되고 있는 상황이다.",
+      "impact_ko": "금리 인상 기대는 섹터 로테이션을 촉발할 가능성이 높으며, 이는 기술주 중심의 시장 구조 변화로 이어질 수 있다. 또한 채권 수익률 상승은 채권 투자 매력도를 높여 주식 시장에서의 자금 이탈을 초래할 수 있다."
+    },
+    {
+      "headline": "NEWSLETTER: Wartime oil diet boosts renewables - Reuters",
+      "summary": "NEWSLETTER: Wartime oil diet boosts renewables  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYXN3MFhOb1lLWmx4Wm9lMXdjSTlpLWc0dEdJRWpCYmJIZmVESGo2dmEwbE1VYklFWV9tRmhlREliVFp2QmVMN0VYZnNmMWlvUTl3RXd2ZGZxa0Y3TC1BaC12S0t0R2JOeW9ndVV0YlFxakdmV29EN3oxLTBBaE1ROWFnVGV6X3oxcGU3bEhR?oc=5",
+      "published_at": "2026-09-04T15:09:00.000Z",
+      "headline_ko": "뉴스레터: 전시 경제 속 신재생에너지 수요 증가",
+      "summary_ko": "지정학적 긴장으로 인한 에너지 공급 우려가 신재생에너지에 대한 투자 수요를 증가시키고 있다.",
+      "detail_ko": "중동 지역의 군사적 긴장이 고조되면서 전통 에너지원인 석유에 대한 의존도를 낮추려는 움직임이 가속화되고 있다. 이러한 '전시 경제' 상황에서 신재생에너지는 에너지 안보와 공급 안정성 측면에서 전략적 중요성이 높아지고 있다. 정부와 기업들의 신재생에너지 투자 확대는 장기적 에너지 전환 트렌드를 가속화할 수 있다.",
+      "impact_ko": "신재생에너지 관련 기업과 프로젝트에 대한 투자 수요 증가는 해당 섹터의 주가 상승과 자금 유입으로 이어질 수 있다. 또한 에너지 전환 가속화는 전통 에너지 기업과 신재생에너지 기업 간의 밸류에이션 격차를 확대할 가능성이 있다."
     },
     {
       "headline": "2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates",
@@ -202,10 +227,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/04/treasurys-bonds-nonfarm-payrolls-unemployment-data.html",
       "published_at": "2026-09-04T13:09:26.000Z",
-      "headline_ko": "강한 고용 보고서 이후 2년물 수익률이 1월 이후 최고 수준으로 상승",
-      "summary_ko": "8월 고용 보고서가 강했고 인플레이션이 여전히 높아 연방준비제도가 9월에 금리를 인상할 가능성이 높아지면서 2년물 국채 수익률이 1월 이후 최고 수준으로 올랐다.",
-      "detail_ko": "강한 고용 데이터와 지속적인 인플레이션 압력은 연방준비제도에 금리 인상의 정당성을 제공한다. 특히 2년물 국채 수익률의 급등은 단기 금리 인상에 대한 시장의 높은 기대를 반영하고 있으며, 이는 경제의 과열 우려와 인플레이션 통제의 필요성을 동시에 나타낸다. 이러한 금리 상승은 차입 비용을 증가시켜 기업과 소비자 모두에게 부담으로 작용할 것으로 예상된다.",
-      "impact_ko": "단기 금리의 상승 기대는 변동금리 대출과 신용카드 이자율 인상으로 이어질 가능성이 높다. 또한 높은 금리는 기업의 자본 투자 의욕을 꺾고 소비 심리를 위축시킬 수 있으며, 이는 경기 둔화 우려로 이어져 주식시장의 조정 압력을 가할 수 있다."
+      "headline_ko": "강한 고용 지표 이후 2년물 수익률 1월 이후 최고 수준으로 상승",
+      "summary_ko": "8월 고용 지표 강세로 인해 2년물 국채 수익률이 1월 이후 최고 수준으로 올라갔으며, 연준의 금리 인상 가능성이 높아졌다.",
+      "detail_ko": "강한 고용 데이터와 지속되는 인플레이션 압력이 결합되면서 연준이 금리 인상을 단행할 수 있다는 시장의 기대가 높아지고 있다. 2년물 수익률의 상승은 단기 금리 인상 기대를 직접적으로 반영하는 것으로, 이는 금융 조건의 긴축을 의미한다. 이러한 금리 환경 변화는 주식, 채권, 암호화폐 등 모든 자산군에 광범위한 영향을 미칠 수 있다.",
+      "impact_ko": "금리 인상 기대는 성장주와 고기술주의 밸류에이션 압박으로 이어질 가능성이 높으며, 이는 오늘의 테크 기업 낙폭을 설명하는 주요 요인이 될 수 있다. 또한 높아진 금리 환경은 채권 투자 매력도를 높여 주식 시장에서의 자금 이탈을 촉진할 수 있다."
     },
     {
       "headline": "Here are our top 10 things to watch in the stock market Friday",
@@ -213,43 +238,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/04/here-are-our-top-10-things-to-watch-in-the-stock-market-friday.html",
       "published_at": "2026-09-04T13:07:29.000Z",
-      "headline_ko": "금요일 주식시장에서 주목할 10가지 사항",
-      "summary_ko": "8월 고용 보고서가 강했고 채권 수익률이 급등하면서 주가가 하락했다.",
-      "detail_ko": "금요일 시장의 주요 움직임은 강한 고용 지표와 이에 따른 금리 인상 기대가 중심이 되었다. 채권 수익률의 급등은 고정 수입 자산의 매력도를 높이는 동시에 성장주의 상대적 가치를 하락시킨다. 이는 전형적인 금리 인상 사이클의 초기 단계에서 나타나는 자산 재배분 현상으로, 시장 구조의 변화를 시사한다.",
-      "impact_ko": "채권 수익률 상승과 주가 하락의 동시 진행은 투자자들의 포트폴리오 재조정을 가속화할 가능성이 있다. 이는 기술주와 성장주에 대한 지속적인 매도 압력으로 이어질 수 있으며, 시장 변동성이 높아지는 환경에서 방어적 자산에 대한 수요가 증가할 수 있다."
-    },
-    {
-      "headline": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-      "summary": "Higher prices come as Ukraine pounds Russian refineries, forcing Moscow to ban diesel exports.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html",
-      "published_at": "2026-09-04T12:40:43.000Z",
-      "headline_ko": "우크라이나와 이란 전쟁으로 정유소 가동 중단, 디젤이 사상 최고가 기록",
-      "summary_ko": "우크라이나가 러시아 정유소를 공격하고 러시아가 디젤 수출을 금지하면서 디젤 가격이 사상 최고 수준에 도달했다.",
-      "detail_ko": "우크라이나-러시아 전쟁과 미국-이란 긴장이 동시에 글로벌 에너지 공급망을 교란하고 있다. 러시아 정유소의 가동 중단과 수출 금지는 디젤 공급 부족을 심화시키고 있으며, 이는 운송과 산업 부문에 직접적인 비용 압력을 가한다. 디젤 가격의 사상 최고 기록은 에너지 인플레이션이 재점화되고 있음을 강력히 시사한다.",
-      "impact_ko": "디젤 가격 상승은 운송, 물류, 농업 등 광범위한 산업의 비용 구조를 악화시킬 가능성이 높다. 이는 소비자 물가 상승으로 이어져 인플레이션 우려를 가중시킬 수 있으며, 연방준비제도의 금리 인상 압력을 더욱 강화할 수 있다. 또한 에너지 비용 상승은 기업 이익률 압박으로 이어져 주식시장의 추가 조정을 초래할 수 있다."
-    },
-    {
-      "headline": "Dollar deposits push India's forex reserves to fresh record for week ended August 28 - Reuters",
-      "summary": "Dollar deposits push India's forex reserves to fresh record for week ended August 28  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3VBUFZ5YXQ5YV9zTnNwblR3V1JxbUlMVjM5Q3pNQi1TdmRhdFFtalYxVTNfMHk4N0ZEcWNTU0U4bzExYm1iRmQ1TG5IVkNlY3lBZV9ESDJwa1NmNUtydmtoRVZ0ajNoM2RqZW9vaEF2blpfbGRIWWFuWVZRclF6MkdjYUo3bmNXcXFURDY4VWdQNTlTZ1lJRmdac3hkSmVXRHJialdGVHdwQ0hSX3BQV002dUdyQ294X0tlVFQ4ZUR6QQ?oc=5",
-      "published_at": "2026-09-04T12:22:27.000Z",
-      "headline_ko": "달러 예금이 인도의 외환보유액을 8월 28일 주간 기준 사상 최고 수준으로 끌어올려",
-      "summary_ko": "달러 예금 증가로 인도의 외환보유액이 8월 28일 주간 기준 사상 최고 기록을 달성했다.",
-      "detail_ko": "인도의 외환보유액 증가는 신흥국 경제의 안정성 강화를 시사한다. 달러 예금의 증가는 인도가 외부 충격에 대한 버팀목을 강화하고 있음을 의미하며, 이는 글로벌 경제 불확실성 속에서 신흥국의 방어 태세가 강화되고 있음을 반영한다. 외환보유액의 증가는 인도 루피의 안정성을 지지하고 금융 시스템의 건전성을 높인다.",
-      "impact_ko": "인도의 외환보유액 증가는 신흥국 자산에 대한 투자자 신뢰도를 높일 수 있으며, 이는 신흥국 통화와 자산에 대한 수요 증가로 이어질 가능성이 있다. 또한 인도의 금융 안정성 강화는 글로벌 경제 불확실성 속에서 신흥국 투자의 위험 프리미엄을 낮출 수 있으며, 이는 신흥국 자산의 상대적 매력도를 높일 수 있다."
-    },
-    {
-      "headline": "Oil ends week higher on renewed US-Iran strikes, diesel hits record - Reuters",
-      "summary": "Oil ends week higher on renewed US-Iran strikes, diesel hits record  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
-      "published_at": "2026-09-04T01:28:00.000Z",
-      "headline_ko": "미국-이란 공격 재개로 유가 상승, 디젤이 사상 최고가 기록",
-      "summary_ko": "미국-이란 간의 재개된 공격으로 유가가 상승했고 디젤 가격이 사상 최고 수준에 도달했다.",
-      "detail_ko": "미국과 이란 간의 군사 충돌 재개는 중동 지역의 에너지 공급 불안정성을 심화시키고 있다. 유조선 공격으로 인한 해상 운송 경로의 위험 증가는 유가 상승 압력을 가하고 있으며, 동시에 러시아 정유소 공격으로 인한 디젤 공급 부족이 겹치면서 에너지 가격이 전반적으로 상승하고 있다. 이는 글로벌 인플레이션 압력의 재점화를 의미한다.",
-      "impact_ko": "유가와 디젤 가격의 동시 상승은 에너지 비용 인플레이션을 가속화할 가능성이 높다. 이는 운송, 제조, 농업 등 광범위한 산업의 비용 구조를 악화시키고 소비자 물가 상승으로 이어질 수 있으며, 연방준비제도의 금리 인상 압력을 강화할 수 있다. 또한 에너지 가격 상승은 기업 이익률 압박과 경기 둔화 우려로 이어져 시장 변동성을 높일 수 있다."
+      "headline_ko": "금요일 주식시장 주목할 10대 이슈",
+      "summary_ko": "채권 수익률 급등과 강한 고용 지표로 인해 주식시장이 하락했으며, 시장 참여자들이 주목해야 할 주요 이슈들이 정리되었다.",
+      "detail_ko": "금요일 시장의 주요 움직임은 거시경제 지표와 금리 전망의 변화에 의해 주도되었다. 강한 고용 지표는 연준의 금리 인상 가능성을 높이는 신호로 작용했으며, 이는 채권 수익률 급등과 주식 시장 하락으로 이어졌다. 이러한 시장 환경 변화는 투자자들의 자산배분 전략 재검토를 촉발하고 있다.",
+      "impact_ko": "금리 인상 기대의 강화는 향후 시장의 주요 변수로 작용할 가능성이 높으며, 이는 섹터 로테이션과 자산 간 상관관계 변화를 초래할 수 있다. 또한 금리 환경의 변화는 기업 실적 전망과 밸류에이션에 직접적인 영향을 미쳐 시장 변동성을 높일 수 있다."
     }
   ],
   "calendar": [
