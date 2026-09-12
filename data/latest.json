@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:06:01.206Z",
+  "generated_at": "2026-09-12T22:05:57.180Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,87 +62,87 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 76987,
-        "change_pct": -0.16412
+        "price": 77242,
+        "change_pct": 0.24971
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2508.19,
-        "change_pct": 2.04613
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 101.92,
-        "change_pct": 2.09062
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1154.21,
-        "change_pct": 1.62533
+        "price": 2522.97,
+        "change_pct": 0.3639
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 515.94,
-        "change_pct": 1.1074
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 722.04,
-        "change_pct": 1.06844
+        "price": 537.2,
+        "change_pct": 4.05799
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01546809,
-        "change_pct": -2.2673
+        "price": 0.01576997,
+        "change_pct": 1.87317
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.179944,
+        "change_pct": 1.33754
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.204304,
-        "change_pct": -2.02092
+        "price": 0.206971,
+        "change_pct": 0.93659
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 11.49,
-        "change_pct": -0.83839
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1122.77,
+        "change_pct": -3.32898
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1,
+        "change_pct": -3.12601
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price": 101.46,
+        "change_pct": -0.63554
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 79.62,
-        "change_pct": -0.74151
+        "price": 79.6,
+        "change_pct": -0.29814
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 인플레이션 우려 속에서도 기술주 중심으로 완만한 상승세를 보였다. S&P 500과 나스닥100 ETF가 각각 0.85%, 0.87% 상승하며 시장 심리가 비교적 안정적인 모습을 나타냈으나, 중동 지정학적 리스크와 유가 공급 차질 우려가 배경에 깔려 있는 상황이다.",
-      "애플(+1.75%), 구글(+1.77%), 아마존(+1.94%)이 눈에 띄는 상승률을 기록했으며, 이는 기술주에 대한 선호 심화와 함께 상대적으로 방어적 자산으로 평가받는 대형 우량주들로의 자금 쏠림으로 해석된다. 특히 아마존의 강세는 클라우드·AI 관련 수요 기대감이 작용한 것으로 보인다.",
-      "한편 암호화폐 시장에서는 이더리움(+2.05%), 솔라나(+2.09%), 지캐시(+1.63%) 등 알트코인들이 일제히 상승하며 위험자산 선호 심리가 나타났다. 비트코인이 소폭 하락(-0.16%)하며 약세를 보인 반면, 알트코인의 상대적 강세는 중동 유가 공급 차질로 인한 인플레이션 우려 속에서 대체자산으로의 자금 이동과 기술 자산에 대한 수요 회복이 복합적으로 작용한 것으로 보인다. 다만 이는 투자 조언이 아니며, 시장 변동성이 높은 만큼 신중한 접근이 필요하다."
+      "오늘 미국 주식시장은 소비자물가지수(CPI, 식품·에너지 제외)가 예상을 상회하면서 인플레이션 우려가 재부상했음에도 불구하고 완만한 상승세를 보였다. S&P 500과 나스닥100 ETF가 각각 0.85%, 0.87% 상승한 가운데, 빅테크 종목들이 혼조를 보이며 시장의 방향성이 명확하지 않은 상황으로 해석된다.",
+      "애플(AAPL)과 아마존(AMZN), 알파벳(GOOGL)이 1.7~1.9% 상승하며 강세를 보였다. 이들 종목은 높은 인플레이션 환경에서도 가격 인상 능력과 강한 수익성으로 평가받는 대형 기술주들로, 시장 불확실성 속에서 상대적으로 안정적인 수익 창출 능력에 대한 투자자 신뢰가 반영된 것으로 보인다.",
+      "암호화폐 시장에서는 프라이버시 코인인 모네로(XMR)가 4.06% 급등하며 눈에 띄는 상승을 기록했다. 지정학적 긴장과 인플레이션 우려가 고조되는 가운데 자산 보호 수단으로서의 프라이버시 코인에 대한 수요가 증가한 것으로 해석되며, 이는 글로벌 경제 불확실성이 심화될 때 익명성 자산으로의 자본 이동 패턴을 반영하는 것으로 보인다. 한편 프라이버시 규제 우려와 관련된 지캐시(ZEC)는 3.33% 하락하며 대조적인 움직임을 보였다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
-      {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 256.78,
-        "change_pct": 1.9413,
-        "type": "stock",
-        "reason_ko": "기술주 선호 및 클라우드 수요 기대"
-      },
       {
         "symbol": "AAPL",
         "name": "애플",
         "price": 332.27,
         "change_pct": 1.7454,
         "type": "stock",
-        "reason_ko": "대형 우량주 자금 쏠림"
+        "reason_ko": "빅테크 안정성 선호"
+      },
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "price": 256.78,
+        "change_pct": 1.9413,
+        "type": "stock",
+        "reason_ko": "가격 인상 능력 평가"
       },
       {
         "symbol": "GOOGL",
@@ -150,29 +150,51 @@
         "price": 338.5,
         "change_pct": 1.7739,
         "type": "stock",
-        "reason_ko": "AI·기술 자산 선호 심화"
+        "reason_ko": "인플레이션 대응력 신뢰"
       },
       {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price": 2508.19,
-        "change_pct": 2.04613,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 537.2,
+        "change_pct": 4.05799,
         "type": "crypto",
-        "reason_ko": "위험자산 선호 및 대체자산 수요"
+        "reason_ko": "프라이버시 자산 수요 증가"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
+      "summary": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
+      "published_at": "2026-09-12T12:40:05.000Z",
+      "headline_ko": "유가 $100 돌파, 중국의 역할이 향후 방향 결정할 것",
+      "summary_ko": "미국 원유가 목요일 배럴당 $102를 돌파해 5월 이후 최고가를 기록했다.",
+      "detail_ko": "유가가 $100 수준으로 복귀한 것은 공급 차질과 지정학적 긴장이 복합적으로 작용한 결과다. 중국의 경제 회복 속도와 석유 수입 수요가 향후 유가 방향을 좌우할 핵심 변수로 지목되고 있으며, 이는 글로벌 에너지 시장의 수급 균형이 얼마나 취약한 상태인지를 보여준다. 현재의 유가 상승세가 지속되려면 중국의 수요 회복이 필수적이라는 점에서 중국 경제 지표에 대한 시장의 관심이 높아질 것으로 예상된다.",
+      "impact_ko": "유가 상승은 에너지 관련 기업의 수익성 개선으로 이어질 수 있으나, 동시에 인플레이션 압력을 가중시켜 중앙은행의 금리 인상 우려를 높일 가능성이 있다. 특히 중국 수요에 따른 유가 변동성이 커질 경우 글로벌 주식시장의 변동성도 함께 확대될 수 있다."
+    },
+    {
+      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
+      "summary": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
+      "published_at": "2026-09-12T00:55:00.000Z",
+      "headline_ko": "사우디, 후티 세력의 홍해 해운 장악에 따라 석유 파이프라인 폐쇄",
+      "summary_ko": "후티 반군의 홍해 해운 통제 강화에 대응해 사우디가 석유 수송 파이프라인을 폐쇄했다.",
+      "detail_ko": "후티 세력의 해상 공격 위협이 고조되면서 사우디는 해상 운송 경로 대신 육상 파이프라인 운영을 제한하는 조치를 취했다. 이는 중동 지역의 지정학적 불안정성이 에너지 공급망에 직접적인 영향을 미치고 있음을 의미하며, 글로벌 석유 수급에 새로운 리스크 요인으로 작용하고 있다. 홍해 해운로의 불안정성이 심화될수록 대체 운송 경로와 비용 증가 압력이 커질 것으로 보인다.",
+      "impact_ko": "파이프라인 폐쇄로 인한 석유 공급 차질은 유가 상승 압력을 지속시킬 가능성이 높다. 이러한 공급 불안정성은 에너지 가격 상승을 통해 글로벌 인플레이션을 악화시킬 수 있으며, 결과적으로 경제 성장 둔화와 금융시장 변동성 확대로 이어질 수 있다."
+    },
     {
       "headline": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down - Reuters",
       "summary": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUk9oUjNYejhGeW1YblJUVWdfQ0JaZU52dHNPZUZVdnpMSkxYS3pKTWhLdjU0REdNUGdubUhnRl9KUXZabHRfbEQyOUJZeXUxQzZfcGFlbFV5V1BlSTVmRkhzdGJaNkpQa3p3OG9LZUt3Q3VXYkdrc2ZRWW9fcWQ4TkYxNFgxNFI0dlhIV0UyUU5Dbk44blJMempZVFVqVm5XbUlfV2dqSlN3YXBNUDlUQmVxS3JQMUxQ?oc=5",
       "published_at": "2026-09-11T21:28:55.000Z",
-      "headline_ko": "후티 반군의 주요 섬 점령으로 걸프만 석유 공급 재차 위협",
-      "summary_ko": "예멘 후티 반군이 전략적 요충지 섬을 점령하고 석유 수송 파이프라인을 폐쇄하면서 중동 석유 공급 차질이 심화되고 있다.",
-      "detail_ko": "후티 반군의 군사 활동이 확대되면서 걸프만 지역의 석유 인프라가 직접적인 위협에 노출되고 있다. 주요 섬 점령과 파이프라인 폐쇄는 단순한 일시적 사건이 아니라 중동 지정학적 긴장이 에너지 시장에 구조적 영향을 미치고 있음을 시사한다. 이는 글로벌 석유 공급망의 취약성을 드러내며, 향후 유가 변동성 확대의 주요 요인으로 작용할 가능성이 높다.",
-      "impact_ko": "석유 공급 차질이 지속될 경우 국제유가 상승 압력이 강화될 수 있으며, 이는 글로벌 인플레이션 우려를 증폭시킬 수 있다. 에너지 수입국들의 경제 성장 둔화와 수입 물가 상승으로 이어질 가능성이 있으며, 특히 신흥국 통화 약세와 주식시장 변동성 확대를 초래할 수 있다."
+      "headline_ko": "후티 세력이 전략적 섬 점령, 중동 석유 공급 재차 위협",
+      "summary_ko": "후티 반군이 홍해의 핵심 섬을 점령하고 파이프라인이 폐쇄되면서 중동 석유 공급이 새로운 위협에 직면했다.",
+      "detail_ko": "후티 세력의 영토 확장은 홍해 해운로에 대한 통제력을 강화시키고 있으며, 이는 단순한 해상 공격을 넘어 중동 에너지 인프라 전체에 대한 위협으로 확대되고 있다. 전략적 요충지 점령은 향후 해상 운송 비용 상승과 보험료 인상으로 이어질 가능성이 높으며, 이는 글로벌 에너지 가격에 구조적 상승 압력을 가할 것으로 해석된다. 지정학적 리스크가 에너지 시장의 기본 구조를 변화시키고 있는 상황이다.",
+      "impact_ko": "중동 석유 공급 경로의 불안정성 심화는 유가의 변동성을 높이고 장기적 상승 추세를 강화할 가능성이 있다. 이는 운송·물류·화학 등 에너지 집약적 산업의 수익성을 압박하는 한편, 재생에너지 관련 투자 수요를 촉발할 수 있다."
     },
     {
       "headline": "The inside story on the historic U.S.-Venezuela oil deal and how it will work",
@@ -180,10 +202,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html",
       "published_at": "2026-09-11T16:23:06.000Z",
-      "headline_ko": "미국-베네수엘라 역사적 석유 거래 체결, 공급 다변화 추진",
-      "summary_ko": "미국 에너지부 장관이 베네수엘라를 방문해 양국 간 석유 거래 협력을 체결했으며, 이는 글로벌 석유 공급 안정화를 위한 전략적 움직임으로 평가된다.",
-      "detail_ko": "미국이 베네수엘라와의 석유 거래를 공식화함으로써 중동 공급 차질에 대한 대체 공급처 확보에 나섰다. 이는 단순한 양자 거래를 넘어 미국의 에너지 안보 전략 재편을 의미하며, 지정학적 리스크 분산을 통해 유가 변동성을 완화하려는 의도로 해석된다. 다만 베네수엘라와의 관계 개선은 국내 정치적 논쟁을 야기할 수 있으며, 실제 공급 물량과 시기에 대한 불확실성도 존재한다.",
-      "impact_ko": "베네수엘라 석유 공급이 본격화될 경우 글로벌 석유 공급 구조에 변화를 가져올 수 있으며, 중기적으로 유가 상승 압력을 완화할 가능성이 있다. 다만 공급 개시 시점과 물량이 불확실한 만큼 단기 유가는 여전히 중동 지정학적 리스크에 민감하게 반응할 수 있다."
+      "headline_ko": "역사적 미국-베네수엘라 석유 협정의 내막과 작동 방식",
+      "summary_ko": "미국 에너지부 장관이 카라카스를 방문해 베네수엘라와의 석유 협정 내용을 공개했다.",
+      "detail_ko": "미국과 베네수엘라 간의 석유 협정은 미국의 에너지 공급 다각화 전략의 일환으로 이해할 수 있다. 베네수엘라는 세계 최대 규모의 석유 매장량을 보유하고 있으나 국제 제재로 인해 생산이 크게 제한되어 왔는데, 이번 협정은 이러한 제재 체계의 부분적 완화를 시사한다. 미국이 중동 지역의 지정학적 리스크를 회피하기 위해 서반구 에너지 공급처 확보에 나선 것으로 해석되며, 이는 글로벌 에너지 지정학의 재편을 반영하는 움직임이다.",
+      "impact_ko": "베네수엘라 석유 공급이 증가할 경우 글로벌 석유 공급 구조에 변화를 가져올 수 있으며, 단기적으로는 유가 상승 압력을 완화할 가능성이 있다. 그러나 미국의 제재 정책 변화는 국제 관계의 불확실성을 높일 수 있으며, 이는 에너지 시장의 신뢰도에 영향을 미칠 수 있다."
     },
     {
       "headline": "Chevron CEO says depleted crude oil buffers could lead to higher prices - Reuters",
@@ -191,10 +213,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZEtqcVRxSzRKdkFERnkxUDFwd2l6ZmVOQXNiNWJFLUxGc2R6X19JZ19WaUNQZzRTWXNjRTJsTjZ6MnNzTUhGcDR3QzRlOXdvRFVNZWV3V3B2Y0M2bmRVa0NuQXdRc1Z4TFljREh6XzRZQkpOaHoyX2lFeFhKa0Jqc0pyRWdtQnBWV0VFakt4cGQ0T0t4RWlQVzI2cmxXZXBLR08xdGJSemdfOHhGbnhWby1OcExja3F3RnYxNQ?oc=5",
       "published_at": "2026-09-11T15:53:43.000Z",
-      "headline_ko": "셰브론 CEO, 고갈된 석유 비축량이 유가 상승 초래할 수 있다고 경고",
-      "summary_ko": "셰브론 최고경영자가 글로벌 석유 비축량 감소로 인한 유가 상승 위험을 지적했다.",
-      "detail_ko": "주요 석유 기업의 경영진이 공식적으로 석유 공급 부족 우려를 표명함으로써 시장의 우려가 현실화되고 있음을 시사한다. 비축량 고갈은 단기 공급 충격에 대한 완충 능력이 감소했음을 의미하며, 이는 중동 지정학적 리스크가 실제 유가 상승으로 직결될 가능성을 높인다. 석유 업계의 이러한 경고는 향후 유가 상승 시나리오에 대한 신뢰도를 높이는 신호로 작용할 수 있다.",
-      "impact_ko": "비축량 부족이 심화될 경우 유가 변동성이 확대되고 상승 압력이 강화될 수 있으며, 이는 인플레이션 재가속 우려로 이어질 수 있다. 에너지 집약적 산업과 운송업 부문의 수익성 악화 가능성이 높아질 수 있으며, 중앙은행의 금리 인상 기대감도 재점화될 수 있다."
+      "headline_ko": "셰브론 CEO, 고갈된 원유 버퍼가 유가 상승으로 이어질 수 있다고 경고",
+      "summary_ko": "셰브론 최고경영자가 감소한 원유 재고가 향후 유가 상승 압력으로 작용할 수 있다고 지적했다.",
+      "detail_ko": "글로벌 원유 재고 수준의 저하는 공급 충격에 대한 시장의 완충 능력이 약화되었음을 의미한다. 셰브론 CEO의 발언은 현재의 유가 상승이 일시적 변동이 아닌 구조적 공급 부족에 기인할 수 있다는 업계 인식을 반영하고 있다. 재고 감소는 지정학적 리스크와 맞물려 유가의 상향 압력을 강화하는 요인으로 작용할 것으로 보인다.",
+      "impact_ko": "원유 버퍼 고갈은 향후 유가 변동성을 높이고 상승 추세를 강화할 가능성이 높다. 이는 에너지 기업의 수익성 개선으로 이어질 수 있으나, 동시에 인플레이션 심화로 인한 경제 둔화 우려를 가중시킬 수 있다."
     },
     {
       "headline": "Oil tanker rates hit record highs following Iran, US shipping attacks - Reuters",
@@ -202,10 +224,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMm5mMEFxdUdWVkQ3Q3J0WlJnN1J1Ti01OEZiMjlKMjRPT0JMRnF6OTJrbjA1TFJ4dzVveUoxX0NsbUNyMUtYX040QzNOSWlfcWhiMEc5WWZVUEtGS1VaRDF2b3NCTzNPLXRRN2JYSzZXYURPZTdWNDA4c1hoRW1mZ3B1SGFiXzltQldPUTlKSERIeXpIQk5RaDU3Z2otUXZXV2NZMGhCanNFcWJLZ3B4aXk4X0xTS0FsV0Vteg?oc=5",
       "published_at": "2026-09-11T14:37:33.000Z",
-      "headline_ko": "이란-미국 해상 공격 이후 유조선 운임료 사상 최고치 기록",
-      "summary_ko": "중동 지역의 해상 분쟁으로 인해 석유 운송 비용이 역사적 고점에 도달했다.",
-      "detail_ko": "이란과 미국 간의 해상 공격이 확대되면서 유조선 운임료가 급등하고 있으며, 이는 석유 공급 경로의 위험 프리미엄이 급증했음을 의미한다. 운임료 상승은 실제 석유 가격 상승과 동일한 효과를 가져오며, 이는 최종 소비자가 부담하는 에너지 비용 증가로 직결된다. 해상 운송 리스크가 구조화되고 있다는 신호로, 향후 에너지 공급망의 재편을 초래할 수 있다.",
-      "impact_ko": "유조선 운임료 상승은 석유 수입국들의 실질적 에너지 비용을 증가시킬 수 있으며, 이는 인플레이션 압력으로 작용할 가능성이 높다. 해운업 부문의 수익성 개선에도 불구하고, 글로벌 공급망 비용 상승으로 인한 광범위한 물가 상승 우려가 커질 수 있다."
+      "headline_ko": "이란·미국 해상 공격 이후 유조선 운임료 사상 최고치 기록",
+      "summary_ko": "이란과 미국 간의 해상 공격 사건 이후 유조선 운임료가 역대 최고 수준에 도달했다.",
+      "detail_ko": "중동 지역의 해상 안보 악화는 에너지 운송 비용의 급증으로 직결되고 있다. 유조선 운임료의 급등은 단순히 운송 비용 증가를 의미하는 것이 아니라, 해상 운송 경로의 리스크 프리미엄이 극도로 높아졌음을 보여준다. 이는 지정학적 긴장이 에너지 공급망의 모든 단계에 영향을 미치고 있으며, 최종 소비자가 부담하는 에너지 가격에 구조적 상승 압력을 가하고 있음을 의미한다.",
+      "impact_ko": "유조선 운임료 상승은 석유 수입국의 에너지 구매 비용을 직접 증가시켜 인플레이션 압력을 가중시킬 가능성이 높다. 이는 특히 에너지 수입 의존도가 높은 선진국과 개발도상국의 경제에 부정적 영향을 미칠 수 있으며, 글로벌 공급망 비용 상승으로 이어질 수 있다."
     },
     {
       "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
@@ -213,10 +235,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
       "published_at": "2026-09-11T13:14:06.000Z",
-      "headline_ko": "짐 크래머의 금요일 주식시장 주목 포인트: 예상보다 높은 소비자 물가",
-      "summary_ko": "소비자 물가(식품·에너지 제외)가 예상을 상회하면서 시장이 더 높은 개장을 준비 중이다.",
-      "detail_ko": "핵심 인플레이션 지표가 예상을 초과함으로써 시장의 금리 전망에 변화가 생기고 있다. 이는 중앙은행의 금리 인하 속도가 예상보다 완만할 수 있음을 시사하며, 동시에 기술주와 성장주에 대한 평가 압력으로 작용할 수 있다. 다만 시장이 여전히 긍정적 반응을 보이는 것은 인플레이션 우려가 부분적으로 이미 가격에 반영되었거나, 기업 실적 개선 기대감이 이를 상쇄하고 있음을 의미한다.",
-      "impact_ko": "높은 인플레이션 수치는 연방준비제도의 금리 인하 일정을 지연시킬 수 있으며, 이는 장기 금리 상승 압력으로 이어질 수 있다. 다만 시장의 긍정적 반응은 기업 실적 개선과 기술 혁신에 대한 기대감이 여전히 강함을 시사하며, 향후 금리 경로에 대한 명확한 신호가 나올 때까지 변동성이 지속될 가능성이 있다."
+      "headline_ko": "짐 크래머의 금요일 주식시장 주목 종목 10가지",
+      "summary_ko": "소비자물가지수(식품·에너지 제외)가 예상을 상회한 가운데 금요일 주식시장의 주요 관찰 대상을 제시했다.",
+      "detail_ko": "예상을 웃도는 핵심 인플레이션 지표는 연방준비제도의 금리 인하 전망을 약화시키는 요인으로 작용하고 있다. 이는 현재의 고금리 환경이 당분간 지속될 가능성을 높이며, 이자율에 민감한 성장주와 기술주에 대한 평가 압력을 가할 수 있다. 시장 참여자들은 금요일 발표될 추가 경제 지표와 기업 실적을 통해 인플레이션 추세와 금리 경로에 대한 신호를 찾을 것으로 예상된다.",
+      "impact_ko": "높은 인플레이션 지표는 시장의 금리 인하 기대를 낮추면서 주식시장의 변동성을 높일 가능성이 있다. 특히 고성장 기술주와 저금리 수혜 섹터에 대한 재평가 압력이 강해질 수 있으며, 방어주와 고배당 종목으로의 자본 이동이 가속화될 수 있다."
     },
     {
       "headline": "UAE shares gain as regional conflict fuels oil supply concerns - Reuters",
@@ -224,43 +246,13 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcFZqSkZWYzU5a0MtUVB6M1FocURieVI2YVRoWmxJTzN4Q003R3FNZkJwQTFtRjZMRHlpU3REZWJxR3hGZDlaUEhXYXY5ZkhrcC1DblhPYzJhcEM0X2ZJQWdLc0hTYTc1WmFyZ0VBR3pwY0Flc3ZQMFNGeU5mV3MzZlNaUW43NHBGdk1PSV9PcE4tUVB1ajlkbGhiSE1TYTFiaG16dTY0VTFhQ09BaThBcVRSZw?oc=5",
       "published_at": "2026-09-11T12:38:25.000Z",
-      "headline_ko": "지역 분쟁으로 유가 공급 우려 확산, UAE 주식시장 상승",
-      "summary_ko": "중동 지역 갈등으로 인한 석유 공급 차질 우려가 고조되면서 UAE 주식시장이 상승했다.",
-      "detail_ko": "역설적이게도 유가 공급 우려가 UAE 주식시장 상승으로 이어졌으며, 이는 석유 수출국의 수익성 개선 기대감이 반영된 결과로 해석된다. 중동 지정학적 긴장이 심화될수록 유가가 상승하고, 이는 석유 수출국의 정부 수입과 기업 실적 개선으로 이어지는 구조이다. 다만 이러한 상승이 지속되려면 실제 유가 상승이 현실화되어야 하며, 공급 차질이 과도하게 심화될 경우 경제 전반에 부정적 영향을 미칠 수 있다.",
-      "impact_ko": "석유 수출국의 주식시장 상승은 단기적으로 에너지 섹터 투자 수익성 개선을 의미할 수 있으나, 글로벌 경제 전반에는 인플레이션 압력으로 작용할 수 있다. 석유 수입국과 수출국 간의 경제 성과 격차가 확대될 가능성이 있으며, 이는 글로벌 자본 흐름의 재편을 초래할 수 있다."
-    },
-    {
-      "headline": "Saudi oil supply hits more than three-decade low after Houthi attacks, IEA says - Reuters",
-      "summary": "Saudi oil supply hits more than three-decade low after Houthi attacks, IEA says  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM3o1VnU0amR5MnduMjR2RW1ENURKWmRGUkNFd0tQdWpwdXlkTXZLdEJyZWZmQ1VCQm54a1lkS2NjLUt2WFNGckFnWEFMN3YtdFBvbElNbmlxbjBKejV2ZXI2QmRyV285S3RLY1lZTEFIMnlXSWpTc3pYa0FEcVlYZGltU3dmX3QyUlRyQjNUc18tMW9NeDlsMXljekJ5VkRnVGlhOXBRQmM5OWRCb2pSYVI1Y2s1RE5hd2p4RHFUbXlUVHJpeHZTaUhNM3U?oc=5",
-      "published_at": "2026-09-11T10:49:59.000Z",
-      "headline_ko": "후티 공격 이후 사우디 석유 공급 30년 만에 최저 수준으로 하락",
-      "summary_ko": "국제에너지기구(IEA)가 후티 반군의 공격으로 인해 사우디 석유 공급이 30년 만에 최저치에 도달했다고 발표했다.",
-      "detail_ko": "국제 에너지 기구의 공식 발표는 중동 석유 공급 차질이 단순한 일시적 사건이 아니라 구조적 문제임을 확인시켜준다. 사우디는 글로벌 석유 공급의 핵심 국가이며, 그 공급량이 30년 만에 최저치라는 것은 글로벌 에너지 시장의 심각한 불균형을 의미한다. 이는 유가 상승 압력이 상당 기간 지속될 가능성을 높이며, 글로벌 경제에 광범위한 영향을 미칠 수 있다.",
-      "impact_ko": "사우디 석유 공급 급감은 글로벌 유가 상승의 구조적 근거를 제공하며, 이는 인플레이션 재가속 우려를 심화시킬 수 있다. 신흥국의 경제 성장 둔화와 통화 약세 가능성이 높아질 수 있으며, 글로벌 금융시장의 변동성 확대로 이어질 수 있다."
-    },
-    {
-      "headline": "India stocks log fifth weekly loss as oil fears grip markets - Reuters",
-      "summary": "India stocks log fifth weekly loss as oil fears grip markets  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMEI5a2VhM0MzYVlMTWQwRWRxeWI2TjlIbkVLX0NteDdFbmg0c2JhRjl5dHczYzRySnF0Y0MwNzlhcnJSOFNpaHJORVROU2EtTGUyN21weTJvbzBqV3k2NFlLOHp0MTNuNDdTMjd6RU9OQVc5MXk2RUlWUldVSDZ4VVk1UXRkQTlhTWtNQWNpQnpGQkd5cXpUQU5mejZPTTNnYUVpNWd5RFc?oc=5",
-      "published_at": "2026-09-11T10:37:17.000Z",
-      "headline_ko": "인도 주식시장 5주 연속 하락, 유가 우려가 주요 원인",
-      "summary_ko": "인도 주식시장이 5주 연속 하락세를 기록했으며, 석유 공급 차질에 대한 우려가 주요 배경이다.",
-      "detail_ko": "석유 수입국인 인도의 주식시장 부진은 유가 상승이 신흥국 경제에 미치는 부정적 영향을 직접적으로 보여준다. 인도는 에너지 수입 의존도가 높은 국가이며, 유가 상승은 인플레이션 압력, 경상수지 악화, 통화 약세로 이어진다. 5주 연속 하락은 시장이 이러한 악재를 누적적으로 평가하고 있음을 의미하며, 신흥국 전반의 경제 전망 악화를 시사한다.",
-      "impact_ko": "인도 주식시장의 약세는 신흥국 자산 전반에 대한 투자 심리 악화로 이어질 수 있으며, 선진국으로의 자본 이탈을 초래할 수 있다. 인도의 인플레이션 상승과 중앙은행의 금리 인상 압력이 높아질 수 있으며, 이는 경제 성장 둔화로 이어질 가능성이 있다."
+      "headline_ko": "지역 분쟁이 석유 공급 우려를 부채질하면서 UAE 주식 상승",
+      "summary_ko": "중동 지역 분쟁으로 인한 석유 공급 우려가 고조되면서 아랍에미리트 주식시장이 상승했다.",
+      "detail_ko": "중동 지정학적 긴장은 역설적으로 해당 지역의 에너지 기업과 금융 기관에 긍정적 영향을 미치고 있다. 석유 공급 차질에 대한 우려가 유가 상승으로 이어지면서 중동 산유국의 수익성이 개선되는 구조다. UAE 주식의 상승은 지역 내 에너지 기업과 금융 기관의 수익 전망 개선을 반영하는 것으로 해석되며, 이는 지정학적 리스크가 항상 모든 시장에 부정적으로만 작용하지 않음을 보여준다.",
+      "impact_ko": "중동 지역 주식시장의 상승은 글로벌 자본의 지역 분산 투자를 촉발할 수 있으며, 에너지 기업의 수익성 개선은 배당 수익률 상승으로 이어질 가능성이 있다. 그러나 이러한 긍정적 영향은 지정학적 상황의 악화 시 급격히 반전될 수 있다는 점에서 고위험 자산으로 평가될 수 있다."
     }
   ],
   "calendar": [
-    {
-      "date": "2026-09-11",
-      "title": "소비자물가지수(CPI) 발표",
-      "agency": "미 노동통계국(BLS)",
-      "what": "미국 도시 소비자가 실제로 지불하는 상품·서비스 가격을 묶어 만든 물가지수입니다. 식품과 에너지를 뺀 근원(core) CPI가 추세 판단에 더 많이 쓰입니다.",
-      "why": "연준이 금리를 올릴지 내릴지 판단할 때 보는 대표적인 물가 지표입니다. 시장 예상보다 높게 나오면 금리 인하 기대가 밀리면서 주식과 채권이 함께 약해지는 경우가 많습니다.",
-      "watch": "전월 대비 근원 CPI가 0.3%를 넘는지, 그리고 주거비 항목이 둔화되는지를 봅니다."
-    },
     {
       "date": "2026-09-15",
       "title": "FOMC 정례회의 (~09-16)",
@@ -284,6 +276,14 @@
       "what": "농업을 제외한 산업에서 한 달 동안 늘어난 일자리 수와 실업률, 시간당 임금을 함께 발표합니다. 매달 첫째 주 금요일에 나와 '고용지표의 본편'으로 불립니다.",
       "why": "고용이 너무 뜨거우면 임금이 오르고 물가 압력이 남아 금리 인하가 늦어집니다. 반대로 급격히 식으면 경기 침체 우려가 커집니다. 시장은 어느 한쪽으로 크게 벗어나지 않는 수치를 선호합니다.",
       "watch": "신규 고용자 수뿐 아니라 지난 두 달치 수정폭과 시간당 임금 상승률을 함께 봐야 방향이 보입니다."
+    },
+    {
+      "date": "2026-10-14",
+      "title": "소비자물가지수(CPI) 발표",
+      "agency": "미 노동통계국(BLS)",
+      "what": "미국 도시 소비자가 실제로 지불하는 상품·서비스 가격을 묶어 만든 물가지수입니다. 식품과 에너지를 뺀 근원(core) CPI가 추세 판단에 더 많이 쓰입니다.",
+      "why": "연준이 금리를 올릴지 내릴지 판단할 때 보는 대표적인 물가 지표입니다. 시장 예상보다 높게 나오면 금리 인하 기대가 밀리면서 주식과 채권이 함께 약해지는 경우가 많습니다.",
+      "watch": "전월 대비 근원 CPI가 0.3%를 넘는지, 그리고 주거비 항목이 둔화되는지를 봅니다."
     }
   ]
 }
