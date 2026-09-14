@@ -1,255 +1,256 @@
 {
-  "generated_at": "2026-09-13T22:06:43.862Z",
+  "generated_at": "2026-09-14T22:06:43.045Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 332.27,
-        "change_pct": 1.7454
+        "price": 333.08,
+        "change_pct": 0.2438
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 495.63,
-        "change_pct": 0.6478
+        "price": 505.41,
+        "change_pct": 1.9732
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 218.29,
-        "change_pct": -0.0321
+        "price": 210.96,
+        "change_pct": -3.3579
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 365.44,
-        "change_pct": 0.5171
+        "price": 358.97,
+        "change_pct": -1.7705
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 256.78,
-        "change_pct": 1.9413
+        "price": 253.54,
+        "change_pct": -1.2618
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 338.5,
-        "change_pct": 1.7739
+        "price": 349.39,
+        "change_pct": 3.2171
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 648.03,
-        "change_pct": 0.5664
+        "price": 665.6,
+        "change_pct": 2.7113
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 764.29,
-        "change_pct": 0.8524
+        "price": 760.88,
+        "change_pct": -0.4462
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 714.88,
-        "change_pct": 0.8734
+        "price": 709.18,
+        "change_pct": -0.7973
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 77151,
-        "change_pct": -0.15815
+        "price": 78755,
+        "change_pct": 2.11309
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2500.44,
-        "change_pct": -0.94195
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.341118,
-        "change_pct": 0.43595
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1,
-        "change_pct": -0.00059
-      },
-      {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999823,
-        "change_pct": -0.00667
-      },
-      {
-        "symbol": "USDS",
-        "name": "USDS",
-        "price": 0.999757,
-        "change_pct": -0.00924
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01523373,
-        "change_pct": -3.17359
+        "price": 2544.4,
+        "change_pct": 1.78471
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1089.58,
-        "change_pct": -3.08655
+        "price": 1177.35,
+        "change_pct": 8.17237
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.193626,
+        "change_pct": 7.86789
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.44,
+        "change_pct": 6.83908
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 78.36,
-        "change_pct": -1.65822
+        "price": 80.54,
+        "change_pct": 2.94964
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.0143288,
+        "change_pct": -5.97772
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 529.68,
-        "change_pct": -1.43315
+        "price": 513.32,
+        "change_pct": -2.75013
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.338934,
+        "change_pct": -0.65688
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9,
+        "change_pct": -0.05892
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 완만한 상승세를 보였으며, S&P 500 ETF(SPY)와 나스닥100 ETF(QQQ)가 각각 0.85%, 0.87% 상승했다. 이는 지정학적 긴장 속에서도 기술주와 대형주 중심의 방어적 수요가 유지되고 있음을 시사한다.",
-      "애플(AAPL)과 알파벳(GOOGL)이 각각 1.74%, 1.77% 상승하며 대형 기술주들이 시장을 주도했고, 아마존(AMZN)도 1.94% 올랐다. 이들 종목의 강세는 기술 섹터에 대한 지속적인 수요와 함께 상대적으로 안정적인 수익성에 대한 투자자 신뢰로 해석된다.",
-      "암호화폐 시장은 전반적으로 약세를 보였는데, 특히 프라이버시 코인인 지캐시(ZEC)와 모네로(XMR)가 각각 3.09%, 1.43% 하락했다. 이는 규제 리스크 심화와 달러 강세 기조 속에서 프라이버시 코인에 대한 투자자 회피 심리가 강해지고 있음으로 보인다. 비트코인(BTC)과 이더리움(ETH)도 소폭 하락하며 위험자산 선호 심리가 약화된 모습이다. 본 내용은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. 나스닥 지수는 소폭 하락했으나, 빅테크 종목 중 일부는 강세를 유지했고 에너지 관련 뉴스의 영향으로 유가 상승 기대감이 형성되었다. 연방준비제도의 금리 인상 가능성이 92% 이상으로 평가되면서 시장의 불확실성이 지속되고 있다.",
+      "알파벳(구글)과 메타가 각각 3.2%, 2.7% 상승하며 강세를 보였고, 마이크로소프트도 1.9% 올랐다. 이들 빅테크 기업들은 AI와 클라우드 사업의 장기 성장성에 대한 투자자 신뢰가 유지되고 있는 것으로 해석된다. 특히 구글의 상승은 검색 및 광고 사업의 회복력을 반영하는 것으로 보인다.",
+      "엔비디아는 3.3% 하락하며 약세를 보였고, 테슬라와 아마존도 각각 1.7%, 1.2% 내렸다. 엔비디아의 하락은 AI 칩 수요 둔화 우려나 밸류에이션 조정 압력으로 해석되며, 테슬라는 전기차 시장 경쟁 심화와 금리 인상 우려가 영향을 미친 것으로 보인다. 이는 성장주 중에서도 선별적 약세가 나타나고 있음을 시사한다.",
+      "암호화폐 시장에서는 프라이버시 코인과 리플 계열 자산이 두드러진 강세를 보였다. Zcash(+8.17%), Stellar(+7.87%), XRP(+6.84%)가 모두 6% 이상 상승했는데, 이는 지정학적 리스크(중동 분쟁)로 인한 위험자산 회피 심리 속에서도 규제 리스크 완화 기대나 결제 수단으로서의 실용성 재평가가 영향을 미친 것으로 보인다. 반면 Monero(-2.75%)는 프라이버시 코인 중에서도 규제 우려가 상대적으로 강한 것으로 해석된다. 본 내용은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 332.27,
-        "change_pct": 1.7454,
-        "type": "stock",
-        "reason_ko": "대형 기술주 강세 주도"
-      },
-      {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 338.5,
-        "change_pct": 1.7739,
+        "price": 349.39,
+        "change_pct": 3.2171,
         "type": "stock",
-        "reason_ko": "기술 섹터 수익성 신뢰"
+        "reason_ko": "빅테크 광고 사업 회복력"
       },
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 256.78,
-        "change_pct": 1.9413,
+        "symbol": "META",
+        "name": "메타",
+        "price": 665.6,
+        "change_pct": 2.7113,
         "type": "stock",
-        "reason_ko": "클라우드 사업 안정성"
+        "reason_ko": "AI 및 클라우드 성장성 신뢰"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "price": 210.96,
+        "change_pct": -3.3579,
+        "type": "stock",
+        "reason_ko": "AI 칩 수요 둔화 우려"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1089.58,
-        "change_pct": -3.08655,
+        "price": 1177.35,
+        "change_pct": 8.17237,
         "type": "crypto",
-        "reason_ko": "규제 리스크 프라이버시 코인 회피"
+        "reason_ko": "프라이버시 코인 규제 완화 기대"
       }
     ]
   },
   "news": [
     {
+      "headline": "Billionaire Dangote launches oil refinery 'people's IPO', Africa's biggest - Reuters",
+      "summary": "Billionaire Dangote launches oil refinery 'people's IPO', Africa's biggest  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNm15SzdOekVDNV9rUTlPanJOckRvYlVjbzNtRU1BVFlWLV9DUVFBRHIxQWwzbzZJNHNuUWt4VXpyM0piZVZCTjRXelNxMUN3ZHB4WXNuZmdoeTJvZkI5Mmp5azBwVGxRNU1qdEEwelJ4c3lCUGxORXRGUFkxckEwZFkwMjRIR3pUbnZhQnllUXp6ZVN2QllZeEg5LUhuVm9tdDhHZmhlTEt5RV8temxtSTJqb0RYWENfckZLTVV1RmlzNjQwdjBj?oc=5",
+      "published_at": "2026-09-14T19:34:10.000Z",
+      "headline_ko": "아프리카 최대 규모 정유소, 억만장자 댕고트가 '국민 IPO' 추진",
+      "summary_ko": "억만장자 댕고트가 아프리카 최대 규모의 정유소를 대상으로 '국민 IPO'를 출범시켰다.",
+      "detail_ko": "댕고트 정유소는 아프리카 에너지 인프라의 상징적 프로젝트로, 광범위한 대중 참여를 통한 자본 조달을 목표로 하고 있다. 이는 아프리카의 에너지 자립도 강화와 지역 자본시장 발전을 동시에 추진하려는 전략으로 해석된다. 국민 IPO 구조는 소액 투자자들의 접근성을 높여 에너지 인프라 투자의 민주화를 도모하는 의도로 보인다.",
+      "impact_ko": "아프리카의 정유 산업 구조 개선과 에너지 자급률 향상으로 이어질 수 있으며, 지역 자본시장의 성숙도 제고에 긍정적 신호가 될 가능성이 있다. 또한 대규모 에너지 인프라 프로젝트의 자금 조달 모델로서 다른 신흥국들에 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
+      "summary": "Traders were pricing in a better than 92% probability of a rate increase, as well as a more than 75% chance for another one in December.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
+      "published_at": "2026-09-14T18:50:32.000Z",
+      "headline_ko": "연방준비제도 금리 인상 임박, 워시 후보자 강한 저항에 직면",
+      "summary_ko": "시장이 92% 이상의 확률로 연방준비제도의 금리 인상을 예상하고 있으며, 12월 추가 인상 가능성도 75% 이상으로 평가되고 있다.",
+      "detail_ko": "연방준비제도의 금리 인상 가능성이 매우 높게 평가되는 상황에서 차기 지도부 인선이 진행 중이다. 워시 후보자는 금리 인상에 대한 강한 반대 입장으로 인해 시장과 정책 입안자들 사이에서 논쟁의 중심에 있다. 이는 향후 통화정책의 방향성에 대한 불확실성을 증대시키고 있는 것으로 보인다.",
+      "impact_ko": "금리 인상이 현실화될 경우 성장주와 고배당 자산에 대한 평가 압력이 강해질 수 있으며, 특히 기술주와 고평가 기업들의 주가 조정으로 이어질 가능성이 있다. 또한 신흥국 자산과 고수익 채권에 대한 자본 유출 압력도 높아질 수 있다."
+    },
+    {
+      "headline": "As the oil surge continues, trader Mike Khouw sees more upside in this surging name",
+      "summary": "Michael Khouw breaks down how he's trading this energy name.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/14/as-the-oil-surge-continues-trader-mike-khouw-sees-more-upside-in-this-surging-name.html",
+      "published_at": "2026-09-14T17:16:23.000Z",
+      "headline_ko": "유가 급등 속 트레이더 마이크 쿠우, 에너지주 추가 상승 전망",
+      "summary_ko": "트레이더 마이크 쿠우가 현재의 유가 상승 추세에서 특정 에너지 기업의 추가 상승 가능성을 분석하고 있다.",
+      "detail_ko": "유가가 상승세를 지속하는 가운데 전문 트레이더들이 에너지 섹터의 투자 기회를 적극 평가하고 있다. 쿠우의 분석은 단순한 유가 상승을 넘어 특정 에너지 기업의 펀더멘털과 기술적 신호를 종합적으로 검토한 것으로 보인다. 이는 에너지 섹터 내에서도 선별적 투자 기회가 존재함을 시사한다.",
+      "impact_ko": "에너지 섹터에 대한 기관 투자자들의 관심 증대로 이어질 수 있으며, 유가 상승 수혜주들의 주가 상승을 가속화할 가능성이 있다. 또한 에너지 기업들의 실적 개선 기대감이 높아져 해당 섹터의 투자 비중 조정을 유도할 수 있다."
+    },
+    {
+      "headline": "Asia's oil traders, seeing no quick end to Middle East war, stay bullish on prices - Reuters",
+      "summary": "Asia's oil traders, seeing no quick end to Middle East war, stay bullish on prices  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQjlwYUFLdF9Cc3lZbHQxSHlwT2Y4T3Yzd2ZfZUNwdmNWM1Y5d2M4azA3SUEyLUkzTWo1NEJVeVJSSFROXzJHM0tjdlBfWGpJUkY0MlJpSFFxSmlPcDgydF81R1BYekZyQklaNjNGRDFfUkZ2UVo4MmNKOUJkUDBSbEY3ZkUtM0FJajE4NWVDejk4XzFHb2F3ZzhiOEVRUHRxeElFWmlvOC1pc29LZXFEX25XZ3pHN3FhaUFjWnR1b21zb0E?oc=5",
+      "published_at": "2026-09-14T10:46:10.000Z",
+      "headline_ko": "아시아 석유 트레이더들, 중동 분쟁 장기화 전망에 유가 강세 지속 예상",
+      "summary_ko": "아시아의 석유 트레이더들이 중동 분쟁의 빠른 해결 가능성을 낮게 평가하면서 유가 강세가 지속될 것으로 전망하고 있다.",
+      "detail_ko": "중동 지정학적 리스크가 단기간에 해소되지 않을 것이라는 시장의 광범위한 인식이 형성되고 있다. 아시아 지역의 석유 수입국들과 트레이더들이 공급 차질에 대비한 포지셔닝을 강화하고 있으며, 이는 유가 상승 심화로 이어질 수 있다. 특히 아시아 경제권의 에너지 수입 의존도가 높은 만큼 이러한 전망은 지역 경제에 상당한 영향을 미칠 수 있다.",
+      "impact_ko": "유가 상승이 지속될 경우 아시아 국가들의 에너지 수입비 증가로 인한 무역수지 악화 가능성이 있으며, 이는 인플레이션 압력으로 작용할 수 있다. 또한 에너지 다소비 산업의 수익성 악화와 소비자 물가 상승으로 이어질 수 있다."
+    },
+    {
+      "headline": "Morning Bid: Shipping oil gets ever harder, costlier - Reuters",
+      "summary": "Morning Bid: Shipping oil gets ever harder, costlier  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYmJCUUMxaW05Wm0yazVud3pVRFlHLTJKai13QUcxaUhtX2dlTEJPcV9XOWZGSnRzdFRXejctZE1sUGZrcEd3Sy1JOUZxVktnQW9hVl9vbTVSdEhldXBEaUxQTlJRanQyWDFpQXNaTlE1UWUwaVgzMU8yTmF2dzFGYUNuUQ?oc=5",
+      "published_at": "2026-09-14T04:33:00.000Z",
+      "headline_ko": "유가 상승 속 석유 해운, 비용 증가와 난제 심화",
+      "summary_ko": "유가 상승과 함께 석유 해운 비용이 급증하면서 물류 산업의 채산성이 악화되고 있다.",
+      "detail_ko": "유가 상승은 단순히 원유 가격뿐 아니라 해운 비용 전반에 영향을 미치고 있다. 석유 운송에 필요한 연료비 상승과 해운 인프라 투자 비용 증가로 인해 물류 기업들의 마진 압박이 심화되고 있다. 이는 글로벌 에너지 공급망의 효율성 저하로 이어질 수 있으며, 최종적으로 에너지 가격 상승을 가속화할 수 있다.",
+      "impact_ko": "해운 기업들의 수익성 악화로 인한 주가 하락 압력이 증가할 수 있으며, 이는 물류 비용 상승으로 이어져 다양한 산업의 원가 상승을 초래할 가능성이 있다. 또한 해운 산업의 구조 조정과 통합 움직임이 가속화될 수 있다."
+    },
+    {
+      "headline": "COMMENTARY: Oil markets survived the Iran war sprint. Now comes the marathon - Reuters",
+      "summary": "COMMENTARY: Oil markets survived the Iran war sprint. Now comes the marathon  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkNyZjhwWkFHcjR0aVV2b3lPNFROSy0tNDZBQVJpWE9JelJyVWhtNFJjWlY3OW56NmdXY2s3Q0luV1h1cGZnRXJiM0VzMWxqVDFROENnOEFFMHpPN2VfWXJYTjZ3TW1EWlZLdU16clZBN28wVlI4SXJYeWR1U3kzZlAyempIWXVhaC1LdWNKbVo3QS1YMjZucjZnd3FTdnNaWmpNd2phODkxTlFwcng2aWo3WjZhdUdCOXZBejRyaW5kdw?oc=5",
+      "published_at": "2026-09-14T00:01:00.000Z",
+      "headline_ko": "유가 시장, 이란 분쟁 단기 충격 극복 후 장기 불안정성 직면",
+      "summary_ko": "유가 시장이 이란 관련 단기 변동성을 흡수했으나, 중동 분쟁의 장기화로 인한 구조적 불안정성이 새로운 과제로 대두되고 있다.",
+      "detail_ko": "초기의 급격한 유가 변동성은 시장이 어느 정도 소화했으나, 분쟁의 장기화 가능성이 높아지면서 새로운 리스크 요인으로 작용하고 있다. 단기 스파이크에서 벗어난 유가는 이제 중기적 공급 불안정성을 반영한 수준에서 형성될 가능성이 높다. 이는 에너지 시장의 구조적 변화와 지정학적 프리미엄의 상시화를 의미한다.",
+      "impact_ko": "장기적 유가 상승 추세가 고착될 경우 글로벌 인플레이션 압력이 지속될 수 있으며, 중앙은행들의 금리 인상 압박이 강화될 가능성이 있다. 또한 에너지 수입국들의 경제 성장률 둔화와 신흥국 자산에 대한 투자 회피로 이어질 수 있다."
+    },
+    {
+      "headline": "Oil settles higher after Saudi strikes stoke supply worries - Reuters",
+      "summary": "Oil settles higher after Saudi strikes stoke supply worries  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXNvWlpHUEh2bzNITUYtX04zUG1vclFCeDZ1NVdQTkNXUk5OTmRESElsUXUyQjNsYVU1d2tEMFlNRjB1VXVnenR4UHZzd3F3dEZWR2tWSVZMREFiZXF6NjR5SlB5VmdaNXpTWHQ3UF9POFRGanpoR0NxZUV3ZUU4alAycW9mcGdLak5lQ2NXdlpHQ3I3eDVRM3JDWmI3SGdYUjZsbnJSaUVySHk3UFl4Y3AxVGFZbmg5?oc=5",
+      "published_at": "2026-09-13T22:23:00.000Z",
+      "headline_ko": "사우디 공습으로 유가 상승, 공급 우려 심화",
+      "summary_ko": "사우디아라비아 관련 공습 소식으로 인해 유가가 상승하며 석유 공급 차질에 대한 우려가 증대되고 있다.",
+      "detail_ko": "사우디아라비아는 세계 최대 석유 수출국 중 하나로, 해당 지역의 안보 위협은 글로벌 에너지 공급망에 직접적인 영향을 미친다. 공습 소식은 단기적 공급 차질 우려를 촉발하고 있으며, 이는 유가 상승으로 즉시 반영되고 있다. 시장은 실제 공급 차질보다는 잠재적 리스크에 대한 선제적 가격 조정을 진행 중인 것으로 보인다.",
+      "impact_ko": "유가 상승이 지속될 경우 에너지 집약적 산업의 수익성 악화로 이어질 수 있으며, 특히 항공사와 화학 산업 등에 부정적 영향을 미칠 가능성이 있다. 또한 공급 차질이 실제로 발생할 경우 글로벌 경제 성장률 둔화로 이어질 수 있다."
+    },
+    {
       "headline": "Trump says US could stay in Iran and keep oil, like Venezuela deal - Reuters",
       "summary": "Trump says US could stay in Iran and keep oil, like Venezuela deal  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
-      "published_at": "2026-09-13T15:28:53.000Z",
-      "headline_ko": "트럼프, 미국이 이란에 주둔하며 석유 확보 가능성 언급",
-      "summary_ko": "트럼프 전 대통령이 미국이 이란에 주둔하면서 석유를 확보할 수 있다는 입장을 밝혔으며, 이를 베네수엘라 사례와 비교했다.",
-      "detail_ko": "트럼프의 발언은 중동 지정학적 긴장이 고조되는 가운데 나온 것으로, 미국의 에너지 자급 전략과 중동 개입 정책에 대한 강경한 입장을 반영한다. 이는 이란 핵 협상 재개 가능성이 낮아지고 있음을 시사하며, 중동 지역의 불안정성이 지속될 가능성을 높인다. 발언의 구체적 실행 가능성은 불명확하지만, 정책 방향성으로서 중동 개입 강화 의지를 드러낸 것으로 해석된다.",
-      "impact_ko": "이러한 발언은 중동 지역 긴장을 더욱 고조시킬 수 있으며, 이는 석유 공급 불확실성 확대로 이어질 가능성이 있다. 유가 변동성이 확대될 경우 글로벌 인플레이션 압력이 재점화될 수 있고, 이는 연준의 금리 인하 일정에 영향을 미칠 수 있다. 또한 중동 관련주와 에너지 섹터의 변동성이 증가할 가능성이 있다."
-    },
-    {
-      "headline": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption - Reuters",
-      "summary": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
-      "published_at": "2026-09-13T02:22:00.000Z",
-      "headline_ko": "호르무즈 해협과 사우디 신규 공격으로 유가 변동성 심화",
-      "summary_ko": "호르무즈 해협과 사우디 지역에서 신규 공격이 발생하면서 중동 지역 전쟁 확산이 석유 공급 차질을 악화시키고 있다.",
-      "detail_ko": "호르무즈 해협은 전 세계 석유 거래량의 약 20~30%가 통과하는 전략적 요충지로, 이 지역의 공격은 글로벌 석유 공급망에 직접적인 영향을 미친다. 후티 반군과 이란 관련 세력의 공격이 지속되면서 해상 운송 리스크가 급증하고 있으며, 이는 보험료 상승과 운송 지연으로 이어진다. 사우디의 석유 인프라가 직접 위협받고 있다는 점에서 중동 최대 석유 생산국의 공급 차질 가능성도 커지고 있다.",
-      "impact_ko": "호르무즈 해협의 불안정성이 심화될 경우 유가는 배럴당 100달러를 넘어 추가 상승할 가능성이 높다. 이는 글로벌 인플레이션 재가동으로 이어져 연준의 금리 인하 기대를 약화시킬 수 있다. 또한 해운 관련주와 에너지 기업들의 수익성 개선 기대가 커질 수 있으나, 동시에 에너지 비용 상승으로 인한 경기 둔화 우려도 증가할 수 있다."
-    },
-    {
-      "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
-      "summary": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
-      "published_at": "2026-09-12T12:40:05.000Z",
-      "headline_ko": "유가 배럴당 100달러 돌파, 중국의 역할이 향후 방향 결정",
-      "summary_ko": "미국 원유 가격이 목요일 배럴당 102달러로 5월 이후 최고가를 기록했으며, 향후 유가 방향은 중국의 수요 동향에 따라 결정될 것으로 예상된다.",
-      "detail_ko": "유가가 100달러를 돌파한 것은 중동 지정학적 리스크와 호르무즈 해협 운송 차질이 복합적으로 작용한 결과다. 중국은 글로벌 석유 수요의 약 20%를 차지하는 최대 수입국으로, 중국의 경기 회복 정도와 수입 수요가 유가의 상단선을 결정하는 핵심 변수가 된다. 현재 중국 경제의 약세 신호가 나오고 있어, 유가가 100달러 이상을 지속할 수 있을지는 중국 수요 회복 여부에 달려 있다.",
-      "impact_ko": "중국 경기가 회복되지 않으면 유가는 현 수준에서 조정될 가능성이 있으며, 반대로 중국 경극 부양책이 효과를 보면 유가는 추가 상승할 수 있다. 유가 100달러 이상 지속 시 글로벌 인플레이션이 재점화되어 선진국 중앙은행의 금리 인하 일정이 지연될 수 있다. 또한 유가 변동성 확대는 에너지 관련주와 운송주의 수익성에 양극단의 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Oracle to spend an additional $700 million on more job cuts",
-      "summary": "Oracle’s “2026 Restructuring Plan” job cuts are now estimated to cost about $2.8 billion, primarily in severance payments to laid-off employees",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-11/oracle-boosts-layoffs-plan-by-700-million",
-      "published_at": "2026-09-12T05:12:43.000Z",
-      "headline_ko": "오라클, 추가 7억 달러 규모 구조조정 단행",
-      "summary_ko": "오라클의 '2026 구조조정 계획'에 따른 인원 감축 비용이 약 28억 달러로 추정되며, 주로 해고 수당 형태로 지출될 예정이다.",
-      "detail_ko": "오라클의 대규모 구조조정은 클라우드 경쟁 심화 속에서 비용 효율성을 높이려는 전략적 선택으로 보인다. 28억 달러 규모의 구조조정 비용은 단기적으로 순이익을 압박하지만, 고정비 감소를 통해 장기적 수익성 개선을 목표로 한다. 이는 기술 기업들이 AI 투자와 클라우드 경쟁력 강화를 위해 구조 최적화를 추진하는 업계 추세와 맥락을 같이한다.",
-      "impact_ko": "단기적으로 오라클의 2026년 실적에 부정적 영향을 미칠 수 있으나, 구조조정 완료 후 운영 효율성 개선으로 이어질 가능성이 있다. 기술 기업들의 구조조정 추세는 인건비 상승 압력을 완화시켜 IT 섹터 전반의 마진율 개선에 긍정적일 수 있다. 다만 대규모 인원 감축은 기술 인력 시장의 공급 과잉으로 이어져 임금 상승 압력을 약화시킬 수 있다."
-    },
-    {
-      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
-      "summary": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
-      "published_at": "2026-09-12T00:55:00.000Z",
-      "headline_ko": "사우디, 후티 공격으로 석유 파이프라인 폐쇄",
-      "summary_ko": "사우디가 후티 반군의 위협으로 인해 석유 파이프라인을 폐쇄했으며, 홍해 해상 운송 통제가 심화되고 있다.",
-      "detail_ko": "사우디의 파이프라인 폐쇄는 후티 반군이 홍해 지역에서의 통제력을 강화하고 있음을 의미한다. 홍해는 수에즈 운하로 연결되는 전략적 해상 운송로로, 이 지역의 불안정성은 중동 석유의 유럽 및 아시아 수출 경로를 직접 위협한다. 사우디가 파이프라인을 폐쇄한 것은 공격 리스크를 회피하려는 방어적 조치로, 석유 공급 차질이 현실화되고 있음을 시사한다.",
-      "impact_ko": "파이프라인 폐쇄는 사우디의 석유 수출 능력을 직접 제약하여 글로벌 석유 공급 부족으로 이어질 가능성이 높다. 이는 유가 추가 상승 압력으로 작용할 수 있으며, 특히 유럽과 아시아의 에너지 가격 상승으로 이어질 수 있다. 장기화될 경우 대체 운송로 개발이나 전략 비축유 방출 등의 정책 대응이 필요할 수 있다."
-    },
-    {
-      "headline": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down - Reuters",
-      "summary": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUk9oUjNYejhGeW1YblJUVWdfQ0JaZU52dHNPZUZVdnpMSkxYS3pKTWhLdjU0REdNUGdubUhnRl9KUXZabHRfbEQyOUJZeXUxQzZfcGFlbFV5V1BlSTVmRkhzdGJaNkpQa3p3OG9LZUt3Q3VXYkdrc2ZRWW9fcWQ4TkYxNFgxNFI0dlhIV0UyUU5Dbk44blJMempZVFVqVm5XbUlfV2dqSlN3YXBNUDlUQmVxS3JQMUxQ?oc=5",
-      "published_at": "2026-09-11T21:28:55.000Z",
-      "headline_ko": "후티 반군 주요 섬 점령, 페르시아만 석유 위협 심화",
-      "summary_ko": "후티 반군이 홍해의 전략적 요충지인 주요 섬을 점령했으며, 파이프라인 폐쇄와 함께 페르시아만 석유 공급이 새로운 위협에 직면했다.",
-      "detail_ko": "후티 반군의 섬 점령은 홍해 지역에서의 군사적 통제력 강화를 의미하며, 이는 해상 운송 차단 능력을 더욱 강화한다. 홍해와 페르시아만은 연결된 지역으로, 후티의 영향력 확대는 중동 석유 수출의 두 가지 주요 경로를 모두 위협하게 된다. 이는 단순한 해적 활동을 넘어 지정학적 권력 변화를 반영하는 것으로 해석된다.",
-      "impact_ko": "후티의 영토 확장은 중동 석유 공급 경로의 불안정성을 구조화할 가능성이 있으며, 이는 유가의 장기적 상승 압력으로 작용할 수 있다. 국제 해운 보험료 상승과 운송 지연이 심화되어 글로벌 공급망에 광범위한 영향을 미칠 수 있다. 또한 미국과 국제사회의 군사적 개입 가능성이 높아져 중동 지역 갈등이 확대될 위험도 있다."
-    },
-    {
-      "headline": "The inside story on the historic U.S.-Venezuela oil deal and how it will work",
-      "summary": "CNBC was one of just a handful of news organizations allowed to travel to Caracas with the U.S. secretary of energy.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html",
-      "published_at": "2026-09-11T16:23:06.000Z",
-      "headline_ko": "미국-베네수엘라 역사적 석유 거래의 내막 공개",
-      "summary_ko": "CNBC가 미국 에너지부 장관과 함께 카라카스를 방문하여 미국-베네수엘라 석유 거래의 구체적 내용과 작동 방식을 보도했다.",
-      "detail_ko": "미국-베네수엘라 석유 거래는 트럼프 행정부의 중남미 에너지 전략의 핵심으로, 제재 완화와 석유 수입 확대를 통해 미국의 에너지 자립도를 높이려는 시도다. 이는 중동 의존도를 낮추고 지정학적 리스크를 분산하려는 전략으로 해석된다. 거래의 구체적 내용이 공개됨으로써 미국의 에너지 외교 정책 방향성이 명확해지고 있다.",
-      "impact_ko": "베네수엘라 석유 수입 확대는 미국의 석유 공급 다각화로 이어져 중동 공급 차질에 대한 완충 역할을 할 수 있다. 다만 베네수엘라 정치 불안정성이 높아 공급 안정성 보장이 어려울 수 있다. 또한 이러한 거래는 국제 제재 체계의 약화로 이어져 글로벌 정책 일관성에 대한 우려를 증가시킬 수 있다."
-    },
-    {
-      "headline": "Chevron CEO says depleted crude oil buffers could lead to higher prices - Reuters",
-      "summary": "Chevron CEO says depleted crude oil buffers could lead to higher prices  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZEtqcVRxSzRKdkFERnkxUDFwd2l6ZmVOQXNiNWJFLUxGc2R6X19JZ19WaUNQZzRTWXNjRTJsTjZ6MnNzTUhGcDR3QzRlOXdvRFVNZWV3V3B2Y0M2bmRVa0NuQXdRc1Z4TFljREh6XzRZQkpOaHoyX2lFeFhKa0Jqc0pyRWdtQnBWV0VFakt4cGQ0T0t4RWlQVzI2cmxXZXBLR08xdGJSemdfOHhGbnhWby1OcExja3F3RnYxNQ?oc=5",
-      "published_at": "2026-09-11T15:53:43.000Z",
-      "headline_ko": "셰브론 CEO, 석유 비축량 감소로 인한 유가 상승 경고",
-      "summary_ko": "셰브론 최고경영자가 글로벌 석유 비축량 감소가 유가 상승으로 이어질 수 있다고 경고했다.",
-      "detail_ko": "석유 비축량 감소는 중동 지정학적 리스크와 호르무즈 해협 운송 차질로 인한 공급 부족이 구조화되고 있음을 의미한다. 비축량이 낮아지면 공급 충격에 대한 완충 능력이 약해져 유가 변동성이 확대될 수 있다. 셰브론 CEO의 발언은 에너지 업계 최고 경영진의 공식적 경고로, 유가 상승 추세가 단기 변동이 아닌 구조적 공급 부족에 기인함을 시사한다.",
-      "impact_ko": "비축량 감소로 인한 유가 상승은 글로벌 인플레이션 재가동 우려를 높일 수 있으며, 이는 연준의 금리 인하 기대를 약화시킬 가능성이 있다. 석유 비축량 보충을 위한 정부 개입 가능성이 높아져 에너지 정책이 시장 가격에 미치는 영향이 커질 수 있다. 또한 에너지 기업들의 수익성 개선 기대가 커져 에너지 섹터의 상대적 강세가 지속될 수 있다."
+      "published_at": "2026-09-13T15:11:00.000Z",
+      "headline_ko": "트럼프, 미국의 이란 주둔과 석유 확보 가능성 언급",
+      "summary_ko": "트럼프 전 대통령이 미국이 이란에 주둔하면서 석유를 확보할 수 있다는 발언을 했으며, 베네수엘라 사례를 언급했다.",
+      "detail_ko": "이는 중동 지정학적 상황에 대한 미국의 개입 가능성을 시사하는 발언으로, 향후 미국의 외교 정책 방향에 대한 불확실성을 증대시킨다. 베네수엘라 사례 언급은 자원 확보를 위한 직접적 개입 가능성을 암시하는 것으로 해석될 수 있다. 이러한 발언은 중동 분쟁의 장기화와 미국의 군사적 개입 가능성에 대한 시장의 우려를 반영하고 있다.",
+      "impact_ko": "미국의 중동 개입 가능성이 높아질 경우 지정학적 리스크 프리미엄이 유가에 추가로 반영될 수 있으며, 이는 글로벌 에너지 가격의 상승 압력을 강화할 가능성이 있다. 또한 미국의 외교 정책 불확실성 증대로 인해 신흥국 자산과 위험자산에 대한 투자 심리가 악화될 수 있다."
     }
   ],
   "calendar": [
