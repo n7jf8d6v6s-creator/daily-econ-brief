@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:05:58.307Z",
+  "generated_at": "2026-09-20T22:05:53.551Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,70 +62,70 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 81016,
-        "change_pct": -0.24237
+        "price": 80846,
+        "change_pct": -0.10946
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2623.91,
-        "change_pct": -0.11691
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01378562,
-        "change_pct": 2.15137
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.226525,
-        "change_pct": 0.52476
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.3396,
-        "change_pct": 0.33252
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price": 1.41,
-        "change_pct": 0.28579
+        "price": 2626.97,
+        "change_pct": 0.27738
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 537.21,
-        "change_pct": -5.62288
+        "price": 559.93,
+        "change_pct": 4.87551
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.01408526,
+        "change_pct": 2.19283
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 92.71,
+        "change_pct": 1.82521
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 12.42,
+        "change_pct": 1.13813
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 110.35,
-        "change_pct": -2.50929
+        "price": 109.79,
+        "change_pct": -0.21306
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1471.37,
-        "change_pct": -1.68306
+        "symbol": "WBT",
+        "name": "WhiteBIT Coin",
+        "price": 82.56,
+        "change_pct": -0.05712
       },
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.087085,
-        "change_pct": -1.32648
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.017,
+        "change_pct": 0
+      },
+      {
+        "symbol": "USDC",
+        "name": "USDC",
+        "price": 0.999758,
+        "change_pct": 0.00973
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 혼조세를 보였다. 대형 기술주들이 엇갈린 움직임을 보인 가운데, 전반적으로 인플레이션 우려와 금리 인상 사이클 진입 가능성이 시장 심리를 압박하는 모습이다. S&P 500과 나스닥100 지수는 소폭 등락을 오가며 방향성을 잃은 상태다.",
-      "엔비디아(+1.34%), 아마존(+1.00%), 알파벳(+0.64%)은 상대적으로 강세를 유지했다. 이들은 AI 기술 수요와 클라우드 인프라 투자 수요에 대한 기대감이 여전히 지지하는 것으로 해석된다. 반면 메타(-2.43%)는 글로벌 금리 인상 사이클 우려와 광고 시장 경기 둔화 전망이 압박하는 것으로 보인다.",
-      "암호화폐 시장에서는 프라이버시 코인들이 뚜렷한 약세를 보였다. 모네로(XMR, -5.62%)와 지캐시(ZEC, -1.68%)는 규제 리스크와 글로벌 금리 인상 사이클 진입에 따른 위험자산 회피 심리가 영향을 미친 것으로 보인다. 반면 레인(RAIN, +2.15%)은 소폭 상승했으나, 전반적으로 비트코인(-0.24%)과 이더리움(-0.12%)이 약세를 보이며 암호화폐 시장 전반의 약한 심리를 반영하고 있다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 기술주 중심으로 엇갈린 움직임을 보였다. 광폭 변동성 속에서 S&P 500은 소폭 하락했으나, 나스닥100은 소폭 상승하며 기술주 내 선별적 강세가 나타났다. 글로벌 금리 인상 사이클 우려와 AI 관련 심리 변화가 시장을 양분하는 양상으로 해석된다.",
+      "엔비디아(+1.34%), 아마존(+1.00%), 알파벳(+0.64%)이 상승세를 보인 반면, 메타(-2.43%), 마이크로소프트(-0.80%), 테슬라(-0.53%)는 하락했다. 이는 AI 수혜주 중에서도 인프라·클라우드 기업과 광고 플랫폼 간 투자자 선호도 차이를 반영하는 것으로 보인다. 글로벌 금리 인상 사이클 전망이 고성장 기술주의 밸류에이션 압박으로 작용했을 가능성이 있다.",
+      "암호화폐 시장에서는 프라이버시 코인인 모네로(XMR, +4.88%)가 눈에 띄는 강세를 보였다. 지정학적 긴장과 글로벌 규제 불확실성이 높아지는 환경에서 프라이버시 자산에 대한 수요가 증가했을 수 있다. 비트코인은 소폭 하락(-0.11%)하며 위험자산 회피 심리를 반영했고, 이더리움(+0.28%)은 상대적으로 안정적인 움직임을 유지했다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
@@ -134,15 +134,7 @@
         "price": 222.27,
         "change_pct": 1.3358,
         "type": "stock",
-        "reason_ko": "AI 수요 기대감 지지"
-      },
-      {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 253.71,
-        "change_pct": 1.0032,
-        "type": "stock",
-        "reason_ko": "클라우드 인프라 투자 수요"
+        "reason_ko": "AI 인프라 수요 지속 강세"
       },
       {
         "symbol": "META",
@@ -150,29 +142,40 @@
         "price": 665.75,
         "change_pct": -2.427,
         "type": "stock",
-        "reason_ko": "금리 인상 우려와 광고 부진"
+        "reason_ko": "금리 인상 우려로 고성장주 약세"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 537.21,
-        "change_pct": -5.62288,
+        "price": 559.93,
+        "change_pct": 4.87551,
         "type": "crypto",
-        "reason_ko": "규제 리스크와 위험자산 회피"
+        "reason_ko": "지정학 리스크 속 프라이버시 자산 선호"
       }
     ]
   },
   "news": [
     {
-      "headline": "Russia sanctions bill gives Trump sweeping new tariff powers - Reuters",
-      "summary": "Russia sanctions bill gives Trump sweeping new tariff powers  Reuters",
+      "headline": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters",
+      "summary": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
+      "published_at": "2026-09-19T08:20:38.000Z",
+      "headline_ko": "중국의 이란 압박으로 유가 하락, 후티 공격 제한 요청",
+      "summary_ko": "중국이 이란에 사우디 석유시설 공격을 제한하도록 압박하면서 유가가 하락했다.",
+      "detail_ko": "중동 지정학적 긴장이 석유 공급 차질 우려를 키워온 가운데, 중국의 중재 움직임이 나타났다. 중국이 이란에 후티 반군의 공격을 제한하도록 요청한 것은 글로벌 에너지 가격 안정화를 원하는 신호로 해석된다. 이는 중국의 경제 둔화 우려와 에너지 수입국으로서의 이해관계를 반영하는 것으로 보인다.",
+      "impact_ko": "유가 하락은 단기적으로 인플레이션 완화 신호로 작용할 수 있으며, 중앙은행의 금리 인상 압력을 낮출 가능성이 있다. 다만 중동 공급 불안정성이 완전히 해소되지 않은 만큼 유가 변동성은 지속될 수 있다."
+    },
+    {
+      "headline": "Russia sanctions bill gives Trump sweeping new tariff powers - reuters.com",
+      "summary": "Russia sanctions bill gives Trump sweeping new tariff powers  reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWEtRUVNvYVIwTTZqQ3pmak0zd0NlNjZEcmxxQ3FUWTJKVUZjTHdjUmt1SThTNVFmZWl5OXVLUmljaWJoSFRQbU5qVnZDUjcyWEhJNk5yWjZDOTNzazlrenItWHdvODFNbE5Ka3ZoMGF4ZFRGcEFFeVhlWF8tWGZYYU1XWWttR3BuR0hmdF9iY0Z2WGQwbFJfV2lOT2FwSExyT21yUE80ZVM?oc=5",
       "published_at": "2026-09-18T20:24:00.000Z",
       "headline_ko": "러시아 제재 법안, 트럼프에 광범위한 관세 권한 부여",
-      "summary_ko": "러시아 제재 관련 법안이 트럼프 행정부에 광범위한 관세 부과 권한을 부여하는 내용을 담고 있다.",
-      "detail_ko": "이 법안은 지정학적 긴장 상황에서 행정부의 경제 정책 도구를 강화하는 성격을 띠고 있다. 관세 권한의 확대는 향후 무역 정책의 불확실성을 높일 수 있으며, 특히 글로벌 공급망과 기업 수익성에 영향을 미칠 가능성이 있다. 이는 시장이 정책 리스크를 재평가하는 계기가 될 수 있다.",
-      "impact_ko": "광범위한 관세 권한은 기업들의 비용 구조 재편과 글로벌 무역 흐름의 변화를 초래할 수 있다. 특히 수출 의존도가 높은 산업과 공급망이 복잡한 기술 기업들이 영향을 받을 가능성이 높다. 이러한 정책 불확실성은 투자자들의 위험자산 회피 심리를 강화할 수 있다."
+      "summary_ko": "러시아 제재 관련 법안이 트럼프 행정부에 광범위한 관세 부과 권한을 부여하게 된다.",
+      "detail_ko": "미국 의회의 러시아 제재 법안이 행정부에 무역 정책 결정의 자율성을 확대해주는 형태로 진행되고 있다. 이는 향후 트럼프 행정부가 대러 제재뿐 아니라 다른 국가들에 대한 관세 정책도 더욱 적극적으로 추진할 수 있는 법적 근거를 마련해주는 것으로 해석된다. 이러한 정책 환경 변화는 글로벌 무역 불확실성을 높이는 요인이 될 수 있다.",
+      "impact_ko": "광범위한 관세 권한 부여는 향후 보호주의 무역 정책 강화 가능성을 시사하며, 이는 글로벌 공급망 재편과 기업 실적 압박으로 이어질 수 있다. 특히 중국, EU 등과의 무역 갈등 심화 시 기술주와 수출 기업들의 실적 부담이 증가할 가능성이 있다."
     },
     {
       "headline": "Global rate-hike cycle in view as central banks take on inflation - Reuters",
@@ -180,10 +183,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaTJFdU1RczNyN0w2RjNKNHB0OWxqaEhHeDE5bDdXOS16QlV0eHNnbWNSbGVVQ2RaRTVJOWFHUXQ2Qy1qTy1aQ0lVVGFMNzRXV3lwUnBnaHh0VUFmeDNodzVZWWRwVk9iak5qZEZ2R0NSRzNrT2ZlYUxNaUZYTUY0VXdjYXhQakNOYmdqaUlrZ2JsazMtVHR2bkdMWkJ6Z2hyUzZmaG0wNmkxazg?oc=5",
       "published_at": "2026-09-18T17:53:54.000Z",
-      "headline_ko": "글로벌 금리 인상 사이클 임박, 중앙은행들 인플레이션 대응 나서",
-      "summary_ko": "세계 주요 중앙은행들이 인플레이션 대응을 위해 금리 인상 사이클에 진입할 가능성이 높아지고 있다.",
-      "detail_ko": "글로벌 인플레이션 압력이 지속되면서 주요 중앙은행들이 통화 긴축 기조로 전환할 준비를 하고 있는 상황이다. 이는 저금리 환경에 익숙해진 시장 참여자들에게 구조적 변화를 의미한다. 금리 인상 사이클은 특히 고성장 기술주와 고배당 자산의 상대적 매력도를 낮출 수 있다.",
-      "impact_ko": "금리 인상 사이클은 차입 비용 상승으로 이어져 기업 수익성을 압박할 수 있다. 특히 성장주와 고평가 기술주들이 더 큰 영향을 받을 가능성이 있다. 동시에 채권 수익률 상승은 주식의 상대적 매력도를 낮춰 자산 배분 재조정을 유도할 수 있다."
+      "headline_ko": "글로벌 금리 인상 사이클 본격화, 중앙은행들 인플레이션 대응",
+      "summary_ko": "세계 주요 중앙은행들이 인플레이션 대응을 위해 금리 인상 사이클에 진입하고 있다.",
+      "detail_ko": "인플레이션 압력이 지속되면서 글로벌 중앙은행들의 금리 인상이 본격화되는 국면이다. 이는 팬데믹 이후 저금리 기조가 마무리되고 정상화 단계로 접어드는 것을 의미한다. 각국의 경제 상황과 인플레이션 수준에 따라 금리 인상 속도와 규모가 달라질 것으로 예상되며, 이는 글로벌 자산 배분에 구조적 변화를 초래할 수 있다.",
+      "impact_ko": "금리 인상 사이클은 고성장·고밸류에이션 기술주에 부정적 영향을 미칠 가능성이 높으며, 상대적으로 가치주와 방어주에 유리하게 작용할 수 있다. 또한 신흥국 통화 약세와 채무 부담 증가 우려로 이어질 수 있어 글로벌 금융 안정성에 영향을 미칠 수 있다."
     },
     {
       "headline": "COMMENTARY: Global rates reset, AI angst and oil's long haul: The financial week in five charts - Reuters",
@@ -191,10 +194,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcVJSOWZtYmJPZXkzZmtfazJwd0xSQ19KTXVYX095aFdSWXk2MnlueWRtR0NrZzdudF9objBxd1BUYjA1QkRwZHFWYUF4WjBfVXluYVJGSFRRM01veW56dVphanpjaDUzTHpSTE1ISDRnMTc4Y05VOF9SX0pZMC1LOHlESVNrOF9YbFlJQnZ0M19TcWt1a0ppVXh6LXRIOWljdEs1STg3ZlZDTWRWSzZjczkxRk1lbFYyaGN2MXdCQnMxa3M2enZGSFcydVFmNjI0amQtZQ?oc=5",
       "published_at": "2026-09-18T12:32:15.000Z",
-      "headline_ko": "금리 리셋, AI 우려, 유가 장기 전망: 금융 주간 5가지 차트 분석",
-      "summary_ko": "글로벌 금리 환경 변화, AI 시장 심리 변동, 유가 장기 추세 등 주요 금융 이슈들을 차트로 분석한 평론이다.",
-      "detail_ko": "이 분석은 현재 시장이 직면한 세 가지 주요 불확실성을 종합적으로 조망하고 있다. 금리 리셋은 자산 가격 재평가를 의미하며, AI 관련 우려는 기술주 밸류에이션에 대한 의문을 제기한다. 유가의 장기 추세는 인플레이션 경로와 에너지 전환 속도를 반영하는 지표다.",
-      "impact_ko": "이러한 다층적 불확실성은 투자자들의 포트폴리오 재구성을 촉발할 수 있다. 금리 인상 기대와 AI 밸류에이션 우려가 겹치면서 성장주 중심의 포트폴리오는 추가 조정 압력을 받을 수 있다. 장기 자산 배분 전략의 재검토가 필요한 시점으로 해석될 수 있다."
+      "headline_ko": "금리 리셋, AI 불안감, 유가 장기 전망: 금융주간 5대 차트",
+      "summary_ko": "금리 정상화, AI 관련 심리 변화, 유가 장기 추세 등이 이번 주 금융시장의 핵심 이슈로 부상했다.",
+      "detail_ko": "금융시장이 여러 거시 이슈의 교차점에 놓여 있는 상황이다. 글로벌 금리 구조 재편, AI 기술에 대한 과도한 기대감 조정, 그리고 에너지 공급 불안정성이 동시에 작용하고 있다. 이러한 복합적 요인들이 투자자들의 포트폴리오 재조정을 유도하고 있으며, 단기 변동성을 높이는 배경이 되고 있다.",
+      "impact_ko": "이러한 다층적 불확실성은 시장 변동성 확대로 이어질 가능성이 높으며, 투자자들의 위험자산 회피 심리를 강화할 수 있다. 특히 AI 관련 기업들의 실적 기대치 조정과 금리 인상에 따른 할인율 상승이 겹치면서 기술주 약세가 심화될 수 있다."
     },
     {
       "headline": "Parents are interfering with teens’ first jobs. Here’s why employers say it can backfire",
@@ -202,10 +205,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/18/parents-more-involved-in-kids-work-lives.html",
       "published_at": "2026-09-18T10:00:01.000Z",
-      "headline_ko": "부모들의 과도한 개입, 청소년 첫 직장 경험에 악영향",
-      "summary_ko": "부모들이 자녀의 업무 이메일까지 대신 보내는 등 과도하게 개입하면서 고용주들이 청소년의 독립적 소통 능력을 의심하게 되는 상황이 발생하고 있다.",
-      "detail_ko": "이는 노동시장의 미시적 변화를 보여주는 사례다. 부모의 개입이 심화되면서 고용주들은 지원자의 실제 역량을 판단하기 어려워지고 있다. 이러한 현상은 세대 간 직업관의 차이와 부모의 자녀 보호 심리가 결합된 결과로 해석된다.",
-      "impact_ko": "이 추세가 확산되면 청소년 고용 시장의 신뢰도가 저하될 수 있다. 고용주들이 청소년 채용을 꺼릴 가능성이 있으며, 이는 청년층의 초기 경력 형성에 부정적 영향을 미칠 수 있다. 장기적으로는 노동력의 질과 직업 준비도에 영향을 줄 수 있다."
+      "headline_ko": "부모들의 청소년 첫 직장 간섭, 고용주들이 우려하는 이유",
+      "summary_ko": "부모들이 자녀의 업무 이메일까지 대신 보내면서 고용주들이 청소년의 독립적 소통 능력을 의심하고 있다.",
+      "detail_ko": "세대 간 양육 방식의 변화가 노동시장에서 새로운 문제로 대두되고 있다. 부모의 과도한 개입이 청소년들의 직업 기초 능력 발달을 저해할 수 있다는 우려가 제기되고 있다. 이는 향후 노동력의 질과 기업 문화에 영향을 미칠 수 있는 사회적 이슈로 해석된다.",
+      "impact_ko": "장기적으로 신입 인력의 소통 능력 저하는 기업의 인재 육성 비용 증가와 생산성 저하로 이어질 수 있다. 또한 고용주들의 청소년 채용 회피 현상으로 이어져 청년 고용 시장에 부정적 영향을 미칠 가능성이 있다."
     },
     {
       "headline": "India’s ‘sugar high’ warrants caution on RBI hikes: JP Morgan Chase",
@@ -213,10 +216,10 @@
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-09-18/india-s-sugar-high-warrants-caution-on-rbi-hikes-aziz-says",
       "published_at": "2026-09-18T08:26:51.000Z",
-      "headline_ko": "인도의 '경기 부양 효과' 지속성 의문, JP모건 금리 인상 신중론 제기",
-      "summary_ko": "JP모건은 인도의 경제 호황이 일시적일 수 있다며 인도중앙은행(RBI)의 금리 인상에 신중할 것을 권고했다.",
-      "detail_ko": "인도 경제가 최근 강한 성장을 보이고 있지만, JP모건은 이것이 구조적 개선이 아닌 일시적 부양 효과일 수 있다고 경고하고 있다. 금리 인상은 투자와 소비를 억제할 수 있으므로, 경기 지속성이 불확실한 상황에서는 신중한 접근이 필요하다는 입장이다. 이는 신흥시장 중앙은행들이 직면한 딜레마를 잘 보여준다.",
-      "impact_ko": "RBI의 금리 정책 방향성이 불확실해지면 인도 자산의 변동성이 높아질 수 있다. 금리 인상 지연 시 인플레이션 우려가 커질 수 있고, 반대로 인상 시 경기 둔화 리스크가 커질 수 있다. 신흥시장 투자자들의 포트폴리오 재조정을 유도할 가능성이 있다."
+      "headline_ko": "인도의 '경기 부양 효과' 지속성 의문, JP모건이 RBI 금리 인상 신중론 제기",
+      "summary_ko": "JP모건이 인도의 경제 성장이 일시적 부양 효과에 불과할 수 있다며 인도중앙은행(RBI)의 금리 인상에 신중할 것을 권고했다.",
+      "detail_ko": "인도 경제의 고성장이 구조적인지 일시적인지에 대한 평가가 엇갈리고 있다. JP모건의 경고는 인도의 경제 펀더멘탈에 대한 의문을 제기하는 것으로, 정부 부양책의 효과가 제한적일 수 있음을 시사한다. 만약 금리를 성급하게 인상할 경우 투자와 소비 심리를 위축시킬 수 있다는 우려가 반영된 것으로 보인다.",
+      "impact_ko": "RBI의 금리 인상 정책이 지연되거나 완화될 경우 인도 루피화 약세로 이어질 수 있으며, 이는 인도 자산에 대한 외국인 투자 유입을 제한할 가능성이 있다. 또한 인도 경제 성장률이 기대에 미치지 못할 경우 신흥국 자산 전반에 부정적 영향을 미칠 수 있다."
     },
     {
       "headline": "Oil falls 1% as investors watch Middle East supply disruptions - Reuters",
@@ -224,21 +227,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem15UTRSMDAta3NrU2VpWTcxVllaeWVZT2wyc1gwQUs5aER1ZFFtaG8zNmI4UkZGV09BOHV6eGVHdy1RbTZWZXVkdklmSkVnMUtqbk9JZkdPb19FakhJc1RaUFRMUlNxR3F1VUx2TTZRcElaQk9ISmJsaWozRFNETDcxcjZxT0lJTm4zbV9CN1hETXB2SnYzQkhwZVpobENkRTBfYU5UbjZoUVhGXzZtM2xNUDFWdkJqUVE?oc=5",
       "published_at": "2026-09-18T01:58:43.000Z",
-      "headline_ko": "유가 1% 하락, 중동 공급 차질 우려 속 투자자들 주시",
-      "summary_ko": "유가가 1% 하락했으며, 투자자들이 중동 지역의 공급 차질 가능성을 면밀히 모니터링하고 있다.",
-      "detail_ko": "중동의 지정학적 긴장이 지속되는 가운데 유가는 공급 차질 우려와 글로벌 경기 둔화 우려 사이에서 방향성을 잃고 있다. 공급 리스크는 상방 압력으로 작용하지만, 금리 인상 사이클 진입에 따른 수요 부진 우려가 이를 상쇄하고 있는 상황이다.",
-      "impact_ko": "유가의 약세는 에너지 수입국들의 인플레이션 압력을 완화할 수 있으나, 에너지 수출국들의 재정 수입 감소로 이어질 수 있다. 중동 공급 차질이 심화되면 유가 급등 시나리오도 배제할 수 없다. 에너지 관련 기업과 신흥시장 통화에 영향을 미칠 가능성이 있다."
-    },
-    {
-      "headline": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters",
-      "summary": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
-      "published_at": "2026-09-18T01:01:00.000Z",
-      "headline_ko": "중국, 이란에 후티 공격 제한 요청 후 유가 하락",
-      "summary_ko": "중국이 이란에 사우디 석유 시설 공격을 제한해달라고 요청한 후 유가가 하락했다.",
-      "detail_ko": "중국의 외교적 개입은 중동 지정학적 긴장 완화 신호로 해석된다. 중국은 에너지 수입국으로서 유가 안정에 이해관계가 있으며, 이란과의 관계를 활용해 공급 차질을 사전에 방지하려는 움직임으로 보인다. 이는 글로벌 에너지 시장에서 중국의 영향력을 보여주는 사례다.",
-      "impact_ko": "중국의 중재 노력이 성공하면 유가 안정으로 이어져 글로벌 인플레이션 압력을 완화할 수 있다. 반대로 중동 긴장이 재고조되면 유가 급등 시나리오도 가능하다. 에너지 가격 안정성은 신흥시장 경제와 글로벌 공급망 안정성에 직결된 요소다."
+      "headline_ko": "중동 공급 차질 주시하며 유가 1% 하락",
+      "summary_ko": "중동 지역의 석유 공급 불안정성에 대한 우려 속에서 유가가 1% 하락했다.",
+      "detail_ko": "유가 변동성이 중동 지정학적 리스크에 민감하게 반응하고 있는 상황이다. 공급 차질 우려가 존재하지만, 현물 공급이 비교적 안정적이라는 평가가 가격 하락으로 이어진 것으로 해석된다. 이는 시장이 단기 공급 충격보다는 중장기 수급 균형을 더 중시하고 있음을 시사한다.",
+      "impact_ko": "유가의 완만한 하락세는 인플레이션 완화 신호로 작용할 수 있으며, 중앙은행의 금리 인상 속도 조절에 긍정적 영향을 미칠 가능성이 있다. 다만 중동 긴장이 재고조될 경우 유가 급등 리스크는 여전히 존재한다."
     },
     {
       "headline": "Jim Cramer says history offers a playbook for navigating a Fed rate-hiking cycle",
@@ -247,9 +239,9 @@
       "url": "https://www.cnbc.com/2026/09/17/jim-cramer-fed-rate-hike-investing.html",
       "published_at": "2026-09-17T22:58:28.000Z",
       "headline_ko": "짐 크래머, 연방준비제도 금리 인상 사이클 극복 역사적 사례 제시",
-      "summary_ko": "CNBC의 짐 크래머는 역사적 사례를 통해 금리 인상 사이클 동안 주식이 항상 부진한 것은 아니라고 주장했다.",
-      "detail_ko": "크래머는 과거 금리 인상 사이클에서도 특정 섹터와 기업들은 강한 성과를 냈다는 점을 강조하고 있다. 이는 현재의 금리 인상 우려에 대한 균형잡힌 관점을 제시하는 것으로, 투자자들이 과도한 비관론에 빠지지 말 것을 권고하는 메시지다. 금리 인상 사이클에서도 선별적 투자 기회가 존재한다는 입장이다.",
-      "impact_ko": "이러한 관점은 투자자들의 과도한 위험회피 심리를 완화할 수 있다. 금리 인상 사이클에서도 배당주, 가치주, 방어주 등 특정 섹터는 상대적 강세를 보일 수 있다. 포트폴리오 재구성 시 섹터 선별의 중요성을 강조하는 신호로 해석될 수 있다."
+      "summary_ko": "CNBC의 짐 크래머가 과거 금리 인상 사이클 동안 주식이 항상 약세를 보인 것은 아니라며 투자자들의 과도한 비관을 경고했다.",
+      "detail_ko": "금리 인상 사이클이 반드시 주식 약세로 이어지지 않는다는 역사적 사례가 제시되고 있다. 크래머의 주장은 현재의 글로벌 금리 인상 우려 속에서 투자자들이 과도하게 비관적 태도를 취하고 있을 수 있음을 시사한다. 이는 기업 실적 개선, 인플레이션 완화, 경제 회복력 등 긍정적 요인들이 간과될 수 있음을 의미한다.",
+      "impact_ko": "이러한 관점은 현재의 기술주 약세가 과도할 수 있다는 신호로 작용할 수 있으며, 선별적 매수 기회를 제시할 수 있다. 다만 금리 인상의 속도와 규모, 기업 실적 추이 등에 따라 시장 방향이 크게 달라질 수 있어 신중한 판단이 필요하다."
     }
   ],
   "calendar": [
