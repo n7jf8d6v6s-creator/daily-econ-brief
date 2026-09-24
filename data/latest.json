@@ -1,255 +1,255 @@
 {
-  "generated_at": "2026-09-23T22:06:35.125Z",
+  "generated_at": "2026-09-24T22:06:33.871Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 337.02,
-        "change_pct": -0.8035
+        "price": 335.92,
+        "change_pct": -0.3264
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 500.59,
-        "change_pct": 0.5201
+        "price": 497.93,
+        "change_pct": -0.5314
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 225.51,
-        "change_pct": -1.4681
+        "price": 224.58,
+        "change_pct": -0.4124
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 380.12,
-        "change_pct": 0.322
+        "price": 377.94,
+        "change_pct": -0.5735
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 249.27,
-        "change_pct": -2.2394
+        "price": 249.38,
+        "change_pct": 0.0441
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 337.83,
-        "change_pct": -3.796
+        "price": 342.36,
+        "change_pct": 1.3409
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 744.1,
-        "change_pct": 1.0189
+        "price": 777.59,
+        "change_pct": 4.5007
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 767.81,
-        "change_pct": -0.7202
+        "price": 767.18,
+        "change_pct": -0.0821
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 741.21,
-        "change_pct": -0.8362
+        "price": 741.1,
+        "change_pct": -0.0148
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 84376,
-        "change_pct": -2.03927
+        "price": 84278,
+        "change_pct": -0.12517
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2676.99,
-        "change_pct": -2.44867
+        "price": 2685.34,
+        "change_pct": 0.29994
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 8.99,
-        "change_pct": 0.15933
-      },
-      {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999889,
-        "change_pct": 0.00055
-      },
-      {
-        "symbol": "USDT",
-        "name": "Tether",
-        "price": 0.999887,
-        "change_pct": 0
-      },
-      {
-        "symbol": "USDS",
-        "name": "USDS",
-        "price": 0.999867,
-        "change_pct": -0.00403
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.092531,
-        "change_pct": -7.22896
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01224685,
-        "change_pct": -6.3544
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.25,
+        "change_pct": 7.74772
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.20225,
-        "change_pct": -5.47119
+        "price": 0.214478,
+        "change_pct": 5.96662
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.238248,
-        "change_pct": -4.80727
+        "price": 0.248187,
+        "change_pct": 4.12735
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.095621,
+        "change_pct": 3.28267
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.01203673,
+        "change_pct": -1.71375
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 92.28,
+        "change_pct": -1.49419
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.012,
+        "change_pct": -1.41273
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 8.92,
+        "change_pct": -0.81542
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 증시는 유가와 장기 금리 상승의 영향으로 광범위한 낙장을 기록했다. 특히 기술주 중심의 나스닥이 0.84% 하락하며 경기 민감도가 높은 종목들이 압박을 받은 것으로 보인다. 이란 정세 긴장으로 유가가 4% 상승하면서 인플레이션 재가열 우려와 함께 연방준비제도의 금리 인상 가능성이 부각되고 있다.",
-      "메타는 1.02% 상승하며 유일하게 강세를 보였으나, 대형 기술주들은 광범위하게 하락했다. 알파벳은 3.80%, 아마존은 2.24%, 엔비디아는 1.47% 내려앉았는데, 이는 금리 인상 기대가 높아지면서 고성장 기술주의 밸류에이션 압박으로 해석된다. 테슬라는 0.32% 소폭 상승하며 상대적 저항력을 보였다.",
-      "암호화폐 시장도 동반 약세를 보였으며, 특히 리스크 자산 회피 심리가 강해지면서 비트코인과 이더리움이 각각 2.04%, 2.45% 하락했다. 도지코인은 7.23% 급락하며 변동성 높은 알트코인의 약세가 두드러졌는데, 이는 달러 강세와 금리 인상 기대가 심화되면서 위험자산 선호도가 급격히 위축된 영향으로 보인다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 금리 상승 우려 속에서 혼조세를 보였다. 10년물 국채 수익률이 수년 만에 최고 수준으로 치솟으면서 금융시장 전반에 경계감이 확산되고 있으며, 연방준비제도의 추가 인상 가능성 언급까지 더해져 성장주와 기술주 중심으로 낙폭이 확대되는 양상이다.",
+      "메타는 4.5% 상승하며 유일하게 강세를 보였고, 알파벳도 1.3% 올랐다. 이는 AI와 광고 시장에 대한 긍정적 평가와 함께 대형 기술주 중에서도 상대적으로 금리 민감도가 낮다는 해석으로 보인다. 반면 테슬라(-0.57%), 마이크로소프트(-0.53%), 엔비디아(-0.41%) 등 성장성 평가에 의존하는 종목들은 금리 인상 우려에 더 큰 타격을 받은 것으로 해석된다.",
+      "암호화폐 시장에서는 금리 상승 환경 속에서도 체인링크(+7.75%), 스텔라(+5.97%), 카르다노(+4.13%) 등 알트코인들이 강세를 보였다. 이는 글로벌 금리 인상 우려와 지정학적 리스크(홍해 보험료 상승, 미국-이란 협상 교착)로 인한 유가 급등이 인플레이션 헤지 자산으로서의 암호화폐 수요를 부양한 것으로 보인다. 비트코인은 소폭 하락(-0.13%)했으나 이더리움은 소폭 상승(+0.30%)하며 상대적으로 안정적인 움직임을 보였다. 본 분석은 투자 조언이 아니며, 시장 변동성이 높은 상황에서 투자 결정 시 전문가 상담을 권장합니다."
     ],
     "movers": [
       {
+        "symbol": "META",
+        "name": "메타",
+        "price": 777.59,
+        "change_pct": 4.5007,
+        "type": "stock",
+        "reason_ko": "AI 광고 플랫폼 강점, 금리 민감도 상대적 낮음"
+      },
+      {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 337.83,
-        "change_pct": -3.796,
+        "price": 342.36,
+        "change_pct": 1.3409,
         "type": "stock",
-        "reason_ko": "금리 인상 기대로 기술주 밸류에이션 압박"
+        "reason_ko": "검색 광고 수익성, 금리 상승 영향 제한적"
       },
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 249.27,
-        "change_pct": -2.2394,
-        "type": "stock",
-        "reason_ko": "유가·금리 상승으로 경기 민감도 높은 종목 약세"
-      },
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "price": 225.51,
-        "change_pct": -1.4681,
-        "type": "stock",
-        "reason_ko": "고성장주 선호도 위축으로 반도체주 동반 하락"
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.092531,
-        "change_pct": -7.22896,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.25,
+        "change_pct": 7.74772,
         "type": "crypto",
-        "reason_ko": "달러 강세·금리 인상 기대로 알트코인 급락"
+        "reason_ko": "유가 상승·금리 인상 시 알트코인 수요 증가"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 377.94,
+        "change_pct": -0.5735,
+        "type": "stock",
+        "reason_ko": "금리 인상 우려로 성장주 매도 압박"
       }
     ]
   },
   "news": [
     {
-      "headline": "Wall Street ends down as oil prices, Treasury yields rise - Reuters",
-      "summary": "Wall Street ends down as oil prices, Treasury yields rise  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
-      "published_at": "2026-09-23T20:24:16.000Z",
-      "headline_ko": "유가·장기금리 상승으로 월스트리트 하락장 마감",
-      "summary_ko": "미국 증시가 유가와 재무부 채권 수익률 상승에 따라 하락으로 마감했다.",
-      "detail_ko": "이란 정세 긴장이 고조되면서 유가가 상승하고 있으며, 이에 따른 인플레이션 재가열 우려가 장기금리를 끌어올리고 있다. 금리 인상 기대가 높아지면서 주식시장, 특히 금리에 민감한 기술주와 성장주에 대한 투자 심리가 위축되고 있다. 이는 경기 전망에 대한 불확실성이 커지고 있음을 시사한다.",
-      "impact_ko": "유가 상승과 금리 인상 기대가 지속될 경우 기술주 중심의 나스닥 약세가 계속될 가능성이 있다. 또한 인플레이션 우려가 심화되면 연준의 정책 결정에 영향을 미쳐 시장 변동성이 확대될 수 있다. 기업 실적 전망과 소비자 심리에도 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Oil settles up around 4% as Iran's president vows to never surrender - Reuters",
-      "summary": "Oil settles up around 4% as Iran's president vows to never surrender  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
-      "published_at": "2026-09-23T18:48:44.000Z",
-      "headline_ko": "이란 대통령 강경 발언으로 유가 4% 상승",
-      "summary_ko": "이란 대통령이 항복하지 않겠다는 입장을 표명하면서 유가가 약 4% 올랐다.",
-      "detail_ko": "중동 지정학적 긴장이 고조되면서 석유 공급 차질에 대한 우려가 커지고 있다. 이란의 강경한 입장 표현은 미국과의 협상 가능성을 낮추고 있으며, 이는 단기적으로 유가 상승 압력으로 작용하고 있다. 유가 상승은 글로벌 인플레이션 심화로 이어질 수 있는 만큼 주요 경제 변수로 작용하고 있다.",
-      "impact_ko": "지정학적 리스크가 지속될 경우 유가의 상승 추세가 계속될 수 있으며, 이는 운송·에너지 관련 기업의 원가 상승으로 이어질 수 있다. 높은 유가는 소비자 물가 상승을 초래해 중앙은행의 금리 인상 압박을 높일 수 있다. 글로벌 경제 성장 둔화 우려도 함께 커질 가능성이 있다."
-    },
-    {
-      "headline": "European stocks slip as lack of progress on US-Iran peace lifts oil, yields - Reuters",
-      "summary": "European stocks slip as lack of progress on US-Iran peace lifts oil, yields  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHdtekdjUEh0dXhIa040bjZnR1UtRG5PdVdLYjZnY0VMaVdzZGM5eDc0UUNnMW16aXRrVUFPTHh0WVBtWTFLOFN4TjQzNGdPY1VQb09IcDVDdF8yazJIbmJOWDQ5UWQ2ekZUMnZoUFpERVhsN3h6cFByS1VwelZYbkxMejE1dkV4RXFVV2lxVC1BdGNueTBBQWVkRWhNaWFDZ3ZBRUk5bkdQbkZDbzlGMnJNd1NTNkdVV0UwdmdmeDY?oc=5",
-      "published_at": "2026-09-23T16:25:37.000Z",
-      "headline_ko": "미-이란 평화 협상 진전 부족으로 유럽 증시도 하락",
-      "summary_ko": "미국과 이란 간 평화 협상 진전이 없으면서 유가와 금리가 올라 유럽 증시가 약세를 보였다.",
-      "detail_ko": "중동 긴장 완화에 대한 기대가 사라지면서 유가와 장기금리가 동시에 상승하고 있다. 이는 글로벌 주식시장에 광범위한 부정적 영향을 미치고 있으며, 유럽 증시도 이러한 흐름에서 벗어나지 못하고 있다. 협상 진전 부족은 지정학적 불확실성을 높이고 있어 투자자들의 리스크 회피 심리를 강화하고 있다.",
-      "impact_ko": "미-이란 협상이 교착 상태에 빠질 경우 유가의 상승 추세가 장기화될 수 있으며, 이는 글로벌 인플레이션 심화로 이어질 수 있다. 유럽 중앙은행도 금리 인상 압박을 받을 가능성이 높아지고 있다. 지정학적 불확실성이 높아지면서 글로벌 경제 성장 전망이 악화될 수 있다."
-    },
-    {
-      "headline": "Typical job search advice isn't working in today's market. Experts' new rules for landing a role right now",
-      "summary": "AI and the economy are reshaping hiring. These are the new strategies for finding a job in today's tough market.",
+      "headline": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'",
+      "summary": "The 10-year Treasury note yield is spiking to levels not seen in years, and that may be a bad omen for financial markets.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/23/new-rules-of-finding-a-job-right-now.html",
-      "published_at": "2026-09-23T13:15:01.000Z",
-      "headline_ko": "AI와 경제 변화로 취업 시장 재편, 새로운 구직 전략 필요",
-      "summary_ko": "AI 발전과 경제 변화가 채용 시장을 재편하고 있으며, 구직자들은 새로운 전략이 필요한 상황이다.",
-      "detail_ko": "인공지능의 확산과 경제 구조 변화가 노동시장에 구조적 변화를 초래하고 있다. 기존의 일반적인 구직 조언이 더 이상 유효하지 않은 상황이 되었으며, 기업들의 채용 기준과 프로세스도 빠르게 변화하고 있다. 이는 노동력의 재교육과 기술 전환의 필요성을 강조하고 있다.",
-      "impact_ko": "노동시장의 구조적 변화는 임금 격차 확대와 고용 불안정성 증가로 이어질 수 있다. 기술 기반 일자리 수요 증가로 인해 교육과 훈련에 대한 투자 필요성이 커질 수 있다. 소비자 심리와 경제 성장에도 영향을 미칠 수 있으며, 기업의 인적자원 관리 방식 변화로 이어질 수 있다."
+      "url": "https://www.cnbc.com/2026/09/24/history-shows-financial-calamities-occur-when-rates-rise-rapidly-like-this-something-always-breaks.html",
+      "published_at": "2026-09-24T20:57:11.000Z",
+      "headline_ko": "급속한 금리 인상 시 금융 위기 발생 역사적 선례 많아",
+      "summary_ko": "10년물 국채 수익률이 수년 만에 최고 수준으로 급등하면서 금융시장 불안정성이 높아지고 있다.",
+      "detail_ko": "금리가 빠르게 상승하는 국면에서는 과거 여러 금융 위기가 발생했다는 역사적 교훈이 제시되고 있다. 현재 10년물 국채 수익률의 급등은 시장 참여자들에게 금융 시스템의 취약 부분이 노출될 수 있다는 우려를 불러일으키고 있다. 이는 단순한 금리 인상을 넘어 시스템 리스크로 인식될 수 있는 신호로 해석된다.",
+      "impact_ko": "금리 급등이 지속될 경우 고레버리지 포지션을 보유한 금융기관이나 기업들의 자금 조달 비용이 급증할 수 있다. 이는 신용 경색으로 이어져 경제 전반의 성장률 둔화를 초래할 가능성이 있다. 또한 주식시장에서 성장주와 기술주 중심의 조정이 심화될 수 있다."
     },
     {
-      "headline": "Rupee slips as dollar gets Fed hike expectations tailwind - Reuters",
-      "summary": "Rupee slips as dollar gets Fed hike expectations tailwind  Reuters",
+      "headline": "Saudi oil export strategy hits new hurdle as Red Sea insurance costs soar - Reuters",
+      "summary": "Saudi oil export strategy hits new hurdle as Red Sea insurance costs soar  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbVNmdlVNbHl0UDFJQll5ckV0NHkzNXZVTmhvdlVPNk1Bci1RSXJRV2RRc3FVRm4zTlNONm15dlNZOFhNTzlOYVFnVWJQUUJmWnMzZnJCdzV6RV9OblJldlBZMExybTBaVDk2X0VVbXVYNHVTNy1wcWF4TzdiVXZNbXBSYnpYZjhsVzNjZTJhWF8zR183OXBCX0lWMm1TamR5WjRJSjhrMWZ2UQ?oc=5",
-      "published_at": "2026-09-23T10:08:31.000Z",
-      "headline_ko": "연준 금리 인상 기대로 달러 강세, 인도 루피 약세",
-      "summary_ko": "연방준비제도의 금리 인상 기대가 높아지면서 달러가 강세를 보이고 인도 루피가 약세를 기록했다.",
-      "detail_ko": "미국의 금리 인상 기대가 높아지면서 달러 자산의 매력도가 증가하고 있다. 이는 신흥국 통화에 대한 상대적 약세 압력으로 작용하고 있으며, 인도 루피도 이러한 달러 강세의 영향을 받고 있다. 달러 강세는 신흥국의 외채 부담을 증가시키고 자본 유출 압력을 높일 수 있다.",
-      "impact_ko": "달러 강세가 지속될 경우 신흥국의 외환 보유고 감소와 통화 불안정성이 심화될 수 있다. 신흥국 기업들의 달러 표시 부채 상환 부담이 증가할 수 있으며, 이는 신흥국 경제 성장을 둔화시킬 수 있다. 글로벌 자본 흐름이 선진국으로 집중될 가능성이 높아지고 있다."
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZTRXRkRnZzBpWmo3VklXUlM4NzZOUXZKTjlndXgydERQalUwdHZDV2loS1F4YnRreHRWYlhUb1RnWGt3Nm1NaERsMC1Gb3QxSlZaTWZGWllwbnVwOWhtRkNlc0JFQUdNYTU2X1lTRGxweTBqTk1Gdk5RdTY0NldlUmlSbDgxbGFfM2NqVWk5UHRCTVZCb3NBSS1BcnF4ZHVqVUNlU3Zpd1lyM1BVWkhzT1h0cVZmX0ozQlZUdUFEYw?oc=5",
+      "published_at": "2026-09-24T16:57:33.000Z",
+      "headline_ko": "홍해 보험료 급등으로 사우디 석유 수출 전략 차질",
+      "summary_ko": "홍해 해역의 보험료 상승이 사우디아라비아의 석유 수출 경로와 비용 구조에 부정적 영향을 미치고 있다.",
+      "detail_ko": "홍해 지역의 지정학적 긴장으로 인한 보험료 상승은 중동 석유 수출국들의 물류 비용을 크게 증가시키고 있다. 사우디아라비아는 세계 최대 석유 수출국으로서 이러한 비용 증가가 수출 경쟁력과 수익성에 직접적인 영향을 미친다. 이는 단순한 운송비 상승을 넘어 글로벌 에너지 공급망 재편의 신호로 볼 수 있다.",
+      "impact_ko": "홍해 우회 항로 이용 증가로 인한 운송 시간 연장과 비용 상승은 국제 유가를 상승 압력으로 작용할 수 있다. 이는 인플레이션 우려를 가중시켜 중앙은행의 추가 금리 인상 가능성을 높일 수 있다. 또한 해운 및 물류 기업들의 수익성 개선 기회가 될 수 있는 반면, 석유 수입국들의 에너지 비용 부담은 증가할 것으로 예상된다."
     },
     {
-      "headline": "OECD raises Turkey inflation forecast, trims growth outlook - Reuters",
-      "summary": "OECD raises Turkey inflation forecast, trims growth outlook  Reuters",
+      "headline": "UK stocks fall as lack of progress in US-Iran talks lifts oil prices - Reuters",
+      "summary": "UK stocks fall as lack of progress in US-Iran talks lifts oil prices  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3VyZUFFSzh2MThMT2tXNW1PeTNhcmY0WlFLcUdzLW1vWG9uYlhIaC1uekZGX2xrYk5FUExtaEswQ0ZjQk1QNk5hU2haYkFlbWx2Z0ZtU2xsaTNVVzJhc3dvUUEzcUdOZDdPSnQwODFTUktXX3YyWDVvT20wVG5TZDlGVFV3bHgxZnFlczF2aTNJbFdvU21Ya3N2cWZ1VEhndlBKXzYyNS1UbGNZZFpxTnVn?oc=5",
-      "published_at": "2026-09-23T08:03:44.000Z",
-      "headline_ko": "OECD, 터키 인플레이션 전망 상향·성장 전망 하향 조정",
-      "summary_ko": "경제협력개발기구(OECD)가 터키의 인플레이션 전망을 높이고 경제 성장 전망을 낮췄다.",
-      "detail_ko": "터키의 인플레이션 압력이 예상보다 강하게 지속되고 있으며, 동시에 경제 성장 둔화가 우려되고 있다. 이는 터키 중앙은행의 금리 인상 정책이 충분한 효과를 거두지 못하고 있음을 시사한다. 지정학적 긴장과 글로벌 유가 상승이 터키의 인플레이션을 악화시키고 있는 것으로 보인다.",
-      "impact_ko": "터키의 인플레이션 심화는 중앙은행의 추가 금리 인상을 초래할 수 있으며, 이는 경제 성장을 더욱 둔화시킬 수 있다. 터키 통화의 약세 압력이 높아질 수 있으며, 이는 수입 물가 상승으로 이어져 악순환을 초래할 수 있다. 신흥국 경제 약세의 신호로 작용할 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORHdHT0VLakV1eGx5V2lEejBTV2hZdC02WXdYM3ctdVNtNXA1SURvX25YZjFQeUJfUFVocEFQZ1dUc3RjVnJnX1pTaUxPcEpHdUFkYVYxU01zTGp3bG5yRlRZNmxmcnI3V3JwSUE1VFBWTThOQzVqZHlhWE54bXhhZU85R1FaTkhJNEdTV3ExN1I1YjJqVzZlN0Y3V3dSczVWdE42a1hPVQ?oc=5",
+      "published_at": "2026-09-24T16:08:52.000Z",
+      "headline_ko": "미국-이란 협상 교착으로 유가 상승, 영국 주식 하락",
+      "summary_ko": "미국과 이란 간 핵 협상 진전 부족으로 유가가 오르면서 영국 주식시장이 하락했다.",
+      "detail_ko": "미국과 이란 간 협상이 진전을 보이지 못하면서 이란산 석유 공급 불확실성이 높아지고 있다. 이는 글로벌 석유 공급 리스크를 증가시켜 유가 상승 압력으로 작용하고 있다. 영국을 포함한 유럽 주식시장은 유가 상승에 따른 인플레이션 우려와 에너지 비용 증가로 인한 기업 수익성 악화 가능성에 반응하고 있다.",
+      "impact_ko": "유가 상승은 에너지 수입국들의 인플레이션 압력을 높여 중앙은행의 금리 인상 기대를 강화할 수 있다. 이는 채권 수익률 상승과 함께 주식 평가 배수 축소로 이어질 가능성이 있다. 에너지 다소비 산업과 소비자 부문의 수익성 악화가 우려되는 상황이다."
     },
     {
-      "headline": "Gold loses shine as rate hike bets foster a stronger dollar - Reuters",
-      "summary": "Gold loses shine as rate hike bets foster a stronger dollar  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVGROaTNUbzBNRWdvU1J1SVRKaURrN0FDVHMteG50VExEUUhKN3UyQ0pMZ3F0ZUtXRHoyc2c2aDgzRkFrTFhHR01OdVROSVBWVnRLWmhqSjNDdW5FVjdHeEptYW5fUFg1VFVnX0xXZURtemZqOVNqNmRqc19yVjdYX3BwM1I1T0M4VUIwdDNqdmxFcnlXX2pKS3VCNllNbEJTQkZxZTJkd1NpNDZwOGpBSw?oc=5",
-      "published_at": "2026-09-23T04:53:00.000Z",
-      "headline_ko": "금리 인상 기대로 달러 강세, 금의 매력도 감소",
-      "summary_ko": "연준의 금리 인상 기대가 높아지면서 달러가 강세를 보이고 금의 가치가 하락했다.",
-      "detail_ko": "금리 인상 기대는 달러 자산의 상대적 매력도를 높이고 있으며, 이는 금과 같은 비수익 자산의 매력도를 감소시키고 있다. 금은 금리가 오를 때 보유 비용이 증가하므로 투자자들의 수요가 감소하는 경향이 있다. 달러 강세와 금리 인상 기대가 동시에 작용하면서 금의 약세가 심화되고 있다.",
-      "impact_ko": "금의 약세는 인플레이션 헤지 자산으로서의 금의 역할을 약화시킬 수 있다. 금 채굴 기업들의 수익성 악화로 이어질 수 있으며, 이는 관련 주식의 약세로 이어질 수 있다. 투자자들의 포트폴리오 구성 변화를 초래할 수 있으며, 안전자산 선호도 변화에 영향을 미칠 수 있다."
+      "headline": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
+      "summary": "The policymaker said  she and her colleagues may need to raise interest rates further to bring inflation back to target.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html",
+      "published_at": "2026-09-24T14:14:16.000Z",
+      "headline_ko": "필라델피아 연방준비은행 총재, 인플레이션 억제 위해 '완만한' 금리 인상 필요",
+      "summary_ko": "필라델피아 연방준비은행의 안나 폴슨 총재가 인플레이션 목표 달성을 위해 추가 금리 인상이 필요할 수 있다고 언급했다.",
+      "detail_ko": "연방준비제도 내 주요 정책 입안자가 현재의 금리 수준이 인플레이션을 충분히 억제하지 못할 수 있다는 입장을 표명했다. 이는 시장이 예상했던 금리 인상 사이클의 종료가 아직 멀었을 수 있음을 시사한다. 특히 '완만한' 인상이라는 표현은 급격한 인상은 아니지만 지속적인 인상 가능성을 암시하고 있다.",
+      "impact_ko": "연방준비제도의 추가 금리 인상 가능성이 높아지면서 장기 금리 상승 압력이 지속될 수 있다. 이는 성장주와 기술주 중심의 주식 조정을 심화시킬 수 있으며, 채권 시장에서도 듀레이션 리스크가 증가할 것으로 예상된다. 금융 조건의 긴축이 경제 성장률 둔화로 이어질 가능성도 배제할 수 없다."
     },
     {
-      "headline": "Indian shares advance on oil retreat; financials lead - Reuters",
-      "summary": "Indian shares advance on oil retreat; financials lead  Reuters",
+      "headline": "Family offices double down on stocks and private equity even as inflation spurs worry, Citi survey finds",
+      "summary": "Inflation displaced tariffs as family offices' top investment concern in 2026, per a new Citi Wealth survey.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/24/citi-family-offices-inflation-investing.html",
+      "published_at": "2026-09-24T12:30:01.000Z",
+      "headline_ko": "패밀리 오피스, 인플레이션 우려 속에서도 주식과 사모펀드에 투자 확대",
+      "summary_ko": "시티 웰스 조사에 따르면 패밀리 오피스들이 2026년 주요 투자 우려사항으로 인플레이션을 꼽으면서도 주식과 사모펀드 투자를 늘리고 있다.",
+      "detail_ko": "고순자산 개인 투자자들의 자산 관리 기관인 패밀리 오피스들이 인플레이션 리스크를 인식하면서도 장기 수익성을 추구하기 위해 위험자산 투자를 지속하고 있다. 이는 인플레이션 헤지 자산으로서의 주식과 사모펀드의 가치를 여전히 높게 평가하고 있음을 의미한다. 관세 우려가 감소하고 인플레이션이 주요 투자 관심사로 부상한 것은 거시경제 환경 변화를 반영한다.",
+      "impact_ko": "고순자산층의 지속적인 위험자산 투자는 주식시장에 일정 수준의 수요 기반을 제공할 수 있다. 다만 인플레이션 우려가 심화될 경우 포트폴리오 리밸런싱 압력이 증가할 수 있다. 사모펀드 투자 확대는 기업 인수합병과 구조조정 활동을 활발하게 할 가능성이 있다."
+    },
+    {
+      "headline": "New York Fed’s Williams says it's 'reasonable' to expect another rate hike by year-end",
+      "summary": "John Williams was speaking at the London Macro Policy Forum on Thursday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html",
+      "published_at": "2026-09-24T09:06:18.000Z",
+      "headline_ko": "뉴욕 연방준비은행 총재, 연말까지 추가 금리 인상 '합리적'",
+      "summary_ko": "뉴욕 연방준비은행의 존 윌리엄스 총재가 올해 말까지 추가 금리 인상이 예상된다고 밝혔다.",
+      "detail_ko": "연방준비제도의 또 다른 주요 정책 입안자가 금리 인상 사이클이 계속될 것으로 예상하고 있다. 이는 필라델피아 연방준비은행 총재의 발언과 맥을 같이하며, 연방준비제도 내 광범위한 금리 인상 기조를 시사한다. 런던 거시정책 포럼에서의 발언으로 글로벌 시장에 직접적인 영향을 미칠 수 있다.",
+      "impact_ko": "연말까지의 추가 금리 인상 전망은 장기 금리의 상승 경로를 더욱 명확히 하면서 시장의 불확실성을 높일 수 있다. 이는 주식 평가 배수 축소와 채권 가격 하락으로 이어질 가능성이 있다. 또한 신흥시장 통화의 약세 압력이 지속될 것으로 예상된다."
+    },
+    {
+      "headline": "Rupee declines to one-week low as oil rally fans global rate hike worries - Reuters",
+      "summary": "Rupee declines to one-week low as oil rally fans global rate hike worries  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcjZWUkdWUm0zQnhJSHI0Y3V0eTV6dGd4emdYeHRGTzgtTWx1NUVMcjNfc3VGekFYN1JNTWpjUmNmS1IzZ1pUMC1FTDFwQlM0djJ1YlBYN1RZa25MM0lVTFRqVjhwTXJsVllQTzdFMVZWZ2x5T2Etc0xGZjRHblppWEJ0dXRsNUhSNFBIVlpHUVIyd2dFUEE0MGM1aGFNMTN5UXRxUVh5TDhiVkwyM3lvUg?oc=5",
-      "published_at": "2026-09-23T02:24:00.000Z",
-      "headline_ko": "인도 주식시장, 유가 하락에 금융주 주도로 상승",
-      "summary_ko": "인도 증시가 유가 하락의 긍정적 영향을 받으며 금융주를 중심으로 상승했다.",
-      "detail_ko": "글로벌 유가 상승 추세 속에서도 인도 시장은 상대적으로 유가 하락의 이점을 누리고 있다. 유가 하락은 인도의 에너지 수입 비용을 감소시켜 경상수지 개선과 인플레이션 완화로 이어질 수 있다. 금융주의 강세는 경제 성장 기대와 금리 인상 기대가 함께 작용하고 있음을 시사한다.",
-      "impact_ko": "유가 하락이 지속될 경우 인도의 인플레이션 압력이 완화되어 중앙은행의 금리 인상 속도를 늦출 수 있다. 금융주의 강세는 인도 경제의 성장 전망에 대한 긍정적 신호로 작용할 수 있다. 인도 증시의 상대적 강세는 신흥국 자본 흐름에 영향을 미칠 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYWxRcGJGem9jUEZ0dXY2NDVGblVTZElHakV4bmVHQXl5SHpyemdjME1vZFlOMldrWk5uWm5ncFI3dHNpdUJpS2FPUHFxTGc3bVFFQjF3bmR2ckdpaU1NUXl6OUNudzlYLWE4ZEVHelRFNk5GdzRRQzV2ZFRlNmJUSGtZSFhTWEFmMmdIdlRTVjlucjVhTEE3STJtdGppemZpM2Vka0RsTE1qbjZJZHlZ?oc=5",
+      "published_at": "2026-09-24T02:45:00.000Z",
+      "headline_ko": "유가 랠리로 인도 루피 1주일 최저치 기록, 글로벌 금리 인상 우려 확산",
+      "summary_ko": "유가 상승이 글로벌 금리 인상 우려를 촉발하면서 인도 루피가 1주일 만에 최저치를 기록했다.",
+      "detail_ko": "유가 상승은 에너지 수입국인 인도의 경상수지 악화와 인플레이션 상승 우려를 야기하고 있다. 이는 인도 중앙은행의 금리 인상 가능성을 높이면서 루피 약세로 이어지고 있다. 글로벌 차원에서 유가 상승이 신흥시장 통화 약세의 주요 원인으로 작용하고 있음을 보여준다.",
+      "impact_ko": "신흥시장 통화 약세는 달러 표시 외채를 보유한 신흥시장 국가들의 채무 부담을 증가시킬 수 있다. 이는 신흥시장 자산에 대한 투자 심리를 악화시켜 자본 유출 압력을 높일 수 있다. 또한 신흥시장 중앙은행들의 금리 인상 가속화로 이어져 글로벌 금융 조건의 긴축이 심화될 가능성이 있다."
+    },
+    {
+      "headline": "Gold slips as rising oil prices, Treasury yields dent appeal - Reuters",
+      "summary": "Gold slips as rising oil prices, Treasury yields dent appeal  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenM1U09oVWJmVW8zbUtuN1ZLcWU1dGRKa1Rqdk1FU0k5QmVDSGRwcG9hR1NVVFVYOGhkSWpMdVF0aWFZMWx6TlNSWHZiajl5UWdzbWFZNmpGUW53MEhhbGgteHgtOGZGTzdlVGdWVjhWR2pMSzdJSWdCSmVTRHA4RVlCWS1tNU1NQU9QanFEQTRnNjhSSlhFQ052dEE?oc=5",
+      "published_at": "2026-09-24T02:23:00.000Z",
+      "headline_ko": "유가 상승과 국채 수익률 상승으로 금 약세",
+      "summary_ko": "유가 상승과 미국 국채 수익률 상승이 금의 매력을 감소시키면서 금 가격이 하락했다.",
+      "detail_ko": "금은 전통적으로 인플레이션 헤지 자산으로 인식되지만, 명목 금리 상승 시에는 금리를 지급하지 않는 자산으로서의 기회비용이 증가한다. 현재 국채 수익률의 급등은 금보다 국채의 상대적 매력도를 높이고 있다. 유가 상승으로 인한 인플레이션 우려가 금 수요를 부양하지 못할 정도로 금리 인상 기대가 강하다는 의미이다.",
+      "impact_ko": "금 약세는 인플레이션 헤지 자산으로서의 금의 효용성이 현재 금리 인상 사이클에서 제한적임을 시사한다. 이는 포트폴리오 헤징 전략의 재검토를 촉발할 수 있다. 금 채굴 기업들의 수익성 악화와 함께 상품 시장 전반의 약세 가능성도 배제할 수 없다."
     }
   ],
   "calendar": [
