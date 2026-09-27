@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T00:18:47.155Z",
+  "generated_at": "2026-09-27T00:05:47.409Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,70 +62,70 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 84062,
-        "change_pct": -0.62892
+        "price": 84360,
+        "change_pct": 0.37737
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2691.52,
-        "change_pct": -0.06659
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 14,
-        "change_pct": 4.94851
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 122.03,
-        "change_pct": 3.84031
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.258378,
-        "change_pct": 3.3173
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.098993,
-        "change_pct": 2.79348
+        "price": 2694.12,
+        "change_pct": 0.16611
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01132156,
-        "change_pct": -6.00789
+        "price": 0.01288322,
+        "change_pct": 13.29746
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1649.64,
+        "change_pct": 6.31713
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.062,
+        "change_pct": 2.91657
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
-        "price": 8.8,
-        "change_pct": -1.65944
+        "price": 8.96,
+        "change_pct": 1.84369
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 556.19,
-        "change_pct": -1.41519
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.53,
+        "change_pct": -2.48817
       },
       {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.33786,
-        "change_pct": -0.67235
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.096603,
+        "change_pct": -2.16094
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.253465,
+        "change_pct": -1.66615
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.215945,
+        "change_pct": -1.64278
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 혼조세를 보였으나 기술주 중심으로 부분적 강세가 나타났다. S&P 500과 나스닥100 ETF가 소폭 상승한 가운데, 마이크로소프트가 3.66% 상승하며 시장을 주도했으나 메타는 3.33% 하락하며 빅테크 내 편차가 두드러졌다. 이는 금리 상승 우려 속에서도 AI 관련 기업에 대한 선별적 수요가 지속되고 있음을 시사한다.",
-      "마이크로소프트의 강세는 엔터프라이즈 AI 솔루션에 대한 지속적인 수요 기대와 클라우드 사업 성장성이 반영된 것으로 해석된다. 한편 암호화폐 시장에서는 솔라나(3.84%), 체인링크(4.95%), 카르다노(3.32%) 등 알트코인들이 상승세를 보였는데, 이는 위험자산 회피 심리가 완전히 사라지지 않았으며 특히 스마트 컨트랙트 플랫폼과 오라클 솔루션에 대한 기술적 수요가 유지되고 있음을 나타낸다.",
-      "반면 메타의 급락과 테슬라의 하락(-1.54%)은 고금리 환경에서 고밸류에이션 성장주에 대한 투자자 심리가 약화되고 있음을 보여준다. 뉴스에서 10년물 미국 국채 수익률이 2007년 이후 최고치를 기록했다는 보도가 나왔는데, 이는 연방준비제도의 추가 금리 인상 가능성을 시사하며 금리에 민감한 고성장 기술주들에 대한 부담으로 작용하고 있다. 비트코인과 이더리움도 소폭 하락(-0.63%, -0.07%)하며 매크로 금리 리스크에 영향을 받는 모습이다. 본 분석은 투자 조언이 아니며, 투자 결정은 개인의 판단과 책임하에 이루어져야 합니다."
+      "오늘 미국 주식시장은 혼조세를 보였으나, 마이크로소프트가 3.66% 상승하며 기술주 중 강세를 주도했다. 반면 메타는 3.33% 하락하며 빅테크 내에서도 개별 종목별 편차가 뚜렷했으며, 전반적으로 금리 전망과 경제 불확실성이 시장 심리에 영향을 미친 것으로 해석된다.",
+      "마이크로소프트의 강세는 AI 관련 수요 지속과 클라우드 인프라 투자 확대 기대로 해석되며, 특히 데이터센터 건설 붐이 블루칼라 일자리 창출로 이어지는 긍정적 신호가 시장에 반영된 것으로 보인다. 테슬라는 1.54% 하락하며 약세를 보였는데, 이는 경제 불확실성 속 고가 내구재 수요 둔화 우려와 금리 상승 기대가 영향을 미친 것으로 판단된다.",
+      "암호화폐 시장에서는 프라이버시 코인들이 두드러진 상승세를 보였다. 레인(RAIN)은 13.30%, 지캐시(ZEC)는 6.32% 상승했는데, 이는 규제 리스크 증가 속 프라이버시 보호 기능을 갖춘 코인에 대한 수요 재평가로 해석된다. 반면 리플(XRP), 도지코인(DOGE), 카르다노(ADA) 등 주요 알트코인들은 1~2% 하락하며 약세를 보였으며, 이는 비트코인 약세와 위험자산 회피 심리가 영향을 미친 것으로 보인다. 본 내용은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
@@ -134,45 +134,56 @@
         "price": 516.17,
         "change_pct": 3.6632,
         "type": "stock",
-        "reason_ko": "엔터프라이즈 AI 수요 지속"
+        "reason_ko": "AI 인프라 투자 수요 지속"
       },
       {
-        "symbol": "META",
-        "name": "메타",
-        "price": 751.66,
-        "change_pct": -3.3347,
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 372.11,
+        "change_pct": -1.5426,
         "type": "stock",
-        "reason_ko": "고금리 환경 고밸류에이션 부담"
+        "reason_ko": "금리 상승 기대와 경제 불확실성"
       },
       {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 122.03,
-        "change_pct": 3.84031,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.01288322,
+        "change_pct": 13.29746,
         "type": "crypto",
-        "reason_ko": "스마트 컨트랙트 플랫폼 수요"
+        "reason_ko": "프라이버시 코인 수요 재평가"
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 14,
-        "change_pct": 4.94851,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1649.64,
+        "change_pct": 6.31713,
         "type": "crypto",
-        "reason_ko": "오라클 솔루션 기술 수요"
+        "reason_ko": "규제 리스크 속 프라이버시 자산 선호"
       }
     ]
   },
   "news": [
+    {
+      "headline": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
+      "summary": "The public has soured on AI data centers and states are slowing development, but for HVAC, plumbing, welding, and electrical workers, it's been a jobs boom.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
+      "published_at": "2026-09-26T13:43:42.000Z",
+      "headline_ko": "AI 데이터센터 붐이 블루칼라 일자리 창출…규제 역풍에도 고용 호조",
+      "summary_ko": "AI 데이터센터 개발에 대한 대중의 반감과 주(州) 차원의 규제에도 불구하고, HVAC·배관·용접·전기 기술자 등 블루칼라 일자리는 호황을 누리고 있다.",
+      "detail_ko": "AI 데이터센터 건설 수요가 급증하면서 관련 기술 인력에 대한 채용이 활발해지고 있다. 대중과 지역 정부의 규제 움직임이 있음에도 불구하고, 실제 건설 현장에서는 숙련 기술자 수급이 긴급한 상황이다. 이는 AI 인프라 투자의 실물경제 파급효과가 즉각적으로 나타나고 있음을 시사한다.",
+      "impact_ko": "AI 데이터센터 프로젝트의 지속적 확대는 건설 및 기술 인력 부족을 심화시킬 수 있으며, 이에 따른 임금 상승 압력으로 이어질 가능성이 있다. 또한 블루칼라 일자리 창출은 인플레이션 압력을 유지하는 요인이 될 수 있어 중앙은행의 금리 정책에 영향을 미칠 수 있다."
+    },
     {
       "headline": "Oil prices slide about 2% as US, Iran explore path out of war - Reuters",
       "summary": "Oil prices slide about 2% as US, Iran explore path out of war  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
       "published_at": "2026-09-25T19:28:52.000Z",
-      "headline_ko": "미국-이란 전쟁 회피 협상 진전으로 유가 2% 하락",
+      "headline_ko": "미국-이란 전쟁 위험 완화 신호에 유가 2% 하락",
       "summary_ko": "미국과 이란이 분쟁 해결 경로를 모색하면서 유가가 약 2% 하락했다.",
-      "detail_ko": "중동 지정학적 긴장이 완화될 가능성이 시장에 반영되고 있다. 미국과 이란 간 직접적인 군사 충돌 우려가 감소하면서 석유 공급 차질에 대한 프리미엄이 축소되는 중이다. 이는 에너지 가격 안정화로 이어져 인플레이션 압력 완화 신호로도 해석될 수 있다.",
-      "impact_ko": "유가 하락은 단기적으로 에너지 관련 주식에 부담을 줄 수 있으나, 광범위한 인플레이션 완화 기대로 채권과 성장주에는 긍정적으로 작용할 가능성이 있다. 중동 지정학적 리스크 축소는 글로벌 경제 불확실성을 낮춰 위험자산 선호도를 높일 수 있다."
+      "detail_ko": "중동 지정학적 긴장이 완화될 가능성이 제기되면서 유가 하락 압력이 나타났다. 이란과의 관계 개선 신호는 호르무즈 해협 봉쇄 리스크 감소를 의미하며, 이는 글로벌 석유 공급 안정성 개선으로 해석된다. 유가 하락은 인플레이션 완화 신호로 작용할 수 있다.",
+      "impact_ko": "유가 하락은 에너지 비용 감소로 이어져 인플레이션 압력을 완화할 수 있으며, 이는 중앙은행의 금리 인상 필요성을 낮출 수 있다. 동시에 채권 시장에 긍정적 신호로 작용할 가능성이 있으며, 경기 민감 자산의 수요 회복을 견인할 수 있다."
     },
     {
       "headline": "The iced coffee debate reflects 'everything wrong with hiring right now,' says career expert",
@@ -180,10 +191,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/25/iced-coffee-job-interview.html",
       "published_at": "2026-09-25T17:50:49.000Z",
-      "headline_ko": "아이스 커피 논쟁이 드러내는 채용 시장의 구조적 문제",
-      "summary_ko": "세대 간 채용 기준 차이를 둘러싼 아이스 커피 논쟁이 현재 노동시장의 왜곡된 구조를 반영하고 있다고 경력 전문가가 지적했다.",
-      "detail_ko": "채용 시장에서 기업과 구직자 간 기대치 불일치가 심화되고 있는 상황이 표면화되고 있다. 세대 간 가치관과 업무 문화에 대한 인식 차이가 채용 과정에서 마찰을 야기하고 있으며, 이는 단순한 개인의 선호도 문제가 아닌 노동시장 전반의 구조적 불균형을 시사한다. 기업의 과도한 요구와 구직자의 정당한 권리 주장이 충돌하는 양상이 나타나고 있다.",
-      "impact_ko": "노동시장의 이러한 갈등 심화는 기업의 채용 난과 이직률 증가로 이어질 수 있으며, 결과적으로 기업의 생산성과 수익성에 영향을 미칠 가능성이 있다. 인적자원 관리 비용 증가와 조직 문화 개선의 필요성이 대두될 수 있다."
+      "headline_ko": "아이스 커피 논쟁이 드러낸 채용 시장의 구조적 문제",
+      "summary_ko": "세대 간 채용 관행의 차이를 둘러싼 아이스 커피 논쟁이 현재 노동시장의 근본적 문제를 반영하고 있다고 경력 전문가가 지적했다.",
+      "detail_ko": "인터넷에서 벌어지는 아이스 커피 관련 채용 논쟁은 표면적으로는 사소한 이슈이지만, 실제로는 세대 간 고용 관행의 차이와 노동시장의 비효율성을 드러내고 있다. 이는 채용 기준의 불명확성과 기업 문화의 경직성이 여전히 존재함을 시사한다.",
+      "impact_ko": "채용 시장의 구조적 문제는 인재 수급의 미스매칭을 심화시킬 수 있으며, 이는 기업의 생산성 저하로 이어질 가능성이 있다. 또한 노동시장의 비효율성은 임금 상승 압력과 인플레이션 지속으로 연결될 수 있다."
     },
     {
       "headline": "10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds",
@@ -191,10 +202,21 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html",
       "published_at": "2026-09-25T16:40:09.000Z",
-      "headline_ko": "10년물 국채 수익률 19년 만에 최고치 경신, 채권 투자 기회 포착 움직임",
-      "summary_ko": "10년물 미국 국채 수익률이 2007년 이후 최고 수준에 도달하면서 일부 투자자들이 채권 매수 기회를 노리고 있다.",
-      "detail_ko": "금리 상승 사이클이 심화되면서 채권 수익률이 역사적 고점에 도달했다. 이는 연방준비제도의 금리 인상 기조가 지속되거나 추가 인상이 임박했을 가능성을 시사한다. 높아진 수익률은 채권의 상대적 매력도를 높이고 있으며, 특히 장기 채권 투자자들에게 매수 기회로 평가되고 있다.",
-      "impact_ko": "높은 금리 환경은 차입 비용 증가로 이어져 기업과 소비자의 투자 및 소비 심리를 위축시킬 수 있다. 금리 민감 산업(부동산, 금융, 소비재)에 부정적 영향을 미칠 가능성이 있으며, 동시에 저금리 시대에 누적된 고평가 자산의 조정 압력이 강화될 수 있다."
+      "headline_ko": "10년물 국채 수익률 19년 만에 최고 수준…채권 투자 기회 포착 움직임",
+      "summary_ko": "10년물 미국 국채 수익률이 2007년 이후 최고 수준에 도달하면서, 일부 투자자들이 채권 매수 기회로 평가하고 있다.",
+      "detail_ko": "금리 인상 기대가 높아지면서 장기 국채 수익률이 급등했다. 높아진 수익률은 채권 가격 하락을 의미하지만, 동시에 신규 투자자에게는 더 높은 수익률로 채권을 매수할 수 있는 기회를 제공한다. 이는 금리 사이클의 전환점에서 나타나는 전형적인 시장 심리 변화로 해석된다.",
+      "impact_ko": "높은 국채 수익률은 기업 차입 비용 상승으로 이어져 기업 투자와 고용 의사 위축을 초래할 수 있다. 또한 주식 시장의 할인율 상승으로 작용하여 성장주와 고배당주의 상대적 매력도 변화를 초래할 가능성이 있다."
+    },
+    {
+      "headline": "India Economic Adviser says ties with US in ‘uneasy equilibrium’",
+      "summary": "There is an unsettled relationship with the US, from tariff issues last year that are still ongoing, said Chief Economic Adviser V. Anantha Nageswaran",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-24/india-economic-adviser-says-ties-with-us-in-uneasy-equilibrium",
+      "published_at": "2026-09-25T04:28:52.000Z",
+      "headline_ko": "인도 경제 고문 \"미국과의 관계 불안정한 균형 상태\"",
+      "summary_ko": "인도의 최고 경제 자문관이 미국과의 관계가 불안정한 상태에 있으며, 지난해부터 계속되는 관세 문제가 미해결 상태라고 언급했다.",
+      "detail_ko": "인도-미국 간 무역 관계가 긴장 상태에 있으며, 특히 관세 분쟁이 장기화되고 있다. 이는 양국 간 경제 협력의 불확실성을 높이고 있으며, 글로벌 공급망 재편 과정에서 인도의 위치에 영향을 미칠 수 있다. 인도는 중국 대체 생산지로 주목받고 있는 만큼, 미국과의 관계 악화는 글로벌 제조업 지형에 영향을 미칠 수 있다.",
+      "impact_ko": "인도-미국 간 무역 긴장은 인도의 수출 경쟁력 약화와 경제 성장률 둔화로 이어질 수 있다. 또한 글로벌 공급망 재편 과정에서 인도의 역할 축소로 이어질 가능성이 있으며, 이는 신흥시장 투자 심리에 부정적 영향을 미칠 수 있다."
     },
     {
       "headline": "Crude oil exports via Hormuz at 33.7 million barrels this week, data shows - Reuters",
@@ -202,10 +224,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZXFDTzBxRUNwS0tCV0ZKaDI2Wm5RRXdCLVBYLW12YVdIeDZCX09tV3RKcEhHQ0xEM0JVMXZ1UWpiVW9wMDlkU2Y0b2ozbmZyX1I4RHhyUWphREs3NDFhaTJhcTRTbFRiY2lTV0RVMEo3RlM4X2pBRlB2Y1AtSENKSGs1VUNKZXJTSnVfLUZWMjdYZTgzOTdMenZ1bFhjejRoQXBYUWowN05OeWZ4ZGloS09GLU1aTFZtSE51Qk9hVTBlX2VwSUE?oc=5",
       "published_at": "2026-09-25T03:49:00.000Z",
-      "headline_ko": "호르무즈 해협 유정 수출량 주당 3,370만 배럴로 집계",
-      "summary_ko": "호르무즈 해협을 통한 원유 수출량이 이번 주 3,370만 배럴로 기록되었다.",
-      "detail_ko": "호르무즈 해협은 전 세계 석유 공급의 약 20~30%가 통과하는 전략적 요충지이다. 현재 수출량 데이터는 중동 지정학적 상황과 OPEC+ 감산 정책의 실행 현황을 반영하고 있다. 이 수치는 글로벌 에너지 공급 안정성과 유가 방향성을 판단하는 중요한 지표로 활용된다.",
-      "impact_ko": "호르무즈 해협의 안정적인 수출량 유지는 글로벌 에너지 공급 우려를 완화시킬 수 있으며, 이는 유가 안정화와 인플레이션 관리에 긍정적으로 작용할 가능성이 있다. 반대로 지정학적 긴장 재발 시 수출량 급감으로 유가 급등이 발생할 수 있다."
+      "headline_ko": "호르무즈 해협 유류 수출 주간 3,370만 배럴…안정적 공급 유지",
+      "summary_ko": "호르무즈 해협을 통한 주간 원유 수출량이 3,370만 배럴로 집계되었다.",
+      "detail_ko": "호르무즈 해협은 글로벌 석유 공급의 약 20~30%를 담당하는 전략적 요충지이다. 현재 수출량이 안정적으로 유지되고 있다는 것은 중동 지정학적 긴장이 실제 공급 차질로 이어지지 않고 있음을 의미한다. 이는 유가 하락 압력을 뒷받침하는 요인으로 작용하고 있다.",
+      "impact_ko": "호르무즈 해협의 안정적 공급은 유가 상승 리스크를 제한할 수 있으며, 인플레이션 완화에 긍정적으로 작용할 가능성이 있다. 또한 에너지 비용 안정성은 기업의 수익성 개선과 소비자 구매력 유지에 기여할 수 있다."
     },
     {
       "headline": "Gold rises, but on track for weekly loss as Fed rate hike expectations build - Reuters",
@@ -213,10 +235,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3F4eFFXZE5rZGRwVFhHYUsxZlhGeFlzSEF1Y0xYc2JmT0YtdkgtRmRhbFVTYVk3NGZRRUlsd3dCTDlCSmdnT1Y5OWN5MERTdzlibVdVQmhSeGc4SHIxWEhpRDJ6bjNLZXNURWdHbHBVOHNqU3FlUHJFc3lQRmN0SWlFRzRCUWpzdkFNYS1nb29JRDJzSzkwdjVDM1VlaHNzMG5FS3ZUU29rZ2RTVWxB?oc=5",
       "published_at": "2026-09-25T02:23:00.000Z",
-      "headline_ko": "금 가격 상승하나 연방준비제도 금리 인상 기대로 주간 낙폭 예상",
-      "summary_ko": "금 가격이 상승했으나 연방준비제도의 금리 인상 가능성 증대로 주간 기준 손실이 예상된다.",
-      "detail_ko": "금은 전통적으로 인플레이션 헤지 자산으로 기능하지만, 금리 인상 환경에서는 무이자 자산으로서의 기회비용이 증가한다. 현재 금리 인상 기대가 높아지면서 금에 대한 수요 압력이 발생하고 있다. 단기 기술적 반등에도 불구하고 거시 환경의 금리 상승 추세가 금의 장기 약세를 주도하고 있다.",
-      "impact_ko": "금리 인상 사이클이 심화될 경우 금을 포함한 귀금속 자산의 약세가 지속될 수 있으며, 이는 인플레이션 헤지 포트폴리오의 효율성을 저하시킬 가능성이 있다. 동시에 고금리 환경에서 채권과 현금성 자산의 상대적 매력도가 높아질 수 있다."
+      "headline_ko": "금 상승하나 주간 기준 하락 추세…연준 금리 인상 기대감 확산",
+      "summary_ko": "금 가격이 상승했으나 주간 기준으로는 하락 추세를 보이고 있으며, 이는 연준의 금리 인상 기대감 확산이 영향을 미친 것으로 보인다.",
+      "detail_ko": "금리 인상 기대는 금의 기회비용을 높이는 요인으로 작용한다. 금은 이자 수익을 제공하지 않기 때문에, 금리가 높아질수록 상대적 매력도가 떨어진다. 현재 장기 금리 상승과 금리 인상 기대가 금 수요를 억누르고 있는 상황이다.",
+      "impact_ko": "금 가격 약세는 인플레이션 헤지 자산으로서의 금의 역할 약화를 의미할 수 있으며, 투자자들의 위험자산 회피 심리 약화를 시사한다. 또한 금리 인상 기대의 확산은 채권과 현금성 자산의 상대적 매력도를 높여 자산 배분 변화를 초래할 수 있다."
     },
     {
       "headline": "Battered bonds draw support from falling oil prices - Reuters",
@@ -224,32 +246,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
       "published_at": "2026-09-25T02:19:00.000Z",
-      "headline_ko": "유가 하락이 채권 시장에 지지 신호로 작용",
-      "summary_ko": "유가 하락이 채권 시장의 약세를 완화시키는 긍정적 요인으로 작용하고 있다.",
-      "detail_ko": "유가 하락은 인플레이션 압력 완화를 의미하며, 이는 채권 투자자들에게 긍정적인 신호다. 에너지 가격 안정화는 중앙은행의 금리 인상 필요성을 감소시킬 수 있기 때문이다. 최근 채권 시장이 금리 상승으로 큰 손실을 입었으나, 유가 하락으로 인한 인플레이션 완화 기대가 추가 금리 인상 우려를 일부 상쇄하고 있다.",
-      "impact_ko": "유가와 인플레이션의 동반 하락은 채권 가격 회복을 지원할 수 있으며, 이는 채권 투자자들의 손실 회복 기회를 제공할 수 있다. 그러나 유가 하락이 경기 둔화 신호로 해석될 경우 신용 스프레드 확대 등 다른 채권 리스크가 부각될 수 있다."
-    },
-    {
-      "headline": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'",
-      "summary": "The 10-year Treasury note yield is spiking to levels not seen in years, and that may be a bad omen for financial markets.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/24/history-shows-financial-calamities-occur-when-rates-rise-rapidly-like-this-something-always-breaks.html",
-      "published_at": "2026-09-24T20:57:11.000Z",
-      "headline_ko": "역사가 보여주는 금융 위기의 신호: 급속한 금리 인상 시 '반드시 무언가 깨진다'",
-      "summary_ko": "10년물 국채 수익률이 수년 만에 급등하고 있으며, 역사적으로 이러한 급속한 금리 인상은 금융 시장 위기의 전조가 되어왔다.",
-      "detail_ko": "금리가 빠르게 상승하는 환경에서는 저금리에 적응한 금융 시스템의 여러 부분이 스트레스를 받게 된다. 과거 금융 위기들(저축대출 위기, 2008년 금융위기 등)을 분석하면 급속한 금리 인상 이후 항상 시스템의 취약 부분이 붕괴되었다. 현재의 급격한 국채 수익률 상승은 부동산, 금융기관, 고레버리지 기업 등 금리 민감 부문에 누적된 리스크를 노출시키고 있다.",
-      "impact_ko": "급속한 금리 인상은 금융 시스템의 숨겨진 취약점을 드러낼 수 있으며, 특정 부문(은행, 부동산, 고수익 채권)에서 신용 사건이 발생할 가능성이 있다. 이는 광범위한 시장 조정과 경제 성장 둔화로 이어질 수 있으며, 투자자들의 위험회피 심리 강화로 변동성 확대가 예상된다."
-    },
-    {
-      "headline": "US Treasury accepted $4.078 billion in buyback operation - Reuters",
-      "summary": "US Treasury accepted $4.078 billion in buyback operation  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTGU1d0pSel80SGZ6SkFjblpLdG5yQXVJcE5yU0VQbmp0dFpvR0xFdXY5QXVLSmJXblhUMmJac1N5ZEgtSGZ4cjMxeUV0cFhyMFhwbkM2cDR2ZlluOTc5ZTVNamlRdXJmR1JxWG03TGk2OGNJeTNaWHdxRFBzemZ4aEM1U2ZjM2ZTQ0ZnbGhBT0VqbExMM0FzSw?oc=5",
-      "published_at": "2026-09-24T18:19:43.000Z",
-      "headline_ko": "미국 재무부, 40억 7,800만 달러 규모 채권 환매 작업 완료",
-      "summary_ko": "미국 재무부가 40억 7,800만 달러 규모의 채권 환매 작업을 완료했다.",
-      "detail_ko": "미국 재무부의 채권 환매는 만기 구조 최적화와 차입 비용 관리를 위한 정책 수단이다. 이는 고금리 환경에서 기존 채무의 이자 부담을 줄이고 채권 시장의 유동성을 관리하기 위한 조치로 해석된다. 재무부의 적극적인 채권 관리는 정부 차입 비용 상승에 대한 대응이자 시장 안정화 신호로도 볼 수 있다.",
-      "impact_ko": "정부의 채권 환매는 단기적으로 채권 시장의 공급 압력을 완화시킬 수 있으며, 이는 채권 수익률 안정화에 기여할 수 있다. 그러나 이러한 조치가 정부 재정 건전성 우려를 야기할 수 있으며, 장기적으로는 정부 채무 관리의 지속 가능성에 대한 투자자 신뢰에 영향을 미칠 수 있다."
+      "headline_ko": "유가 하락이 채권 시장에 지지 신호…인플레이션 완화 기대",
+      "summary_ko": "유가 하락이 채권 시장에 긍정적 영향을 미치고 있으며, 인플레이션 완화 기대가 채권 수요를 견인하고 있다.",
+      "detail_ko": "유가는 인플레이션의 주요 결정 요인 중 하나이다. 유가 하락은 에너지 비용 감소로 이어져 전반적 물가 상승 압력을 완화한다. 이는 채권 투자자들에게 실질 수익률 개선을 의미하며, 채권 수요 증가로 이어진다. 현재 유가 약세와 인플레이션 완화 기대가 채권 시장의 주요 지지 요인으로 작용하고 있다.",
+      "impact_ko": "유가 하락에 따른 인플레이션 완화는 중앙은행의 금리 인상 속도 둔화 가능성을 높일 수 있으며, 이는 채권 가격 회복으로 이어질 수 있다. 또한 인플레이션 우려 완화는 경기 민감 자산의 상대적 매력도를 높여 자산 배분 재조정을 초래할 가능성이 있다."
     }
   ],
   "calendar": [
