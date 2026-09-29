@@ -1,255 +1,263 @@
 {
-  "generated_at": "2026-09-28T00:12:13.757Z",
+  "generated_at": "2026-09-29T01:23:26.528Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 341.07,
-        "change_pct": 1.5331
+        "price": 338.4,
+        "change_pct": -0.7828
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 516.17,
-        "change_pct": 3.6632
+        "price": 509.22,
+        "change_pct": -1.3465
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 225.07,
-        "change_pct": 0.2182
+        "price": 228.86,
+        "change_pct": 1.6839
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 372.11,
-        "change_pct": -1.5426
+        "price": 357.45,
+        "change_pct": -3.9397
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 249.67,
-        "change_pct": 0.1163
+        "price": 246.15,
+        "change_pct": -1.4099
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 343.92,
-        "change_pct": 0.4557
+        "price": 342.75,
+        "change_pct": -0.3402
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 751.66,
-        "change_pct": -3.3347
+        "price": 715.62,
+        "change_pct": -4.7947
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 771.35,
-        "change_pct": 0.5435
+        "price": 765.61,
+        "change_pct": -0.7441
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 744.5,
-        "change_pct": 0.4588
+        "price": 736.53,
+        "change_pct": -1.0705
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 84381,
-        "change_pct": 0.06175
+        "price": 82839,
+        "change_pct": -1.46665
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2685.12,
-        "change_pct": -0.27736
+        "price": 2661.95,
+        "change_pct": -0.42257
       },
       {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 778.21,
-        "change_pct": 0.70647
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 15.28,
+        "change_pct": 8.42313
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.01,
-        "change_pct": 0.54617
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.225252,
+        "change_pct": 3.12449
       },
       {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 121.67,
-        "change_pct": 0.38135
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.334808,
+        "change_pct": 0.11711
       },
       {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.253858,
-        "change_pct": 0.29026
+        "symbol": "USDC",
+        "name": "USDC",
+        "price": 0.999898,
+        "change_pct": 0.00172
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1569.03,
-        "change_pct": -4.64771
+        "price": 1392.45,
+        "change_pct": -11.71274
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 547.31,
-        "change_pct": -2.081
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.243183,
+        "change_pct": -5.13956
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 91.22,
-        "change_pct": -1.37023
+        "price": 86.13,
+        "change_pct": -4.7994
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01271295,
-        "change_pct": -1.25999
+        "symbol": "SOL",
+        "name": "Solana",
+        "price": 116.84,
+        "change_pct": -4.20653
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 혼조세를 보였으나, 기술주 중심으로 선별적 강세가 나타났다. S&P 500과 나스닥100 ETF가 소폭 상승한 가운데, 마이크로소프트가 3.66% 급등하며 시장을 주도했다. 반면 메타와 테슬라는 각각 3.33%, 1.54% 하락하며 약세를 보였다.",
-      "마이크로소프트의 강세는 미국과 중국이 AI 대화와 300억 달러 규모의 관세 인하에 합의한 뉴스로 해석된다. 무역 긴장 완화 기대와 AI 산업의 정책적 지원 신호가 클라우드·AI 인프라 기업인 마이크로소프트에 긍정적으로 작용한 것으로 보인다. 애플도 1.53% 상승하며 같은 맥락의 수혜를 받은 것으로 판단된다.",
-      "메타의 급락은 광고 시장 약세와 AI 데이터센터 개발에 대한 공중 반감 심화로 해석된다. 미국 각 주가 AI 데이터센터 건설을 둔화시키고 있다는 뉴스가 메타의 대규모 인프라 투자 계획에 대한 우려를 증폭시킨 것으로 보인다. 테슬라의 하락은 유가 반등에 따른 에너지 비용 상승 우려와 경기 둔화 신호로 해석되며, 이는 투자 조언이 아닙니다."
+      "오늘 글로벌 주식시장은 유가 상승과 미국 국채 수익률 강화로 광범위한 낙폭을 기록했다. S&P 500과 나스닥100 ETF가 각각 0.74%, 1.07% 하락하며 위험자산 회피 심리가 확산된 것으로 보인다. 미국-이란 교착 상황이 지정학적 리스크를 높이면서 에너지 가격 상승이 인플레이션 우려로 이어지고 있다.",
+      "메타와 테슬라가 각각 4.79%, 3.94% 급락하며 낙폭을 주도했다. 특히 메타는 광고 시장 부진 우려와 높아진 금리 환경에서 고성장 기술주의 밸류에이션 압박이 심화되는 것으로 해석된다. 테슬라도 경기 둔화 시나리오에서 고가 소비재 수요 감소 우려가 반영된 것으로 보인다.",
+      "엔비디아는 1.68% 상승하며 유일하게 강세를 유지했다. AI 칩 수요의 구조적 강세가 단기 시장 변동성을 상쇄하는 것으로 해석되며, 기술주 약세 속에서도 AI 관련 수혜주로서의 위상이 유지되고 있다. 한편 암호화폐 시장에서는 체인링크가 8.42% 급등하며 오라클 기반 인프라 수요 증가를 반영한 것으로 보이는 반면, 프라이버시 코인인 지캐시는 규제 우려로 11.71% 급락했다. 이는 미국-이란 긴장 고조에 따른 지정학적 불확실성 속에서 프라이버시 자산에 대한 규제 감시가 강화될 수 있다는 시장 우려로 해석된다. 본 내용은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "price": 516.17,
-        "change_pct": 3.6632,
-        "type": "stock",
-        "reason_ko": "미중 AI 협력 합의 및 관세 인하"
-      },
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 341.07,
-        "change_pct": 1.5331,
-        "type": "stock",
-        "reason_ko": "무역 긴장 완화 기대"
-      },
-      {
         "symbol": "META",
         "name": "메타",
-        "price": 751.66,
-        "change_pct": -3.3347,
+        "price": 715.62,
+        "change_pct": -4.7947,
         "type": "stock",
-        "reason_ko": "AI 데이터센터 개발 반감"
+        "reason_ko": "금리 인상 환경에서 고성장주 밸류에이션 압박"
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 372.11,
-        "change_pct": -1.5426,
+        "price": 357.45,
+        "change_pct": -3.9397,
         "type": "stock",
-        "reason_ko": "유가 상승 및 경기 둔화 우려"
+        "reason_ko": "경기 둔화 시 고가 소비재 수요 감소 우려"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "price": 228.86,
+        "change_pct": 1.6839,
+        "type": "stock",
+        "reason_ko": "AI 칩 수요의 구조적 강세 지속"
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 15.28,
+        "change_pct": 8.42313,
+        "type": "crypto",
+        "reason_ko": "오라클 인프라 수요 증가 반영"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1392.45,
+        "change_pct": -11.71274,
+        "type": "crypto",
+        "reason_ko": "지정학적 긴장 속 프라이버시 자산 규제 우려"
       }
     ]
   },
   "news": [
     {
-      "headline": "Oil rebounds after Trump rejects Iran peace deal - Reuters",
-      "summary": "Oil rebounds after Trump rejects Iran peace deal  Reuters",
+      "headline": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
+      "summary": "Stocks fall as higher oil prices, Treasury yields weigh  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
-      "published_at": "2026-09-27T22:25:29.000Z",
-      "headline_ko": "트럼프의 이란 평화협상 거부로 유가 반등",
-      "summary_ko": "트럼프 대통령이 이란과의 평화협상을 거부하면서 지정학적 리스크가 재부상하고 유가가 반등했다.",
-      "detail_ko": "이란 핵 협상 재개 가능성이 사라지면서 중동 지역의 지정학적 긴장이 고조되고 있다. 이는 호르무즈 해협을 통한 석유 공급 차질 우려로 이어지며, 에너지 시장의 불확실성을 높이고 있다. 유가 반등은 에너지 집약적 산업과 수송 부문의 비용 압박으로 작용할 수 있다.",
-      "impact_ko": "유가 상승은 인플레이션 압력을 재점화할 수 있으며, 이는 연방준비제도의 금리 인하 경로에 영향을 미칠 가능성이 있다. 또한 항공, 운송, 화학 등 에너지 비용에 민감한 산업의 수익성 악화로 이어질 수 있다. 동시에 에너지 기업들의 수익 개선 기대는 에너지 섹터 주식에 긍정적 영향을 줄 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
+      "published_at": "2026-09-28T20:38:51.000Z",
+      "headline_ko": "유가 상승과 국채 수익률 강화로 주식시장 하락",
+      "summary_ko": "유가 상승과 미국 국채 수익률 강화가 주식시장 전반에 부담을 주며 광범위한 낙폭을 초래했다.",
+      "detail_ko": "미국-이란 간 지정학적 교착 상황이 심화되면서 에너지 가격이 상승하고 있다. 유가 상승은 인플레이션 재가속 우려로 이어져 연방준비제도의 금리 인상 가능성을 높이는 요인으로 작용하고 있다. 이에 따라 국채 수익률이 강화되면서 저금리 환경에 의존하던 성장주와 기술주에 대한 투자 심리가 위축되고 있는 상황이다.",
+      "impact_ko": "유가 상승이 지속될 경우 인플레이션 압력이 심화되어 중앙은행의 금리 인상 경로가 연장될 수 있다. 이는 특히 고성장 기술주와 고배수 주식의 밸류에이션 압박으로 이어질 가능성이 높다. 또한 신흥국 통화 약세로 이어져 글로벌 자본 흐름에도 영향을 미칠 수 있다."
     },
     {
-      "headline": "Here are the 4 big things we're watching in the stock market in the week ahead",
-      "summary": "Both sides of the Fed's dual mandate are in focus. Plus, Micron reports and Eli Lilly delivers updates on its obesity pipeline.",
+      "headline": "New grads say employers set the bar too high for entry-level roles: 'No job is willing to give you that first experience'",
+      "summary": "77% of new grads believe businesses call for too much experience when hiring for entry-level jobs, shutting them out of an increasingly competitive market.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/27/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "published_at": "2026-09-27T16:16:43.000Z",
-      "headline_ko": "주간 주식시장 주목 포인트: 연준 정책과 기업 실적",
-      "summary_ko": "연방준비제도의 이중 위임(물가·고용)이 초점이 되며, 마이크론 실적과 일라이 릴리의 비만 치료제 파이프라인 업데이트가 주목된다.",
-      "detail_ko": "연준의 정책 방향이 물가와 고용 지표 모두에 의존하고 있으며, 이는 금리 경로의 불확실성을 높이고 있다. 반도체 업계의 선행지표인 마이크론의 실적은 칩 수요와 공급망 상황을 가늠하는 중요한 신호가 될 것으로 예상된다. 일라이 릴리의 비만 치료제 개발 진전은 헬스케어 섹터의 성장성을 평가하는 데 중요한 역할을 할 수 있다.",
-      "impact_ko": "연준의 정책 신호는 금리 민감 종목(성장주, 기술주)의 밸류에이션에 직접 영향을 미칠 수 있다. 마이크론의 실적 부진 시 반도체 섹터 전반에 약세 신호를 보낼 수 있으며, 일라이 릴리의 긍정적 뉴스는 헬스케어 섹터의 상승을 견인할 수 있다. 이들 기업의 가이던스는 향후 경기 전망에 대한 시장의 신뢰도를 좌우할 가능성이 있다."
+      "url": "https://www.cnbc.com/2026/09/28/new-grads-entry-level-job-experience.html",
+      "published_at": "2026-09-28T14:26:51.000Z",
+      "headline_ko": "신입사원 77%, 기업의 초급직 채용 기준이 과도하다고 평가",
+      "summary_ko": "신입 졸업자들의 77%가 기업들이 초급직 채용 시 과도한 경력을 요구하고 있어 시장 진입이 어렵다고 지적했다.",
+      "detail_ko": "노동시장의 구조적 미스매치가 심화되고 있는 것으로 보인다. 기업들이 초급직 포지션에도 실무 경험을 요구하면서 신입 구직자들이 첫 직장을 얻기 어려워지고 있다. 이는 경기 둔화 우려 속에서 기업들이 채용 기준을 높이고 있다는 신호로 해석될 수 있으며, 노동시장의 경직성이 증가하고 있음을 시사한다.",
+      "impact_ko": "채용 기준 강화는 청년 실업률 상승으로 이어질 수 있으며, 이는 소비 심리 위축과 내수 부진으로 연결될 가능성이 있다. 또한 인적자본 형성 지연은 중장기 생산성 저하 요인이 될 수 있다. 기업의 보수적 채용 기조는 경기 선행 지표로도 해석되어 시장의 경기 둔화 우려를 반영하고 있다."
     },
     {
-      "headline": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit - Reuters",
-      "summary": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2FRVWRwSDZuWUZPYTRXcmNuNTFDR0hrQkVUZnpSdV9RdGhpUjV5R0hwN2V6MUNUS2hiTHpENFhwUFVDODBIeDhBSm5SdUJOeU1qSUhjekl2RzBDd0VBYi0tdmNDblQwV1RMTF9QMGFHdlFRcDRmalE3dWlhX0l6aUJjSGtsVjlsZXNnbmZWY3JzMEtwY3hxNEZHT3JjWXJEQlVRSFpSM0haSUROOUFRaWJB?oc=5",
-      "published_at": "2026-09-26T19:59:32.000Z",
-      "headline_ko": "미중 정상회담: AI 대화 및 300억 달러 관세 인하 합의",
-      "summary_ko": "시진핑 방문 중 미국과 중국이 AI 협력 대화 개설과 300억 달러 규모의 관세 인하에 합의했다.",
-      "detail_ko": "미중 무역 갈등이 고조되던 상황에서 양국이 AI 분야의 정책 대화를 시작하기로 합의한 것은 기술 패권 경쟁의 완화 신호로 해석된다. 300억 달러의 관세 인하는 양국 간 무역 긴장을 실질적으로 완화하는 조치로, 글로벌 공급망의 불확실성을 감소시킬 수 있다. 이는 특히 중국 수입에 의존하는 미국 기업들의 원가 부담을 경감시킬 수 있다.",
-      "impact_ko": "관세 인하는 기술, 소비재, 제조업 기업들의 마진 개선으로 이어질 수 있으며, 이는 기업 실적 상향 조정의 근거가 될 수 있다. AI 협력 합의는 양국 기업들의 기술 협력 가능성을 높여 AI 산업의 성장 속도를 가속화할 수 있다. 무역 긴장 완화는 위험자산 선호 심리를 강화하여 주식시장에 긍정적 영향을 미칠 가능성이 있다."
-    },
-    {
-      "headline": "US 30-year yield tops 5.5% in ‘Vacuum’ after sentiment gauge",
-      "summary": "US 30-year yield hits multiyear highs above 5.5% as consumer sentiment beats estimates, with 10-year also rising, amid ongoing rate expectations.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/us-30-year-yield-tops-5-5-in-vacuum-after-sentiment-gauge",
-      "published_at": "2026-09-26T15:11:00.000Z",
-      "headline_ko": "미국 30년물 수익률 5.5% 돌파, 소비자 심리 강세 배경",
-      "summary_ko": "미국 30년물 국채 수익률이 5.5% 이상으로 상승했으며, 소비자 심리 지표가 예상을 상회하면서 장기금리 상승을 견인했다.",
-      "detail_ko": "소비자 심리의 예상 외 강세는 경기 회복력에 대한 낙관론을 반영하고 있으며, 이는 인플레이션 우려와 함께 장기금리 상승 압력으로 작용했다. 30년물 수익률의 상승은 장기 차입 비용 증가를 의미하며, 주택담보대출, 기업채, 모기지 등 장기 금융상품의 금리 인상으로 이어질 수 있다. 10년물 수익률도 함께 상승하면서 수익률 곡선의 전반적 상승 추세가 확인되었다.",
-      "impact_ko": "장기금리 상승은 성장주와 기술주의 현재가치를 하락시켜 주가 조정 압력으로 작용할 수 있다. 주택 구매 수요 둔화와 기업의 자본 지출 축소로 이어질 가능성이 있으며, 이는 경기 둔화 신호로 해석될 수 있다. 반면 금융주와 고배당 주식의 상대적 매력도가 증가할 수 있다."
-    },
-    {
-      "headline": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
-      "summary": "The public has soured on AI data centers and states are slowing development, but for HVAC, plumbing, welding, and electrical workers, it's been a jobs boom.",
+      "headline": "Whole Foods co-founder shares 3 tips for launching a successful second act: 'I'm relearning some lessons'",
+      "summary": "John Mackey is learning that what helped him build Whole Foods Market into a multibillion-dollar business can help him in his second act, but only if he's patient.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
-      "published_at": "2026-09-26T13:43:42.000Z",
-      "headline_ko": "AI 데이터센터 개발 둔화 속 블루칼라 일자리 호황",
-      "summary_ko": "미국 각 주가 AI 데이터센터 개발을 둔화시키는 가운데, HVAC, 배관, 용접, 전기 등 블루칼라 일자리는 호황을 누리고 있다.",
-      "detail_ko": "대중의 AI 데이터센터에 대한 부정적 인식(에너지 소비, 환경 영향 등)이 정책 결정에 반영되면서 개발 속도가 늦어지고 있다. 그러나 기존 데이터센터의 유지보수와 인프라 구축 과정에서 숙련 노동자에 대한 수요는 지속되고 있다. 이는 기술 산업의 급속한 확장에도 불구하고 전통적 제조업과 건설 부문의 일자리 창출이 계속되고 있음을 시사한다.",
-      "impact_ko": "데이터센터 개발 둔화는 관련 기업(메타, 아마존 등)의 인프라 투자 계획 조정으로 이어질 수 있으며, 이는 자본 지출 감소와 수익성 개선으로 작용할 수 있다. 블루칼라 일자리의 지속적 수요는 임금 상승 압력을 유지하여 인플레이션에 영향을 미칠 수 있다. 또한 지역 경제의 불균형 완화에 긍정적 역할을 할 수 있다."
+      "url": "https://www.cnbc.com/2026/09/28/whole-foods-co-founders-3-tips-for-launching-a-successful-second-act.html",
+      "published_at": "2026-09-28T11:00:01.000Z",
+      "headline_ko": "홀푸드 공동창립자 존 매키, 제2의 성공을 위한 3가지 조언 제시",
+      "summary_ko": "홀푸드마켓 공동창립자 존 매키가 자신의 제2의 사업 도전에서 인내심의 중요성을 강조하며 과거의 성공 요소를 재적용하고 있다.",
+      "detail_ko": "존 매키는 홀푸드마켓을 다단계 성장시킨 경험을 바탕으로 새로운 벤처에 도전하고 있다. 그는 과거의 성공 방정식이 현재 환경에서도 유효하지만, 시장 변화에 맞춰 재해석하고 인내심 있게 접근해야 한다는 점을 강조하고 있다. 이는 기업가 정신과 적응력의 중요성을 보여주는 사례로, 성숙한 기업가의 관점을 제시하고 있다.",
+      "impact_ko": "성공한 기업가의 재도전 사례는 창업 생태계에 긍정적 신호를 줄 수 있으며, 경험 기반의 사업 모델 재구성이 새로운 가치 창출로 이어질 수 있음을 시사한다. 다만 시장 환경 변화에 따른 기존 모델의 적응 필요성도 함께 강조되고 있어, 기업의 혁신과 유연성의 균형이 중요함을 보여준다."
     },
     {
-      "headline": "How Trump’s diesel ban threat is making US exports more profitable",
-      "summary": "Europe is desperate for diesel after the Iran war led to a swath of lost supply and attacks on Russian oil refineries by Ukraine added to tightness in the global market",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/trump-s-diesel-ban-talk-has-just-made-us-exports-more-lucrative",
-      "published_at": "2026-09-26T04:13:15.000Z",
-      "headline_ko": "트럼프의 디젤 금지 위협이 미국 수출을 더 수익성 있게 만들다",
-      "summary_ko": "이란 전쟁과 우크라이나의 러시아 석유 정제시설 공격으로 글로벌 디젤 공급이 부족해진 가운데, 트럼프의 디젤 금지 위협이 미국 수출의 수익성을 높이고 있다.",
-      "detail_ko": "유럽이 이란 공급 차질과 러시아 정제 시설 피해로 인한 디젤 부족에 직면하면서 미국산 디젤에 대한 수요가 급증했다. 트럼프의 디젤 금지 정책 위협은 공급 제약을 더욱 심화시켜 국제 가격을 상승시키고, 미국 수출업자들의 수익성을 향상시키는 역설적 효과를 낳고 있다. 이는 지정학적 리스크가 특정 국가의 수출 경쟁력을 높일 수 있음을 보여준다.",
-      "impact_ko": "미국 에너지 기업들의 수익성 개선은 에너지 섹터 주식의 상승으로 이어질 수 있다. 글로벌 에너지 가격 상승은 인플레이션 압력을 높여 각국 중앙은행의 금리 인하 경로에 영향을 미칠 수 있다. 또한 에너지 수입국들의 무역 수지 악화와 경기 둔화 우려로 작용할 수 있다."
-    },
-    {
-      "headline": "Crude oil price dips as traders weigh US-Iran Hormuz talks, supply risks",
-      "summary": "Oil eases as US-Iran Hormuz talks unfold, amid supply risks, regional tensions, and uncertain prospects for a breakthrough.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-24/latest-oil-market-news-and-analysis-for-date",
-      "published_at": "2026-09-26T03:37:54.000Z",
-      "headline_ko": "미국-이란 호르무즈 협상 진행 중 유가 약세",
-      "summary_ko": "미국과 이란이 호르무즈 해협 관련 협상을 진행하면서 공급 리스크 완화 기대로 유가가 하락했다.",
-      "detail_ko": "호르무즈 해협은 글로벌 석유 공급의 약 30%가 통과하는 전략적 요충지로, 미이란 간 협상 진전은 공급 차질 우려를 완화시킨다. 협상의 진행 소식은 지정학적 리스크 프리미엄을 축소시켜 유가 하락 압력으로 작용했다. 다만 협상 결과의 불확실성이 남아 있어 변동성이 지속될 가능성이 있다.",
-      "impact_ko": "유가 하락은 인플레이션 압력을 완화하여 연준의 금리 인하 가능성을 높일 수 있다. 항공, 운송, 화학 등 에너지 비용에 민감한 산업의 수익성 개선으로 이어질 수 있다. 반면 에너지 기업들의 수익성 악화 우려로 에너지 섹터 주식에 약세 압력을 미칠 수 있다."
-    },
-    {
-      "headline": "Battered bonds draw support from falling oil prices - Reuters",
-      "summary": "Battered bonds draw support from falling oil prices  Reuters",
+      "headline": "South African rand slips as US-Iran stalemate pushes oil prices higher - Reuters",
+      "summary": "South African rand slips as US-Iran stalemate pushes oil prices higher  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
-      "published_at": "2026-09-26T01:09:47.000Z",
-      "headline_ko": "유가 하락이 채권시장에 지지 신호 제공",
-      "summary_ko": "유가 하락이 인플레이션 우려를 완화하면서 채권시장에 긍정적 신호를 제공하고 있다.",
-      "detail_ko": "유가는 인플레이션의 주요 선행지표로, 유가 하락은 물가 상승 압력 완화를 시사한다. 이는 채권 투자자들에게 실질 수익률 개선 기대를 제공하며, 채권 가격 상승(수익률 하락)으로 이어질 수 있다. 최근 장기금리 상승으로 타격을 입은 채권시장에 일시적 반등 기회를 제공하는 것으로 해석된다.",
-      "impact_ko": "채권 수익률 하락은 주식시장의 상대적 매력도를 높여 주가 상승을 견인할 수 있다. 특히 금리 민감 종목(성장주, 기술주)의 회복으로 이어질 가능성이 있다. 다만 유가의 변동성이 지속되면 채권시장의 변동성도 함께 증가할 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYXVjeHhnVS1HLV9mVnYtVHVhQ3NjcEFqREZJYUpRU3RhSElhQlJ4NERfQWhjdm44RGNQMFdBZlNfcU5PN1JuOU1DWW04RjFBSDZETlE5Z0h2VUkyRFJVTHdiTzBfM0lGVUw0akY5a01yM0J6WElBbERxREpBQkk3OGFjTDkyVElrUTRTckpFRHZ3aURTVkduYS0zdnMtZkVUenZrSk1kdEVoRnNpbkVlanlmdnQ0a2s?oc=5",
+      "published_at": "2026-09-28T07:54:11.000Z",
+      "headline_ko": "미국-이란 교착으로 유가 상승, 남아공 란드 약세",
+      "summary_ko": "미국-이란 간 지정학적 긴장으로 유가가 상승하면서 남아공 란드화가 약세를 보이고 있다.",
+      "detail_ko": "신흥국 통화는 유가 상승에 따른 인플레이션 우려와 달러 강세에 동시에 노출되어 있다. 남아공은 에너지 수입국으로서 유가 상승이 직접적인 경상수지 악화 요인이 되며, 이는 통화 약세 압력으로 작용한다. 미국-이란 간 지정학적 리스크가 해소되지 않는 한 신흥국 통화의 약세 추세가 지속될 가능성이 높다.",
+      "impact_ko": "신흥국 통화 약세는 달러 표시 외채 부담을 증가시켜 신흥국 기업과 정부의 재정 압박으로 이어질 수 있다. 또한 수입 인플레이션이 심화되면서 중앙은행의 금리 인상 압력이 높아질 수 있다. 이는 신흥국 자산에 대한 투자 심리 악화로 이어져 자본 유출 위험을 높일 수 있다."
+    },
+    {
+      "headline": "Tullow Oil swings to positive free cash flow as Ghana output, higher oil prices drive growth - Reuters",
+      "summary": "Tullow Oil swings to positive free cash flow as Ghana output, higher oil prices drive growth  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcVhQbFJWa3BzeDliUGZGQ1ZVY19mbmY1bmNleGw0ODF6RjV2a0ljSkp3a29lLTBpd1A5M2hxWTg0UmZoSWUzRHFPTEhMQ0t0bUVWWmdIbXJJVW5qVHpfSnZxTzlWdTczY0RZamlVVldsZVZKS185Q21LcG82bkYwZEV0UkdET1AzVUozeWgwekpYSXhJZHo5NVZxV0k2aTBpT2pwUjRreS10dlRNMDBxM2NzYWRkcmFqZkdDMDFNWm1BTkpQcFdGdzN3?oc=5",
+      "published_at": "2026-09-28T06:44:00.000Z",
+      "headline_ko": "툴로우 오일, 가나 생산 증가와 유가 상승으로 자유현금흐름 흑자 전환",
+      "summary_ko": "툴로우 오일이 가나 유전 생산 증가와 유가 상승의 이중 효과로 자유현금흐름이 양수로 전환됐다.",
+      "detail_ko": "유가 상승은 에너지 기업들의 수익성을 직접적으로 개선시키는 요인이다. 툴로우 오일은 가나 지역의 생산 능력 확대와 함께 유가 상승이라는 호재를 동시에 누리면서 현금 창출 능력이 회복되고 있다. 이는 저유가 환경에서 어려움을 겪던 에너지 기업들이 현 환경에서 수익성 개선을 경험하고 있음을 보여준다.",
+      "impact_ko": "에너지 기업들의 현금흐름 개선은 배당 증가와 부채 감축으로 이어질 수 있으며, 이는 에너지 섹터에 대한 투자 심리를 개선할 수 있다. 다만 유가의 변동성이 높은 만큼 지속 가능성에 대한 평가는 신중해야 한다. 또한 에너지 기업의 수익성 개선이 신흥국 통화 약세와 맞물리면서 글로벌 자본 배분에 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "COMMENTARY: Cash-rich oil majors face post-Iran strategy rethink - Reuters",
+      "summary": "COMMENTARY: Cash-rich oil majors face post-Iran strategy rethink  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQ21VRGFRWnc1czVkOUdJbGJ3ZmMwNGUtVTFmbkxJcFBWZWNXdnVUcUFFajJGNFJJSGkwYldyWi1PNFhzQlQtUjhaNzg4OE9QRTF1bXd5dkVGR3BzZUJCaVFweUxuSlJhRjZfank4Tl9Ec2ZveGJKdlFFWjZXbEFud0FOVVR6bmhzVmNqMm5fN2xQcnI5TEdtU25NX3p6QkxRbE5wM0RGa2pIVDZMWjhrMHV6UEZZMlNielBwLWVHWmtYWU5LTnZJ?oc=5",
+      "published_at": "2026-09-28T06:00:00.000Z",
+      "headline_ko": "이란 사태 이후 석유 메이저들의 전략 재검토 필요",
+      "summary_ko": "미국-이란 긴장 고조 이후 현금이 풍부한 석유 메이저 기업들이 사업 전략을 재검토해야 한다는 분석이 제기됐다.",
+      "detail_ko": "지정학적 리스크 상황에서 에너지 기업들은 포트폴리오 재구성과 투자 우선순위 조정을 고려해야 한다. 유가 상승으로 인한 단기 수익성 개선이 있더라도, 중장기적으로는 에너지 전환과 지정학적 불확실성에 대비한 전략 수립이 필요하다. 현금이 풍부한 메이저 기업들은 이를 활용해 신사업 진출이나 주주 환원 정책을 강화할 수 있는 기회를 갖고 있다.",
+      "impact_ko": "석유 메이저들의 전략 재검토는 에너지 섹터 내 자본 배분 변화로 이어질 수 있으며, 신재생에너지 투자 확대로 이어질 가능성도 있다. 또한 지정학적 리스크 관리를 위한 포트폴리오 다각화는 에너지 기업들의 수익성 변동성을 완화할 수 있다. 이러한 전략 변화는 에너지 섹터의 장기적 구조 변화를 반영하고 있다."
+    },
+    {
+      "headline": "Oil woes push rupee to over one-week low, RBI caps fall near 96/USD - Reuters",
+      "summary": "Oil woes push rupee to over one-week low, RBI caps fall near 96/USD  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTVl1TmI5dWRwRlVoQ3RIWUlrVFg1d1FGV3F1dC15UDFHUWpGN1NYaGNRT2YxQmlnQXdqbmpVaUozc1p3d2pzX3d6T2ZLTE9tYmV0Y1JlcGxlcVZYSjI1dDRYQkdhZ0tyZ09FT3JqTUNwQl9Edk9MaGxYdlJHbUtwaWZXMjJpQXVpcTZHNlFtRktOMC0wLWR1aDI3dWxkWE9uelVmMUpDRmJJV3dOaDB3YmdqSDIwdHlGbEE?oc=5",
+      "published_at": "2026-09-28T02:50:00.000Z",
+      "headline_ko": "유가 상승으로 인도 루피화 1주일 만에 최저치, 중앙은행이 낙폭 제한",
+      "summary_ko": "유가 상승으로 인도 루피화가 1주일 만에 최저치를 기록했으며, 인도 중앙은행이 환율 낙폭을 제한하기 위해 개입하고 있다.",
+      "detail_ko": "인도는 에너지 수입국으로서 유가 상승에 매우 취약한 구조를 갖고 있다. 루피화 약세는 수입 인플레이션을 초래하며, 이는 인도 중앙은행의 금리 인상 압력으로 작용한다. 중앙은행의 환율 개입은 외환보유액 소모를 의미하며, 이는 중장기적으로 통화 방어 능력을 약화시킬 수 있다.",
+      "impact_ko": "루피화 약세가 지속될 경우 인도의 수입 인플레이션이 심화되어 소비자 물가 상승으로 이어질 수 있다. 이는 인도 중앙은행의 금리 인상 필요성을 높여 경기 둔화 위험을 증가시킬 수 있다. 또한 외환보유액 감소는 인도의 외부 취약성을 높이는 요인이 될 수 있다."
+    },
+    {
+      "headline": "Indian shares slide to near six-month low as US-Iran deadlock lifts oil prices - Reuters",
+      "summary": "Indian shares slide to near six-month low as US-Iran deadlock lifts oil prices  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQmUtcnhXbVNOQ0lacFk2Z1JXa0JON1VtZTRsYnZVMDlKdjh0dXhobk9tajVtRVdUbE5RV2MxUy1MbUpkNkc4UXNvalZoZXltbUNScGEyanBReERmbTRuQnB2d2M2dkU3NkJ0anMybXdHWV9QWElRVG9WcDhNSzE4eTV4VWs4WWluaGpYR1NZZTNuYVFPNWZwUk1YcXNOR0NrN0REb2V5eENFRjFaTVNpeWtJdw?oc=5",
+      "published_at": "2026-09-28T02:19:00.000Z",
+      "headline_ko": "미국-이란 교착으로 유가 상승, 인도 주식시장 6개월 최저치 근처까지 하락",
+      "summary_ko": "미국-이란 간 지정학적 긴장으로 유가가 상승하면서 인도 주식시장이 6개월 최저치 근처까지 하락했다.",
+      "detail_ko": "인도 주식시장의 하락은 유가 상승에 따른 인플레이션 우려와 루피화 약세가 복합적으로 작용한 결과다. 에너지 수입국인 인도는 유가 상승이 경상수지 악화와 통화 약세로 이어지면서 경제 펀더멘탈이 악화되는 상황이다. 또한 글로벌 금리 인상 환경에서 신흥국 자산에 대한 투자 심리가 위축되고 있으며, 이는 인도 주식시장의 약세로 표현되고 있다.",
+      "impact_ko": "인도 주식시장의 약세는 국내 투자자들의 자산 가치 하락과 소비 심리 위축으로 이어질 수 있다. 또한 외국인 투자자들의 자본 유출이 가속화될 경우 루피화 약세 압력이 더욱 심화될 수 있다. 이는 인도 경제의 성장 모멘텀 약화를 신호하는 것으로 해석되며, 중장기적으로 인도의 경제 성장률 하향 조정으로 이어질 가능성이 있다."
     }
   ],
   "calendar": [
