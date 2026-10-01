@@ -1,268 +1,258 @@
 {
-  "generated_at": "2026-09-30T00:56:47.138Z",
-  "stale_sections": [
-    "코인 시세"
-  ],
+  "generated_at": "2026-10-01T00:58:37.642Z",
+  "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 329.4,
-        "change_pct": -2.6596
+        "price": 333.02,
+        "change_pct": 1.099
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 508.96,
-        "change_pct": -0.0511
+        "price": 512.9,
+        "change_pct": 0.7741
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 227.21,
-        "change_pct": -0.721
+        "price": 228.38,
+        "change_pct": 0.5149
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 352.84,
-        "change_pct": -1.2897
+        "price": 354.81,
+        "change_pct": 0.5583
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 246.67,
-        "change_pct": 0.2113
+        "price": 249.15,
+        "change_pct": 1.0054
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 340.92,
-        "change_pct": -0.5339
+        "price": 344.08,
+        "change_pct": 0.9269
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 738.79,
-        "change_pct": 3.2378
+        "price": 725.18,
+        "change_pct": -1.8422
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 764.2,
-        "change_pct": -0.1842
+        "price": 762.63,
+        "change_pct": -0.2054
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 737.93,
-        "change_pct": 0.1901
+        "price": 739.77,
+        "change_pct": 0.2493
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 82839,
-        "change_pct": -1.46665
+        "price": 83467,
+        "change_pct": 0.14328
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2661.95,
-        "change_pct": -0.42257
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 15.28,
-        "change_pct": 8.42313
-      },
-      {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.225252,
-        "change_pct": 3.12449
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.334808,
-        "change_pct": 0.11711
-      },
-      {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999898,
-        "change_pct": 0.00172
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1392.45,
-        "change_pct": -11.71274
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.243183,
-        "change_pct": -5.13956
+        "price": 2683.87,
+        "change_pct": 0.5309
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 86.13,
-        "change_pct": -4.7994
+        "price": 89.85,
+        "change_pct": 4.37568
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.227326,
+        "change_pct": 2.73402
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 769.71,
+        "change_pct": 1.43688
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.337866,
+        "change_pct": 1.09271
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.01226841,
+        "change_pct": -2.43257
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 116.84,
-        "change_pct": -4.20653
+        "price": 117.95,
+        "change_pct": -0.64626
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 14.36,
+        "change_pct": -0.60507
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.028,
+        "change_pct": -0.19132
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 유가 상승과 미국 국채 수익률 상승이 맞물리면서 광범위한 낙폭을 기록했다. S&P 500과 나스닥100 지수는 소폭 하락했으나, 대형 기술주들이 더 큰 낙폭을 보이며 시장 약세를 주도했다. 중동 불확실성이 완화되면서 유가가 하락했음에도 불구하고, 미국 고용 강세 전망과 금리 인상 우려가 여전히 시장 심리를 압박하고 있는 것으로 해석된다.",
-      "메타는 3.2% 상승하며 유일하게 강세를 보였다. 광고 기반 비즈니스 모델을 가진 메타가 상대적으로 금리 민감도가 낮거나, 최근 AI 투자 성과에 대한 긍정적 평가가 반영된 것으로 보인다. 반면 애플은 2.7% 하락하며 가장 큰 낙폭을 기록했으며, 테슬라도 1.3% 내렸다.",
-      "암호화폐 시장에서는 체인링크가 8.4% 급등하며 눈에 띄는 상승을 보였다. 달러 강세와 위험자산 회피 심리 속에서도 체인링크의 오라클 기술에 대한 기관 수요나 특정 네트워크 이벤트가 강세를 견인한 것으로 보인다. 반면 프라이버시 코인인 지캐시는 11.7% 급락했으며, 솔라나와 카르다노도 각각 4.2%, 5.1% 하락했다. 이는 달러 강세와 글로벌 위험자산 회피 심리가 대형 알트코인들에 부정적 영향을 미친 것으로 해석되며, 본 내용은 투자 조언이 아님을 밝힙니다."
+      "오늘 미국 주식시장은 혼조세를 보였다. 빅테크 중심으로는 완만한 상승세가 이어졌으나, 메타는 1.8% 이상 하락하며 광고 시장 약세 우려를 반영했다. S&P 500은 소폭 하락했으나 나스닥100은 소폭 상승으로 마감해 기술주 선별 매수 심리가 엿보인다.",
+      "애플과 아마존이 각각 1% 이상 상승하며 강세를 보였다. 휴일 시즌 소매 판매가 사상 처음 1조 달러를 넘을 것으로 예상되면서 소비 회복에 대한 긍정 심리가 대형 기술·전자상거래 기업들에 유리하게 작용한 것으로 해석된다.",
+      "암호화폐 시장에서는 하이퍼리퀴드(HYPE)가 4.4% 가까이 급등하며 눈에 띄었다. 이는 지정학적 리스크 완화와 위험자산 선호 심리 회복 속에서 고변동성 알트코인에 대한 수익 실현 수요가 나타난 것으로 보인다. 한편 비트코인과 이더리움은 완만한 상승세를 유지하며 기저 자산으로서의 안정성을 보여주고 있다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "META",
-        "name": "메타",
-        "price": 738.79,
-        "change_pct": 3.2378,
-        "type": "stock",
-        "reason_ko": "금리 우려 속 상대적 강세"
-      },
-      {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 329.4,
-        "change_pct": -2.6596,
+        "price": 333.02,
+        "change_pct": 1.099,
         "type": "stock",
-        "reason_ko": "기술주 약세 주도"
+        "reason_ko": "휴일 시즌 소매 판매 호조 기대"
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 15.28,
-        "change_pct": 8.42313,
-        "type": "crypto",
-        "reason_ko": "오라클 기술 수요 강세"
+        "symbol": "AMZN",
+        "name": "아마존",
+        "price": 249.15,
+        "change_pct": 1.0054,
+        "type": "stock",
+        "reason_ko": "전자상거래 수요 증가 전망"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1392.45,
-        "change_pct": -11.71274,
+        "symbol": "META",
+        "name": "메타",
+        "price": 725.18,
+        "change_pct": -1.8422,
+        "type": "stock",
+        "reason_ko": "광고 시장 약세 우려"
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 89.85,
+        "change_pct": 4.37568,
         "type": "crypto",
-        "reason_ko": "위험자산 회피 심화"
+        "reason_ko": "위험자산 선호 심리 회복"
       }
     ]
   },
   "news": [
     {
-      "headline": "Prediction market traders think the U.S. added more jobs in September than economists estimate",
-      "summary": "The higher-than-consensus expectations are a bet that the U.S. had another strong month of job growth.",
+      "headline": "Parents who want to help their kids in a tough job market should avoid this 1 move, says career expert",
+      "summary": "Some well-meaning career advice from parents is \"totally useless\" for new grads today, according to journalist Jodi Kantor.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html",
-      "published_at": "2026-09-29T19:11:51.000Z",
-      "headline_ko": "예측시장 트레이더들, 9월 미국 고용 증가가 경제학자 예상을 초과할 것으로 전망",
-      "summary_ko": "예측시장에서는 9월 미국 고용이 컨센서스 예상치를 상회할 가능성이 높다고 평가하고 있다.",
-      "detail_ko": "예측시장 참여자들이 공식 경제지표 발표 전부터 강한 고용 성장을 선반영하고 있다는 신호다. 이는 노동시장의 회복력이 시장 기대치보다 높을 수 있음을 시사한다. 강한 고용 데이터는 연방준비제도의 금리 인상 가능성을 높일 수 있어 채권과 주식 시장에 영향을 미칠 수 있다.",
-      "impact_ko": "고용 데이터가 예상을 크게 상회할 경우 금리 인상 우려가 심화되어 채권 수익률이 추가 상승할 수 있다. 이는 특히 금리에 민감한 성장주와 기술주에 부정적 영향을 미칠 가능성이 있다. 반대로 고용 강세가 경제 회복력을 보여준다면 경기 민감주에는 긍정적으로 작용할 수 있다."
+      "url": "https://www.cnbc.com/2026/09/30/parents-avoid-meddling-adult-kids-job-search.html",
+      "published_at": "2026-09-30T14:40:45.000Z",
+      "headline_ko": "부모의 취업 조언이 신입사원에게 역효과? 커리어 전문가 경고",
+      "summary_ko": "기자 조디 캔터는 부모들의 선의 어린 취업 조언이 오늘날 신입 졸업생들에게 \"완전히 쓸모없다\"고 지적했다.",
+      "detail_ko": "현대의 노동시장은 과거와 달리 빠르게 변화하고 있으며, 부모 세대의 경험과 조언이 반드시 현재의 취업 환경에 적용되지 않을 수 있다는 점을 강조하는 내용이다. 신입사원들이 직면한 경쟁 구도, 필요한 기술 스택, 채용 프로세스 등이 과거와 크게 달라졌기 때문에 시대에 맞지 않는 조언은 오히려 진로 결정에 방해가 될 수 있다는 주장이다.",
+      "impact_ko": "이러한 지적은 신입사원들의 자신감 저하나 부모와의 세대 갈등으로 이어질 수 있으며, 기업 입장에서는 신입 채용 시 세대 간 기대치 차이를 고려한 소통 전략이 필요할 수 있다. 또한 교육 기관과 커리어 코칭 산업에 대한 수요 증가로 이어질 가능성이 있다."
     },
     {
-      "headline": "US to loan up to 40 million barrels of oil from SPR, last batch from global deal - Reuters",
-      "summary": "US to loan up to 40 million barrels of oil from SPR, last batch from global deal  Reuters",
+      "headline": "OPEC+ oil producers set to keep output targets steady at Sunday meeting, sources say - Reuters",
+      "summary": "OPEC+ oil producers set to keep output targets steady at Sunday meeting, sources say  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYzc4cTNMeUhoSHg2R2Mxa1hVMUtWb2xGbk92dHp0aWUzejZKbWVVbjBRb240dzRuX0dNVTMwbDVPOXRJbWJhT28xTEpwTGMyZEZKMXpSTlJFLTRVZkd6RDVzYk9vZFBKNkNEdE9ENFo0WDhXaWRTZ2Q0bzBpeEFRUDM5WF9JOFpBYmJ6U3ZkRnRtdFBUQmkzN0M3WEtsazI5TDFPNEl3eHViVGNuSlJHZzBVbFN6eXdrVVNYWmx2OA?oc=5",
-      "published_at": "2026-09-29T17:26:10.000Z",
-      "headline_ko": "미국, 전략석유비축(SPR)에서 최대 4천만 배럴 차입 - 글로벌 협력의 마지막 배치",
-      "summary_ko": "미국이 전략석유비축에서 4천만 배럴을 차입하는 것으로, 국제 협력을 통한 유가 안정화 노력의 마지막 단계다.",
-      "detail_ko": "미국 정부가 전략석유비축을 활용한 유가 관리 정책을 계속 추진하고 있다는 의미다. 이는 중동 지정학적 리스크로 인한 유가 상승 압력에 대응하기 위한 조치로 해석된다. SPR 방출은 단기적으로 유가 상승을 억제하는 효과가 있지만, 비축량 감소로 인한 장기적 에너지 안보 우려도 함께 제기될 수 있다.",
-      "impact_ko": "추가 석유 공급으로 유가 상승 압력이 일시적으로 완화될 수 있으나, SPR 차입이 '마지막 배치'라는 점에서 향후 유가 안정화 수단이 제한될 수 있다. 이는 중동 상황이 악화될 경우 유가 급등 위험을 높일 수 있다. 유가 변동성은 인플레이션과 금리 전망에 영향을 미쳐 주식시장 변동성을 확대할 가능성이 있다."
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaE14NjRXSUlvdDN4Q3cwYlBXYkd4dWhaN0hqNlVObWNKXy1Nd2gzUEgyUlNoS3hiSkxBN0JiLXIxX0xaMVJlRUd2MzBRaHVSSzJuNXBMLXRCSzBjUFI3b2FnVV82VDVnZ1ZPZ0c1UGNDY2xTYktBUkhfXy1VbGxJbldiU0Job0lmN1hQX2JONUFMMTZ4TVg2VS1rbldPNFpSQWdmOEdMMTlQQ2lWaDljQ2lnYzBLS1lOb21nTElYLUh3ZngyTjVz?oc=5",
+      "published_at": "2026-09-30T13:36:34.000Z",
+      "headline_ko": "OPEC+ 일요일 회의서 산유량 목표 현 수준 유지 방침",
+      "summary_ko": "OPEC+ 산유국들이 일요일 회의에서 산유량 목표를 현 수준으로 유지하기로 예정된 것으로 알려졌다.",
+      "detail_ko": "OPEC+는 글로벌 석유 공급의 상당 부분을 차지하는 주요 산유국 연합체로, 산유량 결정은 국제 유가에 직접적인 영향을 미친다. 현 수준의 산유량 유지 방침은 시장에 공급 안정성을 신호하는 것으로, 최근의 지정학적 긴장과 수요 불확실성 속에서 신중한 입장을 반영한 것으로 해석된다.",
+      "impact_ko": "산유량 현 수준 유지는 급격한 유가 변동을 억제하는 데 도움이 될 수 있으며, 이는 인플레이션 관리에 긍정적 영향을 미칠 가능성이 있다. 다만 지정학적 리스크가 지속될 경우 유가 변동성이 확대될 수 있으므로 시장 참여자들의 주의가 필요하다."
     },
     {
-      "headline": "Gina Raimondo thinks AI ultimately will create jobs. It's the initial mass layoffs wave that worries her",
-      "summary": "No one knows what AI will mean for jobs long-term, but the layoffs are likely to hit first without proper planning, says former US Commerce Sec. Gina Raimondo.",
+      "headline": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+      "summary": "Micron reports earnings tonight, and the PCE price index for August came in cooler than expected.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/29/ai-job-losses-layoffs.html",
-      "published_at": "2026-09-29T15:36:48.000Z",
-      "headline_ko": "지나 라이몬도 전 상무장관, AI는 장기적으로 일자리 창출하지만 초기 대량해고가 우려",
-      "summary_ko": "AI 기술이 궁극적으로는 고용을 창출하겠지만, 적절한 대비 없이는 초기 대량 실직 사태가 불가피하다는 경고다.",
-      "detail_ko": "정부 고위 관계자가 AI로 인한 노동시장 구조 변화의 양면성을 인정하고 있다. 단기적으로는 기존 일자리 감소가 피할 수 없지만, 장기적으로는 새로운 산업과 일자리가 창출될 수 있다는 입장이다. 이는 AI 도입 과정에서 노동자 재교육과 사회 안전망 강화의 필요성을 강조하는 신호로 볼 수 있다.",
-      "impact_ko": "정부가 AI로 인한 고용 충격을 공식 인정함에 따라 노동 정책과 교육 투자 확대 논의가 가속화될 수 있다. 이는 정부 지출 증가로 이어져 재정 적자와 금리 인상 압력을 높일 수 있다. 또한 AI 관련 기업들에 대한 규제 강화 가능성도 높아질 수 있어 기술주 평가에 영향을 미칠 수 있다."
+      "url": "https://www.cnbc.com/2026/09/30/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+      "published_at": "2026-09-30T13:15:47.000Z",
+      "headline_ko": "짐 크래머의 수요일 주식시장 주목 10가지 - 마이크론 실적과 PCE 지표",
+      "summary_ko": "마이크론의 실적 발표와 8월 PCE 물가지수가 예상보다 낮게 나타난 것이 수요일 시장의 주요 관전 포인트다.",
+      "detail_ko": "PCE 물가지수는 미 연방준비제도의 핵심 인플레이션 지표로, 예상보다 낮은 수치는 인플레이션 둔화 신호로 작용한다. 마이크론 같은 반도체 기업의 실적은 기술 산업의 경기 상황을 가늠하는 중요한 지표이며, 특히 AI 수요와 데이터센터 투자 추세를 반영한다.",
+      "impact_ko": "PCE 지수가 예상보다 낮으면 연방준비제도의 금리 인상 압박이 완화될 수 있으며, 이는 성장주와 기술주에 긍정적일 수 있다. 마이크론의 실적이 강하면 반도체 산업 전반의 수요 회복을 시사할 수 있어 관련 주가에 영향을 미칠 가능성이 있다."
     },
     {
-      "headline": "Indian rupee drops to two-month low past key 96/USD barrier as oil worries deepen - reuters.com",
-      "summary": "Indian rupee drops to two-month low past key 96/USD barrier as oil worries deepen  reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHNTZW52Uy1FNUw2R1RIaEFLa2RMZ25fLUNZMHluYUVBbW9WbTFIV1oxUE82WmtKSnNBN2pDSEI5cnF5Q0d5bWgyeHViT0VaV1dXNzBKbVhDLUhWMmRmQURUdEZua2E5eEZiNDJEVkUyamphM1pfRHVOa1NFSFpTazMzNWlQeVBKazNwWTFCNkpOMFBDYTZSaFhOb29LY1F5VmhGYUNxR19VV1VGVHhBdUc1UXUyLVh2LXp6bzNQWQ?oc=5",
-      "published_at": "2026-09-29T03:45:00.000Z",
-      "headline_ko": "인도 루피, 유가 우려로 2개월 최저치 돌파 - 달러당 96 심리선 넘어",
-      "summary_ko": "유가 상승과 달러 강세로 인도 루피가 2개월 만에 최저치를 기록했다.",
-      "detail_ko": "신흥국 통화가 달러 강세와 유가 상승이라는 이중 악재에 직면하고 있다. 인도는 석유 수입국으로서 유가 상승이 경상수지 악화로 이어지며, 동시에 미국 금리 인상 우려로 인한 달러 강세가 통화 약세를 가속화하고 있다. 이는 신흥국 전반의 외환 보유 압박과 인플레이션 우려를 반영하는 신호다.",
-      "impact_ko": "루피 약세는 인도의 수입 물가를 상승시켜 인플레이션 압력을 높일 수 있다. 이는 인도 중앙은행의 금리 인상 가능성을 높여 경제 성장을 둔화시킬 수 있다. 신흥국 통화 약세 추세가 확산되면 신흥국 자산에 대한 투자 회피가 심화되어 글로벌 위험자산 심리를 악화시킬 수 있다."
+      "headline": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
+      "summary": "Holiday retail sales are expected to grow this holiday season and top $1 trillion for the first time, though that growth is boosted by inflation.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/30/holiday-retail-sales-inflation.html",
+      "published_at": "2026-09-30T11:30:01.000Z",
+      "headline_ko": "휴일 시즌 소매 판매 사상 처음 1조 달러 돌파 예상, 인플레이션이 성장 견인",
+      "summary_ko": "올해 휴일 시즌 소매 판매가 사상 처음으로 1조 달러를 넘을 것으로 예상되지만, 이 성장은 인플레이션의 영향을 포함한 수치다.",
+      "detail_ko": "명목상 1조 달러 돌파는 긍정적 신호로 보이지만, 인플레이션을 제거한 실질 성장률은 이보다 낮을 수 있다는 점이 중요하다. 소비자들이 더 많은 금액을 지출하고 있지만, 그것이 실제 구매량 증가보다는 가격 상승에 기인할 수 있다는 의미다. 이는 소비자 심리와 실제 경제 체력을 평가할 때 구분이 필요함을 시사한다.",
+      "impact_ko": "명목 성장이 강해 보이면 기업 실적 기대감으로 이어져 주가에 긍정적 영향을 미칠 수 있다. 다만 실질 성장이 약하다면 소비자 구매력 약화를 의미하므로, 장기적으로는 기업 수익성과 경제 성장에 부담이 될 수 있다."
     },
     {
-      "headline": "Dollar firms near two-month peak as oil, US yields rise; jobs data looms - reuters.com",
-      "summary": "Dollar firms near two-month peak as oil, US yields rise; jobs data looms  reuters.com",
+      "headline": "Explainer: How the US controls Iraq's oil revenues - Reuters",
+      "summary": "Explainer: How the US controls Iraq's oil revenues  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcm1xMjE3YTBSdTBJRVI5blBWcFFOS1ZSQWZlcVhMZU1iWU1kZTkyaElQUXhyRzZ4My1UcmdUVW1MZldrdjMzblF5eEh5amIwb2tlWmozYjloa29GaEhoT2dMbFFteHRwLV9pem9OYkowV3RUaGhnTUhDUjcwLXozSG1rT0dOMmdsdERFUlVwM1p4TjBZQlFZZWx2aTc4VC03QURrOWM1c1IwVXc?oc=5",
-      "published_at": "2026-09-29T01:57:00.000Z",
-      "headline_ko": "달러, 유가·미국 국채 수익률 상승 속 2개월 최고치 근처로 강세",
-      "summary_ko": "유가와 미국 국채 수익률 상승이 달러 강세를 견인하며, 달러가 2개월 최고치 근처에서 거래되고 있다.",
-      "detail_ko": "달러 강세는 미국 금리 인상 전망과 경제 강세 신호의 결합으로 해석된다. 유가 상승은 인플레이션 우려를 높여 연방준비제도의 금리 인상 가능성을 높이고, 이는 달러 자산의 매력도를 증가시킨다. 동시에 미국 고용 강세 전망도 달러 수요를 지지하고 있다.",
-      "impact_ko": "달러 강세는 신흥국 통화와 원자재 가격 하락 압력으로 작용할 수 있다. 이는 신흥국 경제에 부정적 영향을 미쳐 글로벌 경제 성장 둔화 우려를 높일 수 있다. 미국 수출 기업들의 경쟁력 약화로도 이어질 수 있어 미국 주식시장의 다국적 기업들에 영향을 미칠 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaGpibmlmMTlRdFhRRHZROFhCNERCYTU3ZFBhZHpGTjZwTlVjeTVBUUZ0Vm1JUE5jVnlzTEVjM1VvYTZoOWF0WklCeDVHcHM1ZDdKWlZLT3RfS0Y5TV9PWF9hX1VmOGdsakhkNlY1ay1WSTBLSm5IZVV4QUVPcnFzTjhsV2hkMFUwMFY4SjNaMA?oc=5",
+      "published_at": "2026-09-30T05:17:00.000Z",
+      "headline_ko": "미국의 이라크 석유 수익 통제 메커니즘 분석",
+      "summary_ko": "미국이 이라크의 석유 수익을 어떻게 통제하고 있는지에 대한 설명 기사다.",
+      "detail_ko": "이라크는 중동의 주요 석유 생산국이지만, 정치적 불안정과 국제 제재 등으로 인해 미국을 포함한 국제 사회의 영향을 받고 있다. 미국의 이라크 석유 수익 통제는 지정학적 영향력 유지, 테러 자금 차단, 지역 안정화 등 다층적 목표와 연결되어 있다.",
+      "impact_ko": "이러한 통제 메커니즘은 중동 지역의 석유 공급 안정성과 국제 유가에 영향을 미칠 수 있다. 또한 이라크의 경제 자립도와 지역 정치 역학에도 영향을 미칠 수 있으며, 향후 미국의 중동 정책 변화에 따라 석유 시장의 불확실성이 증가할 가능성이 있다."
+    },
+    {
+      "headline": "Oil prices rise by about $1/bbl on stalled US-Iran talks and tight fuel markets - Reuters",
+      "summary": "Oil prices rise by about $1/bbl on stalled US-Iran talks and tight fuel markets  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZNSGlvd0hfTjdOVTQxTEVYczRjUjdId3NlSGJDSV90UVVjTGhjaFF2OS1xckpOWElrcWRoUXNPa29WTHhsLW9yWVc2N1REdXZONl9iZ2ZUSkNOQ0xndE16LWpMa3c3T2FHWE0yajBlek1La3hVeTVnWkpLc2hhTTRNMnVILWY0RG9VbzVVZnZGV0JmM3VJWkNhVmlfNDlVMThOSVNtNlR3cFJUekNpMVZ3aE03Zw?oc=5",
+      "published_at": "2026-09-30T01:39:00.000Z",
+      "headline_ko": "미-이란 협상 교착 및 연료 시장 긴축으로 유가 배럴당 약 1달러 상승",
+      "summary_ko": "미국과 이란 간 협상이 진전되지 않고 연료 시장이 긴축되면서 유가가 배럴당 약 1달러 올랐다.",
+      "detail_ko": "미-이란 협상은 이란 핵 프로그램과 국제 제재 완화를 둘러싼 것으로, 협상 진전은 이란 석유 공급 증가 가능성을 의미한다. 협상이 교착되면 이란 석유의 국제 시장 공급이 제한되어 유가 상승 압력이 높아진다. 동시에 연료 시장의 긴축은 공급 부족을 의미하므로 유가를 더욱 상승시키는 요인이 된다.",
+      "impact_ko": "유가 상승은 에너지 관련 기업의 수익성 개선으로 이어질 수 있으나, 소비자와 기업의 에너지 비용 증가로 인플레이션 압력을 높일 수 있다. 또한 미-이란 협상의 향후 진전 여부에 따라 유가 변동성이 지속될 가능성이 있다."
+    },
+    {
+      "headline": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments - Reuters",
+      "summary": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHV0WUlQdWJ2UVdjY2FzaFliQU1TaEEtYmJQUzVUbjUwcWJkNkhZSXYwV1BwbkFqY3Z6MVRkT21jbWhCUEg0eGY0TnFnY25XVjFiQzBMbE5yOXJlbzZVYVZ3UTJMc1BjLUFtb0FVaDRWVW9jRVFUZDQ0N2hGX19NREk0MHhZZVNSekNVb01JLWVPR0gzdm9fQ1ZTbFlHa2hYSDFBY2JpdkpmeDRFM0dpU0VmdHluNzZGbkpZ?oc=5",
+      "published_at": "2026-09-30T00:21:16.000Z",
+      "headline_ko": "사우디아라비아의 선적 증가로 중동 석유 수출 9월 반등",
+      "summary_ko": "사우디아라비아가 석유 선적을 늘리면서 중동 지역의 석유 수출이 9월에 반등했다.",
+      "detail_ko": "중동은 글로벌 석유 공급의 핵심 지역이며, 사우디아라비아는 OPEC 내 최대 산유국이다. 사우디의 선적 증가는 OPEC+의 산유량 정책과 시장 수요 전망을 반영한 결정으로, 이전 달의 수출 감소에서 회복되는 신호다. 이는 중동 지역의 석유 공급이 안정화되고 있음을 시사한다.",
+      "impact_ko": "중동 석유 수출 증가는 글로벌 석유 공급 증가를 의미하므로 유가 하락 압력으로 작용할 수 있다. 다만 지정학적 리스크가 지속되면 공급 증가의 긍정적 영향이 제한될 수 있으며, 장기적으로는 에너지 가격 안정화에 도움이 될 수 있다."
     },
     {
       "headline": "Oil prices settle down 2.5% on signs Middle East exports recovering - Reuters",
       "summary": "Oil prices settle down 2.5% on signs Middle East exports recovering  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPalFIekNtR2pWcEdaNDNsUElsMTRodXZvOVBPbFJnSFlhbDlqbldRbE1TTGVUeTJGN2NRTk4zUGFlWG1NTl9PUkVjNHVzbnZ4YVJxbXg5aVZfZXJzYWhDa3FfZl92OG5Ic3ZNWEluX0N5ZV9aRlRYYXVYeUNUR3lXVGo1dHp4dmdzaF9pZDVGMjVCUGptMU5YcmlzcEhBa2t1NTZMMmsyeFVBWnNPLVJxS2NoM0FIUEQ0Q2ZF?oc=5",
-      "published_at": "2026-09-29T00:33:00.000Z",
-      "headline_ko": "유가, 중동 수출 회복 신호에 2.5% 하락으로 마감",
-      "summary_ko": "중동 지역 석유 수출이 회복되는 신호가 나타나면서 유가가 2.5% 하락했다.",
-      "detail_ko": "중동 지정학적 긴장이 완화되고 있다는 신호로, 이전의 공급 차질 우려가 해소되고 있음을 의미한다. 유가 하락은 인플레이션 압력 완화 신호로 긍정적으로 평가될 수 있으나, 동시에 미국의 SPR 방출 정책과도 맞물려 있다. 다만 유가가 여전히 높은 수준에 있어 완전한 안정화로 보기는 어렵다.",
-      "impact_ko": "유가 하락은 소비자 물가 안정화에 긍정적 영향을 미칠 수 있어 연방준비제도의 금리 인상 압력을 완화할 수 있다. 이는 채권 수익률 상승을 제한하고 주식시장 심리를 개선할 가능성이 있다. 다만 중동 상황이 재악화될 경우 유가가 급등할 수 있어 시장 변동성이 지속될 수 있다."
-    },
-    {
-      "headline": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
-      "summary": "Stocks fall as higher oil prices, Treasury yields weigh  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
-      "published_at": "2026-09-28T23:16:32.000Z",
-      "headline_ko": "유가·미국 국채 수익률 상승으로 주식 하락",
-      "summary_ko": "높아진 유가와 미국 국채 수익률이 주식시장 약세를 주도했다.",
-      "detail_ko": "주식시장이 금리 인상 우려와 인플레이션 압력이라는 이중 악재에 직면했다. 유가 상승은 인플레이션을 심화시키고, 이는 연방준비제도의 금리 인상 가능성을 높인다. 높아진 금리는 주식의 현재가치를 낮추고 채권의 상대적 매력도를 높여 주식 수요를 감소시킨다.",
-      "impact_ko": "금리 인상 우려가 지속되면 특히 금리에 민감한 성장주와 기술주의 약세가 심화될 수 있다. 이는 나스닥 지수의 추가 하락으로 이어질 가능성이 있다. 다만 금리 인상이 인플레이션을 효과적으로 억제한다면 장기적으로는 시장 안정화로 이어질 수 있다."
-    },
-    {
-      "headline": "Canadian dollar hits 2-1/2-month low as Middle East uncertainty spooks investors - Reuters",
-      "summary": "Canadian dollar hits 2-1/2-month low as Middle East uncertainty spooks investors  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRnJpRzJ1MExVeHNZZ2duSUlIaWFRYTVmQmd3b04tWmhpR2prZEdUZ2tmaVQ3QnZaUGZPZm9ha2g3cmR6bGlybHpQTkhYM3R6YTB6LTBGR1VKMWJFM0VOZU1zRmgxRHFYYnNsRUdIMHFQaXhxcVdpN0dpM202TmVHNWQtdnZjaUZqdm9wZTNvQWZlZWVLMV9rb2hhZGdDTWNVODRhc2dySm9tZkFnTTc2emQ4OVR1SG1vVFJOS1Rn?oc=5",
-      "published_at": "2026-09-28T18:17:02.000Z",
-      "headline_ko": "캐나다 달러, 중동 불확실성으로 2.5개월 최저치 기록",
-      "summary_ko": "중동 지정학적 불확실성이 캐나다 달러 약세를 초래하며 2.5개월 최저치를 기록했다.",
-      "detail_ko": "캐나다 달러 약세는 유가 상승에 따른 에너지 수출국으로서의 긍정적 영향보다 글로벌 위험자산 회피 심리가 더 강하게 작용하고 있음을 의미한다. 중동 불확실성이 높아지면서 투자자들이 안전자산으로의 이동을 선호하고 있으며, 캐나다 달러는 위험자산으로 분류되어 약세를 보이고 있다. 미국 달러 강세도 캐나다 달러 약세를 가속화하고 있다.",
-      "impact_ko": "캐나다 달러 약세는 캐나다 수출 기업들의 경쟁력을 높일 수 있으나, 수입 물가 상승으로 인플레이션 압력을 높일 수 있다. 이는 캐나다 중앙은행의 금리 정책에 영향을 미칠 수 있다. 또한 캐나다 자산에 대한 투자 수요 감소로 이어져 캐나다 주식시장에 부정적 영향을 미칠 수 있다."
+      "published_at": "2026-09-29T19:30:44.000Z",
+      "headline_ko": "중동 석유 수출 회복 신호에 유가 2.5% 하락으로 마감",
+      "summary_ko": "중동 지역의 석유 수출이 회복되는 신호가 나타나면서 유가가 2.5% 하락했다.",
+      "detail_ko": "앞서 언급된 사우디아라비아의 선적 증가와 중동 전체의 수출 반등은 시장에 공급 증가 신호를 보냈다. 이는 이전의 공급 부족 우려를 완화시키는 요인으로 작용했으며, 투자자들이 유가 상승 압력이 완화될 것으로 판단하게 했다. 2.5%의 낙폭은 상당한 수준의 조정으로, 시장이 공급 회복을 긍정적으로 평가했음을 보여준다.",
+      "impact_ko": "유가 하락은 소비자와 기업의 에너지 비용 부담을 경감시킬 수 있어 인플레이션 완화에 도움이 될 수 있다. 다만 에너지 기업의 수익성 악화로 이어질 수 있으며, 유가의 지속적 하락 추세가 이어질 경우 에너지 산업 투자 심리 위축으로 이어질 가능성이 있다."
     }
   ],
   "calendar": [
-    {
-      "date": "2026-09-30",
-      "title": "개인소득 및 지출(PCE 물가지수) 발표",
-      "agency": "미 경제분석국(BEA)",
-      "what": "가계가 벌어들인 소득과 실제로 쓴 돈, 그리고 그 과정의 물가를 함께 보여줍니다. 여기 포함된 근원 PCE 물가지수가 연준의 공식 물가 목표(2%) 기준입니다.",
-      "why": "CPI보다 덜 알려져 있지만 연준이 정책 목표로 삼는 지표는 이쪽입니다. 소비자가 비싼 품목에서 싼 품목으로 옮겨가는 행동까지 반영해 CPI보다 대체로 낮게 나옵니다.",
-      "watch": "근원 PCE의 전년 대비 상승률이 2%에 얼마나 가까워졌는지, 서비스 물가가 계속 버티는지를 봅니다."
-    },
     {
       "date": "2026-10-02",
       "title": "고용상황 보고서(비농업고용) 발표",
@@ -286,6 +276,14 @@
       "what": "연준의 통화정책 결정 기구가 이틀간 모여 기준금리를 정하는 회의입니다. 둘째 날 오후에 결정문이 나오고 이어서 의장 기자회견이 열립니다.",
       "why": "미국 기준금리는 전 세계 자금의 기준값이라, 결정 자체보다 '앞으로의 방향'을 어떻게 말하는지가 주식·채권·환율·코인 전반을 움직입니다.",
       "watch": "전망 자료 없이 결정문과 기자회견만 나옵니다. 결정문에서 바뀐 단어와 의장의 답변 톤이 관전 포인트입니다."
+    },
+    {
+      "date": "2026-10-29",
+      "title": "개인소득 및 지출(PCE 물가지수) 발표",
+      "agency": "미 경제분석국(BEA)",
+      "what": "가계가 벌어들인 소득과 실제로 쓴 돈, 그리고 그 과정의 물가를 함께 보여줍니다. 여기 포함된 근원 PCE 물가지수가 연준의 공식 물가 목표(2%) 기준입니다.",
+      "why": "CPI보다 덜 알려져 있지만 연준이 정책 목표로 삼는 지표는 이쪽입니다. 소비자가 비싼 품목에서 싼 품목으로 옮겨가는 행동까지 반영해 CPI보다 대체로 낮게 나옵니다.",
+      "watch": "근원 PCE의 전년 대비 상승률이 2%에 얼마나 가까워졌는지, 서비스 물가가 계속 버티는지를 봅니다."
     }
   ]
 }
