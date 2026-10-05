@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:17:39.604Z",
+  "generated_at": "2026-10-05T00:21:50.402Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,70 +62,70 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 84805,
-        "change_pct": 0.35387
+        "price": 86408,
+        "change_pct": 1.86685
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2686.98,
-        "change_pct": 0.69849
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01139193,
-        "change_pct": 10.47649
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.069,
-        "change_pct": 2.73024
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 552.43,
-        "change_pct": 2.46788
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 786.19,
-        "change_pct": 2.28338
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1307.88,
-        "change_pct": -0.44816
+        "price": 2726.68,
+        "change_pct": 1.34176
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.243864,
-        "change_pct": -0.4176
+        "price": 0.259352,
+        "change_pct": 6.12164
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.224589,
+        "change_pct": 3.98305
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.092844,
-        "change_pct": -0.18304
+        "price": 0.095853,
+        "change_pct": 3.19321
       },
       {
-        "symbol": "USDT",
-        "name": "Tether",
-        "price": 0.99987,
-        "change_pct": -0.0041
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1351.46,
+        "change_pct": 3.05866
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 546.26,
+        "change_pct": -1.2451
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.01130513,
+        "change_pct": -1.14731
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 8.98,
+        "change_pct": -0.13161
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.335439,
+        "change_pct": -0.06337
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 전반적으로 상승세를 보였으며, 특히 기술주와 성장주가 주도했다. S&P 500과 나스닥100 ETF가 각각 0.74%, 1.02% 상승한 가운데, 빅테크 종목들이 1% 이상의 수익률을 기록했다.",
-      "테슬라가 4.65%의 큰 폭 상승을 주도했으며, 이는 긍정적인 경제 지표와 시장 심리 개선으로 해석된다. 엔비디아(+1.34%), 알파벳(+1.56%), 아마존(+1.33%) 등 주요 기술주들도 동반 상승하며 성장주 선호 심리가 강했던 것으로 보인다.",
-      "암호화폐 시장에서는 프라이버시 코인들이 두드러진 강세를 보였다. 모네로(XMR)가 2.47% 상승하고 지캐시(ZEC)도 소폭 하락했으나, 규제 리스크가 상대적으로 낮은 프라이버시 자산에 대한 수요가 증가한 것으로 해석된다. 한편 레인(RAIN)은 10.48%의 급등을 기록했으나, 제공된 뉴스와의 직접적 연결고리가 명확하지 않아 개별 펀더멘털 변화로 보인다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 전반적으로 상승세를 보였으며, 특히 기술주와 성장주가 주도적 역할을 했다. S&P 500과 나스닥100 ETF가 각각 0.74%, 1.02% 상승한 가운데, 빅테크 기업들이 고르게 상승 랠리에 참여했다.",
+      "테슬라가 4.65%의 강한 상승률을 기록하며 가장 눈에 띄는 상승세를 보였으며, 이는 9월 고용 통계가 시장 기대치를 충족하면서 경기 연착륙 시나리오에 대한 낙관론이 강해진 것으로 해석된다. 엔비디아(+1.34%), 알파벳(+1.56%), 아마존(+1.33%) 등 주요 기술주들도 동반 상승하며 성장주 선호 심리가 지속되는 모습이다.",
+      "암호화폐 시장에서는 카르다노(+6.12%)와 스텔라(+3.98%), 도지코인(+3.19%) 등 알트코인들이 강세를 보인 반면, 모네로(-1.25%)는 약세를 나타냈다. 이는 거시 환경에서 위험자산 선호 심리가 우위를 점하면서 변동성 높은 알트코인들에 자금이 유입되는 양상으로 보이며, 프라이버시 코인인 모네로의 규제 리스크 우려가 상대적으로 약세를 초래한 것으로 해석된다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
@@ -134,45 +134,48 @@
         "price": 370.59,
         "change_pct": 4.6539,
         "type": "stock",
-        "reason_ko": "경제 지표 개선에 따른 성장주 선호"
+        "reason_ko": "경기 연착륙 기대감 강화"
       },
       {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "price": 233.95,
-        "change_pct": 1.3385,
-        "type": "stock",
-        "reason_ko": "기술주 동반 상승 주도"
-      },
-      {
-        "symbol": "GOOGL",
-        "name": "알파벳(구글)",
-        "price": 343.5,
-        "change_pct": 1.5551,
-        "type": "stock",
-        "reason_ko": "빅테크 강세 주도"
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.259352,
+        "change_pct": 6.12164,
+        "type": "crypto",
+        "reason_ko": "위험자산 선호 심리 확대"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 552.43,
-        "change_pct": 2.46788,
+        "price": 546.26,
+        "change_pct": -1.2451,
         "type": "crypto",
-        "reason_ko": "프라이버시 자산 수요 증가"
+        "reason_ko": "프라이버시 코인 규제 우려"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Here are 3 things we're watching in the stock market in the week ahead",
+      "summary": "The oil and bond markets will remain a critical driver of stocks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/04/here-are-3-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "published_at": "2026-10-04T15:33:05.000Z",
+      "headline_ko": "다음주 주식시장 주목할 3가지 포인트",
+      "summary_ko": "유가와 채권시장이 주식시장의 핵심 변수로 작용할 전망이다.",
+      "detail_ko": "주식시장의 방향성을 결정하는 데 있어 에너지와 고정수익 자산의 움직임이 얼마나 중요한지를 강조하는 기사다. 유가 변동은 인플레이션 기대와 경기 전망에 직결되며, 채권 수익률은 주식의 상대적 매력도를 좌우하는 요소로 작용한다. 특히 최근 글로벌 채권 매도세와 유가 불안정성이 지속되는 상황에서 이 두 시장의 향방이 주식 투자자들의 심리에 미치는 영향이 클 것으로 예상된다.",
+      "impact_ko": "유가와 채권 수익률의 급격한 변동은 주식시장의 변동성을 확대할 수 있으며, 특히 금리 민감도가 높은 성장주와 기술주에 영향을 미칠 가능성이 있다. 투자자들은 이 두 시장의 신호를 면밀히 모니터링하며 포트폴리오 조정을 검토할 수 있다."
+    },
     {
       "headline": "IEA's Birol says oil prices starting to fall after reserve release decision - Reuters",
       "summary": "IEA's Birol says oil prices starting to fall after reserve release decision  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcHZzWUw2YjVHbmx6SmNmYURKOGxkcy0zbndDQnpTMnRSc0JLOEpIaWw0MzVmeGRzNGZPeUFZQlM4aGduVEV5cVRCYlFwSk53RUQxYzhoZHd2UFhwX25mZlJKbmFzR2Zza3E3OGRVRVN4M0lvV2w3bTQwb1FzQ0s5eUhvQ3VjZTBZbW11QzVKTWctQ3FYQk9GZ2VYRVdKMEo1RVp2S3Z0LTVVMV9OZE15ZURBejNCWVkteVdzZDRsMHc?oc=5",
       "published_at": "2026-10-02T17:36:32.000Z",
-      "headline_ko": "IEA 비롤 사무총장, 전략비축유 방출 결정 후 유가 하락 시작 언급",
-      "summary_ko": "국제에너지기구(IEA) 비롤 사무총장이 전략석유비축유 방출 결정에 따라 유가가 하락하기 시작했다고 밝혔다.",
-      "detail_ko": "IEA는 글로벌 에너지 공급 안정화를 위해 전략비축유 방출을 주도하고 있으며, 이러한 정책 결정이 시장에 즉각적인 영향을 미치고 있다. 비축유 공급 증가는 단기적 유가 하락 압력으로 작용하고 있으며, 이는 에너지 가격 안정화를 목표로 한 국제 협력의 결과로 평가된다. 다만 지정학적 리스크와 OPEC+ 감산 정책 등 다른 변수들도 유가 방향성에 영향을 미칠 수 있다.",
-      "impact_ko": "유가 하락은 인플레이션 완화 신호로 작용할 수 있으며, 이는 중앙은행의 금리 인상 압력을 감소시킬 가능성이 있다. 에너지 수입국들의 교역 조건이 개선될 수 있는 반면, 에너지 수출국들의 재정 수입 감소로 이어질 수 있다. 장기적으로는 에너지 가격 안정화가 경제 전반의 인플레이션 기대를 낮추는 데 기여할 수 있다."
+      "headline_ko": "IEA 국장, 비축유 방출 결정 후 유가 하락 시작 언급",
+      "summary_ko": "국제에너지기구(IEA) 국장이 전략비축유 방출 결정 이후 유가가 하락세로 돌아섰다고 밝혔다.",
+      "detail_ko": "주요 선진국들의 전략석유비축 방출 결정이 유가 안정화에 실질적 효과를 발휘하고 있음을 시사하는 발언이다. 이는 공급 부족 우려를 완화하고 시장 심리를 진정시키는 정책 개입의 효과를 보여주는 사례로, 지정학적 리스크나 공급 충격에 대한 정부 차원의 대응 능력을 입증한다. 유가 하락은 인플레이션 압력 완화로 이어질 수 있어 중앙은행의 금리 인상 압력을 덜어줄 수 있다.",
+      "impact_ko": "유가 하락은 소비자 물가 상승률을 낮추는 데 기여할 수 있으며, 이는 연방준비제도의 금리 인상 필요성을 감소시킬 가능성이 있다. 금리 인상 우려 완화는 주식시장, 특히 금리 민감도가 높은 성장주에 긍정적으로 작용할 수 있다."
     },
     {
       "headline": "1.7 million skilled trade jobs will open annually through 2035, report says—experts don't know who will fill them",
@@ -180,10 +183,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/02/1point7-million-skilled-trade-jobs-to-open-annually-through-2035-report-says.html",
       "published_at": "2026-10-02T16:15:01.000Z",
-      "headline_ko": "2035년까지 연 170만 개의 숙련 기술직 일자리 창출 예상, 인력 공급 우려",
-      "summary_ko": "건설·제조 등 숙련 기술직 분야에서 연 170만 개의 일자리가 창출될 것으로 예상되지만, 고령화와 높은 이직률로 인해 인력 공급 부족이 심화될 우려가 제기되고 있다.",
-      "detail_ko": "미국의 숙련 기술직 시장은 구조적 인력 부족에 직면하고 있다. 기존 노동력의 고령화, 젊은 세대의 기술직 진입 회피, 높은 이직률 등이 복합적으로 작용하면서 수요와 공급의 미스매치가 심화되고 있다. 이는 단순한 일자리 통계를 넘어 경제 전반의 생산성과 인프라 구축 능력에 영향을 미칠 수 있는 구조적 문제로 평가된다.",
-      "impact_ko": "인력 부족은 건설·제조업의 프로젝트 지연과 비용 상승으로 이어질 가능성이 있다. 기업들의 임금 인상 압력이 증가하면서 인플레이션 요인으로 작용할 수 있으며, 이는 중앙은행의 금리 정책에 영향을 미칠 수 있다. 장기적으로는 인프라 투자 수익성 악화와 경제 성장률 둔화로 이어질 수 있다."
+      "headline_ko": "2035년까지 연 170만 개 숙련 기술직 일자리 창출 예상, 인력 수급 우려",
+      "summary_ko": "숙련 기술직 분야에서 매년 대규모 일자리가 창출될 것으로 예상되지만, 고령화와 높은 이직률로 인한 인력 공급 부족이 우려되고 있다.",
+      "detail_ko": "미국 경제의 인프라 투자와 제조업 부흥 정책이 숙련 기술직 수요를 크게 증가시키고 있는 상황을 반영한다. 그러나 기존 인력의 고령화, 신규 진입자 부족, 높은 이직률 등으로 인해 공급 측면에서 심각한 병목이 발생할 수 있다는 점이 핵심이다. 이는 임금 상승 압력과 기업의 채용 및 운영 비용 증가로 이어질 수 있는 구조적 문제다.",
+      "impact_ko": "숙련 기술직 인력 부족은 건설, 제조, 에너지 등 기초산업의 비용 구조를 악화시킬 수 있으며, 이는 장기적으로 인플레이션 압력을 유지하는 요인이 될 수 있다. 기업들의 임금 인상 경쟁이 심화되면서 노동 비용 상승이 제품 가격에 반영될 가능성이 있다."
     },
     {
       "headline": "US issues sanctions against Hamas financing network, Treasury says - Reuters",
@@ -193,8 +196,8 @@
       "published_at": "2026-10-02T14:33:45.000Z",
       "headline_ko": "미국, 하마스 자금조달 네트워크에 제재 단행",
       "summary_ko": "미국 재무부가 하마스의 자금조달 네트워크에 대한 제재를 발표했다.",
-      "detail_ko": "미국은 테러 조직으로 지정된 하마스의 자금 흐름을 차단하기 위해 제재 조치를 취했다. 이는 중동 지정학적 긴장이 고조된 상황에서 미국이 취하는 정책적 입장을 반영하며, 국제 금융 시스템을 통한 테러 자금 이동을 제한하려는 노력의 일환이다. 제재 대상 기관과 개인들의 자산 동결 및 미국 금융 시스템과의 거래 차단이 주요 내용으로 예상된다.",
-      "impact_ko": "제재는 하마스의 자금 조달 능력을 제한할 수 있으나, 비공식 송금 채널 등을 통한 우회 가능성도 존재한다. 중동 지역의 정치적 긴장을 반영하는 신호로 작용할 수 있으며, 이는 에너지 시장과 지역 안정성에 대한 투자자 심리에 영향을 미칠 수 있다. 국제 금융 규제 강화 기조가 계속될 경우, 글로벌 금융 시스템의 투명성 요구가 높아질 수 있다."
+      "detail_ko": "미국 정부가 테러 조직으로 지정된 하마스의 자금 흐름을 차단하기 위한 제재 조치를 취한 것으로, 중동 지정학적 긴장 상황에서 미국의 정책적 입장을 명확히 하는 조치다. 이러한 제재는 금융 시스템을 통한 테러 자금 이동을 제한하고, 관련 금융기관과 기업들에 대한 규제 부담을 증가시킬 수 있다. 중동 정세의 불안정성이 지속되는 가운데 이루어지는 조치로, 지역 내 정치적 긴장을 반영한다.",
+      "impact_ko": "제재 조치는 중동 지역의 정치적 불확실성을 강화할 수 있으며, 이는 유가 변동성을 높이는 요인으로 작용할 수 있다. 또한 국제 금융기관들의 규제 준수 비용이 증가할 수 있으며, 이는 금융 부문의 운영 비용 상승으로 이어질 가능성이 있다."
     },
     {
       "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
@@ -202,10 +205,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/02/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
       "published_at": "2026-10-02T13:13:28.000Z",
-      "headline_ko": "짐 크래머의 금요일 주식시장 주목 포인트 10가지",
-      "summary_ko": "유명 투자 전문가 짐 크래머가 금요일 주식시장에서 주목해야 할 10가지 사항을 제시했다.",
-      "detail_ko": "크래머는 최근 발표된 9월 고용 통계가 시장의 기대치를 충족했다는 점을 강조하고 있다. 긍정적인 고용 데이터는 경제 회복력을 시사하며, 이는 투자자들의 위험자산 선호 심리를 뒷받침하는 요소로 작용할 수 있다. 그의 분석은 거시경제 지표와 기업 실적, 금리 전망 등을 종합적으로 고려한 시장 전망을 제시하는 것으로 보인다.",
-      "impact_ko": "긍정적인 고용 지표는 경제 연착륙 가능성을 높이는 신호로 해석될 수 있으며, 이는 주식시장의 상승 심리를 지속시킬 수 있다. 다만 강한 고용 시장은 임금 인상 압력으로 이어져 인플레이션 우려를 야기할 수 있다. 투자자들은 금리 인상 사이클의 종료 시점과 경제 성장률 전망 사이의 균형을 신중히 평가해야 할 것으로 보인다."
+      "headline_ko": "짐 크래머의 금요일 주식시장 주목 10가지",
+      "summary_ko": "9월 고용 통계가 주식시장 강세론자들이 원하던 결과를 제시했다.",
+      "detail_ko": "최근 발표된 9월 고용 통계가 시장 기대치를 충족하면서 경기 연착륙 시나리오에 대한 투자자 신뢰가 회복되고 있음을 시사한다. 고용 시장의 안정성은 소비 수요의 지속성을 보장하는 신호로 해석되며, 이는 기업 실적 전망을 긍정적으로 평가하는 근거가 된다. 특히 금리 인상 우려가 완화되면서 성장주와 기술주에 대한 투자 심리가 개선되는 배경이 된다.",
+      "impact_ko": "고용 통계의 긍정적 결과는 연방준비제도의 금리 인상 속도 둔화 가능성을 높일 수 있으며, 이는 주식시장의 밸류에이션 압력을 완화하는 요인으로 작용할 수 있다. 경기 연착륙 기대감의 강화는 위험자산 선호 심리를 지속시켜 주식과 고수익 자산에 대한 수요를 유지할 가능성이 있다."
     },
     {
       "headline": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say - Reuters",
@@ -213,10 +216,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT2J4Zm9OdTE5aTNUN1dqemFJaWxyamJKSXQ2WGpLeWhLMkgxbkVPU01vS2hVbXd5WEFhMDh5a21lcVNacXUyV0M5cEljbkJfRUdkcHJ0YTNBQVpHRENNRVVfZzQ3S3lwT3F0eUJNUmF5OGpXN1BKbG9Jc28tRGdZM0xVZFhMcFhTTktYbnVWQThvSXRjZ250enQ0Y1N2RHBSTTFZRkY5U2RJQ3Q0Zmk1X19yRDlrQ0phaUlkSDg2V3dTSXg2VzBqc2tacw?oc=5",
       "published_at": "2026-10-02T12:54:06.000Z",
-      "headline_ko": "OPEC+, 이란 전쟁으로 인한 확장 계획 차질에 따라 산유량 검토 연기",
-      "summary_ko": "OPEC+가 이란과의 지정학적 긴장으로 인한 산유량 확장 계획의 차질을 이유로 산유량 검토를 연기했다.",
-      "detail_ko": "OPEC+는 중동 지정학적 리스크가 고조된 상황에서 산유량 정책 결정을 미루기로 했다. 이란 관련 긴장이 고조되면서 지역 내 에너지 공급 안정성에 대한 불확실성이 증가했으며, 이는 OPEC+의 전략적 의사결정을 복잡하게 만들고 있다. 산유량 확장 계획의 연기는 시장에 공급 불확실성을 심화시키는 신호로 작용할 수 있다.",
-      "impact_ko": "산유량 정책 결정의 지연은 단기적으로 유가의 변동성을 높일 수 있으며, 공급 리스크 프리미엄이 유지될 가능성이 있다. 지정학적 긴장이 지속될 경우 에너지 가격 상승 압력이 이어질 수 있으며, 이는 인플레이션 우려를 야기할 수 있다. 장기적으로는 OPEC+의 정책 결정 지연이 시장의 유가 전망 불확실성을 높이는 요인으로 작용할 수 있다."
+      "headline_ko": "OPEC+, 이란 전쟁으로 인한 유전 확장 차질에 따라 석유 생산능력 검토 연기",
+      "summary_ko": "OPEC+가 이란과의 지정학적 긴장으로 인한 공급 차질을 이유로 석유 생산능력 검토를 연기하기로 결정했다.",
+      "detail_ko": "중동 지정학적 리스크가 OPEC+의 전략적 의사결정에 직접적인 영향을 미치고 있음을 보여주는 사례다. 이란 관련 긴장이 유전 개발 계획을 지연시키면서 장기적 공급 전망의 불확실성이 높아지고 있다. 이는 단기적으로는 유가 상승 압력으로 작용할 수 있으며, 글로벌 에너지 시장의 불안정성을 심화시킬 수 있다.",
+      "impact_ko": "유전 확장 계획의 지연은 중기적으로 석유 공급 부족 우려를 높일 수 있으며, 이는 유가 상승 압력을 유지하는 요인이 될 수 있다. 에너지 가격의 상승은 운송, 제조 등 광범위한 산업의 비용 구조에 영향을 미쳐 인플레이션 압력을 지속시킬 가능성이 있다."
     },
     {
       "headline": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
@@ -224,10 +227,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
       "published_at": "2026-10-02T08:21:00.000Z",
-      "headline_ko": "G7 국가들, 미국의 압력에 따라 경유·원유 비축유 방출에 합의",
-      "summary_ko": "G7 국가들이 미국의 요청에 응하여 경유와 원유 전략비축유를 방출하기로 합의했다.",
-      "detail_ko": "미국의 주도 아래 G7 국가들이 에너지 공급 안정화를 위한 협력을 강화하고 있다. 이는 글로벌 에너지 가격 상승에 대응하기 위한 국제 협력의 구체적 사례로, 주요 선진국들이 에너지 안보를 전략적 우선순위로 삼고 있음을 보여준다. 비축유 방출은 단기적 시장 공급 증가를 통해 가격 안정화를 도모하려는 정책 수단이다.",
-      "impact_ko": "대규모 비축유 방출은 유가 하락 압력으로 작용할 수 있으며, 이는 에너지 수입국들의 교역 조건 개선으로 이어질 수 있다. 유가 하락은 인플레이션 완화 신호로 작용하면서 중앙은행의 금리 인상 압력을 감소시킬 가능성이 있다. 다만 비축유 고갈에 따른 장기적 에너지 안보 우려가 제기될 수 있으며, 이는 향후 에너지 정책에 영향을 미칠 수 있다."
+      "headline_ko": "G7, 미국 압력에 따라 경유 및 석유 비축 방출에 합의",
+      "summary_ko": "G7 국가들이 미국의 요청에 응해 경유와 석유 비축을 방출하기로 합의했다.",
+      "detail_ko": "선진국들이 유가 안정화를 위해 전략비축유를 활용하는 조율된 정책 대응을 보여주는 사례다. 미국의 주도적 역할 아래 주요 선진국들이 공조하여 에너지 공급 부족 우려를 완화하려는 의도가 드러난다. 이는 인플레이션 압력을 낮추고 경제 안정성을 유지하기 위한 정책 수단으로, 글로벌 경제 협력의 중요성을 강조한다.",
+      "impact_ko": "비축유 방출은 단기적으로 유가 하락 압력을 높일 수 있으며, 이는 소비자 물가 상승률 완화로 이어질 가능성이 있다. 에너지 가격 안정화는 기업의 운영 비용 부담을 덜어주고 소비자 구매력을 보호하는 효과를 가져올 수 있다."
     },
     {
       "headline": "Treasury yields inch higher as investors await key jobs report",
@@ -235,21 +238,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html",
       "published_at": "2026-10-02T07:47:49.000Z",
-      "headline_ko": "미국 국채 수익률, 주요 고용 통계 발표 앞두고 소폭 상승",
-      "summary_ko": "미국 국채 수익률이 글로벌 채권 매도세와 주요 고용 통계 발표 대기 속에서 소폭 상승했다.",
-      "detail_ko": "국채 수익률의 상승은 글로벌 채권 시장의 광범위한 매도세와 경제 지표에 대한 시장의 기대 변화를 반영하고 있다. 고용 통계 발표를 앞두고 투자자들이 금리 경로에 대한 불확실성을 높이고 있으며, 이는 채권 가격 하락과 수익률 상승으로 나타나고 있다. 글로벌 금리 인상 사이클의 영향이 미국 채권 시장에도 파급되고 있는 것으로 보인다.",
-      "impact_ko": "국채 수익률 상승은 기업 차입 비용 증가로 이어질 수 있으며, 이는 기업 투자와 소비 심리에 부정적 영향을 미칠 수 있다. 금리 인상 기대가 높아질 경우 주식시장의 성장주 선호 심리가 약화될 가능성이 있다. 다만 고용 통계 발표 결과에 따라 시장의 금리 전망이 급변할 수 있으므로, 투자자들의 주의가 필요하다."
-    },
-    {
-      "headline": "Oil price drops more than 2% on talks over diesel, crude stock releases - Reuters",
-      "summary": "Oil price drops more than 2% on talks over diesel, crude stock releases  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTERINTZjYjV0dGhsWUtmMjRmNXVHN2tjaG5ZVkpldGxTRHJxOWc5N0Jtd0dhTEZLdUVpM2Z4T1J5SFYxZ2NTMm83Q1ZSXzgxUDA2Z2hXbFRKRTY1cWRWajR2SldNQ2xqTktJNDAxamcyb3V0YVZyZnh6aktvcHpUNzRobzNocWQ1ZFREbVN5OUR2MHJ3MHVQU1RveHYzYkhZZnAzc3YtNTk?oc=5",
-      "published_at": "2026-10-02T01:10:00.000Z",
-      "headline_ko": "경유·원유 비축유 방출 논의에 따라 유가 2% 이상 하락",
-      "summary_ko": "경유와 원유 전략비축유 방출에 대한 논의가 진행되면서 유가가 2% 이상 하락했다.",
-      "detail_ko": "국제 사회의 비축유 방출 합의와 논의는 단기적으로 시장의 공급 증가 기대를 형성하고 있다. 이는 에너지 가격 안정화를 목표로 한 정책 신호로 작용하며, 시장 참여자들이 이를 긍정적으로 평가하고 있음을 보여준다. 유가 하락은 에너지 수입국들의 인플레이션 완화 기대를 높이는 요인으로 작용하고 있다.",
-      "impact_ko": "유가 하락은 에너지 집약적 산업의 수익성 개선으로 이어질 수 있으며, 소비자들의 실질 구매력 증가로 이어질 가능성이 있다. 인플레이션 완화 신호는 중앙은행의 금리 인상 사이클 종료 가능성을 높일 수 있으며, 이는 주식시장에 긍정적 영향을 미칠 수 있다. 다만 유가 하락이 지속되지 않을 경우 시장의 기대 변화로 인한 변동성이 증가할 수 있다."
+      "headline_ko": "주요 고용 통계 발표 앞두고 미국 국채 수익률 소폭 상승",
+      "summary_ko": "글로벌 채권 매도세 속에서 투자자들이 주요 고용 통계 발표를 기다리며 미국 국채 수익률이 소폭 상승했다.",
+      "detail_ko": "최근 글로벌 채권 시장의 광범위한 매도세 가운데 미국 국채 수익률도 상승 압력을 받고 있는 상황을 반영한다. 고용 통계는 연방준비제도의 금리 정책 방향을 결정하는 핵심 지표로, 투자자들이 이 데이터를 기다리며 포지션을 조정하고 있다. 채권 수익률의 상승은 금리 인상 기대감이나 인플레이션 우려의 증가를 시사하는 신호로 해석될 수 있다.",
+      "impact_ko": "국채 수익률의 상승은 차입 비용을 높여 기업과 소비자의 금융 부담을 증가시킬 수 있으며, 특히 금리 민감도가 높은 부동산과 기술주에 부정적 영향을 미칠 가능성이 있다. 그러나 고용 통계가 긍정적으로 나올 경우 금리 인상 우려가 완화되면서 수익률이 다시 하락할 수도 있다."
     }
   ],
   "calendar": [
