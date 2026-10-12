@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:37:13.196Z",
+  "generated_at": "2026-10-12T00:53:47.971Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,88 +62,96 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 82910,
-        "change_pct": 0.48868
+        "price": 83866,
+        "change_pct": 1.1421
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2502.95,
-        "change_pct": 0.65024
+        "price": 2544.49,
+        "change_pct": 1.60018
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.27,
-        "change_pct": 7.5377
+        "price": 5.88,
+        "change_pct": 11.24618
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.065,
-        "change_pct": 6.37988
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1283.17,
+        "change_pct": 4.74353
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 538.43,
+        "change_pct": 3.80356
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.35,
+        "change_pct": 2.84741
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01091717,
-        "change_pct": 5.54474
+        "price": 0.01039253,
+        "change_pct": -4.83041
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 85.32,
-        "change_pct": 1.31012
-      },
-      {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 8.81,
-        "change_pct": -0.86694
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.056,
+        "change_pct": -0.85275
       },
       {
         "symbol": "TRX",
         "name": "TRON",
-        "price": 0.330508,
-        "change_pct": -0.37406
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.085631,
-        "change_pct": -0.15698
+        "price": 0.33008,
+        "change_pct": -0.11836
       },
       {
         "symbol": "USDT",
         "name": "Tether",
-        "price": 0.999168,
-        "change_pct": -0.00441
+        "price": 0.999107,
+        "change_pct": -0.00929
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 혼조세를 보였으나 기술주 중심으로 상승 모멘텀이 유지되고 있다. S&P 500과 나스닥100 ETF가 소폭 상승한 가운데, 주간 실적 발표와 인플레이션 데이터 발표를 앞두고 투자자들의 선별적 매수가 이어지고 있는 것으로 해석된다.",
-      "마이크로소프트(+2.38%), 아마존(+3.29%), 테슬라(+2.05%)가 강세를 보였다. 특히 아마존의 3% 이상 상승은 클라우드·AI 사업 전망과 실적 기대감이 반영된 것으로 보이며, 마이크로소프트도 엔터프라이즈 AI 수요 지속에 따른 긍정적 평가가 작용한 것으로 보인다.",
-      "반면 애플(-1.11%)은 약세를 나타냈다. 기술주 중에서도 상대적으로 경기 민감도가 높은 소비재 기업으로서 금리 전망 불확실성과 트럼프 행정부의 정책 방향성에 대한 우려가 영향을 미친 것으로 해석된다.",
-      "암호화폐 시장에서는 NEAR Protocol(+7.54%)이 눈에 띄는 상승률을 기록했다. 레이어1 블록체인 경쟁 심화 속에서 기술 개선이나 생태계 확장 소식이 긍정적으로 평가되었을 가능성이 있으며, 비트코인과 이더리움이 안정적 상승세를 유지하는 가운데 알트코인 선별 매수 심리가 작용한 것으로 보인다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 혼조세를 보였으나 전반적으로는 긍정적 흐름이 지배적이었다. S&P 500 ETF(SPY)와 나스닥100 ETF(QQQ)가 소폭 상승한 가운데, 빅테크 종목들 간에 엇갈린 움직임이 나타났다. 이는 본격적인 실적 시즌 진입과 인플레이션 데이터 발표를 앞두고 시장이 신중한 태도를 유지하고 있음을 시사한다.",
+      "마이크로소프트(+2.38%), 아마존(+3.29%), 테슬라(+2.05%)가 상승세를 주도했으며, 이들은 실적 발표 임박에 따른 긍정적 기대감과 AI 및 클라우드 수요 지속에 대한 투자자 신뢰로 해석된다. 특히 아마존의 강세는 클라우드 인프라 사업의 성장성이 재평가되는 흐름으로 보인다.",
+      "반면 애플(-1.11%)과 엔비디아(-0.52%)는 약세를 보였는데, 이는 채권 수익률 급등으로 인한 고성장주 조정 압박과 밸류에이션 재평가 우려로 해석된다. 채권시장에서 금리 급등이 나타나면서 고평가 기술주에 대한 수익 실현 매물이 나온 것으로 보인다.",
+      "암호화폐 시장에서는 프라이버시 코인들이 두드러진 강세를 보였다. Zcash(+4.74%), Monero(+3.80%), NEAR Protocol(+11.25%)이 상승한 배경에는 규제 리스크 속에서 프라이버시 기능을 갖춘 자산에 대한 수요 증가와 레이어1 체인의 기술 개선에 대한 긍정적 평가가 작용한 것으로 보인다. 비트코인(+1.14%)과 이더리움(+1.60%)도 완만한 상승세를 유지하며 위험자산 선호 심리가 지속되고 있음을 나타낸다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
-      {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 262.43,
-        "change_pct": 3.2945,
-        "type": "stock",
-        "reason_ko": "클라우드·AI 사업 수요 기대"
-      },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
         "price": 535.07,
         "change_pct": 2.3842,
         "type": "stock",
-        "reason_ko": "엔터프라이즈 AI 수요 지속"
+        "reason_ko": "실적 시즌 기대감, 클라우드 수요 지속"
+      },
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "price": 262.43,
+        "change_pct": 3.2945,
+        "type": "stock",
+        "reason_ko": "AWS 클라우드 사업 성장성 재평가"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 382.7,
+        "change_pct": 2.0533,
+        "type": "stock",
+        "reason_ko": "실적 발표 임박 긍정적 기대"
       },
       {
         "symbol": "AAPL",
@@ -151,29 +159,70 @@
         "price": 336.64,
         "change_pct": -1.1104,
         "type": "stock",
-        "reason_ko": "금리 불확실성 영향"
+        "reason_ko": "금리 급등으로 고성장주 조정"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1283.17,
+        "change_pct": 4.74353,
+        "type": "crypto",
+        "reason_ko": "프라이버시 코인 수요 증가"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.27,
-        "change_pct": 7.5377,
+        "price": 5.88,
+        "change_pct": 11.24618,
         "type": "crypto",
-        "reason_ko": "레이어1 생태계 확장 기대"
+        "reason_ko": "레이어1 체인 기술 개선 평가"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Here are the 6 big things we're watching in the stock market this week",
+      "summary": "Earnings season ramps up this week, with four Club holdings set to report. Two main inflation reports are also out.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/11/here-are-the-6-big-things-were-watching-in-the-stock-market-this-week.html",
+      "published_at": "2026-10-11T19:46:05.000Z",
+      "headline_ko": "이번 주 주식시장 주목할 6가지 주요 이슈",
+      "summary_ko": "실적 시즌이 본격화되면서 주요 기업들의 실적 발표가 예정되어 있으며, 인플레이션 관련 주요 지표들도 발표될 예정이다.",
+      "detail_ko": "실적 시즌은 기업의 실제 수익성과 미래 전망을 시장에 공개하는 중요한 시기로, 이 기간 동안의 실적 발표 결과는 주가 방향성을 결정하는 핵심 요소가 된다. 동시에 인플레이션 데이터는 연방준비제도의 금리 정책 방향을 가늠하는 중요한 지표이므로, 이번 주는 거시경제 지표와 기업 실적이라는 두 가지 축이 시장을 움직일 것으로 예상된다. 특히 고금리 환경에서 기업들의 실적 회복력이 얼마나 강한지가 투자자들의 주요 관심사가 될 것으로 보인다.",
+      "impact_ko": "긍정적 실적 발표는 기술주와 성장주에 대한 투자 심리를 부양할 수 있으며, 반대로 부진한 실적은 시장 조정을 초래할 가능성이 있다. 인플레이션 데이터가 예상보다 높게 나올 경우 금리 인상 우려로 이어져 채권 수익률이 더욱 상승할 수 있고, 이는 고성장주에 대한 평가 압박으로 작용할 수 있다."
+    },
+    {
+      "headline": "I’m a psychologist who studies couples: The No. 1 way to end a fight before it escalates—it works ‘almost immediately’",
+      "summary": "\"In my experience, nothing de-escalates a conflict faster,\" says psychologist Mark Travers. Why a \"partial yield\" works, and how to use it.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/11/psychologist-couples-end-fight-before-escalates-partial-yield.html",
+      "published_at": "2026-10-11T12:48:01.000Z",
+      "headline_ko": "심리학자가 말하는 부부싸움을 즉시 진정시키는 방법",
+      "summary_ko": "심리학자 마크 트래버스는 갈등을 빠르게 해결하는 방법으로 '부분적 양보'를 제시하고 있다.",
+      "detail_ko": "이 기사는 인간관계의 갈등 해결에 관한 심리학적 조언을 다루고 있으며, 투자나 시장과는 직접적인 연관이 없는 라이프스타일 콘텐츠이다. 다만 시장 심리와 투자자 행동을 분석하는 관점에서 보면, 갈등 해결의 심리학적 원리는 시장 참여자들의 의사결정 과정에도 간접적으로 영향을 미칠 수 있다. 투자자들의 감정 관리와 합리적 판단이 수익성과 직결되기 때문에, 이러한 심리학적 인사이트는 광의의 시장 심리 분석에 포함될 수 있다.",
+      "impact_ko": "이 기사는 직접적인 시장 영향보다는 투자자 심리의 기초가 되는 인간의 감정 관리에 관한 내용으로, 시장 참여자들의 스트레스 관리와 합리적 판단력 유지에 간접적으로 기여할 수 있다. 다만 단기 시장 움직임에는 미미한 영향을 미칠 것으로 예상된다."
+    },
+    {
+      "headline": "Wall Street’s rate shock spreads beneath AI-fueled market rally",
+      "summary": "Bonds surge as rates spike and oil stays high, testing AI-driven stock resilience amid widening market risks.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/wall-street-s-rate-shock-spreads-beneath-ai-fueled-market-rally",
+      "published_at": "2026-10-10T14:03:09.000Z",
+      "headline_ko": "AI 랠리 속 채권 급등으로 월가의 금리 충격 심화",
+      "summary_ko": "채권 수익률이 급등하고 유가가 높게 유지되면서 AI 주도의 주가 상승세가 시험대에 오르고 있다.",
+      "detail_ko": "최근 채권시장에서 수익률이 급등하는 현상은 인플레이션 우려, 금리 인상 기대, 또는 경제 성장 전망 상향 등 여러 요인이 복합적으로 작용한 결과로 보인다. 이는 저금리 환경에서 성장성에 베팅해온 기술주와 AI 관련 고성장주들에 직접적인 평가 압박을 가하게 된다. 채권 수익률이 높아지면 현금과 채권의 상대적 매력도가 증가하면서 주식, 특히 고평가 기술주로부터의 자금 이탈이 발생할 수 있기 때문이다.",
+      "impact_ko": "금리 급등이 지속될 경우 AI 랠리의 주요 수혜주인 반도체, 클라우드, 소프트웨어 기업들의 밸류에이션 재평가 압박이 심화될 수 있다. 동시에 유가 상승은 에너지 섹터의 상대적 매력도를 높일 수 있어 섹터 로테이션이 가속화될 가능성이 있다. 이러한 시장 구조 변화는 포트폴리오 재조정을 고려하는 투자자들에게 중요한 신호가 될 수 있다."
+    },
     {
       "headline": "Wall Street posts weekly gains with earnings, inflation data on tap - Reuters",
       "summary": "Wall Street posts weekly gains with earnings, inflation data on tap  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
       "published_at": "2026-10-09T23:33:00.000Z",
-      "headline_ko": "월스트릿, 실적 발표와 인플레이션 데이터 앞두고 주간 상승률 기록",
-      "summary_ko": "미국 주식시장이 주간 상승세를 보이며 마감했으며, 향후 기업 실적 발표와 인플레이션 통계 발표가 시장의 주요 변수로 작용할 것으로 예상된다.",
-      "detail_ko": "월스트릿이 주간 단위로 긍정적 수익률을 기록한 것은 기업 실적 발표 시즌과 경제 지표 발표에 대한 투자자들의 기대감이 반영된 결과로 보인다. 특히 인플레이션 데이터는 연방준비제도의 향후 금리 정책 방향을 결정하는 중요한 지표로 작용하기 때문에 시장 참여자들의 관심이 집중되고 있다. 이는 현재 금리 인상 사이클의 정점 여부와 향후 경제 경로에 대한 불확실성이 여전히 존재함을 시사한다.",
-      "impact_ko": "긍정적인 실적 발표가 이어질 경우 기술주와 성장주 중심의 랠리가 지속될 수 있으며, 반대로 인플레이션이 예상보다 높게 나타나면 금리 인상 우려로 인한 조정이 발생할 가능성이 있다. 향후 경제 데이터와 기업 가이던스가 시장 방향성을 결정하는 핵심 요소가 될 것으로 예상된다."
+      "headline_ko": "월가, 실적 시즌과 인플레이션 데이터 앞두고 주간 상승 마감",
+      "summary_ko": "월가는 주간 상승세로 마감했으며, 향후 실적 발표와 인플레이션 지표 발표가 시장의 주요 변수로 작용할 것으로 예상된다.",
+      "detail_ko": "주간 상승은 시장이 현재 상황에 대해 상대적으로 낙관적 평가를 유지하고 있음을 시사한다. 다만 이러한 상승세가 실적 시즌과 인플레이션 데이터라는 두 가지 주요 이벤트를 앞두고 있다는 점에서, 시장의 불확실성이 여전히 높은 상태임을 의미한다. 투자자들은 긍정적 기대감과 위험 요소 사이에서 균형을 맞추려는 신중한 태도를 보이고 있는 것으로 해석된다.",
+      "impact_ko": "실적 발표가 예상을 상회할 경우 현재의 상승 모멘텀이 지속될 수 있으나, 인플레이션 데이터가 높게 나올 경우 금리 인상 우려로 인한 조정이 발생할 수 있다. 이 두 이벤트의 결과에 따라 향후 시장의 방향성이 크게 달라질 가능성이 높으므로, 투자자들의 주의가 필요한 시점이다."
     },
     {
       "headline": "Oil prices settle higher as more production shut ahead of hurricane - Reuters",
@@ -181,10 +230,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
       "published_at": "2026-10-09T20:19:51.000Z",
-      "headline_ko": "허리케인 앞두고 유가 상승, 석유 생산 차질 심화",
-      "summary_ko": "허리케인으로 인한 추가 석유 생산 중단이 예상되면서 유가가 상승세를 보였다.",
-      "detail_ko": "극단적 기후 현상으로 인한 에너지 공급 차질은 단기적 유가 상승 압력으로 작용하고 있다. 특히 미국 멕시코만의 석유 생산 시설이 허리케인의 영향권에 있어 생산 감소가 불가피한 상황이다. 이러한 공급 측 충격은 글로벌 에너지 시장의 불안정성을 높이고 있으며, 아시아 지역의 에너지 수급 불안으로도 이어질 수 있다.",
-      "impact_ko": "유가 상승은 인플레이션 재가속 우려를 높일 수 있어 중앙은행의 금리 인상 기대를 부추길 가능성이 있다. 또한 에너지 수입국들의 교역 수지 악화와 기업 수익성 압박으로 이어질 수 있으며, 특히 아시아 지역의 에너지 안보 강화 움직임을 가속화할 것으로 예상된다."
+      "headline_ko": "허리케인 앞두고 석유 생산 감소, 유가 상승세 지속",
+      "summary_ko": "허리케인으로 인한 석유 생산 감소 우려로 유가가 상승세를 유지하고 있다.",
+      "detail_ko": "허리케인과 같은 자연재해는 석유 생산 시설에 직접적인 피해를 입히거나 생산을 중단하게 만들어 공급 차질을 초래한다. 이러한 공급 측 충격은 단기적으로 유가 상승 압력으로 작용하며, 에너지 시장의 불확실성을 높인다. 특히 미국 걸프만 지역의 석유 생산 시설이 영향을 받을 경우 글로벌 석유 공급에 미치는 영향이 상당할 수 있다.",
+      "impact_ko": "유가 상승은 에너지 기업들의 수익성 개선으로 이어질 수 있어 에너지 섹터 주가에 긍정적 영향을 미칠 수 있다. 반면 높은 유가는 운송, 항공, 화학 등 에너지 비용에 민감한 산업들의 수익성을 압박할 수 있다. 또한 유가 상승이 인플레이션 압력으로 작용할 경우 중앙은행의 금리 인상 우려로 이어질 수 있다."
     },
     {
       "headline": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
@@ -192,10 +241,21 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
       "published_at": "2026-10-09T18:20:57.000Z",
-      "headline_ko": "트럼프, 연준 리사 쿡 의장 해임 위원회 구성... 연준 독립성 논란 재점화",
-      "summary_ko": "트럼프 대통령이 연방준비제도 이사회 멤버인 리사 쿡을 해임하기 위한 위원회를 구성했으며, 이는 연준의 독립성과 금리 정책에 영향을 미칠 수 있다.",
-      "detail_ko": "연준 이사회 멤버에 대한 대통령의 직접적인 개입 시도는 미국 중앙은행의 독립성 원칙에 대한 도전으로 해석되고 있다. 최근 대법원 판결이 이러한 움직임의 법적 근거가 되었으나, 이는 정치적 압력이 통화정책 결정에 영향을 미칠 수 있다는 우려를 낳고 있다. 연준 의장 제롬 파월을 포함한 다른 이사회 멤버들도 유사한 압력에 노출될 가능성이 있어 향후 금리 정책의 독립성이 훼손될 수 있다는 점이 시장의 불안 요소로 작용하고 있다.",
-      "impact_ko": "연준의 정치적 독립성이 훼손될 경우 통화정책의 신뢰도 하락으로 이어질 수 있으며, 이는 달러 약세와 금리 변동성 확대로 나타날 가능성이 있다. 또한 중앙은행의 인플레이션 관리 능력에 대한 의문이 제기되면서 장기 금리 상승 압력이 심화될 수 있다."
+      "headline_ko": "트럼프, 연준 리사 쿡 해임 위해 위원회 구성... 연준 독립성과 금리에 영향 가능",
+      "summary_ko": "트럼프가 연방준비제도 이사 리사 쿡을 해임하기 위한 위원회를 구성했으며, 이는 연준의 독립성과 금리 정책에 영향을 미칠 수 있다.",
+      "detail_ko": "연방준비제도의 독립성은 정치적 압력으로부터 금리 정책을 보호하는 핵심 원칙이다. 행정부가 연준 이사를 해임하려는 시도는 이러한 독립성을 훼손할 수 있는 중대한 사안이며, 시장에서는 이를 금리 정책의 정치화 우려로 받아들일 수 있다. 만약 연준의 독립성이 약화될 경우, 금리 결정이 경제 펀더멘탈보다는 정치적 고려에 의해 좌우될 가능성이 높아질 수 있다.",
+      "impact_ko": "연준 독립성에 대한 우려는 장기 금리와 달러 가치에 영향을 미칠 수 있으며, 이는 주식, 채권, 환율 시장 전반에 파급효과를 초래할 수 있다. 투자자들이 연준의 정책 신뢰도를 낮게 평가할 경우 위험자산 회피 심리가 강해질 수 있고, 이는 주가 하락과 채권 수익률 상승으로 이어질 가능성이 있다."
+    },
+    {
+      "headline": "Trump envoy kept financial ties to firm behind $15 billion Hormuz-bypass oil pipeline plan - Reuters",
+      "summary": "Trump envoy kept financial ties to firm behind $15 billion Hormuz-bypass oil pipeline plan  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdFAxYTlxLTNCZ3c2bHMya2hWU2VvRUNTQ1I3YllKaGtoRERCSGFwaGFsRDlpQUVsdENqMnloSVpIQlFLZzk0N0VLNEdRSDExR2ZDaU5YOFQ1ekl4Y0tHb2VyUEVGOHVvam9KeTFHU1ZabmxQVjJMRC1jVmZFOVdtdWFuM3p6VHhjU2VqOFl3MXdBUG12OXU4RlMzV0ZNZ3RaSGpidld3cDBzR2VIcjNQOUNRbHdObV9K?oc=5",
+      "published_at": "2026-10-09T11:40:04.000Z",
+      "headline_ko": "트럼프 특사, 150억 달러 규모 호르무즈 우회 석유 파이프라인 사업 관련 기업과 재정적 연계 유지",
+      "summary_ko": "트럼프 특사가 호르무즈 해협을 우회하는 대규모 석유 파이프라인 프로젝트와 관련된 기업과의 재정적 연계를 유지하고 있는 것으로 드러났다.",
+      "detail_ko": "이 사건은 정부 관계자의 이해 충돌(conflict of interest) 문제를 제기하는 사안이다. 150억 달러 규모의 대형 인프라 프로젝트는 정부 정책과 규제에 큰 영향을 받을 수 있으므로, 정부 관계자가 해당 사업과 재정적 이해관계를 유지하는 것은 정책 결정의 공정성을 훼손할 수 있다. 특히 중동 지정학적 리스크와 에너지 안보 문제가 얽혀 있는 만큼, 이는 미국의 중동 정책과 에너지 정책에 영향을 미칠 수 있는 민감한 사안이다.",
+      "impact_ko": "이 문제가 정치적 논쟁으로 확대될 경우 해당 파이프라인 프로젝트의 추진 일정이 지연되거나 불확실성이 높아질 수 있다. 또한 정부 관계자의 이해 충돌 논쟁은 정책 신뢰도를 하락시켜 시장 심리에 부정적 영향을 미칠 수 있다. 에너지 시장 측면에서는 호르무즈 우회 루트의 실현 가능성에 대한 불확실성이 유가 변동성을 높일 수 있다."
     },
     {
       "headline": "Treasury yields steady as Trump strikes diplomatic tone on Iran ahead of midterms",
@@ -203,54 +263,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/09/us-treasurys-bond-yields-midterms.html",
       "published_at": "2026-10-09T08:24:50.000Z",
-      "headline_ko": "트럼프의 이란 외교 발언에 국채 수익률 안정세 유지",
-      "summary_ko": "트럼프 대통령의 이란에 대한 온건한 외교 발언이 나오면서 지정학적 리스크가 완화되고 국채 수익률이 안정적으로 유지되고 있다.",
-      "detail_ko": "지정학적 긴장 완화에 대한 기대감이 시장에 반영되면서 안전자산 선호 심리가 약화되고 있다. 이란 관련 외교적 진전 가능성이 높아지면서 에너지 공급 차질에 대한 우려가 일부 해소되는 양상을 보이고 있다. 다만 국채 수익률이 여전히 높은 수준에 있어 금리 인상 사이클의 영향이 지속되고 있음을 시사한다.",
-      "impact_ko": "지정학적 리스크 완화는 위험자산 선호 심리를 강화할 수 있어 주식시장에 긍정적으로 작용할 가능성이 있다. 반면 에너지 가격 안정화는 인플레이션 압력을 낮춰 금리 인하 기대를 높일 수 있으나, 현재의 높은 금리 수준이 단기간에 조정되기는 어려울 것으로 예상된다."
-    },
-    {
-      "headline": "IRDAI may roll out insurance commission caps as early as January",
-      "summary": "IRDAI may introduce insurance commission caps from January, aiming to lower consumer costs as brokers warn of job risks and fintech firms face earnings pressure.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-09/india-insurance-regulator-eyes-2027-start-for-commission-caps",
-      "published_at": "2026-10-09T02:55:23.000Z",
-      "headline_ko": "인도 보험규제청, 내년 1월부터 보험 수수료 상한제 도입 추진",
-      "summary_ko": "인도 보험규제청(IRDAI)이 소비자 비용 절감을 목표로 내년 1월부터 보험 수수료 상한제를 도입할 계획이다.",
-      "detail_ko": "규제 당국의 수수료 상한제 도입은 소비자 보호와 시장 공정성을 강화하려는 정책 기조를 반영하고 있다. 다만 이는 보험 중개업체와 핀테크 기업들의 수익성 악화로 이어질 수 있어 업계의 반발이 예상되고 있다. 특히 고용 감소와 서비스 품질 저하에 대한 우려가 제기되고 있으며, 이는 인도 금융 서비스 산업의 구조 조정을 촉발할 수 있다.",
-      "impact_ko": "수수료 상한제는 단기적으로 보험사와 중개업체의 이익률 압박으로 이어질 수 있으며, 이는 관련 기업들의 주가 하락 압력으로 작용할 가능성이 있다. 장기적으로는 시장 경쟁 심화와 산업 구조 재편으로 이어질 수 있으며, 소비자 입장에서는 보험료 인하 효과를 기대할 수 있다."
-    },
-    {
-      "headline": "Gold hits one-week high on softer oil prices - Reuters",
-      "summary": "Gold hits one-week high on softer oil prices  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVl80MTVLVXR1WWd1MGxyNFRNN1VaNlJ2WFNIeGlrLS1HTGwzc1pZZ3FqaFZyOFBZcDk0VGRnMzVvSUtiSGFyR3c2Z29Fa25XZk1xX0JlWGpJZVlNaEJhWXhoenc3enFGZGZ3QnVUaGg1U2ZTNE9GZGxfTDIyb3hoMl9ycTNsOHpHeWdKRXk1VmdZZ1VITnhMR29NQ3JYUmV4TXJpemVRaw?oc=5",
-      "published_at": "2026-10-09T01:58:00.000Z",
-      "headline_ko": "유가 약세 속 금값 1주일 고점 경신",
-      "summary_ko": "유가가 약세를 보이는 가운데 금값이 1주일 만에 최고가를 기록했다.",
-      "detail_ko": "금과 유가의 역상관 관계가 명확하게 나타나고 있으며, 이는 전통적인 안전자산 선호 심리를 반영하고 있다. 유가 약세는 인플레이션 압력 완화 신호로 해석될 수 있으나, 동시에 경기 둔화 우려를 야기할 수 있어 투자자들이 안전자산인 금으로 자금을 이동시키고 있는 것으로 보인다. 이는 시장의 경제 전망에 대한 불확실성이 여전히 높음을 시사한다.",
-      "impact_ko": "금값 상승은 인플레이션 헤지 수요와 경기 둔화 우려가 동시에 작용하고 있음을 의미하며, 이는 향후 자산 배분 전략에 영향을 미칠 수 있다. 또한 달러 약세 기대감이 반영될 경우 금값의 추가 상승이 가능할 것으로 예상된다."
-    },
-    {
-      "headline": "Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says",
-      "summary": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
-      "published_at": "2026-10-08T19:38:14.000Z",
-      "headline_ko": "베센트 신임 고문, \"국채 수익률 매우 높지만 곧 하락 가능\"",
-      "summary_ko": "데이비드 저보스 경제 고문이 현재의 높은 국채 수익률이 곧 하락할 수 있다고 언급했으며, 10년물과 30년물 수익률이 최근 24년 고점을 기록했다.",
-      "detail_ko": "현재 국채 수익률이 24년 만의 고점에 도달한 상황에서 정책 입안자의 낙관적 전망이 제시되고 있다. 이는 향후 금리 인하 가능성에 대한 기대감을 반영하고 있으며, 인플레이션 둔화와 경제 성장 둔화에 따른 통화정책 전환을 시사하고 있다. 다만 현재의 높은 금리 수준이 구조적 요인(재정 적자, 지정학적 리스크 등)에 기인하고 있어 수익률 하락이 얼마나 빠르게 진행될지는 불확실하다.",
-      "impact_ko": "국채 수익률 하락 전망은 주식시장에 긍정적으로 작용할 수 있으며, 특히 성장주와 기술주의 밸류에이션 압박이 완화될 가능성이 있다. 또한 부동산과 고정수익 자산의 매력도가 높아질 수 있으나, 실제 수익률 하락이 실현되기까지는 상당한 시간이 소요될 것으로 예상된다."
-    },
-    {
-      "headline": "Asia races to stockpile oil, speed up renewables in response to Iran war - Reuters",
-      "summary": "Asia races to stockpile oil, speed up renewables in response to Iran war  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcW1Cd0Mwc1pJOUR1MFdlMWxHSzRESGx0anZnd0FyYzJZRVAteGFZOFNvSEdjYjNZREFINVprWFhiVmIyZkNrZlNBM25GaVgzMGo4OFJNdmE0LVdJbmYxSFJILTZzaXRhTlFxTXZNOGhWamREdTlYQTI4dXJycS1lMFF6VEgyUHo3c3NUeV93NmY3RXowVEp2andOcWVTMmZpZUFVYXZKcGg1cVlwRjlaOUxsQnQ?oc=5",
-      "published_at": "2026-10-08T14:36:00.000Z",
-      "headline_ko": "이란 전쟁 우려 속 아시아, 석유 비축 확대 및 재생에너지 가속화",
-      "summary_ko": "이란 관련 지정학적 리스크에 대응하기 위해 아시아 지역이 석유 전략 비축을 확대하고 재생에너지 투자를 가속화하고 있다.",
-      "detail_ko": "중동 지정학적 긴장이 고조되면서 에너지 수입국들이 공급 차질에 대비한 선제적 조치를 취하고 있다. 석유 비축 확대는 단기적 에너지 안보 강화를 목표로 하고 있으며, 동시에 재생에너지 투자 가속화는 장기적 에너지 독립성 추구를 반영하고 있다. 이는 아시아 지역의 에너지 정책이 공급 안정성과 탈탄소화를 동시에 추구하고 있음을 의미한다.",
-      "impact_ko": "석유 비축 확대는 단기적으로 유가 상승 압력으로 작용할 수 있으며, 이는 인플레이션 재가속 우려를 높일 수 있다. 재생에너지 투자 확대는 관련 산업의 성장 기회를 제공할 수 있으나, 이에 따른 자본 투자 규모가 상당할 것으로 예상되어 아시아 지역의 재정 부담이 증가할 가능성이 있다."
+      "headline_ko": "트럼프, 이란 관련 외교적 온건 입장 표명... 채권 수익률 안정세",
+      "summary_ko": "트럼프 대통령이 이란 문제에 대해 외교적 온건 입장을 보이면서 투자자들이 지정학적 리스크를 낮게 평가하고 있다.",
+      "detail_ko": "중동 지정학적 리스크는 유가와 글로벌 경제 전망에 직접적인 영향을 미치는 중요한 변수이다. 트럼프의 온건한 입장 표명은 이란과의 긴장 완화 가능성을 시사하며, 이는 투자자들에게 지정학적 리스크가 단기적으로 완화될 수 있다는 신호로 받아들여질 수 있다. 이러한 긍정적 신호는 채권 시장의 안정성을 높이고 위험자산에 대한 선호도를 유지하는 데 기여할 수 있다.",
+      "impact_ko": "지정학적 리스크 완화 신호는 유가 하락 압력으로 작용할 수 있으며, 이는 인플레이션 우려를 낮추는 데 도움이 될 수 있다. 채권 수익률이 안정적으로 유지될 경우 주식시장의 변동성이 완화될 수 있고, 투자자들의 위험자산 선호 심리가 지속될 가능성이 높다. 다만 외교 상황은 변수가 많으므로 이러한 긍정적 평가가 얼마나 지속될지는 향후 추이를 봐야 할 것으로 보인다."
     }
   ],
   "calendar": [
