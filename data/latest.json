@@ -1,266 +1,258 @@
 {
-  "generated_at": "2026-10-14T00:48:02.259Z",
+  "generated_at": "2026-10-15T00:13:58.027Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 341.27,
-        "change_pct": 0.088
+        "price": 342.96,
+        "change_pct": 0.4952
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 543.45,
-        "change_pct": 0.425
+        "price": 533.69,
+        "change_pct": -1.7959
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 228.52,
-        "change_pct": 0.9721
+        "price": 221.3,
+        "change_pct": -3.1595
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 375.23,
-        "change_pct": -0.7407
+        "price": 367.16,
+        "change_pct": -2.1507
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 258.58,
-        "change_pct": -0.366
+        "price": 254.08,
+        "change_pct": -1.7403
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 353.78,
-        "change_pct": 0.3005
+        "price": 347.64,
+        "change_pct": -1.7355
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 762.5,
-        "change_pct": 2.63
+        "price": 737.54,
+        "change_pct": -3.2734
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 778.01,
-        "change_pct": -0.0116
+        "price": 769.6,
+        "change_pct": -1.081
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 743.57,
-        "change_pct": -0.3311
+        "price": 728.95,
+        "change_pct": -1.9662
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 83558,
-        "change_pct": 2.84781
+        "price": 81655,
+        "change_pct": -2.00268
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2515.72,
-        "change_pct": 3.8824
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1243.05,
-        "change_pct": 9.34322
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 552.49,
-        "change_pct": 5.57151
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 13,
-        "change_pct": 4.96157
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.085009,
-        "change_pct": 4.84663
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.026,
-        "change_pct": -3.59106
+        "price": 2421.6,
+        "change_pct": -3.26748
       },
       {
         "symbol": "TRX",
         "name": "TRON",
-        "price": 0.327058,
-        "change_pct": -0.42166
+        "price": 0.332639,
+        "change_pct": 1.68929
       },
       {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999818,
-        "change_pct": 0.01198
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.039,
+        "change_pct": 1.32986
       },
       {
-        "symbol": "USDS",
-        "name": "USDS",
-        "price": 1,
-        "change_pct": 0.01245
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.01,
+        "change_pct": 1.12824
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 552.23,
+        "change_pct": 0.60501
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.00914541,
+        "change_pct": -8.61113
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1149.58,
+        "change_pct": -5.9606
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.18266,
+        "change_pct": -4.11517
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 12.44,
+        "change_pct": -3.73111
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 기술주 중심으로 엇갈린 움직임을 보였다. S&P 500은 소폭 하락했으나 나스닥 지수도 약세를 나타냈는데, 이는 금리 인상 우려와 지정학적 리스크가 복합적으로 작용한 결과로 해석된다.",
-      "엔비디아(NVDA)와 메타(META)가 각각 +0.97%, +2.63%로 강세를 보였다. 특히 메타의 상승폭이 두드러지는데, 이는 AI 투자 심화와 광고 시장 회복 기대감이 반영된 것으로 보인다. 반면 테슬라(TSLA)는 -0.74% 하락했으며, 이는 전기차 시장 경쟁 심화와 경제 둔화 우려가 영향을 미친 것으로 해석된다.",
-      "암호화폐 시장에서는 프라이버시 코인들이 두드러진 상승세를 보였다. Zcash(ZEC)는 +9.34%, Monero(XMR)는 +5.57% 상승했는데, 이는 규제 불확실성 속에서 프라이버시 기능을 갖춘 자산에 대한 수요가 증가한 것으로 보인다. 비트코인(BTC)과 이더리움(ETH)도 각각 +2.85%, +3.88% 상승하며 위험자산 선호 심리가 나타났으나, 이는 투자 조언이 아님을 명시합니다."
+      "오늘 미국 주식시장은 광범위한 낙폭을 기록했다. 9월 CPI가 예상을 상회하며 인플레이션이 재가열되는 신호를 보이면서 연중 추가 금리인상 가능성이 부상했고, 이는 고금리 환경에 민감한 기술주와 성장주에 부담으로 작용했다. S&P 500과 나스닥100 ETF가 각각 1% 이상 하락한 가운데 메타, 엔비디아, 테슬라 등 대형 기술주들이 2~3% 이상 내려앉았다.",
+      "애플은 소수의 상승 종목 중 하나로 +0.5% 수준의 완만한 상승을 기록했으며, 이는 상대적으로 방어적 특성을 가진 종목으로 인식되는 가운데 위험자산 회피 심리 속에서도 자본이 유입되는 양상으로 해석된다. 코인 시장에서는 TRON, LEO Token, Monero 등이 소폭 상승세를 보였는데, 이는 비트코인과 이더리움이 각각 2~3% 하락하는 가운데 상대적으로 저평가된 알트코인들에 대한 선별적 수요가 나타난 것으로 보인다.",
+      "프라이버시 코인인 Monero(+0.6%)와 Zcash(-5.96%)는 상반된 움직임을 보였는데, 이는 규제 리스크와 시장 심리의 변동성을 반영하는 것으로 해석된다. 특히 Zcash와 Stellar 같은 알트코인들이 4~6% 하락한 반면, 중동 지정학적 긴장(후티 반군의 사우디 공격)으로 유가가 상승세를 보이는 가운데도 에너지 관련 수익성 개선 기대보다는 글로벌 경기 둔화 우려가 더 크게 작용하면서 위험자산 전반에 약세를 주도했다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
+        "symbol": "AAPL",
+        "name": "애플",
+        "price": 342.96,
+        "change_pct": 0.4952,
+        "type": "stock",
+        "reason_ko": "위험회피 속 방어주 선호"
+      },
+      {
         "symbol": "META",
         "name": "메타",
-        "price": 762.5,
-        "change_pct": 2.63,
+        "price": 737.54,
+        "change_pct": -3.2734,
         "type": "stock",
-        "reason_ko": "AI 투자 심화 및 광고 시장 회복"
+        "reason_ko": "인플레이션 재가열로 기술주 약세"
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 228.52,
-        "change_pct": 0.9721,
+        "price": 221.3,
+        "change_pct": -3.1595,
         "type": "stock",
-        "reason_ko": "AI 반도체 수요 지속"
+        "reason_ko": "금리인상 우려로 성장주 낙폭"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1243.05,
-        "change_pct": 9.34322,
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.332639,
+        "change_pct": 1.68929,
         "type": "crypto",
-        "reason_ko": "프라이버시 자산 수요 증가"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 552.49,
-        "change_pct": 5.57151,
-        "type": "crypto",
-        "reason_ko": "규제 불확실성 속 프라이버시 선호"
+        "reason_ko": "알트코인 선별적 수요"
       }
     ]
   },
   "news": [
     {
-      "headline": "Trump says Houthis trying to drive up oil prices ahead of US midterm elections - Reuters",
-      "summary": "Trump says Houthis trying to drive up oil prices ahead of US midterm elections  Reuters",
+      "headline": "US inflation heats up in September; Fed rate hike this month back on table - Reuters",
+      "summary": "US inflation heats up in September; Fed rate hike this month back on table  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUjJueXpwNnRLbk1Db0NkZzBZS0tqUGF4NHU3ZWYxcWRHdVU0WW9uYVZJeUlpUVR2amR3Q0dyd1ZwYTFwZjRkUXU2VWRmX2otWUh5dHBmTW1Tak1iczg5a3pzR21oZTk3S3lzN0NfWmZ4TWRFalFNLVBsdU5vVTFkSDQ4TnNGVDZOcnVTS2FWTzBTbW1pN0ZoamZrRG5fQlc2QXpZWjV3?oc=5",
-      "published_at": "2026-10-13T16:38:26.000Z",
-      "headline_ko": "트럼프, 후티 반군의 유가 인상 시도 지적",
-      "summary_ko": "트럼프 전 대통령이 후티 반군이 미국 중간선거 앞두고 유가를 올리려 한다고 주장했다.",
-      "detail_ko": "트럼프는 예멘의 후티 반군이 의도적으로 유가를 상승시키려 한다고 비판했다. 이는 중동 지정학적 긴장이 에너지 시장에 직접적인 영향을 미치고 있음을 시사한다. 후티 반군의 해상 공격이 글로벌 석유 공급망에 미치는 영향에 대한 우려가 커지고 있는 상황이다.",
-      "impact_ko": "유가 변동성이 확대될 가능성이 있으며, 이는 인플레이션 우려로 이어져 금리 인상 기대감을 강화할 수 있다. 에너지 관련 기업들의 수익성 전망에 긍정적 영향을 미칠 수 있으나, 동시에 경제 전반의 비용 압박으로 작용할 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
+      "published_at": "2026-10-14T21:45:35.000Z",
+      "headline_ko": "9월 미국 인플레이션 상승, 연중 추가 금리인상 가능성 재부상",
+      "summary_ko": "9월 CPI가 예상을 상회하며 인플레이션이 재가열되는 신호를 보이면서, 연중 추가 금리인상이 다시 정책 테이블에 올랐다.",
+      "detail_ko": "미국의 9월 소비자물가지수(CPI)가 시장 예상을 웃돌면서 인플레이션 압력이 여전히 존재함을 시사했다. 이는 연준이 금리 인상을 멈춘 이후 경제 데이터가 개선되고 있다는 시장의 기대에 찬물을 끼얹는 결과다. 고금리 환경이 지속될 가능성이 높아지면서 특히 금리에 민감한 기술주와 성장주에 대한 투자 심리가 위축될 수 있다.",
+      "impact_ko": "인플레이션 재가열 신호는 연준의 정책 기조 변화 가능성을 높여 금리 인상 사이클이 더 오래 지속될 수 있음을 시사한다. 이는 고성장 기술주와 고배수 성장주의 밸류에이션 압박으로 이어질 가능성이 있으며, 단기적으로는 시장의 변동성 확대를 초래할 수 있다. 동시에 방어주와 고배당주에 대한 상대적 선호도가 높아질 수 있다."
     },
     {
-      "headline": "More homebuyers are taking a chance on adjustable-rate mortgages, hoping rates will fall—here’s how to think about that bet",
-      "summary": "More homebuyers are betting on adjustable-rate mortgages for a lower rate today. Here’s how to decide if one makes sense for you.",
+      "headline": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit - Reuters",
+      "summary": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5",
+      "published_at": "2026-10-14T21:12:59.000Z",
+      "headline_ko": "예멘 후티 반군, 사우디 아람코 본부 공격 후 추가 공격 위협",
+      "summary_ko": "예멘의 후티 반군이 사우디아라비아의 아람코 본부를 공격한 후 사우디 공항과 석유시설에 대한 추가 공격을 예고했다.",
+      "detail_ko": "중동의 지정학적 긴장이 고조되면서 후티 반군이 사우디의 주요 에너지 인프라를 직접 공격하는 사태가 발생했다. 이는 단순한 위협 수준을 넘어 실제 공격으로 확대된 것으로, 중동 지역의 불안정성이 심화되고 있음을 보여준다. 사우디는 세계 최대 석유 수출국 중 하나이기 때문에 이러한 공격은 글로벌 에너지 공급망에 직접적인 위협이 될 수 있다.",
+      "impact_ko": "중동 지정학적 리스크의 현실화는 유가 상승 압력으로 작용할 가능성이 높다. 석유 공급 차질에 대한 우려는 에너지 가격 상승으로 이어져 글로벌 인플레이션을 가중시킬 수 있다. 동시에 지정학적 불확실성 확대는 위험자산 회피 심리를 강화하여 주식시장의 변동성을 높일 수 있다."
+    },
+    {
+      "headline": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+      "summary": "The Septembr CPI report came in hot, and Morgan Stanley's equities trading blew past expectations.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/13/adjustable-rate-mortgage-arm-risks.html",
-      "published_at": "2026-10-13T14:00:02.000Z",
-      "headline_ko": "주택 구매자들, 금리 인하 기대하며 변동금리 모기지 선택 증가",
-      "summary_ko": "더 많은 주택 구매자들이 현재 낮은 금리를 노리고 변동금리 모기지(ARM)를 선택하고 있다.",
-      "detail_ko": "주택 시장에서 변동금리 모기지에 대한 수요가 증가하고 있는데, 이는 향후 금리 인하를 기대하는 차용자들의 심리를 반영한다. 고정금리 모기지의 높은 금리 부담을 피하려는 움직임이 강해지고 있으며, 이는 금리 인하 시나리오에 대한 시장의 낙관적 전망을 나타낸다.",
-      "impact_ko": "금리가 예상과 달리 상승할 경우 차용자들의 상환 부담이 급증할 수 있어 금융 시스템에 리스크가 될 수 있다. 반대로 금리 인하가 실현되면 주택 시장 활성화로 이어질 가능성이 있다. 이러한 모기지 선택 추세는 향후 금리 경로에 대한 시장 기대를 가늠하는 지표가 될 수 있다."
+      "url": "https://www.cnbc.com/investingclub/2026/10/14/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+      "published_at": "2026-10-14T12:59:49.000Z",
+      "headline_ko": "짐 크래머의 수요일 주식시장 주목 포인트: 9월 CPI 보고서와 모건스탠리 실적",
+      "summary_ko": "9월 CPI 보고서가 예상을 상회했으며, 모건스탠리의 주식 트레이딩 실적이 기대를 크게 초과했다.",
+      "detail_ko": "9월 CPI의 상승은 인플레이션이 여전히 통제 범위를 벗어날 수 있다는 우려를 낳고 있다. 한편 모건스탠리 같은 대형 투자은행의 주식 트레이딩 부문이 강한 실적을 기록한 것은 시장 변동성 확대 속에서 트레이딩 수익이 증가했음을 의미한다. 이는 시장 불확실성이 높을수록 금융기관의 단기 수익성은 개선될 수 있다는 점을 시사한다.",
+      "impact_ko": "인플레이션 재가열 신호는 거시경제 불확실성을 높여 시장 변동성을 확대할 가능성이 있다. 변동성 확대는 단기적으로 금융기관의 트레이딩 수익을 증가시킬 수 있지만, 장기적으로는 투자자들의 위험회피 심리를 강화할 수 있다. 이는 주식시장의 방향성 있는 상승보다는 변동성 중심의 시장 구조를 초래할 가능성이 있다."
     },
     {
-      "headline": "Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption - Reuters",
-      "summary": "Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption  Reuters",
+      "headline": "India's wholesale inflation rises faster than expected at 11.4% in September - Reuters",
+      "summary": "India's wholesale inflation rises faster than expected at 11.4% in September  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWdiOFh3ZXNEdWNtbEZLVlFDZ2dJQTZaanZ3dUtaNVgycEpwX0tDZWVYVF9PQlpRX085YWNwTkdtZVNmY0R2S0hHcllmRVlxcnAyYm9fTEZQa3YtYlljLXd6ZlROZ3VOTFktSmZnNFFkdGkxUkwyRmJ0R1JiQ0FtLXUzZTdSZGY1dlJCUndmd2FjQkxrT2dWRGFvMmcteFU0VVNQMEdxQVN4eVE5QjdBYg?oc=5",
-      "published_at": "2026-10-13T13:58:40.000Z",
-      "headline_ko": "사우디, 이란 전쟁 위기 속에서도 9월 OPEC+ 석유 생산 증가 주도",
-      "summary_ko": "사우디아라비아가 이란과의 지정학적 긴장에도 불구하고 9월 OPEC+ 석유 생산을 주도적으로 증가시켰다.",
-      "detail_ko": "중동 지역의 군사적 긴장이 고조되는 가운데 사우디가 석유 생산을 늘린 것은 글로벌 공급 안정화 의지를 보여준다. OPEC+ 감산 정책에도 불구하고 사우디의 생산 증가는 유가 상승을 억제하려는 전략으로 해석된다. 이는 중동 공급 차질에 대한 우려를 완화하는 신호로 작용할 수 있다.",
-      "impact_ko": "사우디의 생산 증가는 단기적으로 유가 상승 압력을 제한할 수 있으나, 지정학적 리스크가 현실화될 경우 급격한 공급 차질로 이어질 수 있다. 에너지 시장의 불확실성이 지속되면서 변동성이 확대될 가능성이 있다. 글로벌 인플레이션 전망에도 영향을 미칠 수 있는 중요한 신호이다."
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeTA5ZnNtZGZZRHdYREhmbEIyZFFaQldWR3lmWUV1WFFicUl0Y0ZUa0wxNjFsbDNzN2FVV1EtUklFdHJta1RmX1pwR21zTDBwdE9VZnpnWVo4XzBWU1RORXFHNFRZMy1nYnl6WjFHMk5rc3VxOG9qUVlOQjBibW9oOXcwRndZYVpybXF0V0t2MnI0WXJBNEVIT1VDMkRoOThEWmpGeWNn?oc=5",
+      "published_at": "2026-10-14T06:35:00.000Z",
+      "headline_ko": "인도 도매물가, 9월 예상 이상으로 11.4% 상승",
+      "summary_ko": "인도의 9월 도매물가지수(WPI)가 예상을 상회하는 11.4%로 상승했다.",
+      "detail_ko": "인도의 도매물가 상승률이 시장 예상을 크게 웃돌면서 신흥시장의 인플레이션 압력이 여전히 높은 수준임을 드러냈다. 이는 글로벌 공급망 정상화 이후에도 에너지 가격 상승과 수요 회복이 맞물리면서 물가 상승 압력이 지속되고 있음을 의미한다. 인도는 세계 경제에서 중요한 신흥시장이기 때문에 이 국가의 인플레이션 심화는 글로벌 경제의 물가 안정성에 대한 우려를 높인다.",
+      "impact_ko": "신흥시장의 인플레이션 심화는 중앙은행들의 금리 인상 사이클을 연장시킬 가능성이 있다. 이는 신흥시장 자산에 대한 투자 매력도를 감소시켜 자본 유출 압력으로 이어질 수 있다. 또한 글로벌 공급망 전반의 물가 상승 압력이 지속될 경우 선진국의 인플레이션도 재가열될 수 있다."
     },
     {
-      "headline": "Occidental oil prices jump as supply concerns lift crude - Reuters",
-      "summary": "Occidental oil prices jump as supply concerns lift crude  Reuters",
+      "headline": "Bank of England's Pill says he's sceptical about market pricing four rate hikes - Reuters",
+      "summary": "Bank of England's Pill says he's sceptical about market pricing four rate hikes  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcWhnUmlGS0Y5eEs2Vm13V3cxZFZSWmUzMjZ6OEdCdzhoN294ZEl2Wk1YeVNLb2VhWThLZXlnbHpNMmxwak8zVXBxdDM1N3ZLeFRxUHBOclVEdXBHZUVWTXJrYUs3ZGZHdEo0eUpDVHh3SlJRQjVXVFdNNE5iMnJtLTRhTTJnT0l5Z2FPckNfcFJFcEVfVVlnRmQ4SWpEYTY5WGpRaDJ5c0g?oc=5",
-      "published_at": "2026-10-13T12:01:09.000Z",
-      "headline_ko": "오클리덴탈 석유, 공급 우려로 유가 급등",
-      "summary_ko": "석유 공급 우려가 고조되면서 오클리덴탈 석유 회사의 주가가 급등했다.",
-      "detail_ko": "글로벌 석유 공급에 대한 우려가 심화되면서 오클리덴탈 같은 석유 기업들의 주가가 상승했다. 중동 지정학적 긴장과 OPEC+ 정책이 복합적으로 작용하여 공급 부족 시나리오에 대한 시장의 우려가 반영된 것이다. 이는 에너지 섹터에 대한 투자 수요 증가를 의미한다.",
-      "impact_ko": "석유 기업들의 수익성 개선 기대감이 높아질 수 있으며, 에너지 섹터 주식에 대한 수요가 증가할 가능성이 있다. 동시에 유가 상승은 소비자 물가 상승 압력으로 작용하여 인플레이션 우려를 강화할 수 있다. 에너지 가격 상승이 지속되면 경제 전반의 비용 구조에 부정적 영향을 미칠 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTzF1Y3FqN0hEMDctSVFDTU1EajlQcmhEa18zY1lGUW8zR253eWF3LUs5UGxXcnlZYUxrQ0Q2RUdyeFBXbkU2bUVRTnZKTFJzU0ZiMVVFSVVBSktXT284aGtlTVpqTXNZRE9aS01jZ3poNlVudjZxSDM3YWxnMDR5a2NUWllQQmlKRE9ydi03cTlxOWdPaUZzZ0QxVlNsM3NaMnpTX1c1V0JNQUJKejFTM2JWTUZidGxfYjdZ?oc=5",
+      "published_at": "2026-10-14T06:32:00.000Z",
+      "headline_ko": "영란은행 필 위원, 4회 금리인상 시장 전망에 회의적",
+      "summary_ko": "영란은행의 필 위원이 시장이 가격하고 있는 4회의 금리인상에 대해 회의적 입장을 표명했다.",
+      "detail_ko": "영란은행 금리결정위원회의 필 위원이 시장의 공격적인 금리인상 전망에 제동을 걸었다. 이는 영국 중앙은행 내에서도 금리 인상의 필요성에 대한 의견이 나뉘고 있음을 시사한다. 인플레이션 압력이 있더라도 경기 둔화 우려를 감안하면 과도한 금리 인상이 경제에 부담이 될 수 있다는 입장으로 해석된다.",
+      "impact_ko": "영란은행 내 금리 정책에 대한 의견 불일치는 향후 금리 결정의 불확실성을 높일 수 있다. 시장이 가격한 공격적인 금리인상이 실현되지 않을 경우 파운드화 약세로 이어질 가능성이 있다. 또한 이는 글로벌 중앙은행들의 금리 정책 방향성이 일관되지 않을 수 있음을 시사하여 환율 변동성을 확대할 수 있다."
     },
     {
-      "headline": "COMMENTARY: Trump's oil jawboning loses punch as wars spiral - Reuters",
-      "summary": "COMMENTARY: Trump's oil jawboning loses punch as wars spiral  Reuters",
+      "headline": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers - Reuters",
+      "summary": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGRSS0t5UkdaMjZZWUNWWXNZWlpKOV9YcC1XdF9UVXE1M3NEVFJ5MC0zdHZZZnQtclpCRDJZX2hVM1NWNC1xZWZuQl82blNBZmZLRk9YdWZuZ1VMcFZvQmVFYld4VzgteDB3R0NhM05CckEwcjlxVHdldmV0NXlKOGZnc0FuYVIzZU00clRsRVVLeHZySzJ3NnV6MDY3R0I3NU51Sk9oTmRMek8yNExNMXZLYw?oc=5",
-      "published_at": "2026-10-13T06:00:00.000Z",
-      "headline_ko": "트럼프의 유가 영향력 약화, 지정학적 전쟁 심화로",
-      "summary_ko": "중동 분쟁 심화로 트럼프의 유가 관련 발언의 영향력이 감소하고 있다.",
-      "detail_ko": "트럼프가 유가 인상을 비판해도 실제 시장 영향력이 제한적이라는 평가가 나오고 있다. 이는 지정학적 리스크가 정치적 발언보다 더 강력한 시장 결정 요인이 되고 있음을 시사한다. 중동 군사 긴장이 고조되면서 공급 차질 우려가 정치적 수사를 압도하고 있는 상황이다.",
-      "impact_ko": "유가 결정 메커니즘이 지정학적 요인에 더욱 의존하게 될 가능성이 있으며, 정책 입안자들의 영향력이 제한될 수 있다. 이는 에너지 시장의 불확실성과 변동성을 증대시킬 수 있다. 글로벌 경제의 에너지 가격 리스크 관리가 더욱 어려워질 수 있다."
-    },
-    {
-      "headline": "Indian shares flat at open as inflation strengthens rate-hike concerns - Reuters",
-      "summary": "Indian shares flat at open as inflation strengthens rate-hike concerns  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRUVTdlJpcHF3dEZTQlg5WWlESlo0dXpTRWJQR1lwWHl2aHR2QVlEUzI4Vkx3OTZVNFdvdnhNMm5BSC04bnNJdzZyLU9BVTVhbFFsUHhzNXlWc0VlLW5KU2k0NWFHZUlicF9zQTVMYjJTTGZoNDRMREJBQk5YU3k0OFdCX2pROWxtYWhlM0ZrREQxVTQweWJMaFdoVW1XX1FrOXpGQnBjZy01eVktY3VQSktkb1YxVEJIbmMw?oc=5",
-      "published_at": "2026-10-13T02:29:00.000Z",
-      "headline_ko": "인도 주식, 인플레이션 강화로 금리 인상 우려 속 보합 출발",
-      "summary_ko": "인도 주식시장이 인플레이션 심화에 따른 금리 인상 우려 속에서 보합 출발했다.",
-      "detail_ko": "인도의 인플레이션이 강화되면서 중앙은행의 금리 인상 가능성이 높아지고 있다. 이는 신흥시장 자산에 대한 투자 심리를 위축시킬 수 있는 요인이다. 글로벌 금리 인상 사이클이 신흥국까지 확산되는 양상을 보여주고 있다.",
-      "impact_ko": "인도를 포함한 신흥시장 자산의 매력도가 감소할 수 있으며, 자본 유출 우려가 커질 수 있다. 금리 인상은 기업 차입 비용 증가로 이어져 경제 성장 둔화 가능성을 높일 수 있다. 신흥시장 통화 약세 압력도 강화될 가능성이 있다."
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
+      "published_at": "2026-10-14T01:27:00.000Z",
+      "headline_ko": "사우디 공격과 이란의 유조선 공격 전술로 유가 상승",
+      "summary_ko": "사우디아라비아에 대한 공격과 이란의 유조선 공격 전술이 확대되면서 유가가 상승했다.",
+      "detail_ko": "중동 지정학적 긴장의 심화로 석유 공급 차질에 대한 우려가 커지고 있다. 후티 반군의 사우디 공격과 이란의 유조선 공격 전술이 동시에 진행되면서 페르시아만 지역의 에너지 안보가 위협받고 있다. 이는 단순한 일시적 사건이 아니라 중동 지역의 구조적 불안정성이 심화되고 있음을 의미한다.",
+      "impact_ko": "지정학적 리스크의 현실화는 유가 상승 압력을 지속시킬 가능성이 높다. 유가 상승은 글로벌 인플레이션을 가중시켜 중앙은행들의 금리 인상 압력을 높일 수 있다. 또한 에너지 가격 상승은 경제 성장을 둔화시키면서 스태그플레이션 우려를 증대시킬 수 있다."
     },
     {
       "headline": "Oil prices settle mixed, focus on US-Russia diesel deal, Saudi Yemen attacks - Reuters",
       "summary": "Oil prices settle mixed, focus on US-Russia diesel deal, Saudi Yemen attacks  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa2sxWTVlekZ2bXloVXNiOUltMm5iODVOMW9NTUo4Q016ZU02OFQ5TU9relFTcUZSaW8xV0c2YmNVbE5jWW5uQjhKeXNKaWxBcE92SU1fQUU0R2RVamdNUzRhTER3NzEzMFUtRVd3bzVnZ1g0ZmtRek95VHdYbVNNMmNacmlDd3dLTThmaGF2VVJDYTc4c1hQeUZfX0ZGQzZjTXlpLU52U3JuUGpjOHJjWndoS19LandSX0dtMmdUMzNKZw?oc=5",
-      "published_at": "2026-10-13T00:25:00.000Z",
-      "headline_ko": "유가 혼조, 미-러 디젤 거래와 사우디 예멘 공격에 주목",
-      "summary_ko": "미국-러시아 디젤 거래와 사우디의 예멘 공격 등 여러 요인이 유가 방향성을 결정하고 있다.",
-      "detail_ko": "유가가 혼조세를 보이는 가운데 미-러 디젤 거래 협상과 중동 군사 긴장이 주요 변수로 작용하고 있다. 공급 측면의 지정학적 리스크와 수요 측면의 국제 거래 동향이 상충하면서 시장 방향성이 불명확한 상황이다. 이는 유가의 높은 변동성을 시사한다.",
-      "impact_ko": "유가 변동성 확대는 에너지 관련 기업들의 실적 예측을 어렵게 할 수 있으며, 투자자들의 위험회피 심리를 강화할 수 있다. 글로벌 인플레이션 전망의 불확실성도 증가할 가능성이 있다. 에너지 가격 변동이 다른 자산군에 파급 효과를 미칠 수 있다."
+      "published_at": "2026-10-13T17:12:46.000Z",
+      "headline_ko": "유가 혼조, 미-러 디젤 거래와 사우디 예멘 공격에 초점",
+      "summary_ko": "유가가 혼조세를 보이는 가운데 미-러 디젤 거래와 사우디에 대한 예멘 공격이 시장의 주요 관심사다.",
+      "detail_ko": "유가의 혼조세는 공급 측면의 지정학적 리스크와 수요 측면의 거시경제 불확실성이 상충하고 있음을 반영한다. 미국과 러시아 간의 디젤 거래는 에너지 시장의 지정학적 분열을 보여주며, 사우디에 대한 공격은 중동 공급 차질 우려를 높인다. 이러한 복합적 요인들이 유가의 방향성을 불명확하게 만들고 있다.",
+      "impact_ko": "유가의 불확실성은 에너지 관련 기업들의 수익 전망을 불명확하게 만들 수 있다. 공급 차질 우려는 유가 상승 압력으로, 경기 둔화 우려는 유가 하락 압력으로 작용하면서 시장의 변동성을 높일 수 있다. 또한 에너지 가격의 불확실성은 인플레이션 전망을 어렵게 만들어 중앙은행의 정책 결정을 복잡하게 할 수 있다."
     },
     {
-      "headline": "EU looking at oil and gas windfall profit tax, as energy prices soar - Reuters",
-      "summary": "EU looking at oil and gas windfall profit tax, as energy prices soar  Reuters",
+      "headline": "Trump says Houthis trying to drive up oil prices ahead of US midterm elections - Reuters",
+      "summary": "Trump says Houthis trying to drive up oil prices ahead of US midterm elections  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRkFnZHlycnVIT0dJR21Nd1NXQ215NHNYZGp5WHM5Rk9MeEdBbktzUFhMSmZyWHRUS2o3Vkl6MWdGTVhmeVB4NUxPNG0zeHVSNU0yY2otd2Z0REhpWmhscGxzN3B4RW1CYlJYZmFhUnpucDBYMGJfMHdpSWx3YWtsTlFWc1lzVktYcDZvZXhYU1d1dEF4TklNekJ0cHk0ZVZsUE1aQU5JSVZXbWNLd3c?oc=5",
-      "published_at": "2026-10-12T20:30:42.000Z",
-      "headline_ko": "에너지 가격 급등 속 EU, 석유·가스 초과이익세 검토",
-      "summary_ko": "에너지 가격 상승으로 EU가 석유·가스 기업들에 대한 초과이익세 도입을 검토하고 있다.",
-      "detail_ko": "중동 지정학적 긴장과 공급 우려로 에너지 가격이 급등하자 EU는 에너지 기업들의 초과 수익에 대한 과세를 고려하고 있다. 이는 에너지 가격 상승으로 인한 기업 이윤 증가를 제어하려는 정책 대응이다. 유럽의 에너지 위기 심화에 따른 정부 개입이 강화되는 신호로 해석된다.",
-      "impact_ko": "초과이익세 도입 시 에너지 기업들의 수익성이 제약될 수 있으며, 투자 의욕이 감소할 가능성이 있다. 이는 장기적으로 에너지 공급 부족을 심화시킬 수 있다. 정부의 에너지 시장 개입이 강화되면서 시장 메커니즘의 효율성이 저하될 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUjJueXpwNnRLbk1Db0NkZzBZS0tqUGF4NHU3ZWYxcWRHdVU0WW9uYVZJeUlpUVR2amR3Q0dyd1ZwYTFwZjRkUXU2VWRmX2otWUh5dHBmTW1Tak1iczg5a3pzR21oZTk3S3lzN0NfWmZ4TWRFalFNLVBsdU5vVTFkSDQ4TnNGVDZOcnVTS2FWTzBTbW1pN0ZoamZrRG5fQlc2QXpZWjV3?oc=5",
+      "published_at": "2026-10-13T16:38:26.000Z",
+      "headline_ko": "트럼프, 후티 반군이 중간선거 앞두고 유가 인상 시도라고 주장",
+      "summary_ko": "트럼프 전 대통령이 후티 반군의 공격이 미국 중간선거를 앞두고 유가를 올리려는 의도라고 주장했다.",
+      "detail_ko": "트럼프의 발언은 중동 지정학적 사건을 미국 국내 정치와 연결하는 해석을 제시했다. 이는 유가 상승이 단순한 공급 차질 문제가 아니라 지정학적 행위자들의 의도적 행동일 수 있다는 의심을 제기한다. 다만 이러한 주장의 인과관계가 명확하지 않으며, 후티 반군의 공격 동기가 복합적일 수 있다는 점을 고려할 필요가 있다.",
+      "impact_ko": "정치인의 지정학적 사건에 대한 해석은 시장 심리에 영향을 미칠 수 있다. 유가 상승이 의도적 조작이라는 의심은 투자자들의 신뢰도를 낮추고 시장 변동성을 높일 수 있다. 또한 이러한 발언은 중동 지정학적 리스크에 대한 정치화를 초래하여 시장의 합리적 가격 발견을 어렵게 할 수 있다."
     }
   ],
   "calendar": [
-    {
-      "date": "2026-10-14",
-      "title": "소비자물가지수(CPI) 발표",
-      "agency": "미 노동통계국(BLS)",
-      "what": "미국 도시 소비자가 실제로 지불하는 상품·서비스 가격을 묶어 만든 물가지수입니다. 식품과 에너지를 뺀 근원(core) CPI가 추세 판단에 더 많이 쓰입니다.",
-      "why": "연준이 금리를 올릴지 내릴지 판단할 때 보는 대표적인 물가 지표입니다. 시장 예상보다 높게 나오면 금리 인하 기대가 밀리면서 주식과 채권이 함께 약해지는 경우가 많습니다.",
-      "watch": "전월 대비 근원 CPI가 0.3%를 넘는지, 그리고 주거비 항목이 둔화되는지를 봅니다."
-    },
     {
       "date": "2026-10-27",
       "title": "FOMC 정례회의 (~10-28)",
@@ -284,6 +276,14 @@
       "what": "농업을 제외한 산업에서 한 달 동안 늘어난 일자리 수와 실업률, 시간당 임금을 함께 발표합니다. 매달 첫째 주 금요일에 나와 '고용지표의 본편'으로 불립니다.",
       "why": "고용이 너무 뜨거우면 임금이 오르고 물가 압력이 남아 금리 인하가 늦어집니다. 반대로 급격히 식으면 경기 침체 우려가 커집니다. 시장은 어느 한쪽으로 크게 벗어나지 않는 수치를 선호합니다.",
       "watch": "신규 고용자 수뿐 아니라 지난 두 달치 수정폭과 시간당 임금 상승률을 함께 봐야 방향이 보입니다."
+    },
+    {
+      "date": "2026-11-10",
+      "title": "소비자물가지수(CPI) 발표",
+      "agency": "미 노동통계국(BLS)",
+      "what": "미국 도시 소비자가 실제로 지불하는 상품·서비스 가격을 묶어 만든 물가지수입니다. 식품과 에너지를 뺀 근원(core) CPI가 추세 판단에 더 많이 쓰입니다.",
+      "why": "연준이 금리를 올릴지 내릴지 판단할 때 보는 대표적인 물가 지표입니다. 시장 예상보다 높게 나오면 금리 인하 기대가 밀리면서 주식과 채권이 함께 약해지는 경우가 많습니다.",
+      "watch": "전월 대비 근원 CPI가 0.3%를 넘는지, 그리고 주거비 항목이 둔화되는지를 봅니다."
     }
   ]
 }
