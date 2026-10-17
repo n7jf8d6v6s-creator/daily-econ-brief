@@ -1,160 +1,212 @@
 {
-  "generated_at": "2026-10-16T00:00:08.579Z",
+  "generated_at": "2026-10-17T00:05:43.687Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 342,
-        "change_pct": -0.2799
+        "price": 343.46,
+        "change_pct": 0.4269
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 539.44,
-        "change_pct": 1.0774
+        "price": 529.05,
+        "change_pct": -1.9261
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 217.23,
-        "change_pct": -1.8391
+        "price": 214.13,
+        "change_pct": -1.4271
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 362.44,
-        "change_pct": -1.2855
+        "price": 354.72,
+        "change_pct": -2.13
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 254.76,
-        "change_pct": 0.2676
+        "price": 250,
+        "change_pct": -1.8684
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 349.22,
-        "change_pct": 0.4545
+        "price": 340.59,
+        "change_pct": -2.4712
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 736.72,
-        "change_pct": -0.1112
+        "price": 709.325,
+        "change_pct": -3.7185
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 771.79,
-        "change_pct": 0.2846
+        "price": 763.25,
+        "change_pct": -1.1065
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 728,
-        "change_pct": -0.1303
+        "price": 709.8,
+        "change_pct": -2.5
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 82155,
-        "change_pct": 0.72388
+        "price": 81528,
+        "change_pct": -0.77363
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2440.64,
-        "change_pct": 0.93122
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.26,
-        "change_pct": 7.79944
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1220.07,
-        "change_pct": 6.51188
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.00968782,
-        "change_pct": 6.09821
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 105.36,
-        "change_pct": 1.19834
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.081085,
-        "change_pct": -0.80505
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.031,
-        "change_pct": -0.80186
+        "price": 2419.81,
+        "change_pct": -0.82123
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 549,
-        "change_pct": -0.1459
+        "price": 557.23,
+        "change_pct": 1.51253
       },
       {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 728.76,
-        "change_pct": -0.10865
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.335091,
+        "change_pct": 0.85823
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.037,
+        "change_pct": 0.58189
+      },
+      {
+        "symbol": "USDC",
+        "name": "USDC",
+        "price": 0.999783,
+        "change_pct": 0.01953
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1147.14,
+        "change_pct": -5.8896
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.05,
+        "change_pct": -3.76448
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 80.19,
+        "change_pct": -1.96954
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.31,
+        "change_pct": -1.81591
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 기술주 중심의 약세를 보였다. 엔비디아(-1.84%), 테슬라(-1.29%), 애플(-0.28%) 등 대형 기술주들이 동반 하락하면서 나스닥100 ETF(QQQ)도 소폭 내렸으나, S&P 500 ETF(SPY)는 소비재와 기타 섹터의 버팀목으로 소폭 상승 마감했다. 이는 기술주 중심의 랠리가 일시 조정 국면에 접어들었음을 시사한다.",
-      "마이크로소프트(+1.08%)와 알파벳(+0.45%)은 상대적으로 강세를 유지했으며, 이는 AI 정책 재편 움직임 속에서도 기업 기본 가치와 정부 관계 강화에 대한 신뢰가 반영된 것으로 해석된다. 특히 마이크로소프트는 엔터프라이즈 AI 솔루션 수요 지속성이 지지 요인으로 작용한 것으로 보인다.",
-      "암호화폐 시장에서는 프라이버시 코인들이 두드러진 강세를 보였다. Zcash(+6.51%), NEAR Protocol(+7.80%), Rain(+6.10%) 등이 크게 상승했는데, 이는 미국의 이란 제재 강화와 중동 지정학적 긴장 고조 속에서 규제 회피 자산으로서의 프라이버시 코인에 대한 수요가 증가한 영향으로 보인다. 한편 비트코인(+0.72%)과 이더리움(+0.93%)은 안정적 상승세를 유지했으나, 채권 안전자산 선호 심화로 인한 위험자산 회피 심리가 상승폭을 제한한 것으로 해석된다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 기술주 중심의 광범위한 낙폭을 기록했다. S&P 500은 -1.1%, 나스닥100은 -2.5%를 하락했으며, 메타(-3.7%), 구글(-2.5%), 테슬라(-2.1%) 등 대형 기술주들이 동반 하락했다. 이는 채권 수익률 하락으로 안전자산 선호 심리가 강해지면서 고성장주에 대한 수익 실현 매물이 나온 것으로 해석된다.",
+      "애플(+0.43%)만 소폭 상승세를 유지했으나, 이는 시장 전반의 낙폭 속에서도 상대적으로 방어력을 보인 것으로 보인다. 기술주 전반의 약세 속에서도 애플이 비교적 견고한 모습을 보인 배경에는 실적 안정성과 배당 매력도에 대한 투자자들의 선호가 작용한 것으로 해석된다.",
+      "암호화폐 시장에서는 프라이버시 코인인 모네로(XMR, +1.51%)와 지캐시(ZEC, -5.89%)가 대조적 움직임을 보였다. 지캐시의 급락은 규제 리스크에 대한 우려 심화로 해석되는데, 미국의 이란 추가 제재 뉴스와 글로벌 규제 강화 기조가 프라이버시 코인 전반에 대한 투자자 경계심을 높인 것으로 보인다. 반면 모네로의 상승은 규제 회피 수요와 프라이버시 보호 가치에 대한 재평가가 작용한 것으로 해석되며, 이는 투자 조언이 아님을 밝힙니다."
     ],
     "movers": [
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "price": 539.44,
-        "change_pct": 1.0774,
+        "symbol": "META",
+        "name": "메타",
+        "price": 709.325,
+        "change_pct": -3.7185,
         "type": "stock",
-        "reason_ko": "AI 정책 재편 속 기업 가치 신뢰"
+        "reason_ko": "기술주 약세 속 수익 실현 매물"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "price": 343.46,
+        "change_pct": 0.4269,
+        "type": "stock",
+        "reason_ko": "기술주 중 상대적 방어력 유지"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1220.07,
-        "change_pct": 6.51188,
+        "price": 1147.14,
+        "change_pct": -5.8896,
         "type": "crypto",
-        "reason_ko": "지정학적 긴장 고조로 프라이버시 수요 증가"
+        "reason_ko": "규제 리스크 우려로 급락"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.26,
-        "change_pct": 7.79944,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 557.23,
+        "change_pct": 1.51253,
         "type": "crypto",
-        "reason_ko": "규제 회피 자산 선호 심화"
+        "reason_ko": "프라이버시 가치 재평가"
       }
     ]
   },
   "news": [
+    {
+      "headline": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
+      "summary": "US solicits exchange of up to 17 million barrels of oil from strategic reserve  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
+      "published_at": "2026-10-16T21:36:21.000Z",
+      "headline_ko": "미국, 전략비축유 최대 1,700만 배럴 교환 모색",
+      "summary_ko": "미국이 전략석유비축량에서 최대 1,700만 배럴의 교환을 추진 중이다.",
+      "detail_ko": "미국 정부가 전략비축유의 일부를 시장에 방출하려는 움직임은 현물 공급 부족 시 시장 안정화를 위한 정책 수단으로 활용되는 사례다. 이는 중동과 러시아 공급 차질에 따른 유가 상승 압력에 대응하기 위한 조치로 보인다. 전략비축유 방출은 단기적으로 유가 상승을 억제할 수 있지만, 근본적인 공급 부족 문제 해결에는 제한적일 수 있다.",
+      "impact_ko": "전략비축유 방출이 실행될 경우 단기적으로 유가 상승세를 완화할 수 있으나, 공급 차질이 지속되면 효과가 제한적일 수 있다. 에너지 가격 안정화는 인플레이션 관리에 긍정적 영향을 미칠 수 있으며, 이는 연방준비제도의 금리 정책 결정에도 영향을 줄 수 있다."
+    },
+    {
+      "headline": "US Treasury says Japan no longer faces deflationary environment, yen level must change - Reuters",
+      "summary": "US Treasury says Japan no longer faces deflationary environment, yen level must change  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVnlFbzgwbXQ1Q3RjNk9wS2U2dHhqUzJLMENfa3Q1NU5pSUc2ZW96Mlg4Uk9sbDhic0N4YVhaNkpvbmphcTJSSnlJNjRUdFhXNWoxc3dzbUhRV054M0YyMjZBT3hRRFhSLWhYbFh0QUZjRThCUDFSRlptWVJ6YUN0OWkzYlJEQi14Z1ZMazE0WnJmU18yUHVmc2x4OXd4VU5DVlh3dUZ0cTV5UWRFQ2JrMnNEZXBSM0VjcjRxOHhabk1CY0oxaEF0SmF0ZUxJdw?oc=5",
+      "published_at": "2026-10-16T04:11:00.000Z",
+      "headline_ko": "미국 재무부, 일본의 디플레이션 우려 해소 선언 및 엔화 수준 조정 촉구",
+      "summary_ko": "미국 재무부가 일본이 더 이상 디플레이션 환경에 직면하지 않는다고 평가하면서 엔화 환율 조정을 요구했다.",
+      "detail_ko": "미국의 이 같은 발언은 일본의 장기 저금리 정책과 약한 엔화 정책에 대한 미국의 불만을 반영한 것이다. 일본의 물가 상승이 진행되고 있다는 미국의 평가는 일본의 금리 인상 여지가 있다는 신호로 해석될 수 있다. 동시에 엔화 수준 조정 요구는 미국의 무역 적자 감소와 달러 강세 유지를 목표로 하는 통상 압력으로 볼 수 있다.",
+      "impact_ko": "미국의 압력이 일본의 금리 인상과 엔화 강세로 이어질 경우, 일본 수출 기업의 수익성 악화로 이어질 수 있다. 엔화 강세는 엔 캐리 트레이드 해제 압력을 높여 글로벌 금융시장의 변동성을 증대시킬 수 있다. 일본의 통화정책 정상화는 아시아 지역 금리 구조 변화를 촉발할 수 있다."
+    },
+    {
+      "headline": "Fed's Warsh says AI path will be 'very bumpy' but ultimately 'very good' for wealth",
+      "summary": "Warsh said he's optimistic that AI will make economies that use it well more productive and wealthier, warning the road there will be \"very bumpy.\"",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+      "published_at": "2026-10-16T04:08:27.000Z",
+      "headline_ko": "연준 고위관계자 워시, AI 발전 경로는 '매우 험난'하지만 궁극적으로 '매우 긍정적'",
+      "summary_ko": "연방준비제도 이사 워시가 AI 기술의 장기적 경제 효과는 긍정적이나 과정은 불안정할 것이라고 전망했다.",
+      "detail_ko": "워시의 발언은 AI 기술이 생산성 향상과 부의 창출로 이어질 수 있다는 낙관론을 제시하면서도, 그 과정에서 시장 변동성과 구조적 조정이 불가피할 수 있음을 시사한다. 이는 AI 관련 기업들의 현재 높은 밸류에이션에 대한 조정 가능성을 암시하는 것으로 해석될 수 있다. 연준 고위관계자의 이 같은 신중한 입장은 기술주에 대한 투자자 심리에 영향을 미칠 수 있다.",
+      "impact_ko": "AI의 장기 긍정 전망은 기술 투자 심리를 지탱할 수 있으나, '험난한 경로'에 대한 경고는 단기 변동성 확대를 정당화할 수 있다. 이는 기술주의 수익 실현 매물을 유발하고 시장 내 섹터 로테이션을 촉진할 수 있다. 투자자들의 AI 관련 기업 평가에 대한 신중함이 강화될 가능성이 있다."
+    },
+    {
+      "headline": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
+      "summary": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
+      "published_at": "2026-10-16T00:57:00.000Z",
+      "headline_ko": "유가, 5월 이후 처음으로 배럴당 110달러 돌파 - 중동·러시아 공급 우려",
+      "summary_ko": "유가가 중동과 러시아의 공급 차질 우려로 5월 이후 처음 배럴당 110달러를 넘었다.",
+      "detail_ko": "유가 상승은 지정학적 리스크 심화로 인한 공급 불안정성 증대를 반영한다. 중동 지역의 긴장과 러시아-우크라이나 갈등의 지속이 글로벌 에너지 공급망에 대한 투자자 우려를 높이고 있다. 배럴당 110달러 수준은 에너지 집약적 산업의 원가 압력을 증가시키고, 인플레이션 재가속 가능성을 시사한다.",
+      "impact_ko": "유가 상승은 항공사, 운송업, 화학 산업 등 에너지 집약적 기업들의 수익성 악화로 이어질 수 있다. 에너지 가격 상승은 소비자 물가 상승 압력을 높여 중앙은행의 금리 인상 기대를 강화할 수 있다. 이는 채권 수익률 상승과 성장주 약세를 초래할 수 있으며, 오늘의 기술주 낙폭에도 영향을 미친 것으로 보인다."
+    },
     {
       "headline": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
       "summary": "Big Tech gave millions to Trump's White House ballroom, documents show",
@@ -162,9 +214,9 @@
       "url": "https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html",
       "published_at": "2026-10-15T19:43:40.000Z",
       "headline_ko": "엔비디아·시스코, 트럼프 백악관 행사에 수백만 달러 기부",
-      "summary_ko": "빅테크 기업들이 트럼프 행정부와의 관계 강화를 위해 백악관 행사에 다액의 기부금을 제공했다.",
-      "detail_ko": "엔비디아와 시스코 등 주요 기술 기업들이 트럼프 행정부의 백악관 행사에 상당한 규모의 기부를 단행했다는 보도다. 이는 새 행정부의 기술 정책 방향성에 영향력을 행사하려는 빅테크의 전략적 움직임으로 해석되며, 특히 AI 규제와 통상 정책 등 주요 이슈에서 기업 입장을 반영시키려는 로비 활동의 일환으로 볼 수 있다. 기술 기업들의 정치적 기부 확대는 향후 정책 결정 과정에서 산업계의 영향력이 강화될 가능성을 시사한다.",
-      "impact_ko": "이러한 기부 활동은 향후 AI 규제, 반도체 산업 지원, 통상 정책 등에서 기술 기업들의 입장이 정책에 반영될 가능성을 높일 수 있다. 또한 정부와 기업 간의 긴밀한 관계 형성이 기술주의 장기적 실적 전망에 긍정적 영향을 미칠 수 있으며, 이는 시장의 기술주 평가에 영향을 줄 수 있다."
+      "summary_ko": "엔비디아와 시스코 등 빅테크 기업들이 트럼프 행정부 행사에 수백만 달러를 기부했다.",
+      "detail_ko": "대형 기술 기업들의 정치 기부는 향후 규제 환경과 통상 정책에 영향력을 행사하려는 의도로 해석된다. 특히 AI와 반도체 산업에 대한 규제 방향, 중국 수출 제한, 이민 정책 등이 이들 기업의 사업에 직접적 영향을 미치기 때문이다. 이는 기술 기업들이 정치적 불확실성 속에서 정책 리스크를 관리하려는 전략적 움직임으로 볼 수 있다.",
+      "impact_ko": "정치 기부를 통한 정책 영향력 추구는 기술 산업에 대한 규제 완화 가능성을 높일 수 있으나, 동시에 반독점 우려와 정치적 논란을 야기할 수 있다. 이는 기술주에 대한 투자자 심리에 양면적 영향을 미칠 수 있다. 규제 리스크 완화 기대는 긍정적이나, 정치적 불확실성 증대는 단기 변동성을 높일 수 있다."
     },
     {
       "headline": "US issues fresh Iran-related sanctions, Treasury website shows - Reuters",
@@ -172,10 +224,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONEJZZXJmaFZ1b2c5eDlJMjhKMFRXX3JkNVJha1J1N29IWUJHRGphZ1M1czQ0Z1EtQzBub3gxNk5iT3FnNEdRM3dEbjVvdGhac2JjOGdmNGVCVFJMZW9GZzVGeEFCOEFualphSFJVNEM0eUZmVGhDdC1oaU9UR2lzRmltQVJ6RUtTZGJVV29pZ2tKZ3pBT2o0RU5lQzlYNzdZOWFfdENZNS13LVNhMEJSSGRfXzRXQQ?oc=5",
       "published_at": "2026-10-15T16:45:20.000Z",
-      "headline_ko": "미국, 이란 관련 추가 제재 단행",
-      "summary_ko": "미 재무부가 이란을 겨냥한 신규 제재 조치를 발표했다.",
-      "detail_ko": "미국 정부가 이란에 대한 추가 제재를 공식화했다는 소식이다. 이는 중동 지역의 지정학적 긴장이 계속되고 있음을 보여주는 사례로, 이란 관련 제재 강화는 국제 유가 변동성 확대와 에너지 시장 불확실성 증가로 이어질 가능성이 높다. 또한 제재 회피 자산으로서 프라이버시 코인 등 규제 회피 성향의 자산에 대한 수요를 자극할 수 있다.",
-      "impact_ko": "이란 제재 강화는 국제 유가 변동성을 높이고 에너지 관련 기업들의 실적 불확실성을 증가시킬 수 있다. 동시에 제재 회피 자산으로서 프라이버시 코인과 같은 규제 회피 성향 암호화폐에 대한 수요가 증가할 가능성이 있으며, 이는 해당 자산의 가격 상승으로 이어질 수 있다."
+      "headline_ko": "미국, 이란 관련 추가 제재 발표",
+      "summary_ko": "미국 재무부가 이란에 대한 추가 제재를 공식 발표했다.",
+      "detail_ko": "이란 제재 강화는 미국의 중동 지역 정책 강경화를 반영하며, 이는 지정학적 긴장 고조로 이어질 수 있다. 이란 제재는 석유 공급 제약, 금융 시스템 고립, 기술 이전 제한 등을 포함할 수 있으며, 이는 글로벌 에너지 가격과 공급망에 영향을 미친다. 또한 프라이버시 코인 등 규제 회피 수단에 대한 관심을 높일 수 있는 신호로도 해석될 수 있다.",
+      "impact_ko": "이란 제재 강화는 중동 지역 긴장을 심화시켜 유가 상승 압력을 지속할 수 있다. 글로벌 공급망 재편과 에너지 안보 우려로 인한 시장 변동성 증대가 예상된다. 규제 강화 신호는 프라이버시 코인 등 규제 회피 자산에 대한 관심을 높일 수 있으며, 이는 오늘 지캐시의 급락과 모네로의 상승 움직임과도 연결될 수 있다."
     },
     {
       "headline": "Treasury yields slide as investors flee to safety of bonds amid tech rout",
@@ -183,10 +235,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html",
       "published_at": "2026-10-15T12:56:38.000Z",
-      "headline_ko": "기술주 약세 속 채권으로의 자금 이동 가속화",
-      "summary_ko": "기술주 하락장 속에서 투자자들이 안전자산인 채권으로 자금을 옮기면서 미국 국채 수익률이 하락했다.",
-      "detail_ko": "기술주 중심의 주식시장 약세가 심화되면서 투자자들의 위험회피 심리가 강해지고 있다. 이에 따라 안전자산으로 인식되는 미국 국채에 대한 수요가 증가하고 있으며, 이는 국채 수익률 하락으로 나타나고 있다. 이러한 자산 재배분은 기술주의 추가 하락 압력으로 작용할 수 있으며, 동시에 금리 인하 기대감을 시장에 반영하는 신호로도 해석될 수 있다.",
-      "impact_ko": "채권으로의 자금 이동 확대는 기술주에 대한 투자 심리를 더욱 위축시킬 수 있으며, 특히 고성장 기술주들의 밸류에이션 압박으로 이어질 가능성이 높다. 또한 국채 수익률 하락은 연방준비제도의 금리 인하 가능성을 시장이 선반영하고 있음을 의미하며, 이는 향후 통화정책 방향에 대한 시장 기대를 변화시킬 수 있다."
+      "headline_ko": "채권 수익률 급락, 기술주 약세 속 안전자산 선호 심화",
+      "summary_ko": "투자자들이 기술주 약세 속 채권으로 자금을 이동시키면서 채권 수익률이 하락했다.",
+      "detail_ko": "채권 수익률 하락은 투자자들의 위험회피 심리 강화를 명확히 보여주는 지표다. 기술주의 높은 밸류에이션에 대한 우려, 금리 인상 가능성, 지정학적 리스크 등이 복합적으로 작용하여 안전자산 선호 현상을 초래했다. 채권 수익률 하락은 고성장주의 현재가치를 상대적으로 낮추는 효과를 가지므로, 기술주 약세를 심화시키는 악순환으로 작용할 수 있다.",
+      "impact_ko": "채권 수익률 하락은 단기적으로 기술주 약세를 지속시킬 수 있으며, 이는 나스닥 지수의 추가 낙폭으로 이어질 수 있다. 안전자산 선호 심화는 금융 시장의 리스크 온/오프 사이클을 강화하여 변동성을 높일 수 있다. 장기적으로는 경기 둔화 우려를 반영하는 신호로 해석될 수 있으며, 이는 기업 실적 전망에 부정적 영향을 미칠 수 있다."
     },
     {
       "headline": "US Treasury pushes global partners to rename AI as 'super intelligence' - Reuters",
@@ -194,54 +246,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNDhRZ0FsM05ZWGFISWtLaXVIam1VcVlxWUY0YlF6NUR1SF9FSnFKQnJwMU5pa2hZUG1ZalVtb1RmY19adW5LSnZhQ1pmNzhtX2tTeE9Lal9LX29iRkZsbHVlcWlLWEw2NW9iaGlrS19odFpadHRSak5VYXFfTWRaaUpjUVp0SEVlb0ZvdTBZLThVcVB0V0JSdEZyZnBrQk05dzgzWUR4Yi0?oc=5",
       "published_at": "2026-10-15T12:35:43.000Z",
-      "headline_ko": "미 재무부, AI를 '초지능'으로 명칭 변경 추진",
-      "summary_ko": "미국 정부가 국제 파트너들과 함께 인공지능(AI)의 명칭을 '초지능(super intelligence)'으로 변경할 것을 제안했다.",
-      "detail_ko": "미 재무부가 AI의 국제적 명칭을 '초지능'으로 통일하자는 제안을 주도하고 있다. 이는 단순한 용어 변경을 넘어 AI 기술의 위상과 영향력을 재정의하려는 정책적 의도로 해석되며, 향후 AI 규제 체계와 국제 협력 방식에 영향을 미칠 수 있다. 이러한 움직임은 미국이 AI 기술 표준화와 국제 규범 형성에서 주도권을 확보하려는 전략의 일환으로 볼 수 있다.",
-      "impact_ko": "AI 명칭 변경 추진은 향후 AI 규제 프레임워크의 국제 표준화에 영향을 미칠 수 있으며, 이는 기술 기업들의 규제 대응 방식을 변화시킬 가능성이 있다. 또한 미국이 AI 정책의 국제적 주도권을 강화하려는 신호로 작용할 수 있으며, 이는 AI 관련 기업들의 정책 리스크 평가에 영향을 줄 수 있다."
-    },
-    {
-      "headline": "Oil shipping costs spike, lifting prices from pump to grocery - Reuters",
-      "summary": "Oil shipping costs spike, lifting prices from pump to grocery  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbHR0bzBmX1E0Y3RlbjBYNTQwY2dUSENTVFJ5ajc5aXo1bjFqWGpyRmVROERicENVczd6RWJSMHRYR3dEVWJKNDdaS25NNXVEQ29xTThlMXVjQk1NRjdyZkkwR3NVaktQYXd0YzZFcEdYbHhDZE1kXzZnY3JQeGpnLWNXRzRxTnV1emlYdS1mOEdTd2JBVTJfSkpHWlZva3g0UUFMNm9ORQ?oc=5",
-      "published_at": "2026-10-15T10:29:59.000Z",
-      "headline_ko": "유가 상승으로 휘발유·식료품 가격까지 연쇄 인상",
-      "summary_ko": "해운료 급등으로 인한 유가 상승이 주유소 휘발유 가격과 식료품 가격까지 상승시키고 있다.",
-      "detail_ko": "국제 해운료의 급등이 원유 수송 비용을 증가시키면서 유가 상승으로 이어지고 있고, 이것이 소비자 물가에 직접적인 영향을 미치고 있다. 해운료 상승은 지정학적 긴장(특히 중동 상황)과 해상 운송로의 불안정성이 주요 원인으로 보이며, 이는 단순히 에너지 가격뿐 아니라 식료품 등 생필품 가격까지 상승시키는 연쇄 효과를 초래하고 있다. 이러한 가격 상승은 인플레이션 압력을 높이고 소비자 구매력을 약화시킬 수 있다.",
-      "impact_ko": "유가와 해운료 상승은 소비자 물가 상승으로 이어져 인플레이션 압력을 높일 수 있으며, 이는 중앙은행의 금리 인상 기대감을 부분적으로 유지시킬 수 있다. 또한 생필품 가격 상승은 저소득층의 실질 구매력을 약화시켜 소비 심리 위축으로 이어질 가능성이 있으며, 이는 경기 둔화 우려를 증폭시킬 수 있다."
-    },
-    {
-      "headline": "COMMENTARY: Oil's long view darkens as Iran war refuses to end - Reuters",
-      "summary": "COMMENTARY: Oil's long view darkens as Iran war refuses to end  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
-      "published_at": "2026-10-15T06:00:00.000Z",
-      "headline_ko": "이란 분쟁 장기화로 유가 전망 악화",
-      "summary_ko": "중동 지역의 이란 관련 분쟁이 해결되지 않으면서 장기적 유가 전망이 부정적으로 변하고 있다.",
-      "detail_ko": "중동 지정학적 긴장, 특히 이란 관련 분쟁이 단기간 내 해결될 가능성이 낮아지면서 국제 유가의 장기적 상승 압력이 지속될 것으로 예상되고 있다. 이는 단기적 유가 변동성뿐 아니라 중장기적 에너지 시장의 불확실성을 높이는 요인으로 작용하며, 글로벌 경제의 에너지 비용 부담을 증가시킬 수 있다. 특히 에너지 수입국들의 인플레이션 압력이 강화될 가능성이 높다.",
-      "impact_ko": "이란 분쟁의 장기화는 국제 유가의 지속적 상승 압력으로 이어져 글로벌 인플레이션을 악화시킬 수 있다. 또한 에너지 비용 상승은 기업들의 실적 압박 요인이 될 수 있으며, 특히 에너지 집약적 산업의 수익성 악화로 이어질 가능성이 있다. 동시에 유가 상승은 에너지 관련 기업들의 실적 개선 기회를 제공할 수 있다."
-    },
-    {
-      "headline": "BoE's Pill says a rate hike need not be start of long series - Reuters",
-      "summary": "BoE's Pill says a rate hike need not be start of long series  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONEUxTUdrNGxTY0Y0LWE3YWNjUk1Nc3FmX1RWRUhDeXVSWTYxcmM5a3czc0g2QkJZcUgtTENRNTVRc2p4d1RXQnRrLU1fTUdhN1JBbF9uWGc4UVVVWFlnLXpUdkRLX050M1RGTk5TUXl3T203VElqeF9IU0J0b3RoWlJHcDNHU2hoeGI4RHE2azhzVlNlYWxVcTZUbDlkcmVL?oc=5",
-      "published_at": "2026-10-15T04:45:00.000Z",
-      "headline_ko": "영국 중앙은행 금리 인상, 장기 인상 사이클 신호 아닐 수 있어",
-      "summary_ko": "영국 중앙은행(BoE)의 Pill 위원이 금리 인상이 반드시 장기 인상 사이클의 시작을 의미하지는 않을 수 있다고 언급했다.",
-      "detail_ko": "영국 중앙은행의 정책 담당자가 최근 금리 인상 결정이 지속적인 인상 사이클의 시작이 아닐 수 있다는 신호를 보내고 있다. 이는 글로벌 경제의 불확실성과 인플레이션 전망의 변동성을 감안한 신중한 정책 입장으로 해석되며, 향후 금리 경로가 시장 기대와 다를 수 있음을 시사한다. 이러한 발언은 영국 파운드화와 영국 채권 시장에 영향을 미칠 수 있다.",
-      "impact_ko": "BoE의 신중한 입장은 향후 금리 인상 속도가 시장 기대보다 완만할 수 있음을 시사하며, 이는 파운드화 약세 압력으로 이어질 수 있다. 또한 영국 채권 수익률의 상승 모멘텀이 제한될 가능성이 있으며, 이는 글로벌 금리 환경의 불확실성을 높일 수 있다."
-    },
-    {
-      "headline": "Oil prices ease as investors weigh supply outlook, Middle East tensions - Reuters",
-      "summary": "Oil prices ease as investors weigh supply outlook, Middle East tensions  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOakIxN2pXRENBSjFMY1Rtc00zZG84UUVERE54NFBReWdoV2VJMHRpMFlZdzdSLXdzaEFOOEQwbFp5TG44Mk5wMFZyLVdPOTNpNG5nRlY5Q1lITWFlSjZ1RXdBMDdoRTQ1LTdrMy0zQVJlTThsUUJ2anBxWDNLWkpyV3lUbm5VMm5KMVJybkNpTVJuTGl6bTJia0t5UjE1UHNIclJFQUVRZ0FnektCZWxnSXNGc1VSdlhXM2RZ?oc=5",
-      "published_at": "2026-10-15T01:30:00.000Z",
-      "headline_ko": "유가, 공급 전망과 중동 긴장 사이에서 등락",
-      "summary_ko": "국제 유가가 석유 공급 전망과 중동 지정학적 긴장 사이에서 등락을 반복하고 있다.",
-      "detail_ko": "유가는 글로벌 석유 공급 전망의 개선 신호와 중동 긴장 고조로 인한 공급 차질 우려 사이에서 방향성을 잃고 있다. 이는 단기적으로는 공급 측 요인과 지정학적 리스크가 상충하면서 변동성이 높아지고 있음을 의미하며, 시장 참여자들의 불확실성이 높아지고 있음을 반영한다. 유가의 방향성 결정은 향후 중동 상황 전개와 OPEC+ 정책 결정에 크게 좌우될 것으로 보인다.",
-      "impact_ko": "유가의 불확실성 확대는 에너지 관련 기업들의 실적 예측을 어렵게 만들 수 있으며, 이는 해당 섹터의 밸류에이션 압박으로 이어질 수 있다. 또한 유가 변동성 증가는 인플레이션 전망의 불확실성을 높여 중앙은행의 정책 결정을 복잡하게 만들 수 있으며, 이는 글로벌 금융시장의 변동성 확대로 이어질 가능성이 있다."
+      "headline_ko": "미국 재무부, 글로벌 파트너들에 AI를 '초지능'으로 명칭 변경 촉구",
+      "summary_ko": "미국 재무부가 국제 파트너들에게 AI 용어를 '초지능(super intelligence)'으로 변경할 것을 제안했다.",
+      "detail_ko": "이는 AI 기술의 영향력과 중요성에 대한 미국의 인식 변화를 반영하는 상징적 움직임이다. '초지능'이라는 용어는 AI의 변혁적 잠재력을 강조하면서도, 동시에 그에 따른 리스크와 규제 필요성을 암시한다. 미국이 글로벌 AI 거버넌스 논의를 주도하려는 의도로 해석되며, 이는 AI 산업에 대한 규제 강화 가능성을 시사한다.",
+      "impact_ko": "용어 변경 제안은 AI에 대한 국제적 규제 논의 강화로 이어질 수 있으며, 이는 AI 기업들의 사업 환경 불확실성을 높일 수 있다. AI 관련 기업들에 대한 규제 리스크 인식 증대는 투자자들의 기술주 평가를 보수적으로 만들 수 있다. 동시에 AI의 변혁적 잠재력에 대한 강조는 장기적 성장성에 대한 기대를 유지할 수 있으나, 단기적으로는 규제 불확실성이 우선할 수 있다."
     }
   ],
   "calendar": [
