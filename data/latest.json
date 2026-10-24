@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:10:55.034Z",
+  "generated_at": "2026-10-24T23:54:54.236Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,70 +62,70 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 81021,
-        "change_pct": -0.21853
+        "price": 80832,
+        "change_pct": -0.32541
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2383.11,
-        "change_pct": 0.0152
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 738.3,
-        "change_pct": 1.17136
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.329797,
-        "change_pct": 0.46812
-      },
-      {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999722,
-        "change_pct": 0.02055
-      },
-      {
-        "symbol": "USDT",
-        "name": "Tether",
-        "price": 0.999167,
-        "change_pct": 0.01884
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.69,
-        "change_pct": -3.79277
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1181.63,
-        "change_pct": -2.89518
+        "price": 2356.74,
+        "change_pct": -1.14179
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 584.79,
-        "change_pct": -2.03944
+        "price": 615.08,
+        "change_pct": 5.21021
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 8.93,
-        "change_pct": -1.15638
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.063,
+        "change_pct": 4.14735
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1208.26,
+        "change_pct": 2.26787
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.00832082,
+        "change_pct": 1.46268
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 11.62,
+        "change_pct": -1.68107
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.207944,
+        "change_pct": -1.20048
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.077631,
+        "change_pct": -1.1965
+      },
+      {
+        "symbol": "WBT",
+        "name": "WhiteBIT Coin",
+        "price": 77.93,
+        "change_pct": -1.05678
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 광범위한 낙폭을 기록했다. S&P 500 ETF(SPY)가 -0.52% 하락했고, 특히 대형 기술주들이 약세를 보였는데, 이는 AI 관련 우려와 금리 전망 변화가 복합적으로 작용한 것으로 해석된다. 10년물 국채 수익률이 5% 수준으로 하락하면서 고금리 기조가 완화될 가능성이 제기되고 있다.",
-      "마이크로소프트(MSFT)가 +0.66% 상승하며 유일하게 강세를 보인 대형주인 반면, 엔비디아(NVDA)는 -0.59%, 구글(GOOGL)은 -1.24%, 메타(META)는 -0.96% 하락했다. AI 산업 전반에 대한 수익성 우려가 고점 기술주들을 압박하는 가운데, 마이크로소프트는 상대적으로 기업용 클라우드 사업의 안정성이 평가받은 것으로 보인다.",
-      "암호화폐 시장에서는 비트코인(BTC)이 -0.22% 소폭 하락하며 위험자산 회피 심리를 반영했고, 프라이버시 코인인 지캐시(ZEC)와 모네로(XMR)가 각각 -2.90%, -2.04% 하락했다. 반면 BNB(+1.17%)와 트론(TRX, +0.47%)은 소폭 상승했는데, 이는 규제 리스크가 상대적으로 낮은 블록체인 플랫폼 토큰들이 시장 조정 국면에서 방어적 수요를 받은 것으로 해석된다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 광범위한 낙폭을 기록했다. S&P 500 ETF(SPY)가 -0.52% 하락했고, 특히 대형 기술주들이 동반 약세를 보이며 시장 전반의 약세를 주도했다. 이는 AI 관련 우려와 거시경제 불확실성이 복합적으로 작용한 결과로 해석된다.",
+      "마이크로소프트(MSFT)가 +0.66%로 유일하게 상승세를 유지한 가운데, 나머지 빅테크 종목들은 모두 하락했다. 특히 엔비디아(NVDA, -0.59%), 테슬라(TSLA, -0.63%), 아마존(AMZN, -0.95%), 알파벳(GOOGL, -1.24%), 메타(META, -0.96%)가 큰 낙폭을 기록했는데, 이는 AI 산업에 대한 투자자 우려와 기술주 밸류에이션 재평가 압력으로 보인다.",
+      "암호화폐 시장에서는 프라이버시 코인들이 눈에 띄는 강세를 보였다. 모네로(XMR)가 +5.21%, 지캐시(ZEC)가 +2.27% 상승했는데, 이는 규제 불확실성 속에서 프라이버시 보호 기능을 갖춘 자산에 대한 수요 증가로 해석된다. 반면 비트코인(BTC, -0.33%), 이더리움(ETH, -1.14%), 체인링크(LINK, -1.68%)는 약세를 보이며 광범위한 위험자산 회피 심리가 반영된 것으로 보인다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
@@ -134,7 +134,7 @@
         "price": 524.51,
         "change_pct": 0.6582,
         "type": "stock",
-        "reason_ko": "AI 우려 속 기업용 클라우드 안정성 평가"
+        "reason_ko": "빅테크 중 유일 상승, 상대적 강세"
       },
       {
         "symbol": "GOOGL",
@@ -142,29 +142,92 @@
         "price": 320.21,
         "change_pct": -1.2368,
         "type": "stock",
-        "reason_ko": "광고 수익성 우려로 대형주 중 최대 낙폭"
+        "reason_ko": "AI 우려로 대형주 중 최대 낙폭"
       },
       {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 738.3,
-        "change_pct": 1.17136,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 615.08,
+        "change_pct": 5.21021,
         "type": "crypto",
-        "reason_ko": "규제 리스크 낮은 플랫폼 토큰 방어 수요"
+        "reason_ko": "프라이버시 코인 수요 증가"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1208.26,
+        "change_pct": 2.26787,
+        "type": "crypto",
+        "reason_ko": "규제 불확실성 속 프라이버시 자산 선호"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - Reuters",
+      "summary": "Houthis say they targeted Saudi oil sites; attacks reported in Aden  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
+      "published_at": "2026-10-24T19:24:39.000Z",
+      "headline_ko": "후티군, 사우디 유전 시설 공격 주장…아덴 지역 공격 보도",
+      "summary_ko": "예멘의 후티군이 사우디아라비아의 석유 시설을 목표로 공격을 감행했다고 주장했으며, 아덴 지역에서의 공격도 보도되었다.",
+      "detail_ko": "중동 지정학적 긴장이 고조되면서 주요 석유 생산국인 사우디아라비아의 에너지 인프라가 직접적인 위협에 노출되었다. 후티군의 공격은 홍해 지역의 해상 운송로 불안정성과 맞물려 글로벌 에너지 공급망에 대한 우려를 증폭시키고 있다. 이러한 지정학적 리스크는 유가 변동성을 높이는 주요 요인으로 작용하고 있다.",
+      "impact_ko": "사우디 유전 시설에 대한 공격 위협은 단기적으로 유가 상승 압력으로 이어질 수 있다. 중동 지역의 불안정성이 지속될 경우 글로벌 석유 공급 차질 우려가 커질 수 있으며, 이는 에너지 수입국들의 인플레이션 압력을 높일 가능성이 있다. 또한 에너지 관련 주식과 상품 시장의 변동성 확대로 이어질 수 있다."
+    },
+    {
+      "headline": "I quit my marketing job to walk dogs for 4 months: It's 'one of the most valuable professional experiences I've ever had'",
+      "summary": "\"People sometimes assume dog walking was a gap or detour in my career. I see it as one of the most valuable professional experiences I've had,\" says Sally Simmons.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
+      "published_at": "2026-10-24T14:36:01.000Z",
+      "headline_ko": "마케팅 직장 그만두고 4개월간 개 산책 대행…\"경력상 가장 소중한 경험\"",
+      "summary_ko": "한 마케팅 전문가가 경력을 잠시 중단하고 개 산책 대행 일을 4개월간 경험했으며, 이를 자신의 경력에서 가장 가치 있는 시간이라고 평가했다.",
+      "detail_ko": "이 사례는 현대 직업인들의 경력 개발에 대한 인식 변화를 보여준다. 전통적으로 경력 단절이나 다른 업종으로의 전환은 부정적으로 평가되었지만, 새로운 세대의 전문가들은 다양한 경험을 통한 개인적 성장과 업무 외 가치를 중시하는 경향을 보이고 있다. 이는 일과 삶의 균형, 그리고 경력 개발의 다양한 경로에 대한 재평가를 반영한다.",
+      "impact_ko": "이러한 트렌드가 확산될 경우 노동시장의 유연성이 증가하고 인재 유동성이 높아질 수 있다. 기업들은 비전통적 경력 경로를 가진 인재들을 더 개방적으로 평가하게 될 가능성이 있으며, 이는 채용 및 인사 관리 방식의 변화로 이어질 수 있다. 또한 개인의 웰빙과 경력 만족도를 중시하는 기업 문화 확산으로 이어질 수 있다."
+    },
+    {
+      "headline": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races - Reuters",
+      "summary": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWk5FamNJdG52SWx6b2FvaS1zcEFZZUJkbl9Kdl9DS2g2bGZadUJTcUZoMy03VWNrRlMtVFNnc2Q5clJJNVZ5eldDendydEU5b1lndTQ5TXViQW9uN2tTN185S1FkWnV3UHZxZkwtZE5zb0hZYm43ZG5sMHpIYWNGejQ3OWFNSjBjYUZfeEVoN1FvNk9zMmNDdEFrczJ1OEpadEM2U2RmdmtMMy1xUl9DWTkwVWd1ZFNIZjZ2Wg?oc=5",
+      "published_at": "2026-10-24T13:07:40.000Z",
+      "headline_ko": "겨울 난방유 부족 우려…미국 상원 공화당 후보들의 골칫거리로 부상",
+      "summary_ko": "겨울 시즌을 앞두고 난방유 공급 부족 문제가 미국 상원 선거에서 공화당 후보들에게 정치적 이슈로 떠올랐다.",
+      "detail_ko": "북동부 지역을 중심으로 난방유 수급 불안정성이 정치적 쟁점화되고 있다. 에너지 가격 상승과 공급 차질은 저소득층과 중산층 가정의 생활비 부담을 직접적으로 증가시키는 요인이 되며, 이는 선거 시즌에 정치인들의 에너지 정책에 대한 책임 추궁으로 이어지고 있다. 난방유는 겨울철 필수 에너지이기 때문에 공급 문제는 유권자들의 실질적 관심사가 되고 있다.",
+      "impact_ko": "난방유 공급 부족이 심화될 경우 겨울철 에너지 가격 상승으로 이어져 소비자 물가 지수에 영향을 미칠 수 있다. 에너지 정책이 선거의 주요 쟁점이 될 경우 향후 에너지 규제 및 지원 정책의 방향성이 변할 가능성이 있다. 또한 에너지 관련 기업들의 실적과 정책 리스크에 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "UAE's Ras Al Khaimah shuts all beaches as neighbours grapple with oil spill - Reuters",
+      "summary": "UAE's Ras Al Khaimah shuts all beaches as neighbours grapple with oil spill  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeDMwaHJxZFNJTlFkYnB5UDY2SEdRcnRvdGRMSUNDR0I3cmhHT0xkTHQ4QjR5d241bnMtTm44UFIzdTZJYUJwcXZTcVFwN2FSVm80aTBWNmpXQVhrSTdtMnZHbWJiZTV1WFl1cGVyOHlJSmZ2d3gxZ0ZpTkpVOW0xTWFrNEFlTDczUGY1TVl0SmVKSVQ5cnN3S2NhU2dwZGZuYldJZDB3WWpaQTYzQ1RQeUdqNS1acnNqY002emRQMHV0TFU?oc=5",
+      "published_at": "2026-10-24T12:45:43.000Z",
+      "headline_ko": "UAE 라스알카이마, 유류 유출로 모든 해변 폐쇄",
+      "summary_ko": "아랍에미리트의 라스알카이마 지역이 인근 유류 유출 사고로 인해 모든 해변을 폐쇄했다.",
+      "detail_ko": "중동 지역에서 발생한 유류 유출 사고는 환경 오염뿐 아니라 해양 생태계와 관광산업에 직접적인 영향을 미치고 있다. UAE는 관광과 석유 산업이 경제의 중요한 축인 만큼, 이러한 환경 사고는 경제적 손실로 이어질 수 있다. 또한 중동 지역의 에너지 인프라 안정성에 대한 우려를 증폭시키고 있다.",
+      "impact_ko": "유류 유출 사고는 해양 환경 오염으로 인한 장기적 복구 비용을 초래할 수 있다. 관광 산업 차질로 인해 UAE의 관광 관련 기업들의 실적 악화로 이어질 수 있으며, 환경 규제 강화 압력이 높아질 가능성이 있다. 또한 중동 지역의 에너지 인프라 안전성에 대한 투자자 우려가 증가하면서 관련 기업들의 평가에 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "US authorizes emergency release of up to 400,000 oil barrels from strategic reserve - Reuters",
+      "summary": "US authorizes emergency release of up to 400,000 oil barrels from strategic reserve  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN09NY3ROanZFXzE0MUt5cTZmYkozTFNRNng5X0tUUkhHeENpY3oxTlBYVG5HWmdVdnhYcFhmZnhaRTlxWlZMRXZmczNqZTRUbzlJWnJ3WFVURmJORklmeVd0WG03VzY1VVl3THUwT0pxTUNXQVRiLWFFSUU4ZnFKZXdjZHhzNXItQ0NWb1Y3N3NERW1IUHkyMjRoclBqRXZyN1dMVTZRblB6TGFXZTZuQ1hmb1lCeUtOQkhKY0RjdEE?oc=5",
+      "published_at": "2026-10-23T16:23:02.000Z",
+      "headline_ko": "미국, 전략비축유 최대 40만 배럴 긴급 방출 승인",
+      "summary_ko": "미국 정부가 전략석유비축량(SPR)에서 최대 40만 배럴을 긴급으로 방출하는 것을 승인했다.",
+      "detail_ko": "미국의 전략석유비축 방출은 시장의 유가 상승 압력을 완화하기 위한 정책 개입이다. 이는 후티군의 공격, 유류 유출 등으로 인한 공급 차질 우려에 대응하는 조치로 해석된다. 정부의 비축유 방출은 단기적으로 유가 안정화를 목표로 하지만, 장기적으로는 전략비축량 감소로 이어져 향후 에너지 안보에 영향을 미칠 수 있다.",
+      "impact_ko": "긴급 방출은 단기적으로 유가 상승을 억제하는 효과를 가져올 수 있으며, 이는 소비자 물가 안정화에 긍정적으로 작용할 수 있다. 다만 비축량 감소는 향후 공급 차질 시 정부의 대응 능력을 제한할 수 있다. 또한 이러한 정책 개입은 에너지 시장의 변동성을 높일 수 있으며, 투자자들의 유가 전망에 영향을 미칠 수 있다."
+    },
     {
       "headline": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
       "summary": "U.S. Treasury yields edged higher on Friday following a sharp reversal on Thursday.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
       "published_at": "2026-10-23T12:12:18.000Z",
-      "headline_ko": "10년물 국채 수익률 5%로 하락, AI 우려 속 안전자산 선호",
-      "summary_ko": "미국 10년물 국채 수익률이 이번 주 5% 수준으로 내려앉으며 투자자들이 AI 관련 불확실성으로부터 벗어나기 위해 안전자산으로 몰려들고 있다.",
-      "detail_ko": "금리 시장의 이러한 움직임은 기술주 중심의 시장 조정과 맞물려 있다. 고금리 환경에서 수익성이 불확실한 AI 관련 기업들의 밸류에이션이 압박받고 있으며, 투자자들이 이에 대응해 채권 같은 저위험 자산으로 자금을 이동시키고 있는 상황이다. 이는 향후 연방준비제도의 금리 인하 가능성에 대한 시장의 기대감을 반영하는 신호로도 볼 수 있다.",
-      "impact_ko": "금리 하락 추세가 지속될 경우 고성장 기술주의 상대적 매력도가 회복될 수 있으나, 단기적으로는 AI 산업의 실적 증명 부재로 인한 조정 압력이 계속될 가능성이 있다. 또한 금리 인하 시나리오는 경기 둔화 우려를 내포하고 있어 광범위한 주식시장 약세로 이어질 수도 있다."
+      "headline_ko": "AI 우려 속 10년물 미국채 수익률 이번 주 5% 수준으로 하락",
+      "summary_ko": "투자자들이 AI 관련 우려로 안전자산을 찾으면서 10년물 미국채 수익률이 이번 주 5% 수준으로 내려왔다.",
+      "detail_ko": "기술주 중심의 시장 약세와 AI 산업에 대한 투자자 우려가 채권 시장으로 자금을 몰아주고 있다. 위험자산 회피 심리가 강해지면서 안전자산인 미국채에 대한 수요가 증가하고 있으며, 이는 채권 수익률 하락으로 나타나고 있다. 목요일의 급락 이후 금요일에 일부 반등했지만, 전반적인 추세는 여전히 약세를 보이고 있다.",
+      "impact_ko": "채권 수익률 하락은 차입 비용 감소로 이어져 기업과 소비자의 금융 부담을 완화할 수 있다. 다만 금리 인하 기대감이 커질 경우 달러 약세로 이어질 수 있으며, 이는 신흥시장 자산에 긍정적으로 작용할 수 있다. 또한 채권 수익률 하락은 주식 시장의 밸류에이션 재평가 신호로 해석될 수 있어 향후 시장 변동성이 높아질 가능성이 있다."
     },
     {
       "headline": "Ready for a French test?: Five questions for the ECB - Reuters",
@@ -172,10 +235,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYzdOb3ZsTEpLWVVjaDN3M3kteFA1STBOWXhoVl9zRnZSc0wyZ3FqdktabVdwdDliNE9wQzB5cWtLMFhVeHF6Vy16Z1duRF9pUmRyLUZjcnRtRTFJSDg1a0pkb1ZVX2pUVm1ZQXZjRzJZR1cyejhYMG9lTzRmZW1MMDA5WVlTQ3FqUDJEOUhvN2F4SVU?oc=5",
       "published_at": "2026-10-23T04:06:00.000Z",
-      "headline_ko": "ECB, 프랑스 경제 위기에 직면한 정책 과제 검토",
-      "summary_ko": "유럽중앙은행(ECB)이 프랑스의 경제적 도전에 대응하기 위한 정책 방향을 재검토하고 있다.",
-      "detail_ko": "프랑스는 유로존 내 두 번째 규모의 경제이자 ECB의 정책 결정에 중요한 영향을 미치는 국가다. 현재 프랑스가 직면한 경제적 어려움은 유로존 전체의 통화정책 기조에 영향을 미칠 수 있으며, ECB는 이를 고려해 금리 인하나 유동성 공급 등의 정책 수단을 검토하고 있을 것으로 보인다. 이는 미국의 금리 인하 기조와 맞물려 글로벌 금리 사이클의 전환을 시사한다.",
-      "impact_ko": "ECB의 정책 완화가 가시화될 경우 유로화 약세로 이어져 유럽 수출 기업들의 경쟁력이 개선될 수 있다. 반면 유로존 내 경제 약세가 심화되면 글로벌 경기 둔화 우려가 커져 위험자산 회피 심리가 강화될 가능성이 있다."
+      "headline_ko": "ECB를 위한 다섯 가지 질문…프랑스 경제 테스트 준비",
+      "summary_ko": "유럽중앙은행(ECB)이 프랑스 경제 상황에 대한 테스트에 직면하고 있으며, 이와 관련해 다섯 가지 핵심 질문이 제기되고 있다.",
+      "detail_ko": "유로존 최대 경제 규모를 가진 프랑스의 경제 상황이 ECB의 통화정책 결정에 중요한 변수로 작용하고 있다. 프랑스의 경제 성장, 인플레이션, 고용 상황 등이 ECB의 금리 정책 방향을 결정하는 데 영향을 미치고 있다. 이는 유로존 전체의 경제 안정성과 통화정책의 효과성을 판단하는 데 중요한 지표가 된다.",
+      "impact_ko": "프랑스 경제 상황이 악화될 경우 ECB의 금리 인하 압력이 높아질 수 있으며, 이는 유로 약세로 이어질 가능성이 있다. 유로존의 경제 분화가 심화될 경우 통화정책의 효과성에 대한 의문이 제기될 수 있다. 또한 프랑스 경제의 불확실성은 유럽 주식시장과 채권시장의 변동성을 높일 수 있다."
     },
     {
       "headline": "Oil prices jump $3 on Houthi attacks, oil spill, highest settlement since April - Reuters",
@@ -183,65 +246,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5",
       "published_at": "2026-10-23T01:04:00.000Z",
-      "headline_ko": "유가 배럴당 $3 급등, 후티 공격과 유출 사고로 최고가 경신",
-      "summary_ko": "홍해의 후티 공격과 유류 유출 사고로 인해 유가가 4월 이후 최고 수준으로 급등했다.",
-      "detail_ko": "후티 무장단체의 해상 공격은 글로벌 석유 공급망의 지정학적 리스크를 상징한다. 홍해 해상 운송로의 불안정성이 심화되면서 유류 운송 비용과 보험료가 상승하고 있으며, 이는 유가 상승 압력으로 작용하고 있다. 동시에 유류 유출 사고는 단기적인 공급 차질을 야기해 가격 상승을 가속화하는 요인이 되고 있다.",
-      "impact_ko": "유가 상승은 에너지 관련 기업들의 수익성을 개선시킬 수 있으나, 광범위한 인플레이션 압력으로 작용해 중앙은행의 금리 인하 일정을 지연시킬 가능성이 있다. 또한 운송비 상승은 소비재 가격 인상으로 이어져 소비자 물가 상승률을 높일 수 있다."
-    },
-    {
-      "headline": "US regulator is probing suspicious Iran oil trading, official says - Reuters",
-      "summary": "US regulator is probing suspicious Iran oil trading, official says  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPem1fOEZ2aU10cDBTVHhDUXFuN3ZTU1l3ZXR4dkpMUUNCazJDMEk4V0UxT01nZ2tNckxuTllmYXhNeUlhSTQzbzg5dHN2aVNjMUpnNnU0T2FJWmNtTGZ4ZTg0UXNjRFhReHlDbThZalczOHdVZFBKLU9pVEp3YTBTS096QUdKVm4tbTdlQzJSYWQ5eGhDZ05FSjJJWFhNYkt2dHZERzg1Zmltc2xKUkd1UjBXUEpTdjNC?oc=5",
-      "published_at": "2026-10-22T21:31:43.000Z",
-      "headline_ko": "미국 규제당국, 이란 석유 거래 의혹 조사 착수",
-      "summary_ko": "미국 규제 당국이 의심스러운 이란 석유 거래에 대한 조사를 시작했다.",
-      "detail_ko": "이는 미국의 이란 제재 정책 강화를 시사하는 신호다. 이란 석유의 불법 거래 적발은 글로벌 석유 공급망에서 이란산 저가 석유의 유통을 제한하려는 의도로 해석된다. 만약 조사가 광범위한 거래 네트워크를 적발할 경우, 이란산 석유 공급이 더욱 축소되어 유가 상승 압력이 강화될 수 있다.",
-      "impact_ko": "이란 석유 거래 제재 강화는 글로벌 석유 공급을 더욱 제한해 유가 상승으로 이어질 가능성이 높다. 이는 에너지 수입국들의 인플레이션 압력을 높이고, 특히 아시아 지역의 경제 성장에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Trump invokes Cold War-era Defense Production Act for oil production, refining - Reuters",
-      "summary": "Trump invokes Cold War-era Defense Production Act for oil production, refining  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdm9ka0hnal9OOUFnN19HQmRZd0ljY2tJOVNoN2tIWURrMHExZ0p0NWN0UEpTMmFORG1TTU1CeXZkb3RhenhtelltYVY2SmRyZEctMnRIcUNEQlFXODdsZGxBMXhpem81NjJwRjRCbVl1N2tyWVkxeXU0T2k3ZEttNk5lbzZCVzRrUEtwT3JPTlJiUUVmSjU4b25EaXNIQ3dyS3c3NlJUSkFBdWZSMDFZVmZ1dmhncGFIYjNQU0tOd1I5dFk?oc=5",
-      "published_at": "2026-10-22T21:14:00.000Z",
-      "headline_ko": "트럼프, 냉전시대 법안 발동해 석유 생산·정제 확대 추진",
-      "summary_ko": "트럼프 행정부가 국방생산법(Defense Production Act)을 발동해 미국의 석유 생산과 정제 능력 확대를 강제하고 있다.",
-      "detail_ko": "국방생산법은 국가 안보 위기 상황에서 정부가 민간 기업의 생산을 통제할 수 있는 권한을 부여하는 냉전시대 법안이다. 트럼프 행정부가 이를 에너지 정책에 적용한 것은 미국의 에너지 자립도를 높이려는 전략적 의도를 반영한다. 이는 후티 공격으로 인한 해상 운송 리스크와 이란 제재로 인한 공급 불안정성에 대응하기 위한 조치로 보인다.",
-      "impact_ko": "미국의 석유 생산 확대는 중기적으로 글로벌 유가 상승 압력을 완화시킬 수 있으나, 단기적으로는 생산 시설 증설에 따른 투자 비용 증가로 이어질 수 있다. 또한 정부의 에너지 산업 개입 강화는 시장 메커니즘을 왜곡할 수 있어 에너지 기업들의 투자 의사결정에 불확실성을 야기할 수 있다."
-    },
-    {
-      "headline": "US Treasury drops Venezuela from countries facing outbound US investment restrictions - Reuters",
-      "summary": "US Treasury drops Venezuela from countries facing outbound US investment restrictions  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHpQWm5nQmJpYnlpNkloZEdBcWdKYmV2dkhOcFhuVEdtVUJBNlo4bVFZSkM0NmNVb3N3WEJ0QjYzekhrOEFvVmgzaEMtTUxtVnBpd0VIZm83RFpPOXpPV3FpVmtmZzNfRWphcjkwNURkMnk4MkhSQVI2NDgzRjFveWg3ang0VFlQY0thTzVybzdkYWRSeFUxdDYzMjBWU2k3UU1HamdFRVoySEJYeFJYd0h5X3hrY1l0dEtXelpCNA?oc=5",
-      "published_at": "2026-10-22T21:05:43.000Z",
-      "headline_ko": "미국 재무부, 베네수엘라를 해외 투자 제한 국가 명단에서 제외",
-      "summary_ko": "미국 재무부가 베네수엘라를 미국 기업의 해외 투자 제한 대상국 목록에서 삭제했다.",
-      "detail_ko": "이는 미국의 베네수엘라 정책에 있어 제재 완화의 신호로 해석될 수 있다. 베네수엘라는 세계 최대 규모의 석유 매장량을 보유한 국가로, 제재 완화는 미국 기업들의 베네수엘라 석유 자원에 대한 접근성을 높일 수 있음을 의미한다. 이는 글로벌 석유 공급 확대를 통해 유가 안정화를 도모하려는 전략적 움직임으로 보인다.",
-      "impact_ko": "베네수엘라 제재 완화는 장기적으로 글로벌 석유 공급을 증가시켜 유가 하락 압력으로 작용할 수 있다. 다만 베네수엘라의 석유 생산 인프라 복구에는 상당한 시간이 소요될 것으로 예상되므로, 단기적인 유가 영향은 제한적일 가능성이 높다."
-    },
-    {
-      "headline": "Citi sees oil risks skewed to upside despite recovery in Gulf exports - Reuters",
-      "summary": "Citi sees oil risks skewed to upside despite recovery in Gulf exports  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakVZV3hhS1BtQ2puTC1WcVZBYXo2bEI3bE0xaS1keVpmVkduLTBFT2tvSkRiSUk3RTA2dDBXd3o5TDk1VjFJNFpWN2xXdmZGby1UWWl2MkFxMDZJd056WnpmRU1IUXhWaXZiR2JzWkQwaFBvcC04MGZjUUd6THZTd0c2TmZ4YjlwUHVxeWR6bzRnSDV6VW5jNDlDRDgyaTFoclFnQi02aXZUZnJKa1Q1OTlkaVdlQQ?oc=5",
-      "published_at": "2026-10-22T14:37:44.000Z",
-      "headline_ko": "씨티, 걸프만 수출 회복에도 유가 상승 리스크 지속 전망",
-      "summary_ko": "씨티그룹이 중동 걸프만 지역의 석유 수출이 회복되고 있음에도 불구하고 유가 상승 리스크가 계속될 것으로 예측했다.",
-      "detail_ko": "이는 공급 측면의 회복에도 불구하고 수요 측면이나 지정학적 리스크가 유가를 지탱할 것이라는 분석이다. 후티 공격으로 인한 해상 운송 불안정성, 이란 제재로 인한 공급 차질, 그리고 글로벌 경기 회복에 따른 수요 증가 등이 복합적으로 작용할 것으로 보인다. 씨티의 이러한 전망은 단순한 공급 회복만으로는 유가 안정화가 어려울 수 있음을 시사한다.",
-      "impact_ko": "유가 상승 리스크가 지속될 경우 에너지 비용 상승으로 인한 인플레이션 압력이 강화되어 중앙은행의 금리 인하 일정이 지연될 수 있다. 또한 높은 유가는 운송비 상승을 통해 소비재 물가를 상승시켜 소비자 구매력을 약화시킬 가능성이 있다."
-    },
-    {
-      "headline": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
-      "summary": "Initial filings for unemployment insurance slipped to a seasonally adjusted 194,000.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
-      "published_at": "2026-10-22T13:21:27.000Z",
-      "headline_ko": "실업 청구 건수 1960년대 이후 최저 수준, 고용 시장 강세 지속",
-      "summary_ko": "초기 실업 청구 건수가 계절 조정 기준 194,000건으로 하락해 1960년대 이후 최저 수준을 기록했다.",
-      "detail_ko": "이는 미국 노동시장의 강한 회복력을 보여주는 지표다. 기업들이 인력 감축을 최소화하고 있으며, 이는 경기 둔화 우려에도 불구하고 고용 시장이 여전히 견고함을 의미한다. 다만 이러한 저실업률은 임금 상승 압력을 야기할 수 있어 인플레이션 완화에 장애물이 될 수 있다.",
-      "impact_ko": "강한 고용 시장은 소비 수요를 지탱해 경기 둔화를 완화시킬 수 있으나, 동시에 임금 상승으로 인한 인플레이션 재가속 리스크를 높일 수 있다. 이는 연방준비제도의 금리 인하 속도를 제한하는 요인으로 작용할 가능성이 있다."
+      "headline_ko": "유가 3달러 급등…후티 공격·유류 유출로 4월 이후 최고 수준",
+      "summary_ko": "후티군의 공격과 유류 유출 사고로 유가가 3달러 상승하여 4월 이후 최고 수준을 기록했다.",
+      "detail_ko": "중동의 지정학적 긴장과 환경 사고가 복합적으로 작용하면서 유가가 급등했다. 후티군의 공격으로 인한 공급 차질 우려와 UAE의 유류 유출로 인한 환경 문제가 시장의 공급 불안감을 증폭시켰다. 유가가 4월 이후 최고 수준까지 올라온 것은 이러한 지정학적 리스크와 공급 측 우려가 상당히 심각한 수준임을 시사한다.",
+      "impact_ko": "유가 상승은 에너지 수입국들의 인플레이션 압력을 높일 수 있으며, 이는 중앙은행의 금리 인상 기대감으로 이어질 수 있다. 에너지 관련 기업들의 실적 개선으로 이어질 수 있지만, 에너지 비용 증가로 인한 산업 전반의 수익성 악화 우려도 제기될 수 있다. 또한 유가 변동성 확대는 상품 시장과 주식시장의 변동성을 높일 수 있다."
     }
   ],
   "calendar": [
