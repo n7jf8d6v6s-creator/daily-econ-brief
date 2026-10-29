@@ -1,178 +1,225 @@
 {
-  "generated_at": "2026-10-28T00:52:02.038Z",
+  "generated_at": "2026-10-29T01:28:30.694Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 347.1,
-        "change_pct": 0.9276
+        "price": 343.83,
+        "change_pct": -0.9421
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 531.33,
-        "change_pct": -0.2385
+        "price": 531.01,
+        "change_pct": -0.0602
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 217.94,
-        "change_pct": 0.8981
+        "price": 215.38,
+        "change_pct": -1.1746
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 407.46,
-        "change_pct": 4.0447
+        "price": 404.22,
+        "change_pct": -0.7952
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 253.1,
-        "change_pct": 1.6099
+        "price": 254.6,
+        "change_pct": 0.5927
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 320.58,
-        "change_pct": 1.1932
+        "price": 324.89,
+        "change_pct": 1.3444
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 620.19,
-        "change_pct": -1.6446
+        "price": 612.49,
+        "change_pct": -1.2416
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 769.66,
-        "change_pct": 0.5605
+        "price": 772.31,
+        "change_pct": 0.3443
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 721.25,
-        "change_pct": 1.2707
+        "price": 725.61,
+        "change_pct": 0.6045
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 80630,
-        "change_pct": 0.67615
+        "price": 80812,
+        "change_pct": 0.10499
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2342.46,
-        "change_pct": 0.82069
+        "price": 2342.95,
+        "change_pct": -0.18845
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1298.12,
-        "change_pct": 5.42538
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.67,
-        "change_pct": 4.31413
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 81.41,
-        "change_pct": 3.61888
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 11.56,
-        "change_pct": 1.72539
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.03,
-        "change_pct": -0.60141
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 602.86,
-        "change_pct": -0.33609
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.205332,
-        "change_pct": -0.31648
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.46,
+        "change_pct": 4.59669
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price": 741.9,
-        "change_pct": -0.20523
+        "price": 753.55,
+        "change_pct": 1.35238
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 11.71,
+        "change_pct": 0.96207
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.079272,
+        "change_pct": 0.36383
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 79.91,
+        "change_pct": -2.4192
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.203917,
+        "change_pct": -1.01463
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.32,
+        "change_pct": -0.99274
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 595.51,
+        "change_pct": -0.92725
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 연방준비제도(Fed) 금리 결정과 기술주 실적 발표를 앞두고 혼조세를 보였다. S&P 500과 나스닥100 ETF가 소폭 상승했으나, 메타는 약 1.6% 하락하며 기술주 내에서도 선별적 움직임이 나타났다.",
-      "테슬라(+4.04%), 애플(+0.93%), 엔비디아(+0.90%), 아마존(+1.61%)이 상승세를 주도했으며, 이는 다가오는 기술주 실적 발표와 Fed의 금리 인하 기대감이 위험자산 선호 심리를 자극한 것으로 해석된다. 특히 테슬라의 강한 상승은 전기차 수요 회복 기대와 연결되는 모습이다.",
-      "메타(-1.64%)와 마이크로소프트(-0.24%)는 약세를 보였는데, 이는 기술주 내 실적 불확실성과 고금리 환경에서의 선택적 수익 실현 움직임으로 보인다. 암호화폐 시장에서는 프라이버시 코인인 지캐시(ZEC, +5.43%)와 NEAR 프로토콜(+4.31%)이 강세를 보인 반면, 모네로(XMR, -0.34%)는 약세를 기록했다. 이는 규제 리스크에 대한 시장의 엇갈린 평가와 개별 프로젝트의 펀더멘탈 차이가 반영된 것으로 보이며, 본 내용은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. 광범위한 기술주 약세 속에서도 나스닥100 ETF(QQQ)와 S&P 500 ETF(SPY)는 소폭 상승으로 마감했으며, 이는 대형 테크 기업들의 부진을 중소형주와 비기술주들이 부분적으로 상쇄했음을 시사한다. 연방준비제도의 금리 인상 신호와 글로벌 인플레이션 우려가 시장 심리에 영향을 미친 것으로 해석된다.",
+      "알파벳(GOOGL)이 1.34% 상승하며 유일하게 강세를 보인 대형 테크주가 되었고, 아마존(AMZN)도 0.59% 상승했다. 이들은 광고 및 클라우드 사업의 수익성 개선 기대와 함께, 상대적으로 금리 인상에 덜 민감한 비즈니스 모델로 평가받는 것으로 보인다.",
+      "반면 엔비디아(NVDA, -1.17%), 메타(META, -1.24%), 애플(AAPL, -0.94%)은 각각 1% 이상 하락했다. 이들 기업은 높은 자본 집약도와 성장성 프리미엄에 의존하는 만큼, 연방준비제도의 강경한 인플레이션 대응 기조와 글로벌 인플레이션 지속 전망이 멀티플 압박으로 작용한 것으로 보인다. 이는 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "price": 407.46,
-        "change_pct": 4.0447,
+        "symbol": "GOOGL",
+        "name": "알파벳(구글)",
+        "price": 324.89,
+        "change_pct": 1.3444,
         "type": "stock",
-        "reason_ko": "기술주 실적 기대감과 위험자산 선호"
+        "reason_ko": "기술주 약세 속 상대적 강세"
       },
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 347.1,
-        "change_pct": 0.9276,
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "price": 215.38,
+        "change_pct": -1.1746,
         "type": "stock",
-        "reason_ko": "Fed 금리 인하 기대감 반영"
+        "reason_ko": "금리 인상 우려로 성장주 약세"
       },
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 253.1,
-        "change_pct": 1.6099,
+        "symbol": "META",
+        "name": "메타",
+        "price": 612.49,
+        "change_pct": -1.2416,
         "type": "stock",
-        "reason_ko": "기술주 실적 발표 앞 매수 심리"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1298.12,
-        "change_pct": 5.42538,
-        "type": "crypto",
-        "reason_ko": "프라이버시 코인 선호도 상승"
+        "reason_ko": "멀티플 압박으로 인한 하락"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Fed chairman talks tough on inflation — plus, what's behind Micron's big rally",
+      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+      "published_at": "2026-10-28T19:17:35.000Z",
+      "headline_ko": "연준 의장의 강경한 인플레이션 발언과 마이크론의 급등장",
+      "summary_ko": "연방준비제도 의장이 인플레이션에 대해 강경한 입장을 드러낸 가운데, 마이크론이 주목할 만한 상승률을 기록했다.",
+      "detail_ko": "연준 의장의 강경한 인플레이션 대응 기조는 시장의 금리 인상 우려를 반영하고 있다. 이러한 환경에서 마이크론 같은 개별 기업이 급등한 것은 해당 기업의 실적 개선이나 산업 호재가 거시적 금리 우려를 상쇄했음을 의미한다. 반도체 산업의 수급 개선이나 수익성 전망 상향이 이러한 움직임의 배경으로 작용했을 가능성이 있다.",
+      "impact_ko": "연준의 강경한 기조가 지속될 경우 성장주 전반에 대한 멀티플 압박이 계속될 수 있다. 다만 개별 기업의 실적 개선 뉴스는 여전히 주가 상승의 주요 동인이 될 수 있으며, 이는 시장 내 선별적 투자 기회를 만들 가능성이 있다."
+    },
+    {
+      "headline": "Bond investor Jeff Gundlach talks to CNBC about Fed's rate pause, Warsh reducing vote-setting meetings",
+      "summary": "The DoubleLine founder spoke with CNBC's \"Closing Bell\" on Wednesday after the Fed announced its decision to hold interest rates steady.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
+      "published_at": "2026-10-28T19:05:30.000Z",
+      "headline_ko": "채권 투자자 건들락, 연준 금리 동결과 워시의 회의 축소 논의",
+      "summary_ko": "더블라인 펀드 창립자 제프 건들락이 연준의 금리 동결 결정과 워시의 회의 축소 계획에 대해 CNBC와 인터뷰했다.",
+      "detail_ko": "연준이 금리를 현 수준에서 유지하기로 결정한 것은 인플레이션 우려가 여전히 존재함을 시사한다. 워시의 회의 축소 논의는 연준 내부의 정책 결정 프로세스 변화를 의미하며, 이는 향후 금리 결정의 투명성과 예측 가능성에 영향을 미칠 수 있다. 저명한 채권 투자자의 발언은 시장 참여자들의 금리 전망과 정책 방향에 대한 관심이 높음을 반영한다.",
+      "impact_ko": "금리 동결 기조가 지속될 경우 채권 시장의 변동성이 제한될 수 있으나, 향후 인플레이션 추이에 따른 금리 인상 가능성은 여전히 존재한다. 연준 정책 결정 프로세스의 변화는 시장의 정책 예측 난이도를 높일 수 있으며, 이는 자산 배분 전략에 영향을 미칠 가능성이 있다."
+    },
+    {
+      "headline": "Namibia raises key interest rate to cushion second-round effects from high fuel prices - Reuters",
+      "summary": "Namibia raises key interest rate to cushion second-round effects from high fuel prices  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV1lSSDlQdktQX2k1RzRVVE9WYlFVdWhsYVhLSlpwOFRyc2JNbmJpRGllU2ltM2RyVjdfOGlaclh1WnBweVY4VDE4TGdiMkh2cFJCbGU1RHFub3lZc0R6bUhGYTFrU2ZQZmFxYlI4TlVFNlRxRW5qeE9raTBicEV6TTFiSTloelZMUUdiYlY4emZGQjBCV3dSYXQzVGgyaUtzOEZWeTBCZnB0OHk5YVpvNnpkdmZwa0ZfN01OTVZrdEZ5bWp4VGc?oc=5",
+      "published_at": "2026-10-28T11:09:07.000Z",
+      "headline_ko": "나미비아, 고유가의 2차 파급효과 완화를 위해 기준금리 인상",
+      "summary_ko": "나미비아 중앙은행이 고유가로 인한 인플레이션 2차 파급효과를 억제하기 위해 기준금리를 인상했다.",
+      "detail_ko": "유가 상승은 수입 의존도가 높은 신흥국의 인플레이션 압력을 직접적으로 높인다. 나미비아의 금리 인상 결정은 유가 상승이 통화 가치 하락과 물가 상승으로 이어지는 악순환을 차단하려는 시도로 해석된다. 이는 글로벌 유가 상승이 신흥국 중앙은행들의 정책 결정을 제약하는 현실을 보여준다.",
+      "impact_ko": "신흥국의 선제적 금리 인상은 자본 유출 압력을 완화할 수 있으나, 동시에 경제 성장을 둔화시킬 수 있다. 유가가 지속적으로 높은 수준을 유지할 경우 신흥국 전반의 금리 인상 압력이 높아질 가능성이 있으며, 이는 신흥국 자산에 대한 투자 수익률에 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "Indian central bank likely intervenes to support rupee as oil prices weigh, traders say - Reuters",
+      "summary": "Indian central bank likely intervenes to support rupee as oil prices weigh, traders say  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaWx4YzZNbFJVcnZQUE43NDdSQUI2ekFvSTdTbFUwZmNIRjNrNFIwVGJkdkp5RzRid2J6eWZPaG5iZkVLNEc1cWNEc3E0RWZ3V0FVUzlQRWNDa1NvaE14N3pyZkl3ZUdXZGFXbFRIR2gzMU1ZR3AtcUJ6ZFZJbTRQeDBCdDRtbXd5TWdmWWl2YjFDcTRKOVpkOG1QdnctNkxxN2p6dm5FY0hSZG1sNVQ0aHNPUVAwYlRraU9WN3RKVWY1WF91TWZJ?oc=5",
+      "published_at": "2026-10-28T03:43:00.000Z",
+      "headline_ko": "인도 중앙은행, 유가 부담으로 루피 방어를 위해 개입 가능성",
+      "summary_ko": "유가 상승으로 인한 루피화 약세 압력 속에서 인도 중앙은행이 루피 지지를 위해 시장 개입할 가능성이 제기되고 있다.",
+      "detail_ko": "유가 상승은 인도 같은 석유 수입국의 경상수지 악화로 직결되며, 이는 통화 약세 압력을 높인다. 중앙은행의 시장 개입은 외환 보유액을 소모하면서 통화 방어를 시도하는 것으로, 이는 단기적 안정성과 장기적 외환 건전성 사이의 트레이드오프를 반영한다. 인도의 경제 규모를 감안할 때 루피 약세는 인플레이션 수입 압력을 높일 수 있다.",
+      "impact_ko": "중앙은행의 개입이 루피 약세를 일시적으로 완화할 수 있으나, 유가가 높은 수준을 유지한다면 근본적인 해결책이 되기 어려울 수 있다. 인도의 외환 보유액 감소는 향후 금융 안정성에 영향을 미칠 수 있으며, 루피 약세는 인도 기업들의 수입 비용 상승으로 이어질 가능성이 있다."
+    },
+    {
+      "headline": "Oil prices rise on Yemen fighting, Saudi refinery attack - Reuters",
+      "summary": "Oil prices rise on Yemen fighting, Saudi refinery attack  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5",
+      "published_at": "2026-10-28T01:49:00.000Z",
+      "headline_ko": "예멘 후티 반군의 공격과 사우디 정유소 피격으로 유가 상승",
+      "summary_ko": "예멘 후티 반군의 공격과 사우디 라스 타누라 정유소 미사일 피격으로 유가가 상승했다.",
+      "detail_ko": "중동 지정학적 긴장은 글로벌 석유 공급 차질 우려를 높이는 주요 요인이다. 사우디의 주요 정유소 피격은 단기적 공급 차질 가능성을 시장에 반영시키며, 이는 유가 상승 압력으로 작용한다. 후티 반군의 공격이 지속될 경우 페르시아만 지역의 에너지 안보 우려가 심화될 수 있다.",
+      "impact_ko": "유가 상승은 글로벌 인플레이션 압력을 높일 수 있으며, 특히 에너지 수입국들의 경제 부담을 가중시킬 가능성이 있다. 중동 긴장이 지속될 경우 유가 변동성이 높아질 수 있으며, 이는 신흥국 통화와 주식시장에 부정적 영향을 미칠 수 있다."
+    },
     {
       "headline": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Reuters",
       "summary": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5",
       "published_at": "2026-10-27T19:17:53.000Z",
-      "headline_ko": "예멘 후티군, 사우디 라스 타누라 정유소에 미사일 공격 감행",
-      "summary_ko": "예멘의 후티군이 사우디아라비아의 주요 정유시설인 라스 타누라 정유소를 미사일로 공격했다고 주장했다.",
-      "detail_ko": "중동 지정학적 긴장이 고조되면서 사우디의 핵심 에너지 인프라가 공격 대상이 되었다. 라스 타누라는 사우디의 최대 규모 정유소 중 하나로, 글로벌 석유 공급에 영향을 미칠 수 있는 전략적 시설이다. 이러한 공격은 중동 지역의 불안정성을 심화시키고 에너지 시장의 변동성을 높일 수 있는 요인이다.",
-      "impact_ko": "공격이 실제로 시설 손상을 초래할 경우 글로벌 석유 공급 차질로 이어질 수 있으며, 이는 유가 상승 압력으로 작용할 가능성이 있다. 중동 공급 리스크가 현실화되면 에너지 관련 주식과 상품 시장에 변동성을 야기할 수 있다. 다만 현재까지 피해 규모가 명확하지 않아 시장 반응의 정도는 추가 정보에 따라 달라질 수 있다."
+      "headline_ko": "예멘 후티 반군, 사우디 라스 타누라 정유소에 미사일 공격 주장",
+      "summary_ko": "예멘의 후티 반군이 사우디 라스 타누라 정유소를 미사일로 공격했다고 주장했다.",
+      "detail_ko": "라스 타누라 정유소는 세계 최대 규모의 정유 시설 중 하나로, 글로벌 석유 시장에 직접적인 영향을 미친다. 후티 반군의 공격 주장은 중동 지정학적 리스크의 현실화를 의미하며, 실제 피격 여부와 관계없이 시장의 공급 차질 우려를 높인다. 이러한 공격은 사우디의 에너지 인프라 취약성을 노출시키고 있다.",
+      "impact_ko": "정유소 피격이 실제로 발생했다면 글로벌 석유 공급에 즉각적인 차질이 발생할 수 있으며, 유가 급등으로 이어질 가능성이 있다. 공격이 반복될 경우 사우디의 석유 생산 능력에 대한 신뢰도 하락으로 이어질 수 있으며, 이는 장기적 유가 상승 압력을 만들 수 있다."
     },
     {
       "headline": "As holiday shopping approaches, seasonal hiring gives 'mixed signals,' experts say",
@@ -180,87 +227,24 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/make-it/2026/10/27/seasonal-hiring-2026-holiday-jobs.html",
       "published_at": "2026-10-27T16:40:57.000Z",
-      "headline_ko": "휴일 시즌 채용, 소매업 약세 속 비소매 일자리는 증가세",
-      "summary_ko": "2026년 시즌 채용이 2025년보다 증가했으나, 주요 소매업체들은 기존 정규직 인력에 의존하는 추세를 보이고 있다.",
-      "detail_ko": "전체 계절 일자리는 증가했지만 그 구성이 변화하고 있다. 비소매 부문에서의 일자리 증가가 전체 성장을 주도하는 반면, 전통적으로 시즌 채용의 주축이던 소매업체들은 채용 규모를 줄이고 있다. 이는 소매 부문의 구조적 약세와 자동화·효율화 추진, 그리고 경제 불확실성 속 기업들의 보수적 인력 운영 전략을 반영하는 것으로 해석된다.",
-      "impact_ko": "소매업 채용 부진은 저임금 일자리 감소로 이어져 저소득층 고용 기회를 축소시킬 수 있다. 이는 소비 심리 약화와 내수 부진으로 연결될 가능성이 있으며, 특히 소매 관련 기업들의 실적 부담으로 작용할 수 있다. 반면 비소매 부문의 채용 증가는 기술·물류 등 특정 산업의 성장을 시사할 수 있다."
+      "headline_ko": "연말 쇼핑 시즌 임박, 계절 채용이 '엇갈린 신호' 보내",
+      "summary_ko": "2026년 계절 채용이 2025년보다 증가했으나, 소매업 대신 비소매 부문이 주도하고 있으며 대형 소매업체들은 정규직 의존도를 높이고 있다.",
+      "detail_ko": "전통적으로 연말 쇼핑 시즌은 소매업 중심의 계절 채용을 촉발해왔다. 그러나 올해는 비소매 부문의 계절 채용이 증가하는 반면 대형 소매업체들이 정규직 확대로 전환하고 있다는 점은 산업 구조 변화를 시사한다. 이는 전자상거래 확대, 자동화 도입, 그리고 소매업의 인력 효율성 개선 추세를 반영하는 것으로 해석된다.",
+      "impact_ko": "소매업 계절 채용 감소는 저임금 일자리 감소를 의미할 수 있으며, 이는 저소득층의 소비 능력에 영향을 미칠 가능성이 있다. 비소매 부문의 계절 채용 증가는 서비스업과 물류 부문의 수요 강세를 시사하나, 전체 고용 시장의 구조적 변화가 진행 중임을 보여준다."
     },
     {
       "headline": "High inflation to persist globally into next year, Reuters poll shows - Reuters",
       "summary": "High inflation to persist globally into next year, Reuters poll shows  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSGlkNFRUdUxnaVVWLTVGV2pJeEdyQzVIUTBoak15M0dBVjMzcGZrV0NjMnVISDZud2U2RGdDcXc3NUZpSU5QNGtSS0xpc2F3QkR0Y05OOE00czlTSUV6ZUQ1V1Vrdk9BT2x6Qzk1a1IycThjeEJ0bk5MT3FjN0FxTEpvdFV1aEZ6MkRfTkJpbVU5eEZVdlhOVzdxVkJENXpjazlRVk0yZlROcTByLVluVXp0MA?oc=5",
-      "published_at": "2026-10-27T13:41:44.000Z",
-      "headline_ko": "글로벌 고인플레이션, 내년까지 지속될 것으로 예상 - 로이터 설문",
-      "summary_ko": "로이터 설문에 따르면 전 세계적으로 높은 인플레이션이 내년까지 계속될 것으로 예상된다.",
-      "detail_ko": "경제 전문가들의 광범위한 설문 결과, 글로벌 인플레이션 압력이 단기간에 완화되지 않을 것으로 전망되고 있다. 이는 공급망 정상화 지연, 에너지 가격 변동성, 그리고 각국의 재정 정책 영향 등이 복합적으로 작용하고 있음을 시사한다. 특히 선진국과 신흥국 모두에서 인플레이션 압력이 지속되는 것으로 나타나, 중앙은행들의 금리 인하 속도가 제한될 가능성을 높이고 있다.",
-      "impact_ko": "지속적인 고인플레이션은 중앙은행의 금리 인하 경로를 제약할 수 있으며, 이는 채권 수익률 상승과 주식 밸류에이션 압박으로 이어질 수 있다. 기업들의 원가 부담이 계속되면서 마진율 압박이 심화될 가능성이 있다. 소비자 구매력 약화로 인한 수요 부진도 경제 성장을 제약하는 요인이 될 수 있다."
-    },
-    {
-      "headline": "US stock futures gain as oil pulls back ahead of Fed decision - Reuters",
-      "summary": "US stock futures gain as oil pulls back ahead of Fed decision  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
-      "published_at": "2026-10-27T11:27:48.000Z",
-      "headline_ko": "유가 하락 속 미국 주식선물 상승, Fed 결정 앞두고",
-      "summary_ko": "석유 가격이 하락하면서 미국 주식 선물이 상승세를 보이고 있으며, 연방준비제도의 금리 결정을 앞두고 있다.",
-      "detail_ko": "유가 하락은 인플레이션 압력 완화 신호로 해석되어 시장의 위험자산 선호 심리를 자극하고 있다. 이는 Fed의 금리 인하 가능성을 높이는 요인으로 작용하며, 투자자들이 주식 시장으로의 자금 유입을 기대하게 만들고 있다. 에너지 가격 안정화는 기업들의 원가 부담 완화로도 이어져 실적 개선 기대감을 높이는 측면이 있다.",
-      "impact_ko": "유가 하락이 지속될 경우 인플레이션 지표 개선으로 이어져 Fed의 금리 인하 결정을 뒷받침할 수 있다. 이는 차입 비용 감소로 인한 기업 실적 개선과 주식 밸류에이션 상승으로 이어질 가능성이 있다. 다만 유가 급락이 과도할 경우 에너지 기업들의 수익성 악화를 초래할 수 있다."
-    },
-    {
-      "headline": "Mapping the Market: Oil may be in for a slide - Reuters",
-      "summary": "Mapping the Market: Oil may be in for a slide  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzREVRR01MNnJBRXNPSk1udk5yNnU5VjZjTGowVW94NGZsdVd5YW00REE1Q013QWpGTWtQT184cWJJNlNScWduTWVGdmFHc3Q5MlVFVU5yWloyNjhvc1UzV0toeThrUWhvN21wdWpLVDdlQ1E0ZmtzMQ?oc=5",
-      "published_at": "2026-10-27T10:06:47.000Z",
-      "headline_ko": "석유, 추가 하락 가능성 - 마켓 맵핑",
-      "summary_ko": "시장 분석에 따르면 석유 가격이 추가로 하락할 가능성이 있는 것으로 평가되고 있다.",
-      "detail_ko": "기술적·펀더멘탈 분석 결과 유가의 하락 추세가 계속될 여지가 있는 것으로 보인다. 이는 공급 과잉 우려, 수요 약세 신호, 그리고 달러 강세 등이 복합적으로 작용하고 있음을 시사한다. 중동 지정학적 리스크가 있음에도 불구하고 거시 경제 약세 신호가 더 강하게 작용하고 있는 상황으로 해석된다.",
-      "impact_ko": "유가의 추가 하락은 인플레이션 완화를 가속화시켜 중앙은행의 금리 인하 여지를 확대할 수 있다. 이는 저금리 환경에서 성장주와 기술주에 유리한 환경을 조성할 가능성이 있다. 반면 에너지 기업들과 에너지 수출국의 재정 상황 악화로 이어질 수 있으며, 글로벌 경제 약세 신호로도 해석될 수 있다."
-    },
-    {
-      "headline": "Dollar firms ahead of central bank meetings, steadier stocks stall safe haven play - Reuters",
-      "summary": "Dollar firms ahead of central bank meetings, steadier stocks stall safe haven play  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVDhUYWVaR1lyeGFScDAxOG1INFBuME5XaHhvOFNZTnhjUXFCTHVGX2k1cEJzSUMwUmpQblFZWE1WU2Z6Q0dnZTRmc2lCSEE1RklYN3VZdWV3aVRLblJ4aTFudW1aUkxUVWZXWUl6Ql8zQkVEaDBJakY4SnhyUmRwb1BQcHpKSHlOWG5DeDN3QVFIb1MyMU5mcDlESEdQS1BwdHhpaThFZjZDMDIweVVYX1VQX1VEdVdh?oc=5",
-      "published_at": "2026-10-27T02:12:00.000Z",
-      "headline_ko": "중앙은행 회의 앞두고 달러 강세, 안전자산 선호 심화",
-      "summary_ko": "주요 중앙은행 회의를 앞두고 달러가 강세를 보이고 있으며, 이는 안전자산 선호 심리를 반영하고 있다.",
-      "detail_ko": "글로벌 금리 결정 시점의 불확실성이 높아지면서 투자자들이 달러 같은 안전자산으로 자금을 이동시키고 있다. 달러 강세는 신흥국 통화 약세와 원자재 가격 하락으로 이어지는 경향이 있으며, 이는 글로벌 경제의 위험 회피 심리를 나타낸다. 특히 금리 결정의 방향성이 불명확한 상황에서 달러의 안전자산 지위가 강화되고 있다.",
-      "impact_ko": "달러 강세는 신흥국 자산에 대한 투자 수익률을 악화시킬 수 있으며, 달러 차입금이 많은 국가들의 부채 부담을 증가시킬 수 있다. 글로벌 주식 시장에서 달러 약세 수혜 자산들의 성과가 제약될 가능성이 있다. 다만 달러 강세가 수출 경쟁력 약화로 이어질 수 있어 미국 기업들의 실적에는 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Stocks rise ahead of tech earnings, Fed decision - Reuters",
-      "summary": "Stocks rise ahead of tech earnings, Fed decision  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdEdzTDdxbEtNX1l6VDJMdF9NTGpUNEJPYy1jaUo2SkllaGhJZnZvNzZOOTd5MkZHV3p5T2ZhcjlkcWduOXp5elFKREQ0bFBib0pXUzNKdGI2QmE3eWZxRlktZXhSZG0tQzQ4U1dXNWxOZktiZVZvc1pNUERsYUFLVUJYSQ?oc=5",
-      "published_at": "2026-10-27T01:46:00.000Z",
-      "headline_ko": "기술주 실적과 Fed 결정 앞두고 주식 상승",
-      "summary_ko": "기술주들의 실적 발표와 연방준비제도의 금리 결정을 앞두고 주식 시장이 상승세를 보이고 있다.",
-      "detail_ko": "투자자들이 주요 기술기업들의 실적 개선을 기대하고 있으며, 동시에 Fed의 금리 인하 가능성에 베팅하고 있다. 기술주는 저금리 환경에서 높은 밸류에이션을 정당화할 수 있기 때문에, 금리 인하 기대감이 직접적으로 기술주 매수 심리로 이어지고 있다. 또한 AI 등 신기술 수요 회복에 대한 기대감도 기술주 상승을 뒷받침하고 있다.",
-      "impact_ko": "기술주 강세가 지속될 경우 나스닥 지수의 상승 추세가 이어질 수 있으며, 이는 성장주 중심의 포트폴리오에 유리하게 작용할 수 있다. Fed의 금리 인하 결정이 나올 경우 기술주의 상승 모멘텀이 강화될 가능성이 있다. 반면 기술주 실적이 기대에 미치지 못할 경우 급락 리스크도 존재한다."
-    },
-    {
-      "headline": "Oil falls almost $2 as Middle East talks help ease supply worries - Reuters",
-      "summary": "Oil falls almost $2 as Middle East talks help ease supply worries  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamRMeXF1dF9xaFlNcFlIalRnaGZBQUs2SUwtNThkNExtMzBQa2dYdExLbnJVckRGM3BpMWpjWkhGbEdQUGFHQ1FOWER6SUhadU04ams5RkNXR0tOVDdRTkExX2xnRWhCd3gxUl9icTE4Sk5nSHZFVU1vXzVidVRhOEdESWJCRGR2M3Z3NDVVY2JjZ1dQdjRGelQwTTVnakd6ckIzd2x4bEo5VnFnTjNRaHdNajdIZElQb2pnampYMDZnZW81OTR0NQ?oc=5",
-      "published_at": "2026-10-27T00:37:00.000Z",
-      "headline_ko": "중동 협상 진전으로 유가 약 2달러 하락, 공급 우려 완화",
-      "summary_ko": "중동 지역 협상이 진전되면서 석유 공급 우려가 완화되어 유가가 약 2달러 하락했다.",
-      "detail_ko": "중동 지정학적 긴장 완화에 대한 기대감이 시장에 반영되면서 유가 하락 압력이 강해졌다. 이는 앞서 후티군의 공격 위협 같은 공급 리스크가 협상을 통해 관리될 수 있다는 신호로 해석되고 있다. 공급 우려 완화는 인플레이션 압력 감소로 이어져 거시 경제 전망을 개선시키는 요인이 될 수 있다.",
-      "impact_ko": "유가 하락은 수입국들의 에너지 비용 부담을 경감시켜 인플레이션 완화를 가속화할 수 있다. 이는 중앙은행의 금리 인하 결정을 뒷받침하는 요인이 될 가능성이 있으며, 저금리 환경에서 주식 시장의 상승을 촉진할 수 있다. 다만 협상이 재차 결렬될 경우 유가 급등 리스크도 존재한다."
+      "published_at": "2026-10-27T15:47:16.000Z",
+      "headline_ko": "로이터 설문, 글로벌 고인플레이션이 내년까지 지속될 것으로 예상",
+      "summary_ko": "로이터 설문에 따르면 글로벌 인플레이션이 내년까지 높은 수준을 유지할 것으로 예상된다.",
+      "detail_ko": "글로벌 인플레이션의 지속은 에너지 가격, 공급망 차질, 그리고 임금 상승 압력 등 구조적 요인들이 여전히 작용하고 있음을 의미한다. 이는 각국 중앙은행들이 금리를 높은 수준에서 유지하거나 추가 인상을 고려해야 함을 시사한다. 특히 신흥국의 인플레이션 압력이 선진국보다 높을 가능성이 있다.",
+      "impact_ko": "인플레이션 지속은 실질 금리를 낮추면서 채권 투자자들의 수익률을 압박할 수 있다. 중앙은행들의 강경한 정책 기조가 장기화될 경우 경제 성장 둔화 우려가 높아질 수 있으며, 이는 주식시장의 멀티플 압박으로 이어질 가능성이 있다."
     }
   ],
   "calendar": [
-    {
-      "date": "2026-10-27",
-      "title": "FOMC 정례회의 (~10-28)",
-      "agency": "미 연방준비제도(Fed)",
-      "what": "연준의 통화정책 결정 기구가 이틀간 모여 기준금리를 정하는 회의입니다. 둘째 날 오후에 결정문이 나오고 이어서 의장 기자회견이 열립니다.",
-      "why": "미국 기준금리는 전 세계 자금의 기준값이라, 결정 자체보다 '앞으로의 방향'을 어떻게 말하는지가 주식·채권·환율·코인 전반을 움직입니다.",
-      "watch": "전망 자료 없이 결정문과 기자회견만 나옵니다. 결정문에서 바뀐 단어와 의장의 답변 톤이 관전 포인트입니다."
-    },
     {
       "date": "2026-10-29",
       "title": "개인소득 및 지출(PCE 물가지수) 발표",
@@ -284,6 +268,14 @@
       "what": "미국 도시 소비자가 실제로 지불하는 상품·서비스 가격을 묶어 만든 물가지수입니다. 식품과 에너지를 뺀 근원(core) CPI가 추세 판단에 더 많이 쓰입니다.",
       "why": "연준이 금리를 올릴지 내릴지 판단할 때 보는 대표적인 물가 지표입니다. 시장 예상보다 높게 나오면 금리 인하 기대가 밀리면서 주식과 채권이 함께 약해지는 경우가 많습니다.",
       "watch": "전월 대비 근원 CPI가 0.3%를 넘는지, 그리고 주거비 항목이 둔화되는지를 봅니다."
+    },
+    {
+      "date": "2026-12-08",
+      "title": "FOMC 정례회의 (~12-09)",
+      "agency": "미 연방준비제도(Fed)",
+      "what": "연준의 통화정책 결정 기구가 이틀간 모여 기준금리를 정하는 회의입니다. 둘째 날 오후에 결정문이 나오고 이어서 의장 기자회견이 열립니다.",
+      "why": "미국 기준금리는 전 세계 자금의 기준값이라, 결정 자체보다 '앞으로의 방향'을 어떻게 말하는지가 주식·채권·환율·코인 전반을 움직입니다.",
+      "watch": "이번 회의는 경제전망요약(SEP)과 점도표가 함께 공개됩니다. 위원들이 연말 금리를 어디로 보는지가 점으로 찍혀 나와, 금리 결정 자체보다 파급력이 큰 경우가 많습니다."
     }
   ]
 }
