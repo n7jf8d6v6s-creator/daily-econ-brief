@@ -1,170 +1,200 @@
 {
-  "generated_at": "2026-10-29T01:28:30.694Z",
+  "generated_at": "2026-10-30T01:29:40.031Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 343.83,
-        "change_pct": -0.9421
+        "price": 348.91,
+        "change_pct": 1.4775
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 531.01,
-        "change_pct": -0.0602
+        "price": 530.14,
+        "change_pct": -0.1638
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 215.38,
-        "change_pct": -1.1746
+        "price": 213.66,
+        "change_pct": -0.7986
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 404.22,
-        "change_pct": -0.7952
+        "price": 403.3,
+        "change_pct": -0.2276
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 254.6,
-        "change_pct": 0.5927
+        "price": 243.79,
+        "change_pct": -4.2459
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 324.89,
-        "change_pct": 1.3444
+        "price": 283.82,
+        "change_pct": -12.6412
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 612.49,
-        "change_pct": -1.2416
+        "price": 624.52,
+        "change_pct": 1.9641
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 772.31,
-        "change_pct": 0.3443
+        "price": 769.36,
+        "change_pct": -0.382
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 725.61,
-        "change_pct": 0.6045
+        "price": 715.34,
+        "change_pct": -1.4154
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 80812,
-        "change_pct": 0.10499
+        "price": 76798,
+        "change_pct": -5.00006
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2342.95,
-        "change_pct": -0.18845
-      },
-      {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.46,
-        "change_pct": 4.59669
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 753.55,
-        "change_pct": 1.35238
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 11.71,
-        "change_pct": 0.96207
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.079272,
-        "change_pct": 0.36383
+        "price": 2205.98,
+        "change_pct": -5.92884
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 79.91,
-        "change_pct": -2.4192
+        "price": 89.91,
+        "change_pct": 12.43341
       },
       {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.203917,
-        "change_pct": -1.01463
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price": 1.32,
-        "change_pct": -0.99274
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.359409,
+        "change_pct": 9.09367
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 595.51,
-        "change_pct": -0.92725
+        "price": 624.28,
+        "change_pct": 4.85332
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.031,
+        "change_pct": 0.02944
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 10.51,
+        "change_pct": -10.25832
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.187011,
+        "change_pct": -8.37147
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.21,
+        "change_pct": -8.109
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 697.3,
+        "change_pct": -7.60469
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. 광범위한 기술주 약세 속에서도 나스닥100 ETF(QQQ)와 S&P 500 ETF(SPY)는 소폭 상승으로 마감했으며, 이는 대형 테크 기업들의 부진을 중소형주와 비기술주들이 부분적으로 상쇄했음을 시사한다. 연방준비제도의 금리 인상 신호와 글로벌 인플레이션 우려가 시장 심리에 영향을 미친 것으로 해석된다.",
-      "알파벳(GOOGL)이 1.34% 상승하며 유일하게 강세를 보인 대형 테크주가 되었고, 아마존(AMZN)도 0.59% 상승했다. 이들은 광고 및 클라우드 사업의 수익성 개선 기대와 함께, 상대적으로 금리 인상에 덜 민감한 비즈니스 모델로 평가받는 것으로 보인다.",
-      "반면 엔비디아(NVDA, -1.17%), 메타(META, -1.24%), 애플(AAPL, -0.94%)은 각각 1% 이상 하락했다. 이들 기업은 높은 자본 집약도와 성장성 프리미엄에 의존하는 만큼, 연방준비제도의 강경한 인플레이션 대응 기조와 글로벌 인플레이션 지속 전망이 멀티플 압박으로 작용한 것으로 보인다. 이는 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 기술주 중심으로 약세를 보였다. 특히 알파벳(구글)이 12.6% 급락하며 시장의 주목을 받았고, 아마존도 4.2% 하락하는 등 대형 기술주들이 광범위한 낙폭을 기록했다. 나스닥100 ETF(QQQ)가 1.4% 하락한 것은 이러한 기술주 약세가 광범위했음을 시사한다.",
+      "애플과 메타는 소수의 강세 종목으로 각각 1.5%, 2.0% 상승했으나, 이는 시장 전반의 기술주 약세 흐름을 상쇄하기에는 부족해 보인다. 연준의 금리 인상 우려와 인플레이션 관련 발언이 고금리 민감 기술주들에 대한 투자심리를 위축시킨 것으로 해석된다.",
+      "암호화폐 시장은 비트코인과 이더리움이 각각 5.0%, 5.9% 하락하며 위험자산 회피 심리를 반영했다. 반면 HYPE(하이퍼리퀴드)는 12.4% 급등, TRX(트론)는 9.1% 상승하며 대조적 움직임을 보였는데, 이는 주류 암호화폐의 약세 속에서 소형 알트코인과 특정 생태계 토큰에 대한 선별적 수요가 존재함을 시사한다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 324.89,
-        "change_pct": 1.3444,
+        "price": 283.82,
+        "change_pct": -12.6412,
         "type": "stock",
-        "reason_ko": "기술주 약세 속 상대적 강세"
+        "reason_ko": "기술주 약세, 금리 인상 우려"
       },
       {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "price": 215.38,
-        "change_pct": -1.1746,
+        "symbol": "AMZN",
+        "name": "아마존",
+        "price": 243.79,
+        "change_pct": -4.2459,
         "type": "stock",
-        "reason_ko": "금리 인상 우려로 성장주 약세"
+        "reason_ko": "대형 기술주 광범위 낙폭"
       },
       {
-        "symbol": "META",
-        "name": "메타",
-        "price": 612.49,
-        "change_pct": -1.2416,
+        "symbol": "AAPL",
+        "name": "애플",
+        "price": 348.91,
+        "change_pct": 1.4775,
         "type": "stock",
-        "reason_ko": "멀티플 압박으로 인한 하락"
+        "reason_ko": "기술주 중 상대적 강세"
+      },
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price": 76798,
+        "change_pct": -5.00006,
+        "type": "crypto",
+        "reason_ko": "위험자산 회피, 금리 전망 악화"
       }
     ]
   },
   "news": [
+    {
+      "headline": "How could the oil spill off the UAE coast affect desalination plants? - Reuters",
+      "summary": "How could the oil spill off the UAE coast affect desalination plants?  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUU5JejdRZjhyTnRhQjVwOFVubXBzeWpJa2JJWkF0MmNKMlg5cWJnUi1FeFN6czdwUEFfTy1UTjRZVU1oS1lLb3ZVa0hlQzU3T3dwZVV1M0JmUTNZVEtfd3hscEVuclQ1UjloZEFWQWRqc2FiOEZpczRYY3V1RmJYaUJFVENfeml6Ymktc29qZW1LOTRSVUl0XzVoU1hfXzN1SUNlVTBiRkVzd0NxWmp6Q2ZvTQ?oc=5",
+      "published_at": "2026-10-29T06:02:00.000Z",
+      "headline_ko": "UAE 해역 유류 유출이 담수화 시설에 미칠 영향",
+      "summary_ko": "UAE 해안에서 발생한 유류 유출 사고가 지역의 주요 담수화 플랜트에 어떤 영향을 미칠 수 있는지에 대한 분석이다.",
+      "detail_ko": "중동 지역의 유류 유출 사고는 단순한 환경 오염을 넘어 에너지 인프라와 수자원 확보에 직접적인 위협이 될 수 있다. UAE는 담수화에 크게 의존하는 국가로, 해수 담수화 시설이 유류 오염에 노출될 경우 담수 공급 차질이 발생할 수 있다. 이는 지역 경제와 주민 생활에 즉각적인 영향을 미칠 수 있는 중요한 이슈다.",
+      "impact_ko": "유류 유출이 담수화 시설 운영을 방해할 경우 중동 지역의 수자원 공급 불안정이 심화될 수 있다. 이는 에너지 및 수자원 관련 인프라 투자 수요를 증가시킬 가능성이 있으며, 지역 정정 불안정성이 심화되면 글로벌 에너지 가격 변동성도 확대될 수 있다."
+    },
+    {
+      "headline": "Oil prices settles lower as diplomacy hopes offset some Mideast supply concerns - Reuters",
+      "summary": "Oil prices settles lower as diplomacy hopes offset some Mideast supply concerns  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdy1kTGwzTi1ZWVpiLUFTbF9HS0VGbXFnVWhMVzBfOUhieU95OGhLZnpZLTB3ckdrOEFMZms2UU1qYUMyY01yd3VOQmNhNGU4MmZvNE1uUzdqcXc0OWxLYlRRSk5NaU85cUdZYTd0a1d0QU93S0JfaTNMdlpVa3pMeVBUZnFtd0ZMVXhMWGhHejZOVjQtZlN2ekVsaTdWU2hCVE8xaTlpamEzXzQ?oc=5",
+      "published_at": "2026-10-29T00:28:00.000Z",
+      "headline_ko": "중동 공급 우려 완화되며 유가 하락 마감",
+      "summary_ko": "외교적 해결 가능성이 중동 지역 공급 우려를 상쇄하면서 유가가 하락으로 마감했다.",
+      "detail_ko": "중동 지정학적 긴장이 유가에 미치는 영향은 공급 차질 우려와 외교적 해결 가능성 사이의 균형에서 결정된다. 오늘 유가 하락은 외교 채널을 통한 분쟁 완화 가능성이 시장에서 긍정적으로 평가되었음을 의미한다. 이는 단기적으로는 에너지 수입국들에게 호재지만, 지정학적 리스크가 완전히 해소되지 않은 상황에서의 일시적 완화로 볼 수 있다.",
+      "impact_ko": "유가 하락은 인플레이션 압력 완화로 이어져 중앙은행의 금리 인상 필요성을 낮출 수 있다. 다만 외교적 진전이 지속되지 않으면 유가 변동성이 재확대될 가능성이 있으며, 이는 글로벌 경기 전망에 영향을 미칠 수 있다."
+    },
     {
       "headline": "Fed chairman talks tough on inflation — plus, what's behind Micron's big rally",
       "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
       "published_at": "2026-10-28T19:17:35.000Z",
-      "headline_ko": "연준 의장의 강경한 인플레이션 발언과 마이크론의 급등장",
-      "summary_ko": "연방준비제도 의장이 인플레이션에 대해 강경한 입장을 드러낸 가운데, 마이크론이 주목할 만한 상승률을 기록했다.",
-      "detail_ko": "연준 의장의 강경한 인플레이션 대응 기조는 시장의 금리 인상 우려를 반영하고 있다. 이러한 환경에서 마이크론 같은 개별 기업이 급등한 것은 해당 기업의 실적 개선이나 산업 호재가 거시적 금리 우려를 상쇄했음을 의미한다. 반도체 산업의 수급 개선이나 수익성 전망 상향이 이러한 움직임의 배경으로 작용했을 가능성이 있다.",
-      "impact_ko": "연준의 강경한 기조가 지속될 경우 성장주 전반에 대한 멀티플 압박이 계속될 수 있다. 다만 개별 기업의 실적 개선 뉴스는 여전히 주가 상승의 주요 동인이 될 수 있으며, 이는 시장 내 선별적 투자 기회를 만들 가능성이 있다."
+      "headline_ko": "연준 의장의 강경한 인플레이션 발언, 마이크론 급등",
+      "summary_ko": "연준 의장이 인플레이션에 대해 강경한 입장을 드러낸 가운데 마이크론이 큰 폭의 상승률을 기록했다.",
+      "detail_ko": "연준의 강경한 인플레이션 대응 기조는 금리 인상 지속 가능성을 시사하며, 이는 일반적으로 기술주에 부정적이다. 그러나 마이크론의 급등은 메모리 반도체 수요 전망이나 기업 실적 개선 등 종목 특화 요인이 거시 금리 우려를 상쇄했을 가능성을 시사한다. 이는 시장이 거시 환경 악화 속에서도 선별적으로 실적 개선 종목을 찾고 있음을 보여준다.",
+      "impact_ko": "연준의 강경한 금리 기조가 지속될 경우 고금리 민감 기술주들의 밸류에이션 압박이 계속될 수 있다. 다만 개별 기업의 실적 개선이나 산업 수요 회복이 명확하면 종목 선별 현상이 심화될 가능성이 있으며, 이는 시장 변동성을 높일 수 있다."
     },
     {
       "headline": "Bond investor Jeff Gundlach talks to CNBC about Fed's rate pause, Warsh reducing vote-setting meetings",
@@ -172,10 +202,32 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
       "published_at": "2026-10-28T19:05:30.000Z",
-      "headline_ko": "채권 투자자 건들락, 연준 금리 동결과 워시의 회의 축소 논의",
-      "summary_ko": "더블라인 펀드 창립자 제프 건들락이 연준의 금리 동결 결정과 워시의 회의 축소 계획에 대해 CNBC와 인터뷰했다.",
-      "detail_ko": "연준이 금리를 현 수준에서 유지하기로 결정한 것은 인플레이션 우려가 여전히 존재함을 시사한다. 워시의 회의 축소 논의는 연준 내부의 정책 결정 프로세스 변화를 의미하며, 이는 향후 금리 결정의 투명성과 예측 가능성에 영향을 미칠 수 있다. 저명한 채권 투자자의 발언은 시장 참여자들의 금리 전망과 정책 방향에 대한 관심이 높음을 반영한다.",
-      "impact_ko": "금리 동결 기조가 지속될 경우 채권 시장의 변동성이 제한될 수 있으나, 향후 인플레이션 추이에 따른 금리 인상 가능성은 여전히 존재한다. 연준 정책 결정 프로세스의 변화는 시장의 정책 예측 난이도를 높일 수 있으며, 이는 자산 배분 전략에 영향을 미칠 가능성이 있다."
+      "headline_ko": "채권 투자자 건들락, 연준 금리 동결과 워시의 투표 회의 축소 논의",
+      "summary_ko": "더블라인 펀드 창립자 제프 건들락이 연준의 금리 동결 결정과 워시의 투표 회의 축소 계획에 대해 CNBC와 인터뷰했다.",
+      "detail_ko": "연준이 금리를 동결하기로 결정한 것은 인플레이션 우려가 여전하지만 경기 둔화 신호도 나타나고 있음을 반영한다. 워시의 투표 회의 축소 논의는 연준 내 정책 결정 프로세스 변화를 시사하며, 이는 향후 금리 결정의 유연성이나 신속성에 영향을 미칠 수 있다. 채권 투자자들의 관심은 연준의 다음 정책 방향과 인플레이션 경로에 집중되고 있다.",
+      "impact_ko": "금리 동결이 지속될 경우 채권 수익률이 현 수준에서 안정될 가능성이 있으며, 이는 채권 투자 매력도를 높일 수 있다. 반면 인플레이션이 재가속되면 연준의 추가 인상 가능성이 높아져 채권 가격에 부정적 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "NEWSLETTER: Reading Gulf anxiety in the oil price - Reuters",
+      "summary": "NEWSLETTER: Reading Gulf anxiety in the oil price  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTWc0WEJYUlFxU0NnSFFxNkk0X2JUanhWZl9qMlMyTnl4dnlaS1Zlbjd4VEdscXpQbVRwSWNMejdZakVHYVVsQWhRQmQwWWVObTNUVV83c3prVVFab25oVXpkTzd3SnJVYUdiZGFpSEljV3NxS2hwRDdzd3FzVzdFdWNiNUdHa3U1aDg1Qw?oc=5",
+      "published_at": "2026-10-28T17:35:00.000Z",
+      "headline_ko": "뉴스레터: 유가에 반영된 중동 불안감",
+      "summary_ko": "중동 지역의 지정학적 불안감이 유가에 어떻게 반영되고 있는지를 분석하는 뉴스레터다.",
+      "detail_ko": "중동 지정학적 리스크는 글로벌 에너지 시장의 가장 중요한 변수 중 하나다. 유가는 실제 공급 차질뿐 아니라 공급 차질에 대한 시장의 불안감도 반영하므로, 중동 상황의 악화 신호는 즉시 유가에 프리미엄을 더한다. 현재 유가 움직임은 실제 공급 차질과 외교적 해결 가능성 사이의 심리적 균형을 나타내고 있다.",
+      "impact_ko": "중동 불안감이 지속되면 유가 변동성이 높아져 인플레이션 전망 불확실성이 증가할 수 있다. 이는 중앙은행의 금리 결정을 어렵게 만들고, 글로벌 경기 전망을 악화시킬 가능성이 있다."
+    },
+    {
+      "headline": "UK inflation forecast to average 3.4% in 2027, OBR says - Reuters",
+      "summary": "UK inflation forecast to average 3.4% in 2027, OBR says  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVU1ZLWRfOWJKSjgzSzVnU0lRT1c0ZHZ4N1RNc2RKV3RHNEhiVFlRTEYtOXduN05ISVE1VDN6NXlMSUl4QXNtZ2dPRGNoLW5xeEhjeUZjdGQ3M2EwRHpmWnlPLWltVmN0d3Q3RWU1ekZRTFUwcTlLTjRvREtPUXZPS00tOXI1RGZEYkJ6VXItVnlNVzgzQWh3UUpR?oc=5",
+      "published_at": "2026-10-28T14:23:31.000Z",
+      "headline_ko": "영국 OBR, 2027년 인플레이션 평균 3.4% 예상",
+      "summary_ko": "영국 예산책임청(OBR)이 2027년 평균 인플레이션을 3.4%로 전망했다.",
+      "detail_ko": "영국의 인플레이션 전망은 영란은행의 금리 정책 방향을 결정하는 중요한 지표다. 2027년 3.4% 예상은 현재의 높은 인플레이션 수준에서 점진적으로 하락할 것으로 예상하되, 여전히 중앙은행의 목표치(보통 2%)보다 높다는 의미다. 이는 영국이 중기적으로도 금리를 현 수준 이상으로 유지할 필요가 있을 수 있음을 시사한다.",
+      "impact_ko": "높은 인플레이션 전망은 영란은행의 금리 인하 시점을 지연시킬 가능성이 있으며, 이는 파운드화 강세로 이어질 수 있다. 또한 영국 기업과 가계의 금리 부담이 지속되면서 경기 둔화 우려도 커질 수 있다."
     },
     {
       "headline": "Namibia raises key interest rate to cushion second-round effects from high fuel prices - Reuters",
@@ -183,76 +235,24 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV1lSSDlQdktQX2k1RzRVVE9WYlFVdWhsYVhLSlpwOFRyc2JNbmJpRGllU2ltM2RyVjdfOGlaclh1WnBweVY4VDE4TGdiMkh2cFJCbGU1RHFub3lZc0R6bUhGYTFrU2ZQZmFxYlI4TlVFNlRxRW5qeE9raTBicEV6TTFiSTloelZMUUdiYlY4emZGQjBCV3dSYXQzVGgyaUtzOEZWeTBCZnB0OHk5YVpvNnpkdmZwa0ZfN01OTVZrdEZ5bWp4VGc?oc=5",
       "published_at": "2026-10-28T11:09:07.000Z",
-      "headline_ko": "나미비아, 고유가의 2차 파급효과 완화를 위해 기준금리 인상",
-      "summary_ko": "나미비아 중앙은행이 고유가로 인한 인플레이션 2차 파급효과를 억제하기 위해 기준금리를 인상했다.",
-      "detail_ko": "유가 상승은 수입 의존도가 높은 신흥국의 인플레이션 압력을 직접적으로 높인다. 나미비아의 금리 인상 결정은 유가 상승이 통화 가치 하락과 물가 상승으로 이어지는 악순환을 차단하려는 시도로 해석된다. 이는 글로벌 유가 상승이 신흥국 중앙은행들의 정책 결정을 제약하는 현실을 보여준다.",
-      "impact_ko": "신흥국의 선제적 금리 인상은 자본 유출 압력을 완화할 수 있으나, 동시에 경제 성장을 둔화시킬 수 있다. 유가가 지속적으로 높은 수준을 유지할 경우 신흥국 전반의 금리 인상 압력이 높아질 가능성이 있으며, 이는 신흥국 자산에 대한 투자 수익률에 영향을 미칠 수 있다."
+      "headline_ko": "나미비아, 높은 연료가격의 2차 파급효과 완화 위해 기준금리 인상",
+      "summary_ko": "나미비아가 높은 연료가격으로 인한 2차 인플레이션 효과를 억제하기 위해 기준금리를 인상했다.",
+      "detail_ko": "나미비아의 금리 인상은 에너지 가격 상승이 광범위한 인플레이션으로 확산되는 것을 막기 위한 선제적 조치다. 연료가격 상승은 운송비, 생산비 등을 높여 2차 인플레이션을 유발할 수 있으므로, 중앙은행은 통화 긴축으로 수요를 억제하려는 것이다. 이는 신흥국 중앙은행들이 글로벌 에너지 가격 충격에 어떻게 대응하고 있는지를 보여주는 사례다.",
+      "impact_ko": "나미비아의 금리 인상은 단기적으로 경기 둔화 압력을 높일 수 있으나, 인플레이션 고착을 방지하는 데 도움이 될 수 있다. 다른 신흥국들도 유사한 에너지 가격 충격에 직면해 있다면 동반 금리 인상 가능성이 있으며, 이는 신흥국 자산에 부정적 영향을 미칠 수 있다."
     },
     {
-      "headline": "Indian central bank likely intervenes to support rupee as oil prices weigh, traders say - Reuters",
-      "summary": "Indian central bank likely intervenes to support rupee as oil prices weigh, traders say  Reuters",
+      "headline": "Philippines in talks with several countries, including Saudi Arabia, for oil storage - Reuters",
+      "summary": "Philippines in talks with several countries, including Saudi Arabia, for oil storage  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaWx4YzZNbFJVcnZQUE43NDdSQUI2ekFvSTdTbFUwZmNIRjNrNFIwVGJkdkp5RzRid2J6eWZPaG5iZkVLNEc1cWNEc3E0RWZ3V0FVUzlQRWNDa1NvaE14N3pyZkl3ZUdXZGFXbFRIR2gzMU1ZR3AtcUJ6ZFZJbTRQeDBCdDRtbXd5TWdmWWl2YjFDcTRKOVpkOG1QdnctNkxxN2p6dm5FY0hSZG1sNVQ0aHNPUVAwYlRraU9WN3RKVWY1WF91TWZJ?oc=5",
-      "published_at": "2026-10-28T03:43:00.000Z",
-      "headline_ko": "인도 중앙은행, 유가 부담으로 루피 방어를 위해 개입 가능성",
-      "summary_ko": "유가 상승으로 인한 루피화 약세 압력 속에서 인도 중앙은행이 루피 지지를 위해 시장 개입할 가능성이 제기되고 있다.",
-      "detail_ko": "유가 상승은 인도 같은 석유 수입국의 경상수지 악화로 직결되며, 이는 통화 약세 압력을 높인다. 중앙은행의 시장 개입은 외환 보유액을 소모하면서 통화 방어를 시도하는 것으로, 이는 단기적 안정성과 장기적 외환 건전성 사이의 트레이드오프를 반영한다. 인도의 경제 규모를 감안할 때 루피 약세는 인플레이션 수입 압력을 높일 수 있다.",
-      "impact_ko": "중앙은행의 개입이 루피 약세를 일시적으로 완화할 수 있으나, 유가가 높은 수준을 유지한다면 근본적인 해결책이 되기 어려울 수 있다. 인도의 외환 보유액 감소는 향후 금융 안정성에 영향을 미칠 수 있으며, 루피 약세는 인도 기업들의 수입 비용 상승으로 이어질 가능성이 있다."
-    },
-    {
-      "headline": "Oil prices rise on Yemen fighting, Saudi refinery attack - Reuters",
-      "summary": "Oil prices rise on Yemen fighting, Saudi refinery attack  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5",
-      "published_at": "2026-10-28T01:49:00.000Z",
-      "headline_ko": "예멘 후티 반군의 공격과 사우디 정유소 피격으로 유가 상승",
-      "summary_ko": "예멘 후티 반군의 공격과 사우디 라스 타누라 정유소 미사일 피격으로 유가가 상승했다.",
-      "detail_ko": "중동 지정학적 긴장은 글로벌 석유 공급 차질 우려를 높이는 주요 요인이다. 사우디의 주요 정유소 피격은 단기적 공급 차질 가능성을 시장에 반영시키며, 이는 유가 상승 압력으로 작용한다. 후티 반군의 공격이 지속될 경우 페르시아만 지역의 에너지 안보 우려가 심화될 수 있다.",
-      "impact_ko": "유가 상승은 글로벌 인플레이션 압력을 높일 수 있으며, 특히 에너지 수입국들의 경제 부담을 가중시킬 가능성이 있다. 중동 긴장이 지속될 경우 유가 변동성이 높아질 수 있으며, 이는 신흥국 통화와 주식시장에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Reuters",
-      "summary": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5",
-      "published_at": "2026-10-27T19:17:53.000Z",
-      "headline_ko": "예멘 후티 반군, 사우디 라스 타누라 정유소에 미사일 공격 주장",
-      "summary_ko": "예멘의 후티 반군이 사우디 라스 타누라 정유소를 미사일로 공격했다고 주장했다.",
-      "detail_ko": "라스 타누라 정유소는 세계 최대 규모의 정유 시설 중 하나로, 글로벌 석유 시장에 직접적인 영향을 미친다. 후티 반군의 공격 주장은 중동 지정학적 리스크의 현실화를 의미하며, 실제 피격 여부와 관계없이 시장의 공급 차질 우려를 높인다. 이러한 공격은 사우디의 에너지 인프라 취약성을 노출시키고 있다.",
-      "impact_ko": "정유소 피격이 실제로 발생했다면 글로벌 석유 공급에 즉각적인 차질이 발생할 수 있으며, 유가 급등으로 이어질 가능성이 있다. 공격이 반복될 경우 사우디의 석유 생산 능력에 대한 신뢰도 하락으로 이어질 수 있으며, 이는 장기적 유가 상승 압력을 만들 수 있다."
-    },
-    {
-      "headline": "As holiday shopping approaches, seasonal hiring gives 'mixed signals,' experts say",
-      "summary": "Companies have posted more seasonal jobs in 2026 than in 2025, boosted by non-retail jobs. Major retailers are, instead, relying on permanent staff.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/27/seasonal-hiring-2026-holiday-jobs.html",
-      "published_at": "2026-10-27T16:40:57.000Z",
-      "headline_ko": "연말 쇼핑 시즌 임박, 계절 채용이 '엇갈린 신호' 보내",
-      "summary_ko": "2026년 계절 채용이 2025년보다 증가했으나, 소매업 대신 비소매 부문이 주도하고 있으며 대형 소매업체들은 정규직 의존도를 높이고 있다.",
-      "detail_ko": "전통적으로 연말 쇼핑 시즌은 소매업 중심의 계절 채용을 촉발해왔다. 그러나 올해는 비소매 부문의 계절 채용이 증가하는 반면 대형 소매업체들이 정규직 확대로 전환하고 있다는 점은 산업 구조 변화를 시사한다. 이는 전자상거래 확대, 자동화 도입, 그리고 소매업의 인력 효율성 개선 추세를 반영하는 것으로 해석된다.",
-      "impact_ko": "소매업 계절 채용 감소는 저임금 일자리 감소를 의미할 수 있으며, 이는 저소득층의 소비 능력에 영향을 미칠 가능성이 있다. 비소매 부문의 계절 채용 증가는 서비스업과 물류 부문의 수요 강세를 시사하나, 전체 고용 시장의 구조적 변화가 진행 중임을 보여준다."
-    },
-    {
-      "headline": "High inflation to persist globally into next year, Reuters poll shows - Reuters",
-      "summary": "High inflation to persist globally into next year, Reuters poll shows  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSGlkNFRUdUxnaVVWLTVGV2pJeEdyQzVIUTBoak15M0dBVjMzcGZrV0NjMnVISDZud2U2RGdDcXc3NUZpSU5QNGtSS0xpc2F3QkR0Y05OOE00czlTSUV6ZUQ1V1Vrdk9BT2x6Qzk1a1IycThjeEJ0bk5MT3FjN0FxTEpvdFV1aEZ6MkRfTkJpbVU5eEZVdlhOVzdxVkJENXpjazlRVk0yZlROcTByLVluVXp0MA?oc=5",
-      "published_at": "2026-10-27T15:47:16.000Z",
-      "headline_ko": "로이터 설문, 글로벌 고인플레이션이 내년까지 지속될 것으로 예상",
-      "summary_ko": "로이터 설문에 따르면 글로벌 인플레이션이 내년까지 높은 수준을 유지할 것으로 예상된다.",
-      "detail_ko": "글로벌 인플레이션의 지속은 에너지 가격, 공급망 차질, 그리고 임금 상승 압력 등 구조적 요인들이 여전히 작용하고 있음을 의미한다. 이는 각국 중앙은행들이 금리를 높은 수준에서 유지하거나 추가 인상을 고려해야 함을 시사한다. 특히 신흥국의 인플레이션 압력이 선진국보다 높을 가능성이 있다.",
-      "impact_ko": "인플레이션 지속은 실질 금리를 낮추면서 채권 투자자들의 수익률을 압박할 수 있다. 중앙은행들의 강경한 정책 기조가 장기화될 경우 경제 성장 둔화 우려가 높아질 수 있으며, 이는 주식시장의 멀티플 압박으로 이어질 가능성이 있다."
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMWM1YlAzX25ySkZ2NmFQUzBWQnNPLTVzYlVOLVdsMHlFcEN0QWJ5a05xQXMyRF9VR05iNmc4MnNzVW5zd2tYWW5YUEJxR0xKN1NpTmxOYjdyemFiT1JfaUc0R29kQ3plNHJOZ2hnNTE0X1E3MmNDNDM5NmVqQXpVbnJBNTNOaU1LaHA3aW5fV0JmUzd5RDQyQWF1a3hVTG4tQVFUaTlzelhMT0lfcEZKU1VpSVZlejJjUEpGLTh2bm94b3FwNWc?oc=5",
+      "published_at": "2026-10-28T09:07:44.000Z",
+      "headline_ko": "필리핀, 사우디아라비아 등 여러 국가와 석유 저장 협상 진행",
+      "summary_ko": "필리핀이 사우디아라비아를 포함한 여러 국가와 석유 저장 시설 확보를 위한 협상을 진행 중이다.",
+      "detail_ko": "필리핀의 석유 저장 협상은 에너지 안보 강화와 유가 변동성 대응을 위한 전략적 움직임이다. 석유 저장 능력을 확보하면 유가 급등 시 비축유를 방출하여 가격 안정화를 도모할 수 있고, 공급 차질 시 에너지 안보를 확보할 수 있다. 이는 신흥국들이 글로벌 에너지 시장의 변동성에 대응하기 위해 전략적 비축유 확보에 나서고 있음을 의미한다.",
+      "impact_ko": "필리핀의 석유 저장 확대는 동남아 지역의 에너지 안보를 강화할 수 있으며, 이는 지역 경제 안정성 향상으로 이어질 수 있다. 또한 여러 국가의 비축유 확보 움직임이 확산되면 글로벌 석유 수요 구조에 영향을 미칠 수 있다."
     }
   ],
   "calendar": [
-    {
-      "date": "2026-10-29",
-      "title": "개인소득 및 지출(PCE 물가지수) 발표",
-      "agency": "미 경제분석국(BEA)",
-      "what": "가계가 벌어들인 소득과 실제로 쓴 돈, 그리고 그 과정의 물가를 함께 보여줍니다. 여기 포함된 근원 PCE 물가지수가 연준의 공식 물가 목표(2%) 기준입니다.",
-      "why": "CPI보다 덜 알려져 있지만 연준이 정책 목표로 삼는 지표는 이쪽입니다. 소비자가 비싼 품목에서 싼 품목으로 옮겨가는 행동까지 반영해 CPI보다 대체로 낮게 나옵니다.",
-      "watch": "근원 PCE의 전년 대비 상승률이 2%에 얼마나 가까워졌는지, 서비스 물가가 계속 버티는지를 봅니다."
-    },
     {
       "date": "2026-11-06",
       "title": "고용상황 보고서(비농업고용) 발표",
@@ -268,6 +268,14 @@
       "what": "미국 도시 소비자가 실제로 지불하는 상품·서비스 가격을 묶어 만든 물가지수입니다. 식품과 에너지를 뺀 근원(core) CPI가 추세 판단에 더 많이 쓰입니다.",
       "why": "연준이 금리를 올릴지 내릴지 판단할 때 보는 대표적인 물가 지표입니다. 시장 예상보다 높게 나오면 금리 인하 기대가 밀리면서 주식과 채권이 함께 약해지는 경우가 많습니다.",
       "watch": "전월 대비 근원 CPI가 0.3%를 넘는지, 그리고 주거비 항목이 둔화되는지를 봅니다."
+    },
+    {
+      "date": "2026-11-25",
+      "title": "개인소득 및 지출(PCE 물가지수) 발표",
+      "agency": "미 경제분석국(BEA)",
+      "what": "가계가 벌어들인 소득과 실제로 쓴 돈, 그리고 그 과정의 물가를 함께 보여줍니다. 여기 포함된 근원 PCE 물가지수가 연준의 공식 물가 목표(2%) 기준입니다.",
+      "why": "CPI보다 덜 알려져 있지만 연준이 정책 목표로 삼는 지표는 이쪽입니다. 소비자가 비싼 품목에서 싼 품목으로 옮겨가는 행동까지 반영해 CPI보다 대체로 낮게 나옵니다.",
+      "watch": "근원 PCE의 전년 대비 상승률이 2%에 얼마나 가까워졌는지, 서비스 물가가 계속 버티는지를 봅니다."
     },
     {
       "date": "2026-12-08",
