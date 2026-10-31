@@ -1,178 +1,244 @@
 {
-  "generated_at": "2026-10-30T01:29:40.031Z",
+  "generated_at": "2026-10-31T01:19:26.565Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 348.91,
-        "change_pct": 1.4775
+        "price": 344.63,
+        "change_pct": -1.2267
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 530.14,
-        "change_pct": -0.1638
+        "price": 521.91,
+        "change_pct": -1.5524
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 213.66,
-        "change_pct": -0.7986
+        "price": 204.64,
+        "change_pct": -4.2217
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 403.3,
-        "change_pct": -0.2276
+        "price": 399.81,
+        "change_pct": -0.8654
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 243.79,
-        "change_pct": -4.2459
+        "price": 240.35,
+        "change_pct": -1.4111
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 283.82,
-        "change_pct": -12.6412
+        "price": 279.84,
+        "change_pct": -1.4023
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 624.52,
-        "change_pct": 1.9641
+        "price": 614.99,
+        "change_pct": -1.526
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 769.36,
-        "change_pct": -0.382
+        "price": 755.72,
+        "change_pct": -1.7729
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 715.34,
-        "change_pct": -1.4154
+        "price": 690.49,
+        "change_pct": -3.4739
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 76798,
-        "change_pct": -5.00006
+        "price": 77446,
+        "change_pct": 0.48802
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2205.98,
-        "change_pct": -5.92884
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 89.91,
-        "change_pct": 12.43341
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.359409,
-        "change_pct": 9.09367
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 624.28,
-        "change_pct": 4.85332
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.031,
-        "change_pct": 0.02944
+        "price": 2246.92,
+        "change_pct": 1.45489
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 10.51,
-        "change_pct": -10.25832
+        "price": 11.57,
+        "change_pct": 9.54988
       },
       {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.187011,
-        "change_pct": -8.37147
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 293.29,
+        "change_pct": 8.7522
       },
       {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price": 1.21,
-        "change_pct": -8.109
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1288.31,
+        "change_pct": 5.38007
       },
       {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 697.3,
-        "change_pct": -7.60469
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.169925,
+        "change_pct": 5.04267
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.323234,
+        "change_pct": -10.52747
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 593.81,
+        "change_pct": -5.77937
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 89.43,
+        "change_pct": -0.28665
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.028,
+        "change_pct": -0.26163
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 기술주 중심으로 약세를 보였다. 특히 알파벳(구글)이 12.6% 급락하며 시장의 주목을 받았고, 아마존도 4.2% 하락하는 등 대형 기술주들이 광범위한 낙폭을 기록했다. 나스닥100 ETF(QQQ)가 1.4% 하락한 것은 이러한 기술주 약세가 광범위했음을 시사한다.",
-      "애플과 메타는 소수의 강세 종목으로 각각 1.5%, 2.0% 상승했으나, 이는 시장 전반의 기술주 약세 흐름을 상쇄하기에는 부족해 보인다. 연준의 금리 인상 우려와 인플레이션 관련 발언이 고금리 민감 기술주들에 대한 투자심리를 위축시킨 것으로 해석된다.",
-      "암호화폐 시장은 비트코인과 이더리움이 각각 5.0%, 5.9% 하락하며 위험자산 회피 심리를 반영했다. 반면 HYPE(하이퍼리퀴드)는 12.4% 급등, TRX(트론)는 9.1% 상승하며 대조적 움직임을 보였는데, 이는 주류 암호화폐의 약세 속에서 소형 알트코인과 특정 생태계 토큰에 대한 선별적 수요가 존재함을 시사한다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 광범위한 낙폭을 기록했다. S&P 500 ETF(SPY)가 -1.77%, 나스닥100 ETF(QQQ)가 -3.47%를 하락하며 기술주 중심의 약세가 두드러졌다. 이는 연방준비제도의 금리 인상 가능성 시사와 거시경제 불확실성이 복합적으로 작용한 결과로 해석된다.",
+      "엔비디아(NVDA)가 -4.22%로 가장 큰 낙폭을 기록했으며, 마이크로소프트(MSFT)와 메타(META)도 각각 -1.55%, -1.53%를 하락했다. 대형 기술주들의 동반 하락은 금리 인상 우려가 고성장 기술 기업의 밸류에이션에 부정적 영향을 미치는 과정으로 보인다.",
+      "암호화폐 시장에서는 프라이버시 코인들이 강세를 보였다. Chainlink(LINK)가 +9.55%, Bitcoin Cash(BCH)가 +8.75%, Zcash(ZEC)가 +5.38% 상승했는데, 이는 규제 리스크 회피 심리와 프라이버시 기술에 대한 수요 증가로 해석된다. 반면 TRON(TRX)은 -10.53%로 급락하며 시장 내 선별적 약세가 나타났다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "GOOGL",
-        "name": "알파벳(구글)",
-        "price": 283.82,
-        "change_pct": -12.6412,
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "price": 204.64,
+        "change_pct": -4.2217,
         "type": "stock",
-        "reason_ko": "기술주 약세, 금리 인상 우려"
+        "reason_ko": "금리 인상 우려로 기술주 동반 하락"
       },
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 243.79,
-        "change_pct": -4.2459,
+        "symbol": "QQQ",
+        "name": "나스닥100 ETF",
+        "price": 690.49,
+        "change_pct": -3.4739,
         "type": "stock",
-        "reason_ko": "대형 기술주 광범위 낙폭"
+        "reason_ko": "나스닥 기술주 광범위한 낙폭"
       },
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 348.91,
-        "change_pct": 1.4775,
-        "type": "stock",
-        "reason_ko": "기술주 중 상대적 강세"
-      },
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "price": 76798,
-        "change_pct": -5.00006,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 11.57,
+        "change_pct": 9.54988,
         "type": "crypto",
-        "reason_ko": "위험자산 회피, 금리 전망 악화"
+        "reason_ko": "프라이버시 코인 수요 증가"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1288.31,
+        "change_pct": 5.38007,
+        "type": "crypto",
+        "reason_ko": "규제 회피 심리로 프라이버시 자산 강세"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
+      "summary": "Higher cocoa and sugar prices are fueling above-average cost inflation for candy",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
+      "published_at": "2026-10-30T16:31:15.000Z",
+      "headline_ko": "할로윈 사탕값 급등, 헤르시 등 초콜릿 제조사 수익성 압박",
+      "summary_ko": "코코아와 설탕 가격 상승으로 캔디 제품의 인플레이션이 평년을 크게 웃돌고 있다.",
+      "detail_ko": "원재료 가격 상승이 소비재 기업들의 원가 구조에 직접적인 영향을 미치고 있다. 헤르시 같은 주요 초콜릿 제조사들은 코코아와 설탕 가격 급등으로 인한 마진 압박에 직면해 있으며, 이를 소비자 가격에 전가할지 여부가 경영 과제가 되고 있다. 식품 인플레이션이 지속되면서 소비재 기업들의 실적 전망이 불확실해지는 상황이다.",
+      "impact_ko": "원재료 가격 상승이 계속될 경우 소비재 기업들의 마진율 악화로 이어질 수 있다. 가격 인상이 소비 수요 감소로 이어질 가능성도 있으며, 이는 소비재 섹터 전체의 실적 부진으로 확대될 수 있다."
+    },
+    {
+      "headline": "St. Louis Fed's Musalem: Tighter monetary policy is needed 'soon'",
+      "summary": "Musalem's comments offer the first morsels of insight into what leaders at the Fed see next following this week's decision to hold interst rates steady.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+      "published_at": "2026-10-30T16:30:16.000Z",
+      "headline_ko": "세인트루이스 연준 총재 무살렘, '조만간 긴축 필요' 발언",
+      "summary_ko": "무살렘 총재는 이번 주 기준금리 동결 결정 이후 연준의 향후 정책 방향에 대한 첫 신호를 제시했다.",
+      "detail_ko": "연방준비제도가 기준금리를 현 수준에서 유지하기로 결정한 직후 연준 내부에서 금리 인상 필요성을 주장하는 목소리가 나왔다. 이는 인플레이션 압력이 여전히 존재하며 연준이 추가 긴축을 검토 중일 수 있음을 시사한다. 무살렘의 발언은 시장이 당분간 금리 인상 가능성을 배제할 수 없다는 신호로 해석될 수 있다.",
+      "impact_ko": "금리 인상 가능성이 높아지면 고성장 기술주와 성장주의 밸류에이션 압박으로 이어질 수 있다. 채권 수익률 상승과 주식 시장의 추가 조정이 동반될 가능성이 있으며, 이는 위험자산 전반에 부정적 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "COMMENTARY: Big Oil's spending caution speaks louder than its profits - Reuters",
+      "summary": "COMMENTARY: Big Oil's spending caution speaks louder than its profits  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNEpvcHduNHFiT3VhT2lnSkhCN2dMTkEyd00tWUw5OXZheGhWRW0zdEFhVmxkcl9tV1JkSDV5MEZxWG5DUEVsQW5MVTB4RFQtUVpoeUlfM09BWGtkWmRjLWlpQml1alR3UjlmZHY0anVwOHJ4UGxHcTF2cmVTRFFqRjAtRnVlcTUxX3hMZVVlYTRlemVPVkxibEdQSGZ5Q1ZWTkp4aDR1NnJ4aUxDRVNDSUxSS1V3eW5HRThnQmphQTA5ZnM?oc=5",
+      "published_at": "2026-10-30T12:52:09.000Z",
+      "headline_ko": "빅오일의 신중한 투자 태도, 수익성보다 더 큰 신호",
+      "summary_ko": "석유 대형사들이 높은 수익에도 불구하고 설비 투자를 억제하고 있는 모습이 시장의 중요한 신호로 작용하고 있다.",
+      "detail_ko": "석유 업계의 대형 기업들이 기록적 수익을 기록했음에도 불구하고 자본 지출을 제한하고 있다는 것은 장기 수요 전망에 대한 회의적 태도를 반영한다. 이는 에너지 전환과 전기차 확산에 따른 석유 수요 감소 우려, 그리고 유가 변동성에 대한 불확실성이 투자 결정에 영향을 미치고 있음을 시사한다. 기업들의 신중한 자본 배분 전략은 업계의 장기 성장성에 대한 신뢰도 하락을 의미한다.",
+      "impact_ko": "석유 산업의 투자 부진이 지속되면 향후 공급 부족으로 이어질 수 있으며, 이는 유가 상승 압력으로 작용할 가능성이 있다. 동시에 에너지 전환 가속화로 인한 장기적 수요 감소 우려는 석유 관련 주식의 실적 전망을 어둡게 할 수 있다."
+    },
+    {
+      "headline": "Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran - Reuters",
+      "summary": "Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWE5IUkRJTVJvTFE5SUdOdFFCM2tVN1lKcDI3ci01cjlleVVuXzB1SjI0MDhuWkhwakZFSzl3SGNUZk9uUUYwdHNfMGJOUXExaW1RdmRRVy1Cd0tHb3RqblJCQWczeXdORDVKbVMxMGFrbnVMM3FCY2h5Xzl6T0ZoeTBtbGdnbW9jdWF6VEtqNi14ZnlFaVVpb0xZcHlGTDhtM0ZmY2RYZ2Q?oc=5",
+      "published_at": "2026-10-30T02:27:00.000Z",
+      "headline_ko": "이란 긴장 고조 우려로 유가 2% 급등, 6개월 고점 기록",
+      "summary_ko": "중동 지정학적 리스크 심화에 따른 공급 차질 우려로 유가가 6개월 만에 최고 수준으로 상승했다.",
+      "detail_ko": "이란과 관련된 지정학적 긴장이 고조되면서 중동 지역 석유 공급 차질에 대한 우려가 시장에 반영되었다. 유가가 2% 상승하며 6개월 고점을 기록한 것은 공급 리스크 프리미엄이 가격에 포함되고 있음을 보여준다. 중동 정세 악화는 전 세계 에너지 시장의 가장 큰 불확실성 요인으로 작용하고 있다.",
+      "impact_ko": "유가 상승이 지속되면 인플레이션 압력이 재개될 수 있으며, 이는 연준의 금리 인상 가능성을 높일 수 있다. 에너지 비용 상승은 운송, 화학, 전력 등 광범위한 산업의 원가 상승으로 이어져 경제 전반의 마진 압박을 초래할 수 있다."
+    },
+    {
+      "headline": "US loans 40 million barrels of oil from SPR, in last share of global agreement - Reuters",
+      "summary": "US loans 40 million barrels of oil from SPR, in last share of global agreement  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaVRyeXU5bDNSZGF1bUtLNFZ0eGQ3UF9PZm9IYzNBbEppa2s1VFBNVlV6bzJWN0JKSEtvVi00R0xsNHJPOEpZMHYyYWVuYlAzallScHBDWEVSZHRZX3BBczU3S19rMmJ4SlR5eUtkUG5jcXRHQjBYYmVsdzNpM1loU1hRSjdqTGtwWGVCTWlpV0hpbWpXRlUwNTNUZUJCNGxZU2VaeEtHR1lvRC1sWnd2dHc0TmVHdw?oc=5",
+      "published_at": "2026-10-29T21:13:44.000Z",
+      "headline_ko": "미국, 글로벌 협약의 마지막 몫으로 전략비축유 4천만 배럴 방출",
+      "summary_ko": "미국이 국제 협약에 따라 전략석유비축(SPR)에서 4천만 배럴을 방출하는 마지막 분할을 실행했다.",
+      "detail_ko": "미국 정부가 글로벌 석유 공급 안정화를 위한 국제 협약의 최종 단계로 전략비축유를 방출하고 있다. 이는 중동 지정학적 리스크로 인한 공급 차질 우려에 대응하기 위한 조치로 해석되며, 정부 차원의 공급 확대 노력이 유가 상승을 제어하려는 의도를 반영한다. SPR 방출은 단기적으로는 유가 안정화에 기여할 수 있지만, 비축유 감소로 인한 장기적 공급 불안정성 증가 우려도 함께 존재한다.",
+      "impact_ko": "SPR 방출이 단기적 유가 상승을 완화할 수 있으나, 비축유 고갈로 인한 향후 공급 대응 능력 약화로 이어질 수 있다. 이는 중장기적으로 유가 변동성을 높이고 에너지 시장의 불확실성을 증대시킬 가능성이 있다."
+    },
+    {
+      "headline": "UK inflation expectations fall in October, Citi/YouGov survey shows - Reuters",
+      "summary": "UK inflation expectations fall in October, Citi/YouGov survey shows  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWRhWERQcmcydHFCRTJEbmJKeTQ5U2oxYjg4QXdrSDhqUlp2bFBMTUs5Zm9JaXMxUUZOcUVOYmZ5ZXJXaDhaUlIwMm8zT3hJV0hjQmdDMEZiQlpiRm1UYjMyazFjek55TTFjQlFGd21xVlY2NFdfV0ZKMTcxc3JuNVBNcXBYamVGamdSOEpkWDZpSUxSc3VaMWtVUGNvTnZocnZkcXhXY0pMTEU?oc=5",
+      "published_at": "2026-10-29T17:06:20.000Z",
+      "headline_ko": "영국 인플레이션 기대치 10월 하락, 시티/유고브 조사",
+      "summary_ko": "영국의 소비자 인플레이션 기대치가 10월에 전월 대비 하락했다.",
+      "detail_ko": "영국의 소비자들이 향후 인플레이션에 대한 기대를 낮추고 있다는 것은 인플레이션 압력이 완화되고 있거나, 중앙은행의 긴축 정책이 기대 심리에 긍정적 영향을 미치고 있음을 시사한다. 이는 영국 중앙은행(BOE)의 금리 인상 정책이 인플레이션 기대를 안정화시키는 데 효과를 보이고 있음을 의미한다. 소비자 기대치 하락은 향후 임금-물가 악순환 고리를 약화시킬 수 있는 긍정적 신호다.",
+      "impact_ko": "인플레이션 기대치 하락이 지속되면 BOE의 추가 금리 인상 필요성이 감소할 수 있으며, 이는 파운드화 약세로 이어질 가능성이 있다. 동시에 소비자 심리 개선으로 내수 수요가 회복될 수 있으나, 금리 인상 사이클 종료 신호는 금융 자산의 재평가를 초래할 수 있다."
+    },
     {
       "headline": "How could the oil spill off the UAE coast affect desalination plants? - Reuters",
       "summary": "How could the oil spill off the UAE coast affect desalination plants?  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUU5JejdRZjhyTnRhQjVwOFVubXBzeWpJa2JJWkF0MmNKMlg5cWJnUi1FeFN6czdwUEFfTy1UTjRZVU1oS1lLb3ZVa0hlQzU3T3dwZVV1M0JmUTNZVEtfd3hscEVuclQ1UjloZEFWQWRqc2FiOEZpczRYY3V1RmJYaUJFVENfeml6Ymktc29qZW1LOTRSVUl0XzVoU1hfXzN1SUNlVTBiRkVzd0NxWmp6Q2ZvTQ?oc=5",
       "published_at": "2026-10-29T06:02:00.000Z",
-      "headline_ko": "UAE 해역 유류 유출이 담수화 시설에 미칠 영향",
-      "summary_ko": "UAE 해안에서 발생한 유류 유출 사고가 지역의 주요 담수화 플랜트에 어떤 영향을 미칠 수 있는지에 대한 분석이다.",
-      "detail_ko": "중동 지역의 유류 유출 사고는 단순한 환경 오염을 넘어 에너지 인프라와 수자원 확보에 직접적인 위협이 될 수 있다. UAE는 담수화에 크게 의존하는 국가로, 해수 담수화 시설이 유류 오염에 노출될 경우 담수 공급 차질이 발생할 수 있다. 이는 지역 경제와 주민 생활에 즉각적인 영향을 미칠 수 있는 중요한 이슈다.",
-      "impact_ko": "유류 유출이 담수화 시설 운영을 방해할 경우 중동 지역의 수자원 공급 불안정이 심화될 수 있다. 이는 에너지 및 수자원 관련 인프라 투자 수요를 증가시킬 가능성이 있으며, 지역 정정 불안정성이 심화되면 글로벌 에너지 가격 변동성도 확대될 수 있다."
+      "headline_ko": "UAE 해상 유출사고, 담수화 시설에 미칠 영향은?",
+      "summary_ko": "아랍에미리트 연안에서 발생한 유출사고가 담수화 플랜트 운영에 잠재적 위협이 될 수 있다.",
+      "detail_ko": "UAE는 담수화에 크게 의존하는 국가로, 해상 유출사고가 담수화 시설의 원수 오염으로 이어질 수 있다. 유출된 석유가 해수 담수화 플랜트의 취수 지역에 영향을 미칠 경우 담수 생산 차질이 발생할 수 있으며, 이는 지역 수자원 공급 위기로 확대될 가능성이 있다. 중동 지역의 물 부족 문제는 이미 심각한 상황이므로, 환경 오염으로 인한 담수 생산 차질은 경제적, 사회적 영향이 클 수 있다.",
+      "impact_ko": "담수화 시설 운영 차질이 발생하면 UAE의 수자원 공급 위기로 이어질 수 있으며, 이는 산업 생산과 생활용수 공급에 직접적 영향을 미칠 수 있다. 환경 오염 복구 비용 증가와 규제 강화는 에너지 및 담수화 관련 기업들의 운영 비용을 상승시킬 가능성이 있다."
     },
     {
       "headline": "Oil prices settles lower as diplomacy hopes offset some Mideast supply concerns - Reuters",
@@ -180,76 +246,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdy1kTGwzTi1ZWVpiLUFTbF9HS0VGbXFnVWhMVzBfOUhieU95OGhLZnpZLTB3ckdrOEFMZms2UU1qYUMyY01yd3VOQmNhNGU4MmZvNE1uUzdqcXc0OWxLYlRRSk5NaU85cUdZYTd0a1d0QU93S0JfaTNMdlpVa3pMeVBUZnFtd0ZMVXhMWGhHejZOVjQtZlN2ekVsaTdWU2hCVE8xaTlpamEzXzQ?oc=5",
       "published_at": "2026-10-29T00:28:00.000Z",
-      "headline_ko": "중동 공급 우려 완화되며 유가 하락 마감",
-      "summary_ko": "외교적 해결 가능성이 중동 지역 공급 우려를 상쇄하면서 유가가 하락으로 마감했다.",
-      "detail_ko": "중동 지정학적 긴장이 유가에 미치는 영향은 공급 차질 우려와 외교적 해결 가능성 사이의 균형에서 결정된다. 오늘 유가 하락은 외교 채널을 통한 분쟁 완화 가능성이 시장에서 긍정적으로 평가되었음을 의미한다. 이는 단기적으로는 에너지 수입국들에게 호재지만, 지정학적 리스크가 완전히 해소되지 않은 상황에서의 일시적 완화로 볼 수 있다.",
-      "impact_ko": "유가 하락은 인플레이션 압력 완화로 이어져 중앙은행의 금리 인상 필요성을 낮출 수 있다. 다만 외교적 진전이 지속되지 않으면 유가 변동성이 재확대될 가능성이 있으며, 이는 글로벌 경기 전망에 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Fed chairman talks tough on inflation — plus, what's behind Micron's big rally",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
-      "published_at": "2026-10-28T19:17:35.000Z",
-      "headline_ko": "연준 의장의 강경한 인플레이션 발언, 마이크론 급등",
-      "summary_ko": "연준 의장이 인플레이션에 대해 강경한 입장을 드러낸 가운데 마이크론이 큰 폭의 상승률을 기록했다.",
-      "detail_ko": "연준의 강경한 인플레이션 대응 기조는 금리 인상 지속 가능성을 시사하며, 이는 일반적으로 기술주에 부정적이다. 그러나 마이크론의 급등은 메모리 반도체 수요 전망이나 기업 실적 개선 등 종목 특화 요인이 거시 금리 우려를 상쇄했을 가능성을 시사한다. 이는 시장이 거시 환경 악화 속에서도 선별적으로 실적 개선 종목을 찾고 있음을 보여준다.",
-      "impact_ko": "연준의 강경한 금리 기조가 지속될 경우 고금리 민감 기술주들의 밸류에이션 압박이 계속될 수 있다. 다만 개별 기업의 실적 개선이나 산업 수요 회복이 명확하면 종목 선별 현상이 심화될 가능성이 있으며, 이는 시장 변동성을 높일 수 있다."
-    },
-    {
-      "headline": "Bond investor Jeff Gundlach talks to CNBC about Fed's rate pause, Warsh reducing vote-setting meetings",
-      "summary": "The DoubleLine founder spoke with CNBC's \"Closing Bell\" on Wednesday after the Fed announced its decision to hold interest rates steady.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
-      "published_at": "2026-10-28T19:05:30.000Z",
-      "headline_ko": "채권 투자자 건들락, 연준 금리 동결과 워시의 투표 회의 축소 논의",
-      "summary_ko": "더블라인 펀드 창립자 제프 건들락이 연준의 금리 동결 결정과 워시의 투표 회의 축소 계획에 대해 CNBC와 인터뷰했다.",
-      "detail_ko": "연준이 금리를 동결하기로 결정한 것은 인플레이션 우려가 여전하지만 경기 둔화 신호도 나타나고 있음을 반영한다. 워시의 투표 회의 축소 논의는 연준 내 정책 결정 프로세스 변화를 시사하며, 이는 향후 금리 결정의 유연성이나 신속성에 영향을 미칠 수 있다. 채권 투자자들의 관심은 연준의 다음 정책 방향과 인플레이션 경로에 집중되고 있다.",
-      "impact_ko": "금리 동결이 지속될 경우 채권 수익률이 현 수준에서 안정될 가능성이 있으며, 이는 채권 투자 매력도를 높일 수 있다. 반면 인플레이션이 재가속되면 연준의 추가 인상 가능성이 높아져 채권 가격에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "NEWSLETTER: Reading Gulf anxiety in the oil price - Reuters",
-      "summary": "NEWSLETTER: Reading Gulf anxiety in the oil price  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTWc0WEJYUlFxU0NnSFFxNkk0X2JUanhWZl9qMlMyTnl4dnlaS1Zlbjd4VEdscXpQbVRwSWNMejdZakVHYVVsQWhRQmQwWWVObTNUVV83c3prVVFab25oVXpkTzd3SnJVYUdiZGFpSEljV3NxS2hwRDdzd3FzVzdFdWNiNUdHa3U1aDg1Qw?oc=5",
-      "published_at": "2026-10-28T17:35:00.000Z",
-      "headline_ko": "뉴스레터: 유가에 반영된 중동 불안감",
-      "summary_ko": "중동 지역의 지정학적 불안감이 유가에 어떻게 반영되고 있는지를 분석하는 뉴스레터다.",
-      "detail_ko": "중동 지정학적 리스크는 글로벌 에너지 시장의 가장 중요한 변수 중 하나다. 유가는 실제 공급 차질뿐 아니라 공급 차질에 대한 시장의 불안감도 반영하므로, 중동 상황의 악화 신호는 즉시 유가에 프리미엄을 더한다. 현재 유가 움직임은 실제 공급 차질과 외교적 해결 가능성 사이의 심리적 균형을 나타내고 있다.",
-      "impact_ko": "중동 불안감이 지속되면 유가 변동성이 높아져 인플레이션 전망 불확실성이 증가할 수 있다. 이는 중앙은행의 금리 결정을 어렵게 만들고, 글로벌 경기 전망을 악화시킬 가능성이 있다."
-    },
-    {
-      "headline": "UK inflation forecast to average 3.4% in 2027, OBR says - Reuters",
-      "summary": "UK inflation forecast to average 3.4% in 2027, OBR says  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVU1ZLWRfOWJKSjgzSzVnU0lRT1c0ZHZ4N1RNc2RKV3RHNEhiVFlRTEYtOXduN05ISVE1VDN6NXlMSUl4QXNtZ2dPRGNoLW5xeEhjeUZjdGQ3M2EwRHpmWnlPLWltVmN0d3Q3RWU1ekZRTFUwcTlLTjRvREtPUXZPS00tOXI1RGZEYkJ6VXItVnlNVzgzQWh3UUpR?oc=5",
-      "published_at": "2026-10-28T14:23:31.000Z",
-      "headline_ko": "영국 OBR, 2027년 인플레이션 평균 3.4% 예상",
-      "summary_ko": "영국 예산책임청(OBR)이 2027년 평균 인플레이션을 3.4%로 전망했다.",
-      "detail_ko": "영국의 인플레이션 전망은 영란은행의 금리 정책 방향을 결정하는 중요한 지표다. 2027년 3.4% 예상은 현재의 높은 인플레이션 수준에서 점진적으로 하락할 것으로 예상하되, 여전히 중앙은행의 목표치(보통 2%)보다 높다는 의미다. 이는 영국이 중기적으로도 금리를 현 수준 이상으로 유지할 필요가 있을 수 있음을 시사한다.",
-      "impact_ko": "높은 인플레이션 전망은 영란은행의 금리 인하 시점을 지연시킬 가능성이 있으며, 이는 파운드화 강세로 이어질 수 있다. 또한 영국 기업과 가계의 금리 부담이 지속되면서 경기 둔화 우려도 커질 수 있다."
-    },
-    {
-      "headline": "Namibia raises key interest rate to cushion second-round effects from high fuel prices - Reuters",
-      "summary": "Namibia raises key interest rate to cushion second-round effects from high fuel prices  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV1lSSDlQdktQX2k1RzRVVE9WYlFVdWhsYVhLSlpwOFRyc2JNbmJpRGllU2ltM2RyVjdfOGlaclh1WnBweVY4VDE4TGdiMkh2cFJCbGU1RHFub3lZc0R6bUhGYTFrU2ZQZmFxYlI4TlVFNlRxRW5qeE9raTBicEV6TTFiSTloelZMUUdiYlY4emZGQjBCV3dSYXQzVGgyaUtzOEZWeTBCZnB0OHk5YVpvNnpkdmZwa0ZfN01OTVZrdEZ5bWp4VGc?oc=5",
-      "published_at": "2026-10-28T11:09:07.000Z",
-      "headline_ko": "나미비아, 높은 연료가격의 2차 파급효과 완화 위해 기준금리 인상",
-      "summary_ko": "나미비아가 높은 연료가격으로 인한 2차 인플레이션 효과를 억제하기 위해 기준금리를 인상했다.",
-      "detail_ko": "나미비아의 금리 인상은 에너지 가격 상승이 광범위한 인플레이션으로 확산되는 것을 막기 위한 선제적 조치다. 연료가격 상승은 운송비, 생산비 등을 높여 2차 인플레이션을 유발할 수 있으므로, 중앙은행은 통화 긴축으로 수요를 억제하려는 것이다. 이는 신흥국 중앙은행들이 글로벌 에너지 가격 충격에 어떻게 대응하고 있는지를 보여주는 사례다.",
-      "impact_ko": "나미비아의 금리 인상은 단기적으로 경기 둔화 압력을 높일 수 있으나, 인플레이션 고착을 방지하는 데 도움이 될 수 있다. 다른 신흥국들도 유사한 에너지 가격 충격에 직면해 있다면 동반 금리 인상 가능성이 있으며, 이는 신흥국 자산에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Philippines in talks with several countries, including Saudi Arabia, for oil storage - Reuters",
-      "summary": "Philippines in talks with several countries, including Saudi Arabia, for oil storage  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMWM1YlAzX25ySkZ2NmFQUzBWQnNPLTVzYlVOLVdsMHlFcEN0QWJ5a05xQXMyRF9VR05iNmc4MnNzVW5zd2tYWW5YUEJxR0xKN1NpTmxOYjdyemFiT1JfaUc0R29kQ3plNHJOZ2hnNTE0X1E3MmNDNDM5NmVqQXpVbnJBNTNOaU1LaHA3aW5fV0JmUzd5RDQyQWF1a3hVTG4tQVFUaTlzelhMT0lfcEZKU1VpSVZlejJjUEpGLTh2bm94b3FwNWc?oc=5",
-      "published_at": "2026-10-28T09:07:44.000Z",
-      "headline_ko": "필리핀, 사우디아라비아 등 여러 국가와 석유 저장 협상 진행",
-      "summary_ko": "필리핀이 사우디아라비아를 포함한 여러 국가와 석유 저장 시설 확보를 위한 협상을 진행 중이다.",
-      "detail_ko": "필리핀의 석유 저장 협상은 에너지 안보 강화와 유가 변동성 대응을 위한 전략적 움직임이다. 석유 저장 능력을 확보하면 유가 급등 시 비축유를 방출하여 가격 안정화를 도모할 수 있고, 공급 차질 시 에너지 안보를 확보할 수 있다. 이는 신흥국들이 글로벌 에너지 시장의 변동성에 대응하기 위해 전략적 비축유 확보에 나서고 있음을 의미한다.",
-      "impact_ko": "필리핀의 석유 저장 확대는 동남아 지역의 에너지 안보를 강화할 수 있으며, 이는 지역 경제 안정성 향상으로 이어질 수 있다. 또한 여러 국가의 비축유 확보 움직임이 확산되면 글로벌 석유 수요 구조에 영향을 미칠 수 있다."
+      "headline_ko": "외교 협상 희망으로 유가 하락, 중동 공급 우려 일부 상쇄",
+      "summary_ko": "중동 지정학적 긴장 완화 가능성에 대한 외교적 노력이 반영되면서 유가가 하락했다.",
+      "detail_ko": "이란 긴장 고조로 인한 유가 상승 이후, 외교적 해결 가능성에 대한 기대감이 시장에 반영되고 있다. 국제 사회의 중재 노력과 협상 진전 가능성이 공급 차질 우려를 부분적으로 상쇄하고 있으며, 이는 유가의 변동성을 높이는 요인으로 작용한다. 지정학적 리스크와 외교적 해결 가능성 사이의 줄다리기가 단기 유가 변동을 주도하고 있다.",
+      "impact_ko": "외교 협상 진전이 실제로 이루어질 경우 유가 하락 압력이 지속될 수 있으며, 이는 인플레이션 완화로 이어질 수 있다. 반대로 협상이 결렬될 경우 유가 급등으로 인한 인플레이션 재개 우려가 높아질 수 있으며, 이는 경제 전망의 불확실성을 증대시킬 것으로 예상된다."
     }
   ],
   "calendar": [
