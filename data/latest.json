@@ -1,272 +1,255 @@
 {
-  "generated_at": "2026-11-05T01:56:23.754Z",
+  "generated_at": "2026-11-06T01:57:27.540Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 349.51,
-        "change_pct": 5.3058
+        "price": 344.17,
+        "change_pct": -1.5279
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 555.8,
-        "change_pct": 6.6815
+        "price": 535.93,
+        "change_pct": -3.575
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 200.13,
-        "change_pct": -3.1738
+        "price": 181.6,
+        "change_pct": -9.259
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 385.19,
-        "change_pct": -3.34
+        "price": 343.69,
+        "change_pct": -10.7739
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 266.03,
-        "change_pct": 6.1191
+        "price": 260.21,
+        "change_pct": -2.1877
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 288.93,
-        "change_pct": 3.1782
+        "price": 282.57,
+        "change_pct": -2.2012
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 630,
-        "change_pct": 1.4444
+        "price": 605.08,
+        "change_pct": -3.9556
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 766.81,
-        "change_pct": 1.6518
+        "price": 733,
+        "change_pct": -4.4092
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 691.95,
-        "change_pct": 0.9733
+        "price": 647.05,
+        "change_pct": -6.4889
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 80787,
-        "change_pct": 5.06984
+        "price": 76124,
+        "change_pct": -5.71921
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2431.32,
-        "change_pct": 7.43518
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1312.99,
-        "change_pct": 9.33369
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.197844,
-        "change_pct": 5.7458
-      },
-      {
-        "symbol": "WBT",
-        "name": "WhiteBIT Coin",
-        "price": 78.16,
-        "change_pct": 5.73358
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 11.47,
-        "change_pct": 5.71333
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.319615,
-        "change_pct": -0.8896
-      },
-      {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999663,
-        "change_pct": 0.00573
+        "price": 2238.4,
+        "change_pct": -7.91741
       },
       {
         "symbol": "USDS",
         "name": "USDS",
         "price": 1,
-        "change_pct": 0.02958
+        "change_pct": 0.00154
+      },
+      {
+        "symbol": "USDC",
+        "name": "USDC",
+        "price": 0.999519,
+        "change_pct": -0.01317
       },
       {
         "symbol": "USDT",
         "name": "Tether",
-        "price": 0.999322,
-        "change_pct": 0.03706
+        "price": 0.999004,
+        "change_pct": -0.03302
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1310.34,
+        "change_pct": -0.0705
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.154804,
+        "change_pct": -8.22842
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 77.73,
+        "change_pct": -7.94648
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.22,
+        "change_pct": -7.03819
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.072017,
+        "change_pct": -6.63328
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 중간선거에서 민주당이 '블루 스윕' 승리를 거두면서 긍정적 반응을 보였다. 달러 약세와 금리 인상 우려 완화가 위험자산 선호 심리를 자극했고, 특히 기술주와 대형 성장주들이 강세를 주도했다.",
-      "애플, 마이크로소프트, 아마존 등 빅테크 종목들이 5~6% 이상 상승한 배경에는 민주당 승리로 인한 규제 리스크 완화 기대감이 작용한 것으로 해석된다. 달러 약세 국면에서 해외 수익 비중이 큰 대형 기술기업들의 실적 개선 전망도 긍정적으로 평가되는 중이다.",
-      "반면 엔비디아와 테슬라는 각각 3% 이상 하락했는데, 이는 광범위한 기술주 강세 속에서도 상대적으로 밸류에이션 재평가 압박을 받은 것으로 보인다. 특히 테슬라는 정치적 불확실성 해소 이후 개별 기업 펀더멘털에 대한 시장의 선별적 검토가 강화되는 양상을 보이고 있다.",
-      "암호화폐 시장에서는 달러 약세 기조와 위험자산 선호 심리가 강하게 작용했다. 비트코인과 이더리움이 각각 5% 이상 상승했으며, 특히 프라이버시 코인인 지캐시는 규제 리스크 완화 기대와 함께 9% 이상 급등한 것으로 해석된다. 이는 정치적 불확실성 감소로 인한 리스크온 심리가 변동성 높은 자산까지 확대되고 있음을 시사한다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 글로벌 주식시장은 광범위한 낙폭을 기록했다. S&P 500 ETF(SPY)가 -4.41%, 나스닥100 ETF(QQQ)가 -6.49%를 하락하며 기술주 중심의 매도세가 두드러졌다. 이는 거시경제 불확실성과 금리 전망 변화가 복합적으로 작용한 결과로 해석된다.",
+      "엔비디아(-9.26%), 테슬라(-10.77%), 마이크로소프트(-3.58%) 등 대형 기술주들이 특히 큰 낙폭을 보였다. 영국 중앙은행의 금리 인상 결정이 글로벌 금리 상승 우려를 자극하면서, 고성장 기술주에 대한 투자심리가 위축된 것으로 보인다. 동시에 이란-후티 갈등 완화 가능성이 유가 하락을 초래하면서 에너지 섹터 약세와 맞물려 리스크 회피 심리가 확산된 영향으로 해석된다.",
+      "암호화폐 시장도 주식과 동반 하락했다. 비트코인(-5.72%), 이더리움(-7.92%), XRP(-7.04%), 스텔라(-8.23%), 하이퍼리퀴드(-7.95%) 등이 광범위하게 하락했다. 글로벌 금리 인상 우려와 위험자산 회피 심리 확산이 암호화폐 같은 고변동성 자산에 부정적으로 작용한 것으로 보이며, 스테이블코인들(USDS, USDC, USDT)은 안정적 가치 유지로 상대적 강세를 보였다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 349.51,
-        "change_pct": 5.3058,
-        "type": "stock",
-        "reason_ko": "민주당 승리로 규제 리스크 완화"
-      },
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "price": 555.8,
-        "change_pct": 6.6815,
-        "type": "stock",
-        "reason_ko": "달러 약세 속 기술주 강세"
-      },
-      {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 266.03,
-        "change_pct": 6.1191,
-        "type": "stock",
-        "reason_ko": "위험자산 선호 심리 확대"
-      },
-      {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 200.13,
-        "change_pct": -3.1738,
+        "price": 181.6,
+        "change_pct": -9.259,
         "type": "stock",
-        "reason_ko": "상대적 밸류에이션 재평가"
+        "reason_ko": "금리 인상 우려로 기술주 매도"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 343.69,
+        "change_pct": -10.7739,
+        "type": "stock",
+        "reason_ko": "고성장주 리스크 회피 심화"
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 80787,
-        "change_pct": 5.06984,
+        "price": 76124,
+        "change_pct": -5.71921,
         "type": "crypto",
-        "reason_ko": "달러 약세와 리스크온 심리"
+        "reason_ko": "위험자산 회피 심리 확산"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1312.99,
-        "change_pct": 9.33369,
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price": 2238.4,
+        "change_pct": -7.91741,
         "type": "crypto",
-        "reason_ko": "규제 리스크 완화 기대감"
+        "reason_ko": "금리 인상 우려와 동반 하락"
       }
     ]
   },
   "news": [
+    {
+      "headline": "ConocoPhillips boosts dividend after beating estimates on higher oil prices - Reuters",
+      "summary": "ConocoPhillips boosts dividend after beating estimates on higher oil prices  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmVXLVh5bHBBQWh5ZkFmckpmSkRNMVB2UGZwaDFuYVc1TE93TVZKcjl4c1lPSjVQb1doc1pJdm11S01RTGtwTDRUblRGVWp2M3hrb2ZLakV3R0poTGRjcmRyOEI2M2hNOEJFVllydTcyQ043WFVSRURkREJvZWxtaWJmaDJNRllnc3lPZllyM1JtMEhnY09NLWRpZzNuQWt0YU1jTFpCMlQ2UG1ZQVVtYVF5dUlZZw?oc=5",
+      "published_at": "2026-11-05T19:34:08.000Z",
+      "headline_ko": "코노코필립스, 유가 상승에 힘입어 실적 상회하며 배당금 인상",
+      "summary_ko": "코노코필립스가 높은 유가를 배경으로 예상을 뛰어넘는 실적을 기록하고 배당금을 인상했다.",
+      "detail_ko": "에너지 기업들은 유가 수준에 따라 수익성이 크게 좌우되는 구조를 가지고 있다. 코노코필립스의 배당금 인상은 현재의 유가 환경이 기업의 현금 창출 능력을 충분히 뒷받침하고 있음을 시사한다. 다만 이는 동시에 유가가 높은 수준에서 형성되어 있다는 의미이기도 하며, 향후 유가 하락 시 에너지 섹터의 수익성 악화 가능성을 내포하고 있다.",
+      "impact_ko": "단기적으로는 에너지 섹터의 배당 수익률 매력이 강화될 수 있으나, 유가 변동성에 따른 수익 변동성이 커질 가능성이 있다. 또한 높은 유가는 인플레이션 압력을 유지하면서 중앙은행의 금리 인상 기조를 강화할 수 있어 전체 시장에 미치는 영향을 고려할 필요가 있다."
+    },
+    {
+      "headline": "PODCAST: Oil heads for pandemic-era fall - Reuters",
+      "summary": "PODCAST: Oil heads for pandemic-era fall  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUN4a1BScS1wZnluYTlzUWEwR0EtSUhnWU9VMGtEMkc3Y21FenVPbDU3X0dkak83aDh3VmFYdzltcVVuN3F3ZFJrLWwxeWxmZDZ1ZlNNeG9uY1FfQXdoc0xMYUh1T3hHeV9Ib3BtNGpRLXBPQVYxd3h1aEoxVklTVjlsOW01bXdTX3JJUzJrbGxwdzRKckk0?oc=5",
+      "published_at": "2026-11-05T14:29:27.000Z",
+      "headline_ko": "유가, 팬데믹 시대 수준으로 하락 추세",
+      "summary_ko": "국제유가가 팬데믹 이후 최저 수준으로 하락하는 추세를 보이고 있다.",
+      "detail_ko": "유가의 장기적 하락 추세는 수요 약화, 공급 과잉, 또는 지정학적 긴장 완화 등 여러 요인이 복합적으로 작용한 결과일 수 있다. 팬데믹 시대 수준까지 하락한다는 것은 현재의 글로벌 에너지 수급 상황이 상당히 완화되었음을 의미한다. 이는 인플레이션 압력 완화, 운송비 하락, 에너지 기업의 수익성 악화 등 광범위한 경제적 영향을 초래할 수 있다.",
+      "impact_ko": "유가 하락은 소비자 물가 안정에 긍정적으로 작용할 수 있어 중앙은행의 금리 인상 압력을 완화할 가능성이 있다. 반면 에너지 기업들의 수익성 악화로 이어져 에너지 섹터 주식의 약세가 지속될 수 있으며, 유가 의존도가 높은 국가들의 경제 성장에 부정적 영향을 미칠 수 있다."
+    },
+    {
+      "headline": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise - Reuters",
+      "summary": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1NmeDl4ZndpQkllbEZoTmVYQzFUSXpCeFNTRnByV05HcVlaYXl0RkY4b0htT1dYTkhQZG9DNldqcmtna1gyNVhkdTZwWmR3NTBZb0gtUm9kWnlfQzVhMWJCTzVYSGhpLXkxS085ZGpwVUVEbWlTWmItbElUTzFqTEwydEJTSUVheFJsTGNjdnlfRW1RaURzWm5KOGs5Rmx1bUV4SUxpTWNaMlNhWGxPU2lnNkt0cXc?oc=5",
+      "published_at": "2026-11-05T12:58:29.000Z",
+      "headline_ko": "영국 중앙은행, 3년 만에 첫 금리 인상 단행, 길트 수익률 상승",
+      "summary_ko": "영국 중앙은행이 3년 만에 처음으로 기준금리를 인상했으며, 이에 따라 영국 국채 수익률이 상승했다.",
+      "detail_ko": "영국 중앙은행의 금리 인상은 글로벌 금리 인상 사이클의 일부로 해석된다. 3년간의 금리 동결 이후 인상으로 전환한다는 것은 인플레이션 압력이 여전하거나 경제 상황이 금리 인상을 정당화할 수준으로 개선되었음을 의미한다. 길트 수익률의 상승은 시장이 향후 추가 인상을 예상하고 있음을 반영하며, 이는 글로벌 채권 시장 전반에 파급 효과를 미칠 수 있다.",
+      "impact_ko": "영국의 금리 인상은 글로벌 금리 인상 기대를 강화하면서 고성장주와 기술주에 부정적 영향을 미칠 수 있다. 또한 영국 파운드화 강세를 초래할 수 있어 국제 무역과 환율 시장에 영향을 미칠 가능성이 있다. 동시에 채권 수익률 상승으로 인해 채권 투자의 매력도가 높아지면서 주식에서 채권으로의 자금 이동이 가속화될 수 있다."
+    },
+    {
+      "headline": "Saudi Arabia warns of potential danger in Yanbu oil hub as Houthi attacks continue - Reuters",
+      "summary": "Saudi Arabia warns of potential danger in Yanbu oil hub as Houthi attacks continue  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR1J2UXI1T2psd21CTE9jNjdvWmZpaktQTVh0Vzg1VGNzZndWZVNab0JhcFNkMEZSRlF1R0d1Vm9EVmZVMDhfUThrOG84Q2VQaTZocklZaEV4end3cjBUYWFTTWxWZFc4WjBLV1MtOFQ3c0d1bHRvODdrQTFTT01MLVFvTlA1eXI3T3JnMzlXNmpXcGNsWE1KQ3hQRDZCRG8xZjBZMTJSRHZqMmNuVkFWZTVXLXRqdkoxaUlvQUVmcVoxTW9FdFE?oc=5",
+      "published_at": "2026-11-05T11:33:52.000Z",
+      "headline_ko": "사우디아라비아, 후티 공격으로 얀부 유전 지역 위험 경고",
+      "summary_ko": "사우디아라비아가 후티 무장단체의 공격으로 인해 얀부 유전 지역의 잠재적 위험성을 경고했다.",
+      "detail_ko": "얀부는 사우디아라비아의 주요 석유 생산 및 수출 허브 중 하나이다. 후티 공격의 위협이 지속되면 석유 생산 차질, 공급 감소, 유가 급등 등의 위험이 발생할 수 있다. 다만 현재 유가가 하락 추세를 보이고 있다는 점은 시장이 이러한 지정학적 리스크를 아직 충분히 가격에 반영하지 않았거나, 다른 요인(수요 약화 등)이 공급 리스크를 상쇄하고 있음을 시사한다.",
+      "impact_ko": "후티 공격이 실제로 사우디 석유 시설에 피해를 입힐 경우 유가가 급등할 가능성이 있으며, 이는 인플레이션 재상승과 중앙은행의 금리 인상 재가속으로 이어질 수 있다. 반대로 현재의 유가 하락 추세가 지정학적 리스크를 무시하고 있다면, 향후 공급 충격 시 시장 변동성이 급증할 수 있다."
+    },
+    {
+      "headline": "Asia fuel oil benchmarks slump as market prices in potential Iran war de-escalation - Reuters",
+      "summary": "Asia fuel oil benchmarks slump as market prices in potential Iran war de-escalation  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOURmMHZvcURoTHdPckpVdEYtMVA3WTktOGNLOGpHeTRZcGZ4OWZjQ2tHQTlTYy15N05pZ0VPemlkZEozUGdHTU9ieDdvZlEyU2dBbzZtbzVPNDVaaGVGNktHTGg0Nk5GbU9kYnVTN291Zkp4NV9Idk05OTNKR1FFckUtVnFfX25tWkRYd1A3VEdrME1YQjFzVzF2VDk1T1Fnc2RRdEZMZzZPNWN1YVVtX2MyTzV0SlA4eWMzOFVlQ0NBY3p2VXpsZQ?oc=5",
+      "published_at": "2026-11-05T10:13:02.000Z",
+      "headline_ko": "아시아 연료유 벤치마크 급락, 이란 전쟁 완화 가능성 반영",
+      "summary_ko": "아시아 연료유 가격이 이란과의 갈등 완화 가능성을 반영하며 급락했다.",
+      "detail_ko": "중동 지정학적 긴장이 완화될 가능성은 석유 공급 리스크 감소를 의미한다. 이란 관련 갈등이 해소되면 이란산 석유의 국제 시장 유입 가능성이 높아져 공급 과잉 우려가 커질 수 있다. 아시아 연료유 가격의 급락은 시장이 이러한 시나리오를 선제적으로 가격에 반영하고 있음을 보여주며, 이는 글로벌 유가 하락 추세를 강화하는 요인으로 작용하고 있다.",
+      "impact_ko": "유가 하락은 인플레이션 압력 완화로 이어져 중앙은행의 금리 인상 필요성을 감소시킬 수 있다. 다만 지정학적 긴장이 재고조될 경우 유가가 급등할 수 있어, 현재의 낙폭이 과도할 가능성도 존재한다. 에너지 수입국들은 유가 하락으로 경제 부담이 경감되는 반면, 에너지 수출국들의 재정 수입 감소로 인한 경제 악화 가능성이 있다."
+    },
+    {
+      "headline": "Indian shares log biggest gains in seven months on oil slide, foreign flows - Reuters",
+      "summary": "Indian shares log biggest gains in seven months on oil slide, foreign flows  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
+      "published_at": "2026-11-05T02:37:00.000Z",
+      "headline_ko": "인도 주식시장, 유가 하락과 외국인 자금 유입으로 7개월 만에 최대 상승률 기록",
+      "summary_ko": "인도 주식시장이 유가 하락과 외국인 투자자들의 자금 유입으로 7개월 만에 가장 큰 상승률을 기록했다.",
+      "detail_ko": "인도는 석유 수입국으로서 유가 하락이 무역 수지 개선, 인플레이션 완화, 경상수지 개선 등 긍정적 영향을 미친다. 유가 하락으로 인한 경제 펀더멘탈 개선이 외국인 투자자들의 관심을 끌었으며, 이는 자금 유입으로 이어졌다. 동시에 글로벌 금리 인상 우려 속에서도 인도의 상대적 매력도가 높아진 것으로 해석되며, 이는 신흥시장 중에서도 인도의 경제 펀더멘탈이 비교적 견고함을 시사한다.",
+      "impact_ko": "인도 주식시장의 강세는 신흥시장 투자자들의 관심을 인도로 집중시킬 수 있어 추가 자금 유입을 유도할 가능성이 있다. 유가 하락의 긍정적 영향이 지속되면 인도 경제의 성장 전망이 개선될 수 있으나, 글로벌 금리 인상이 가속화될 경우 신흥시장 자금 이탈 위험도 존재한다."
+    },
+    {
+      "headline": "Rupee finds its footing as oil worries cool, traders watch flow momentum - Reuters",
+      "summary": "Rupee finds its footing as oil worries cool, traders watch flow momentum  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQME9GZlNzY1R1djlUYWZnQ2lQRXE3ZHoxQ1VhOEZhaVRyVTY3TWZIRXhNMDNaemNtb0NFNzJZeTZtYlRCX0FtbFlYenA4Z0gtSkZBZVFRQThHZkRtcHhsR09wWXVhdl9CLUQ2Z19JNWpFWlI0N013RFR4VDFrSTFoZzVQS3F5Y216eWdlMTlZbWxldWY4TXh0M09TLTBuX3lUZ1ZWRzVaRHhxSENxT3E4Qlpwd0E?oc=5",
+      "published_at": "2026-11-05T02:19:00.000Z",
+      "headline_ko": "인도 루피, 유가 우려 완화로 안정세 회복, 거래자들은 자금 흐름 추이 주시",
+      "summary_ko": "인도 루피화가 유가 하락으로 인한 우려 완화에 따라 안정세를 되찾았으며, 거래자들은 향후 자금 흐름을 주시하고 있다.",
+      "detail_ko": "루피화는 인도의 유가 수입 의존도에 민감하게 반응한다. 유가 하락은 인도의 외환 보유액 소모 속도를 늦추고 경상수지를 개선시켜 루피화 약세 압력을 완화한다. 루피화의 안정세 회복은 인도 경제의 거시경제 지표 개선을 반영하며, 이는 외국인 투자자들의 인도 자산 투자 결정에 긍정적 신호로 작용할 수 있다.",
+      "impact_ko": "루피화의 안정화는 인도 기업들의 해외 차입 비용 감소와 수출 경쟁력 개선으로 이어질 수 있다. 다만 글로벌 금리 인상이 가속화되면 신흥시장 통화에 대한 약세 압력이 재개될 가능성이 있어, 거래자들이 자금 흐름 변화를 면밀히 모니터링하고 있는 것으로 보인다."
+    },
     {
       "headline": "Trump says Hegseth doing 'a very good job' as questions swirl about his future - Reuters",
       "summary": "Trump says Hegseth doing 'a very good job' as questions swirl about his future  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYTEzMDVoRDFiSGh1VHBhVGVTV2JlZ2g3dVk0a2VCMjNVdENMQkQ1bk5vVDA5OHBIS0daTVVfeUJWYnpZdzdBMld1VXZPTGdBdVRScG4xSlpKWHRScXpOcFhFS2MxbzZ6OGF2OHNwSXBEczh3b2doemhkSHFKWFFxZjZDWVpHVFVheFhXcWYxS0tyYlVBbS00dnl3aDlLYTd5MEx4MVMzdHl1TWJ0OHo4dF9aeWRhU3JPOWc?oc=5",
       "published_at": "2026-11-04T23:32:38.000Z",
-      "headline_ko": "트럼프, 헉스스 국방장관이 '매우 좋은 일을 하고 있다'고 평가",
-      "summary_ko": "트럼프 대통령이 헉스스 국방장관의 향후 진로에 대한 의문이 제기되는 가운데 그의 업무 수행을 긍정적으로 평가했다.",
-      "detail_ko": "트럼프 행정부 내 인사 안정성 문제가 제기되는 상황에서 트럼프가 핵심 장관진에 대한 신뢰를 표명한 것이다. 이는 행정부의 정책 연속성과 리더십 안정성에 대한 시장의 우려를 어느 정도 완화할 수 있는 신호로 작용할 수 있다. 정치적 불확실성이 경제 정책 기대에 미치는 영향을 고려할 때, 인사 안정성 메시지는 기업 투자 심리에 긍정적 요인이 될 수 있다.",
-      "impact_ko": "행정부 인사의 안정성 신호는 정책 연속성에 대한 기업과 투자자의 신뢰를 높일 수 있다. 이는 중기적 경제 정책 예측 가능성을 개선하고 기업 투자 의사결정에 긍정적 영향을 미칠 가능성이 있다."
-    },
-    {
-      "headline": "Oil slumps after midterm election rebuke to Trump raises bets on Iran war exit - Reuters",
-      "summary": "Oil slumps after midterm election rebuke to Trump raises bets on Iran war exit  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQUEyU0pEVG8xTHJtT2xCU0ltcXVTalphM0RNTEZ0UVlCTW5Qbjg4cS1RQnh5QXZnVEZvdnBacmZRM2FhMWJLWXVjU08yNkpvOHZiLTUtSGN0Mk55NGFBNWdxTmR4b3ZBeGNlX3ptUGNaRVFzRzhyNDZodklncGFZaV96cUxHY1Q1ODZWdmpTVWlWRVp4bVdJb0Zrb1pLaXVsUFFySUd4cm40cFphNGZB?oc=5",
-      "published_at": "2026-11-04T20:22:06.000Z",
-      "headline_ko": "중간선거 트럼프 패배로 이란 전쟁 종료 가능성 높아지며 유가 급락",
-      "summary_ko": "미국 중간선거에서 민주당의 승리로 이란과의 군사 갈등 완화 전망이 높아지면서 유가가 하락했다.",
-      "detail_ko": "중간선거 결과는 트럼프 정부의 강경한 이란 정책에 대한 유권자의 거부감을 반영한 것으로 해석된다. 이는 향후 미국의 중동 정책이 완화 기조로 전환될 가능성을 시사하며, 지정학적 리스크 프리미엄이 유가에서 빠져나갈 수 있음을 의미한다. 에너지 시장은 공급 차질 우려 감소로 인한 가격 조정 압박을 받을 것으로 보인다.",
-      "impact_ko": "유가 하락은 에너지 관련 기업의 수익성 악화로 이어질 수 있으며, 동시에 에너지 수입국의 인플레이션 완화에 긍정적 영향을 미칠 수 있다. 장기적으로는 지정학적 리스크 프리미엄 축소가 글로벌 경제의 불확실성을 낮추는 요인으로 작용할 가능성이 있다."
-    },
-    {
-      "headline": "Dollar falls after Democrats take US Congress in midterm elections - Reuters",
-      "summary": "Dollar falls after Democrats take US Congress in midterm elections  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMG9Jam5JQ09uMEx5R0FoYnl4ajRFeU03eDQ0RXUyc3FqZ0xxdVo1czh6MUw0Z2E2UDlYcjJMWjR4WnQ4RUVXWVBWMXNqa29IUnl5MEl1TEF6UmhGaGloLXk5MDRSclZ5MXFsMDJXSmxTYnM1Tmc3VDFUbTBCOW5CUVFVSDhBWFYtbG1ickM0eVZBUWdf?oc=5",
-      "published_at": "2026-11-04T01:42:00.000Z",
-      "headline_ko": "중간선거 민주당 승리로 달러 약세 심화",
-      "summary_ko": "미국 중간선거에서 민주당이 승리하면서 달러화가 약세를 보였다.",
-      "detail_ko": "민주당의 선거 승리는 향후 미국의 재정 정책이 더욱 확장적으로 전환될 가능성을 시장에 반영시켰다. 확장적 재정정책은 일반적으로 달러 약세를 초래하는 요인으로 작용하며, 동시에 글로벌 위험자산에 대한 수요를 증가시킨다. 이는 금리 인상 우려 완화와 함께 달러 약세 기조를 강화하는 복합적 효과를 만들어낸다.",
-      "impact_ko": "달러 약세는 신흥시장 자산과 원자재 가격 상승을 유도할 수 있으며, 미국 수출기업의 경쟁력 개선으로 이어질 가능성이 있다. 반면 달러 표시 부채를 보유한 신흥국의 상환 부담이 증가할 수 있다는 부작용도 고려해야 한다."
-    },
-    {
-      "headline": "Stocks rally, dollar dips after Democrats' 'blue sweep' victory - Reuters",
-      "summary": "Stocks rally, dollar dips after Democrats' 'blue sweep' victory  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWZWFDY2tZeDZfbXdVWnE2QWZwVlNpX3NqVm1OdmR0bDBGTlJjU3dJWG5yWEFpSG4tSHVhY2NEeVBsNnllVFQyb0tWRU1naXZQLWN3Tlk4VE1PV3o2cU1tVHFYX1hDT1ZtRkVWUWtYR3JwWFRyTXZIRldDWQ?oc=5",
-      "published_at": "2026-11-04T01:19:03.000Z",
-      "headline_ko": "'블루 스윕' 승리 이후 주식 랠리, 달러 약세 심화",
-      "summary_ko": "중간선거에서 민주당의 광범위한 승리('블루 스윕')가 나타나면서 주식시장이 상승하고 달러가 약세를 보였다.",
-      "detail_ko": "민주당의 선거 승리는 향후 정책 방향에 대한 시장의 기대를 재편성했다. 규제 완화 기대, 확장적 재정정책 전망, 금리 인상 우려 완화 등이 복합적으로 작용하면서 위험자산 선호 심리가 강화되었다. 특히 기술주와 성장주 중심의 나스닥 지수가 강세를 보이는 것은 저금리 환경에서 고성장 기업에 대한 평가가 상승했음을 의미한다.",
-      "impact_ko": "주식 랠리는 기업 투자 심리 개선과 소비자 신뢰 회복으로 이어질 수 있으며, 이는 경제 성장률 상향 조정으로 반영될 가능성이 있다. 동시에 달러 약세는 국제 자본 흐름의 재편성을 초래하여 신흥시장 자산 유입을 촉진할 수 있다."
-    },
-    {
-      "headline": "Gold heads for biggest daily gain since August as dollar weakens - Reuters",
-      "summary": "Gold heads for biggest daily gain since August as dollar weakens  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd0lHOUFsbExIR3lscDNTRy14T012UWd6UlBSLUtySlpjSTdFaEtYLW1hbnpOTHdrSm1fM1RGU2V0WmxNSWJGU3AxeV9PUDVRVm1BRjBBNXQxZVVacElvaE5IbGJFU2FZbnN1Tmg4dlVTZ3prY0U0SEh5X1VzWmxUYnQ3VWhtZGpGOXloc1R6X3BvNlprVmw0UGppaFE2VFcyYkl3SzJ3?oc=5",
-      "published_at": "2026-11-04T00:58:00.000Z",
-      "headline_ko": "달러 약세로 금 최대 일일 상승률 기록, 8월 이후 최고 수준",
-      "summary_ko": "달러 약세 심화로 금값이 8월 이후 최대 일일 상승률을 기록했다.",
-      "detail_ko": "금은 달러 약세 시 상대적 가치가 상승하는 특성을 가진 자산이다. 중간선거 결과로 인한 달러 약세 기조가 강화되면서 금에 대한 수요가 급증했으며, 이는 인플레이션 헤지 자산으로서의 금의 매력도 동시에 높였다. 지정학적 리스크 완화로 인한 안전자산 선호 심리 약화에도 불구하고, 달러 약세 효과가 더 강하게 작용한 것으로 해석된다.",
-      "impact_ko": "금 가격의 상승은 금 채굴 기업의 수익성 개선으로 이어질 수 있으며, 인플레이션 우려가 있는 투자자들의 포트폴리오 재편성을 촉진할 가능성이 있다. 장기적으로는 달러 약세 기조가 지속될 경우 금의 강세가 계속될 수 있다."
-    },
-    {
-      "headline": "Ghosted after a job interview? There's a website for that—and thousands of frustrated job seekers have weighed in",
-      "summary": "Being ghosted during the hiring process can be frustrating and demoralizing for candidates. Gary Meyer created a space for them to vent.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/11/03/employer-ghosting-job-interviews.html",
-      "published_at": "2026-11-03T18:00:01.000Z",
-      "headline_ko": "채용 면접 후 연락 두절? 이를 위한 웹사이트가 있다",
-      "summary_ko": "채용 면접 후 기업으로부터 연락을 받지 못하는 구직자들을 위해 이를 기록하고 공유할 수 있는 웹사이트가 만들어졌다.",
-      "detail_ko": "채용 과정에서의 '고스팅' 현상은 구직자들의 심리적 좌절감을 야기하는 노동시장의 문제점이다. 이 웹사이트는 구직자들이 자신의 경험을 기록하고 공유함으로써 기업의 채용 관행에 대한 투명성을 높이려는 시도이다. 이는 노동시장의 정보 비대칭성을 완화하고 구직자 보호에 대한 사회적 관심이 증가하고 있음을 반영한다.",
-      "impact_ko": "이러한 플랫폼의 확산은 기업들의 채용 관행 개선을 유도할 수 있으며, 구직자 경험 개선으로 이어질 가능성이 있다. 장기적으로는 노동시장의 투명성 강화가 인적자원 배분의 효율성을 높일 수 있다."
-    },
-    {
-      "headline": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto 108511116",
-      "summary": "Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
-      "published_at": "2026-11-03T16:26:29.000Z",
-      "headline_ko": "바이낸스 공동 CEO, 해커들이 가짜 채용 면접과 AI 도구로 63억 달러 암호화폐 탈취",
-      "summary_ko": "바이낸스는 해커들이 가짜 채용 면접과 AI 도구를 이용해 63억 4천만 달러 규모의 암호화폐를 탈취했으며, 현재 영향받은 자산의 98%를 보충했다고 발표했다.",
-      "detail_ko": "이 사건은 암호화폐 거래소의 보안 취약점과 사이버 공격의 고도화를 보여주는 사례이다. 해커들이 소셜 엔지니어링 기법(가짜 채용 면접)과 AI 기술을 결합하여 내부 접근 권한을 획득했다는 점은 기술 발전이 보안 위협도 함께 고도화시키고 있음을 의미한다. 바이낸스의 신속한 자산 보충은 거래소의 재정 건전성을 시사하지만, 동시에 암호화폐 시장의 보안 리스크에 대한 우려를 재점화했다.",
-      "impact_ko": "이 사건은 암호화폐 거래소의 보안 기준 강화와 규제 강화 논의를 촉발할 수 있다. 투자자들의 암호화폐 거래소 신뢰도 하락으로 이어질 가능성이 있으며, 이는 단기적으로 암호화폐 시장의 변동성을 높일 수 있다. 장기적으로는 보안 강화 투자 증가와 규제 프레임워크 정비로 이어질 것으로 예상된다."
-    },
-    {
-      "headline": "Gulf oil flows dip in October from post-Iran war high, data shows - Reuters",
-      "summary": "Gulf oil flows dip in October from post-Iran war high, data shows  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNHNPY2VaUDh6Wm5mQi1obXBHZkJBVUVTODF0d1drdkY2XzBlMDZMQ3gxdFQyUnpxR1B0Y2I0QXdiSndDelZ4UUJEY1p6a1hSX0hYWnZQb0Q1aWJvdkFjek44dEliMVlwZHlrc29FYVNmOTlvSjlwS3NSc2FKaWtRQnNjOEtXeUo2RVAxOG1LUWF4UjVIakptR3g5RHhTX3llXzBxaVZMY0JfN1d1?oc=5",
-      "published_at": "2026-11-03T15:36:00.000Z",
-      "headline_ko": "10월 걸프만 유량 감소, 이란 전쟁 이후 최고 수준에서 하락",
-      "summary_ko": "10월 걸프만의 석유 유량이 이란 전쟁 이후 최고 수준에서 감소했다.",
-      "detail_ko": "이는 중동 지정학적 긴장 완화에 따른 유가 조정의 구체적 증거이다. 이란 전쟁 우려로 인한 공급 차질 프리미엄이 축소되면서 실제 유량 감소로 나타난 것으로 해석된다. 중간선거 이후 미국의 이란 정책 완화 가능성이 높아지면서 시장이 선제적으로 공급 리스크를 낮게 평가하기 시작했다.",
-      "impact_ko": "유량 감소는 에너지 가격 하락 추세를 강화할 수 있으며, 이는 에너지 수입국의 인플레이션 완화에 긍정적 영향을 미칠 가능성이 있다. 반면 석유 수출국의 수익 감소로 인한 경제적 어려움이 심화될 수 있다."
+      "headline_ko": "트럼프, 헤그세스 국방장관이 '매우 좋은 일을 하고 있다'고 평가, 향후 진로 관련 의문 제기",
+      "summary_ko": "트럼프 대통령이 헤그세스 국방장관의 업무 수행을 긍정적으로 평가했으나, 그의 향후 진로에 대한 의문이 계속 제기되고 있다.",
+      "detail_ko": "헤그세스 국방장관은 최근 여러 논란에 휩싸여 있으며, 그의 장관직 유지 여부가 불확실한 상황이다. 트럼프의 긍정적 평가는 현재로서는 헤그세스를 지지하는 입장을 나타내지만, 향후 추가 논란이 발생할 경우 상황이 급변할 수 있다. 이는 미국 국방부 리더십의 불확실성을 시사하며, 국방 정책의 일관성 문제로 이어질 수 있다.",
+      "impact_ko": "국방부 리더십의 불확실성은 국방 정책 추진의 일관성을 해칠 수 있으며, 이는 국방 관련 기업들의 사업 계획 수립에 영향을 미칠 수 있다. 또한 미국의 국방력 운영 효율성에 대한 우려를 초래할 수 있어, 지정학적 긴장이 높은 상황에서 시장 불확실성을 증가시킬 가능성이 있다."
     }
   ],
   "calendar": [
