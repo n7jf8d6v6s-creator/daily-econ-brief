@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T01:29:59.372Z",
+  "generated_at": "2026-11-08T00:59:38.097Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,70 +62,70 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 75838,
-        "change_pct": -0.2129
+        "price": 75688,
+        "change_pct": -0.21532
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2241.15,
-        "change_pct": 0.37781
+        "price": 2233.14,
+        "change_pct": -0.24057
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.066,
+        "change_pct": 2.65928
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.319946,
+        "change_pct": 0.63212
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 695.21,
+        "change_pct": 0.21263
+      },
+      {
+        "symbol": "USDS",
+        "name": "USDS",
+        "price": 0.999982,
+        "change_pct": -0.02005
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1347.96,
-        "change_pct": 2.97752
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 78.92,
-        "change_pct": 2.05476
-      },
-      {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.39,
-        "change_pct": 0.8599
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.072522,
-        "change_pct": 0.78355
+        "price": 1255.36,
+        "change_pct": -5.88026
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 263.18,
-        "change_pct": -4.17056
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price": 1.18,
-        "change_pct": -2.95427
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 608.6,
-        "change_pct": -1.51632
+        "price": 248.39,
+        "change_pct": -5.73847
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.153655,
-        "change_pct": -0.55313
+        "price": 0.151161,
+        "change_pct": -1.89677
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 77.6,
+        "change_pct": -1.88553
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 기술주와 전통주 간 뚜렷한 양극화를 보였다. S&P 500과 나스닥100 ETF가 소폭 상승했으나, 마이크로소프트(-0.99%)와 애플(-0.52%)같은 대형 기술주들은 약세를 나타냈다. 이는 시장이 성장성과 인플레이션 우려 사이에서 방향성을 잃고 있음을 시사한다.",
-      "테슬라(+4.23%)와 엔비디아(+2.78%)가 기술주 중 유일하게 강세를 보였으며, 이는 각각 전기차 수요 회복과 AI 칩 경쟁력에 대한 시장의 긍정적 평가로 해석된다. 반면 광범위한 기술주 약세는 금리 인상 우려와 성장 둔화 시그널이 영향을 미친 것으로 보인다.",
-      "암호화폐 시장에서는 프라이버시 코인들이 두드러진 움직임을 보였다. Zcash(+2.98%)와 Monero(-1.52%)는 규제 리스크 환경에서 상반된 방향성을 나타냈는데, 미국 재무부의 이란 관련 제재 뉴스가 프라이버시 코인에 대한 규제 우려를 증폭시킨 것으로 보인다. 한편 Bitcoin(-0.21%)은 소폭 하락했으나 상대적으로 안정적이었으며, 이는 위험자산 회피 심리 속에서도 기축통화로서의 지위를 유지하고 있음을 시사한다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 기술주와 에너지주 사이의 뚜렷한 양극화를 보였다. 나스닥100 ETF(QQQ)가 1.4% 상승하며 선방했으나, 마이크로소프트 같은 대형 기술주는 1% 근처의 낙폭을 기록했다. 이는 시장이 성장성과 인플레이션 우려 사이에서 방향을 잡지 못하고 있음을 시사한다.",
+      "테슬라(+4.23%)와 엔비디아(+2.78%)가 기술주 중 강세를 보인 것으로 해석된다. 테슬라는 전기차 수요 회복 기대와 에너지 사업 확대 전망이, 엔비디아는 AI 인프라 투자 지속성이 긍정 요인으로 작용한 것으로 보인다. 반면 애플(-0.52%)과 마이크로소프트(-0.99%)는 밸류에이션 조정 압력을 받은 것으로 해석된다.",
+      "암호화폐 시장에서는 프라이버시 코인들이 뚜렷한 낙폭을 기록했다. Zcash(-5.88%)와 Bitcoin Cash(-5.74%)의 급락은 미국 재무부의 이란 관련 제재 뉴스와 연결되는 것으로 보인다. 규제 리스크에 민감한 프라이버시 코인들이 제재 강화 우려에 따른 투매 압력을 받은 것으로 해석되며, 이는 투자 조언이 아님을 밝힙니다."
     ],
     "movers": [
       {
@@ -134,7 +134,7 @@
         "price": 358.22,
         "change_pct": 4.2276,
         "type": "stock",
-        "reason_ko": "전기차 수요 회복 기대"
+        "reason_ko": "전기차·에너지 사업 수요 기대"
       },
       {
         "symbol": "NVDA",
@@ -142,23 +142,23 @@
         "price": 186.64,
         "change_pct": 2.7753,
         "type": "stock",
-        "reason_ko": "AI 칩 경쟁력 평가"
-      },
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "price": 530.61,
-        "change_pct": -0.9927,
-        "type": "stock",
-        "reason_ko": "기술주 약세, 금리 우려"
+        "reason_ko": "AI 인프라 투자 지속성 평가"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1347.96,
-        "change_pct": 2.97752,
+        "price": 1255.36,
+        "change_pct": -5.88026,
         "type": "crypto",
-        "reason_ko": "규제 리스크 변동성"
+        "reason_ko": "이란 제재 규제 리스크 반영"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 248.39,
+        "change_pct": -5.73847,
+        "type": "crypto",
+        "reason_ko": "프라이버시 코인 규제 우려"
       }
     ]
   },
@@ -169,10 +169,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
       "published_at": "2026-11-06T22:46:57.000Z",
-      "headline_ko": "미국 재무부, 이란 거래 관련 캐나다 송금 서비스 업체에 제재",
-      "summary_ko": "미국 재무부가 이란 관련 거래에 연루된 캐나다 송금 서비스 업체들에 대해 제재를 단행했다.",
-      "detail_ko": "이번 제재는 미국의 이란 제재 정책을 우회하려는 시도에 대한 강경한 입장을 보여주는 조치다. 캐나다 기반 송금 서비스 업체들이 이란과의 거래 채널로 악용되었다는 것은 국제 송금 시스템의 규제 감시가 강화되고 있음을 의미한다. 이러한 규제 강화는 암호화폐 시장, 특히 프라이버시 코인에 대한 감시 우려를 증폭시킬 수 있는 신호로 작용한다.",
-      "impact_ko": "이 제재 조치는 국제 송금 및 자금이동 규제가 더욱 강화될 가능성을 시사하며, 프라이버시 코인 및 규제 회피 수단으로 인식될 수 있는 자산들에 대한 규제 리스크를 높일 수 있다. 금융기관들의 컴플라이언스 기준이 더욱 엄격해질 가능성이 있으며, 이는 암호화폐 거래소와 송금 서비스의 운영 환경에 영향을 미칠 수 있다."
+      "headline_ko": "미국 재무부, 이란 거래 관련 캐나다 송금 서비스 업체 제재",
+      "summary_ko": "미국 재무부가 이란과 관련된 거래에 연루된 캐나다의 송금 서비스 회사들에 대해 제재를 단행했다.",
+      "detail_ko": "이 제재는 미국의 이란 정책 강화 기조를 반영하는 것으로, 국제 송금 네트워크를 통한 제재 회피 행위를 차단하려는 의도로 보인다. 캐나다 금융기관이 대상이 된 것은 북미 지역 내 자금 흐름 감시 강화를 의미하며, 이는 암호화폐와 같은 대체 송금 수단에 대한 규제 우려를 증폭시킬 수 있다. 특히 프라이버시 기능을 갖춘 암호화폐에 대한 규제 리스크가 높아질 가능성을 시사한다.",
+      "impact_ko": "이 제재 조치는 프라이버시 코인 및 비규제 송금 수단에 대한 규제 강화 신호로 작용할 수 있다. 암호화폐 시장에서 규제 리스크에 민감한 자산들이 투매 압력을 받을 가능성이 있으며, 향후 국제 송금 관련 규제가 더욱 강화될 수 있다. 금융기관들도 규제 준수 비용 증가에 따른 수익성 악화를 경험할 수 있다."
     },
     {
       "headline": "Fake job interview scams like the one that hit Binance are getting more sophisticated. Here are the new signs to watch for",
@@ -180,10 +180,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/make-it/2026/11/06/binance-hack-fake-job-interview-scams.html",
       "published_at": "2026-11-06T19:09:56.000Z",
-      "headline_ko": "바이낸스 해킹 사건처럼 정교해지는 가짜 채용 면접 사기, 주의 신호 증가",
-      "summary_ko": "바이낸스가 가짜 채용 면접을 통한 사기로 60억 달러 이상의 손실을 입었으며, 이러한 수법이 점점 더 정교해지고 있다.",
-      "detail_ko": "바이낸스 해킹 사건은 단순한 기술적 보안 침해가 아니라 사회공학 기법을 활용한 정교한 사기라는 점에서 중요하다. 채용 면접이라는 일상적인 과정을 악용하여 내부 접근권을 획득한 것으로, 암호화폐 거래소의 보안 취약점이 기술뿐 아니라 인적 요소에도 있음을 드러낸다. 이는 업계 전반의 보안 인식 강화와 규제 감시 확대로 이어질 가능성이 높다.",
-      "impact_ko": "이 사건은 암호화폐 거래소들의 보안 투자 확대와 규제 당국의 감시 강화를 초래할 수 있으며, 사용자들의 신뢰 회복에 상당한 시간이 소요될 수 있다. 업계 전반의 보안 기준 상향과 인적 검증 강화가 이루어질 가능성이 있으며, 이는 운영 비용 증가로 이어질 수 있다."
+      "headline_ko": "바이낸스 해킹 사건처럼 정교해지는 가짜 채용면접 사기, 주의 신호 확산",
+      "summary_ko": "바이낸스가 가짜 채용면접을 통한 사기로 60억 달러 이상의 손실을 입었으며, 이러한 유형의 사기가 점점 더 정교해지고 있다.",
+      "detail_ko": "이 사건은 암호화폐 거래소의 보안 취약점이 단순한 기술적 결함이 아니라 사회공학적 공격에도 노출되어 있음을 보여준다. 채용 프로세스를 악용한 내부자 접근 확보는 기존의 외부 해킹보다 탐지가 어렵고 피해 규모가 클 수 있다. 이는 암호화폐 업계의 인적 보안 관리 수준이 기술 보안만큼 중요함을 시사한다.",
+      "impact_ko": "이 사건은 암호화폐 거래소와 금융기관들의 보안 투자 증가를 촉발할 가능성이 있다. 채용 및 인사 프로세스에 대한 보안 강화 필요성이 대두되면서 운영 비용 증가로 이어질 수 있다. 또한 사용자들의 거래소 신뢰도 하락으로 인한 자산 이동이 가속화될 수 있으며, 규제 당국의 거래소 감시 강화를 초래할 수 있다."
     },
     {
       "headline": "Family offices boost startup investments in October, backing women's health and caregivers",
@@ -191,10 +191,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/06/family-offices-boost-startup-investments-in-october.html",
       "published_at": "2026-11-06T14:02:15.000Z",
-      "headline_ko": "패밀리 오피스, 10월 여성 건강·돌봄 스타트업 투자 확대",
-      "summary_ko": "로렌 파월 잡스의 에머슨 컬렉티브를 포함한 패밀리 오피스들이 10월 여성 건강 및 돌봄 분야 스타트업에 집중 투자했다.",
-      "detail_ko": "패밀리 오피스의 투자 방향은 단순한 수익성을 넘어 사회적 임팩트를 추구하는 트렌드를 반영한다. 여성 건강과 돌봄 분야는 인구 고령화와 여성 경제활동 증가에 따른 구조적 수요 증가가 예상되는 영역이다. 이러한 투자 집중은 장기적 사회 변화에 베팅하는 고액자산가들의 전략적 포지셔닝으로 해석된다.",
-      "impact_ko": "패밀리 오피스의 투자 확대는 해당 분야 스타트업들의 자금 조달 환경 개선으로 이어질 수 있으며, 이는 여성 건강 및 돌봄 산업의 혁신 가속화를 촉진할 수 있다. 동시에 이러한 투자 트렌드는 ESG와 임팩트 투자에 대한 기관투자자들의 관심 증가를 시사하며, 향후 자본 배분 구조 변화에 영향을 미칠 수 있다."
+      "headline_ko": "패밀리 오피스, 10월 스타트업 투자 확대…여성 건강·돌봄 분야 주목",
+      "summary_ko": "로렌 파월 잡스의 에머슨 컬렉티브를 포함한 패밀리 오피스들이 10월 스타트업 투자를 늘렸으며, 여성 건강과 돌봄 분야에 집중하고 있다.",
+      "detail_ko": "패밀리 오피스의 스타트업 투자 증가는 고수익 자산 배분 전략의 일환으로 해석된다. 여성 건강과 돌봄 분야로의 집중은 인구 고령화와 사회적 니즈 변화를 반영하는 투자 트렌드를 보여준다. 이는 전통적 벤처캐피탈보다 장기 관점의 자본을 보유한 패밀리 오피스가 사회적 임팩트와 수익성을 동시에 추구하는 경향을 시사한다.",
+      "impact_ko": "패밀리 오피스의 스타트업 투자 확대는 벤처 생태계에 안정적인 자금 공급원을 제공할 수 있다. 여성 건강과 돌봄 분야의 투자 증가는 해당 산업의 기업가정신과 혁신을 촉진할 가능성이 있다. 이러한 투자 흐름은 향후 IPO 시장에서 사회적 가치를 추구하는 기업들의 상장 기회 증가로 이어질 수 있다."
     },
     {
       "headline": "Our top 10 things to watch in the stock market Friday",
@@ -202,10 +202,21 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/11/06/our-top-10-things-to-watch-in-the-stock-market-friday.html",
       "published_at": "2026-11-06T14:01:45.000Z",
-      "headline_ko": "금요일 주식시장 주목 포인트 10가지, 나스닥 선물 반등·10월 고용 지표 강세",
-      "summary_ko": "나스닥 선물이 반등하고 있으며, 10월 고용 보고서가 강한 수치를 기록했다.",
-      "detail_ko": "10월 고용 지표의 강세는 미국 경제의 회복력을 보여주는 긍정적 신호로 작용할 수 있다. 다만 강한 고용 지표는 인플레이션 압력 지속 가능성을 시사하며, 이는 연방준비제도의 금리 인상 기조 유지 가능성을 높일 수 있다. 나스닥 선물의 반등은 기술주에 대한 일시적 매수 심리를 반영하지만, 금리 우려와의 긴장 관계가 계속될 가능성이 높다.",
-      "impact_ko": "강한 고용 지표는 경기 회복력을 뒷받침하지만 동시에 금리 인상 우려를 증폭시킬 수 있으며, 이는 성장주와 가치주 간의 투자 심리 변동을 초래할 수 있다. 나스닥 선물의 반등이 실제 장중 강세로 이어질지는 금리 전망과 인플레이션 데이터에 따라 결정될 가능성이 높다."
+      "headline_ko": "금요일 주식시장 주목 포인트 10가지…나스닥 선물 반등, 10월 고용 지표 강세",
+      "summary_ko": "나스닥 선물이 반등하고 있으며, 10월 고용 지표가 예상을 웃돌아 시장의 주목을 받고 있다.",
+      "detail_ko": "10월 고용 지표의 강세는 미국 경제의 회복력을 시사하는 긍정 신호로 작용하고 있다. 나스닥 선물의 반등은 기술주 매도세가 일시적 조정 수준에 머물 수 있음을 암시한다. 그러나 성장성과 인플레이션 우려 사이의 불확실성이 여전히 시장 심리에 영향을 미치고 있는 것으로 보인다.",
+      "impact_ko": "강한 고용 지표는 연방준비제도의 금리 인하 속도 조절 가능성을 높일 수 있다. 이는 채권 수익률 상승과 고배당 자산의 상대적 매력도 감소로 이어질 수 있다. 기술주의 향후 방향성은 인플레이션 데이터와 기업 실적 전망에 따라 결정될 가능성이 높다."
+    },
+    {
+      "headline": "COMMENTARY: Washington reset, market meltdown and the Iran oil bet: The financial week in five charts - Reuters",
+      "summary": "COMMENTARY: Washington reset, market meltdown and the Iran oil bet: The financial week in five charts  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDZhY1FzZXRVRVhNczRmcTVIZjJKUWpudWZuXzZDZkQxcVFsRDRJUzNMNGltOFMyVmJ1VFdkV3lEV09FOGZ1bnlGT2c1R0tGcklDdTIwQXNyVUM5UHNFQXBxOF9uVm1xNVNuYkplOVhtRHBuYnRnSDljdWxLZjFuZ09IN2dlX3N6N29BWTZiRWxQMkNTM0FHc1o4NDFLQ3h0TnhIaEpEUVo0N1Fxd1IyZ3R6WmxSZk1ydVV5UXlsRUhmX3pCVFVMVHByT29WLTVrMXNCVXVPMHY?oc=5",
+      "published_at": "2026-11-06T13:46:53.000Z",
+      "headline_ko": "워싱턴 정권 교체, 시장 급락, 이란 유가 베팅…금융시장 주간 5대 차트",
+      "summary_ko": "지정학적 긴장, 정치적 변화, 유가 변동성이 금융시장에 미친 영향을 5개 차트로 분석했다.",
+      "detail_ko": "이 분석은 거시 경제 요인들이 시장 변동성에 미치는 복합적 영향을 보여준다. 워싱턴의 정책 변화는 규제 환경과 세제 정책 불확실성을 증가시키고, 이란 관련 지정학적 리스크는 에너지 시장의 변동성을 높인다. 이러한 다층적 리스크 요인들이 동시에 작용하면서 시장 심리가 불안정해지고 있는 상황이다.",
+      "impact_ko": "정치적 불확실성은 기업들의 투자 의사 결정을 지연시킬 수 있으며, 이는 경제 성장률 둔화로 이어질 가능성이 있다. 지정학적 긴장 고조는 에너지 가격 상승을 통해 인플레이션 압력을 가할 수 있다. 이러한 복합 리스크는 투자자들의 포트폴리오 재조정을 촉발하여 단기 변동성 확대로 이어질 수 있다."
     },
     {
       "headline": "Markets fret over growth and inflation, just as tech rout gains speed - Reuters",
@@ -213,10 +224,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONUh4V2hzQnA1Rk9zNTN6d3ZxcVZycGZQVmNUNjR3NmpXSmphZHh4LWZvaGJmTTVEWDdBc0lNWmZyUUp3MTFndk5uZl80Qnk0QXotRmo5S1g0MVhDejlwMjJlczNLVWY1eHRLZ1c4dExyOUNqdjJPaUFhVnE2WC16QUc4aTVfUlAwQUtKMktZYi1STk94cXBnSXF5OEQ?oc=5",
       "published_at": "2026-11-06T05:09:00.000Z",
-      "headline_ko": "성장률과 인플레이션 우려 속 기술주 약세 가속화",
-      "summary_ko": "시장이 성장률 둔화와 인플레이션 지속에 대한 우려를 키우면서 기술주 낙폭이 확대되고 있다.",
-      "detail_ko": "기술주 약세는 두 가지 상충하는 우려가 동시에 작용한 결과다. 성장 둔화 우려는 기술 기업들의 미래 수익성을 압박하고, 인플레이션 지속 우려는 금리 인상 가능성을 높여 고성장주의 현재가치를 하락시킨다. 이러한 환경에서 투자자들은 고평가 기술주에서 이탈하고 있으며, 이는 시장 전반의 리스크 회피 심리를 반영한다.",
-      "impact_ko": "기술주 약세가 지속될 경우 나스닥 지수의 하락 압력이 계속될 수 있으며, 이는 성장주 중심 포트폴리오에 부정적 영향을 미칠 수 있다. 동시에 이러한 조정은 저평가 가치주와 배당주에 대한 상대적 매력을 높일 수 있으며, 자산 배분 재조정으로 이어질 가능성이 있다."
+      "headline_ko": "성장성과 인플레이션 우려 속 기술주 낙폭 가속화",
+      "summary_ko": "시장이 경제 성장성과 인플레이션 전망을 놓고 고민하면서 기술주 매도세가 심화되고 있다.",
+      "detail_ko": "기술주 낙폭의 배경에는 고금리 환경에서 미래 현금흐름의 현재가치 하락에 대한 우려가 있다. 동시에 인플레이션 재가속 가능성이 제기되면서 연방준비제도의 금리 인하 기대가 약화되고 있다. 이는 성장주와 가치주 사이의 성과 격차를 확대시키는 요인으로 작용하고 있다.",
+      "impact_ko": "기술주 낙폭이 지속되면 나스닥 지수의 하락 압력이 강화될 수 있다. 기술 기업들의 자본 지출 계획 축소로 이어져 장기 성장성이 훼손될 가능성이 있다. 또한 기술주 비중이 높은 포트폴리오를 보유한 투자자들의 손실 실현 매도가 가속화될 수 있다."
     },
     {
       "headline": "As high oil prices curb demand, fresh signs of glut appear - Reuters",
@@ -224,10 +235,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQem82aUU3S0NZWXNNcXlreW9xS3J0UnpIcDNCWVdqS3NyclRxSUtWenpmMEhoNmp6amtNSG5ZYmpuMzc1TElxODVYTmVSZURrYjJsbVliVXlVSzNtM3J5TDBMNl9sQ0JSTmxKQ2RxVzc4RnMxX2lIZGp3Y3kwTFdrUndLZkFMN0JkN2xLTi02dDZjT0x1Wk0ySTMxZlpNZWRmX1F6ZDhR?oc=5",
       "published_at": "2026-11-06T02:04:00.000Z",
-      "headline_ko": "유가 상승이 수요를 억제하면서 공급 과잉 신호 포착",
-      "summary_ko": "높은 유가가 수요를 감소시키면서 석유 시장에 공급 과잉 신호가 나타나고 있다.",
-      "detail_ko": "유가 상승으로 인한 수요 억제는 석유 시장의 고전적인 가격 조정 메커니즘이 작동하고 있음을 의미한다. 공급 과잉 신호는 향후 유가 하락 압력으로 작용할 수 있으며, 이는 에너지 인플레이션 완화에 긍정적 요인이 될 수 있다. 다만 지정학적 리스크나 OPEC+ 감산 정책에 따라 이러한 추세가 역전될 가능성도 존재한다.",
-      "impact_ko": "공급 과잉 신호는 유가 하락 가능성을 높이며, 이는 전반적인 인플레이션 완화로 이어질 수 있다. 유가 하락은 에너지 기업들의 수익성 악화를 초래할 수 있지만, 소비자와 제조업체들의 비용 부담 완화로 경제 전반에는 긍정적 영향을 미칠 수 있다."
+      "headline_ko": "고유가로 수요 둔화, 공급 과잉 신호 포착",
+      "summary_ko": "높은 유가가 수요를 억제하면서 석유 시장에 공급 과잉 신호가 나타나고 있다.",
+      "detail_ko": "유가 상승으로 인한 수요 감소는 경제적 가격 탄력성을 반영하는 현상이다. 공급 과잉 신호는 OPEC의 감산 정책 효과가 제한적임을 시사하며, 글로벌 경기 둔화 우려도 반영되어 있다. 이는 향후 유가 하락 압력으로 이어질 가능성을 높인다.",
+      "impact_ko": "유가 하락은 인플레이션 완화에 긍정적 영향을 미칠 수 있으며, 이는 연방준비제도의 금리 인하 가능성을 높일 수 있다. 에너지 기업들의 수익성 악화로 인한 배당 감소 가능성이 있다. 또한 저유가 환경은 전기차 수요 회복에 부정적 영향을 미칠 수 있다."
     },
     {
       "headline": "ConocoPhillips boosts dividend after beating estimates on higher oil prices - Reuters",
@@ -235,21 +246,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmVXLVh5bHBBQWh5ZkFmckpmSkRNMVB2UGZwaDFuYVc1TE93TVZKcjl4c1lPSjVQb1doc1pJdm11S01RTGtwTDRUblRGVWp2M3hrb2ZLakV3R0poTGRjcmRyOEI2M2hNOEJFVllydTcyQ043WFVSRURkREJvZWxtaWJmaDJNRllnc3lPZllyM1JtMEhnY09NLWRpZzNuQWt0YU1jTFpCMlQ2UG1ZQVVtYVF5dUlZZw?oc=5",
       "published_at": "2026-11-05T19:34:08.000Z",
-      "headline_ko": "코노코필립스, 유가 상승으로 실적 상회하며 배당금 인상",
-      "summary_ko": "코노코필립스가 높은 유가로 인한 실적 호조를 바탕으로 배당금을 인상했다.",
-      "detail_ko": "코노코필립스의 배당금 인상은 에너지 기업들이 현재의 유가 환경을 구조적이고 지속 가능한 것으로 평가하고 있음을 시사한다. 실적 상회는 높은 유가 환경에서 에너지 기업들의 수익성이 강화되고 있음을 보여주며, 이는 에너지 섹터에 대한 투자 심리를 개선할 수 있다. 다만 앞서 언급한 공급 과잉 신호와의 상충은 향후 유가 전망의 불확실성을 높인다.",
-      "impact_ko": "에너지 기업들의 배당금 인상은 배당 투자자들에게 매력적인 수익 기회를 제공할 수 있으며, 에너지 섹터에 대한 기관투자자 수요를 증가시킬 수 있다. 다만 유가 하락 시나리오가 실현될 경우 배당금 유지 가능성에 대한 우려가 제기될 수 있으며, 이는 에너지주의 변동성을 높일 수 있다."
-    },
-    {
-      "headline": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise - Reuters",
-      "summary": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1NmeDl4ZndpQkllbEZoTmVYQzFUSXpCeFNTRnByV05HcVlaYXl0RkY4b0htT1dYTkhQZG9DNldqcmtna1gyNVhkdTZwWmR3NTBZb0gtUm9kWnlfQzVhMWJCTzVYSGhpLXkxS085ZGpwVUVEbWlTWmItbElUTzFqTEwydEJTSUVheFJsTGNjdnlfRW1RaURzWm5KOGs5Rmx1bUV4SUxpTWNaMlNhWGxPU2lnNkt0cXc?oc=5",
-      "published_at": "2026-11-05T12:58:29.000Z",
-      "headline_ko": "영국중앙은행, 3년 만에 첫 기준금리 인상 단행, 길트 수익률 상승",
-      "summary_ko": "영국중앙은행이 3년 만에 처음으로 기준금리를 인상했으며, 이에 따라 길트 수익률이 상승했다.",
-      "detail_ko": "영국중앙은행의 금리 인상은 글로벌 인플레이션 압력에 대한 주요 중앙은행들의 동시 대응을 의미한다. 이는 저금리 시대의 종료와 긴축 사이클의 본격화를 신호하며, 글로벌 금융 시장에 광범위한 영향을 미칠 수 있다. 길트 수익률 상승은 채권 시장의 조정을 반영하며, 이는 고금리 환경에서의 자산 배분 재조정을 촉발할 가능성이 높다.",
-      "impact_ko": "영국의 금리 인상은 글로벌 금리 인상 사이클을 강화하며, 이는 신흥시장 자본 유출과 환율 변동성 증가로 이어질 수 있다. 고금리 환경은 성장주와 고평가 자산에 부정적이며, 채권과 현금성 자산의 상대적 매력을 높일 수 있다. 또한 국제 금융 시장의 변동성 증가로 인한 리스크 회피 심리 강화 가능성이 있다."
+      "headline_ko": "코노코필립스, 높은 유가에 힘입어 실적 상회…배당 인상",
+      "summary_ko": "코노코필립스가 예상을 웃도는 실적을 기록했으며, 높은 유가의 수혜로 배당을 인상했다.",
+      "detail_ko": "코노코필립스의 실적 개선은 현재의 높은 유가 환경에서 에너지 기업들의 수익성이 양호함을 보여준다. 배당 인상은 기업이 현금 창출 능력에 자신감을 갖고 있음을 시사한다. 그러나 앞서 언급된 공급 과잉 신호는 향후 유가 하락 가능성을 시사하므로, 이러한 배당 정책의 지속 가능성에 대한 의문이 제기될 수 있다.",
+      "impact_ko": "에너지 기업의 배당 인상은 배당 투자자들에게 단기적 매력을 제공할 수 있다. 그러나 유가 하락 시나리오에서는 배당 감소 리스크가 존재한다. 이는 에너지 섹터 투자의 변동성을 높이고, 투자자들의 포트폴리오 재조정을 촉발할 수 있다."
     }
   ],
   "calendar": [
