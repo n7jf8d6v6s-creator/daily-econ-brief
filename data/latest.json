@@ -1,178 +1,211 @@
 {
-  "generated_at": "2026-11-09T01:21:06.898Z",
+  "generated_at": "2026-11-10T03:55:44.469Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 342.37,
-        "change_pct": -0.523
+        "price": 350.69,
+        "change_pct": 2.4301
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 530.61,
-        "change_pct": -0.9927
+        "price": 545.18,
+        "change_pct": 2.7459
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 186.64,
-        "change_pct": 2.7753
+        "price": 178.67,
+        "change_pct": -4.2703
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 358.22,
-        "change_pct": 4.2276
+        "price": 378.05,
+        "change_pct": 5.5357
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 259.3,
-        "change_pct": -0.3497
+        "price": 266.93,
+        "change_pct": 2.9425
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 284.78,
-        "change_pct": 0.7821
+        "price": 288.15,
+        "change_pct": 1.1834
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 610.15,
-        "change_pct": 0.8379
+        "price": 641.37,
+        "change_pct": 5.1168
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 735.29,
-        "change_pct": 0.3124
+        "price": 752.69,
+        "change_pct": 2.3664
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 656.1,
-        "change_pct": 1.3987
+        "price": 679.35,
+        "change_pct": 3.5437
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 74946,
-        "change_pct": -1.02048
+        "price": 74442,
+        "change_pct": -0.58202
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2131.08,
-        "change_pct": -4.56153
+        "price": 2110.84,
+        "change_pct": -1.43689
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.176989,
+        "change_pct": 0.31514
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.31,
+        "change_pct": 0.13126
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 687.97,
+        "change_pct": 0.06227
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.04,
+        "change_pct": null
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1147.8,
+        "change_pct": -7.14613
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 601.78,
-        "change_pct": 0.3362
+        "price": 568.55,
+        "change_pct": -5.50315
       },
       {
-        "symbol": "USDE",
-        "name": "Ethena USDe",
-        "price": 0.999013,
-        "change_pct": 0.0238
-      },
-      {
-        "symbol": "USDT",
-        "name": "Tether",
-        "price": 0.999146,
-        "change_pct": 0.02363
-      },
-      {
-        "symbol": "USDS",
-        "name": "USDS",
-        "price": 1,
-        "change_pct": 0.01176
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 74.48,
-        "change_pct": -4.06933
+        "symbol": "SOL",
+        "name": "Solana",
+        "price": 85.67,
+        "change_pct": -2.14588
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price": 1.11,
-        "change_pct": -4.00122
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.069259,
-        "change_pct": -2.97638
-      },
-      {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.147038,
-        "change_pct": -2.74162
+        "price": 1.091,
+        "change_pct": -1.75262
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. 테크 대형주 중 일부는 약세를 나타냈으나, 나스닥100 ETF(QQQ)는 1.4% 상승하며 선별적 강세를 유지했다. S&P 500도 소폭 상승으로 시장 전반의 회복력을 시사한다.",
-      "테슬라(+4.23%)와 엔비디아(+2.78%)가 두드러진 상승세를 보였다. 테슬라는 트럼프 행정부의 정책 변화에 따른 긍정적 기대감이 작용한 것으로 해석되며, 엔비디아는 AI 칩 수요 지속성에 대한 투자자 신뢰가 반영된 것으로 보인다. 반면 마이크로소프트(-0.99%)와 애플(-0.52%)은 약세를 기록했다.",
-      "암호화폐 시장은 광범위한 조정 압력을 받았다. 이더리움(-4.56%)과 XRP(-4.00%), 하이퍼리퀴드(-4.07%)가 큰 낙폭을 기록했는데, 이는 트럼프 행정부의 이란 제재 완화 신호에 따른 지정학적 리스크 감소로 달러 강세가 나타나면서 위험자산 선호도가 약화된 영향으로 보인다. 스테이블코인들(USDT, USDE, USDS)은 안정적 움직임을 유지했다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 기술주를 중심으로 광범위한 상승세를 보였으며, S&P 500과 나스닥100 ETF가 각각 2.4%, 3.5% 상승했다. 이는 중동 지정학적 긴장 완화와 유가 하락으로 인한 인플레이션 우려 감소, 그리고 달러 강세 속에서도 위험자산에 대한 선호가 유지되는 흐름으로 해석된다.",
+      "테슬라(+5.54%)와 메타(+5.12%)가 기술주 중에서도 특히 강한 상승률을 기록했으며, 마이크로소프트(+2.75%)와 아마존(+2.94%)도 견조한 상승을 보였다. 유가 하락으로 에너지 비용 부담이 경감되고 경기 둔화 우려가 완화되면서 성장성 높은 기술기업들에 대한 매수 심리가 강해진 것으로 보인다.",
+      "반면 엔비디아(-4.27%)는 AI 열풍 속에서도 유일하게 큰 낙폭을 기록했으며, 프라이버시 코인인 제캐시(-7.15%)와 모네로(-5.50%)도 뚜렷한 하락세를 보였다. 엔비디아의 경우 고평가 조정 압력이 작용한 것으로 보이며, 프라이버시 코인들의 하락은 규제 리스크 심화(미국 재무부의 이란 관련 제재 확대)와 암호화폐 보안 우려(바이낸스 해킹 사건)가 복합적으로 영향을 미친 것으로 해석된다. 본 내용은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 358.22,
-        "change_pct": 4.2276,
+        "price": 378.05,
+        "change_pct": 5.5357,
         "type": "stock",
-        "reason_ko": "트럼프 정책 기대감"
+        "reason_ko": "유가 하락으로 에너지 비용 부담 경감"
+      },
+      {
+        "symbol": "META",
+        "name": "메타",
+        "price": 641.37,
+        "change_pct": 5.1168,
+        "type": "stock",
+        "reason_ko": "기술주 매수세 강화, 경기 둔화 우려 완화"
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 186.64,
-        "change_pct": 2.7753,
+        "price": 178.67,
+        "change_pct": -4.2703,
         "type": "stock",
-        "reason_ko": "AI 칩 수요 지속성"
+        "reason_ko": "고평가 조정 압력 및 수익 실현 매도"
       },
       {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price": 2131.08,
-        "change_pct": -4.56153,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1147.8,
+        "change_pct": -7.14613,
         "type": "crypto",
-        "reason_ko": "달러 강세, 위험자산 회피"
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price": 1.11,
-        "change_pct": -4.00122,
-        "type": "crypto",
-        "reason_ko": "지정학적 리스크 완화"
+        "reason_ko": "규제 리스크 심화 및 보안 우려 확산"
       }
     ]
   },
   "news": [
     {
-      "headline": "Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Reuters",
-      "summary": "Oil falls on open as Trump says fresh Iran attacks 'unlikely'  Reuters",
+      "headline": "Gold gains as lower oil prices ease inflation fears - Reuters",
+      "summary": "Gold gains as lower oil prices ease inflation fears  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbEdIVXlJc2RaUEw2RmFrR2FZcXYzYlBKUG9Cdl9WUVFfalVxT0hGcGFCdW1DS3JMT2daanhDYktBeXVGNGt5TGlsOGZJVWVSMFpnT3ZVa2RBUjZYakRlVlQ3SXd1ZkpTQVNXVkpoNUZoemdycWY0MG02dVk0cWRuWG4taG5VMm9kbEluSHctTVZVMXJwWXNWSWdVcmxQeWtRSW1EWDQ2dTJ6QVV2TzhoeQ?oc=5",
+      "published_at": "2026-11-09T03:01:00.000Z",
+      "headline_ko": "유가 하락으로 금값 상승, 인플레이션 우려 완화",
+      "summary_ko": "유가 하락이 인플레이션 압력을 낮추면서 금이 안전자산으로서의 매력을 유지하며 상승했다.",
+      "detail_ko": "유가 하락은 에너지 비용 인상 압력을 제거하면서 전반적인 인플레이션 우려를 경감시키는 긍정적 신호로 작용했다. 이러한 환경에서 금은 인플레이션 헤지 자산으로서의 가치는 유지하면서도, 동시에 경제 둔화 시 안전자산으로 선호되는 특성이 강화되었다. 결과적으로 금은 인플레이션 완화와 경제 불확실성 양쪽 시나리오 모두에서 긍정적인 수급 환경을 형성했다.",
+      "impact_ko": "인플레이션 우려 완화는 중앙은행의 금리 인상 압력을 낮출 수 있으며, 이는 주식 등 위험자산에 긍정적으로 작용할 가능성이 있다. 동시에 금의 상승은 포트폴리오 다각화 수요를 자극할 수 있다."
+    },
+    {
+      "headline": "Indian shares inch higher to close at 8-month high as crude oil drops - Reuters",
+      "summary": "Indian shares inch higher to close at 8-month high as crude oil drops  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObkM4eVdiUXpCc3Jld1NOSlRzMEFUeHcxb09peUlKS3ZFNTVLS2lwMFE0T0x1NV94RGowQjZEM0luODhHRFNZWWxaX2w2Y0Rqc1d5X2tXYlRwcU5wMVMxNHNjeWVXZEZSNkYtV1JEV29LeDE2bEVRMnNBbUVNNGV5cjNlYVYydGhKT3Awc2VVeEY3WTZSbWJjak43bmpTdmJjR2ZSU01fSXhCeFNVNXlYeGxPODh2UUlHQ1FRb3VNSzc?oc=5",
+      "published_at": "2026-11-09T02:40:00.000Z",
+      "headline_ko": "인도 주식시장, 유가 하락에 8개월 고점 경신",
+      "summary_ko": "유가 하락으로 인한 인플레이션 우려 감소가 인도 주식시장을 견인하여 8개월 고점을 기록했다.",
+      "detail_ko": "인도는 에너지 수입국으로서 유가 하락의 직접적인 수혜를 받는 국가다. 유가 하락은 인도의 무역수지 개선과 인플레이션 압력 완화로 이어지며, 이는 인도 중앙은행의 금리 인하 가능성을 높인다. 이러한 거시경제적 개선 전망이 인도 주식시장의 강세를 견인하고 있는 것으로 보인다.",
+      "impact_ko": "유가 하락이 지속될 경우 인도 등 에너지 수입국의 경제 펀더멘탈이 개선되면서 신흥시장 주식에 대한 매수 심리가 강화될 수 있다. 이는 글로벌 자본의 신흥시장 회귀로 이어질 가능성이 있다."
+    },
+    {
+      "headline": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets - Reuters",
+      "summary": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV0oxRGlDMkl5NWVMcTZ3NjVxWU5RakhWT3BnZG1vc254T1RSXzg0SE5MelBYSTNsakduTFo5R0pJMkNWNXZKVW9SZEFOLWZfbWQwdG94bkpoeGw5V0I5bmtlRktsWmpqTGhwVzFNSkgyaDdEVUprbDNsMkI1WThjZ1cwQmpIRjN5VVFOVw?oc=5",
+      "published_at": "2026-11-09T01:46:00.000Z",
+      "headline_ko": "아시아 주식 안정적, AI 우려와 중동 긴장 완화 속 달러 강세 지속",
+      "summary_ko": "중동 지정학적 긴장과 AI 관련 우려가 완화되면서 아시아 주식이 안정세를 보이고 있으며, 달러는 연방준비제도의 금리 전망에 힘입어 강세를 유지하고 있다.",
+      "detail_ko": "중동 긴장 완화는 유가 급등 리스크를 낮추면서 글로벌 경제 불확실성을 감소시키는 긍정적 요인으로 작용했다. 동시에 AI 관련 과도한 기대감이 조정되면서 기술주 변동성이 안정화되는 추세를 보이고 있다. 달러 강세는 연방준비제도의 금리 인상 기대감과 미국 경제의 상대적 강건성에 기인하는 것으로 해석된다.",
+      "impact_ko": "달러 강세는 신흥시장 자산에 대한 환헤지 비용을 높일 수 있으나, 동시에 중동 긴장 완화로 인한 유가 안정화는 신흥국의 경제 펀더멘탈을 개선시킬 수 있다. 이 두 요인의 상충 효과가 향후 신흥시장 자본 흐름을 결정할 것으로 보인다."
+    },
+    {
+      "headline": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks - Reuters",
+      "summary": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWnV4VENDNkFNVllVVEpoVTJLcC13SlhHREstWFZZQ252QTRiU3dKeW5EYWYxVUJjNnQzVzh1M1FsWjNGTmRKMVFEYjhxT3M2VmF4aVpERWwwczh6dV9OTG5NcFJCMFVZZ0toWEEyMnRRTnBZUm9iQVVzblIzcmJMOTR4V29sUDFVME1jcFQ5VVhoMHVUM0YzWHM2bmE1b3VCV0s0R2JmUUQ?oc=5",
-      "published_at": "2026-11-08T23:51:43.000Z",
-      "headline_ko": "트럼프 \"이란 추가 공격 가능성 낮다\" 발언에 유가 하락",
-      "summary_ko": "트럼프 대통령이 이란의 추가 공격 가능성이 낮다고 언급하면서 유가가 개장 후 하락했다.",
-      "detail_ko": "중동 지정학적 긴장이 완화될 가능성이 제시되면서 에너지 시장의 공급 차질 우려가 감소했다. 이란과의 갈등 심화 시나리오가 후퇴하면서 유가 상승 압력이 약화되는 구조다. 이는 인플레이션 우려 완화로 이어질 수 있어 금융시장 전반에 긍정적 신호로 작용할 수 있다.",
-      "impact_ko": "유가 하락은 에너지 관련 인플레이션 압력을 낮춰 중앙은행의 금리 인상 필요성을 감소시킬 수 있다. 다만 에너지 섹터 수익성 악화로 이어질 수 있으며, 중동 정세 변화에 따라 유가 변동성이 확대될 가능성도 있다."
+      "published_at": "2026-11-08T23:50:00.000Z",
+      "headline_ko": "트럼프 대통령, 이란 제재 자제 신호 속 유가 하락",
+      "summary_ko": "트럼프 대통령이 이란에 대한 추가 제재를 자제하겠다는 신호를 보내면서 유가가 하락했다.",
+      "detail_ko": "중동 해역에서의 선박 공격 사건에도 불구하고 트럼프 대통령이 이란에 대한 강경한 대응을 자제하겠다는 입장을 표명했다. 이는 시장이 우려했던 이란-미국 간 군사 충돌 에스컬레이션 리스크를 크게 낮추는 신호로 해석되었다. 결과적으로 유가는 지정학적 프리미엄이 제거되면서 하락세를 보이게 되었다.",
+      "impact_ko": "유가 하락은 전 세계 에너지 비용을 낮추면서 인플레이션 압력을 완화시킬 수 있으며, 이는 중앙은행의 금리 인상 필요성을 감소시킬 가능성이 있다. 또한 에너지 수입국의 경제 펀더멘탈 개선으로 이어질 수 있다."
     },
     {
       "headline": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says - Reuters",
@@ -181,9 +214,9 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?oc=5",
       "published_at": "2026-11-08T19:26:09.000Z",
       "headline_ko": "이라크, 호르무즈 해협을 통한 석유 수출 미국과 합의",
-      "summary_ko": "이라크 장관이 호르무즈 해협을 통한 석유 수출에 대해 미국과 이해관계를 도달했다고 발표했다.",
-      "detail_ko": "이라크는 중동 주요 석유 생산국으로서 호르무즈 해협을 통한 수출 경로 확보는 글로벌 석유 공급 안정성 강화를 의미한다. 미국과의 합의는 이란 제재 정책과 맞물려 중동 에너지 시장의 공급 구조 재편을 시사한다. 이는 유가 변동성 완화와 에너지 시장 안정화에 긍정적 요인으로 작용할 수 있다.",
-      "impact_ko": "석유 공급 경로 확보는 글로벌 에너지 가격 안정화로 이어져 인플레이션 관리에 도움이 될 수 있다. 다만 OPEC+ 감산 정책과의 상호작용에 따라 유가 방향성이 결정될 것으로 예상되며, 이라크 정치 상황 변화에 따른 불확실성도 존재한다."
+      "summary_ko": "이라크가 미국과의 협의를 통해 호르무즈 해협을 통한 석유 수출을 계속할 수 있도록 합의했다.",
+      "detail_ko": "이라크는 중동 주요 석유 생산국으로서 호르무즈 해협을 통한 석유 수출이 국가 경제에 매우 중요하다. 미국과의 명시적 합의는 이라크 석유 수출의 안정성을 보장하는 신호로 작용하며, 이는 중동 지역의 에너지 공급 안정화를 의미한다. 이러한 합의는 지정학적 긴장 완화의 구체적 증거로 해석될 수 있다.",
+      "impact_ko": "이라크 석유 수출의 안정화는 글로벌 석유 공급 안정성을 높이면서 유가의 추가 상승을 억제할 수 있다. 이는 에너지 비용 인상 우려를 낮추고 인플레이션 전망을 개선시킬 가능성이 있다."
     },
     {
       "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
@@ -191,10 +224,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
       "published_at": "2026-11-08T17:40:15.000Z",
-      "headline_ko": "다음주 주식시장 주목 포인트: 코어위브 실적과 인플레이션 데이터",
-      "summary_ko": "코어위브의 실적 발표와 인플레이션 지표가 다음주 주식시장의 주요 변수가 될 것으로 예상된다.",
-      "detail_ko": "코어위브는 AI 인프라 기업으로서 실적 발표는 AI 칩 수요와 데이터센터 투자 동향을 가늠하는 중요한 지표다. 동시에 인플레이션 데이터는 연방준비제도의 금리 정책 방향을 결정하는 핵심 요소로, 시장의 금리 인상/인하 기대감을 크게 좌우할 수 있다. 두 지표 모두 기술주와 성장주의 밸류에이션에 직결되는 사항이다.",
-      "impact_ko": "코어위브 실적이 강할 경우 AI 관련 기술주에 긍정적 신호가 될 수 있으며, 인플레이션 데이터가 예상보다 낮으면 금리 인하 기대감으로 성장주 강세가 이어질 가능성이 있다. 반대로 인플레이션이 고착되면 금리 인상 우려로 나스닥 등 고성장주 중심의 조정이 심화될 수 있다."
+      "headline_ko": "다음 주 주식시장 주목 포인트: CoreWeave 실적과 인플레이션 데이터",
+      "summary_ko": "다음 주 미국 주식시장은 CoreWeave의 실적 발표와 인플레이션 관련 경제 지표가 주요 변수가 될 것으로 예상된다.",
+      "detail_ko": "CoreWeave는 AI 인프라 기업으로서 최근 AI 투자 열풍의 중심에 있는 기업이다. 이 회사의 실적은 AI 산업의 실제 수요와 성장성을 가늠할 수 있는 중요한 지표가 될 것으로 보인다. 동시에 인플레이션 데이터는 연방준비제도의 향후 금리 정책 방향을 결정하는 핵심 요소로서, 주식시장 전반에 큰 영향을 미칠 가능성이 높다.",
+      "impact_ko": "CoreWeave의 실적이 기대를 상회할 경우 AI 관련 기술주에 대한 매수 심리가 강화될 수 있으며, 인플레이션 데이터가 예상보다 낮을 경우 금리 인하 기대감으로 인해 성장주가 추가 상승할 가능성이 있다. 반대로 두 지표 모두 부정적일 경우 시장 변동성이 확대될 수 있다."
     },
     {
       "headline": "US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
@@ -202,10 +235,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
       "published_at": "2026-11-06T22:46:57.000Z",
-      "headline_ko": "미국 재무부, 이란 관련 거래 혐의 캐나다 송금 서비스 기업 제재",
-      "summary_ko": "미국 재무부가 이란 관련 거래에 연루된 캐나다 송금 서비스 기업들에 제재를 부과했다.",
-      "detail_ko": "이는 트럼프 행정부의 이란 제재 정책 강화를 보여주는 구체적 조치다. 금융 중개기관을 통한 이란 자금 이동 차단은 이란의 국제 금융 접근성을 더욱 제한하는 효과를 낳는다. 제재 대상이 캐나다 기업인 점은 미국의 제재 정책이 동맹국까지 포괄하는 광범위한 범위를 시사한다.",
-      "impact_ko": "이란 제재 강화는 중동 지정학적 긴장을 높일 수 있으나, 동시에 국제 금융 시스템의 제재 준수 강화로 이어져 규제 리스크가 증가할 수 있다. 암호화폐 시장에서는 규제 강화 우려로 인한 조정 압력이 지속될 가능성이 있다."
+      "headline_ko": "미국 재무부, 이란 관련 거래 혐의 캐나다 송금 서비스 회사 제재",
+      "summary_ko": "미국 재무부가 이란 관련 거래에 연루된 캐나다 송금 서비스 회사들에 대해 제재를 단행했다.",
+      "detail_ko": "미국은 이란에 대한 경제 제재 정책을 지속적으로 강화하고 있으며, 이번 조치는 제3국 금융기관을 통한 이란과의 거래 우회 시도를 차단하려는 의도로 해석된다. 캐나다 송금 서비스 회사들의 제재는 글로벌 금융 네트워크에서 이란 관련 거래의 접근성을 더욱 제한하는 효과를 가질 것으로 보인다.",
+      "impact_ko": "이러한 제재 강화는 이란의 국제 금융 접근성을 더욱 제한하면서 이란 경제에 부정적 영향을 미칠 수 있다. 또한 암호화폐 등 규제 회피 수단에 대한 수요를 증가시킬 가능성이 있으며, 이는 프라이버시 코인 등 추적이 어려운 자산에 대한 규제 강화로 이어질 수 있다."
     },
     {
       "headline": "Fake job interview scams like the one that hit Binance are getting more sophisticated. Here are the new signs to watch for",
@@ -213,43 +246,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/make-it/2026/11/06/binance-hack-fake-job-interview-scams.html",
       "published_at": "2026-11-06T19:09:56.000Z",
-      "headline_ko": "바이낸스 해킹 사건처럼 정교해지는 가짜 채용면접 사기, 주의 필요",
-      "summary_ko": "바이낸스가 가짜 채용면접을 통한 사기로 60억 달러 이상의 손실을 입었으며, 이러한 수법이 점점 정교해지고 있다.",
-      "detail_ko": "바이낸스 해킹 사건은 단순 기술적 취약점이 아닌 사회공학적 공격(소셜 엔지니어링)을 활용한 정교한 범죄임을 보여준다. 채용 프로세스를 악용한 내부자 접근 획득은 기업 보안의 인적 요소 취약성을 드러낸다. 이는 암호화폐 거래소뿐 아니라 금융기관 전반의 보안 위협 수준이 높아지고 있음을 시사한다.",
-      "impact_ko": "대규모 해킹 사건은 암호화폐 시장의 신뢰도 하락으로 이어져 투자자 심리 악화 요인이 될 수 있다. 거래소들의 보안 강화 비용 증가는 운영 효율성 악화로 반영될 수 있으며, 규제 당국의 거래소 감시 강화로 업계 규제 리스크가 증가할 가능성이 있다."
-    },
-    {
-      "headline": "Family offices boost startup investments in October, backing women's health and caregivers",
-      "summary": "Laurene Powell Jobs' Emerson Collective was the most active family-office investor with three startup bets.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/06/family-offices-boost-startup-investments-in-october.html",
-      "published_at": "2026-11-06T14:02:15.000Z",
-      "headline_ko": "패밀리오피스, 10월 스타트업 투자 확대...여성건강·돌봄 분야 주목",
-      "summary_ko": "로렌 파월 잡스의 에머슨 컬렉티브 등 패밀리오피스가 10월 스타트업 투자를 늘렸으며, 여성건강과 돌봄 분야에 집중했다.",
-      "detail_ko": "패밀리오피스의 투자 동향은 고액자산가들의 투자 선호도를 반영하는 지표다. 여성건강과 돌봄 분야로의 집중은 인구 고령화와 사회적 니즈 변화에 대응하는 장기 투자 전략을 시사한다. 이는 벤처캐피탈 시장에서 사회적 임팩트와 수익성을 동시에 추구하는 ESG 투자 트렌드가 강화되고 있음을 보여준다.",
-      "impact_ko": "패밀리오피스의 스타트업 투자 확대는 벤처 펀딩 시장의 유동성 증가로 이어져 초기 기업들의 자금 조달 환경 개선을 가져올 수 있다. 다만 특정 분야(여성건강, 돌봄)로의 집중은 해당 산업의 밸류에이션 상승과 과열 위험을 초래할 수 있다."
-    },
-    {
-      "headline": "Our top 10 things to watch in the stock market Friday",
-      "summary": "Nasdaq futures are rebounding, and the October jobs report came in strong.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/06/our-top-10-things-to-watch-in-the-stock-market-friday.html",
-      "published_at": "2026-11-06T14:01:45.000Z",
-      "headline_ko": "금요일 주식시장 주목 포인트: 나스닥 선물 반등, 10월 고용 데이터 호조",
-      "summary_ko": "나스닥 선물이 반등하고 있으며, 10월 고용 보고서가 강한 수치를 기록했다.",
-      "detail_ko": "10월 고용 데이터의 호조는 미국 노동시장의 회복력을 보여주는 긍정적 신호다. 강한 고용 지표는 소비 수요 지속성을 뒷받침하며, 경기 침체 우려를 완화하는 요인으로 작용한다. 나스닥 선물의 반등은 기술주 중심의 시장 심리 개선을 시사하며, 이는 금리 인상 우려 완화와 성장주 매력도 회복으로 해석될 수 있다.",
-      "impact_ko": "강한 고용 데이터는 연방준비제도의 금리 인하 속도를 늦출 수 있으나, 동시에 경기 회복 신뢰도를 높여 주식시장 상승 심리를 지탱할 수 있다. 나스닥 선물의 반등이 실제 장중 강세로 이어질 경우 기술주와 성장주 중심의 랠리가 지속될 가능성이 있다."
-    },
-    {
-      "headline": "COMMENTARY: Washington reset, market meltdown and the Iran oil bet: The financial week in five charts - Reuters",
-      "summary": "COMMENTARY: Washington reset, market meltdown and the Iran oil bet: The financial week in five charts  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDZhY1FzZXRVRVhNczRmcTVIZjJKUWpudWZuXzZDZkQxcVFsRDRJUzNMNGltOFMyVmJ1VFdkV3lEV09FOGZ1bnlGT2c1R0tGcklDdTIwQXNyVUM5UHNFQXBxOF9uVm1xNVNuYkplOVhtRHBuYnRnSDljdWxLZjFuZ09IN2dlX3N6N29BWTZiRWxQMkNTM0FHc1o4NDFLQ3h0TnhIaEpEUVo0N1Fxd1IyZ3R6WmxSZk1ydVV5UXlsRUhmX3pCVFVMVHByT29WLTVrMXNCVXVPMHY?oc=5",
-      "published_at": "2026-11-06T13:38:19.000Z",
-      "headline_ko": "금융 주간 분석: 워싱턴 정책 변화, 시장 급락, 이란 석유 베팅",
-      "summary_ko": "지난주 금융시장은 워싱턴의 정책 변화, 시장 조정, 이란 관련 에너지 베팅이 주요 테마였다.",
-      "detail_ko": "트럼프 행정부의 정책 신호는 시장 심리에 양면적 영향을 미쳤다. 이란 제재 완화 신호는 지정학적 리스크 감소로 해석되어 에너지 가격 하락 압력을 만들었으나, 동시에 무역 정책 불확실성은 시장 변동성을 높였다. 이란 석유 베팅은 글로벌 에너지 시장의 공급 구조 재편에 대한 투자자들의 포지셔닝을 반영한다.",
-      "impact_ko": "정책 변화에 따른 시장 변동성 확대는 단기 트레이딩 기회를 제공할 수 있으나, 장기 투자자들에게는 포트폴리오 리스크 관리 필요성을 높인다. 이란 석유 시장의 변화는 에너지 섹터 수익성과 글로벌 인플레이션 전망에 영향을 미칠 수 있으며, 지정학적 리스크 재평가에 따른 자산배분 변화가 이어질 가능성이 있다."
+      "headline_ko": "바이낸스 해킹 사건처럼 정교해지는 가짜 채용 면접 사기, 구직자 주의 필요",
+      "summary_ko": "바이낸스에서 60억 달러 규모의 해킹 사건이 가짜 채용 면접을 통해 발생했으며, 이러한 사기 기법이 점점 정교해지고 있다.",
+      "detail_ko": "바이낸스 해킹 사건은 사이버 보안 위협이 단순한 기술적 공격을 넘어 사회공학적 기법까지 포함하고 있음을 보여준다. 가짜 채용 면접을 통해 직원의 신원 정보와 접근 권한을 탈취하는 방식은 기존의 기술적 해킹보다 탐지가 어렵고 성공률이 높을 수 있다. 이는 암호화폐 거래소 등 금융기관의 보안 체계에 대한 신뢰도를 하락시킬 수 있는 사건이다.",
+      "impact_ko": "대규모 해킹 사건은 암호화폐 시장에 대한 신뢰도를 훼손하면서 투자자들의 위험회피 심리를 강화할 수 있다. 또한 이는 암호화폐 규제 강화의 명분을 제공할 수 있으며, 특히 프라이버시 코인 등 추적이 어려운 자산에 대한 규제 압력을 높일 가능성이 있다."
     }
   ],
   "calendar": [
