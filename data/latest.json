@@ -1,178 +1,222 @@
 {
-  "generated_at": "2026-11-11T01:38:30.733Z",
+  "generated_at": "2026-11-12T02:38:46.114Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 348.51,
-        "change_pct": -0.6216
+        "price": 355.63,
+        "change_pct": 2.043
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 533.16,
-        "change_pct": -2.2048
+        "price": 521.125,
+        "change_pct": -2.2573
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 168.89,
-        "change_pct": -5.4738
+        "price": 173.73,
+        "change_pct": 2.8658
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 379.78,
-        "change_pct": 0.4576
+        "price": 390.84,
+        "change_pct": 2.9122
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 270.87,
-        "change_pct": 1.476
+        "price": 266.17,
+        "change_pct": -1.7351
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 287.38,
-        "change_pct": -0.2672
+        "price": 293.45,
+        "change_pct": 2.1122
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 641.39,
-        "change_pct": 0.0031
+        "price": 628.77,
+        "change_pct": -1.9676
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 749.92,
-        "change_pct": -0.368
+        "price": 759.81,
+        "change_pct": 1.3188
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 674.76,
-        "change_pct": -0.6756
+        "price": 690.38,
+        "change_pct": 2.3149
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 73703,
-        "change_pct": -1.62622
+        "price": 73803,
+        "change_pct": 0.62953
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2054.27,
-        "change_pct": -3.20918
+        "price": 2057.31,
+        "change_pct": 0.19872
       },
       {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.317672,
-        "change_pct": 0.17768
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.066,
+        "change_pct": 2.74532
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.32,
-        "change_pct": 0.05606
-      },
-      {
-        "symbol": "USDE",
-        "name": "Ethena USDe",
-        "price": 0.99947,
-        "change_pct": 0.05056
-      },
-      {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999513,
-        "change_pct": -0.00011
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1030.16,
-        "change_pct": -11.86276
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price": 1.054,
-        "change_pct": -4.21305
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.147971,
+        "change_pct": 2.36004
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 562.26,
-        "change_pct": -3.89513
+        "price": 573.54,
+        "change_pct": 2.324
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 72.09,
-        "change_pct": -3.56093
+        "price": 72.25,
+        "change_pct": 0.81768
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 994.42,
+        "change_pct": -2.69629
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 10.18,
+        "change_pct": -1.69723
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.067582,
+        "change_pct": -1.07578
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.174435,
+        "change_pct": -0.35672
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 인플레이션 우려와 연방준비제도(Fed)의 강경한 금리 인상 신호에 따라 광범위한 낙장을 기록했다. S&P 500 ETF(SPY)와 나스닥100 ETF(QQQ)가 각각 0.37%, 0.68% 하락하며 시장 전반의 약세를 주도했고, 특히 기술주와 고성장주가 큰 타격을 입었다.",
-      "엔비디아(NVDA)가 5.47% 급락하며 가장 큰 낙폭을 기록했는데, 이는 금리 인상 우려가 고평가 기술주에 미치는 부정적 영향을 반영하는 것으로 해석된다. 마이크로소프트(MSFT)도 2.20% 하락했으며, 10월 인플레이션 데이터가 예상보다 높게 나타나면서 Fed 관계자들이 0.5%포인트의 추가 인상까지 검토 중이라는 뉴스가 시장 심리를 악화시킨 것으로 보인다.",
-      "반면 아마존(AMZN)은 1.48% 상승하며 상대적으로 강세를 유지했는데, 이는 경기 방어 성격의 대형주에 대한 선별적 수요가 나타나고 있음을 시사한다. 암호화폐 시장도 금리 인상 우려에 따른 위험자산 회피 심리로 비트코인(BTC)이 1.63%, 이더리움(ETH)이 3.21% 하락했으며, 특히 프라이버시 코인인 지캐시(ZEC)는 11.86% 급락하며 규제 리스크와 위험자산 선호도 급락의 이중 타격을 받은 것으로 보인다. 본 내용은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 인플레이션 우려와 연방준비제도(Fed)의 금리 인상 가능성 논의로 혼조세를 보였다. S&P 500은 소폭 상승했으나 나스닥 지수는 기술주 중심으로 엇갈린 움직임을 나타냈으며, 전반적으로 금리 경로에 대한 불확실성이 시장 심리를 압박하는 상황이다.",
+      "엔비디아(+2.87%), 테슬라(+2.91%), 애플(+2.04%), 알파벳(+2.11%)이 강세를 보였는데, 이는 나스닥100 ETF(+2.31%)의 상승과 맞물려 있다. 기술주 중에서도 AI 칩 수요와 전기차 시장 전망이 상대적으로 긍정적으로 평가되는 종목들이 매수세를 끌어당긴 것으로 해석된다.",
+      "마이크로소프트(-2.26%), 메타(-1.97%), 아마존(-1.74%)은 하락세를 기록했다. 이들 대형 기술주의 약세는 인플레이션 심화에 따른 금리 인상 우려가 고금리에 민감한 대형 성장주의 밸류에이션을 압박하는 영향으로 보인다. 코인 시장에서는 프라이버시 코인인 모네로(XMR, +2.32%)와 스텔라(XLM, +2.36%)가 소폭 상승했으나, 이는 매크로 뉴스와의 명확한 연결고리가 제한적이므로 투자 판단의 근거로 삼기 어렵다는 점을 유의해야 한다. 본 분석은 투자 조언이 아니며, 투자 결정은 개인의 판단과 책임하에 이루어져야 한다."
     ],
     "movers": [
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 168.89,
-        "change_pct": -5.4738,
+        "price": 173.73,
+        "change_pct": 2.8658,
         "type": "stock",
-        "reason_ko": "금리 인상 우려로 고성장주 약세"
+        "reason_ko": "AI 칩 수요 지속 강세"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 390.84,
+        "change_pct": 2.9122,
+        "type": "stock",
+        "reason_ko": "전기차 시장 전망 개선"
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 533.16,
-        "change_pct": -2.2048,
+        "price": 521.125,
+        "change_pct": -2.2573,
         "type": "stock",
-        "reason_ko": "인플레이션 악화에 따른 기술주 낙장"
+        "reason_ko": "금리 인상 우려로 약세"
       },
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 270.87,
-        "change_pct": 1.476,
+        "symbol": "META",
+        "name": "메타",
+        "price": 628.77,
+        "change_pct": -1.9676,
         "type": "stock",
-        "reason_ko": "경기 방어주로서 상대적 강세"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1030.16,
-        "change_pct": -11.86276,
-        "type": "crypto",
-        "reason_ko": "규제 리스크와 위험자산 회피 이중 타격"
+        "reason_ko": "성장주 밸류에이션 압박"
       }
     ]
   },
   "news": [
+    {
+      "headline": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia - Reuters",
+      "summary": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDZlTWwtdThPTnp0UjFXeXowU3I2SzZTbDA1Zk9BZUJER0dMV1o3S2oza0sxUmxlT2xhb2k4Ykx1TDlORm5zNVdJSk8wVzZBM2VRV2xFUlpJQTdiTTJJY1ZULXJNbjIyaWVudGx5UUNjZWlMaGRJcXZHVjBmUkUxVmVxZC1FUWk0SUFmZkFQZGhaeFVPdWtkV2xIQ0hRT1ZDWGYySlk3RHdRTDloMDlLdQ?oc=5",
+      "published_at": "2026-11-11T14:14:31.000Z",
+      "headline_ko": "OPEC+ 10월 산유량 이란 전쟁 이전 수준 근처, 사우디 주도",
+      "summary_ko": "OPEC+ 회원국들의 10월 석유 생산량이 이란 관련 지정학적 긴장 이전 수준에 근접했으며, 사우디아라비아가 주도적 역할을 하고 있다.",
+      "detail_ko": "OPEC+ 산유량이 사전 분쟁 수준으로 회복되는 것은 글로벌 석유 공급 안정성이 개선되고 있음을 시사한다. 사우디아라비아의 주도적 역할은 OPEC+ 내 영향력 유지와 함께 국제유가 안정화에 대한 의지를 반영하는 것으로 해석된다. 이는 지정학적 리스크 프리미엄이 점진적으로 완화되고 있는 신호로 볼 수 있다.",
+      "impact_ko": "석유 공급 안정화는 에너지 가격 상승 압력을 완화하여 인플레이션 우려를 다소 경감시킬 수 있다. 다만 지정학적 긴장이 완전히 해소되지 않은 상황에서 유가는 여전히 변동성을 유지할 가능성이 있다."
+    },
+    {
+      "headline": "Mortgage rates jump sharply higher, after easing for four straight weeks. Here's why",
+      "summary": "After falling for a month, mortgage rates jumped sharply higher on a hotter-than-expected inflation report.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/11/mortgage-rates-jump-sharply-higher-after-easing-for-4-straight-weeks.html",
+      "published_at": "2026-11-11T12:38:32.000Z",
+      "headline_ko": "모기지 금리 급등, 4주 연속 하락 후 반등",
+      "summary_ko": "예상을 웃도는 인플레이션 데이터 발표 이후 모기지 금리가 4주간의 하락세를 끝내고 급격히 상승했다.",
+      "detail_ko": "모기지 금리의 급등은 시장이 인플레이션 심화를 반영하면서 장기 금리 전망을 상향 조정했음을 의미한다. 이는 연방준비제도의 금리 인상 가능성에 대한 시장의 재평가로 이어지고 있다. 주택 시장의 차입 비용 상승은 주택 수요 둔화와 부동산 시장 심리 악화로 이어질 수 있다.",
+      "impact_ko": "모기지 금리 상승은 주택 구매력을 약화시켜 부동산 시장 냉각으로 이어질 가능성이 있다. 금융 시장에서는 고금리 환경에 민감한 성장주와 부동산 관련 주식에 추가 압박이 가해질 수 있다."
+    },
+    {
+      "headline": "Oil up 1% as Iran official says country will keep enriched nuclear material - Reuters",
+      "summary": "Oil up 1% as Iran official says country will keep enriched nuclear material  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
+      "published_at": "2026-11-11T02:10:00.000Z",
+      "headline_ko": "이란 핵물질 보유 지속 선언에 유가 1% 상승",
+      "summary_ko": "이란 관계자가 농축 핵물질 보유를 계속하겠다고 선언하면서 지정학적 긴장이 재부각되어 유가가 1% 상승했다.",
+      "detail_ko": "이란의 핵물질 보유 지속 선언은 미국과의 긴장 관계가 여전히 진행 중임을 시사한다. 이는 중동 지역의 지정학적 리스크가 완전히 해소되지 않았음을 의미하며, 석유 공급 차질에 대한 우려를 재점화하는 요인으로 작용한다. 유가 상승은 이러한 공급 리스크 프리미엄이 시장에 반영되고 있음을 보여준다.",
+      "impact_ko": "지정학적 긴장 재부각은 에너지 가격 상승 압력을 유지하여 인플레이션 우려를 심화시킬 수 있다. 이는 연방준비제도의 금리 인상 가능성을 높이는 요인으로 작용하여 주식시장의 성장주에 추가 부담을 줄 수 있다."
+    },
+    {
+      "headline": "US Treasury chief Bessent moved to military base after Iranian threats, sources say - Reuters",
+      "summary": "US Treasury chief Bessent moved to military base after Iranian threats, sources say  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT3lYOEw5X1FaSkpweDhiUmp3d0QybFR3ZU4xRl8wYXRRMS1CbzFFWENqLXNBVDZhOHBvSHdXSFh3NW5oNXEyUjRfWmFMT0g1bkV2NXRWWDc5UUpsaXVWLWxwQ0RLSkRkTW5jSWlkQ1p1dzFRa2pySzFVTklVb0k3TFo1bmZPb0lZTXVId1oyN2hCZGxkRmZua2R1ay1LN3VkNE1zb1FFNHUwNGNwSlBVdE5aMzFocFlGWTNINElWV3BvY21lOWRNTmxaNHB2dw?oc=5",
+      "published_at": "2026-11-11T01:00:00.000Z",
+      "headline_ko": "미국 재무장관 베센트, 이란 위협으로 군사기지로 이동",
+      "summary_ko": "미국 재무장관 재닛 베센트가 이란의 위협으로 인해 군사기지로 이동했다고 소식통이 전했다.",
+      "detail_ko": "재무장관의 보안 이동은 미-이란 간 긴장이 실질적 위협 수준으로 고조되었음을 시사한다. 이는 단순한 외교적 갈등을 넘어 보안 위협으로 인식되고 있다는 점에서 지정학적 리스크의 심각성을 반영한다. 이러한 조치는 시장에 불확실성과 위험회피 심리를 강화할 수 있다.",
+      "impact_ko": "고위 정부 관계자의 보안 이동은 시장 참여자들에게 지정학적 리스크의 현실성을 강하게 인식시켜 위험자산 회피 심리를 강화할 수 있다. 이는 주식시장의 변동성 확대와 안전자산 선호로 이어질 가능성이 있다."
+    },
     {
       "headline": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries - Reuters",
       "summary": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
       "published_at": "2026-11-10T21:27:01.000Z",
-      "headline_ko": "뜨거운 인플레이션 데이터와 Fed 발언에 월가 하락장 마감",
-      "summary_ko": "10월 인플레이션 데이터가 예상을 상회하고 Fed 관계자들의 강경한 발언이 나오면서 미국 주식시장이 광범위한 낙장을 기록했다.",
-      "detail_ko": "시장이 인플레이션 둔화를 기대했던 상황에서 10월 물가 데이터가 예상보다 높게 발표되자 투자자들의 심리가 급격히 악화되었다. 이는 Fed가 금리를 더 오래 높은 수준에 유지해야 할 가능성을 높이는 신호로 해석되었으며, 특히 고성장주와 기술주처럼 저금리 환경에서 수익성이 높게 평가되는 종목들이 큰 타격을 입게 되었다. 시장 참여자들은 경제 경착륙 우려와 기업 실적 부진 가능성을 동시에 고려하게 되면서 위험자산 회피 심리가 확산된 것으로 보인다.",
-      "impact_ko": "인플레이션이 예상보다 높게 유지된다면 Fed의 금리 인상 사이클이 더 길어질 수 있으며, 이는 기업의 차입 비용 상승과 소비 심화 둔화로 이어질 가능성이 있다. 특히 고평가 기술주와 성장주에 대한 투자 심리가 더욱 위축될 수 있고, 이에 따라 시장 변동성이 한동안 높은 수준을 유지할 것으로 예상된다."
+      "headline_ko": "월스트리트 하락, 인플레이션 데이터와 Fed 발언으로 금리 우려 심화",
+      "summary_ko": "예상을 웃도는 인플레이션 데이터와 연방준비제도 관계자의 발언으로 금리 인상 우려가 커지면서 월스트리트가 하락했다.",
+      "detail_ko": "시장은 인플레이션 심화와 Fed의 강경한 기조 신호에 반응하여 금리 인상 경로를 상향 조정하고 있다. 이는 고금리 환경이 더 오래 지속될 수 있다는 우려를 반영하며, 특히 성장주와 기술주의 밸류에이션에 부정적 영향을 미친다. 시장의 하락은 이러한 금리 경로 변화에 대한 재평가 과정으로 해석된다.",
+      "impact_ko": "금리 인상 우려의 심화는 고금리에 민감한 성장주와 기술주의 추가 조정으로 이어질 가능성이 있다. 또한 채권 수익률 상승으로 인한 자산 배분 변화가 주식시장에서 채권시장으로의 자금 이동을 초래할 수 있다."
     },
     {
       "headline": "Fed officials open door to a half-percentage-point rate hike as inflation worsens - Reuters",
@@ -180,10 +224,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
       "published_at": "2026-11-10T20:42:14.000Z",
-      "headline_ko": "Fed 관계자들, 인플레이션 악화에 따라 0.5%포인트 금리 인상 가능성 열어",
-      "summary_ko": "연방준비제도 관계자들이 인플레이션이 예상보다 높게 유지되고 있다는 판단 하에 기존 0.25%포인트보다 큰 폭의 금리 인상을 검토 중인 것으로 알려졌다.",
-      "detail_ko": "최근 몇 개월간 Fed는 금리 인상 속도를 늦추고 있었으나, 10월 인플레이션 데이터가 예상을 크게 상회하면서 정책 기조 변화의 신호를 보내기 시작했다. 0.5%포인트 인상은 2023년 초 이후 처음 검토되는 수준으로, 이는 인플레이션 통제에 대한 Fed의 강한 의지를 반영한다. 이러한 발언은 시장의 금리 경로 전망을 크게 상향 조정하게 만들었고, 투자자들의 기대 심리를 급격히 악화시키는 요인이 되었다.",
-      "impact_ko": "더 큰 폭의 금리 인상이 현실화될 경우 채권 수익률이 급등하고, 이에 따라 주식의 상대적 매력도가 하락할 수 있다. 특히 미래 현금흐름에 의존하는 성장주와 기술주는 더욱 큰 타격을 받을 가능성이 높으며, 기업들의 차입 비용 상승으로 인한 실적 부진 우려도 커질 것으로 예상된다."
+      "headline_ko": "Fed 관계자, 인플레이션 악화에 따른 0.5%포인트 금리 인상 가능성 열어",
+      "summary_ko": "연방준비제도 관계자들이 인플레이션 악화 상황에서 0.5%포인트의 금리 인상 가능성을 시사했다.",
+      "detail_ko": "Fed의 0.5%포인트 인상 가능성 언급은 기존의 점진적 인상 기조에서 더 공격적인 정책으로 전환할 수 있음을 의미한다. 이는 인플레이션이 Fed의 목표치에서 충분히 벗어났다고 판단하고 있음을 반영하며, 시장의 금리 경로 전망을 크게 상향 조정하게 한다. 이러한 신호는 금융 조건 긴축의 가능성을 높이는 신호로 작용한다.",
+      "impact_ko": "0.5%포인트 인상 가능성은 시장의 금리 기대를 급격히 상향 조정하여 주식시장, 특히 성장주에 상당한 압박을 줄 수 있다. 또한 채권 수익률 급등과 함께 자산 배분의 대규모 재조정을 초래할 가능성이 있다."
     },
     {
       "headline": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
@@ -191,65 +235,21 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
       "published_at": "2026-11-10T20:02:53.000Z",
-      "headline_ko": "GE 버노바 주가 약세 속, Fed 금리 인상 가능성 급상승",
-      "summary_ko": "에너지 인프라 기업 GE 버노바의 주가가 약세를 보이는 가운데, 시장에서 Fed의 금리 인상 가능성이 크게 높아지고 있다.",
-      "detail_ko": "GE 버노바는 재생에너지 인프라 투자에 민감한 기업으로, 금리 인상 환경에서는 자본 집약적 프로젝트의 채산성이 악화되는 경향이 있다. 최근 Fed의 강경한 금리 인상 신호가 나오면서 이러한 기업들의 미래 수익성에 대한 우려가 커지고 있으며, 투자자들이 선제적으로 포지션을 정리하는 모습이 나타나고 있다. 특히 인프라 투자 수익률이 금리 수준에 직결되는 특성상, 금리 상승은 이 섹터에 직접적인 부정적 영향을 미치게 된다.",
-      "impact_ko": "금리 인상이 가속화될 경우 재생에너지 및 인프라 투자 프로젝트의 수익성이 악화되어 신규 투자가 위축될 수 있다. 이는 에너지 전환 관련 기업들의 성장 전망을 하향 조정하게 만들 수 있으며, 장기적으로 탄소중립 목표 달성 속도에도 영향을 미칠 가능성이 있다."
+      "headline_ko": "GE 베르노바 매도자들의 판단 오류, Fed 금리 인상 가능성 급증",
+      "summary_ko": "GE 베르노바 주식 매도자들의 판단이 잘못되었을 가능성이 제기되며, 동시에 Fed의 금리 인상 가능성이 급증하고 있다.",
+      "detail_ko": "이 기사는 GE 베르노바(재생에너지 인프라 회사)의 주가 약세와 관련하여 매도 결정의 타이밍 문제를 지적하고 있다. 동시에 Fed의 금리 인상 가능성 급증이 시장 심리에 미치는 영향을 강조하고 있다. 금리 인상 우려는 장기 인프라 투자 수익성을 압박하는 요인으로 작용할 수 있다.",
+      "impact_ko": "금리 인상 가능성의 급증은 장기 현금흐름에 의존하는 인프라 및 재생에너지 관련 주식에 부정적 영향을 미칠 수 있다. 다만 에너지 전환 추세의 장기성을 감안하면 단기 금리 우려와 장기 성장성 사이의 괴리가 투자 기회를 창출할 가능성도 있다."
     },
     {
-      "headline": "Ex-Google recruiter: You're answering 'Tell me about yourself?' all wrong, and other job interview mistakes—do this instead",
-      "summary": "Former Google recruiter Farah Sharghi shares her best advice for how to turn coffee chats into real introductions and interviews.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/11/10/ex-google-recruiter-how-to-avoid-3-common-job-interview-mistakes.html",
-      "published_at": "2026-11-10T16:30:01.000Z",
-      "headline_ko": "전직 구글 채용담당자, 자기소개 면접 답변법 공개",
-      "summary_ko": "전직 구글 채용담당자 파라 샤르기가 '자기소개' 질문에 대한 올바른 답변 방식과 면접 준비 팁을 공유했다.",
-      "detail_ko": "이 기사는 구직자들이 면접에서 자주 실수하는 부분들을 지적하고, 채용담당자 입장에서 원하는 답변 방식을 제시하는 커리어 조언 콘텐츠이다. 자기소개는 면접의 첫 인상을 결정하는 중요한 질문이지만, 많은 지원자들이 단순히 이력서를 읽거나 과도하게 길게 답변하는 실수를 범한다는 점을 강조하고 있다. 효과적인 자기소개는 지원 직무와의 연관성을 명확히 하고, 구체적인 성과와 경험을 간결하게 전달하는 것이 핵심이라는 조언이다.",
-      "impact_ko": "이러한 면접 팁이 널리 공유될 경우 구직자들의 면접 준비 수준이 전반적으로 높아질 수 있으며, 이는 기업들의 채용 과정을 더욱 경쟁적으로 만들 수 있다. 다만 이는 거시경제나 금융시장에 직접적인 영향을 미치는 뉴스는 아니며, 개별 구직자의 취업 성공률 향상에 주로 영향을 미칠 것으로 예상된다."
-    },
-    {
-      "headline": "Fed's Logan calls for two more rate hikes, possibly rapidly - Reuters",
-      "summary": "Fed's Logan calls for two more rate hikes, possibly rapidly  Reuters",
+      "headline": "European shares near record high as lower oil prices boost sentiment - Reuters",
+      "summary": "European shares near record high as lower oil prices boost sentiment  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0xfUlI5TmlGa3Z4Z0QtTF9FcVRjZ0hwNEFSOVNTX0otSERvdUdrZzBKazRheFd2Vlc3bWZhazZfY2haNFNKVi1WOWNnWWVfTmgyVk9iSXFqRTR3aHcwRV93UkF0ejRGVFdOdVR4N2NWalZkYkFhS3NTLWtsY1FjazJld1JBX0lBRmM4M1RhdHk3UDBjZFFWOUNQVm40bkU?oc=5",
-      "published_at": "2026-11-10T15:55:43.000Z",
-      "headline_ko": "Fed 로건 위원, 추가 금리 인상 2회 필요하며 신속히 진행할 수 있다고 주장",
-      "summary_ko": "연방준비제도의 로건 위원이 인플레이션 통제를 위해 추가로 2회의 금리 인상이 필요하며, 이를 신속하게 진행할 수 있다는 입장을 표명했다.",
-      "detail_ko": "로건 위원의 발언은 Fed 내에서도 강경파의 입장을 대표하는 것으로 해석되며, 인플레이션이 여전히 Fed의 목표치인 2%에서 상당히 높은 수준에 있다는 판단을 반영한다. 추가 2회 인상은 0.5%포인트의 인상을 의미할 수 있으며, 이를 '신속히' 진행한다는 표현은 인상 간격을 단축할 수 있다는 의미로 해석될 수 있다. 이러한 발언은 시장의 금리 경로 전망을 더욱 상향 조정하게 만들었고, 투자자들의 불안감을 가중시키는 요인이 되었다.",
-      "impact_ko": "Fed의 강경한 금리 인상 기조가 지속될 경우 채권 수익률이 더욱 상승하고, 이에 따라 주식 시장의 밸류에이션 압박이 심화될 수 있다. 특히 고성장주와 기술주에 대한 투자 심리가 더욱 위축될 가능성이 높으며, 경제 경착륙 우려도 함께 커질 것으로 예상된다."
-    },
-    {
-      "headline": "Instant view: Hot October inflation report rattles markets - Reuters",
-      "summary": "Instant view: Hot October inflation report rattles markets  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGxVcWRPUjR6aDlqZEVjYjNScVg4MHpQRXQ0Z1VBLU5WbENmYi1XWlJUOWt3MFdlNGdJcVlaRjEtUzZUd0dYVXJDTEY2Ung1Nm9meGZfWFpUYnVPbElHQjJIaW9pVUQwWWY0czJsMEV0YkNTNmh0SDA5MVM3dVhaRUI1Q19JLTlIVFM3SHJKSEU3MmNZczROOExR?oc=5",
-      "published_at": "2026-11-10T14:51:39.000Z",
-      "headline_ko": "10월 인플레이션 보고서 발표로 시장 요동",
-      "summary_ko": "10월 인플레이션 데이터가 예상을 상회하면서 금융시장이 큰 변동성을 보였다.",
-      "detail_ko": "10월 인플레이션 지표가 예상보다 높게 발표되자 시장 참여자들은 Fed의 금리 인상 사이클이 더 오래 지속될 것이라는 우려를 갖게 되었다. 이는 최근 몇 개월간 인플레이션이 점진적으로 둔화되고 있다는 기대감이 깨지면서 나타난 반응으로, 투자자들의 심리 변화를 명확히 보여주는 사건이다. 특히 이 데이터는 Fed 관계자들의 강경한 발언을 뒷받침하는 근거가 되어, 시장의 금리 전망을 급격히 상향 조정하게 만들었다.",
-      "impact_ko": "인플레이션이 예상보다 높게 유지된다면 Fed의 금리 인상 사이클이 연장될 가능성이 높으며, 이는 경제 성장률 둔화와 기업 실적 부진으로 이어질 수 있다. 또한 채권 수익률 상승으로 인한 자산 배분 변화가 일어날 수 있으며, 특히 고평가 자산에서 저평가 자산으로의 자금 이동이 가속화될 것으로 예상된다."
-    },
-    {
-      "headline": "PODCAST: Oil's well that ends well - Reuters",
-      "summary": "PODCAST: Oil's well that ends well  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSm5TNkFLMFBON2RKUUNDNTZ6SmxNbWwtSTdPUFpoQU9LNmVtSll6WVN2SXgtMDQyODYzRnVnTHd6VDR2S0xiWnl0VGlLb2p0dWpOMk5lQ3psMDJfazFqSmJLdlhyd2dMNnZnc3lWSlR1T19fTTBtSHBYSlhremQ0MmZRVTl3M3c2UGI2RVZmMG94ODQ?oc=5",
-      "published_at": "2026-11-10T14:36:43.000Z",
-      "headline_ko": "팟캐스트: 유가의 미래 전망",
-      "summary_ko": "유가 동향과 에너지 시장의 향후 전망에 대한 팟캐스트 콘텐츠가 공개되었다.",
-      "detail_ko": "이 팟캐스트는 현재의 유가 수준과 에너지 시장의 구조적 변화를 다루는 콘텐츠로 보이며, 지정학적 리스크, 공급 측면의 변화, 수요 전망 등 다양한 요인들을 종합적으로 분석하는 형식으로 진행될 것으로 예상된다. 최근 금리 인상 우려와 경제 성장 둔화 전망이 나오면서 에너지 수요에 대한 불확실성이 커지고 있는 상황에서, 이러한 분석 콘텐츠는 투자자들의 에너지 섹터 전망 형성에 도움이 될 수 있다.",
-      "impact_ko": "유가 전망에 대한 전문가 분석이 널리 공유될 경우 에너지 관련 자산에 대한 투자 심리에 영향을 미칠 수 있다. 특히 경제 성장 둔화 우려가 있는 상황에서 유가 하락 전망이 강해질 경우, 에너지 섹터 주식과 관련 상품에 대한 투자 수요가 위축될 가능성이 있다."
-    },
-    {
-      "headline": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters",
-      "summary": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaGgwYzFvYzY1cndpc3FZRGZjLXRQTFp0WlktcmQwS2d6T1VhVVRBWkdpclUxd3Bvd1A4bWZOendzNXdhdmdtTnJ6S3AxMVNJN0hUbnRDZEF0NHE5QWtOZFUxc2JuZm1qbklMRjBtb2xmWlVSWVdNckxNSFQ3cnZLeC1KU1lrb2lBTFNKN2J1Uy1OYmRSczRoQmZsZlBtaHZPYzdnM1NSZTR5ODdsbEVV?oc=5",
-      "published_at": "2026-11-10T14:35:08.000Z",
-      "headline_ko": "로이터 여론조사: Fed, 12월 한 차례 더 금리 인상할 것으로 예상되며 인플레이션 리스크 지속",
-      "summary_ko": "로이터 여론조사에 따르면 Fed가 12월에 한 차례 더 금리를 인상할 것으로 예상되며, 인플레이션 리스크가 계속 높은 수준에 있을 것으로 전망되고 있다.",
-      "detail_ko": "이 여론조사는 시장 참여자들과 전문가들의 Fed 금리 경로에 대한 기대를 종합한 것으로, 12월 인상이 거의 확실시되고 있음을 시사한다. 인플레이션 리스크가 계속 높다는 평가는 Fed가 금리를 높은 수준에서 오래 유지해야 할 가능성을 의미하며, 이는 경제에 지속적인 압박을 가할 수 있다는 우려를 반영한다. 최근의 뜨거운 인플레이션 데이터와 Fed 관계자들의 강경한 발언들이 이러한 기대를 뒷받침하고 있다.",
-      "impact_ko": "12월 금리 인상이 거의 확실시될 경우 시장의 불확실성이 감소하는 긍정적 측면이 있을 수 있지만, 동시에 경제 성장 둔화 우려가 커질 수 있다. 또한 인플레이션 리스크가 지속된다는 평가는 Fed의 금리 인상 사이클이 더 오래 지속될 가능성을 높이며, 이는 기업 실적과 주식 밸류에이션에 부정적 영향을 미칠 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObUhPanl6a2ZpNXhoQlpNRGdJWmFFcE5rY3U2YTFfYXhZOWRDc2FCZjFDckNFLWRrR3pzSDQycjMxaDNrQ2s5TzdmRXlRX0M3cGl3UWtobXppajFqS000Ymtrby1qbGsxZTBsVVB2ajhCZkVxN0VlM1lGVTJHZm1kWFA1cWtNcFlINWQ1VnVSSzRQNlQ5R3dFdE1wdmZIS09veGw5THp1Q0hxbW1HQV9hMmtUVXp1Mk0?oc=5",
+      "published_at": "2026-11-10T17:46:25.000Z",
+      "headline_ko": "유럽 주식 사상 최고 근처, 유가 하락이 심리 부양",
+      "summary_ko": "유럽 주식이 사상 최고가 근처까지 상승했으며, 유가 하락이 시장 심리를 개선하는 데 기여했다.",
+      "detail_ko": "유럽 주식의 강세는 유가 하락으로 인한 에너지 비용 감소와 인플레이션 압력 완화에 대한 기대를 반영하고 있다. 이는 OPEC+ 산유량 회복과 지정학적 긴장 완화 신호가 시장에 긍정적으로 평가되고 있음을 의미한다. 유럽 경제의 에너지 비용 부담 경감은 기업 수익성 개선 전망으로 이어지고 있다.",
+      "impact_ko": "유가 하락은 유럽의 인플레이션 압력을 완화하여 중앙은행의 금리 인상 필요성을 감소시킬 수 있다. 이는 미국의 금리 인상 우려와 대조되어 지역 간 통화정책 분기를 심화시킬 가능성이 있다."
     }
   ],
   "calendar": [
