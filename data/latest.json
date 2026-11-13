@@ -1,168 +1,242 @@
 {
-  "generated_at": "2026-11-12T02:38:46.114Z",
+  "generated_at": "2026-11-13T02:19:29.675Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 355.63,
-        "change_pct": 2.043
+        "price": 354.88,
+        "change_pct": -0.2109
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 521.125,
-        "change_pct": -2.2573
+        "price": 523,
+        "change_pct": 0.3598
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 173.73,
-        "change_pct": 2.8658
+        "price": 166.19,
+        "change_pct": -4.3401
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 390.84,
-        "change_pct": 2.9122
+        "price": 397.45,
+        "change_pct": 1.6912
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 266.17,
-        "change_pct": -1.7351
+        "price": 267.44,
+        "change_pct": 0.4771
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 293.45,
-        "change_pct": 2.1122
+        "price": 298.7,
+        "change_pct": 1.7891
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 628.77,
-        "change_pct": -1.9676
+        "price": 623.61,
+        "change_pct": -0.8206
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 759.81,
-        "change_pct": 1.3188
+        "price": 757.12,
+        "change_pct": -0.354
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 690.38,
-        "change_pct": 2.3149
+        "price": 688.17,
+        "change_pct": -0.3201
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 73803,
-        "change_pct": 0.62953
+        "price": 70520,
+        "change_pct": -4.40772
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2057.31,
-        "change_pct": 0.19872
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.066,
-        "change_pct": 2.74532
-      },
-      {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.147971,
-        "change_pct": 2.36004
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 573.54,
-        "change_pct": 2.324
+        "price": 1997.02,
+        "change_pct": -2.85536
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 72.25,
-        "change_pct": 0.81768
+        "price": 72.52,
+        "change_pct": 0.67984
+      },
+      {
+        "symbol": "USDT",
+        "name": "Tether",
+        "price": 0.999067,
+        "change_pct": 0.00688
+      },
+      {
+        "symbol": "USDC",
+        "name": "USDC",
+        "price": 0.999499,
+        "change_pct": 0.00097
+      },
+      {
+        "symbol": "USDS",
+        "name": "USDS",
+        "price": 0.999926,
+        "change_pct": -0.0142
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 540.88,
+        "change_pct": -6.22609
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.001,
+        "change_pct": -6.11922
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 994.42,
-        "change_pct": -2.69629
+        "price": 952.58,
+        "change_pct": -4.80256
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 10.18,
-        "change_pct": -1.69723
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.067582,
-        "change_pct": -1.07578
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.174435,
-        "change_pct": -0.35672
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 650.67,
+        "change_pct": -4.17427
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 인플레이션 우려와 연방준비제도(Fed)의 금리 인상 가능성 논의로 혼조세를 보였다. S&P 500은 소폭 상승했으나 나스닥 지수는 기술주 중심으로 엇갈린 움직임을 나타냈으며, 전반적으로 금리 경로에 대한 불확실성이 시장 심리를 압박하는 상황이다.",
-      "엔비디아(+2.87%), 테슬라(+2.91%), 애플(+2.04%), 알파벳(+2.11%)이 강세를 보였는데, 이는 나스닥100 ETF(+2.31%)의 상승과 맞물려 있다. 기술주 중에서도 AI 칩 수요와 전기차 시장 전망이 상대적으로 긍정적으로 평가되는 종목들이 매수세를 끌어당긴 것으로 해석된다.",
-      "마이크로소프트(-2.26%), 메타(-1.97%), 아마존(-1.74%)은 하락세를 기록했다. 이들 대형 기술주의 약세는 인플레이션 심화에 따른 금리 인상 우려가 고금리에 민감한 대형 성장주의 밸류에이션을 압박하는 영향으로 보인다. 코인 시장에서는 프라이버시 코인인 모네로(XMR, +2.32%)와 스텔라(XLM, +2.36%)가 소폭 상승했으나, 이는 매크로 뉴스와의 명확한 연결고리가 제한적이므로 투자 판단의 근거로 삼기 어렵다는 점을 유의해야 한다. 본 분석은 투자 조언이 아니며, 투자 결정은 개인의 판단과 책임하에 이루어져야 한다."
+      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. 기술주 중심의 나스닥100 ETF(QQQ)와 S&P 500 ETF(SPY)가 소폭 하락한 가운데, 엔비디아가 -4.34%로 큰 낙폭을 기록했다. 이는 인플레이션 우려로 인한 금리 전망 변화와 위험자산 회피 심리가 작용한 것으로 해석된다.",
+      "테슬라(+1.69%)와 알파벳(+1.79%)이 상대적 강세를 보였으며, 마이크로소프트(+0.36%)도 소폭 상승했다. 이들 종목은 중동 지정학적 긴장 속에서도 기본적 사업 모멘텀이 유지되고 있다는 평가를 받는 것으로 보인다.",
+      "암호화폐 시장은 광범위한 하락세를 나타냈다. 비트코인(-4.41%)과 이더리움(-2.86%)이 하락한 가운데, 프라이버시 코인인 모네로(XMR, -6.23%)와 지캐시(ZEC, -4.80%)가 더욱 큰 낙폭을 기록했다. 이는 중동 긴장 고조로 인한 인플레이션 우려와 달러 강세 심화가 위험자산인 암호화폐 전반에 부정적 영향을 미친 것으로 보인다. 특히 프라이버시 코인의 낙폭이 더 큰 것은 규제 리스크에 대한 민감도가 높아진 가운데 거시 경제 악화 시 소외 자산으로 평가받기 때문으로 해석된다. 본 내용은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 173.73,
-        "change_pct": 2.8658,
+        "price": 166.19,
+        "change_pct": -4.3401,
         "type": "stock",
-        "reason_ko": "AI 칩 수요 지속 강세"
+        "reason_ko": "인플레이션 우려로 기술주 회피"
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 390.84,
-        "change_pct": 2.9122,
+        "price": 397.45,
+        "change_pct": 1.6912,
         "type": "stock",
-        "reason_ko": "전기차 시장 전망 개선"
+        "reason_ko": "거시 악화 속 상대적 강세 유지"
       },
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "price": 521.125,
-        "change_pct": -2.2573,
+        "symbol": "GOOGL",
+        "name": "알파벳(구글)",
+        "price": 298.7,
+        "change_pct": 1.7891,
         "type": "stock",
-        "reason_ko": "금리 인상 우려로 약세"
+        "reason_ko": "기본 모멘텀 지지로 상승"
       },
       {
-        "symbol": "META",
-        "name": "메타",
-        "price": 628.77,
-        "change_pct": -1.9676,
-        "type": "stock",
-        "reason_ko": "성장주 밸류에이션 압박"
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price": 70520,
+        "change_pct": -4.40772,
+        "type": "crypto",
+        "reason_ko": "중동 긴장·달러 강세로 하락"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 540.88,
+        "change_pct": -6.22609,
+        "type": "crypto",
+        "reason_ko": "프라이버시 코인 규제 리스크 부각"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline - Reuters",
+      "summary": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOHNyWUhKaHR2QmJXUjJ6S0xNdDZnZmpKRzJQak9SWVc3cmttUGVfbk13NzBZclpqNnp5N1JFc0JYakw2Wl9hV3BYdm1mMnJQR3BKRFI2Zzh3cVRhTFFxejBSVWtTMkt2WTRGRUxFSkVocF83aFlIOU10Vk11d29TRERPcnFVWHRJYktFOUlGU0x4c0Q0UWVtT3JkUE91ZVNPQ09NTnhaMGxJajZxQnkwWTFvTzN4WnNpMTBYalNZOHFZdnUtX1VHeUVR?oc=5",
+      "published_at": "2026-11-12T20:18:21.000Z",
+      "headline_ko": "예멘 후티군, 사우디 동서부 석유 파이프라인 펌프장 공격 주장",
+      "summary_ko": "예멘의 후티군이 사우디아라비아의 동서부 석유 파이프라인 펌프장을 공격했다고 주장했다.",
+      "detail_ko": "중동 지정학적 긴장이 고조되는 가운데 후티군의 사우디 에너지 인프라 공격 주장이 나왔다. 이는 이란-이스라엘 갈등의 확산과 함께 역내 석유 공급망 안정성에 대한 우려를 높이고 있다. 사우디는 중동 최대 석유 생산국으로서 이러한 공격이 실제 피해로 이어질 경우 글로벌 에너지 시장에 직접적 영향을 미칠 수 있다.",
+      "impact_ko": "석유 공급 차질 우려가 현실화될 경우 유가 상승 압력이 강해질 수 있다. 이는 인플레이션 재가속으로 이어져 연방준비제도의 금리 인하 기조에 제동을 걸 가능성이 있다. 또한 에너지 가격 상승은 소비자 물가를 직접 압박하면서 경기 둔화 우려와 맞물려 위험자산 회피 심리를 강화할 수 있다."
+    },
+    {
+      "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "summary": "Fed Chair Kevin Warsh announced the move at his October news conference, though he did not set a date.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+      "published_at": "2026-11-12T18:11:32.000Z",
+      "headline_ko": "연방준비제도, 2027년 10월 회의에서 금리 투표 미실시 결정",
+      "summary_ko": "케빈 워시 연방준비제도 의장이 2027년 10월 정례 회의에서 금리 투표를 진행하지 않기로 결정했다고 발표했다.",
+      "detail_ko": "연방준비제도의 정책 변화가 공식화되었다. 이는 향후 금리 결정 일정에 변화를 가져올 것으로 예상되며, 장기 금리 정책 운영 방식의 재편을 시사한다. 워시 의장은 10월 기자회견에서 이 방침을 발표했으나 구체적 시행 시점은 아직 미정인 상태다.",
+      "impact_ko": "연방준비제도의 정책 운영 구조 변화는 향후 금리 결정 주기와 시장 기대치에 영향을 미칠 수 있다. 이러한 변화가 금리 인하 속도 조절이나 정책 유연성 강화를 의도한 것이라면, 장기 금리 전망에 대한 시장의 재평가를 초래할 수 있다. 다만 구체적 시행 시점이 명확하지 않은 만큼 시장의 불확실성이 당분간 지속될 가능성이 있다."
+    },
+    {
+      "headline": "Oil tanker struck off UAE's Ras Al-Khaimah, all crew reported safe - Reuters",
+      "summary": "Oil tanker struck off UAE's Ras Al-Khaimah, all crew reported safe  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeDlHRUduYXpITEh6ZXlxdm9Zc3hiVXlhZXhzbzUySkFvNkMyQ1pFYWlxbnZKUmR4T0tieF9rZHhWYnFzUXI2a0J4M2VOLUZPcGt3ckxrUzNrSFFfeXpXNDJjRzVIS2p6OWI5d1BhMHVzVVY4TktOaWJQYTJpenFZOXpISzBiUDZ5ZG5vVGE2U0U5RnFjQmlaRmNnUDk0YV9DRnl6UVRkOEtGR1RJdUF2VmxNRmVpN1lDeXRINVdYQ0xabGJkMTMwazNR?oc=5",
+      "published_at": "2026-11-12T16:45:39.000Z",
+      "headline_ko": "UAE 라스알카이마 인근 유조선 피격, 승무원 전원 안전",
+      "summary_ko": "UAE의 라스알카이마 인근 해역에서 유조선이 피격 당했으나 승무원 전원이 안전한 것으로 보도되었다.",
+      "detail_ko": "중동 해상 운송로에서 또 다른 보안 사건이 발생했다. 호르무즈 해협 인근 해역의 불안정성이 지속되고 있으며, 이는 글로벌 석유 운송의 주요 경로인 이 지역의 위험성을 재차 부각시킨다. 승무원 피해는 없었으나 선박 피격 자체가 해상 운송 보험료 상승과 운송 회피 현상을 초래할 수 있다.",
+      "impact_ko": "해상 운송 리스크 프리미엄이 상승하면서 석유 운송비 증가로 이어질 가능성이 있다. 이는 유가 상승 압력을 가중시킬 수 있으며, 결과적으로 에너지 비용 상승이 인플레이션을 심화시킬 수 있다. 또한 해상 운송 불안정성은 글로벌 공급망 전반에 대한 우려를 높여 경기 전망을 어둡게 할 수 있다."
+    },
+    {
+      "headline": "Mortgage rates were 7% in 1997, too—here’s why buying a home feels more expensive today",
+      "summary": "Even at the same mortgage rate, buying a typical home today eats up a much bigger share of household income than it did 30 years ago.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/11/12/mortgage-rates-home-affordability-1997.html",
+      "published_at": "2026-11-12T15:00:01.000Z",
+      "headline_ko": "30년 전과 같은 모기지 금리 7%인데도 주택 구매가 더 비싼 이유",
+      "summary_ko": "1997년과 동일한 7% 모기지 금리에도 불구하고 현재 주택 구매가 가계 소득 대비 훨씬 더 큰 부담이 되고 있다.",
+      "detail_ko": "금리 수준만으로는 주택 구매 부담을 설명할 수 없다는 점이 드러났다. 지난 30년간 주택 가격이 가계 소득 증가율을 크게 상회하면서 실질적 구매력이 급격히 악화되었다. 이는 단순한 금리 인상뿐 아니라 주택 공급 부족, 도시 집중화, 자산 인플레이션 등 구조적 요인이 작용했음을 의미한다.",
+      "impact_ko": "주택 구매 부담의 심화는 밀레니얼과 Z세대의 주택 소유율 저하로 이어질 수 있다. 이는 주택 시장 수요 약화와 건설 산업 침체로 연결될 가능성이 있다. 또한 자산 형성 기회 박탈은 세대 간 부의 불평등을 심화시키면서 사회경제적 긴장을 높일 수 있다."
+    },
+    {
+      "headline": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
+      "summary": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5",
+      "published_at": "2026-11-12T03:40:00.000Z",
+      "headline_ko": "금값 3% 급락해 1년 이상 최저가, 중동 평화 희망 약화가 배경",
+      "summary_ko": "금값이 3% 하락하여 1년 이상 최저가를 기록했으며, 중동 평화 전망 악화가 인플레이션 우려를 키우고 있다.",
+      "detail_ko": "금은 전통적으로 지정학적 리스크와 인플레이션 헤지 자산으로 기능한다. 중동 긴장이 고조되는 상황에서 금값이 오히려 하락한 것은 시장이 평화 협상 가능성을 낮게 평가하고 있음을 시사한다. 동시에 인플레이션 우려가 금의 실질 수익률을 압박하면서 금의 매력도가 상대적으로 약해진 것으로 해석된다.",
+      "impact_ko": "금값 하락은 인플레이션 기대가 단기적으로 약화되고 있음을 시사할 수 있다. 다만 중동 긴장이 실제 공급 차질로 이어질 경우 인플레이션이 재가속될 수 있으며, 이 경우 금값 반등이 가능하다. 현물 자산 가격의 변동성이 높아질 수 있는 환경이 형성되고 있다."
+    },
+    {
+      "headline": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
+      "summary": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
+      "published_at": "2026-11-12T01:52:00.000Z",
+      "headline_ko": "사우디 에너지 시설 공격과 호르무즈 해협 차질로 유가 배럴당 3달러 상승",
+      "summary_ko": "사우디아라비아의 에너지 시설 공격과 호르무즈 해협 운송 차질로 유가가 배럴당 3달러 상승했다.",
+      "detail_ko": "중동 지정학적 긴장이 유가에 직접적 영향을 미치고 있다. 후티군의 공격 주장과 해상 운송 사건들이 누적되면서 석유 공급 차질에 대한 시장의 우려가 현실화되고 있다. 사우디는 OPEC 최대 생산국으로서 이 지역의 안정성이 글로벌 유가 결정에 핵심 역할을 한다.",
+      "impact_ko": "유가 상승은 에너지 비용 인상으로 이어져 인플레이션 압력을 가중시킬 수 있다. 이는 연방준비제도의 금리 인하 기조에 제약을 가할 가능성이 있으며, 경기 둔화 우려와 맞물려 스태그플레이션 시나리오를 강화할 수 있다. 또한 유가 상승은 항공사, 운송사 등 에너지 다소비 산업의 수익성을 압박할 수 있다."
+    },
     {
       "headline": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia - Reuters",
       "summary": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia  Reuters",
@@ -170,9 +244,9 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDZlTWwtdThPTnp0UjFXeXowU3I2SzZTbDA1Zk9BZUJER0dMV1o3S2oza0sxUmxlT2xhb2k4Ykx1TDlORm5zNVdJSk8wVzZBM2VRV2xFUlpJQTdiTTJJY1ZULXJNbjIyaWVudGx5UUNjZWlMaGRJcXZHVjBmUkUxVmVxZC1FUWk0SUFmZkFQZGhaeFVPdWtkV2xIQ0hRT1ZDWGYySlk3RHdRTDloMDlLdQ?oc=5",
       "published_at": "2026-11-11T14:14:31.000Z",
       "headline_ko": "OPEC+ 10월 산유량 이란 전쟁 이전 수준 근처, 사우디 주도",
-      "summary_ko": "OPEC+ 회원국들의 10월 석유 생산량이 이란 관련 지정학적 긴장 이전 수준에 근접했으며, 사우디아라비아가 주도적 역할을 하고 있다.",
-      "detail_ko": "OPEC+ 산유량이 사전 분쟁 수준으로 회복되는 것은 글로벌 석유 공급 안정성이 개선되고 있음을 시사한다. 사우디아라비아의 주도적 역할은 OPEC+ 내 영향력 유지와 함께 국제유가 안정화에 대한 의지를 반영하는 것으로 해석된다. 이는 지정학적 리스크 프리미엄이 점진적으로 완화되고 있는 신호로 볼 수 있다.",
-      "impact_ko": "석유 공급 안정화는 에너지 가격 상승 압력을 완화하여 인플레이션 우려를 다소 경감시킬 수 있다. 다만 지정학적 긴장이 완전히 해소되지 않은 상황에서 유가는 여전히 변동성을 유지할 가능성이 있다."
+      "summary_ko": "OPEC+ 회원국들의 10월 산유량이 이란-이스라엘 전쟁 이전 수준에 근접했으며, 사우디아라비아가 주도적 역할을 했다.",
+      "detail_ko": "OPEC+의 산유량 회복은 시장 공급 정상화를 의미한다. 사우디의 주도적 증산은 유가 안정화를 위한 의도적 정책으로 해석될 수 있다. 다만 현재의 지정학적 긴장이 지속될 경우 이러한 증산 계획이 차질을 빚을 가능성도 존재한다.",
+      "impact_ko": "산유량 회복은 단기적으로 유가 상승 압력을 완화할 수 있다. 그러나 공급 안정성이 지정학적 리스크에 의존하고 있는 만큼, 새로운 공격이나 분쟁 확대 시 급격한 유가 변동성이 발생할 수 있다. 이는 시장의 불확실성을 높이고 인플레이션 기대를 불안정하게 만들 수 있다."
     },
     {
       "headline": "Mortgage rates jump sharply higher, after easing for four straight weeks. Here's why",
@@ -180,76 +254,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/11/mortgage-rates-jump-sharply-higher-after-easing-for-4-straight-weeks.html",
       "published_at": "2026-11-11T12:38:32.000Z",
-      "headline_ko": "모기지 금리 급등, 4주 연속 하락 후 반등",
-      "summary_ko": "예상을 웃도는 인플레이션 데이터 발표 이후 모기지 금리가 4주간의 하락세를 끝내고 급격히 상승했다.",
-      "detail_ko": "모기지 금리의 급등은 시장이 인플레이션 심화를 반영하면서 장기 금리 전망을 상향 조정했음을 의미한다. 이는 연방준비제도의 금리 인상 가능성에 대한 시장의 재평가로 이어지고 있다. 주택 시장의 차입 비용 상승은 주택 수요 둔화와 부동산 시장 심리 악화로 이어질 수 있다.",
-      "impact_ko": "모기지 금리 상승은 주택 구매력을 약화시켜 부동산 시장 냉각으로 이어질 가능성이 있다. 금융 시장에서는 고금리 환경에 민감한 성장주와 부동산 관련 주식에 추가 압박이 가해질 수 있다."
-    },
-    {
-      "headline": "Oil up 1% as Iran official says country will keep enriched nuclear material - Reuters",
-      "summary": "Oil up 1% as Iran official says country will keep enriched nuclear material  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-      "published_at": "2026-11-11T02:10:00.000Z",
-      "headline_ko": "이란 핵물질 보유 지속 선언에 유가 1% 상승",
-      "summary_ko": "이란 관계자가 농축 핵물질 보유를 계속하겠다고 선언하면서 지정학적 긴장이 재부각되어 유가가 1% 상승했다.",
-      "detail_ko": "이란의 핵물질 보유 지속 선언은 미국과의 긴장 관계가 여전히 진행 중임을 시사한다. 이는 중동 지역의 지정학적 리스크가 완전히 해소되지 않았음을 의미하며, 석유 공급 차질에 대한 우려를 재점화하는 요인으로 작용한다. 유가 상승은 이러한 공급 리스크 프리미엄이 시장에 반영되고 있음을 보여준다.",
-      "impact_ko": "지정학적 긴장 재부각은 에너지 가격 상승 압력을 유지하여 인플레이션 우려를 심화시킬 수 있다. 이는 연방준비제도의 금리 인상 가능성을 높이는 요인으로 작용하여 주식시장의 성장주에 추가 부담을 줄 수 있다."
-    },
-    {
-      "headline": "US Treasury chief Bessent moved to military base after Iranian threats, sources say - Reuters",
-      "summary": "US Treasury chief Bessent moved to military base after Iranian threats, sources say  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT3lYOEw5X1FaSkpweDhiUmp3d0QybFR3ZU4xRl8wYXRRMS1CbzFFWENqLXNBVDZhOHBvSHdXSFh3NW5oNXEyUjRfWmFMT0g1bkV2NXRWWDc5UUpsaXVWLWxwQ0RLSkRkTW5jSWlkQ1p1dzFRa2pySzFVTklVb0k3TFo1bmZPb0lZTXVId1oyN2hCZGxkRmZua2R1ay1LN3VkNE1zb1FFNHUwNGNwSlBVdE5aMzFocFlGWTNINElWV3BvY21lOWRNTmxaNHB2dw?oc=5",
-      "published_at": "2026-11-11T01:00:00.000Z",
-      "headline_ko": "미국 재무장관 베센트, 이란 위협으로 군사기지로 이동",
-      "summary_ko": "미국 재무장관 재닛 베센트가 이란의 위협으로 인해 군사기지로 이동했다고 소식통이 전했다.",
-      "detail_ko": "재무장관의 보안 이동은 미-이란 간 긴장이 실질적 위협 수준으로 고조되었음을 시사한다. 이는 단순한 외교적 갈등을 넘어 보안 위협으로 인식되고 있다는 점에서 지정학적 리스크의 심각성을 반영한다. 이러한 조치는 시장에 불확실성과 위험회피 심리를 강화할 수 있다.",
-      "impact_ko": "고위 정부 관계자의 보안 이동은 시장 참여자들에게 지정학적 리스크의 현실성을 강하게 인식시켜 위험자산 회피 심리를 강화할 수 있다. 이는 주식시장의 변동성 확대와 안전자산 선호로 이어질 가능성이 있다."
-    },
-    {
-      "headline": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries - Reuters",
-      "summary": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
-      "published_at": "2026-11-10T21:27:01.000Z",
-      "headline_ko": "월스트리트 하락, 인플레이션 데이터와 Fed 발언으로 금리 우려 심화",
-      "summary_ko": "예상을 웃도는 인플레이션 데이터와 연방준비제도 관계자의 발언으로 금리 인상 우려가 커지면서 월스트리트가 하락했다.",
-      "detail_ko": "시장은 인플레이션 심화와 Fed의 강경한 기조 신호에 반응하여 금리 인상 경로를 상향 조정하고 있다. 이는 고금리 환경이 더 오래 지속될 수 있다는 우려를 반영하며, 특히 성장주와 기술주의 밸류에이션에 부정적 영향을 미친다. 시장의 하락은 이러한 금리 경로 변화에 대한 재평가 과정으로 해석된다.",
-      "impact_ko": "금리 인상 우려의 심화는 고금리에 민감한 성장주와 기술주의 추가 조정으로 이어질 가능성이 있다. 또한 채권 수익률 상승으로 인한 자산 배분 변화가 주식시장에서 채권시장으로의 자금 이동을 초래할 수 있다."
-    },
-    {
-      "headline": "Fed officials open door to a half-percentage-point rate hike as inflation worsens - Reuters",
-      "summary": "Fed officials open door to a half-percentage-point rate hike as inflation worsens  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
-      "published_at": "2026-11-10T20:42:14.000Z",
-      "headline_ko": "Fed 관계자, 인플레이션 악화에 따른 0.5%포인트 금리 인상 가능성 열어",
-      "summary_ko": "연방준비제도 관계자들이 인플레이션 악화 상황에서 0.5%포인트의 금리 인상 가능성을 시사했다.",
-      "detail_ko": "Fed의 0.5%포인트 인상 가능성 언급은 기존의 점진적 인상 기조에서 더 공격적인 정책으로 전환할 수 있음을 의미한다. 이는 인플레이션이 Fed의 목표치에서 충분히 벗어났다고 판단하고 있음을 반영하며, 시장의 금리 경로 전망을 크게 상향 조정하게 한다. 이러한 신호는 금융 조건 긴축의 가능성을 높이는 신호로 작용한다.",
-      "impact_ko": "0.5%포인트 인상 가능성은 시장의 금리 기대를 급격히 상향 조정하여 주식시장, 특히 성장주에 상당한 압박을 줄 수 있다. 또한 채권 수익률 급등과 함께 자산 배분의 대규모 재조정을 초래할 가능성이 있다."
-    },
-    {
-      "headline": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
-      "published_at": "2026-11-10T20:02:53.000Z",
-      "headline_ko": "GE 베르노바 매도자들의 판단 오류, Fed 금리 인상 가능성 급증",
-      "summary_ko": "GE 베르노바 주식 매도자들의 판단이 잘못되었을 가능성이 제기되며, 동시에 Fed의 금리 인상 가능성이 급증하고 있다.",
-      "detail_ko": "이 기사는 GE 베르노바(재생에너지 인프라 회사)의 주가 약세와 관련하여 매도 결정의 타이밍 문제를 지적하고 있다. 동시에 Fed의 금리 인상 가능성 급증이 시장 심리에 미치는 영향을 강조하고 있다. 금리 인상 우려는 장기 인프라 투자 수익성을 압박하는 요인으로 작용할 수 있다.",
-      "impact_ko": "금리 인상 가능성의 급증은 장기 현금흐름에 의존하는 인프라 및 재생에너지 관련 주식에 부정적 영향을 미칠 수 있다. 다만 에너지 전환 추세의 장기성을 감안하면 단기 금리 우려와 장기 성장성 사이의 괴리가 투자 기회를 창출할 가능성도 있다."
-    },
-    {
-      "headline": "European shares near record high as lower oil prices boost sentiment - Reuters",
-      "summary": "European shares near record high as lower oil prices boost sentiment  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObUhPanl6a2ZpNXhoQlpNRGdJWmFFcE5rY3U2YTFfYXhZOWRDc2FCZjFDckNFLWRrR3pzSDQycjMxaDNrQ2s5TzdmRXlRX0M3cGl3UWtobXppajFqS000Ymtrby1qbGsxZTBsVVB2ajhCZkVxN0VlM1lGVTJHZm1kWFA1cWtNcFlINWQ1VnVSSzRQNlQ5R3dFdE1wdmZIS09veGw5THp1Q0hxbW1HQV9hMmtUVXp1Mk0?oc=5",
-      "published_at": "2026-11-10T17:46:25.000Z",
-      "headline_ko": "유럽 주식 사상 최고 근처, 유가 하락이 심리 부양",
-      "summary_ko": "유럽 주식이 사상 최고가 근처까지 상승했으며, 유가 하락이 시장 심리를 개선하는 데 기여했다.",
-      "detail_ko": "유럽 주식의 강세는 유가 하락으로 인한 에너지 비용 감소와 인플레이션 압력 완화에 대한 기대를 반영하고 있다. 이는 OPEC+ 산유량 회복과 지정학적 긴장 완화 신호가 시장에 긍정적으로 평가되고 있음을 의미한다. 유럽 경제의 에너지 비용 부담 경감은 기업 수익성 개선 전망으로 이어지고 있다.",
-      "impact_ko": "유가 하락은 유럽의 인플레이션 압력을 완화하여 중앙은행의 금리 인상 필요성을 감소시킬 수 있다. 이는 미국의 금리 인상 우려와 대조되어 지역 간 통화정책 분기를 심화시킬 가능성이 있다."
+      "headline_ko": "모기지 금리 4주 하락 후 급등, 예상보다 높은 인플레이션 보고서가 원인",
+      "summary_ko": "4주간 하락하던 모기지 금리가 예상을 상회하는 인플레이션 보고서 이후 급등했다.",
+      "detail_ko": "모기지 금리는 장기 금리 기대와 인플레이션 전망에 민감하게 반응한다. 최근 인플레이션 데이터가 예상치를 웃돌면서 시장의 금리 인하 기대가 약화되었다. 이는 연방준비제도의 금리 인하 속도가 시장 예상보다 느릴 수 있다는 우려를 반영한다.",
+      "impact_ko": "모기지 금리 상승은 주택 구매 비용을 추가로 증가시켜 주택 수요를 더욱 억제할 수 있다. 이미 높은 주택 가격에 금리까지 상승하면서 주택 시장의 구매력이 급격히 악화될 가능성이 있다. 또한 금리 인하 기대 약화는 주식 등 위험자산에도 부정적 영향을 미칠 수 있다."
     }
   ],
   "calendar": [
