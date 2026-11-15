@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:56:00.295Z",
+  "generated_at": "2026-11-15T01:28:29.103Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,70 +62,70 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 68257,
-        "change_pct": -3.67001
+        "price": 62671,
+        "change_pct": -8.23761
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 1927.5,
-        "change_pct": -4.02538
+        "price": 1727.63,
+        "change_pct": -10.47722
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
-        "price": 1.047,
-        "change_pct": 4.53723
+        "price": 1.066,
+        "change_pct": 1.86126
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.32,
-        "change_pct": 0.22743
+        "symbol": "USDT",
+        "name": "Tether",
+        "price": 0.999507,
+        "change_pct": 0.03664
       },
       {
         "symbol": "USDE",
         "name": "Ethena USDe",
-        "price": 0.999334,
-        "change_pct": 0.02181
+        "price": 0.999557,
+        "change_pct": 0.01901
       },
       {
-        "symbol": "USDS",
-        "name": "USDS",
-        "price": 0.999946,
-        "change_pct": 0.01536
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 77.16,
-        "change_pct": -5.04785
+        "symbol": "USDC",
+        "name": "USDC",
+        "price": 0.999702,
+        "change_pct": 0.01855
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.167113,
-        "change_pct": -4.02137
+        "price": 0.145052,
+        "change_pct": -13.32001
       },
       {
-        "symbol": "WBT",
-        "name": "WhiteBIT Coin",
-        "price": 66.22,
-        "change_pct": -3.47177
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.056228,
+        "change_pct": -12.80197
       },
       {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 630.95,
-        "change_pct": -3.38771
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 63.11,
+        "change_pct": -11.56922
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 469.23,
+        "change_pct": -11.32104
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. 기술주 중심의 나스닥100 ETF(QQQ)가 1.2% 하락하며 약세를 나타낸 반면, S&P 500 ETF(SPY)는 0.36% 소폭 하락에 그쳤다. 이는 대형 기술주와 중소형주 간의 성과 차이가 벌어지고 있음을 시사한다.",
-      "메타(META)가 2.9% 상승하며 기술주 중 유일하게 강세를 보인 반면, 엔비디아(NVDA)와 테슬라(TSLA)는 각각 2.0%, 1.8% 하락했다. 이는 AI 반도체 수요에 대한 시장의 선별적 평가가 이루어지고 있으며, 메타의 경우 자체 AI 투자 전략에 대한 긍정 평가로 해석된다.",
-      "암호화폐 시장은 광범위한 약세를 기록했다. 비트코인(BTC)과 이더리움(ETH)이 각각 3.67%, 4.03% 하락했으며, 솔라나(SOL)는 5.05% 급락했다. 달러 강세(19개월 고점 근처)와 연방준비제도의 금리 인상 가능성에 대한 논의가 확산되면서 위험자산 회피 심리가 강해진 것으로 보인다. 이는 본 내용이 투자 조언이 아님을 밝힙니다."
+      "오늘 미국 주식시장은 기술주 중심으로 엇갈린 움직임을 보였다. 광폭 변동성 속에서 메타는 강세를 유지한 반면, 엔비디아와 테슬라 같은 대형 성장주들이 약세를 나타냈으며, 전반적으로 나스닥 지수는 1% 이상 하락했다.",
+      "메타가 2.9% 상승한 것으로 해석되는 배경에는 AI 투자 모멘텀과 광고 시장 회복에 대한 긍정적 기대감이 작용한 것으로 보인다. 반면 애플은 0.4% 소폭 상승에 그쳤는데, 이는 기술주 전반의 약세 속에서도 방어적 수요가 유지되고 있음을 시사한다.",
+      "엔비디아(-2.0%)와 테슬라(-1.8%)의 하락은 에너지 가격 상승과 금리 전망 불확실성이 복합적으로 작용한 것으로 해석된다. 뉴스에서 유가가 2주 연속 하락세를 보이고 있으나 에너지 정책과 공급 과잉 우려가 지속되는 가운데, 고성장 기술주들이 금리 민감도 상승으로 인한 압박을 받은 것으로 판단된다. 암호화폐 시장도 비트코인(-8.2%)과 이더리움(-10.5%)이 동반 약세를 기록했는데, 이는 위험자산 회피 심리 확대와 달러 강세 지속의 영향으로 보인다. 본 내용은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
@@ -134,7 +134,7 @@
         "price": 641.69,
         "change_pct": 2.8992,
         "type": "stock",
-        "reason_ko": "AI 투자 전략 긍정 평가"
+        "reason_ko": "AI 투자 모멘텀 지속"
       },
       {
         "symbol": "NVDA",
@@ -142,37 +142,70 @@
         "price": 162.85,
         "change_pct": -2.0097,
         "type": "stock",
-        "reason_ko": "AI 반도체 수요 선별적 평가"
+        "reason_ko": "금리 불확실성과 에너지 정책 영향"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "price": 390.22,
+        "change_pct": -1.8191,
+        "type": "stock",
+        "reason_ko": "고성장주 금리 민감도 상승"
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 68257,
-        "change_pct": -3.67001,
+        "price": 62671,
+        "change_pct": -8.23761,
         "type": "crypto",
-        "reason_ko": "달러 강세와 금리 인상 우려"
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 77.16,
-        "change_pct": -5.04785,
-        "type": "crypto",
-        "reason_ko": "위험자산 회피 심화"
+        "reason_ko": "위험자산 회피 및 달러 강세"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "published_at": "2026-11-14T12:00:01.000Z",
+      "headline_ko": "에릭 트럼프 후원 로봇 스타트업, CEO의 46억 달러 개인 대출로 급여 미지급 위기",
+      "summary_ko": "에릭 트럼프가 후원하는 로봇 스타트업 Foundation Future Industries가 현금 부족으로 급여를 미지급했으며, CEO가 회사 자금 46억 달러를 개인 주택 구매에 사용한 것으로 드러났다.",
+      "detail_ko": "이 사건은 초기 단계 기술 스타트업의 자금 관리와 지배구조 문제를 드러내는 사례다. CEO의 대규모 개인 대출은 회사 자금의 투명성과 신뢰성에 대한 심각한 의문을 제기하며, 특히 고위험 벤처 기업에서 자금 운용의 위험성을 보여준다. 이러한 경영진의 행동은 직원 신뢰도 하락과 회사 신용도 악화로 이어질 수 있다.",
+      "impact_ko": "이 사건은 로봇 및 AI 관련 스타트업 투자자들의 실사(due diligence) 강화를 촉발할 가능성이 있다. 초기 단계 기술 기업들의 자금 조달 환경이 더욱 엄격해질 수 있으며, 지배구조 투명성이 투자 의사결정의 중요 요소로 부각될 수 있다."
+    },
+    {
+      "headline": "Oil prices set for second straight weekly drop on signs of growing supply surplus - Reuters",
+      "summary": "Oil prices set for second straight weekly drop on signs of growing supply surplus  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0ZTUUtQbXVySmRXLWtEc2xtZDk5RWkwa29OWlEyQjN3UXVzMkZTYzF3ajVoNkVXZnBnODVRTkN0b1ZwaVk4VE5KOXFqZktYbG1PN1RwdEtwS1ZEb3BBUEkxM2JtUl91NkxCMWpjbmxWV3RScndxMjJUcjh4dEpZM256Nl8tY19iWmp4OExndnRRaXQwdFRpMGRYRDFnNGQ1eEFhNEVrZjZwaW0tamJkLXFYa1I3V1EzbVE?oc=5",
+      "published_at": "2026-11-13T22:42:36.000Z",
+      "headline_ko": "유가, 공급 과잉 신호에 2주 연속 하락세",
+      "summary_ko": "국제유가가 공급 과잉 우려로 2주 연속 하락 추세를 보이고 있다.",
+      "detail_ko": "글로벌 석유 시장에서 공급 과잉 신호가 강해지면서 유가 하락 압력이 지속되고 있다. 이는 OPEC+ 감산 정책의 효과 약화, 미국 셰일유 생산 증가, 그리고 경기 둔화 우려 등 복합적 요인이 작용하는 것으로 해석된다. 에너지 가격 하락은 인플레이션 완화 신호로 작용할 수 있지만, 동시에 에너지 관련 기업들의 수익성 악화를 의미한다.",
+      "impact_ko": "유가 하락은 소비자 물가 안정에 긍정적 영향을 미칠 수 있어 중앙은행의 금리 인상 압력을 완화할 가능성이 있다. 반면 에너지 기업과 관련 산업의 수익성 악화로 이어질 수 있으며, 에너지 수출국의 재정 수입 감소도 예상된다."
+    },
+    {
+      "headline": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities - Reuters",
+      "summary": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5",
+      "published_at": "2026-11-13T21:46:42.000Z",
+      "headline_ko": "미국, 해운법 면제 90일 연장…유류·원자재 이동 자유화",
+      "summary_ko": "미국이 해운법 면제를 90일 연장하여 석유와 원자재의 자유로운 이동을 허용하기로 결정했다.",
+      "detail_ko": "미국의 해운법 면제 연장은 글로벌 에너지 및 원자재 공급망 유연성을 높이려는 정책 결정이다. 이는 특정 국가나 지역으로부터의 에너지 수입 제약을 완화하고, 국제 무역의 효율성을 개선하려는 의도로 해석된다. 면제 연장은 단기적으로 유가 안정화에 기여할 수 있으나, 장기적으로는 글로벌 에너지 시장의 재편을 시사한다.",
+      "impact_ko": "이 정책은 석유 및 원자재 가격의 변동성을 완화할 수 있으며, 에너지 수입국들의 조달 비용 절감으로 이어질 가능성이 있다. 동시에 특정 지역의 에너지 수출 기회 확대로 작용할 수 있으며, 글로벌 공급망 재편에 따른 지정학적 영향도 예상된다."
+    },
     {
       "headline": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation - Reuters",
       "summary": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGl4M3I4cEx4Q1pteUwtd3I3OFBYWWFUU096V1Y3X2oxdl9KOFprODJXTEoxallGdk8tXzNuMzlWSXdjTTBFNjUxUHFwWmdVZTFHeTh0TEVYcWtNSXI2aUJkRFdKVFgtNmpWS01zTlhMS21ndThYQjY2bDhXSFpnV2c0Sl8wSzdBWnJzNmZVR05iUGdxU3BCUnBIYlcteEQtRkNMbDBQRF82QXVESmZSRGNvZG9yaGtfbm5QNHBTUE1jNjA?oc=5",
       "published_at": "2026-11-13T15:40:04.000Z",
-      "headline_ko": "베센트 재무장관과 연준의 굴즈비, 에너지 충격의 인플레이션 역할 놓고 의견 충돌",
-      "summary_ko": "미국 재무장관 베센트와 연방준비제도 임원 굴즈비가 에너지 가격 변동이 인플레이션에 미치는 영향에 대해 상이한 견해를 드러냈다.",
-      "detail_ko": "현재 미국 정책 당국자들 사이에서 에너지 충격(유가 변동)이 인플레이션 추세에 얼마나 중요한 역할을 하는지에 대한 해석이 갈리고 있다. 이는 향후 연방준비제도의 금리 정책 방향을 결정하는 데 중요한 변수가 될 수 있으며, 특히 유가 변동성이 큰 현 상황에서 정책 당국의 입장 차이는 시장의 금리 전망에 영향을 미칠 수 있다. 베센트와 굴즈비의 의견 불일치는 연준 내부의 인플레이션 평가가 단순하지 않음을 보여준다.",
-      "impact_ko": "정책 당국자들의 에너지 충격에 대한 해석 차이는 향후 금리 결정에 불확실성을 가져올 수 있다. 에너지 충격을 중시하는 입장이 우세하면 금리 인상 압력이 완화될 가능성이 있으며, 반대로 이를 경시하는 입장이 강해지면 금리 인상 가능성이 높아질 수 있다. 이러한 불확실성은 달러와 위험자산 간의 변동성을 증대시킬 수 있다."
+      "headline_ko": "베센트 재무장관 vs 굴즈비 연준 부의장, 에너지 충격의 인플레이션 역할 놓고 의견 충돌",
+      "summary_ko": "미국 재무장관 베센트와 연방준비제도 부의장 굴즈비가 에너지 가격 변동이 인플레이션에 미치는 영향에 대해 상반된 입장을 보이고 있다.",
+      "detail_ko": "이 의견 충돌은 미국 경제 정책의 방향성에 중요한 함의를 갖는다. 에너지 충격이 인플레이션에 얼마나 영향을 미치는지에 따라 금리 정책과 재정 정책의 우선순위가 달라질 수 있기 때문이다. 베센트와 굴즈비의 입장 차이는 현 정부 내 경제 정책 조율의 어려움을 반영하며, 이는 시장의 정책 불확실성을 높일 수 있다.",
+      "impact_ko": "정책 입장의 불일치는 향후 금리 결정과 재정 정책 방향에 대한 시장 예측을 어렵게 할 수 있다. 에너지 가격 변동에 대한 정책 대응의 일관성 부족은 달러 가치와 채권 수익률 변동성을 증가시킬 가능성이 있으며, 이는 글로벌 자산 배분에 영향을 미칠 수 있다."
     },
     {
       "headline": "US Treasury's Bessent says he won't be cowed by death threats - Reuters",
@@ -180,10 +213,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1dvSXJCYVVWa3A3ZlZZQ0hKWHB3bm1remdBSFFqd3VXUnpGQS1yMExEY3pGOUxDWWZaSGFad20tNEhfdVZabEdLbzVfSnJ4bm5QSVdQeFRCUzA0a2R4ZEY3dW54WjFVUVpWSHplbno5b184azJQZ2NYMTV2bjJKV3lONlJMWU9saEVWc1laT0lWQTByN1J3T2s2ZUlySFBmYXVZ?oc=5",
       "published_at": "2026-11-13T13:45:34.000Z",
-      "headline_ko": "베센트 재무장관, 사망 위협에 굴하지 않겠다고 선언",
-      "summary_ko": "미국 재무장관 베센트가 자신에게 가해진 사망 위협에 대해 공개적으로 대응하며 정책 추진에 흔들리지 않을 것임을 명확히 했다.",
-      "detail_ko": "베센트 재무장관이 직면한 사망 위협은 현재 미국 정치 환경의 긴장 상태를 반영하는 사건이다. 그의 공개 성명은 정책 당국자로서의 결연한 의지를 표현한 것으로, 재정 정책 추진에 대한 확고한 입장을 시장에 전달하려는 의도로 해석된다. 이는 정책의 일관성과 신뢰성을 강조하려는 신호로 볼 수 있다.",
-      "impact_ko": "재무장관의 강경한 입장 표명은 미국 정부의 정책 추진 의지가 흔들리지 않을 것이라는 신호를 시장에 전달할 수 있다. 이는 재정 정책의 예측 가능성을 높일 수 있으며, 단기적으로는 달러 강세를 지지하는 요인으로 작용할 가능성이 있다. 다만 정치적 긴장 심화는 장기적으로 정책 불확실성을 야기할 수 있다."
+      "headline_ko": "베센트 재무장관, 사망 위협에도 '굴하지 않겠다' 선언",
+      "summary_ko": "미국 재무장관 베센트가 자신이 받은 사망 위협에 대해 공개적으로 언급하며 정책 추진에 흔들리지 않을 것임을 밝혔다.",
+      "detail_ko": "베센트 장관의 발언은 현 정부의 정책 추진 의지를 보여주는 신호로 해석된다. 사망 위협은 정책 결정자에 대한 극단적 반발을 시사하며, 이는 특정 경제 정책(예: 에너지, 무역, 재정 정책)이 사회적 갈등을 야기하고 있음을 의미한다. 장관의 강경한 입장 표명은 정책 변경 가능성이 낮음을 시사한다.",
+      "impact_ko": "정책 결정자의 강경한 태도는 현 정부의 경제 정책 방향이 단기적으로 변하지 않을 가능성을 높인다. 다만 사회적 갈등의 심화는 정책 실행 과정에서 저항과 지연을 초래할 수 있으며, 이는 정책 효과의 불확실성을 증가시킬 수 있다."
     },
     {
       "headline": "EXCLUSIVE: Iraq turns to trucks to export oil in overland Syrian route revival - Reuters",
@@ -191,10 +224,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQclRIYjhBLWw5LV85dEh1eWFKUXJ2ZU1xTlpwbmpPSmIzYUZKTzlvNEZvTldxQnE2V1V2WVFNTHJNNVg4SWhFeHM0a0pGSGtic3d0Zk1TVUhXQWwtaFJlZHlkNXFZUnZraUJhUUN3Y2hFMVRzY2ppLUN1SmlYRW9hU2ptaFZiWkRIR3MtdE1FemE0b3M5eXJ6bDBtY2wxc0dwMXJyN0VxLTNGMDlLUUZZ?oc=5",
       "published_at": "2026-11-13T13:27:43.000Z",
-      "headline_ko": "이라크, 시리아 육로 경유 석유 수출 재개로 트럭 운송 전환",
-      "summary_ko": "이라크가 시리아를 통한 육로 경로를 통해 석유를 트럭으로 수출하는 방식으로 회귀하고 있다.",
-      "detail_ko": "이라크의 석유 수출 경로 다변화는 중동 지정학적 상황 변화를 반영하는 움직임이다. 전통적인 해상 수출 경로 외에 육로 운송을 활용함으로써 수출 경로의 유연성을 확보하려는 전략으로 보인다. 이는 중동 지역의 해상 운송 리스크(예: 후티 반군의 공격)를 회피하려는 의도로 해석될 수 있으며, 동시에 시리아와의 지역 협력 강화를 시사한다.",
-      "impact_ko": "이라크의 육로 석유 수출 재개는 글로벌 석유 공급 경로의 다변화를 의미하며, 이는 해상 운송 리스크 감소로 이어질 수 있다. 다만 육로 운송의 용량 제약으로 인해 대규모 수출 증대는 제한적일 수 있으며, 장기적으로는 중동 석유 공급 안정성 강화에 긍정적 영향을 미칠 가능성이 있다."
+      "headline_ko": "이라크, 시리아 육로 경유 석유 수출 재개…트럭 운송 활용",
+      "summary_ko": "이라크가 시리아를 통한 육로 석유 수출 경로를 트럭 운송으로 재개하고 있다.",
+      "detail_ko": "이라크의 육로 석유 수출 재개는 글로벌 에너지 공급망의 다변화를 의미한다. 전통적인 해상 운송 경로 외에 육로 경로를 활용함으로써 지정학적 리스크(예: 해협 봉쇄, 해적)를 우회할 수 있다. 이는 중동 지역의 정치적 안정화와 국제 관계 개선을 반영하는 신호로도 해석될 수 있다.",
+      "impact_ko": "이라크의 석유 수출 경로 다변화는 글로벌 석유 공급의 안정성을 높일 수 있으며, 특정 지역의 공급 차질에 대한 시장의 우려를 완화할 가능성이 있다. 동시에 시리아 등 인접 국가의 경제 활동 활성화로 이어질 수 있으며, 중동 지역의 에너지 지정학 재편을 시사한다."
     },
     {
       "headline": "World oil market is returning to surplus as Gulf exports recover, IEA says - Reuters",
@@ -202,10 +235,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5",
       "published_at": "2026-11-13T11:34:59.000Z",
-      "headline_ko": "IEA, 걸프만 수출 회복으로 세계 석유 시장이 공급 과잉 국면으로 복귀 중",
-      "summary_ko": "국제에너지기구(IEA)가 걸프만 지역의 석유 수출 회복으로 인해 글로벌 석유 시장이 공급 과잉 상태로 전환되고 있다고 진단했다.",
-      "detail_ko": "IEA의 평가는 최근 중동 지정학적 긴장 완화와 주요 석유 생산국들의 생산 정상화를 반영한다. 걸프만 지역의 수출 회복은 이란, 사우디아라비아 등 주요 생산국들의 공급 능력이 정상화되고 있음을 의미한다. 이러한 공급 증가는 글로벌 석유 수급 균형을 공급 과잉 방향으로 기울이고 있으며, 이는 유가 하락 압력으로 작용할 수 있다.",
-      "impact_ko": "공급 과잉 국면으로의 전환은 유가 하락 압력을 강화할 가능성이 높다. 이는 에너지 비용 인하를 통해 인플레이션 완화에 긍정적 영향을 미칠 수 있으며, 결과적으로 연준의 금리 인상 압력을 완화시킬 수 있다. 다만 지정학적 리스크가 재발할 경우 공급 과잉 상황이 급변할 수 있다는 점에 유의할 필요가 있다."
+      "headline_ko": "IEA, 세계 석유 시장 공급 과잉 복귀 경고…걸프 수출 회복",
+      "summary_ko": "국제에너지기구(IEA)가 걸프 지역 석유 수출 회복으로 인해 세계 석유 시장이 공급 과잉 상태로 복귀하고 있다고 경고했다.",
+      "detail_ko": "IEA의 경고는 글로벌 석유 시장의 공급-수요 균형이 공급 과잉 방향으로 기울어지고 있음을 의미한다. 걸프 지역의 수출 회복은 OPEC+ 감산 정책의 효과 약화와 신규 공급 프로젝트의 가동을 반영한다. 공급 과잉은 유가 하락 압력을 지속시킬 것으로 예상되며, 이는 에너지 시장의 구조적 변화를 시사한다.",
+      "impact_ko": "공급 과잉 심화는 유가 하락 추세를 강화할 가능성이 높으며, 이는 소비자 물가 안정에 긍정적이나 에너지 기업의 수익성 악화로 이어질 수 있다. 또한 OPEC+ 국가들의 재정 수입 감소로 인한 경제적 압박이 증가할 수 있으며, 이는 지정학적 긴장을 야기할 가능성도 있다."
     },
     {
       "headline": "Rupee slips as higher oil prices and US yields knock stocks, bonds - Reuters",
@@ -213,43 +246,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2lRcFhDeEM4YTZPLVVWRHNYTnU2XzJhTFJMTUpjT2lyY0JwZ25WaGxCR01JTVpRZTJBVE5SZ0Y1LXdqSzJFRDBWVW15TnEwRE9idm9zeGVGZlpPVndfdGhoQlhmaHlkSFdDZmdXOGQ2N00xMVlKX3JFbkMtYzN5Y2VULUkzNkZmV1VtMnBCSU81eFRkRGFxUG9XRlVqcGNfelRrSHZQNXZQSExsbDhBaVdlcWlfWDhu?oc=5",
       "published_at": "2026-11-13T03:12:00.000Z",
-      "headline_ko": "유가 상승과 미국 금리 상승으로 인도 루피화 약세 심화",
-      "summary_ko": "유가 상승과 미국 금리 인상 기대가 겹치면서 인도 루피화가 약세를 보이고 있으며, 이는 인도 주식과 채권 시장에도 부정적 영향을 미치고 있다.",
-      "detail_ko": "인도 루피화의 약세는 두 가지 거시경제 요인의 복합 작용을 반영한다. 첫째, 유가 상승은 인도의 에너지 수입 비용을 증가시켜 경상수지 악화 압력을 가하고, 둘째, 미국 금리 인상 기대는 달러 강세를 초래하여 신흥국 통화에 대한 매도 압력을 강화한다. 이러한 이중 압력은 인도 경제의 외부 취약성을 드러내며, 특히 에너지 수입 의존도가 높은 신흥국들이 공통적으로 직면한 도전을 보여준다.",
-      "impact_ko": "루피화 약세는 인도의 수입 인플레이션을 심화시킬 수 있으며, 이는 인도 중앙은행의 금리 인상 압력으로 이어질 가능성이 있다. 또한 달러 강세 속에서 신흥국 자산에 대한 자본 유출이 가속화될 수 있으며, 이는 인도 주식과 채권 시장의 변동성을 증대시킬 수 있다. 장기적으로는 인도의 경제 성장 전망에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Oil prices set for second straight weekly drop on signs of growing supply surplus - Reuters",
-      "summary": "Oil prices set for second straight weekly drop on signs of growing supply surplus  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0ZTUUtQbXVySmRXLWtEc2xtZDk5RWkwa29OWlEyQjN3UXVzMkZTYzF3ajVoNkVXZnBnODVRTkN0b1ZwaVk4VE5KOXFqZktYbG1PN1RwdEtwS1ZEb3BBUEkxM2JtUl91NkxCMWpjbmxWV3RScndxMjJUcjh4dEpZM256Nl8tY19iWmp4OExndnRRaXQwdFRpMGRYRDFnNGQ1eEFhNEVrZjZwaW0tamJkLXFYa1I3V1EzbVE?oc=5",
-      "published_at": "2026-11-13T03:01:00.000Z",
-      "headline_ko": "유가, 공급 과잉 신호로 2주 연속 주간 하락 예상",
-      "summary_ko": "글로벌 석유 공급 과잉 신호가 확산되면서 유가가 2주 연속으로 주간 기준 하락세를 기록할 것으로 예상된다.",
-      "detail_ko": "유가의 연속 하락은 앞서 언급한 IEA의 공급 과잉 진단과 일맥상통한다. 시장 참여자들이 향후 석유 공급이 수요를 초과할 것으로 예상하면서 선제적으로 유가를 조정하고 있는 것으로 해석된다. 이러한 추세는 단순한 단기 변동이 아니라 중기적 석유 수급 구조의 변화를 반영하는 것으로 보인다.",
-      "impact_ko": "유가의 지속적 하락은 에너지 비용 인하를 통해 글로벌 인플레이션 완화에 기여할 수 있다. 이는 연준의 금리 인상 필요성을 감소시킬 수 있으며, 결과적으로 달러 약세와 위험자산 선호 심리 회복으로 이어질 가능성이 있다. 다만 석유 수출국들의 재정 수입 감소로 인한 경제적 어려움이 발생할 수 있다."
-    },
-    {
-      "headline": "Dollar near 19-month high on Fed hike bets, yen tests 160 - Reuters",
-      "summary": "Dollar near 19-month high on Fed hike bets, yen tests 160  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdXI2eWRwY1h1QWkxeldEbWhGUmdSYzRrQjZveW9TTm5LekpTdEthSzRRZHI1NlhoQjAwXzdjdVFSU0ItZjA3NFFxTUUxQlNWUzBoRHdtVkhtZ09hVUt2SmNyaFVvRkhOa0VERndHN1EweWdGajFEa050UDNqN1dCTllZamxKS0J1R0FHWXJOU0lweWJDMnV2clZBRVI4YVU4MTFBeg?oc=5",
-      "published_at": "2026-11-13T01:58:00.000Z",
-      "headline_ko": "달러, 연준 금리 인상 베팅으로 19개월 고점 근처, 엔화는 160선 시험",
-      "summary_ko": "연방준비제도의 금리 인상 가능성에 대한 시장의 베팅이 강해지면서 달러가 19개월 고점 근처까지 상승했으며, 일본 엔화는 1달러당 160엔 수준을 시험하고 있다.",
-      "detail_ko": "달러 강세는 미국 금리 인상 기대의 직접적 결과이다. 연준 내 일부 인사들의 금리 인상 가능성 언급과 에너지 충격에 대한 정책 당국의 엇갈린 해석이 시장의 금리 인상 기대를 높이고 있다. 동시에 일본의 저금리 정책 유지 기조는 달러-엔 금리 차이를 확대시켜 엔화 약세를 심화시키고 있다.",
-      "impact_ko": "달러 강세는 신흥국 통화와 위험자산에 대한 매도 압력을 강화할 수 있으며, 이는 글로벌 자본 흐름의 미국 쏠림 현상을 초래할 수 있다. 엔화 약세는 일본 수출 기업들의 경쟁력 강화로 이어질 수 있으나, 장기적으로는 일본의 수입 인플레이션 심화 우려를 야기할 수 있다. 또한 달러 강세는 달러 표시 채무를 가진 신흥국들의 상환 부담을 증가시킬 수 있다."
-    },
-    {
-      "headline": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline - Reuters",
-      "summary": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOHNyWUhKaHR2QmJXUjJ6S0xNdDZnZmpKRzJQak9SWVc3cmttUGVfbk13NzBZclpqNnp5N1JFc0JYakw2Wl9hV3BYdm1mMnJQR3BKRFI2Zzh3cVRhTFFxejBSVWtTMkt2WTRGRUxFSkVocF83aFlIOU10Vk11d29TRERPcnFVWHRJYktFOUlGU0x4c0Q0UWVtT3JkUE91ZVNPQ09NTnhaMGxJajZxQnkwWTFvTzN4WnNpMTBYalNZOHFZdnUtX1VHeUVR?oc=5",
-      "published_at": "2026-11-12T20:18:21.000Z",
-      "headline_ko": "예멘 후티 반군, 사우디아라비아 동서 석유 파이프라인 펌프장 공격 주장",
-      "summary_ko": "예멘의 후티 반군이 사우디아라비아의 주요 석유 수송 인프라인 동서 파이프라인의 펌프장을 공격했다고 주장했다.",
-      "detail_ko": "후티 반군의 공격 주장은 중동 지정학적 긴장의 지속을 시사한다. 사우디아라비아의 동서 파이프라인은 페르시아만과 홍해를 연결하는 전략적 석유 수송로로, 이 인프라에 대한 공격은 글로벌 석유 공급 차질의 위험을 내포하고 있다. 비록 현재 공급 과잉 신호가 강하지만, 이러한 지정학적 리스크는 유가 변동성의 주요 요인으로 작용할 수 있다.",
-      "impact_ko": "후티 반군의 공격 주장은 중동 석유 공급의 지정학적 리스크를 상기시키며, 이는 유가의 상승 압력으로 작용할 수 있다. 실제 피해 규모에 따라 글로벌 석유 공급에 즉각적인 영향을 미칠 수 있으며, 특히 사우디아라비아의 주요 수송로 차질은 유가 급등으로 이어질 수 있다. 다만 현재의 공급 과잉 상황이 이러한 리스크를 부분적으로 상쇄할 수 있다."
+      "headline_ko": "루피, 유가 상승과 미국 금리 상승으로 약세…주식·채권 동반 하락",
+      "summary_ko": "인도 루피화가 유가 상승과 미국 금리 상승의 영향으로 약세를 기록하면서 인도 주식과 채권도 함께 하락했다.",
+      "detail_ko": "루피의 약세는 여러 거시경제 요인의 복합 작용을 반영한다. 유가 상승은 인도의 에너지 수입 비용을 증가시켜 경상수지 악화 우려를 높이고, 미국 금리 상승은 달러 강세를 초래하여 신흥국 통화에 하락 압력을 가한다. 이러한 환경에서 인도 자산의 매력도가 하락하면서 주식과 채권이 동반 하락한 것으로 해석된다.",
+      "impact_ko": "루피 약세는 인도의 수입 인플레이션을 가속화할 수 있으며, 특히 에너지 수입 의존도가 높은 인도 경제에 부담이 될 수 있다. 신흥국 자산 회피 심리의 확대로 인도 자본 유출이 증가할 가능성이 있으며, 이는 인도 중앙은행의 금리 인상 압력을 높일 수 있다."
     }
   ],
   "calendar": [
