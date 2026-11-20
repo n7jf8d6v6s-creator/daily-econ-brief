@@ -1,255 +1,247 @@
 {
-  "generated_at": "2026-11-19T02:54:36.016Z",
+  "generated_at": "2026-11-20T02:47:15.160Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 352.45,
-        "change_pct": 0.1534
+        "price": 349.21,
+        "change_pct": -0.9193
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 508.29,
-        "change_pct": 0.4049
+        "price": 498.3,
+        "change_pct": -1.9654
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 150.96,
-        "change_pct": -2.8946
+        "price": 145.98,
+        "change_pct": -3.2989
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 383.72,
-        "change_pct": 0.9497
+        "price": 374.41,
+        "change_pct": -2.4262
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 267.74,
-        "change_pct": 3.8195
+        "price": 257.37,
+        "change_pct": -3.8732
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 282.44,
-        "change_pct": 0.7994
+        "price": 272.66,
+        "change_pct": -3.4627
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 616.38,
-        "change_pct": -0.4023
+        "price": 596.22,
+        "change_pct": -3.2707
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 730.2,
-        "change_pct": -0.3058
+        "price": 715.87,
+        "change_pct": -1.9625
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 659.51,
-        "change_pct": 0.3897
+        "price": 645.04,
+        "change_pct": -2.1941
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 62559,
-        "change_pct": -2.52776
+        "price": 61630,
+        "change_pct": -1.51869
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 1768.22,
-        "change_pct": -1.69588
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.023,
-        "change_pct": 1.59802
-      },
-      {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.309982,
-        "change_pct": 0.91819
-      },
-      {
-        "symbol": "USDT",
-        "name": "Tether",
-        "price": 0.999253,
-        "change_pct": 0.0053
+        "price": 1733.62,
+        "change_pct": -2.01943
       },
       {
         "symbol": "USDC",
         "name": "USDC",
-        "price": 0.999622,
-        "change_pct": 0.00434
+        "price": 0.999627,
+        "change_pct": -0.00166
+      },
+      {
+        "symbol": "USDS",
+        "name": "USDS",
+        "price": 0.999937,
+        "change_pct": -0.00424
+      },
+      {
+        "symbol": "USDT",
+        "name": "Tether",
+        "price": 0.999184,
+        "change_pct": -0.00839
+      },
+      {
+        "symbol": "USDE",
+        "name": "Ethena USDe",
+        "price": 0.999224,
+        "change_pct": -0.00961
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 900.87,
-        "change_pct": -5.00417
+        "price": 863.02,
+        "change_pct": -4.17094
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.135506,
-        "change_pct": -2.94723
+        "price": 0.132233,
+        "change_pct": -2.49456
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 66.58,
-        "change_pct": -2.70943
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.05708,
+        "change_pct": -2.38749
       },
       {
-        "symbol": "WBT",
-        "name": "WhiteBIT Coin",
-        "price": 60.66,
-        "change_pct": -2.11115
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 8.82,
+        "change_pct": -2.06563
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 엇갈린 움직임을 보였다. S&P 500 ETF(SPY)는 소폭 하락했으나, 나스닥100 ETF(QQQ)는 상승세를 유지했다. 이는 대형 기술주와 소형주 간의 성과 차이가 벌어지고 있음을 시사한다.",
-      "아마존(AMZN)이 3.8% 상승하며 가장 강한 상승률을 기록했고, 마이크로소프트(MSFT)도 0.4% 상승했다. 이들 대형 기술주의 강세는 AI 관련 기업들의 실적 기대감과 클라우드 수요 지속이 뒷받침되는 것으로 해석된다. 반면 엔비디아(NVDA)는 2.9% 하락하며 약세를 보였는데, 이는 반도체 업계의 공급 과잉 우려와 밸류에이션 조정 압력이 영향을 미친 것으로 보인다.",
-      "암호화폐 시장은 전반적으로 약세를 나타냈다. 비트코인(BTC)과 이더리움(ETH)이 각각 2.5%, 1.7% 하락한 것은 연방준비제도의 강경한 금리 인상 기조와 달러 강세가 위험자산 회피 심리를 촉발한 영향으로 보인다. 특히 프라이버시 코인인 제캐시(ZEC)는 5.0% 급락했는데, 이는 규제 리스크에 대한 민감도가 높은 특성이 반영된 것으로 해석된다. 본 분석은 투자 조언이 아닙니다."
+      "오늘 미국 주식시장은 광범위한 낙폭을 기록했다. S&P 500 ETF(SPY)는 -1.96%, 나스닥100 ETF(QQQ)는 -2.19% 하락하며 기술주 중심의 조정이 나타났다. 이는 금리 전망과 달러 강세 심화가 복합적으로 작용한 결과로 해석된다.",
+      "특히 빅테크 종목들이 집중적인 낙폭을 보였다. 엔비디아(-3.30%), 구글(-3.46%), 메타(-3.27%), 아마존(-3.87%)이 모두 3% 이상 하락했는데, 이는 금 가격이 14개월 저점까지 내려가면서 고금리 장기화 우려가 커지고 있음을 시사한다. 높은 금리 환경은 성장주의 현재가치를 압박하는 요인으로 작용하고 있다.",
+      "암호화폐 시장도 전반적인 약세를 보였다. 비트코인(-1.52%), 이더리움(-2.02%), 체인링크(-2.07%) 등이 소폭 하락했으며, 이는 달러 강세와 위험자산 회피 심리가 확산되는 가운데 암호화폐도 함께 조정받는 양상으로 보인다. 다만 스테이블코인들(USDC, USDT, USDS, USDe)은 기준가 근처에서 안정적으로 유지되고 있다. 본 내용은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "price": 267.74,
-        "change_pct": 3.8195,
-        "type": "stock",
-        "reason_ko": "클라우드·AI 수요 기대감"
-      },
-      {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 150.96,
-        "change_pct": -2.8946,
+        "price": 145.98,
+        "change_pct": -3.2989,
         "type": "stock",
-        "reason_ko": "반도체 공급 과잉 우려"
+        "reason_ko": "고금리 장기화로 성장주 조정"
+      },
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "price": 257.37,
+        "change_pct": -3.8732,
+        "type": "stock",
+        "reason_ko": "기술주 광범위 낙폭"
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 62559,
-        "change_pct": -2.52776,
+        "price": 61630,
+        "change_pct": -1.51869,
         "type": "crypto",
-        "reason_ko": "연준 강경 기조·달러 강세"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 900.87,
-        "change_pct": -5.00417,
-        "type": "crypto",
-        "reason_ko": "규제 리스크 민감도"
+        "reason_ko": "달러 강세와 위험자산 회피"
       }
     ]
   },
   "news": [
     {
-      "headline": "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows - Reuters",
-      "summary": "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows  Reuters",
+      "headline": "Russia repels Ukrainian drones attack on oil facility in Tatarstan region, local authorities say - Reuters",
+      "summary": "Russia repels Ukrainian drones attack on oil facility in Tatarstan region, local authorities say  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS21BSEJXWHdIUGpZcWRtZm0tT084cTd5WFpvbFZUeE9wdHkyelI4Y2pFamp5YmY3S09BRm9zMWQ3VE5NcHVnSGZNM20yZ3B5NE1mXzZ4VVg3NUZ5RTVuQ2owQzE4MkxpaTBIcEhCNng4MDE1ZnpyTUVOMUVHVFdzcm14Mkl2TlNGZmNuVFQ1NFMwdGFOT1JSTEFURDNOQ005cWVaUG5ybmtyNWQyTW1QMG82SHhGQXNmb3VMTUtB?oc=5",
-      "published_at": "2026-11-18T19:32:18.000Z",
-      "headline_ko": "미국, 해상 이란 석유 이송 차단으로 봉쇄 강화",
-      "summary_ko": "미국이 해상에서의 이란 석유 이송을 제한하는 새로운 조치를 발표했다.",
-      "detail_ko": "미국의 이란 에너지 부문에 대한 제재가 더욱 강화되고 있다. 해상 유조선을 통한 석유 이송 차단은 이란의 주요 외화 수입원을 직접 타격하는 조치로, 지정학적 긴장이 고조되고 있음을 보여준다. 이러한 제재 강화는 글로벌 석유 공급 불확실성을 증대시킬 수 있다.",
-      "impact_ko": "이란 석유 공급 차단은 글로벌 유가 상승 압력으로 작용할 수 있다. 중동 지정학적 리스크가 심화되면서 에너지 시장의 변동성이 확대될 가능성이 있다. 장기적으로는 석유 수입국들의 인플레이션 압력 상승으로 이어질 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXY4SS1DQy01LTV4VDEwYTVCV2hCeThSemNINHhHNFk2Zk1ZNGpIWVk1MFlyMUJwWGFlS1otZGRYSHpYYUlqQlZOMjRrQURxU29GNlhkTmJVU1l3VE1TTkR1dWhCM2dJT2QyUnRkR0dlRVE5eHhiUHBVSUVaa0ppOFJDb0I1M081eHhNQUd4WXhlWnJ6d0RYTVhWamRONXVFZmpjVGFuYmtTeG5FYXVkcXRFaVY1RnhobzYzZjNB?oc=5",
+      "published_at": "2026-11-19T18:08:24.000Z",
+      "headline_ko": "러시아, 타타르스탄 유전시설 우크라이나 드론 공격 격퇴",
+      "summary_ko": "러시아 지방 당국이 타타르스탄 지역 석유시설에 대한 우크라이나 드론 공격을 격퇴했다고 발표했다.",
+      "detail_ko": "우크라이나-러시아 분쟁이 에너지 인프라를 직접 겨냥한 공격으로 확대되고 있음을 보여주는 사례다. 러시아의 주요 유전 지역인 타타르스탄이 공격 대상이 되면서 에너지 공급 안정성에 대한 우려가 증가하고 있다. 이러한 지정학적 긴장은 글로벌 석유 시장의 공급 리스크를 높이는 요인으로 작용할 수 있다.",
+      "impact_ko": "에너지 인프라 공격이 지속될 경우 러시아의 석유 생산 차질로 이어질 수 있으며, 이는 글로벌 유가 상승 압력으로 작용할 가능성이 있다. 또한 에너지 공급 불안정성은 주요 수입국들의 전략적 비축유 방출이나 대체 에너지원 확보 움직임을 촉발할 수 있다."
     },
     {
-      "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+      "headline": "Gold's bad year is getting worse. Why its price keeps falling",
+      "summary": "Gold has fallen sharply from its January record as higher interest rates and a stronger dollar change the investment case for the precious metal.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "published_at": "2026-11-18T19:08:44.000Z",
-      "headline_ko": "연준 관계자들, 추가 인상 예상하며 AI의 인플레이션 영향 우려",
-      "summary_ko": "연방준비제도 10월 정책회의 의사록에서 관계자들이 추가 금리 인상 가능성을 언급하고 AI가 인플레이션에 미칠 영향을 우려하는 것으로 나타났다.",
-      "detail_ko": "연준은 기준금리를 3.75~4.00% 범위에서 유지하기로 결정했으나, 내부적으로는 추가 인상 필요성을 논의하고 있다. AI 기술의 급속한 발전이 노동시장과 물가에 미칠 영향에 대한 불확실성이 커지고 있으며, 이는 통화정책 결정의 복잡성을 증가시키고 있다. 인플레이션이 목표치인 2%를 지속적으로 상회하는 상황에서 연준의 강경한 입장이 유지될 가능성이 높다.",
-      "impact_ko": "연준의 강경한 기조는 향후 금리 인상 가능성을 높여 채권 수익률 상승과 주식 밸류에이션 압력으로 작용할 수 있다. 특히 성장주와 기술주에 대한 투자 심리가 위축될 수 있다. 달러 강세가 지속되면서 신흥시장 자산과 암호화폐에 대한 회피 심리가 심화될 가능성이 있다."
+      "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
+      "published_at": "2026-11-19T13:37:52.000Z",
+      "headline_ko": "금값 하락세 심화, 고금리와 달러 강세가 주요 원인",
+      "summary_ko": "금이 1월 사상 최고가에서 크게 하락했으며, 높은 금리와 강한 달러가 귀금속의 투자 매력을 감소시키고 있다.",
+      "detail_ko": "금은 전통적으로 인플레이션 헤지 자산이지만, 현재의 고금리 환경에서는 금리 수익을 제공하지 않는 자산의 기회비용이 커지고 있다. 동시에 달러 강세는 달러 표시 금 가격을 상대적으로 비싸게 만들어 국제 수요를 억제하는 효과를 낳는다. 이러한 구조적 역풍은 금의 수요 감소로 이어지고 있다.",
+      "impact_ko": "금값 하락은 인플레이션 우려가 완화되고 있다는 신호로 해석될 수 있으며, 이는 중앙은행의 금리 인상 사이클이 정점에 도달했을 가능성을 시사한다. 다만 금리가 장기간 높은 수준에서 유지될 것으로 예상되면 금의 약세가 지속될 수 있다."
     },
     {
-      "headline": "Fed officials set to raise rates again in December, but the future still looks murky",
-      "summary": "continued inflation above the Fed's 2% target might push officials into a more aggressive stance.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-      "published_at": "2026-11-18T12:37:32.000Z",
-      "headline_ko": "연준, 12월 추가 인상 예상하지만 향후 전망은 불투명",
-      "summary_ko": "연방준비제도가 12월 금리 인상을 추진할 것으로 예상되지만, 이후 정책 방향은 여전히 불확실한 상황이다.",
-      "detail_ko": "2% 목표를 상회하는 인플레이션 상황이 지속되면서 연준이 더욱 공격적인 입장을 취할 가능성이 논의되고 있다. 12월 인상은 거의 확실시되는 반면, 그 이후의 정책 경로는 경제 데이터와 인플레이션 추이에 따라 크게 달라질 수 있다. 이러한 불확실성은 시장 참여자들의 의사결정을 어렵게 만들고 있다.",
-      "impact_ko": "12월 인상 가능성이 높아지면서 단기 채권 수익률이 상승할 수 있다. 향후 정책 방향의 불투명성은 시장 변동성을 증대시킬 가능성이 있다. 기업들의 차입 비용 상승으로 인한 수익성 악화 우려가 주식시장에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "UK inflation rises to one-year high but markets trim rate hike bets - Reuters",
-      "summary": "UK inflation rises to one-year high but markets trim rate hike bets  Reuters",
+      "headline": "Oil tanker loads Iranian crude in Gulf, TankerTrackers.com says - Reuters",
+      "summary": "Oil tanker loads Iranian crude in Gulf, TankerTrackers.com says  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QVW9FYWgxOUQyeFFFdHRIdkVLWDZLem1MWFItOVZmQU1SODEtcEZ1Y3NsOGZXeUtNQVN5cElvSmVoNXFoZDFVZ0NlaHFmcmNuQ2w1SWJENDNNLWVVWHNNQUVXdnV0X1Z5M3E2bnJSSzRQd3FBR1FQMzh0dGRPdw?oc=5",
-      "published_at": "2026-11-18T07:08:00.000Z",
-      "headline_ko": "영국 인플레이션 1년 만에 최고 수준으로 상승, 시장은 인상 베팅 축소",
-      "summary_ko": "영국의 인플레이션이 1년 만에 최고 수준으로 올랐으나, 시장은 영란은행의 추가 금리 인상 가능성을 낮게 평가하고 있다.",
-      "detail_ko": "영국 인플레이션의 상승은 에너지 가격과 공급망 문제의 영향을 반영하고 있다. 그럼에도 불구하고 시장이 인상 베팅을 축소하는 것은 경제 성장 둔화에 대한 우려가 금리 인상 기대감을 상쇄하고 있음을 의미한다. 이는 영란은행이 인플레이션과 성장 사이의 트레이드오프에 직면해 있음을 보여준다.",
-      "impact_ko": "시장의 낮은 인상 기대감은 파운드화 약세로 이어질 수 있다. 영국 자산에 대한 투자 매력도가 감소하면서 자본 유출 가능성이 있다. 유로존과의 금리 차이 축소는 환율 변동성을 증대시킬 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOXdpYkFVdXpMMHdtZk9Cdld4YjZyUnlieS1mZXZXT1VrTHM5SzhMR0k5dU56S1NiTWdlaVR0NHVBVVpqUXpqYW94RW11eWhYTkRHMmhEZ19VcjZDMS1nXzFRajZKdmpqZkNCc2dscm1DVjFhaVU4WmdodFRKSm0xU0lVRzZOME8xV25TRjVKQm8td1Jsd3R3RjVhVmJGQk03ZkdVUjctVy1uTGlBeUpN?oc=5",
+      "published_at": "2026-11-19T12:47:33.000Z",
+      "headline_ko": "유조선이 페르시아만에서 이란산 원유 적재",
+      "summary_ko": "TankerTrackers.com에 따르면 유조선이 페르시아만에서 이란산 원유를 적재했다.",
+      "detail_ko": "이란의 원유 수출이 계속되고 있음을 보여주는 사례로, 국제 제재에도 불구하고 이란이 주요 구매국(특히 중국)으로의 석유 판매를 지속하고 있음을 의미한다. 이는 글로벌 석유 공급망에서 이란의 역할이 여전히 중요함을 반영한다. 다만 제재의 강도와 집행 수준에 따라 이러한 거래의 규모와 빈도는 변동할 수 있다.",
+      "impact_ko": "이란산 원유의 지속적인 수출은 글로벌 석유 공급을 안정화시키는 요인으로 작용할 수 있으며, 이는 유가 상승을 제한하는 데 도움이 될 수 있다. 반면 제재 강화 움직임이 나타날 경우 공급 차질이 발생할 수 있어 유가 변동성이 커질 가능성도 있다."
     },
     {
-      "headline": "Gold drops to 14-month low as hawkish Fed rhetoric boosts dollar, yields - Reuters",
-      "summary": "Gold drops to 14-month low as hawkish Fed rhetoric boosts dollar, yields  Reuters",
+      "headline": "Without Iranian oil, China's small refiners face pain but not collapse - Reuters",
+      "summary": "Without Iranian oil, China's small refiners face pain but not collapse  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVlk2MG4xbDV2emVoNk9vRVhTcTlRbkZLMDgwMjBMTEdVeXFDV21zX0NVdmF0YzQzRDZ4TkowaDJQQlZlTDBsbm9BWHFXNXpYZzVVejAtTGRZTTFHRjV4dllJV0ZxVzVvbVJCN1lxdk50NXVaNkRxTGJQbDYyZjhNNElTUElOWVU0eW0ySnBRMndSU1ZrTGE4ZlNMdDk0UXVmUjZLSEVfQlc?oc=5",
-      "published_at": "2026-11-18T03:10:00.000Z",
-      "headline_ko": "금값 14개월 만에 최저 수준으로 하락, 강경한 연준 기조와 달러 강세 영향",
-      "summary_ko": "금 가격이 14개월 만에 최저 수준으로 떨어졌으며, 이는 연방준비제도의 강경한 금리 인상 기조와 달러 강세가 주요 원인이다.",
-      "detail_ko": "금은 전통적으로 인플레이션 헤지 자산으로 인식되지만, 높은 금리 환경에서는 수익을 창출하지 않는 자산으로 평가절하된다. 연준 관계자들의 강경한 발언이 달러를 강하게 만들면서 달러 표시 금의 상대적 가격이 상승해 수요를 억제하고 있다. 채권 수익률 상승도 금의 매력도를 감소시키는 요인으로 작용하고 있다.",
-      "impact_ko": "금 가격 하락은 인플레이션 헤지를 추구하는 투자자들의 포트폴리오 재조정을 유도할 수 있다. 금 채굴 기업들의 수익성 악화로 이어질 가능성이 있다. 달러 강세가 지속되면 신흥시장 자산과 원자재 가격에 추가적인 하락 압력이 가해질 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRkQ0emVia1RNOE8xUWN0a2RMczczQTVWRWhQTEZ0dkE3d0hCRms3aWxjM2xlMWs4c25OX0Zfdk1hRnhxS1ZyU19ubjY4RmJjX05wZlVSZ183cFlXelJPRnpoTUpha0Q0WGFaN3BiWWhrbGpEczZWdU1OMUt3MUNwN25IclowUVNleTBvZTZ2ajQ1Z1ItSHdoWHNrc2dKZFF4X0dDVUk4MnBiU3JReENVVmJQTmtsQVU?oc=5",
+      "published_at": "2026-11-19T07:17:00.000Z",
+      "headline_ko": "이란산 원유 부재 시 중국 소규모 정유사들 고통받지만 붕괴는 아닐 것",
+      "summary_ko": "이란산 원유 공급이 끊길 경우 중국의 소규모 정유사들이 어려움을 겪을 수 있지만, 산업 전체의 붕괴까지는 이르지 않을 것으로 예상된다.",
+      "detail_ko": "중국의 소규모 정유사들은 이란산 저가 원유에 의존하는 경향이 있어 공급 차질 시 수익성 악화에 직면할 수 있다. 다만 이들은 다른 공급처(사우디, 러시아 등)로의 전환이나 가격 인상을 통해 적응할 수 있는 여지가 있다. 이는 중국 에너지 시장의 다양한 공급처 확보 전략이 어느 정도 효과를 발휘하고 있음을 시사한다.",
+      "impact_ko": "이란산 원유 공급 차질이 발생하더라도 중국의 정유 산업 전체는 구조적 붕괴를 피할 수 있을 것으로 보이며, 이는 글로벌 석유 시장의 안정성을 높이는 요인이 될 수 있다. 다만 소규모 정유사들의 수익성 악화는 중국 내 에너지 산업 재편을 가속화할 수 있다."
     },
     {
-      "headline": "Oil edges up on tanker attacks, expected US crude drop - Reuters",
-      "summary": "Oil edges up on tanker attacks, expected US crude drop  Reuters",
+      "headline": "Gold recoups from 14-month low, tighter Fed outlook caps gains - Reuters",
+      "summary": "Gold recoups from 14-month low, tighter Fed outlook caps gains  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQm40d1ZiR2k1S1RxaFdvQzJVYmRJUE1rcnNLZkEyRkZzbk5KZjlqWl9sZW9MUFB2OHpwdGZzT3duNzVnMnNaMEJMYkFKWndKTWE1OWNtd0hLcWRtSmVVYU5JaTBlNXZuT2t0V1AzVHdXVEhPMWt5QnhXakxpWkxiQk50ZEt0UGtXT3RpeXdiNEY0UXBqeXk2RGVHYURMNzJzNm13Zldtbm8tQQ?oc=5",
-      "published_at": "2026-11-18T02:59:05.000Z",
-      "headline_ko": "유조선 공격과 미국 원유 감소 예상으로 유가 소폭 상승",
-      "summary_ko": "중동 지역 유조선 공격 사건과 미국 원유 재고 감소 전망이 유가를 상승시켰다.",
-      "detail_ko": "홍해와 중동 지역의 유조선 공격은 해상 운송 리스크를 증대시키고 있으며, 이는 유가에 프리미엄을 더하는 요인이 된다. 동시에 미국의 원유 재고 감소 예상은 수급 측면에서 유가 지지 요인으로 작용하고 있다. 이러한 지정학적 리스크와 공급 측면의 긍정 신호가 함께 작용하면서 유가가 상승 압력을 받고 있다.",
-      "impact_ko": "유가 상승은 에너지 관련 기업들의 수익성 개선으로 이어질 수 있다. 다만 소비자 물가 상승 압력으로 작용하면서 인플레이션 우려를 증대시킬 수 있다. 지정학적 긴장이 심화되면 유가 변동성이 더욱 확대될 가능성이 있다."
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0RVRVVhd0g1djYyRGpzbTcyZXFtSXd3cTV1T0REekJaYm9FOTlzblJzU3hlMmsxSkF0UmtzZ1gwWVFiUzI3VXdGNzJLTndoZC1oVkpXSnRmZ0ZmNkEybVRFSnhIVzFCNnlTS2hQRGV2bnNGTHVsaUZ5RmllU0otWWcxV2wwejMwcXpTOWFxam1xb2dRMXMyQ1c0T0RkZy1SX09YR3lYdmxkQQ?oc=5",
+      "published_at": "2026-11-19T06:53:00.000Z",
+      "headline_ko": "금, 14개월 저점에서 반등했으나 연방준비제도 긴축 전망이 상승을 제한",
+      "summary_ko": "금이 14개월 저점에서 일부 회복했지만, 연방준비제도의 긴축 기조 지속 전망이 추가 상승을 억제하고 있다.",
+      "detail_ko": "금의 단기 반등은 극도로 낮아진 가격 수준에서의 기술적 매수와 일부 인플레이션 우려 재부각에 기인한 것으로 보인다. 그러나 연방준비제도가 금리를 높은 수준에서 장기간 유지할 것으로 예상되면서 금의 구조적 약세 요인이 여전히 존재한다. 이는 금의 상승 여력이 제한적임을 의미한다.",
+      "impact_ko": "금값의 약세 지속은 인플레이션 헤지 자산으로서의 금의 매력을 감소시킬 수 있으며, 투자자들의 자산배분 전략에 변화를 초래할 수 있다. 동시에 높은 금리 환경은 채권 등 고정수익 자산의 상대적 매력을 높여 자본 흐름의 재편으로 이어질 가능성이 있다."
     },
     {
-      "headline": "Oil prices settle lower as traders weigh surplus supply outlook - Reuters",
-      "summary": "Oil prices settle lower as traders weigh surplus supply outlook  Reuters",
+      "headline": "Saudi Arabia overtakes UAE as India's No. 2 oil supplier; Russia retains lead - Reuters",
+      "summary": "Saudi Arabia overtakes UAE as India's No. 2 oil supplier; Russia retains lead  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmp3REJQam1xdjkyMkpCN1JlSkotTnJNM0JEWDVFNmJqZ2FHbmNIN2E0V2twa2N3djBLTXlNNVJvcDJmZVNXMlBlQnk2VG1FTThnX0hQbVRqS2dKbVVBdXl6MWR5ZHo0S2VneWt2bUdwVjE4TnNxaHFLN0hHNU9IUVljVnNXLWJTeHdORFFJX3BfQXhPTThEbGFYQXhYaGNneHRHcVRGS2NyOFhxTzVN?oc=5",
-      "published_at": "2026-11-18T02:16:00.000Z",
-      "headline_ko": "유가, 공급 과잉 전망으로 하락 마감",
-      "summary_ko": "유가가 공급 과잉 전망에 따라 하락으로 마감했다.",
-      "detail_ko": "앞서 지정학적 리스크로 인한 상승 압력이 있었으나, 시장이 중기적 공급 과잉 시나리오를 더 강하게 평가하면서 유가가 하락했다. 글로벌 경제 성장 둔화 우려와 OPEC+ 감산 효과의 감소가 공급 과잉 전망을 뒷받침하고 있다. 이는 단기 지정학적 리스크와 중기 수급 전망 사이의 긴장을 반영한다.",
-      "impact_ko": "공급 과잉 전망은 에너지 기업들의 마진 압박으로 이어질 수 있다. 유가 하락은 인플레이션 완화 신호로 작용하면서 연준의 금리 인상 필요성을 감소시킬 수 있다. 다만 지정학적 리스크가 재부상하면 유가 변동성이 급격히 확대될 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGFFLXpheVdRTVdEZmh5dzNVdWpQR3RJRnJSbjZMMkNscHBaZWlNWTFLT0RpN3RGVU5xbHh1WFJoYTQyVGROQnRDcjZxaW9QaTZKZ2tkWGhDdUpRWnNHNXY5ay1PN3BZcmY2TFcxYnF0OFBtWUUxZzlfblZrZU9tVFZ6aDRaOFhuZjlyX3ctVS1wQ3h0VzFrRUd3eWNvRlJTakkxZjMtOWFsaVJjWDBLVnZ5aFV1QVMxb044M1pYbS0?oc=5",
+      "published_at": "2026-11-19T06:29:00.000Z",
+      "headline_ko": "사우디아라비아, 인도의 2위 석유 공급국으로 UAE 제치다",
+      "summary_ko": "사우디아라비아가 아랍에미리트를 제치고 인도의 2위 석유 공급국이 되었으며, 러시아는 여전히 1위를 유지하고 있다.",
+      "detail_ko": "인도의 석유 공급처 다변화 전략이 진행 중임을 보여주는 사례로, 사우디아라비아의 공급 확대와 UAE의 상대적 감소가 동시에 나타나고 있다. 이는 OPEC+ 국가들 간의 생산 정책 차이와 인도의 구매 전략 변화를 반영한다. 러시아가 여전히 최대 공급국인 것은 제재에도 불구하고 인도와의 에너지 거래가 지속되고 있음을 의미한다.",
+      "impact_ko": "공급처 순위 변화는 중동 석유 시장의 경쟁 구도 변화를 시사하며, 이는 유가 협상력과 공급 안정성에 영향을 미칠 수 있다. 또한 인도의 다원화된 공급처 확보는 아시아 에너지 시장의 안정성을 높이는 긍정적 요인으로 작용할 수 있다."
     },
     {
-      "headline": "Dollar firmer as hawkish Waller backs aggressive Fed action - Reuters",
-      "summary": "Dollar firmer as hawkish Waller backs aggressive Fed action  Reuters",
+      "headline": "Energy-security response to Iran war could cut oil demand by 4% by 2035, IEA says - Reuters",
+      "summary": "Energy-security response to Iran war could cut oil demand by 4% by 2035, IEA says  Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU3BnNkxnajFsX0xFNklvRnJ0OHJtQVR0Zk56aGhVN19YY0Z5aFRjMnVTb1pIakt6cHNXajVNalNrUmVUWWpZWjk1Ukh6T0RhY2ZTX2dLRTdpWTNlVU1vY1hGUl84SlIwcUNQcW51NzlzZDFoNHNiT3hiSHpfSl9ENUhtWWExWWxkT2ZYUUJ4WHdWWjVSOVpkQzZycmpaOXhnbm96Q0RWMmJLYnlkTDFJRFVWbGhqWXkydEE?oc=5",
-      "published_at": "2026-11-18T01:34:00.000Z",
-      "headline_ko": "월러 연준 관계자의 강경 발언으로 달러 강세 지속",
-      "summary_ko": "연방준비제도의 월러 관계자가 공격적인 금리 인상 필요성을 강조하면서 달러가 강세를 보였다.",
-      "detail_ko": "월러의 강경한 발언은 연준 내 인상 기조가 여전히 강함을 시장에 전달했다. 이는 달러를 기축통화로 선호하는 투자자들의 수요를 증가시키고, 달러 자산의 상대적 매력도를 높인다. 강한 달러는 신흥시장 자산과 원자재 가격에 하락 압력을 가하는 메커니즘으로 작용한다.",
-      "impact_ko": "달러 강세는 신흥시장 국가들의 외채 부담을 증가시킬 수 있다. 달러 표시 원자재 가격이 하락하면서 원자재 수출국들의 수익성이 악화될 가능성이 있다. 암호화폐와 같은 위험자산에 대한 회피 심리가 심화될 수 있다."
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRlVLekJsV1lXTGsxOWFDNkJLTDZhV3JSeFRQWS1zNXlobWJ6cDB0dXdhUE5IZ2VBY3N1THJOdVFtNmhEcnVTcUpWS2x4cVJRV1BscHJ2cVRmbGxtUEJLd0xvRUhkYlpUZU1PcnZpUzJ5cWx5R3ZnWFN5VXdiWmkwczJpci1yQkpVWWtMNV9yY3JHc3NfNzc0V2R2ZWlkSDVaa3V1MUhJVUNoSV9MQl91ckE5c2J4c1c2VFlPSHBIYzAxX2RZYXpZ?oc=5",
+      "published_at": "2026-11-19T05:05:00.000Z",
+      "headline_ko": "이란 분쟁에 따른 에너지 안보 대응, 2035년까지 석유 수요 4% 감소 가능",
+      "summary_ko": "국제에너지기구(IEA)는 이란 분쟁에 대한 에너지 안보 대응이 2035년까지 전 세계 석유 수요를 4% 감소시킬 수 있다고 예측했다.",
+      "detail_ko": "이는 지정학적 리스크에 대응하기 위한 에너지 정책 변화(재생에너지 확대, 에너지 효율성 개선, 전기화 가속 등)가 석유 수요 구조에 근본적인 영향을 미칠 수 있음을 의미한다. IEA의 예측은 단순한 공급 차질이 아니라 장기적인 에너지 전환 가속화를 반영한 것이다. 이는 향후 석유 시장의 수요 측면에서 구조적 약세 요인이 될 수 있다.",
+      "impact_ko": "석유 수요의 4% 감소는 유가 하락 압력으로 작용할 수 있으며, 이는 석유 수출국들의 재정 수입 감소로 이어질 수 있다. 동시에 재생에너지와 전기화 관련 산업에 대한 투자 수요가 증가할 가능성이 높으며, 이는 에너지 시장의 장기적 구조 변화를 가속화할 수 있다."
+    },
+    {
+      "headline": "Oil settles flat as Hormuz disruptions offset global surplus fears - Reuters",
+      "summary": "Oil settles flat as Hormuz disruptions offset global surplus fears  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
+      "published_at": "2026-11-19T02:47:00.000Z",
+      "headline_ko": "호르무즈 해협 혼란이 글로벌 공급 과잉 우려를 상쇄하며 유가 보합",
+      "summary_ko": "호르무즈 해협의 해운 혼란이 글로벌 석유 공급 과잉에 대한 우려를 상쇄하면서 유가가 보합세를 유지했다.",
+      "detail_ko": "유가는 공급 측면의 상충하는 신호들 사이에서 균형을 이루고 있다. 한편으로는 글로벌 석유 공급이 충분하다는 신호가 있고, 다른 한편으로는 호르무즈 해협이라는 전략적 요충지의 혼란이 공급 차질 리스크를 높이고 있다. 이러한 상황에서 유가는 방향성을 잃고 보합세를 보이고 있다.",
+      "impact_ko": "호르무즈 해협의 지정학적 긴장이 지속될 경우 유가 변동성이 높아질 수 있으며, 공급 차질에 대한 프리미엄이 유가에 반영될 가능성이 있다. 반면 글로벌 공급 과잉이 심화되면 이러한 지정학적 프리미엄이 축소될 수 있어, 향후 유가 방향은 두 요인의 상대적 강도에 달려 있을 것으로 보인다."
     }
   ],
   "calendar": [
