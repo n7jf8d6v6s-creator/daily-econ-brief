@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:51:17.206Z",
+  "generated_at": "2026-11-23T02:06:52.090Z",
   "stale_sections": [],
   "market": {
     "stocks": [
@@ -62,70 +62,71 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 60036,
-        "change_pct": 1.9322
+        "price": 60812,
+        "change_pct": 1.27638
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 1684.61,
-        "change_pct": 3.8912
+        "price": 1708.4,
+        "change_pct": 1.44053
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 491.25,
-        "change_pct": 8.667
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 8.79,
+        "change_pct": 2.49851
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 781.66,
-        "change_pct": 4.43713
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 62.13,
+        "change_pct": 1.44512
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.068,
-        "change_pct": 4.15348
+        "symbol": "WBT",
+        "name": "WhiteBIT Coin",
+        "price": 58.37,
+        "change_pct": 1.2282
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 555.25,
+        "change_pct": 1.17141
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.12634,
+        "change_pct": -1.45439
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price": 0.930365,
-        "change_pct": 2.48
+        "price": 0.918121,
+        "change_pct": -1.38403
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.13,
-        "change_pct": -0.12393
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.056,
+        "change_pct": -1.12578
       },
       {
-        "symbol": "USDE",
-        "name": "Ethena USDe",
-        "price": 0.998698,
-        "change_pct": -0.02188
-      },
-      {
-        "symbol": "USDS",
-        "name": "USDS",
-        "price": 1,
-        "change_pct": -0.00427
-      },
-      {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999275,
-        "change_pct": 0.00461
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.143084,
+        "change_pct": -0.61692
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 글로벌 주식시장은 광범위한 낙폭을 기록했으며, 특히 기술주가 주도적으로 하락했다. S&P 500 ETF(SPY)가 -3.64%, 나스닥100 ETF(QQQ)가 -5.67% 내려가며 성장주 중심의 조정이 진행 중인 것으로 보인다.",
-      "엔비디아(NVDA)가 -14.01%로 가장 큰 낙폭을 기록했으며, 테슬라(TSLA)도 -7.64% 하락했다. 이는 기술 및 AI 관련 고성장주에 대한 수익 실현 매물이 나온 것으로 해석되며, 애플(AAPL)의 자체 AI 에이전트 개발 계획 발표가 기존 AI 플랫폼 기업들의 경쟁 심화를 시사하면서 시장 심리에 영향을 미친 것으로 보인다.",
-      "반면 암호화폐 시장에서는 프라이버시 코인들이 눈에 띄는 강세를 보였다. 모네로(XMR)가 +8.67%, 지캐시(ZEC)가 +4.44% 상승한 것은 이란 제재 강화와 지정학적 긴장 고조로 인한 규제 회피 자산 선호 심리가 반영된 것으로 해석된다. 동시에 비트코인(BTC)과 이더리움(ETH)도 각각 +1.93%, +3.89% 상승하며 위험자산 중에서도 암호화폐에 대한 수요가 유지되는 모습을 보였다. 본 내용은 투자 조언이 아닙니다."
+      "오늘 글로벌 주식시장은 광범위한 기술주 매도세에 휩싸였다. S&P 500 ETF(SPY)가 -3.64%, 나스닥100 ETF(QQQ)가 -5.67% 하락하며 시장 전반이 약세를 보였는데, 이는 AI 섹터 조정과 거시경제 불확실성이 복합적으로 작용한 결과로 해석된다.",
+      "엔비디아(NVDA)가 -14.01%로 가장 큰 낙폭을 기록했으며, 테슬라(TSLA, -7.64%), 메타(META, -5.93%), 아마존(AMZN, -4.10%) 등 대형 기술주들도 동반 하락했다. AI 버블 우려와 밸류에이션 조정 심화가 고성장주 매도를 가속화한 것으로 보인다.",
+      "반면 암호화폐 시장은 주식 약세 속에서도 상대적 강세를 유지했다. 비트코인(BTC, +1.28%), 이더리움(ETH, +1.44%), 체인링크(LINK, +2.50%) 등이 소폭 상승한 것은 주식 시장의 리스크 회피 심리 속에서도 암호화폐가 대체자산으로서의 수요를 유지하고 있음을 시사한다. 특히 달러가 19개월 고점에서 조정되면서 달러 약세 수혜 자산으로 기능한 측면도 있는 것으로 해석된다.",
+      "지정학적 긴장 고조(예멘 후티 반군의 사우디 정유소 공격, 이란 제재 강화)는 유가 상승으로 이어졌지만, 이것이 기술주 약세를 상쇄하기에는 부족했다. 현재 시장은 AI 섹터 조정 우려가 지정학적 리스크나 에너지 가격 상승보다 더 큰 영향을 미치고 있는 상황으로 보인다. 본 분석은 투자 조언이 아니며, 투자 결정은 개인의 판단과 책임하에 이루어져야 합니다."
     ],
     "movers": [
       {
@@ -134,7 +135,7 @@
         "price": 125.53,
         "change_pct": -14.0088,
         "type": "stock",
-        "reason_ko": "AI 경쟁 심화로 수익 실현 매물"
+        "reason_ko": "AI 섹터 조정 및 밸류에이션 우려"
       },
       {
         "symbol": "TSLA",
@@ -142,37 +143,81 @@
         "price": 345.82,
         "change_pct": -7.636,
         "type": "stock",
-        "reason_ko": "기술주 광범위 조정장 영향"
+        "reason_ko": "기술주 동반 약세"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 491.25,
-        "change_pct": 8.667,
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price": 60812,
+        "change_pct": 1.27638,
         "type": "crypto",
-        "reason_ko": "지정학적 긴장으로 프라이버시 자산 선호"
+        "reason_ko": "달러 조정 및 대체자산 수요"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 781.66,
-        "change_pct": 4.43713,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 8.79,
+        "change_pct": 2.49851,
         "type": "crypto",
-        "reason_ko": "이란 제재 강화로 규제 회피 수요"
+        "reason_ko": "암호화폐 상대적 강세 지속"
       }
     ]
   },
   "news": [
+    {
+      "headline": "Dollar edges off 19-month high after market rout; yen softens - Reuters",
+      "summary": "Dollar edges off 19-month high after market rout; yen softens  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVA0aUFSMnFob3ZJdVFvbmlpN0JDRWFRNUJwZ1BIY19KU3RXZjJTRGdLaU00NGJ6dDRvX3VBUDdtcG9XQWRiRFhuUzhMZTNsN2lDSWVKMmI2Vi1EQ3dFUE5mM3dwZGNQWC1zZXhnZTJfVEVuYzVETlV1enJTN0dPZlQ3SlozeklDTzkwck16LW42eWt5aDJEY0w4M0Ytd0ZlRnBSZmZpN0Z5bkxTLXNXcWdtSW0?oc=5",
+      "published_at": "2026-11-22T23:43:57.000Z",
+      "headline_ko": "달러, 19개월 고점에서 조정…엔화는 약세",
+      "summary_ko": "글로벌 주식시장 급락 이후 달러가 19개월 고점에서 내려앉고 있으며, 엔화는 약세를 보이고 있다.",
+      "detail_ko": "주식시장의 광범위한 매도세는 안전자산 선호 심리를 불러일으켰으나, 달러는 예상과 달리 조정되는 모습을 보이고 있다. 이는 극도로 높아진 달러 가치가 기술적 조정 압력을 받으면서 나타나는 현상으로 해석된다. 엔화의 약세는 일본의 금리 인상 지연 가능성과 글로벌 위험자산 회피 심리가 엔화 수요를 제한하고 있음을 시사한다.",
+      "impact_ko": "달러 약세는 신흥시장 자산과 원자재 가격에 상승 압력을 가할 수 있으며, 특히 달러 표시 채무를 가진 국가들의 부담을 완화할 가능성이 있다. 엔화 약세 지속 시 일본의 수출 경쟁력 개선으로 이어질 수 있으나, 수입 물가 상승 압력도 함께 작용할 수 있다."
+    },
+    {
+      "headline": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery - Reuters",
+      "summary": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjZLZW5ua05hQkRTLVhvZnNHZnpUM05mT3ZxNl9FUUoyMEhMN0gtTUVfT0Zhb0g2eUxaeHlvZWlIWXNTVGlSMlczMHdBUERvRjVsQVZVSW92MlFESWlmTGxVaWM2aXYwZ0NtUTlna3k4ZkV2S0k4YkhVOFRjaWRrcmhZeWg5NHpQaW9pRGIybUFpalV3U2lzdlZ5QzYteENUSWpWdm90SXNFWVU4OWxBaGx3?oc=5",
+      "published_at": "2026-11-22T17:52:15.000Z",
+      "headline_ko": "예멘 후티 반군, 사우디 라비그 정유소 공격 주장",
+      "summary_ko": "예멘의 후티 반군이 사우디아라비아의 라비그 정유소를 공격했다고 주장했다.",
+      "detail_ko": "중동 지정학적 긴장이 고조되고 있는 가운데 후티 반군의 사우디 에너지 시설 공격 주장이 나왔다. 라비그 정유소는 사우디의 주요 석유 생산 시설 중 하나로, 이러한 공격이 실제로 성공할 경우 글로벌 석유 공급에 직접적인 영향을 미칠 수 있다. 이는 이란 제재 강화와 맞물리면서 중동 에너지 시장의 불확실성을 높이고 있다.",
+      "impact_ko": "사우디 석유 시설 공격 우려는 유가 상승 압력으로 작용할 수 있으며, 이는 글로벌 인플레이션 재가속 우려로 이어질 수 있다. 에너지 가격 상승은 경제 성장을 제약할 수 있어 주식시장에 부정적 영향을 미칠 가능성이 있다. 다만 현재 기술주 약세가 더 지배적인 상황으로, 유가 상승이 시장 전체 약세를 상쇄하기에는 부족해 보인다."
+    },
+    {
+      "headline": "AI selloff spurs haven demand for Yen, Franc as Dollar slips",
+      "summary": "The yen gained 0.7% against the dollar Friday, while the franc snapped an eight-day losing streak to rise 0.4%",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ai-selloff-boosts-haven-demand-for-yen-franc-as-dollar-slips",
+      "published_at": "2026-11-21T14:37:37.000Z",
+      "headline_ko": "AI 매도세 속 엔화·스위스프랑 안전자산 선호 심화",
+      "summary_ko": "AI 섹터 매도로 인한 위험자산 회피 심리 속에서 엔화가 달러 대비 0.7%, 스위스프랑이 0.4% 상승했다.",
+      "detail_ko": "기술주 중심의 광범위한 주식 매도는 투자자들의 위험회피 심리를 극대화했고, 이는 전통적인 안전자산인 엔화와 스위스프랑에 대한 수요를 증가시켰다. 엔화는 일본의 저금리 정책으로 인한 캐리 트레이드 청산 수요도 함께 작용하면서 상승세를 보였다. 스위스프랑의 8일 연속 하락 추세가 꺾인 것은 스위스 중앙은행의 상대적으로 견고한 통화정책 기조가 투자자들에게 신뢰를 주고 있음을 의미한다.",
+      "impact_ko": "안전자산 선호 심화는 신흥시장 통화와 고수익 자산에 대한 수요 감소로 이어질 수 있으며, 이는 신흥국 자산 가격 하락 압력으로 작용할 가능성이 있다. 엔화 강세는 일본 수출 기업들의 수익성 악화를 초래할 수 있으나, 수입 물가 안정에는 긍정적으로 작용할 수 있다. 이러한 안전자산 선호 현상이 지속될 경우 글로벌 자본 흐름의 재편으로 이어질 수 있다."
+    },
+    {
+      "headline": "Tech leads global stocks rout, Treasury yields fall - Reuters",
+      "summary": "Tech leads global stocks rout, Treasury yields fall  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORTBuejlwS3Nua0szT1dTbnYtSElZYjI2RUg0NnRsVHNlOW1SMTBlUFIxdmtVcnB2TFd0N19aU1RlbzVWREhqYnZmWF9HRG5odm55UUxLMnJzckZpWjh6UHdrZGtZNlBIMVh3cU1QcUNIQlZRNXJMTW54TjdkaVdGbE9yVQ?oc=5",
+      "published_at": "2026-11-20T23:02:38.000Z",
+      "headline_ko": "기술주 주도 글로벌 주식 급락, 채권 수익률 하락",
+      "summary_ko": "기술주를 중심으로 글로벌 주식시장이 광범위하게 하락했으며, 미국 국채 수익률도 동반 하락했다.",
+      "detail_ko": "나스닥 중심의 기술주 매도세가 S&P 500 전체로 확산되면서 글로벌 주식시장 전반이 약세를 보였다. 동시에 국채 수익률 하락은 경제 성장 둔화 우려와 연방준비제도의 금리 인하 가능성에 대한 시장의 기대를 반영하고 있다. 이는 AI 버블 우려와 기술 섹터 밸류에이션 조정이 단순한 섹터 조정을 넘어 거시경제 전망 악화로 인식되고 있음을 시사한다.",
+      "impact_ko": "국채 수익률 하락은 차입 비용 감소로 이어져 기업과 소비자의 금융 부담을 완화할 수 있으나, 동시에 경제 성장 둔화 신호로 해석될 수 있다. 연방준비제도의 금리 인하 기대가 강화될 경우 달러 약세와 신흥시장 자산 선호로 이어질 가능성이 있다. 다만 인플레이션 재가속 우려(유가 상승 등)가 존재하는 만큼, 금리 인하 시기와 규모에 대한 불확실성이 시장 변동성을 높일 수 있다."
+    },
     {
       "headline": "US Treasury sanctions Iranian 'trustees' collecting oil revenues - Reuters",
       "summary": "US Treasury sanctions Iranian 'trustees' collecting oil revenues  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV3NtX0JqMFVBeHBVcTdlV1ZTaXRRMUhnLV9YWmR3VEZqUHVwbFlnOTlFTlZtTTExbUhTNzBsWXR6YTNYQmdMdVg4VGJuTTRYR19wSHhSZUJaTlRxWWpFT0o3SGgzb2JrOXY4b2xMd3cxQ2VlbGZPUzFGU2hJNFJLLTV6YlZLdmlGbUNaY19jMDdMLXVLTGRiT2ZfR2dMY0JuNzc0UzE0akxlelRNNl9sYzhLMkFwczA?oc=5",
       "published_at": "2026-11-20T21:53:07.000Z",
-      "headline_ko": "미국 재무부, 이란 석유수익 징수 담당자들에 제재 부과",
-      "summary_ko": "미국 재무부가 이란의 석유 수익을 징수하는 '신탁자'들을 대상으로 새로운 제재를 단행했다.",
-      "detail_ko": "이는 이란의 주요 외화 수입원인 석유 판매 수익 흐름을 직접 차단하려는 미국의 전략적 조치로 보인다. 제재 대상을 중간 징수 기관으로 확대함으로써 이란의 자금 조달 경로를 더욱 좁히려는 의도가 드러난다. 이러한 강화된 제재는 중동 지역의 지정학적 긴장을 심화시킬 가능성이 있다.",
-      "impact_ko": "이란에 대한 제재 강화는 중동 지역 불안정성을 높여 유가 변동성 확대로 이어질 수 있다. 또한 규제 회피 자산인 프라이버시 코인에 대한 수요 증가를 촉발할 가능성이 있으며, 지정학적 리스크 심화는 안전자산 선호 현상을 강화할 수 있다."
+      "headline_ko": "미국 재무부, 이란 석유 수익 수집 '신탁자' 제재",
+      "summary_ko": "미국 재무부가 이란의 석유 수익을 수집하는 신탁자들을 제재 대상으로 지정했다.",
+      "detail_ko": "미국의 이란 제재 강화 조치로, 이란의 석유 판매 수익을 중개하는 신탁자들이 새로운 제재 대상이 되었다. 이는 이란의 석유 수출 수익 흐름을 더욱 차단하려는 미국의 의도를 반영하며, 이란의 외화 획득 능력을 직접적으로 제약하는 조치다. 이러한 제재 강화는 이란의 경제적 압박을 심화시키는 동시에, 글로벌 석유 시장에서 이란산 석유의 거래 복잡성을 증가시킬 수 있다.",
+      "impact_ko": "이란 제재 강화는 이란산 석유의 글로벌 공급 감소로 이어질 수 있으며, 이는 유가 상승 압력으로 작용할 가능성이 있다. 특히 중국, 인도 등 이란산 석유의 주요 수입국들이 대체 공급처를 찾아야 하는 상황이 발생할 수 있다. 장기적으로는 중동 지정학적 긴장 고조와 에너지 시장 불안정성 심화로 이어질 수 있으며, 이는 글로벌 경제 성장에 부정적 영향을 미칠 수 있다."
     },
     {
       "headline": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday - Reuters",
@@ -180,10 +225,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3pQREZDSHE2RmNHdDdGdExDUXhYeWljc2VualVoQ09oQV90WnFQQlZkYW1rWnl5ODJ6N2haaVBDVUY4VmFvRmtLSlZKbU5kR1lHNklrUUR3X3JGc181OHZCUHpXalZFUllBZXVEczJPUUdZZUt1MmpsTEN0MkJGSDNCVHhoa25pZFBSb1lldS1US0VJNVNBWWN1U2VwQmd0WmlQR1RKWmgyS2lyUDVfNHdWeWhzaFhmZ1E?oc=5",
       "published_at": "2026-11-20T20:45:32.000Z",
-      "headline_ko": "이란 전쟁 우려와 숏 커버링으로 유가 상승",
-      "summary_ko": "이란을 둘러싼 지정학적 긴장과 감사절 연휴 앞 숏 포지션 청산이 유가를 끌어올렸다.",
-      "detail_ko": "중동 지역의 정치적 불안정성이 고조되면서 공급 차질에 대한 우려가 커지고 있다. 동시에 연휴 기간 동안의 시장 공백을 앞두고 숏 포지션을 정리하려는 기술적 매수 수요가 겹쳤다. 이러한 복합적 요인들이 유가에 상승 압력을 가하고 있는 상황이다.",
-      "impact_ko": "유가 상승은 에너지 관련 기업의 수익성 개선으로 이어질 수 있으나, 동시에 인플레이션 우려를 재점화할 가능성이 있다. 이는 연방준비제도의 금리 인하 기대를 약화시켜 주식시장의 추가 조정을 초래할 수 있다."
+      "headline_ko": "이란 전쟁 우려와 숏커버링으로 유가 상승, 추수감사절 앞두고",
+      "summary_ko": "이란 관련 전쟁 우려와 숏 포지션 청산으로 유가가 상승했으며, 추수감사절 연휴를 앞두고 있다.",
+      "detail_ko": "중동 지정학적 긴장 고조(후티 반군 공격, 이란 제재 강화)가 유가 상승의 주요 요인으로 작용했으며, 동시에 기술적 요인인 숏 포지션 청산도 유가 반등을 가속화했다. 추수감사절 연휴를 앞두고 거래량이 감소하는 가운데 이러한 기술적 반등이 더욱 두드러지는 모습을 보이고 있다. 유가 상승은 에너지 관련 주식에는 긍정적이지만, 전체 주식시장의 인플레이션 우려를 심화시킬 수 있다.",
+      "impact_ko": "유가 상승은 에너지 기업의 수익성 개선으로 이어질 수 있으나, 동시에 소비자 물가 상승 압력을 높일 수 있다. 인플레이션 재가속 우려는 연방준비제도의 금리 인하 기대를 제한할 수 있으며, 이는 고금리 환경의 지속으로 이어질 가능성이 있다. 추수감사절 이후 거래량 회복 시 유가 변동성이 더욱 확대될 수 있으므로 시장 참여자들의 주의가 필요하다."
     },
     {
       "headline": "A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
@@ -191,10 +236,10 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html",
       "published_at": "2026-11-20T18:55:39.000Z",
-      "headline_ko": "직장 불만족 근로자들의 '잠재된 이직 물결' 예상, 노동시장 변동성 증대 가능",
-      "summary_ko": "노동시장 불안정성 속에서 현 직장에 머물고 있던 불만족 근로자들이 조건 개선 시 대량 이직할 가능성이 제기되고 있다.",
-      "detail_ko": "현재 근로자들은 경제 불확실성으로 인해 직장을 옮기기를 꺼리고 있지만, 이는 일시적 현상으로 보인다. 전문가들은 노동시장이 '팽팽하게 감긴 스프링' 같은 상태라고 표현하며, 경제 여건이 개선되면 억눌렸던 이직 수요가 한 번에 분출될 수 있다고 경고하고 있다. 이는 기업들의 인력 유지 비용 증가와 급여 인상 압력으로 작용할 가능성이 높다.",
-      "impact_ko": "대량 이직이 현실화될 경우 기업의 채용 및 교육 비용이 급증할 수 있으며, 이는 기업 수익성 악화로 이어질 수 있다. 또한 임금 상승 압력은 인플레이션 재점화의 위험을 높여 중앙은행의 금리 인하 경로를 복잡하게 만들 수 있다."
+      "headline_ko": "노동시장 불안 속 '억눌린 퇴직' 물결 예상…노동 이동성 증가 가능성",
+      "summary_ko": "노동시장 불안이 심화되면서 직장에 머물러 있던 불만족 근로자들이 시장 여건 개선 시 대량 퇴직할 가능성이 제기되고 있다.",
+      "detail_ko": "현재 노동시장의 불확실성으로 인해 많은 근로자들이 직업 이동을 미루고 있는 상황이 발생하고 있다. 이는 '억눌린 퇴직(pent-up quits)' 현상으로, 경제 여건이 개선되면 이들이 일제히 이직을 시도할 수 있음을 의미한다. 전문가들은 현재의 노동시장을 '감긴 용수철'에 비유하며, 이것이 풀릴 경우 노동 이동성이 급증할 수 있다고 경고하고 있다.",
+      "impact_ko": "억눌린 퇴직 현상이 현실화될 경우 기업들의 인력 이탈 가속화로 이어질 수 있으며, 이는 임금 상승 압력을 높일 수 있다. 임금 상승은 기업의 인건비 부담 증가로 이어져 수익성 악화를 초래할 수 있으며, 이는 주식시장에 부정적 영향을 미칠 가능성이 있다. 동시에 노동 이동성 증가는 경제 효율성 개선으로 이어질 수 있어, 장기적으로는 생산성 향상에 기여할 수 있다."
     },
     {
       "headline": "US Treasury presses Singapore and Malaysia on Iran sanctions compliance - Reuters",
@@ -202,54 +247,10 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcWpsS2J4X3N5clFTNVhVa3BacUsxZUNmaXAwaHBjRlNVRXZ4XzhlTjBXLThJVlVPN2tMY1hPRmNRR3JWdVFOdi16QmdxYnVDX2lpSlNlZHRiYkh0T2I3VkNiVXNUek9uZWZRbmJHdlM2Skhsbm0xRVhua2N2Y2dDX1VMa1lJNUs4WmZtLWVJQWdfeXg3cVFBTHJ1cmxoQXViTDA0cG9TNmQ1TFhkMkRkc3Vwd2ZtSGtuTjc4?oc=5",
       "published_at": "2026-11-20T14:27:44.000Z",
-      "headline_ko": "미국 재무부, 싱가포르와 말레이시아에 이란 제재 준수 촉구",
-      "summary_ko": "미국 재무부가 싱가포르와 말레이시아에 대해 이란 제재 규정 준수를 강하게 요구했다.",
-      "detail_ko": "미국은 동남아시아 주요 금융 허브들이 이란과의 거래를 통해 제재를 우회하는 것을 차단하려는 의도로 보인다. 싱가포르와 말레이시아는 국제 무역과 금융의 중요한 중개 지점이기 때문에, 이들 국가에 대한 압박은 이란의 자금 조달 경로를 더욱 제한하려는 전략적 움직임이다. 이는 미국의 이란 제재 정책이 글로벌 차원으로 확대되고 있음을 시사한다.",
-      "impact_ko": "동남아시아 금융 기관들의 이란 거래 축소는 해당 지역의 금융 활동성 감소로 이어질 수 있다. 또한 제재 우회 경로 차단은 이란의 자금 조달을 더욱 어렵게 만들어 중동 지역의 긴장을 고조시킬 수 있으며, 이는 글로벌 공급망 리스크 증대로 작용할 가능성이 있다."
-    },
-    {
-      "headline": "Apple plans its own AI agent to take on OpenAI, Anthropic and Meta",
-      "summary": "Job listings offer fresh evidence of Apple’s plans to develop an autonomous assistant as competition intensifies among leading artificial intelligence companies",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
-      "published_at": "2026-11-20T03:56:29.000Z",
-      "headline_ko": "애플, OpenAI·Anthropic·메타에 대항할 자체 AI 에이전트 개발 추진",
-      "summary_ko": "채용 공고를 통해 애플이 자율 AI 어시스턴트 개발을 진행 중임이 드러났으며, AI 기업 간 경쟁이 심화되고 있다.",
-      "detail_ko": "애플은 지금까지 AI 분야에서 상대적으로 수동적 입장을 유지해왔으나, 이제 독자적인 AI 에이전트 개발에 나서고 있다. 이는 OpenAI의 ChatGPT, Anthropic의 Claude, 메타의 AI 모델 등과의 직접 경쟁을 의미한다. 기술 대기업들이 AI 에이전트 시장에 집중하면서 이 분야의 경쟁이 급속도로 심화되고 있는 상황이다.",
-      "impact_ko": "애플의 AI 에이전트 진출은 기존 AI 플랫폼 기업들의 시장 지배력을 약화시킬 가능성이 있으며, 이는 해당 기업들의 밸류에이션 재평가로 이어질 수 있다. 또한 AI 기술 개발 경쟁 심화는 관련 기업들의 R&D 비용 증가를 초래하여 단기 수익성에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Bonds vs equities: India’s stock market rally faces valuation test",
-      "summary": "India’s 10-year sovereign bond yield is around 7.27%, compared with 5.3% for the Nifty 50’s 12-month forward earnings yield",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows",
-      "published_at": "2026-11-20T03:30:45.000Z",
-      "headline_ko": "인도 주식시장 랠리, 밸류에이션 테스트 직면",
-      "summary_ko": "인도의 10년물 국채 수익률(7.27%)이 닛피 50 지수의 12개월 선행 주가수익률(5.3%)을 크게 상회하면서 주식시장의 밸류에이션 정당성이 도전받고 있다.",
-      "detail_ko": "인도 주식시장이 강한 랠리를 보이고 있지만, 채권 수익률이 주식 수익률을 훨씬 초과하는 상황이 발생했다. 이는 채권 투자가 주식보다 더 높은 수익을 제공한다는 의미로, 주식의 상대적 매력도가 감소했음을 시사한다. 이러한 밸류에이션 역전은 인도 주식시장의 지속적인 상승이 펀더멘탈에 기반한 것인지에 대한 의문을 제기한다.",
-      "impact_ko": "주식과 채권 간 수익률 역전이 심화될 경우 인도 주식시장으로부터의 자본 이탈이 가속화될 수 있다. 이는 인도 주식시장의 조정 압력으로 작용할 가능성이 있으며, 신흥시장 전체의 투자 심리에도 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Tech leads global stocks rout, Treasury yields fall - Reuters",
-      "summary": "Tech leads global stocks rout, Treasury yields fall  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORTBuejlwS3Nua0szT1dTbnYtSElZYjI2RUg0NnRsVHNlOW1SMTBlUFIxdmtVcnB2TFd0N19aU1RlbzVWREhqYnZmWF9HRG5odm55UUxLMnJzckZpWjh6UHdrZGtZNlBIMVh3cU1QcUNIQlZRNXJMTW54TjdkaVdGbE9yVQ?oc=5",
-      "published_at": "2026-11-20T01:46:00.000Z",
-      "headline_ko": "기술주 주도 글로벌 주식시장 급락, 국채 수익률 하락",
-      "summary_ko": "기술주가 주도하는 글로벌 주식시장 대규모 낙폭과 함께 국채 수익률이 하락했다.",
-      "detail_ko": "기술주 중심의 광범위한 주식시장 조정이 진행되고 있으며, 이는 투자자들의 위험회피 심리를 반영하고 있다. 동시에 국채 수익률의 하락은 안전자산으로의 자본 이동을 의미한다. 이러한 현상은 경제 전망에 대한 투자자 심리의 악화와 금리 인하 기대의 강화를 시사한다.",
-      "impact_ko": "주식시장의 광범위한 조정은 기업 수익성 전망 악화에 대한 시장의 우려를 반영할 수 있으며, 이는 추가 조정 압력으로 작용할 가능성이 있다. 국채 수익률 하락은 차입 비용 감소로 이어져 일부 기업에는 긍정적이나, 전반적인 경제 성장 둔화 신호로 해석될 수 있다."
-    },
-    {
-      "headline": "Oil settles flat as Hormuz disruptions offset global surplus fears - Reuters",
-      "summary": "Oil settles flat as Hormuz disruptions offset global surplus fears  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
-      "published_at": "2026-11-19T21:02:01.000Z",
-      "headline_ko": "호르무즈 해협 교란이 글로벌 공급 과잉 우려 상쇄하며 유가 보합",
-      "summary_ko": "호르무즈 해협의 잠재적 공급 차질이 글로벌 석유 공급 과잉 우려를 상쇄하면서 유가가 보합세를 유지했다.",
-      "detail_ko": "유가는 글로벌 석유 공급 과잉에 대한 약세 요인과 호르무즈 해협의 지정학적 리스크로 인한 강세 요인이 팽팽하게 맞서고 있는 상황이다. 호르무즈 해협은 세계 석유 공급의 중요한 통로이기 때문에, 이 지역의 불안정성은 공급 차질 우려를 높인다. 이러한 상충하는 요인들이 유가를 일정 수준에서 안정시키고 있다.",
-      "impact_ko": "호르무즈 해협의 지정학적 긴장이 지속될 경우 유가 변동성이 확대될 수 있으며, 이는 에너지 비용 불확실성을 높여 기업의 사업 계획 수립을 어렵게 만들 수 있다. 또한 공급 과잉 우려와 지정학적 리스크 사이의 균형이 깨질 경우 유가의 급격한 변동이 발생할 가능성이 있다."
+      "headline_ko": "미국 재무부, 싱가포르·말레이시아에 이란 제재 준수 촉구",
+      "summary_ko": "미국 재무부가 싱가포르와 말레이시아에 이란 제재 준수를 강하게 촉구했다.",
+      "detail_ko": "미국이 이란 제재 이행을 강화하기 위해 주요 금융 허브인 싱가포르와 동남아 경제 중심지인 말레이시아를 직접 압박하고 있다. 이는 이란과의 거래를 중개하는 역할을 할 수 있는 제3국들을 사전에 차단하려는 미국의 전략으로 해석된다. 특히 싱가포르는 국제 금융 중심지로서 이란 자금의 우회 경로가 될 수 있어, 미국의 제재 실효성 확보 차원에서 중요한 대상이다.",
+      "impact_ko": "미국의 제재 압박이 강화될 경우 싱가포르와 말레이시아의 금융 기관들이 이란 관련 거래를 더욱 제한할 가능성이 높다. 이는 이란의 국제 금융 접근성을 더욱 악화시켜 경제 압박을 심화시킬 수 있다. 동시에 동남아 국가들이 미국의 압박에 응할 경우 이들 국가와 이란 간의 경제 관계 축소로 이어질 수 있으며, 이는 지역 경제에 미미한 영향을 미칠 수 있다."
     }
   ],
   "calendar": [
