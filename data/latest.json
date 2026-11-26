@@ -1,236 +1,258 @@
 {
-  "generated_at": "2026-11-25T04:44:10.248Z",
+  "generated_at": "2026-11-26T03:52:41.174Z",
   "stale_sections": [],
   "market": {
     "stocks": [
       {
         "symbol": "AAPL",
         "name": "애플",
-        "price": 354.07,
-        "change_pct": 1.4295
+        "price": 355.58,
+        "change_pct": 0.4265
       },
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "price": 496.13,
-        "change_pct": 0.7371
+        "price": 489.93,
+        "change_pct": -1.2497
       },
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 155.38,
-        "change_pct": -5.8588
+        "price": 149.3,
+        "change_pct": -3.913
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "price": 384.68,
-        "change_pct": -0.2024
+        "price": 380.14,
+        "change_pct": -1.1802
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "price": 252.29,
-        "change_pct": -1.2138
+        "price": 244.43,
+        "change_pct": -3.1155
       },
       {
         "symbol": "GOOGL",
         "name": "알파벳(구글)",
-        "price": 279.05,
-        "change_pct": -1.0812
+        "price": 273.1,
+        "change_pct": -2.1322
       },
       {
         "symbol": "META",
         "name": "메타",
-        "price": 589.82,
-        "change_pct": -1.3019
+        "price": 609.89,
+        "change_pct": 3.4027
       },
       {
         "symbol": "SPY",
         "name": "S&P 500 ETF",
-        "price": 718.78,
-        "change_pct": -0.486
+        "price": 716.7,
+        "change_pct": -0.2894
       },
       {
         "symbol": "QQQ",
         "name": "나스닥100 ETF",
-        "price": 638.1,
-        "change_pct": -1.9861
+        "price": 633.93,
+        "change_pct": -0.6535
       }
     ],
     "crypto": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price": 59033,
-        "change_pct": -2.40051
+        "price": 60780,
+        "change_pct": 2.44729
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 1655.07,
-        "change_pct": -2.74415
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 511.36,
-        "change_pct": 3.8478
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.042,
-        "change_pct": 0.04867
-      },
-      {
-        "symbol": "USDC",
-        "name": "USDC",
-        "price": 0.999572,
-        "change_pct": -0.00387
-      },
-      {
-        "symbol": "USDT",
-        "name": "Tether",
-        "price": 0.999009,
-        "change_pct": -0.01406
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 58.71,
-        "change_pct": -8.02849
-      },
-      {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.123378,
-        "change_pct": -5.28702
+        "price": 1697.64,
+        "change_pct": 2.18633
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 728.81,
-        "change_pct": -4.50493
+        "price": 768.45,
+        "change_pct": 5.59824
       },
       {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 68.81,
-        "change_pct": -4.1621
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 9.2,
+        "change_pct": 4.86371
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.128869,
+        "change_pct": 4.84961
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 61.8,
+        "change_pct": 4.68061
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price": 0.3038,
+        "change_pct": -1.56272
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 8.98,
+        "change_pct": -0.90399
+      },
+      {
+        "symbol": "USDC",
+        "name": "USDC",
+        "price": 0.99942,
+        "change_pct": -0.00911
+      },
+      {
+        "symbol": "USDT",
+        "name": "Tether",
+        "price": 0.99888,
+        "change_pct": -0.00274
       }
     ]
   },
   "insight": {
     "paragraphs_ko": [
-      "오늘 미국 주식시장은 기술주 중심으로 약세를 보였다. 나스닥100 ETF(QQQ)가 -1.99% 하락하며 광폭 낙폭을 기록했고, S&P 500도 -0.49% 내렸다. 이는 AI 랠리를 주도해온 엔비디아의 급락과 메타, 구글 등 대형 기술주들의 동반 하락이 주요 원인으로 해석된다.",
-      "엔비디아가 -5.86%로 큰 낙폭을 기록하며 시장의 약세를 주도했다. 뉴스에서 언급된 '달러의 AI 주도 랠리 일시 중단'은 기술주 중심의 강세장이 조정 국면에 접어들었음을 시사하며, 이는 고평가 기술주에 대한 수익 실현 매물이 나왔을 가능성으로 보인다. 반면 애플은 +1.43%로 상대적 강세를 유지했는데, 이는 실적 기반의 가치주적 특성이 현 시장 환경에서 상대적으로 방어력을 보여주는 것으로 해석된다.",
-      "암호화폐 시장은 위험자산 회피 심리 속에서 비트코인과 이더리움이 각각 -2.40%, -2.74% 하락했다. 다만 프라이버시 코인인 모네로(XMR)는 +3.85%로 유일하게 상승세를 보였는데, 이는 규제 리스크 증가 시 프라이버시 기능을 갖춘 코인에 대한 수요가 상대적으로 강할 수 있음을 시사한다. 본 내용은 투자 조언이 아니며, 투자 결정은 개인의 판단과 책임하에 이루어져야 합니다."
+      "오늘 미국 주식시장은 AI 관련 우려와 인플레이션 재부상 우려가 맞물리면서 기술주 중심의 낙폭이 두드러졌다. S&P 500은 소폭 하락했으나 나스닥 지수는 더 큰 낙폭을 기록했으며, 특히 AI 수익성 논쟁이 재점화되면서 대형 테크 기업들이 동반 하락했다.",
+      "메타는 3.4% 상승하며 유일하게 강세를 보였는데, 이는 광고 플랫폼으로서의 경쟁력과 AI 투자 효율성에 대한 시장의 긍정적 평가로 해석된다. 반면 엔비디아는 3.9% 하락하며 AI 칩 수요 둔화 우려와 높은 밸류에이션에 대한 투자자 재평가 영향으로 보인다.",
+      "암호화폐 시장에서는 비트코인과 이더리움이 각각 2.4%, 2.2% 상승하며 위험자산 선호 심리를 보였으나, 프라이버시 코인인 지캐시(ZEC)가 5.6% 급등한 것은 규제 리스크 회피 수요와 암호화폐 다각화 움직임으로 해석된다. 체인링크(LINK)와 스텔라(XLM) 같은 인프라 토큰도 4.8~4.9% 상승하며 블록체인 기술 기반 자산에 대한 수요가 유지되는 모습을 보였다. 본 분석은 투자 조언이 아닙니다."
     ],
     "movers": [
       {
+        "symbol": "META",
+        "name": "메타",
+        "price": 609.89,
+        "change_pct": 3.4027,
+        "type": "stock",
+        "reason_ko": "AI 효율성 평가 개선"
+      },
+      {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "price": 155.38,
-        "change_pct": -5.8588,
+        "price": 149.3,
+        "change_pct": -3.913,
         "type": "stock",
-        "reason_ko": "AI 랠리 조정, 기술주 약세 주도"
+        "reason_ko": "AI 수익성 우려 재부상"
       },
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "price": 354.07,
-        "change_pct": 1.4295,
-        "type": "stock",
-        "reason_ko": "가치주 특성으로 상대적 방어력"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 511.36,
-        "change_pct": 3.8478,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 768.45,
+        "change_pct": 5.59824,
         "type": "crypto",
-        "reason_ko": "프라이버시 코인 수요 강화"
+        "reason_ko": "프라이버시 자산 선호"
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 9.2,
+        "change_pct": 4.86371,
+        "type": "crypto",
+        "reason_ko": "블록체인 인프라 수요"
       }
     ]
   },
   "news": [
     {
-      "headline": "Oil prices fall as supply glut concerns offset Middle East disruption fears - Reuters",
-      "summary": "Oil prices fall as supply glut concerns offset Middle East disruption fears  Reuters",
+      "headline": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+      "summary": "Nvidia and other AI-linked stocks fell as investors weighed AI spending, inflation and higher-rate risks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+      "published_at": "2026-11-25T17:10:17.000Z",
+      "headline_ko": "엔비디아, AI 투자 수익성 우려로 상승장 마감",
+      "summary_ko": "엔비디아와 AI 관련 주식들이 AI 지출 규모, 인플레이션, 금리 인상 리스크에 대한 투자자 우려로 하락했다.",
+      "detail_ko": "황젠순 CEO의 긍정적 발언으로 촉발된 최근 상승장이 꺾이면서 시장이 AI 투자의 실제 수익성에 대해 재평가하고 있다. 대규모 AI 인프라 투자가 충분한 경제적 수익을 창출할 수 있을지에 대한 의문이 제기되고 있으며, 동시에 인플레이션 재부상과 금리 인상 가능성이 고성장 기술주의 밸류에이션 압박으로 작용하고 있다. 이는 지난 몇 개월간 AI 수혜주에 집중된 자금이 이익 실현 단계로 접어들 가능성을 시사한다.",
+      "impact_ko": "AI 칩 수요에 대한 시장의 낙관론이 조정될 수 있으며, 이는 반도체 업계 전반의 투자 심리에 영향을 미칠 가능성이 있다. 또한 고금리 환경에서 고밸류에이션 기술주의 매력이 감소할 수 있어 자산 배분 재조정으로 이어질 수 있다."
+    },
+    {
+      "headline": "US third-quarter economic growth revised sharply higher; inflation broadening out - Reuters",
+      "summary": "US third-quarter economic growth revised sharply higher; inflation broadening out  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNalBrRjhRWHdhRDduMzduLU1kN1lGVFpzNFllX0RzdjJXMjdtajRZS1l1dms2MFJFbkhJQmx3Qzgydi1nTTJnQ1JPLUtoa1R5LWZjWjItUXJhXzhoZG51NU9ENzVBQjVSZWFpdHlqbV9PSkVncWtjUlptdXhjd0ZKRXZ6d2Y1dw?oc=5",
+      "published_at": "2026-11-25T16:15:17.000Z",
+      "headline_ko": "미국 3분기 경제성장률 상향 조정, 인플레이션 확산 우려",
+      "summary_ko": "미국 3분기 GDP가 상향 조정되었으나 인플레이션이 광범위하게 확산되고 있는 것으로 나타났다.",
+      "detail_ko": "경제성장이 예상보다 강한 모습을 보이고 있으나, 동시에 인플레이션 압력이 단순히 특정 부문에 국한되지 않고 전반적으로 확산되고 있다는 점이 중요하다. 이는 연방준비제도가 금리를 더 오래 높은 수준에 유지해야 할 가능성을 높이며, 시장의 금리 인하 기대를 약화시킬 수 있다. 강한 성장과 높은 인플레이션의 조합은 '스태그플레이션' 우려를 불러일으킬 수 있다.",
+      "impact_ko": "금리 인하 시점에 대한 시장 기대가 후퇴할 수 있으며, 이는 채권 수익률 상승과 고성장주의 상대적 매력 감소로 이어질 수 있다. 또한 기업 실적 전망에 대한 불확실성이 증가하면서 주식시장의 변동성이 확대될 가능성이 있다."
+    },
+    {
+      "headline": "Investors led by U.S. billionaire Todd Boehly to buy Lukoil's oil and gas assets outside Russia, sources say",
+      "summary": "The U.S. International Development Finance Corporation and Catena Investments, based in the United Arab Emirates, are also parties to the deal, the sources said.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html",
+      "published_at": "2026-11-25T16:00:45.000Z",
+      "headline_ko": "미국 억만장자 보엘리 주도 루코일 러시아 외 자산 인수 추진",
+      "summary_ko": "미국 억만장자 토드 보엘리가 주도하는 투자 컨소시엄이 루코일의 러시아 외 석유·가스 자산 인수를 추진 중이다.",
+      "detail_ko": "미국 국제개발금융공사(DFC)와 UAE 기반 카테나 인베스트먼츠가 참여하는 이 거래는 러시아 제재 심화 속에서 러시아 에너지 자산의 국제적 재편을 의미한다. 루코일이 러시아 외 자산을 처분하려는 것은 국제 제재로 인한 자금 조달 어려움과 글로벌 사업 축소 압박을 반영한다. 미국 정부 기관의 참여는 에너지 안보와 러시아 경제 고립 정책의 연장선상에 있다.",
+      "impact_ko": "러시아 에너지 기업의 국제적 입지가 약화될 수 있으며, 이는 글로벌 에너지 공급 구조 재편에 영향을 미칠 수 있다. 또한 제재 회피를 위한 자산 매각 움직임이 확산될 경우 국제 에너지 시장의 공급 불확실성이 증가할 수 있다."
+    },
+    {
+      "headline": "Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say - Reuters",
+      "summary": "Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUmZkWG52MVRvamtENGF3YmViWno3ckhhV1JIeFBzcnVTeG5ueG55S0M1amhYa1c3U1NVUldNV3c3UTRzTG9lcnVsUmJoYzV2ckJsY2c2cmtFdFlLckpLRk91NTdnSEtJQ3lDSVlYNzEwdklnUkFvb1R6dUpZLWV2TnM5d0dldC00NnBCWkZ1RVRjQ0NqMFA2OEp2SThlVlQ5OXZNbDVHN2tLVjFjbmJhSHlPUGZCSXR0aUxLZGQ3RjZIdWlwOElBWmZPUQ?oc=5",
+      "published_at": "2026-11-25T14:18:48.000Z",
+      "headline_ko": "카자흐스탄, 2027년 OPEC+ 쿼터 논의 앞두고 석유 생산능력 상향 요청",
+      "summary_ko": "카자흐스탄이 2027년 OPEC+ 쿼터 결정을 앞두고 자국의 석유 생산능력 추정치 상향을 요청하고 있다.",
+      "detail_ko": "OPEC+ 회원국들은 향후 쿼터 배분 기준이 되는 생산능력 추정치를 둘러싸고 협상을 벌이고 있으며, 카자흐스탄은 자신의 생산능력을 높게 평가받기 위해 노력하고 있다. 이는 향후 감산 의무를 최소화하고 생산 쿼터를 최대화하려는 전략으로 해석된다. OPEC+ 내 생산능력 기준을 둘러싼 분쟁은 향후 유가 관리 정책의 효과성에 영향을 미칠 수 있다.",
+      "impact_ko": "OPEC+ 회원국 간 이해관계 충돌이 심화될 수 있으며, 이는 향후 감산 합의의 실행 가능성을 낮출 수 있다. 생산능력 추정치 상향이 광범위하게 인정될 경우 유가 상승 압력이 완화될 수 있다."
+    },
+    {
+      "headline": "Nasdaq futures slide over 2% as AI losses deepen; inflation data in focus - Reuters",
+      "summary": "Nasdaq futures slide over 2% as AI losses deepen; inflation data in focus  Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
+      "published_at": "2026-11-25T12:54:22.000Z",
+      "headline_ko": "나스닥 선물 2% 이상 하락, AI 손실 심화 속 인플레이션 데이터 주목",
+      "summary_ko": "AI 관련 주식 손실이 심화되면서 나스닥 선물이 2% 이상 하락했으며, 인플레이션 데이터가 시장의 초점이 되고 있다.",
+      "detail_ko": "기술주 중심의 나스닥 지수가 AI 투자 수익성 우려로 큰 낙폭을 기록하고 있으며, 이는 선물 시장에서도 반영되고 있다. 동시에 인플레이션 데이터가 금리 경로 결정의 핵심 변수로 작용하면서 시장의 불확실성이 높아지고 있다. 기술주의 약세와 거시경제 불확실성이 겹치면서 위험자산 회피 심리가 강해지고 있다.",
+      "impact_ko": "나스닥 지수의 추가 하락이 이어질 수 있으며, 이는 성장주 중심 포트폴리오에 부정적 영향을 미칠 수 있다. 또한 인플레이션 데이터에 따라 금리 전망이 급변할 수 있어 시장 변동성이 확대될 가능성이 높다."
+    },
+    {
+      "headline": "Bain’s search for India yield leads it far beyond Bollywood",
+      "summary": "An arm of the US investor has been buying up entertainment rights and helping finance the production of new content, with a focus on regional languages like Telegu and Bhojpuri",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/bain-capital-s-india-bet-goes-beyond-bollywood-to-regional-entertainment",
+      "published_at": "2026-11-25T03:23:41.000Z",
+      "headline_ko": "베인, 인도 수익률 추구로 볼리우드 넘어 지역 콘텐츠 투자 확대",
+      "summary_ko": "미국 투자자 베인의 자회사가 텔루구, 보즈푸리 등 지역 언어 콘텐츠 제작 및 엔터테인먼트 저작권 매입에 투자하고 있다.",
+      "detail_ko": "베인은 인도의 높은 수익률 기회를 노리고 주류 볼리우드 영화뿐 아니라 지역 언어 콘텐츠에 투자 범위를 확대하고 있다. 이는 인도의 인터넷 보급 확대와 지역 콘텐츠 수요 증가를 배경으로 한다. 글로벌 투자자들이 인도의 디지털 엔터테인먼트 시장의 성장성을 주목하고 있음을 보여준다.",
+      "impact_ko": "인도 엔터테인먼트 산업에 대한 글로벌 자본 유입이 증가할 수 있으며, 이는 지역 콘텐츠 제작 생태계 발전으로 이어질 수 있다. 또한 인도 디지털 미디어 기업들의 밸류에이션 상승 압력이 높아질 수 있다."
+    },
+    {
+      "headline": "Oil prices rise after Houthis claim attack on Saudi refinery - Reuters",
+      "summary": "Oil prices rise after Houthis claim attack on Saudi refinery  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVGl4Nzdfc01ReTB5TnAxUkVLTXlaRVFvbGM5aTZDOEtVUXlrVDQtMHJwcWh2WldoMnVyb0QxU1pEQUoyN09sNU1SZXR3NVUzdTZXeWpkdGNTZW95MUtmdjV3dWFxTEZsRW5WUlF1djVTTWZxUGVxcHhPNEptMnBEcmZ0MURhX0JxTDFqc19HblpWd2hLSEs5SXRYTXB6bzFwNzZqOUFTc1ZOM3ItVDFZWmM2a0R5YkxsdnlsMTZWQ1ZEUQ?oc=5",
       "published_at": "2026-11-25T01:58:00.000Z",
-      "headline_ko": "공급 과잉 우려가 중동 지정학적 리스크를 상쇄하며 유가 하락",
-      "summary_ko": "중동 분쟁 우려에도 불구하고 글로벌 공급 과잉 우려가 더 강하게 작용하면서 유가가 하락했다.",
-      "detail_ko": "유가는 단순히 지정학적 리스크만으로 움직이지 않으며, 수급 밸런스가 더 중요한 변수임을 보여주는 사례다. 중동 분쟁으로 인한 공급 차질 우려가 있음에도 불구하고 글로벌 석유 공급 과잉 상황이 더 지배적인 요인으로 작용했다. 이는 현물 수요 약화와 재고 누적이 지정학적 프리미엄을 압도하고 있음을 의미한다.",
-      "impact_ko": "유가 약세는 에너지 관련 주식과 인플레이션 기대에 하방 압력을 가할 수 있다. 동시에 수송·제조업 등 에너지 비용 민감 산업의 수익성 개선으로 이어질 가능성이 있다. 다만 공급 과잉이 장기화될 경우 에너지 기업들의 투자 심리 위축으로 이어질 수 있다."
-    },
-    {
-      "headline": "COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate - Reuters",
-      "summary": "COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVzZpMHFTclFHbWV5MGFQbmJCOHhtaS02NUQyVmFmU09tZHVJRXZCeHRNWTFNQ0hVenFvQ1JnS2p0aHd0LVFjRE5KTi0tQkVZdElhcko2YXRmWnpkbGtkc0lJX0JjVGtXSE1TbWwyVklTcHVrSWNaTExxT1hYV3JEdG92Ny03TEFNWEJ0Q1hIY2lReVVlZHhkRS0zUUlkZkFiTHhiV0UwVF9RMVdxS2RlS1pseXBJQ3ZwaDBqak5zd29Hd3NGYW5nNUVfZERkR0pI?oc=5",
-      "published_at": "2026-11-24T22:48:13.000Z",
-      "headline_ko": "중동 원유 수출 감소, 이란 교착 상황의 영향",
-      "summary_ko": "중동 지역의 원유 수출이 감소 추세를 보이고 있으며, 이는 이란과의 교착 상황과 연관이 있는 것으로 분석된다.",
-      "detail_ko": "중동 원유 수출 감소는 단순한 일시적 현상이 아니라 이란 핵협상 교착, 제재 강화 등 구조적 요인의 영향을 받고 있다. 이란의 원유 수출 제약이 지속되면서 중동 전체의 공급 감소로 이어지고 있으며, 이는 글로벌 석유 시장의 공급 구조 변화를 반영한다.",
-      "impact_ko": "중동 수출 감소가 지속될 경우 글로벌 유가에 상승 압력을 가할 수 있으나, 현재는 다른 지역의 공급 증가로 상쇄되고 있다. 장기적으로는 이란 제재 정책의 변화에 따라 유가 변동성이 확대될 가능성이 있다. 또한 중동 산유국들의 수출 감소는 이들 국가의 재정 수입 감소로 이어져 경제 정책 변화를 초래할 수 있다."
-    },
-    {
-      "headline": "China, India set for record Russian oil imports in 2026, but demand seen peaking - Reuters",
-      "summary": "China, India set for record Russian oil imports in 2026, but demand seen peaking  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZEl6LThLbVZLWTlSU3lNdHJLa2dnanBPQjdqRGdaeDd2bGU4VmpzVnRRZ1VETzdRelFLWnI0QVVkUE0tUUE0TDkyR2lpcEMzUGNFS09iWW1LREpvOHJkb25Fdkd2MWFSYWZQRkwwbGpQR21sYkxvRXI5ZHBJTGcxTzVDdGNWdjktUFQ2OTRsYmlUSEkyRU5qUWJKeTNkbF9FX2dYNTJsdXN1RlBsVDZVc3EzUGxOeFNZNm53?oc=5",
-      "published_at": "2026-11-24T09:05:44.000Z",
-      "headline_ko": "중국·인도, 2026년 러시아산 석유 수입 사상 최고 기록 예상, 다만 수요 정점 우려",
-      "summary_ko": "중국과 인도가 2026년 러시아산 석유 수입을 사상 최고 수준으로 늘릴 것으로 예상되지만, 장기적 수요 정점에 대한 우려가 제기되고 있다.",
-      "detail_ko": "러시아산 석유에 대한 중국·인도의 수입 증가는 서방 제재로 인한 러시아의 수출 시장 재편과 아시아 신흥국의 에너지 수요 증가가 맞물린 결과다. 다만 전문가들은 이러한 수입 증가가 일시적일 수 있으며, 향후 전기차 확대, 에너지 효율 개선 등으로 인한 석유 수요 정점이 임박했을 가능성을 지적하고 있다.",
-      "impact_ko": "단기적으로는 러시아산 석유의 아시아 집중이 글로벌 유가 구조를 재편할 수 있으며, 아시아 지역의 에너지 안보 강화로 이어질 가능성이 있다. 그러나 수요 정점 우려는 향후 석유 관련 기업들의 장기 투자 계획에 영향을 미칠 수 있다. 또한 에너지 전환 가속화에 따른 석유 산업의 구조적 변화가 가속화될 수 있다."
+      "headline_ko": "후티 반군, 사우디 정유소 공격 주장으로 유가 상승",
+      "summary_ko": "예멘의 후티 반군이 사우디 정유소 공격을 주장하면서 유가가 상승했다.",
+      "detail_ko": "중동 지정학적 긴장이 고조되면서 주요 석유 생산 시설에 대한 공격 위협이 유가에 직접적인 영향을 미치고 있다. 후티 반군의 공격 주장은 사우디의 에너지 인프라 취약성을 드러내며, 글로벌 석유 공급 안정성에 대한 우려를 증폭시킨다. 이러한 지정학적 리스크는 유가의 변동성을 높이는 주요 요인이 되고 있다.",
+      "impact_ko": "중동 공급 차질 우려가 지속될 경우 유가가 추가 상승할 수 있으며, 이는 글로벌 인플레이션 압력을 높일 수 있다. 또한 에너지 수입국들의 경제 부담이 증가할 수 있어 경기 둔화 우려로 이어질 수 있다."
     },
     {
       "headline": "Oil settles up $2 as traders weigh continued Hormuz ship attacks - Reuters",
       "summary": "Oil settles up $2 as traders weigh continued Hormuz ship attacks  Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMDQ4RU9qMFd6TWl0WkFDUGVsdk5Gb3Q1dURMcjcwbGxUV3ItdjhZUGdQUTBZOVUyZEZlRzdmSEtjM3EwQTNUam1nRVZNdXFRbmNfeHhpUnNVQjNPbjNyOGtSZHVnNEZmbnpJdC1VdVA5X25rWndhMnZqemNGVWdVU1Y5OE8ybExyT2xLelF6dnZsNkM0OU55b1dKc1NuNF9sWkVGSGZJaUNxLXc4eEdGZTl3LUtFTDFuUUE?oc=5",
-      "published_at": "2026-11-24T02:56:00.000Z",
-      "headline_ko": "호르무즈 해협 선박 공격 지속으로 유가 $2 상승",
-      "summary_ko": "호르무즈 해협에서의 지속적인 선박 공격 우려가 유가를 $2 올렸다.",
-      "detail_ko": "호르무즈 해협은 전 세계 석유 수송의 약 20-30%가 통과하는 전략적 요충지로, 이 지역의 안보 위협은 즉각적인 유가 상승 압력으로 작용한다. 선박 공격이 지속되면서 운송 비용 증가, 보험료 상승, 공급 차질 우려 등이 시장에 반영되고 있다.",
-      "impact_ko": "호르무즈 해협의 지정학적 리스크가 고조될 경우 유가는 추가 상승 압력을 받을 수 있으며, 이는 글로벌 인플레이션 우려로 이어질 수 있다. 해운 기업들의 운영 비용 증가와 보험료 상승은 물류 비용 전반에 영향을 미칠 가능성이 있다. 다만 현재까지는 공급 과잉 우려가 지정학적 프리미엄을 제한하고 있는 상황이다."
-    },
-    {
-      "headline": "US stocks slide as Nvidia rally fizzles out, dollar falls - Reuters",
-      "summary": "US stocks slide as Nvidia rally fizzles out, dollar falls  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGQ3cVhHXzJBLXEybDVWX21xeWcxbUVEOHA1ZV9IU0lacEM2a3dKbmFLSGk2Y1MwLXk0OVFzWV8yT1JNQ3FnX3hWNGxidEZvbDZwTl8tdjNoUDV6MU45ZnJSa3lSMnZJNXdwWk5VRUFOYzJlTk11TmZaS1hocXhPVUE4bw?oc=5",
-      "published_at": "2026-11-24T01:29:00.000Z",
-      "headline_ko": "엔비디아 랠리 약세로 미국 주식 하락, 달러도 약세",
-      "summary_ko": "엔비디아의 상승세 약화로 미국 주식이 하락했으며, 동시에 달러도 약세를 보였다.",
-      "detail_ko": "최근 미국 주식시장은 AI 관련 기술주, 특히 엔비디아의 강세에 크게 의존해왔다. 엔비디아의 랠리가 약해지면서 나스닥 중심의 기술주 지수가 동반 하락했으며, 이는 시장이 AI 수익화에 대한 기대를 재평가하고 있음을 시사한다. 달러 약세는 미국 금리 전망 약화와 위험자산 선호 심리 약화가 동시에 작용한 결과로 해석된다.",
-      "impact_ko": "기술주 약세는 고성장 기업에 대한 밸류에이션 재평가로 이어질 수 있으며, 이는 나스닥 중심의 포트폴리오에 압력을 가할 가능성이 있다. 달러 약세는 신흥국 자산과 원자재에 상대적으로 유리하게 작용할 수 있다. 다만 기술주 조정이 경기 둔화 신호로 해석될 경우 위험자산 전반에 부정적 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "Dollar takes a breather from AI-driven rally - Reuters",
-      "summary": "Dollar takes a breather from AI-driven rally  Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWk01SnRnY1hzWHBOdlQ5eGdldmlIQkd5QUM4SFJ5S3Z5YWtVQnlYWVp3LXlqajM1QTA5UTBBSFNrOFdjVGdWME54WUJYdFRGUXJDYlVmUDFETjlITTZtYkFiWW9IcU9sVTM0R0otbjlmMXNCdC1HSEVNOXJMaDlIMC1YUnFBUDZNMXh6RlRwMVM5MDFRTy1YQXc3U21zYU0?oc=5",
-      "published_at": "2026-11-24T01:14:00.000Z",
-      "headline_ko": "달러, AI 주도 랠리에서 일시 휴식",
-      "summary_ko": "최근 AI 기대감으로 강세를 보이던 달러가 일시적으로 상승 모멘텀을 잃었다.",
-      "detail_ko": "달러는 미국의 AI 기술 우위와 이에 따른 금리 인상 기대감으로 최근 강세를 유지해왔다. 그러나 기술주 조정과 함께 달러도 약세로 전환되었으며, 이는 시장이 미국 금리의 상향 경로에 대한 기대를 낮추고 있음을 의미한다. 또한 글로벌 위험자산 회피 심리가 약화되면서 달러의 안전자산 선호 수요도 감소하고 있다.",
-      "impact_ko": "달러 약세는 신흥국 통화와 원자재 가격에 상승 압력을 가할 수 있으며, 미국 수출 기업들의 경쟁력 개선으로 이어질 가능성이 있다. 반대로 달러 자산 보유자들에게는 환손 리스크가 증가할 수 있다. 향후 미국 금리 전망과 기술주 실적이 달러 방향성을 결정하는 주요 변수가 될 것으로 보인다."
+      "published_at": "2026-11-25T01:26:50.000Z",
+      "headline_ko": "호르무즈 해협 선박 공격 지속 속 유가 2달러 상승",
+      "summary_ko": "호르무즈 해협에서의 지속적인 선박 공격 우려 속에 유가가 2달러 상승했다.",
+      "detail_ko": "호르무즈 해협은 글로벌 석유 공급의 약 30%가 통과하는 전략적 요충지이며, 이 지역의 보안 위협은 유가에 직접적인 영향을 미친다. 선박 공격이 지속될 경우 해운비 상승과 공급 차질 우려가 커지면서 유가 상승 압력이 유지되고 있다. 이는 단순한 일시적 사건이 아니라 구조적인 지정학적 리스크로 인식되고 있다.",
+      "impact_ko": "호르무즈 해협 긴장이 지속될 경우 유가의 상승 추세가 이어질 수 있으며, 이는 글로벌 에너지 가격 상승으로 이어질 수 있다. 또한 해운 보험료 인상과 물류비 증가로 인한 공급망 비용 상승이 인플레이션을 가중시킬 수 있다."
     }
   ],
   "calendar": [
-    {
-      "date": "2026-11-25",
-      "title": "개인소득 및 지출(PCE 물가지수) 발표",
-      "agency": "미 경제분석국(BEA)",
-      "what": "가계가 벌어들인 소득과 실제로 쓴 돈, 그리고 그 과정의 물가를 함께 보여줍니다. 여기 포함된 근원 PCE 물가지수가 연준의 공식 물가 목표(2%) 기준입니다.",
-      "why": "CPI보다 덜 알려져 있지만 연준이 정책 목표로 삼는 지표는 이쪽입니다. 소비자가 비싼 품목에서 싼 품목으로 옮겨가는 행동까지 반영해 CPI보다 대체로 낮게 나옵니다.",
-      "watch": "근원 PCE의 전년 대비 상승률이 2%에 얼마나 가까워졌는지, 서비스 물가가 계속 버티는지를 봅니다."
-    },
     {
       "date": "2026-12-04",
       "title": "고용상황 보고서(비농업고용) 발표",
@@ -254,6 +276,14 @@
       "what": "미국 도시 소비자가 실제로 지불하는 상품·서비스 가격을 묶어 만든 물가지수입니다. 식품과 에너지를 뺀 근원(core) CPI가 추세 판단에 더 많이 쓰입니다.",
       "why": "연준이 금리를 올릴지 내릴지 판단할 때 보는 대표적인 물가 지표입니다. 시장 예상보다 높게 나오면 금리 인하 기대가 밀리면서 주식과 채권이 함께 약해지는 경우가 많습니다.",
       "watch": "전월 대비 근원 CPI가 0.3%를 넘는지, 그리고 주거비 항목이 둔화되는지를 봅니다."
+    },
+    {
+      "date": "2026-12-23",
+      "title": "개인소득 및 지출(PCE 물가지수) 발표",
+      "agency": "미 경제분석국(BEA)",
+      "what": "가계가 벌어들인 소득과 실제로 쓴 돈, 그리고 그 과정의 물가를 함께 보여줍니다. 여기 포함된 근원 PCE 물가지수가 연준의 공식 물가 목표(2%) 기준입니다.",
+      "why": "CPI보다 덜 알려져 있지만 연준이 정책 목표로 삼는 지표는 이쪽입니다. 소비자가 비싼 품목에서 싼 품목으로 옮겨가는 행동까지 반영해 CPI보다 대체로 낮게 나옵니다.",
+      "watch": "근원 PCE의 전년 대비 상승률이 2%에 얼마나 가까워졌는지, 서비스 물가가 계속 버티는지를 봅니다."
     }
   ]
 }
